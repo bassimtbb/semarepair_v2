@@ -5,6 +5,29 @@
 
 CREATE EXTENSION IF NOT EXISTS vector;
 
+-- Document content, parsed from the resx files. Our local stand-in for
+-- "their content store" until production SQL Server access exists - see
+-- docs/SemaRepair_Architecture.md section 8.2 ("never store copies of
+-- their repair content" assumes Their SQL Server is queryable at request
+-- time, which we don't have yet).
+CREATE TABLE IF NOT EXISTS documents (
+    id_documento        TEXT NOT NULL,
+    language            TEXT NOT NULL,
+    sigla_documento     TEXT,
+    tipo_ris            TEXT,
+    titolo              TEXT,
+    impianto            TEXT,
+    dispositivo         TEXT,
+    anomalia            TEXT,
+    causa               TEXT,
+    intervento          TEXT,
+    procedura           TEXT,
+    nota                TEXT,
+    reliability         INTEGER,
+    created_at          TIMESTAMPTZ DEFAULT NOW(),
+    PRIMARY KEY (id_documento, language)
+);
+
 CREATE TABLE IF NOT EXISTS graph_edges (
     id          SERIAL PRIMARY KEY,
     from_type   TEXT NOT NULL,

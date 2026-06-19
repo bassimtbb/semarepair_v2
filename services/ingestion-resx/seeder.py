@@ -57,6 +57,26 @@ def build_graph(conn, resx_records: list[dict], gup_rows: list[dict]) -> int:
     return len(edges)
 
 
+DOCUMENT_COLUMNS = [
+    "id_documento", "language", "sigla_documento", "tipo_ris", "titolo",
+    "impianto", "dispositivo", "anomalia", "causa", "intervento",
+    "procedura", "nota", "reliability",
+]
+
+
+def build_documents(conn, resx_records: list[dict]) -> int:
+    values = [tuple(r[c] for c in DOCUMENT_COLUMNS) for r in resx_records]
+    with conn.cursor() as cur:
+        cur.execute("TRUNCATE documents")
+        execute_values(
+            cur,
+            f"INSERT INTO documents ({', '.join(DOCUMENT_COLUMNS)}) VALUES %s",
+            values,
+        )
+    conn.commit()
+    return len(values)
+
+
 def generate_embeddings(conn, resx_records: list[dict]) -> tuple[int, int]:
     """Generates document_embeddings and symptom_embeddings for every resx
     record. Returns (embeddings_generated, errors). A failure on one record
@@ -111,12 +131,14 @@ def main():
             cur.execute(schema_sql)
         conn.commit()
 
+        documents_already_built = table_count(conn, "documents") > 0
         graph_already_built = table_count(conn, "graph_edges") > 0
         embeddings_already_built = table_count(conn, "document_embeddings") > 0
 
-        if graph_already_built and (embeddings_already_built or not GEMINI_API_KEY):
-            print("graph_edges already built, and embeddings are either "
-                  "already built or GEMINI_API_KEY is not set - nothing to do.")
+        if (documents_already_built and graph_already_built
+                and (embeddings_already_built or not GEMINI_API_KEY)):
+            print("documents and graph_edges already built, and embeddings are "
+                  "either already built or GEMINI_API_KEY is not set - nothing to do.")
             return
 
         gup_rows = fetch_gup_rows(conn)
@@ -126,6 +148,12 @@ def main():
 
         resx_records = parse_resx_folder(RESX_PATH)
         documents_processed = len({r["id_documento"] for r in resx_records})
+
+        if documents_already_built:
+            print("documents already populated, skipping.")
+        else:
+            doc_rows = build_documents(conn, resx_records)
+            print(f"Inserted {doc_rows} rows into documents.")
 
         edges_created = 0
         if graph_already_built:

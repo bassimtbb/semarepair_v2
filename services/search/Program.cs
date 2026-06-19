@@ -3,6 +3,7 @@ using SearchService.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+builder.Services.AddHttpClient<QueryEmbedder>();
 builder.Services.AddSingleton<GraphSearchService>();
 builder.Services.AddSingleton<VectorSearchService>();
 builder.Services.AddSingleton<SymptomSearchService>();
