@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:05">
+  <XDOCUMENTO>
+    <ID>199309810</ID>
+    <DOCNumber>GUP97429</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Impossibilité de démarrer le moteur à froid ; démarrages difficiles lorsque le moteur est chaud</Titolo>
+    <InfoDoc>INJECTION | RÉGULATEUR | PRESSION | CARBURANT | GAZOLE | DIESEL | DÉMARRAGE | PIÈCE | ALLUMAGE | DÉFAUT | ALLUMAGE | DÉFAUT | DÉMARRAGE | FONCTIONNE | FONCTIONNEMENT | DÉMARRAGE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199309810</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309810</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Alimentation du moteur &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Régulateur de pression de carburant &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Échec du démarrage à froid ; démarrages difficiles à chaud &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Régulateur de pression de carburant défectueux &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309810</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier l&apos;état et le bon fonctionnement du régulateur de pression de carburant et, si nécessaire, procéder à son remplacement &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Le régulateur de pression en question présentait une entretoise et un joint torique endommagés ; le remplacement du composant a permis de résoudre définitivement le problème. &lt;BR/&gt; Le régulateur est situé sur la pompe haute pression. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025003</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025003</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025003</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

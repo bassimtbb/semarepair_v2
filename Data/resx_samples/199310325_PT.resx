@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-31T06:15:45">
+  <XDOCUMENTO>
+    <ID>199310325</ID>
+    <DOCNumber>GUP97507</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Luz de aviso do ABS acesa</Titolo>
+    <InfoDoc>FRENI | C1050 | SENSORE | ABS | RUOTA | POSTERIORE | DESTRA | ANTI | LOCK | SYSTEM | DESTRO | POSTERIORE | ACCENDE | ACCESA | ACCENSIONE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310325</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda do grau de fiabilidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nível baixo &lt;/B&gt; : Detecção pelo mecânico, caso de avaria não constatado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nível médio &lt;/B&gt; : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nível alto &lt;/B&gt; : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310325</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sistema: &lt;/B&gt;  Travões &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt;  Sensor ABS da roda traseira direita &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Anomalia: &lt;/B&gt;  O veículo apresenta a luz de aviso do ABS acesa &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Erros detetados pelo autodiagnóstico: &lt;/B&gt;  C1050 (Sensor de velocidade da roda traseira direita - Anomalia) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Causa: &lt;/B&gt;  Cablagem do sensor ABS da roda traseira direita, comprometida &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310325</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Intervenção: &lt;/B&gt;  Verificar o estado da cablagem do sensor ABS da roda traseira direita e dos outros sensores; caso sejam detetadas anomalias, proceder à reparação ou substituição dos componentes afetados. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Nota: &lt;/B&gt;  Através de equipamento de diagnóstico, verificou-se que, ao rodar as rodas, era apresentada a velocidade correta em todas elas, enquanto que na roda traseira direita o valor permanecia igual a zero. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

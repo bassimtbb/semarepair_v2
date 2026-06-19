@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:05">
+  <XDOCUMENTO>
+    <ID>199309967</ID>
+    <DOCNumber>GUP97444</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Code d'erreur moteur actif, dysfonctionnement du compteur de vitesse et du compteur kilométrique</Titolo>
+    <InfoDoc>INJECTION | P0148 | P1612 | P0380 | P0382 | P0500 | RÉSISTANCE | TUYAU | PURGE | HUILE | MOTEUR | S'ALLUME | ALLUMÉ | MIL | ROUGE | ROUGE | FONCTIONNENT | INACTIFS | KM | KILOMÈTRES |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199309967</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309967</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Résistance du tuyau de purge d&apos;huile moteur &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Allumage du témoin de panne moteur (rouge) ; avec dysfonctionnement du compteur de vitesse et du compteur kilométrique &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt;
+&lt;LI&gt; P0148 (Raccord de carburant - Erreur générique) &lt;BR/&gt; &lt;LI&gt; P1612 (Relais du réchauffeur du filtre à carburant - Anomalie) &lt;BR/&gt;  &lt;LI&gt; P0380 (Commande temporisée des bougies de préchauffage 1 - Dysfonctionnement) &lt;BR/&gt; &lt;LI&gt; P0382 (Commande temporisée des bougies de préchauffage 2 - Dysfonctionnement) &lt;BR/&gt;  &lt;LI&gt; P0500 (Capteur de vitesse du véhicule - Erreur générique) &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Résistance du tuyau de purge d&apos;huile défectueuse &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309967</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier le bon fonctionnement de la résistance du tuyau de purge d&apos;huile ; si nécessaire, procéder à son remplacement &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Le composant est situé dans le compartiment moteur, côté conducteur, entre le moteur et le radiateur, sous le manchon du refroidisseur intermédiaire. La résistance en question est fournie avec le tuyau de purge d&apos;huile. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

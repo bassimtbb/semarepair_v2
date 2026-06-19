@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:21">
+  <XDOCUMENTO>
+    <ID>199310594</ID>
+    <DOCNumber>GUP97549</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Engine constantly revving with the alternator fault light coming on sporadically</Titolo>
+    <InfoDoc>ELECTRONICS | U0426 | ALTERNATOR | LIGHTS UP | ON | ACTIVE | SYMBOL | RED | REMAINS | ALWAYS | ACCELERATED | UP | RPM | ENGINE | ACCELERATED | INJECTION |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310594</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Level of reliability (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legend of the degree of reliability &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * low level &lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Extensive fault history, found by service technicians and repairers. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** high level &lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310594</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo>  &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Electronics &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Alternator &lt;BR/&gt;&lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; Engine speed permanently elevated and sporadic activation of the engine fault warning light &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Faults detected by self-diagnosis: &lt;/B&gt; U0426 (Auxiliary heater control module – Invalid data received) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Faulty alternator &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310594</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check the condition and correct operation of the alternator; if necessary, overhaul or replace it. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; Following the replacement of the alternator, the problem was definitively resolved. &lt;BR/&gt; &lt;BR/&gt; The estimated time for the service is approximately 1.7 hours. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

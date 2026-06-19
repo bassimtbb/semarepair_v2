@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:49">
+  <XDOCUMENTO>
+    <ID>199310628</ID>
+    <DOCNumber>GUP97566</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Engine malfunction indicator light comes on, with properly running vehicle</Titolo>
+    <InfoDoc>INJECTION | P06DD | IGNITION | ON | MIL | YELLOW | VALVE | ADJUSTMENT | PRESSURE | OIL | ENGINE | SOLENOID VALVE | CAUSES | LOSES | MISSING | DROPS | DROP | POWER | FAULTS | DASHBOARD | INSTRUMENTS | RESTART | CIRCUIT | CHECK |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310628</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Level of reliability (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legend of the degree of reliability &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * low level &lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Extensive fault history, found by service technicians and repairers. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** high level &lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310628</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Oil pressure solenoid valve &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; The vehicle exhibits poor performance with significant power loss and the engine fault light illuminates. Restarting the vehicle temporarily restores normal operation. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Faults detected by the self-diagnostic system: &lt;/B&gt; P06DD (Engine oil pressure, malfunction – Wiring) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Faulty oil pressure solenoid valve &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310628</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check the condition and correct operation of the oil pressure solenoid valve and, if necessary, replace it. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; After replacement, it is not necessary to reprogram the system using diagnostic equipment. In this case, the component showed no abnormalities during a visual inspection. The solenoid valve is located near the heat exchanger. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

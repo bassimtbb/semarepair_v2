@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:07">
+  <XDOCUMENTO>
+    <ID>199310196</ID>
+    <DOCNumber>GUP97477</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Front windshield wiper and washer inactive; rear wipers operating smoothly</Titolo>
+    <InfoDoc>LIGHTING | TURN SIGNALS | LIGHTS | WORKING | STEERING | RIGHT | LEFT | EXTERIOR | INDICATOR LIGHTS | DASHBOARD | INSTRUMENTS | CLICKING NOISE | INDICATORS | HAZARD LIGHTS | WORKING | PROPERLY |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310196</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Level of reliability (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legend of the degree of reliability &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * low level &lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Extensive fault history, found by service technicians and repairers. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** high level &lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310196</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Lighting &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Light switch &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; Permanent failure of the left and right indicators: the external indicators do not activate, the corresponding warning lights on the instrument panel do not illuminate, and the characteristic clicking sound is absent. At the same time, the dipped and main beam headlights are also not functioning. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Faults detected by self-diagnosis: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Faulty light switch &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310196</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check that the headlight switch is working correctly and, if necessary, replace it &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; The faulty component showed no visible defects and, following its replacement, the problem was permanently resolved. &lt;BR/&gt; &lt;BR/&gt; The estimated time for the repair is approximately 1.3 hours. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

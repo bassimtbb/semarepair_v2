@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:48">
+  <XDOCUMENTO>
+    <ID>199310535</ID>
+    <DOCNumber>GUP97539</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Failure of automatic low-beam headlight adjustment. High beams not working</Titolo>
+    <InfoDoc>ELECTRONICS | LIGHTING | CONTROL UNIT | B14D9 | FRONT | LEFT | BULB | LOW | LOW BEAMS | NORMAL | MOVE | STEERING | STEER | HEADLIGHT | HEADLIGHTS | ROAD | LED | DISTRIBUTION | BODYWORK | LOWERED | RAISE | WORK | TURN ON |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310535</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Level of reliability (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legend of the degree of reliability &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * low level &lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Extensive fault history, found by service technicians and repairers. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** high level &lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310535</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Applicability: &lt;/B&gt; Vehicles equipped with LED headlights &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Lighting &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Component: &lt;/B&gt; Left front headlight module &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; The vehicle’s dipped headlights are not adjusting; they remain in the low beam position both when stationary and whilst driving. The main beam headlights are inoperative. The warning &quot;Check adaptive headlights - See manual&quot; appears on the instrument panel &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Errors detected by the self-diagnostic system: &lt;/B&gt; B14D9 (Left headlight beam distribution actuator) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Faulty left front headlight module &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310535</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check that the left-hand headlamp module is working correctly; replace it if necessary.  &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; The component is mounted on the underside of the left headlight and can be accessed by removing the headlight itself. After replacement, reprogramming using diagnostic equipment is not required. In this case, the module showed no faults during a visual inspection. The estimated time for the repair is approximately 0.75 hours. &lt;BR/&gt; Problems with this component are quite common on this model. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025065</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025065</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025065</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

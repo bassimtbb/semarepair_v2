@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-14T01:31:29">
+<XDOCUMENTO>
+<ID>199309967</ID>
+<DOCNumber>GUP97444</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Spira avaria motore attiva, mancato funzionamento indicatore di velocità e odometro</Titolo>
+<InfoDoc>INIEZIONE | P0148 | P1612 | P0380 | P0382 | P0500 | RESISTENZA | TUBO | SFIATO | OLIO | MOTORE | ACCENDE | ACCESA | MIL | ROSSO | ROSSA | FUNZIONANO | INATTIVI | KM | CHILOMETRI |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199309967</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (*)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199309967</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Iniezione &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Resistenza tubo sfiato olio motore&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Accensione spia avaria motore (rossa); con mancato funzionamento indicatore di velocità e odometro&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt;&lt;ul&gt;&lt;li&gt; P0148 (Porta carburante - Errore generico)&lt;BR/&gt;&lt;li&gt; P1612 (Relè riscaldatore filtro carburante - Anomalia)&lt;BR/&gt;&lt;li&gt; P0380 (Comando temporizzato candelette preaccensione 1 - Funzionamento errato)&lt;BR/&gt;&lt;li&gt; P0382 (Comando temporizzato candelette preaccensione 2 - Funzionamento errato)&lt;BR/&gt;&lt;li&gt; P0500 (Sensore velocità veicolo - Errore generico)&lt;/ul&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Resistenza tubo sfiato olio difettosa&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199309967</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Verificare il corretto funzionamento della resistenza tubo sfiato olio, se necessario procedere alla sua sostituzione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; Il componente è collocato nel vano motore, lato conducente, tra motore e radiatore sotto al manicotto dell&apos;intercooler. La resistenza in esame viene fornita completa di tubo sfiato olio.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

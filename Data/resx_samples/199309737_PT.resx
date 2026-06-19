@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-31T06:15:22">
+  <XDOCUMENTO>
+    <ID>199309737</ID>
+    <DOCNumber>GUP97410</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Com o motor em funcionamento, verifique se a luz de avaria do motor acende e se o motor pára</Titolo>
+    <InfoDoc>INIEZIONE | P0191 | INIETTORI | INIETTORE | PRETESA | ACCENDE | ACCESA | MIL | ROSSO | ROSSA | SPEGNE | ARRESTA | BLOCCA | MUORE | MOVIMENTO | STRADA | CORSA | QUINTA | MARCIA | MARCE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199309737</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda do grau de fiabilidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nível baixo &lt;/B&gt; : Detecção pelo mecânico, caso de avaria não constatado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nível médio &lt;/B&gt; : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nível alto &lt;/B&gt; : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309737</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sistema: &lt;/B&gt;  Alimentação do motor &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt;  Injetor  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Anomalia: &lt;/B&gt;  Durante a condução, com o motor quente e sob esforço, acende-se a luz vermelha de avaria do motor, com consequente paragem do motor. Após o reinício do painel de instrumentos, o motor volta a arrancar imediatamente. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Erros detetados pelo autodiagnóstico: &lt;/B&gt;  P0191 (Sensor de pressão da conduta / combustível - Valor nominal incorreto) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Causa: &lt;/B&gt;  Injetores com avaria &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309737</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Intervenção: &lt;/B&gt;  Verificar o estado e o funcionamento correto dos injetores; se necessário, proceder à revisão/substituição dos que apresentarem mau funcionamento ou defeitos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  - - &lt;BR/&gt;   &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Nota: &lt;/B&gt;  No caso em apreço, através do teste de retorno, o 1.º injetor a partir da distribuição apresentava uma libertação de combustível claramente superior em relação aos outros injetores. &lt;BR/&gt; Na sequência da revisão dos injetores, o problema foi resolvido de forma definitiva. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

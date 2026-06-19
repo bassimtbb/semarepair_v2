@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:08">
+  <XDOCUMENTO>
+    <ID>199310203</ID>
+    <DOCNumber>GUP97483</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Engine malfunction indicator light comes on, with properly running vehicle</Titolo>
+    <InfoDoc>INJECTION | P0638 | BODY | THROTTLE | MOTORISED | STARTS | ON | MIL | YELLOW | YELLOW LIGHT | CAUSES | LOSES | DROPS | LACK | POWER | SPEED | DROP | JERKS | JOLTS | KNOCKS | PULLS | BACK | JERKS |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310203</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Reliability rating (**)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legend of the degree of reliability &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * low level &lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Extensive fault history, found by service technicians and repairers. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** high level &lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310203</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Injection &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Motorised throttle body &lt;BR/&gt;&lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; Engine fault light illuminated; intermittent reduced performance and rough running &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errors detected by self-diagnosis: &lt;/B&gt;  P0638 (Throttle Actuator Control, Bank 1 – Incorrect Operating Range) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Faulty motorised throttle body &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310203</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check the condition and correct operation of the throttle body and, if necessary, clean or replace it. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; In this case, in addition to replacing the throttle body, it was also necessary to replace the associated wiring with a new, updated version, thereby permanently resolving the fault without the need for any reprogramming using diagnostic equipment &lt;BR/&gt; The throttle body is located centrally between the engine and the radiator. &lt;BR/&gt; &lt;BR/&gt; Problems with this component are quite common on this engine. &lt;BR/&gt; The estimated time for the repair is approximately 1.3 hours. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025029</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025029</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025029</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

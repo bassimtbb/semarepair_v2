@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-14T01:31:47">
+<XDOCUMENTO>
+<ID>199310200</ID>
+<DOCNumber>GUP97481</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Accensione spia avaria motore, prestazioni ridotte e sporadici avviamenti notevolmente difficoltosi</Titolo>
+<InfoDoc>INIEZIONE | P0016 | FASE | MOTORE | DENTE | DENTI | FUORI | DANNO | RIMESSI | RIMETTERE | ACCENDE | ACCESA | MIL | GIALLO | GIALLA | RENDE | PERDE | CALA | MANCA | POTENZA | VELOCITà | CALO | AVVIO | FATICA | FATICOSO | DIFFICILE | ACCENSIONE | FATICOSA |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199310200</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (**)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199310200</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Iniezione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Accensione della spia di avaria motore, con prestazioni ridotte e sporadici avviamenti notevolmente difficoltosi.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; P0016 (Posizione / fase albero a gomiti 1, bancata 1 - Rapporto errato)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Motore fuori fase&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199310200</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Verificare l’integrità e lo stato dei componenti del kit distribuzione; se non si riscontrano danni o usura, è possibile procedere con il ripristino della corretta fasatura del motore. In caso contrario, si dovrà intervenire con la sostituzione dei componenti danneggiati/usurati o del kit distribuzione.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; Nel caso in esame è stato necessario rimettere in fase il motore, risolvendo in modo definitivo l&apos;anomalia.&lt;BR/&gt;Problematiche di questo tipo sono piuttosto frequenti su questo motore.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

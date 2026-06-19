@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:09">
+  <XDOCUMENTO>
+    <ID>199310334</ID>
+    <DOCNumber>GUP97510</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Témoin de panne moteur allumé ; baisses de puissance sporadiques, fonctionnement par à-coups et arrê</Titolo>
+    <InfoDoc>INJECTION | P0091 | P0092 | POMPE | CARBURANT | DIESEL | GAZOLE | S'ALLUME | ALLUMÉE | MIL | JAUNE | JAUNE | DONNE | PERD | BAISSE | MANQUE | PUISSANCE | VITESSE | BAISSE | NOTABLE | À COUP | COUPS | S'ÉTEINT | S'ARRÊTE | SE BLOQUE | S'ÉTEINT | MOUVEMENT </InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310334</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310334</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Tube de prélèvement de carburant &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Allumage du témoin de panne moteur ; le véhicule présente sporadiquement des performances nettement réduites, un fonctionnement par à-coups et des arrêts du moteur pendant la conduite. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt;
+&lt;LI&gt; P0091 (Dispositif de régulation de la pression de carburant 1 - Valeur insuffisante) &lt;BR/&gt;  &lt;LI&gt; P0092 (Dispositif de régulation de la pression de carburant 1 - Valeur élevée) &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Tube de prélèvement de carburant encrassé &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310334</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier l&apos;état du plongeur de carburant et, si nécessaire, procéder à son nettoyage &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Le composant en question est situé dans l&apos;habitacle sous le siège central, accessible après ouverture de la trappe d&apos;inspection. &lt;BR/&gt; &lt;BR/&gt; La durée prévue pour l&apos;intervention est d&apos;environ 1 h 30. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

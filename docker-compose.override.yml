@@ -1,0 +1,9 @@
+# Local development overrides — merged automatically by `docker compose up`.
+# Not used by other containers (they reach Postgres over the internal
+# Docker network as our-postgres:5432); this is only for connecting from
+# host tools like psql/DBeaver while developing.
+
+services:
+  our-postgres:
+    ports:
+      - "5432:5432"

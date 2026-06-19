@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:48">
+  <XDOCUMENTO>
+    <ID>199310560</ID>
+    <DOCNumber>GUP97544</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Front windshield wiper and washer inactive; rear wipers operating smoothly</Titolo>
+    <InfoDoc>ELECTRONICS | AIRBAG | B1008 | B101B | SWITCH | LIGHTS | LIGHT SWITCH | ON | ON | RED | WORKING | INACTIVE | BUZZER | SIGNAL | CONTACT | ROTATING |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310560</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Level of reliability (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legend of the degree of reliability &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * low level &lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Extensive fault history, found by service technicians and repairers. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** high level &lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310560</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Airbag &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Rotary switch &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; Airbag warning light illuminated (red), with occasional failure of the audible warning signal &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errors detected by self-diagnosis: &lt;/B&gt; &lt;LI&gt; B1008 (Driver airbag resistor, 1st level – Fault) &lt;BR/&gt; &lt;LI&gt; B101B (Driver airbag resistor, 2nd level – Fault) &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Faulty rotary switch &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310560</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check that the rotary contact is working correctly and, if necessary, replace it &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Note: &lt;/B&gt; The rotary switch is incorporated into the light switch and, following its replacement, the fault was permanently resolved without the need for any reprogramming using diagnostic equipment. &lt;BR/&gt; &lt;BR/&gt; The estimated time for the repair is approximately 1.7 hours. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

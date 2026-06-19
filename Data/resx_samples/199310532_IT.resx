@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T01:31:29">
+<XDOCUMENTO>
+<ID>199310532</ID>
+<DOCNumber>GUP97538</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Mancato funzionamento chiusura centralizzata tramite telecomando</Titolo>
+<InfoDoc>ELETTRONICA | CARROZZERIA | B102A | B1029 | B102B | FUNZIONA | INATTIVO | LAMPEGGIANO | FRECCE | PORTE | CHIUDONO | APRONO | FILI | CABLAGGIO | PORTELLONE | BAULE |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199310532</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (*)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199310532</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Carrozzeria &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Mancato funzionamento della chiusura centralizzata tramite telecomando. Azionando il telecomando, gli indicatori di direzione lampeggiano regolarmente, ma le porte non si aprono e non si chiudono.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt;&lt;ul&gt;&lt;li&gt; B102A (Anomalia - Relè blocco, blocca porte)&lt;BR/&gt;&lt;li&gt; B1029 (Anomalia - Relè sblocco, blocca porte)&lt;BR/&gt;&lt;li&gt; B102B (Anomalia - Relè blocco, vano carico)&lt;/ul&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Fili danneggiati nel cablaggio del portellone posteriore&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199310532</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Procedere con il ripristino del cablaggio sul portellone posteriore. &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; Il cablaggio in esame è collocato all’interno di una canalina sul portellone posteriore, lato passeggero, accessibile previa rimozione della canalina stessa. A seguito del ripristino dei fili, il problema si è risolto in modo definitivo.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

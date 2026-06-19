@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T01:31:27">
+<XDOCUMENTO>
+<ID>199310481</ID>
+<DOCNumber>GUP97535</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Mancato funzionamento cruise control</Titolo>
+<InfoDoc>ELETTRONICA | DEVIOLUCI | DEVIO | LUCI | LEVA | AZIONAMENTO | CRUISE | CONTROL | FUNZIONA | INATTIVO |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199310481</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (*)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199310481</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Elettronica&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Leva azionamento cruise control&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Mancato funzionamento cruise control&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Leva azionamento cruise control inglobata con il devio luci, difettosa&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199310481</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Verificare il corretto funzionamento dei componenti inglobati nel devio luci e, se necessario, procedere alla sostituzione completa del devio.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - - &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; A seguito della sostituzione del devio luci il problema si è risolto in modo definitivo senza che si rendesse necessaria alcuna riprogrammazione tramite attrezzatura diagnostica.&lt;BR/&gt;Il componente difettoso non presentava anomalie visive.&lt;BR/&gt;&lt;BR/&gt;Il tempo previsto per l&apos;intervento è di circa 1.7 h.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025076</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025076</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025076</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

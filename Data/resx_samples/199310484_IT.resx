@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-14T01:32:18">
+<XDOCUMENTO>
+<ID>199310484</ID>
+<DOCNumber>GUP97536</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Malfunzionamento delle funzioni elettriche della carrozzeria del veicolo</Titolo>
+<InfoDoc>CARROZZERIA | ELETTRONICA | CENTRALINA | COMFORT | BODYCOMPUTER | FARI | ABBAGLIANTI | CLACSON | CICALINO | ABITACOLO | LUCI | FARO | ANABBAGLIANTI | BCM | BODY | CONTROL | MODULE | FRECCE | P068A | U0100 | U0140 | U0164 | B10B9 | U0155 | U0010 |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199310484</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (*)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199310484</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Elettronica&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Modulo body computer &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Il veicolo presenta il mancato funzionamento delle frecce, del clacson, dell&apos;illuminazione interna all&apos;abitacolo e dei fari abbaglianti. Inoltre i fari anabbaglianti restano inseriti fino all&apos;arresto del quadro strumenti.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; &lt;ul&gt; &lt;LI&gt; P068A 	(Relè principale - Chiusura anticipata)&lt;BR/&gt;&lt;LI&gt; U0100 	(Bus dati CAN, centralina motore 1 - Perdita di comunicazione)&lt;BR/&gt;&lt;LI&gt; U0140 	(Bus dati CAN, Centralina elettronica centrale, Body computer - Perdita di comunicazione)&lt;BR/&gt;&lt;LI&gt; U0164	 (Bus dati CAN, centralina climatizzatore - Perdita di comunicazione)&lt;BR/&gt;&lt;LI&gt; B10B9 	(Controllo ventola)&lt;BR/&gt;&lt;LI&gt; U0155 	(Bus dati CAN, centralina strumentazione - Perdita di comunicazione)&lt;BR/&gt;&lt;LI&gt; U0010	 (Bus dati CAN, media velocità - Errore di comunicazione)&lt;/ul&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Modulo body computer malfunzionante&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199310484</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Verificare lo stato e il corretto funzionamento del modulo body computer e se necessario procedere con la sua sostituzione.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; Per accedere alla centralina BCM è necessario rimuovere il portaoggetti lato passeggero. Nel caso in esame il componente al controllo visivo non presentava anomalie. Dopo la sostituzione è necessario effettuare la riprogrammazione tramite attrezzatura diagnostica. &lt;BR/&gt; &lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025063</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025063</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025063</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:07">
+  <XDOCUMENTO>
+    <ID>199310199</ID>
+    <DOCNumber>GUP97480</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Sporadic jerky operation under heavy acceleration, with engine failure warning light coming on</Titolo>
+    <InfoDoc>INJECTION | P0651 | SENSOR | PRESSURE | FUEL | DIESEL | DIESEL FUEL | START | PART | IGNITION | MISSED | IGNITION | MISSED | START-UP | FUNCTION | OPERATION | START | OFF | WAS | WORKING |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310199</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Level of reliability (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legend of the degree of reliability &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * low level &lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Extensive fault history, found by service technicians and repairers. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** high level &lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310199</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Fuel pressure sensor &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; Engine failure to start following a normal vehicle shutdown &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Faults detected by self-diagnosis: &lt;/B&gt; P0651 (Reference Voltage Sensor 2 - Malfunction / Open) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Faulty fuel pressure sensor &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310199</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check the condition and correct operation of the fuel pressure sensor and, if necessary, replace it &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; The component in question is located on the fuel rail. Following its replacement, the problem was permanently resolved. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025028</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025028</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025028</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

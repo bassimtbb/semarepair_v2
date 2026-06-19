@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:32">
+  <XDOCUMENTO>
+    <ID>199310553</ID>
+    <DOCNumber>GUP97542</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Allumage du témoin de panne moteur, avec une baisse notable des performances</Titolo>
+    <InfoDoc>INJECTION | P010F | DÉBITMÈTRE | S'ALLUME | ALLUMÉE | MIL | JAUNE | JAUNE | DONNE | PERD | BAISSE | MANQUE | PUISSANCE | VITESSE | BAISSE | NOTABLE | DE MANIÈRE NOTABLE | DRASTIQUE | DE MANIÈRE DRASTIQUE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310553</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310553</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Débitmètre &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Allumage du témoin de panne moteur, avec baisse notable des performances &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; P010F (Capteur de masse d&apos;air 1/2 - Signal incohérent) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Débitmètre défectueux &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310553</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier l&apos;état et le bon fonctionnement du débitmètre d&apos;air et, si nécessaire, procéder à son remplacement. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Il est recommandé de vérifier également le bon fonctionnement de l&apos;électrovanne EGR. Dans le cas présent, suite au remplacement du débitmètre, le problème a été définitivement résolu. &lt;BR/&gt; Le composant est situé dans la partie inférieure du moteur, entre le moteur et le radiateur, côté passager. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

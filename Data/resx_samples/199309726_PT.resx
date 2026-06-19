@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-31T06:15:21">
+  <XDOCUMENTO>
+    <ID>199309726</ID>
+    <DOCNumber>GUP97405</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Falha na partida do motor na sequência de partidas difíceis anteriores</Titolo>
+    <InfoDoc>INIEZIONE | P1320 | SENSORE | FASE | MOTORE | AVVIA | PARTE | ACCENDE | MANCATA | ACCENSIONE | MANCATO | AVVIAMENTO | FUNZIONA | FUNZIONAMENTO | AVVIO | FATICAVA | DIFFICOLTOSI |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199309726</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda do grau de fiabilidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nível baixo &lt;/B&gt; : Detecção pelo mecânico, caso de avaria não constatado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nível médio &lt;/B&gt; : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nível alto &lt;/B&gt; : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309726</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sistema: &lt;/B&gt;  Injeção  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt;  Sensor de fase &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Anomalia: &lt;/B&gt;  Falha na partida do motor na sequência de partidas anteriores difíceis. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Erros detetados pelo autodiagnóstico: &lt;/B&gt;  Na central de injeção: P1320 (Coerência do sinal de fase e rotações - Anomalia) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Causa: &lt;/B&gt;  Sensor de fase defeituoso &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309726</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Intervenção: &lt;/B&gt;  Verificar o funcionamento correto do sensor de fase e, se necessário, proceder à sua substituição. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Nota: &lt;/B&gt;  O componente fica acessível após a remoção da tampa da distribuição, localizada no eixo de comando. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

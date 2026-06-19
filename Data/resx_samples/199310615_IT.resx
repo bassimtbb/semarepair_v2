@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T01:31:49">
+<XDOCUMENTO>
+<ID>199310615</ID>
+<DOCNumber>GUP97560</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Mancato funzionamento tachimetro e contachilometri; spie ABS, guasti e avaria freni (rossa) attive</Titolo>
+<InfoDoc>FRENI | CENTRALINA | ABS | GRUPPO | IDRAULICO | U0121 | U2197 | U2200 | U0155 | INDICATORE | VELOCITà | MODULO | TRATTINI | AZZERATO | ROSSO | FRENO | MANO | MOTORE | ODOMETRO | CAN | DATI | CENTRALINE | AIRBAG |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199310615</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (*)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199310615</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Freni&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Centralina ABS&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Il veicolo presenta il mancato funzionamento del tachimetro e del contachilometri. Sul quadro strumenti risultano attive le spie ABS, avaria motore e avaria freni (rossa), il funzionamento del veicolo resta regolare.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; &lt;UL&gt;&lt;LI&gt; U0121 	(Bus dati CAN, centralina ABS - Perdita di comunicazione)&lt;BR/&gt;&lt;LI&gt; U2197 	(Dati non validi per velocità veicolo)&lt;BR/&gt;&lt;LI&gt; U2200 	(Centralina Airbag - Errore programmazione)&lt;BR/&gt;&lt;LI&gt; U0155 	(Bus dati CAN, centralina strumentazione - Perdita di comunicazione)&lt;BR/&gt;&lt;LI&gt; C1155 (Sensore velocità ruota anteriore sinistra - Cablaggio/sensore)&lt;BR/&gt;&lt;LI&gt; C1235 (Sensore velocità ruota posteriore destra - Segnale assente)&lt;BR/&gt;&lt;LI&gt; C1236 (Sensore velocità ruota posteriore sinistra - Segnale assente)&lt;BR/&gt;&lt;LI&gt; C1233 (Sensore velocità ruota anteriore sinistra - Segnale assente)&lt;BR/&gt;&lt;LI&gt; C1934 (Fallimento di pressurizzazione unità pompa idraulica)&lt;/ul&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Centralina ABS, completa di gruppo idraulico, malfunzionante&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199310615</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Verificare lo stato e il corretto funzionamento della centralina ABS completa di gruppo idraulico, se necessario procedere alla sua sostituzione. Successivamente eseguire lo spurgo dell&apos;impianto frenante. &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; Problematiche a questo componente sono piuttosto frequenti su questo modello.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

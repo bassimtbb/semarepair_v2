@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:44">
+  <XDOCUMENTO>
+    <ID>199310545</ID>
+    <DOCNumber>GUP97540</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Fallas esporádicas en el arranque inicial con el motor caliente.</Titolo>
+    <InfoDoc>INYECCIÓN | P0335 | MOTOR | ARRANQUE | ARRANCA | PARTE | ENCIENDE | FALLO | ENCENDIDO | FALLO | ARRANQUE | FUNCIONA | FUNCIONAMIENTO | ARRANQUE | MOTOR | CALIENTE | PRIMER | ARRANQUE | MAÑANA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guía de reparación</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310545</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grado de fiabilidad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Leyenda del grado de fiabilidad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nivel bajo &lt;/B&gt; : Detección del mecánico, caso de avería no detectado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nivel medio &lt;/B&gt;  : Casos frecuentes de avería, detectados por los técnicos de asistencia y los mecánicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nivel alto &lt;/B&gt; : Anomalía confirmada, buen grado de «repetitividad» señalado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310545</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificación del sistema / avería</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Instalación: &lt;/B&gt; Sistema de encendido &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositivo: &lt;/B&gt; Motor de arranque &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalía: &lt;/B&gt; De forma esporádica, al primer intento de arranque con el motor caliente, se producen fallos de arranque del motor. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Errores detectados por el autodiagnóstico: &lt;/B&gt; P0335 (Sensor de posición del cigüeñal 1 - Error genérico) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Causa: &lt;/B&gt; Motor de arranque defectuoso &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310545</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimiento de reparación</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervención: &lt;/B&gt; Comprobar el correcto funcionamiento del motor de arranque y, si es necesario, proceder a su sustitución &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedimiento: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Nota: &lt;/B&gt; El componente se encuentra entre el motor y el radiador, en el lado del conductor; es accesible desde la parte inferior del vehículo. &lt;BR/&gt; &lt;BR/&gt; El tiempo estimado para la intervención es de aproximadamente 0,7 h. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-19T23:52:43">
+  <XDOCUMENTO>
+    <ID>199310603</ID>
+    <DOCNumber>GUP97554</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>La climatisation s'éteint lorsque la vitesse du ventilateur d'habitacle augmente</Titolo>
+    <InfoDoc>CLIMATISATION | RÉSISTANCE | VENTILATEUR | VITESSE | VENTILATEURS | ÉTEINDRE | ARRÊTER | BLOQUER | ÉTEINT | LED | AIR | CLIMATISÉ | REFROIDISSEMENT | CHAUFFAGE | PREMIÈRE | TOUTES | GESTION | VENTILATEUR | TOUCHE | BOUTON |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+  </XDOCUMENTO>
+</dataroot>

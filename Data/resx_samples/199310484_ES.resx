@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:41">
+  <XDOCUMENTO>
+    <ID>199310484</ID>
+    <DOCNumber>GUP97536</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Mal funcionamiento de los sistemas eléctricos de la carrocería del vehículo</Titolo>
+    <InfoDoc>CARROCERÍA | ELECTRÓNICA | UNIDAD DE CONTROL | CONFORT | BODYCOMPUTER | FAROS | LUZ DE CARRETERA | BOCINA | ZUMBADOR | HABITÁCULO | LUCES | FARO | LUZ DE CRUCE | BCM | CARROCERÍA | CONTROL | MÓDULO | INTERMITENTES | P068A | U0100 | U0140 | U0164 | B10B9 |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guía de reparación</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310484</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grado de fiabilidad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Leyenda del grado de fiabilidad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nivel bajo &lt;/B&gt; : Detección del mecánico, caso de avería no detectado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nivel medio &lt;/B&gt;  : Casos frecuentes de avería, detectados por los técnicos de asistencia y los mecánicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nivel alto &lt;/B&gt; : Anomalía confirmada, buen grado de «repetitividad» señalado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310484</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificación del sistema / avería</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Sistema: &lt;/B&gt; Electrónica &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositivo: &lt;/B&gt; Módulo del ordenador de a bordo &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalía: &lt;/B&gt;  El vehículo presenta un fallo en el funcionamiento de los intermitentes, la bocina, la iluminación interior del habitáculo y las luces de carretera. Además, las luces de cruce permanecen encendidas hasta que se apaga el cuadro de instrumentos. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errores detectados por el autodiagnóstico: &lt;/B&gt;  &lt;LI&gt; P068A (Relé principal - Cierre anticipado) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; U0100 (Bus de datos CAN, unidad de control del motor 1 - Pérdida de comunicación) &lt;BR/&gt;  &lt;LI&gt; U0140 (Bus de datos CAN, unidad de control central, ordenador de a bordo - Pérdida de comunicación) &lt;BR/&gt; &lt;LI&gt; U0164 (Bus de datos CAN, unidad de control del climatizador - Pérdida de comunicación) &lt;BR/&gt; &lt;LI&gt; B10B9 (Control del ventilador) &lt;BR/&gt; &lt;LI&gt;  U0155 (Bus de datos CAN, unidad de control del cuadro de instrumentos - Pérdida de comunicación) &lt;BR/&gt; &lt;LI&gt; U0010 (Bus de datos CAN, velocidad media - Error de comunicación) &lt;LI&gt; &lt;B&gt; Causa: &lt;/B&gt; Módulo del ordenador de a bordo defectuoso &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310484</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimiento de reparación</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervención: &lt;/B&gt; Comprobar el estado y el correcto funcionamiento del módulo del ordenador de a bordo y, si es necesario, proceder a su sustitución. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedimiento: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Nota: &lt;/B&gt; Para acceder a la unidad de control BCM es necesario retirar la bandeja portaobjetos del lado del acompañante. En el caso que nos ocupa, el componente no presentaba anomalías tras la inspección visual. Tras la sustitución, es necesario realizar la reprogramación mediante equipo de diagnóstico. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025063</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025063</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025063</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

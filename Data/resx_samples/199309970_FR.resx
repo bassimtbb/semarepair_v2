@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:05">
+  <XDOCUMENTO>
+    <ID>199309970</ID>
+    <DOCNumber>GUP97445</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Démarrages difficiles à froid ; clignotement momentané du témoin de préchauffage lors du démarrage d</Titolo>
+    <InfoDoc>INJECTION | P0380 | BOUGIE DE PRÉCHAUFFAGE | BOUGIES DE PRÉCHAUFFAGE | DÉMARRAGE | FATIGUE | FATIGANT | DIFFICILE | ALLUMAGE | FATIGANT | DÉMARRAGE | S'ALLUME | DÉMARRE | CLIGNOTE | INTERMITTENT | MATIN | MATINÉE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199309970</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309970</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Bougie de préchauffage &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Démarrages difficiles à froid, avec clignotement momentané du témoin de panne des bougies de préchauffage lors du démarrage du moteur. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; P0380 (Commande temporisée des bougies de préchauffage 1 - Dysfonctionnement) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Bougie de préchauffage défectueuse &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309970</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier le bon fonctionnement de la bougie de préchauffage et, si nécessaire, la remplacer &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Le véhicule est équipé d&apos;une seule bougie de préchauffage ; elle est située entre le moteur et l&apos;habitacle, côté conducteur, au-dessus des collecteurs d&apos;admission.  &lt;BR/&gt; Dans le cas présent, la bougie de préchauffage s&apos;est avérée grillée et, après son remplacement, le problème a été définitivement résolu. &lt;BR/&gt; &lt;BR/&gt; La durée prévue pour l&apos;intervention est d&apos;environ 0,4 h. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025005</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025005</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025005</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

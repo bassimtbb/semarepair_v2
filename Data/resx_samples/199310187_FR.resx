@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:06">
+  <XDOCUMENTO>
+    <ID>199310187</ID>
+    <DOCNumber>GUP97470</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Dysfonctionnement de la jauge de carburant et du compteur kilométrique, avec le témoin de réserve al</Titolo>
+    <InfoDoc>ÉLECTRONIQUE | TABLEAU DE BORD | INSTRUMENTS | ALLUMÉ | ALLUMÉE | RÉSERVE | CARBURANT | FONCTIONNE | INACTIF | TOUR | COMPLET | ANTIHORAIRE | CÔTÉ | OPPOSÉ | ARRÊT | ZÉRO | RETOUR | ROUGE | ROUGE | KILOMÈTRES | PARTIELS | TOTAUX |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310187</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310187</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Airbag &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Tableau de bord &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Fonctionnement anormal de la jauge de carburant : au démarrage du moteur, l&apos;aiguille effectue une rotation complète dans le sens antihoraire, se positionne à l&apos;extrémité opposée de l&apos;échelle, puis revient de manière stable à zéro.  &lt;BR/&gt; Dans le même temps, le témoin de réserve de carburant reste allumé. De plus, le compteur kilométrique n&apos;affiche ni le kilométrage total ni le kilométrage partiel, bien que le rétroéclairage fonctionne. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Tableau de bord défectueux &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310187</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier l&apos;état et le bon fonctionnement du tableau de bord, procéder si nécessaire à sa réparation/remplacement &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Dans le cas présent, le tableau de bord ne présentait aucune anomalie visuelle et, après son remplacement, le problème a été définitivement résolu, sans qu&apos;aucune reprogrammation à l&apos;aide d&apos;un équipement de diagnostic ne soit nécessaire. &lt;BR/&gt; &lt;BR/&gt; La durée prévue pour l&apos;intervention est d&apos;environ 1 h. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

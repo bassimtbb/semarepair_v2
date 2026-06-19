@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-08T23:51:51">
+  <XDOCUMENTO>
+    <ID>199309633</ID>
+    <DOCNumber>GUP97381</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Performances sporadiquement médiocres et voyant de panne moteur allumé</Titolo>
+    <InfoDoc>INJECTION | POMPE | HAUTE | PRESSION | CARBURANT | DIESEL | DÉMARRE | S'ALLUME | PART | MOTEUR | TOURNE | MANQUE | REND | BAISSE | CHUTE | PUISSANCE | HUILE | MIL | PANNES | P253F | P0016 | P0234 | P132B | P053F | P000A | CAPTEUR | GAZ | ARBRE | À CAMES |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199309633</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309633</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Alimentation en carburant &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Pompe à carburant haute pression &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt;  De manière sporadique, le véhicule présente de faibles performances avec des baisses de puissance notables et le témoin de panne moteur allumé. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt;
+&lt;LI&gt; P253F (Huile moteur usée détectée) &lt;BR/&gt;  &lt;LI&gt; P0016 (Position/phase du vilebrequin 1, rangée 1 - Rapport incorrect) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; P0234 (Suralimentation du turbocompresseur - Valeur élevée) &lt;BR/&gt;  &lt;LI&gt; P132B (Circuit de contrôle de la pression de suralimentation A - Incohérence plage/performance) &lt;BR/&gt; &lt;LI&gt; P053F (Pression de carburant, démarrage à froid - Incohérence plage/performance) &lt;BR/&gt;  &lt;LI&gt; P000A (Position de l&apos;arbre à cames côté admission 1, rangée 1 - Réponse lente) &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Dysfonctionnement de la pompe à carburant haute pression avec contamination de l&apos;huile moteur par le carburant. Cette situation a entraîné une lubrification insuffisante du turbocompresseur et son endommagement. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309633</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier l&apos;état de la pompe à carburant haute pression et, si nécessaire, procéder à sa révision/remplacement. Vérifier également l&apos;état du turbocompresseur. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Le composant se trouve dans le compartiment moteur, côté conducteur. La durée prévue pour l&apos;intervention est d&apos;environ 0,30 h. Il est recommandé de vérifier l&apos;état de l&apos;huile moteur et, si nécessaire, de la remplacer. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:34">
+  <XDOCUMENTO>
+    <ID>199310600</ID>
+    <DOCNumber>GUP97552</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>De manière sporadique : arrêts en marche, défauts de démarrage, démarrages suivis d'arrêts soudains</Titolo>
+    <InfoDoc>INJECTION | P0091 | P0092 | P0094 | P0190 | RÉGULATEUR | PRESSION | CARBURANT | DIESEL | GAZOLE | S'ÉTEINT | S'ARRÊTE | MARCHE | DÉMARRE | FONCTIONNE | ÉCHEC | DÉMARRAGE | S'ÉTEINT | IMMÉDIATEMENT |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310600</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310600</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Alimentation du moteur &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Régulateur de pression de carburant &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Des arrêts sporadiques du moteur surviennent pendant la conduite, ainsi que des ratés de démarrage et des démarrages normaux suivis d&apos;arrêts soudains du moteur. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt;
+&lt;LI&gt; P0091 (Dispositif de régulation de la pression de carburant 1 - Valeur insuffisante) &lt;BR/&gt; &lt;LI&gt; P0092 (Dispositif de régulation de la pression de carburant 1 - Valeur élevée) &lt;BR/&gt; &lt;LI&gt;  P0094 (Fuite de carburant, système d&apos;alimentation - Faible) &lt;BR/&gt; &lt;LI&gt; P0190 (Capteur de pression de conduite/carburant - Erreur générique) &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Régulateur de pression de carburant défectueux &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310600</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier l&apos;état et le bon fonctionnement du régulateur de pression de carburant et, si nécessaire, procéder à son remplacement &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Le régulateur est situé dans le compartiment moteur, côté passager, entre le moteur et le radiateur, dans la partie inférieure, et est raccordé à la pompe à carburant haute pression. &lt;BR/&gt; Pour y accéder, il n&apos;est pas nécessaire de démonter la pompe à carburant haute pression du véhicule. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

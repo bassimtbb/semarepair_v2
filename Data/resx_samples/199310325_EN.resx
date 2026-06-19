@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:11">
+  <XDOCUMENTO>
+    <ID>199310325</ID>
+    <DOCNumber>GUP97507</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Sporadic turning on of ABS warning light and general malfunction indicator light, with properly runn</Titolo>
+    <InfoDoc>BRAKES | C1050 | SENSOR | ABS | WHEEL | REAR | RIGHT | ANTI | LOCK | SYSTEM | RIGHT | REAR | LIGHTS UP | LIT | IGNITION |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310325</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degree of reliability (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legend of the degree of reliability &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * low level &lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Extensive fault history, found by service technicians and repairers. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** high level &lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310325</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Brakes &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Rear right wheel ABS sensor &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; The vehicle has the ABS warning light illuminated &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errors detected by the self-diagnostic system: &lt;/B&gt; C1050 (Rear right wheel speed sensor - Fault) &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Rear right wheel ABS sensor wiring, faulty &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310325</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check the condition of the wiring for the rear right wheel ABS sensor and the other sensors; if any faults are found, repair or replace the affected components. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; Diagnostic equipment revealed that, when the wheels were rotated, the correct speed was displayed for all of them, whilst the value for the rear right wheel remained at zero. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

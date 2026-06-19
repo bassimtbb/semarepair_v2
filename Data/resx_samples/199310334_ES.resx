@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:10">
+  <XDOCUMENTO>
+    <ID>199310334</ID>
+    <DOCNumber>GUP97510</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Luz de avería del motor encendida; pérdidas de potencia esporádicas, funcionamiento irregular y para</Titolo>
+    <InfoDoc>INYECCIÓN | P0091 | P0092 | BOMBA | COMBUSTIBLE | DIÉSEL | GASÓLEO | ARRANCA | ENCENDIDO | MIL | AMARILLO | AMARILLA | PRODUCE | PIERDE | BAJA | FALTA | POTENCIA | VELOCIDAD | CAÍDA | NOTABLE | TIRONA | GOLPEA | SE APAGA | SE DETIENE | SE BLOQUEA | SE APA</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guía de reparación</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310334</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grado de fiabilidad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Leyenda del grado de fiabilidad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nivel bajo &lt;/B&gt; : Detección del mecánico, caso de avería no detectado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nivel medio &lt;/B&gt;  : Casos frecuentes de avería, detectados por los técnicos de asistencia y los mecánicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nivel alto &lt;/B&gt; : Anomalía confirmada, buen grado de «repetitividad» señalado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310334</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificación del sistema / avería</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Sistema: &lt;/B&gt; Inyección &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositivo: &lt;/B&gt; Tubo de succión de combustible &lt;BR/&gt;&lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalía: &lt;/B&gt; Se enciende el testigo de avería del motor; esporádicamente, el vehículo presenta un rendimiento notablemente reducido, funcionamiento irregular y paradas del motor durante la marcha. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errores detectados por el autodiagnóstico: &lt;/B&gt;
+&lt;LI&gt; P0091 (Dispositivo de regulación de la presión de combustible 1 - Valor insuficiente) &lt;BR/&gt;  &lt;LI&gt; P0092 (Dispositivo de regulación de la presión del combustible 1 - Valor elevado) &lt;LI&gt; &lt;B&gt; Causa: &lt;/B&gt; Tubo de aspiración de combustible sucio &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310334</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimiento de reparación</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervención: &lt;/B&gt; Comprobar el estado del tubo de succión de combustible y, si es necesario, proceder a su limpieza &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedimiento: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Nota: &lt;/B&gt; El componente en cuestión se encuentra en el habitáculo, debajo del asiento central, y se puede acceder a él tras abrir la trampilla de inspección. &lt;BR/&gt; &lt;BR/&gt; El tiempo estimado para la intervención es de aproximadamente 1,3 h. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

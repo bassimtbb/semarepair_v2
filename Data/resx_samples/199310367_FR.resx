@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:08">
+  <XDOCUMENTO>
+    <ID>199310367</ID>
+    <DOCNumber>GUP97527</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Fonctionnement irrégulier, absence de réponse de l'accélérateur, voyants « clé » et « Voir le manuel</Titolo>
+    <InfoDoc>INJECTION | CORPS | PAPILLON | PAPILLON | MOTORISÉ | P2112 | À COUP | À COUPS | ACCÉLÉRATION | EN ACCÉLÉRANT | RALENTI | TOURS | RÉGIME | ACCÉLÈRE | TOURNE | MAL | CYLINDRES | CYLINDRE | JAUNE | SYSTÈME | COMMANDE | AFFICHAGE | TABLEAU DE BORD | PÉDALE | </InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310367</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310367</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Injection &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Corps de papillon motorisé &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt;  Le véhicule présente des hésitations lors de l&apos;accélération à haut régime et, sporadiquement, la pédale d&apos;accélérateur ne répond pas à la commande, maintenant le moteur au ralenti. De temps à autre, le témoin en forme de clé à molette s&apos;allume sur le tableau de bord et le message « Voir le manuel » s&apos;affiche sur l&apos;écran central. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; P2112 (Système de commande du papillon des gaz - Position incorrecte/fermé) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Corps de papillon motorisé défectueux &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025058</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025058</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025058</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310367</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier l&apos;état et le bon fonctionnement du papillon des gaz et, si nécessaire, procéder à son nettoyage/remplacement. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Dans le cas présent, le composant ne présentait aucune anomalie visuelle. La durée prévue pour l&apos;intervention est d&apos;environ 0,75 h. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:47">
+  <XDOCUMENTO>
+    <ID>199310626</ID>
+    <DOCNumber>GUP97565</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>En fuerte aceleración: notable pérdida de potencia, fallos de encendido y luz de llave inglesa encen</Titolo>
+    <InfoDoc>INYECCIÓN | CARCASA | MARIPOSA | MARIPOSA | MOTORIZADO | P2112 | AL ACELERAR | DA | PIERDE | FALTA | BAJA | POTENCIA | BRUSCA | FONDO | CILINDROS | CILINDRO | AMARILLA | SE ENCIENDE | ENCENDIDA | CUADRO | SISTEMA | MANDO | ACTUADOR |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guía de reparación</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310626</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grado de fiabilidad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Leyenda del grado de fiabilidad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nivel bajo &lt;/B&gt; : Detección del mecánico, caso de avería no detectado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nivel medio &lt;/B&gt;  : Casos frecuentes de avería, detectados por los técnicos de asistencia y los mecánicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nivel alto &lt;/B&gt; : Anomalía confirmada, buen grado de «repetitividad» señalado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310626</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificación del sistema / avería</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Sistema: &lt;/B&gt; Inyección &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositivo: &lt;/B&gt; Cuerpo del acelerador motorizado &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalía: &lt;/B&gt; El vehículo, en fase de fuerte aceleración, presenta notables caídas de potencia, se enciende el testigo de la llave inglesa y, esporádicamente, se producen fallos de encendido. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errores detectados por el autodiagnóstico: &lt;/B&gt;  P2112 (Sistema de control del motor de mariposa del acelerador - Posicionamiento incorrecto/cerrado) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Causa: &lt;/B&gt; Cuerpo de mariposa motorizado defectuoso &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310626</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimiento de reparación</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervención: &lt;/B&gt; Comprobar el estado y el correcto funcionamiento del cuerpo del acelerador y, si es necesario, proceder a su limpieza o sustitución. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedimiento: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Nota: &lt;/B&gt; En el caso que nos ocupa, el componente no presentaba anomalías visuales. Tras la sustitución, no es necesario realizar la reprogramación mediante equipos de diagnóstico. El tiempo previsto para la intervención es de aproximadamente 0,50 h. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025075</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025075</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025075</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

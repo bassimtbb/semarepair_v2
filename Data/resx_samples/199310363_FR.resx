@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:08">
+  <XDOCUMENTO>
+    <ID>199310363</ID>
+    <DOCNumber>GUP97525</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Allumage du témoin de panne moteur, alors que le véhicule fonctionne correctement</Titolo>
+    <InfoDoc>INJECTION | P24C6 | P1103 | CAPTEUR | PARTICULES | ANTIPARTICULES | FAP | DPF | ÉCHAPPEMENT | GAZ | S'ALLUME | ALLUMÉ | MIL | JAUNE | JAUNE | TABLEAU DE BORD | INSTRUMENTS | QUANTITÉ | SUIE | SURVEILLANCE | CIRCUIT | PLAGE | TEMPÉRAT|</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310363</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310363</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Capteur de particules &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt;  Allumage du témoin de panne moteur, alors que le véhicule fonctionne correctement. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt;
+&lt;LI&gt; P24C6 (Température du capteur de particules - Circuit ouvert) &lt;BR/&gt;  &lt;LI&gt; P1103 (Capteur de masse d&apos;air - Incohérence de la plage de performance) &lt;BR/&gt; &lt;LI&gt; P139D (Système de commande du débit d&apos;air d&apos;admission diesel B - Fuite détectée) &lt;BR/&gt;  &lt;LI&gt; P0546 (Capteur de température des gaz d&apos;échappement en amont du filtre à particules, rangée 1 - Valeur élevée) &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Capteur de particules défectueux &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310363</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier l&apos;état et le bon fonctionnement du capteur de particules et, si nécessaire, procéder à son remplacement. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Le capteur est fixé à l&apos;échappement en aval du filtre à particules. Après le remplacement, il n&apos;est pas nécessaire de procéder à une reprogrammation à l&apos;aide d&apos;un équipement de diagnostic. Dans le cas présent, le composant ne présentait aucune anomalie lors du contrôle visuel. Les problèmes liés à ce composant sont assez fréquents sur ce moteur. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025042</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025042</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025042</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

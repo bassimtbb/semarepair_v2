@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-14T01:32:24">
+<XDOCUMENTO>
+<ID>199310535</ID>
+<DOCNumber>GUP97539</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Mancata regolazione automatica proiettori anabbaglianti. Abbaglianti non funzionanti</Titolo>
+<InfoDoc>ELETTRONICA | ILLUMINAZIONE | CENTRALINA | B14D9 | ANTERIORE | SINISTRO | LAMPADINA | BASSO | BASSI | REGOLARE | MUOVERE | DIREZIONE | DIREZIONARE | FARO | FARI | STRADA | LED | DISTRIBUZIONE | CARROZZERIA | ABBASSATI | ALZANO | FUNZIONANO | ACCENDONO |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199310535</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (*)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199310535</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Validità:&lt;/B&gt; Vetture dotate di fari a LED&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Illuminazione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Modulo faro anteriore sinistro&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Il veicolo presenta la mancata regolazione dei proiettori anabbaglianti, rimangono in posizione bassa sia da fermi che in marcia. I fari abbaglianti risultano inoperativi. Sul quadro strumenti compare l&apos;avviso di &quot;Controlla fanali anteriori adattivi - Vedi manuale&quot;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; B14D9 (Attuatore distribuzione luce faro sinistro)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Modulo faro anteriore sinistro malfunzionante&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199310535</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Verificare il corretto funzionamento del modulo del faro anteriore sinistro, se necessario procedere alla sua sostituzione. &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - - &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; Il componente è fissato sulla parte inferiore del faro sinistro, accessibile tramite lo smontaggio del faro stesso. Dopo la sostituzione non è necessario effettuare la riprogrammazione tramite attrezzatura diagnostica. Nel caso in esame il modulo non presentava anomalie al controllo visivo. Il tempo previsto per l&apos;intervento è circa di 0,75h. &lt;BR/&gt;Problematiche a questo componente sono piuttosto frequenti su questo modello.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025065</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025065</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025065</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

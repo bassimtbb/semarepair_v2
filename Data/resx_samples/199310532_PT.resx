@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-31T07:47:11">
+  <XDOCUMENTO>
+    <ID>199310532</ID>
+    <DOCNumber>GUP97538</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Falha no funcionamento do fecho centralizado através do comando à distância</Titolo>
+    <InfoDoc>ELETTRONICA | CARROZZERIA | B102A | B1029 | B102B | FUNZIONA | INATTIVO | LAMPEGGIANO | FRECCE | PORTE | CHIUDONO | APRONO | FILI | CABLAGGIO | PORTELLONE | BAULE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310532</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda do grau de fiabilidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nível baixo &lt;/B&gt; : Detecção pelo mecânico, caso de avaria não constatado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nível médio &lt;/B&gt; : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nível alto &lt;/B&gt; : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310532</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sistema: &lt;/B&gt;  Carroçaria  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Anomalia: &lt;/B&gt;  Falha no funcionamento do fecho centralizado através do comando à distância. Ao acionar o comando à distância, os piscas acendem-se normalmente, mas as portas não abrem nem fecham. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Erros detetados pelo autodiagnóstico: &lt;/B&gt; &lt;ul&gt; &lt;LI&gt;  B102A (Anomalia - Relé de bloqueio, bloqueio das portas) &lt;BR/&gt;  &lt;LI&gt;  B1029 (Anomalia - Relé de desbloqueio, bloqueio das portas) &lt;BR/&gt;  &lt;LI&gt;  B102B (Anomalia - Relé de bloqueio, compartimento de carga)&lt;/ul&gt; &lt;LI&gt;  &lt;B&gt; Causa: &lt;/B&gt;  Fios danificados na cablagem da porta traseira &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310532</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Intervenção: &lt;/B&gt;  Proceder à reposição da cablagem na porta traseira.  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Nota: &lt;/B&gt;  A cablagem em questão está localizada dentro de um canal na porta traseira, do lado do passageiro, acessível após a remoção do próprio canal. Após a reparação dos fios, o problema foi resolvido de forma definitiva. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

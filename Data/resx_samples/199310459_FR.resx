@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:28">
+  <XDOCUMENTO>
+    <ID>199310459</ID>
+    <DOCNumber>GUP97532</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Témoin d'airbag allumé, avec dysfonctionnement sporadique de l'avertisseur sonore</Titolo>
+    <InfoDoc>AIRBAG | B1008 | B101B | DÉVIATEUR DE LUMIÈRE | ALLUMÉ | ALLUMÉE | ROUGE | ROUGE | ALLUMAGE | ACTIF | FONCTIONNE | INACTIF | BUZZER | CONTACT | ROTATIF | SPIRALE | EN SPIRALE | TAMBOUR |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310459</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310459</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Airbag &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Contact rotatif &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Anomalie : &lt;/B&gt; Allumage du témoin d&apos;airbag avec dysfonctionnement sporadique de l&apos;avertisseur sonore &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt;
+&lt;LI&gt; B1008 (Résistance airbag conducteur 1er niveau) &lt;BR/&gt;  &lt;LI&gt; B101B (Résistance airbag conducteur 2e niveau) &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Contact rotatif défectueux &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310459</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier le bon fonctionnement du contact rotatif et, si nécessaire, procéder à son remplacement &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Remarque : &lt;/B&gt; Le contact rotatif en question est fourni avec un commutateur d&apos;éclairage et, suite à son remplacement, aucune reprogrammation à l&apos;aide d&apos;un équipement de diagnostic n&apos;a été nécessaire, ce qui a permis de résoudre définitivement l&apos;anomalie. &lt;BR/&gt; &lt;BR/&gt; La durée prévue pour l&apos;intervention est d&apos;environ 1 h 30. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025077</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025077</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025077</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

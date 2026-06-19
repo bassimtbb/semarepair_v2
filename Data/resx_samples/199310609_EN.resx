@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:47">
+  <XDOCUMENTO>
+    <ID>199310609</ID>
+    <DOCNumber>GUP97557</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>ABS, ESP, service and tire pressure light on.</Titolo>
+    <InfoDoc>BRAKES | CONTROL UNIT | ABS | YELLOW | YELLOW | GROUP | HYDRAULIC | SYSTEM | BRAKING | PANEL | INSTRUMENTS | ON | ON | DIAGNOSIS | FAULT | CIRCUIT | SENSOR | SPEED | WHEEL | WHEELS | FRONT | INPUT | C1155 | C1235 | C1236 | C1233 |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310609</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Level of reliability (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legend of the degree of reliability &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * low level &lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Extensive fault history, found by service technicians and repairers. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** high level &lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310609</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Brakes &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; ABS control unit &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; The ABS warning light is illuminated, whilst the vehicle is operating correctly. &lt;LI&gt; &lt;B&gt; Errors detected by self-diagnosis: &lt;/B&gt;
+&lt;LI&gt; C1155 (Front left wheel speed sensor - Wiring/sensor) &lt;LI&gt; C1235 (Rear right wheel speed sensor - No signal) &lt;LI&gt; C1236 (Left rear wheel speed sensor – No signal) &lt;LI&gt; C1233 (Left front wheel speed sensor – No signal) &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; ABS control unit, with integrated hydraulic unit, malfunctioning</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310609</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check the condition and correct operation of the ABS control unit with integrated hydraulic unit; replace it if necessary. Then bleed the braking system. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; In this case, diagnostics revealed incorrect wheel speed values on several ABS sensors. Problems with this component are quite common on this model. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

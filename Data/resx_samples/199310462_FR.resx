@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:28">
+  <XDOCUMENTO>
+    <ID>199310462</ID>
+    <DOCNumber>GUP97533</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Baisse notable des performances et voyant de panne allumé à vitesse élevée ; message « Moteur : répa</Titolo>
+    <InfoDoc>INJECTION | DIESEL | SOUPAPE | EGR | P1102 | P2279 | ALLUMÉ | S'ALLUME | JAUNE | JAUNE | RACCORD | TUYAU | CONDUITE | ASPIRATION | REND | PERD | MANQUE | BAISSE | PUISSANCE | CAPTEUR | MASSE | AIR | FUITE | SYSTÈME | ASPIRÉ | DANSGRANAGGIO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310462</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310462</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Injection &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Soupape EGR - Conduite de la soupape EGR - Conduite d&apos;admission &lt;BR/&gt;&lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Le véhicule présente une baisse notable de performances à vitesse élevée et le témoin d&apos;anomalie générique est allumé. &lt;BR/&gt; L&apos;avertissement « Moteur : réparer immédiatement » s&apos;affiche sur l&apos;écran central du tableau de bord. Le redémarrage du véhicule permet un retour temporaire au fonctionnement normal. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt;
+&lt;LI&gt; P1102 (Capteur de masse d&apos;air : incohérence plage/performance) &lt;BR/&gt;  &lt;LI&gt; P2279 (Fuite d&apos;air dans le circuit d&apos;admission - Détectée, active) &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Soupape EGR, tuyauterie associée et conduit d&apos;admission encrassés &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025036</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025036</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025036</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310462</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier l&apos;état de la tuyauterie de la vanne EGR, de la vanne elle-même et du conduit d&apos;admission ; si nécessaire, procéder à leur nettoyage. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

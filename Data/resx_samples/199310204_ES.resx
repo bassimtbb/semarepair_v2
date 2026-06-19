@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-13T23:59:00">
+  <XDOCUMENTO>
+    <ID>199310204</ID>
+    <DOCNumber>GUP97484</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>De forma esporádica se enciende el indicador de avería del motor y el vehículo presenta un rendimien</Titolo>
+    <InfoDoc>INYECCIÓN | P2617 | SENSOR | ROTACIONES | MOTOR | ESPORÁDICO | ENCENDIDO | ENCENDIDA | MIL | CARRETERA | EN MARCHA | CARRERA | EJE | AVERÍA | POSICIÓN | VECES | AMARILLA | GIRA | CODO | BIEN | DESPUÉS | POCO | SEÑAL | RINDE | PIERDE | FALTA | BAJA | CAÍDA</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guía de reparación</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310204</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grado de fiabilidad (**)</Capitolo>
+      <Corpo> &lt;BR/&gt; Leyenda del grado de fiabilidad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nivel bajo &lt;/B&gt; : Detección del mecánico, caso de avería no detectado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nivel medio &lt;/B&gt;  : Casos frecuentes de avería, detectados por los técnicos de asistencia y los mecánicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nivel alto &lt;/B&gt; : Anomalía confirmada, buen grado de «repetitividad» señalado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310204</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificación del sistema / avería</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Sistema: &lt;/B&gt; Inyección &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositivo: &lt;/B&gt; Sensor de revoluciones del motor &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalía: &lt;/B&gt; De forma esporádica durante la marcha, se enciende el testigo de avería del motor y el vehículo presenta un rendimiento deficiente, para luego volver a funcionar con normalidad por sí solo. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Errores detectados por el autodiagnóstico: &lt;/B&gt; P2617 (Sensor de posición del cigüeñal - Circuito interrumpido/abierto) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Causa: &lt;/B&gt; Sensor de revoluciones del motor defectuoso &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310204</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimiento de reparación</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervención: &lt;/B&gt; Compruebe el correcto funcionamiento del sensor de revoluciones del motor y, si es necesario, proceda a su sustitución. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedimiento: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Nota: &lt;/B&gt; El componente en cuestión no presentaba anomalías visuales. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

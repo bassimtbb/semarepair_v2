@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:48">
+  <XDOCUMENTO>
+    <ID>199310484</ID>
+    <DOCNumber>GUP97536</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Malfunction of the vehicle body’s electrical systems</Titolo>
+    <InfoDoc>BODYWORK | ELECTRONICS | CONTROL UNIT | COMFORT | BODYCOMPUTER | HEADLIGHTS | HIGH BEAMS | HORN | BUZZER | INTERIOR | LIGHTS | HEADLIGHT | LOW BEAMS | BCM | BODY | CONTROL | MODULE | INDICATORS | P068A | U0100 | U0140 | U0164 | B10B9 | U0155 | U0010 |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310484</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Level of reliability (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legend of the degree of reliability &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * low level &lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Extensive fault history, found by service technicians and repairers. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** high level &lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310484</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Electronics &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Body computer module &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt;  The vehicle exhibits a failure of the indicators, the horn, the interior lighting and the main beam headlights. Furthermore, the dipped headlights remain on until the instrument panel is switched off. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Faults detected by self-diagnosis: &lt;/B&gt;  &lt;LI&gt; P068A (Main relay - Early closure) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; U0100 (CAN data bus, engine control unit 1 - Loss of communication) &lt;BR/&gt;  &lt;LI&gt; U0140 (CAN data bus, Central electronic control unit, Body computer - Loss of communication) &lt;BR/&gt; &lt;LI&gt; U0164 (CAN data bus, air conditioning control unit - Loss of communication) &lt;BR/&gt; &lt;LI&gt; B10B9 (Fan control) &lt;BR/&gt; &lt;LI&gt;  U0155 (CAN data bus, Instrument Cluster Control Unit - Loss of communication) &lt;BR/&gt; &lt;LI&gt; U0010 (CAN data bus, Speed Sensor - Communication error) &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Faulty body computer module &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310484</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check the condition and correct operation of the body computer module and, if necessary, replace it. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; To access the BCM, the passenger-side glove box must be removed. In this case, a visual inspection of the component revealed no faults. After replacement, reprogramming must be carried out using diagnostic equipment. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025063</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025063</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025063</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

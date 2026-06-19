@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:06">
+  <XDOCUMENTO>
+    <ID>199309967</ID>
+    <DOCNumber>GUP97444</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Unstable idling, erratic engine idling operation with engine failure light on</Titolo>
+    <InfoDoc>INJECTION | P0148 | P1612 | P0380 | P0382 | P0500 | RESISTANCE | PIPE | VENT | OIL | ENGINE | ON | LIT | MIL | RED | RED | WORKING | INACTIVE | KM | KILOMETRES |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199309967</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degree of reliability (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legend of the degree of reliability &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * low level &lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Extensive fault history, found by service technicians and repairers. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** high level &lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309967</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Component: &lt;/B&gt; Engine oil breather pipe resistance &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; Engine fault warning light (red) illuminated; speedometer and odometer not functioning &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Errors detected by self-diagnosis: &lt;/B&gt;
+&lt;LI&gt; P0148 (Fuel port - Generic error) &lt;BR/&gt; &lt;LI&gt; P1612 (Fuel filter heater relay - Fault) &lt;BR/&gt;  &lt;LI&gt; P0380 (Glow plug timer 1 - Malfunction) &lt;BR/&gt; &lt;LI&gt; P0382 (Glow plug timer 2 - Malfunction) &lt;BR/&gt;  &lt;LI&gt; P0500 (Vehicle speed sensor - Generic fault) &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Defective oil breather pipe resistance &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309967</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check that the oil vent pipe heater is working correctly; replace it if necessary &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; The component is located in the engine compartment, on the driver’s side, between the engine and the radiator, beneath the intercooler hose. The heater in question is supplied complete with an oil drain pipe. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

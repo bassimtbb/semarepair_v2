@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:49">
+  <XDOCUMENTO>
+    <ID>199310462</ID>
+    <DOCNumber>GUP97533</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Significant drop in performance and fault light illuminated at high speeds; warning: "Engine – Repai</Titolo>
+    <InfoDoc>INJECTION | DIESEL | VALVE | EGR | P1102 | P2279 | ON | SWITCHES ON | YELLOW | YELLOW LIGHT | FITTING | HOSE | DUCT | INTAKE | CAUSES | LOSES | MISSING | DROPS | POWER | GAUGE | MASS | AIR | LEAK | SYSTEM | INTAKE | INGRINDING |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310462</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Level of reliability (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legend of the degree of reliability &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * low level &lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Extensive fault history, found by service technicians and repairers. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** high level &lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310462</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Injection &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Component: &lt;/B&gt; EGR valve - EGR valve pipe - Intake manifold &lt;BR/&gt;&lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; The vehicle exhibits a significant drop in performance at high speeds and the generic fault indicator is illuminated. &lt;BR/&gt; The message &quot;Engine: Repair Immediately&quot; appears on the central instrument cluster display. Restarting the vehicle temporarily restores correct operation. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errors detected by the self-diagnostic system: &lt;/B&gt;
+&lt;LI&gt; P1102 (Mass air flow sensor: range/performance mismatch) &lt;BR/&gt;  &lt;LI&gt; P2279 (Intake air leak - Detected, active) &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; EGR valve, associated piping and intake duct fouled &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025036</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025036</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025036</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310462</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check the condition of the EGR valve pipe, the valve itself and the intake manifold; clean them if necessary. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

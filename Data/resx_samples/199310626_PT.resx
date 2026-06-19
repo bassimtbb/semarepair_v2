@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-31T07:47:19">
+  <XDOCUMENTO>
+    <ID>199310626</ID>
+    <DOCNumber>GUP97565</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Em forte aceleração: desempenho significativamente reduzido, falhas de ignição e luz de aviso da cha</Titolo>
+    <InfoDoc>INIEZIONE | CORPO | FARFALLATO | FARFALLA | MOTORIZZATO | P2112 | ACCELERANDO | RENDE | PERDE | MANCA | CALA | POTENZA | BRUSCA | FONDO | CILINDRI | CILINDRO | GIALLA | ACCENDE | ACCESA | QUADRO | SISTEMA | COMANDO | ATTUATORE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310626</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda do grau de fiabilidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nível baixo &lt;/B&gt; : Detecção pelo mecânico, caso de avaria não constatado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nível médio &lt;/B&gt; : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nível alto &lt;/B&gt; : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310626</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sistema: &lt;/B&gt;  Injeção &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt;  Corpo de borboleta motorizado &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Anomalia: &lt;/B&gt;  O veículo, em fase de forte aceleração, apresenta quedas de potência significativas, a luz de aviso da chave inglesa acende e, esporadicamente, ocorrem falhas de ignição. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Erros detetados pelo autodiagnóstico: &lt;/B&gt;  P2112 (Sistema de comando do motor do acelerador - Posição incorreta/fechada) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Causa: &lt;/B&gt;  Corpo do acelerador motorizado com defeito &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310626</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Intervenção: &lt;/B&gt;  Verificar o estado e o funcionamento correto do corpo do acelerador e, se necessário, proceder à sua limpeza/substituição. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Nota: &lt;/B&gt;  No caso em apreço, o componente não apresentava anomalias visuais. Após a substituição, não é necessário efetuar a reprogramação através de equipamento de diagnóstico. O tempo previsto para a intervenção é de cerca de 0,50 h. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025075</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025075</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025075</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

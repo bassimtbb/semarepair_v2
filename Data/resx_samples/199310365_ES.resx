@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:09">
+  <XDOCUMENTO>
+    <ID>199310365</ID>
+    <DOCNumber>GUP97526</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Reducción del rendimiento del motor con encendido del testigo de avería del motor</Titolo>
+    <InfoDoc>INYECCIÓN | P0638 | P0530 | P0402 | RINDE | PIERDE | BAJA | FALTA | POTENCIA | VELOCIDAD | CAÍDA | ENCIENDE | ENCENDIDA | MIL | AMARILLO | AMARILLA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guía de reparación</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199310365</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grado de fiabilidad (**)</Capitolo>
+      <Corpo> &lt;BR/&gt; Leyenda del grado de fiabilidad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nivel bajo &lt;/B&gt; : Detección del mecánico, caso de avería no detectado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nivel medio &lt;/B&gt;  : Casos frecuentes de avería, detectados por los técnicos de asistencia y los mecánicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nivel alto &lt;/B&gt; : Anomalía confirmada, buen grado de «repetitividad» señalado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310365</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificación del sistema / avería</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Sistema: &lt;/B&gt; Inyección &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositivo: &lt;/B&gt; Cuerpo del acelerador motorizado &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalía: &lt;/B&gt;  Encendido del testigo de avería del motor, con pérdida de potencia &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errores detectados por el autodiagnóstico: &lt;/B&gt;
+&lt;LI&gt; P0638 (Control del actuador del mariposa, banco 1 - Rango de funcionamiento incorrecto) &lt;BR/&gt;  &lt;LI&gt; P0530 (Sensor de presión del climatizador - Error genérico) &lt;BR/&gt; &lt;LI&gt; P0402 (Recirculación de gases de escape - Valor elevado) &lt;LI&gt; &lt;B&gt; Causa: &lt;/B&gt; Cuerpo del acelerador motorizado defectuoso &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199310365</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimiento de reparación</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervención: &lt;/B&gt; Comprobar el estado y el correcto funcionamiento del cuerpo del acelerador y, si es necesario, proceder a su limpieza o sustitución. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedimiento: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Nota: &lt;/B&gt; En el caso que nos ocupa, además de la sustitución del cuerpo del acelerador motorizado, también se sustituyó/añadió el cableado correspondiente que se conecta al del cuerpo del acelerador, resolviendo de forma definitiva la anomalía. &lt;BR/&gt; El componente defectuoso no presentaba anomalías visuales y, tras su sustitución, no fue necesario realizar ninguna reprogramación mediante equipos de diagnóstico. &lt;BR/&gt; &lt;BR/&gt; Los problemas con este componente son bastante frecuentes en este motor. &lt;BR/&gt; El tiempo previsto para la intervención es de aproximadamente 1,3 h. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

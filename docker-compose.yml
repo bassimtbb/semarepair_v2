@@ -1,0 +1,42 @@
+services:
+  our-postgres:
+    image: pgvector/pgvector:pg16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  ingestion:
+    build: ./services/ingestion
+    restart: "no"
+    environment:
+      OUR_DB: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@our-postgres:5432/${POSTGRES_DB}
+      EXCEL_PATH: /app/Data/GUP_PER_IA.xlsx
+    volumes:
+      - ./Data:/app/Data:ro
+    depends_on:
+      our-postgres:
+        condition: service_healthy
+
+  ingestion-resx:
+    build: ./services/ingestion-resx
+    restart: "no"
+    environment:
+      OUR_DB: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@our-postgres:5432/${POSTGRES_DB}
+      RESX_PATH: /app/Data/resx_samples
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+    volumes:
+      - ./Data:/app/Data:ro
+    depends_on:
+      our-postgres:
+        condition: service_healthy
+      ingestion:
+        condition: service_completed_successfully

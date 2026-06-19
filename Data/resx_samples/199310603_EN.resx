@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-19T23:53:27">
+  <XDOCUMENTO>
+    <ID>199310603</ID>
+    <DOCNumber>GUP97554</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>The air conditioning switches off when the cabin fan speed increases</Titolo>
+    <InfoDoc>AIR CONDITIONING | HEATER | FAN | SPEED | FANS | SWITCH OFF | STOP | LOCK | OFF | LED | AIR | AIR CONDITIONING | COOLING | HEATING | FIRST | ALL | CONTROL | FAN | BUTTON | SWITCH |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+  </XDOCUMENTO>
+</dataroot>
