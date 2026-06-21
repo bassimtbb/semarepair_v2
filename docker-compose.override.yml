@@ -7,3 +7,11 @@ services:
   our-postgres:
     ports:
       - "5432:5432"
+
+  vehicle-service:
+    ports:
+      - "5002:5002"
+
+  search-service:
+    ports:
+      - "5001:5001"

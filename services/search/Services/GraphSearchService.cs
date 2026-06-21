@@ -187,7 +187,7 @@ public class GraphSearchService
         await using var conn = Connect();
         await conn.OpenAsync();
         await using var cmd = new NpgsqlCommand("""
-            SELECT gr.id_macchina, gr.marca_macchina, gr.modello_macchina,
+            SELECT DISTINCT gr.id_macchina, gr.marca_macchina, gr.modello_macchina,
                    gr.motorizzazione_macchina, gr.codice_motore_macchina,
                    gr.anno_inizio_macchina, gr.anno_fine_macchina
             FROM graph_edges ge
@@ -196,6 +196,41 @@ public class GraphSearchService
               AND ge.to_id = @doc AND ge.relation = 'DOCUMENTED_IN'
             """, conn);
         cmd.Parameters.AddWithValue("doc", idDocumento);
+
+        var results = new List<CarSummary>();
+        await using var reader = await cmd.ExecuteReaderAsync();
+        while (await reader.ReadAsync())
+        {
+            results.Add(new CarSummary
+            {
+                IdMacchina = reader.GetString(0),
+                Marca = reader.GetString(1),
+                Modello = reader.GetString(2),
+                Motorizzazione = reader.IsDBNull(3) ? null : reader.GetString(3),
+                CodiceMotore = reader.GetString(4),
+                AnnoInizio = reader.IsDBNull(5) ? null : reader.GetInt32(5),
+                AnnoFine = reader.IsDBNull(6) ? null : reader.GetInt32(6),
+            });
+        }
+        return results;
+    }
+
+    // Builds CarSummary objects for a raw list of car IDs (e.g. from
+    // GetCarIdsForFaultAsync/GetCarIdsForKeywordAsync) - used for
+    // car_selection responses that aren't derived from a single document.
+    public async Task<List<CarSummary>> GetCarSummariesAsync(IReadOnlyCollection<string> carIds)
+    {
+        if (carIds.Count == 0) return [];
+        await using var conn = Connect();
+        await conn.OpenAsync();
+        await using var cmd = new NpgsqlCommand("""
+            SELECT DISTINCT id_macchina, marca_macchina, modello_macchina,
+                   motorizzazione_macchina, codice_motore_macchina,
+                   anno_inizio_macchina, anno_fine_macchina
+            FROM gup_rows
+            WHERE id_macchina = ANY(@carIds)
+            """, conn);
+        cmd.Parameters.AddWithValue("carIds", carIds.ToArray());
 
         var results = new List<CarSummary>();
         await using var reader = await cmd.ExecuteReaderAsync();

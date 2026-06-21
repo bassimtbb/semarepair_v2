@@ -8,8 +8,14 @@ builder.Services.AddSingleton<GraphSearchService>();
 builder.Services.AddSingleton<VectorSearchService>();
 builder.Services.AddSingleton<SymptomSearchService>();
 builder.Services.AddSingleton<ValidationService>();
+builder.Services.AddSingleton<DocumentContentService>();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.MapControllers();
 

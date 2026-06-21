@@ -19,10 +19,10 @@ public class VehicleController : ControllerBase
     // GET /api/vehicles?engineCode=F1AE0481C
     [HttpGet]
     public Task<VehicleResponse> Search([FromQuery] VehicleQuery query) =>
-        throw new NotImplementedException();
+        _vehicleSearch.SearchAsync(query);
 
     // GET /api/vehicles/{idMacchina}
     [HttpGet("{idMacchina}")]
     public Task<VehicleResult?> GetById(string idMacchina) =>
-        throw new NotImplementedException();
+        _vehicleSearch.GetByIdAsync(idMacchina);
 }
