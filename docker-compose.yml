@@ -40,3 +40,26 @@ services:
         condition: service_healthy
       ingestion:
         condition: service_completed_successfully
+
+  vehicle-service:
+    build: ./services/vehicle
+    restart: unless-stopped
+    environment:
+      OUR_DB: Host=our-postgres;Port=5432;Database=${POSTGRES_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}
+    depends_on:
+      our-postgres:
+        condition: service_healthy
+      ingestion:
+        condition: service_completed_successfully
+
+  search-service:
+    build: ./services/search
+    restart: unless-stopped
+    environment:
+      OUR_DB: Host=our-postgres;Port=5432;Database=${POSTGRES_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+    depends_on:
+      our-postgres:
+        condition: service_healthy
+      ingestion-resx:
+        condition: service_completed_successfully
