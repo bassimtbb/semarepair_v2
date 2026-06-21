@@ -52,9 +52,11 @@ the work was sequenced — worth knowing if a future session expects one
 ingestion service and finds two.
 
 **Ingestion is now fully functional end-to-end** (xlsx → graph → real
-embeddings). **search**, **vehicle**, and **chat** still exist only as
-compiling skeletons (see section 6). Build order from here follows the
-roadmap: Vehicle → Search → Chat.
+embeddings). **search**, **vehicle**, and **chat** are all now fully
+implemented and verified against live data (see section 6) — the full
+roadmap order (Vehicle → Search → Chat) is complete. What's left is
+infrastructure wiring (chat-service into `docker-compose.yml`, nginx,
+frontend) and the items still pending the company meeting (section 9).
 
 ---
 
@@ -65,9 +67,9 @@ semarepair_v2/                       (root folder name is lowercase on disk;
                                        doc's tree shows "SemaRepair-v2" —
                                        not renamed, flagged as a known gap)
 ├── services/
-│   ├── chat/             — ASP.NET Core 8 skeleton, not implemented
-│   ├── search/           — ASP.NET Core 8 skeleton, not implemented
-│   ├── vehicle/           — ASP.NET Core 8 skeleton, not implemented
+│   ├── chat/             — ASP.NET Core 8, WORKING — Gemini orchestration + SSE
+│   ├── search/           — ASP.NET Core 8, WORKING — GraphRAG + vector search
+│   ├── vehicle/           — ASP.NET Core 8, WORKING — structured SQL car lookup
 │   ├── ingestion/         — Python, WORKING — xlsx -> gup_rows loader
 │   └── ingestion-resx/    — Python, WORKING — resx -> graph + embeddings
 ├── frontend/           — empty placeholder, nothing built
@@ -80,8 +82,9 @@ semarepair_v2/                       (root folder name is lowercase on disk;
 │   ├── GUP_PER_IA.xlsx          — source spreadsheet (vehicle<->document mapping)
 │   └── resx_samples/            — 540 .resx files (108 docs x 5 langs) - fully ingested
 ├── pgdata/              — Postgres data volume (gitignore-worthy, see section 7)
-├── docker-compose.yml           — our-postgres + ingestion + ingestion-resx
-├── docker-compose.override.yml  — local-dev-only port exposure
+├── docker-compose.yml           — our-postgres + ingestion + ingestion-resx + search-service + vehicle-service
+│                                   (chat-service is WORKING but NOT YET added here - see section 7)
+├── docker-compose.override.yml  — local-dev-only port exposure (postgres, search, vehicle)
 ├── .env / .env.example          — includes GEMINI_API_KEY (real key is in .env, not committed anywhere else)
 ├── README.md
 └── progress.md          — this file
@@ -294,14 +297,7 @@ tables, `vector` extension enabled).
 
 ---
 
-## 6. Search / Vehicle / Chat services — skeleton status
-
-All three are ASP.NET Core 8 Web API projects, built and verified
-(`dotnet build` succeeds, 0 errors/warnings) but contain **no real logic**
-— every controller action and service method throws
-`NotImplementedException`. This was an explicit scoping decision: lock in
-the folder structure and API/data contracts now, implement logic later,
-service by service, in roadmap order.
+## 6. Search / Vehicle / Chat services
 
 Structure (identical shape across all three, per
 `docs/SemaRepair_Architecture.md` section 12.2):
@@ -314,55 +310,288 @@ services/<name>/
 └── Dockerfile
 ```
 
-**search/** (`SearchController`, `GraphSearchService`,
-`VectorSearchService`, `SymptomSearchService`, `ValidationService`):
-- `SearchRequest`, `SearchResponse`, `DocumentResult`, `CarSummary`,
-  `ValidationResult` models are **real**, not stubs — their shapes are
-  copied directly from the JSON contract and the `ValidateSymptom` C# code
-  already fully specified in the architecture doc (section 6.4, 9, 5.10
-  Rule 12).
-- Connects to `OUR_DB` (env var, same convention as ingestion).
-- `/health` implemented per section 9.7's contract.
-- The data this service needs (`graph_edges`, `document_embeddings`,
-  `symptom_embeddings`) **now actually exists and is populated** —
-  unblocked since the last update.
+### 6.1 search/ — WORKING, verified against live data
 
-**vehicle/** (`VehicleController`, `VehicleSearchService`):
-- `VehicleQuery`, `VehicleResponse`, `VehicleResult` models match section
-  6.5's contract.
-- **Important caveat:** the architecture doc says Vehicle Service should
-  query *Their SQL Server*. We don't have that access yet, so it's wired
-  to `OUR_DB` (our local Postgres stand-in / `gup_rows`) for now, with a
-  comment flagging the swap-over point.
+Implements all 3 documented endpoints (`fault-code`, `symptom`, `system`)
+end-to-end, including car-confirmed and no-car-confirmed paths, the
+validation layer (Rule 12), and the Rule 8 cross-brand fallback. Built and
+tested by running the real Docker image against the live `our-postgres`
+container — not just `dotnet build`.
 
-**chat/** (`ChatController`, `RepairOrchestrator`):
-- `ChatRequest`/`ChatResponse` models are a **first draft** — unlike
-  search/vehicle, the architecture doc never gives Chat a formal JSON
-  contract, only a narrative example (section 8 of the technical doc:
-  `phase`, `found`, `cases`). Expect this to be revised once Chat is
-  actually built (it's last in the roadmap order, and depends on
-  Search + Vehicle existing first).
-- No DB access — it's meant to call Search/Vehicle services over HTTP
-  (`HttpClient` registered via `AddHttpClient<RepairOrchestrator>()`).
+**Services:**
+- `ValidationService` — `ValidateSymptom` (TooVague / RedirectToFaultCode /
+  Valid, per Rule 12). **Found and fixed a real bug in the doc's own
+  specified check order**: the doc's C# runs the word-count check before
+  the fault-code regex check, but a bare code (e.g. `P0504`) is always
+  exactly 1 word and the regex is anchored, so `RedirectToFaultCode` was
+  literally unreachable for *any* input as originally ordered. Fixed by
+  checking the regex first. Confirmed against live data: `q=P0504` now
+  redirects correctly, `q=rotto` still correctly returns `vague`.
+- `GraphSearchService` — all graph traversal (car resolution, fault/system
+  lookups, `SHARES_ENGINE_WITH` fallback, car summaries). Two real bugs
+  found and fixed here, both the same root cause: `gup_rows` is one row
+  per (car, document) pair, so any query joining on it without `DISTINCT`
+  returns duplicates (21x and 138x observed in testing) — fixed in
+  `ResolveCarIdsAsync` and `GetCarsForDocumentAsync`.
+- `QueryEmbedder` — calls Gemini's `embedContent` REST API directly via
+  `HttpClient` (no official Gemini .NET SDK exists), `task_type=RETRIEVAL_QUERY`,
+  `output_dimensionality=768`. Verified byte-identical to a direct curl call.
+- `VectorSearchService` — reranks within a graph-filtered candidate set
+  (Search Type 3) using `document_embeddings`.
+- `SymptomSearchService` — vector search over `symptom_embeddings`
+  (Search Type 4), with an optional candidate-set restriction so it can be
+  narrowed by a detected System/Device before ranking.
+- `SystemCategoryLookup` — static allow-list for which System categories
+  permit the Rule 8 engine-sharing fallback. Doc only gives 5 examples
+  (`Iniezione, Alimentazione carburante, Candelette, Sensori motore,
+  Gestione motore`); added 3 more found in real data after explicit
+  user approval (`Alimentazione motore, Sistema di accensione, Sistema di
+  scarico`), clearly commented as inference, not doc-sourced.
+- `DocumentContentService` — added during this work, not originally
+  planned: filling in document **content** (title, anomalia, causa,
+  intervento, etc.) turned out to need a new `documents` table (see 6.3
+  below), since neither `gup_rows` nor the embedding tables carry content.
 
-None of the three are wired into `docker-compose.yml` yet (no point
-containerizing services with no logic). That's the natural next step once
-one of them gets implemented for real.
+**Two interpretive decisions made with explicit user sign-off** (the doc
+under-specifies both):
+- Search Type 3/4 (symptom-based) return the closest vector match(es),
+  never Rule 10's 2-4/5+ document-count buckets — because unlike
+  fault-code/system search, vector search has no natural "exact match
+  count," so any cutoff would be invented, not specified. Rule 10
+  bucketing only applies to fault-code/system search (Type 1/2), which
+  does have a discrete graph-match count. **Revised since the original
+  "always exactly one" version**: live testing found two documents
+  (`199309673`/`199309676`) with byte-identical `anomalia` text, producing
+  an exact distance tie — three such duplicate-text pairs exist in the
+  108-document IT corpus. Picking one arbitrarily was silently wrong
+  (it's an unstable choice, not a ranking result), so `SearchController`
+  now has a `TieThreshold` constant (0.02 cosine distance): Type 3 returns
+  every document within that gap of the best match (not just the top 1),
+  and Type 4 — which never shows document content anyway, only a
+  car-selection list (Rule 1/2) — merges the car sets of every tied top
+  document instead of picking one.
+- Search Type 4 (symptom, no car) narrows its vector search to documents
+  matching a detected System/Device when one is found in the symptom
+  text, per the doc's narrative description — even though the doc's own
+  literal SQL example for this case doesn't show that restriction.
+
+**`SearchRequest` gained a `Brand` field** not in the original model:
+engine codes aren't unique across brands in real data (verified: engine
+`8140.43S` alone spans 14 cars across 4 brands), so `ResolveCarIdsAsync`
+needed an optional brand to scope a search to one specific car/family
+without collapsing Rule 8's cross-brand fallback into a no-op.
+
+Connects to `OUR_DB`. `/health` implemented per section 9.7's contract.
+Swagger UI (`Swashbuckle.AspNetCore`) added at `/swagger` — auto-generated
+from the controllers/models, unconditionally enabled (not dev-gated),
+since none of these services sit behind nginx yet.
+
+### 6.2 vehicle/ — WORKING, verified against live data
+
+Implements both documented endpoints (`GET /api/vehicles` with
+brand/model/year/fuel/engineCode/kw filters, `GET /api/vehicles/{id}`).
+`VehicleSearchService` queries `gup_rows` directly with `SELECT DISTINCT`
+(same duplication issue as search's `GraphSearchService` — fixed from the
+start here since it was already known).
+
+**Year-range filtering is overlap, not containment**: a car matches
+`yearFrom`/`yearTo` if its own production range (`annoInizio`/`annoFine`)
+overlaps the query range at all, not only if it's fully contained within
+it (explicit user choice — the doc's only example doesn't disambiguate
+this). Verified against live data: querying `2000-2002` correctly
+includes a car produced `2002-2006` (overlaps at the boundary year).
+
+**Important caveat, unchanged from before:** the architecture doc says
+Vehicle Service should query *Their SQL Server*. We don't have that
+access yet, so it's wired to `OUR_DB` (`gup_rows`) for now, with a comment
+flagging the swap-over point.
+
+Verified via the real Docker image against live data: `GetById` (hit and
+204 miss), engine-code search (14 distinct cars, no duplicates), and the
+brand/model/year-overlap/fuel combined filter. Swagger UI also added
+here, same as Search.
+
+### 6.3 New: `documents` table (added to ingestion-resx, not originally planned)
+
+Discovered while planning Search Service: nothing in the existing schema
+held actual document **content** (title, anomalia, causa, intervento,
+etc.) for Search to return — `gup_rows` deliberately excludes it (section
+4) and the embedding tables only hold vectors. Added a `documents` table
+to `services/ingestion-resx/schema.sql` and a `build_documents()`
+populator to its `seeder.py`, keyed on `(id_documento, language)`. Cheap
+to populate (no API cost), so it's part of the free/idempotent graph-build
+step, not gated behind the Gemini key.
+
+### 6.4 chat/ — WORKING, verified against live data (including real Gemini calls)
+
+Implements both documented endpoints (`POST /api/chat/stream` SSE,
+`POST /api/chat/transcribe`) end-to-end: Gemini function calling against
+Search/Vehicle Service, the two-call routing→formatting pattern, in-memory
+session state, and Rules 4/5/7/8/9. No formal JSON contract exists for
+Chat in the docs (only the narrative `phase`/`found`/`cases` example in
+the technical doc section 8) — `ChatRequest`/`ChatResponse` are still our
+own design, now implemented rather than a first draft, with two real gaps
+found and fixed during the work (see below).
+
+**Files:** `services/chat/{Models/{ChatRequest,ChatResponse,GeminiTypes,Session}.cs, Services/{GeminiChatClient,ToolDefinitions,SystemPromptBuilder,SessionStore,RepairOrchestrator}.cs, Controllers/ChatController.cs}`
+
+- `GeminiChatClient` — low-level wrapper around Gemini's `generateContent`
+  REST API (no official .NET SDK, same reasoning as Search's
+  `QueryEmbedder`). Verified the exact wire protocol against Google's
+  current docs rather than trusting the architecture doc's v1 narrative -
+  found that `gemini-2.5-flash` returns `functionCall.id: null` in
+  practice (the docs describe an id meant to be echoed back), handled as
+  nullable throughout. Verified live: plain text, function-call detection,
+  a full function-call round-trip (sending the result back, model
+  correctly used it in its final answer), JSON mode, and inline audio data
+  for transcription (`GeminiPart.OfInlineData`/`GeminiInlineData`).
+- `ToolDefinitions` — 4 Gemini function declarations: `FindCar`,
+  `SearchByFaultCode`, `SearchBySymptom` (all 3 from v1's tool list,
+  section 2.4) plus **`SearchBySystem`**, added because Search Service
+  already has a tested `/api/search/system` endpoint and excluding it
+  would have been an arbitrary gap. Parameter names match the doc's own
+  tool-call examples (`faultCode`, `engineCode`, `symptom`). `lang` is
+  deliberately not a Gemini-facing parameter - it's session/request
+  config, never something to infer from conversation text.
+  - **Real bug found by the build's own compiler, not by testing**: the
+    `All` list property was declared *before* the 4 individual tool
+    properties it referenced - C# runs static initializers top-to-bottom,
+    so `All` would have silently held a list of nulls at runtime. Fixed by
+    reordering.
+- `SystemPromptBuilder` — `BuildRouting` (tool-routing instructions, plus
+  Rule 11's exact Italian query-cleaning block ported close to verbatim,
+  generalized to apply the same filler-removal principle to FR/EN/PT/ES)
+  and `BuildFormatting` (the JSON-formatting call's prompt - see the
+  document-content fidelity fix below for why this shrank substantially).
+  Verified live against the real API: the doc's own worked symptom-cleaning
+  example reproduced character-for-character, fault-code routing correctly
+  wins priority over symptom text, Rule 7's brand+symptom→`FindCar` flow
+  matched the doc's worked example almost exactly, English input stayed in
+  English (no unwanted translation).
+  - **Real bug found by live testing**: Rule 9's clarification questions
+    were referenced by name ("ask the Rule 9 questions") without ever
+    giving Gemini their actual text - it just echoed the raw validation
+    string instead of asking anything useful. Fixed by embedding the
+    literal question list.
+- `Session`/`SessionStore` — in-memory (`ConcurrentDictionary`), per the
+  explicit decision to skip a persistence layer for now (matches the doc's
+  own unresolved Redis question, section 13). Holds `ConfirmedEngineCode`/
+  `ConfirmedBrand`/`ConfirmedCarLabel` (Rules 5/8) and the full Gemini
+  conversation `History`.
+  - **Deliberately does NOT have a `PendingSearch`/saved-symptom field**
+    for Rule 7's "re-search after car confirmation" flow, even though the
+    doc's own pseudocode does this deterministically in code (save
+    symptom, then explicitly replay it). We tested the riskier alternative
+    live instead of assuming it: inject a purely factual synthetic turn
+    ("the mechanic confirmed engine code X") into `History` with NO
+    instruction to re-search, and check whether Gemini notices and
+    re-issues the original tool call on its own. **15/15 trials across two
+    distinct scenarios** (brand+symptom-in-one-message, and the more
+    common symptom-only case) correctly re-issued the right tool with the
+    original symptom text intact and the engine code/brand added - strong
+    enough evidence to trust conversation history as the replay mechanism
+    rather than add redundant state.
+- `RepairOrchestrator` — the actual turn handler. Two-call pattern per
+  turn (routing call decides the tool; a second JSON-mode call writes the
+  natural-language framing), Rule 4's confirmation message (hardcoded
+  per-language templates, not Gemini-generated - same sentence every time,
+  not worth an API call), Rule 8/9 message phrasing.
+  - **Deterministic override, not LLM trust, for structured facts**:
+    `engineCode`/`brand` for an already-confirmed car are taken from
+    `Session` and override whatever Gemini put in its own tool-call args -
+    Chat Service already knows these authoritatively, so there's no
+    reason to trust an LLM's echo of them (unlike the symptom/fault-code
+    text itself, which only the mechanic's own words can supply, and which
+    the Rule 7 test above proved reliable).
+  - **The single biggest bug found in this service, via live testing**:
+    the original design fed Gemini the *entire* raw Search Service result
+    (including full document content - `intervento`, `anomalia`, etc.) and
+    asked it to reproduce the relevant fields in its JSON output. Live
+    testing of the Rule 7 flow showed the returned case had
+    `sigla`/`impianto`/`dispositivo`/`causa`/`reliability` but **no
+    `intervento`** - the actual repair instructions the mechanic needs.
+    Fixed by redesigning the data flow entirely: Gemini now never sees the
+    raw tool result anywhere (not in `History`, not in the formatting
+    call) - `BuildResultSummary` strips it to metadata only (`resultType`,
+    `count`, `foundViaSharedEngine`/`sharedEngineInfo`, `validationMessage`,
+    `redirectedTo`) before it touches the conversation. `phase`/`found`/
+    `cases`/`carMatches` are all parsed directly from the real Search/
+    Vehicle Service JSON in code (`ParseCaseSummary`/`ParseCarOption`),
+    never from Gemini's output. The fix was extended to `carMatches` too
+    (not just documents), for the same fidelity reasoning, even though the
+    live bug report was specifically about document content. Re-verified
+    after the fix: the returned `intervento` text is byte-identical to
+    `SELECT intervento FROM documents WHERE id_documento='199309631'`.
+  - `ChatResponse` gained real fields that the original first-draft model
+    was missing once this was actually exercised: `ChatRequest.ConfirmedBrand`
+    (engine codes aren't unique across brands - same issue hit in Search
+    Service), `CarOption.Marca`/`Modello`/`Motorizzazione` (the mechanic
+    couldn't tell cards apart without them), `CaseSummary.IdDocumento`/
+    `Intervento`/`Anomalia`/`Procedura`/`Nota`/`DtcCodes`/`Language` (the
+    actual repair content - see the bug above).
+- `ChatController` — `Stream` writes each `ChatResponse`
+  `RepairOrchestrator` yields as its own flushed SSE `data:` event (so a
+  car-confirmation message arrives before the search result that follows
+  it in the same request). `Transcribe` accepts a multipart audio upload
+  and calls `GeminiChatClient.TranscribeAsync`.
+  - Verified live with a **real spoken WAV file** (generated via Windows
+    text-to-speech) saying "I have engine warning light on, code P zero
+    five zero four" - Gemini transcribed it correctly, including
+    formatting the spoken digits as `P0504`.
+  - **Known, unverified gap**: the browser's actual recording format
+    (e.g. `MediaRecorder`'s `audio/webm`) isn't in Gemini's officially
+    documented supported list (`wav`/`mp3`/`aiff`/`aac`/`ogg`/`flac`).
+    Passed through as-is since there's no frontend yet to confirm what it
+    will actually send.
+
+**Not implemented / known gaps specific to Chat:**
+- No retry/backoff for a failed Gemini call - section 9.1 specifies 3
+  retries with 1s/2s/4s backoff before falling back to an apology message;
+  currently it fails straight to the apology on the first error.
+- Session state is in-memory and per-process - lost on restart, and won't
+  work if Chat Service ever runs as more than one instance (same
+  limitation called out for Redis in the doc's own open questions).
 
 ---
 
 ## 7. Infrastructure / docker-compose
 
-`docker-compose.yml` now has four services: `our-postgres`
+`docker-compose.yml` now has six services: `our-postgres`
 (pgvector/pgvector:pg16), `ingestion` (xlsx, depends on postgres healthy),
 `ingestion-resx` (resx/graph/embeddings, depends on postgres healthy AND
 `ingestion` completing successfully via
-`condition: service_completed_successfully`).
+`condition: service_completed_successfully`), and two new long-running
+services:
+- `vehicle-service` — `restart: unless-stopped`, depends on postgres
+  healthy AND `ingestion` completing (needs `gup_rows`).
+- `search-service` — `restart: unless-stopped`, depends on postgres
+  healthy AND `ingestion-resx` completing (needs graph + embeddings +
+  `documents`), also gets `GEMINI_API_KEY` for query-time embedding.
+
+Both connect via `OUR_DB: Host=our-postgres;Port=5432;...` — the ADO.NET
+keyword format Npgsql expects, **not** the `postgresql://...` URI format
+used by the Python ingestion services' `OUR_DB` (same env var name, two
+different formats, because the consuming driver differs). `docker compose
+up -d` is the command to run this part of the stack.
+
+**`chat-service` is fully working (section 6.4) but NOT YET in
+`docker-compose.yml`** - it was only ever built/tested as a manually-run
+container on the compose network (`--network semarepair_v2_default`,
+pointed at `http://search-service:5001`/`http://vehicle-service:5002` via
+env vars), the same pattern used for testing search/vehicle before they
+were wired in. Adding it for real is the same mechanical step already
+done for search/vehicle: a `chat-service` block depending on
+`search-service`/`vehicle-service` (no `condition: service_completed_successfully`
+needed - they're long-running, not one-shot), `GEMINI_API_KEY`,
+`SEARCH_SERVICE_URL`/`VEHICLE_SERVICE_URL` pointing at the internal
+service names, plus a host port mapping in the override file.
 
 `docker-compose.override.yml`: auto-merged by `docker compose up` (no
-flag needed) — adds `our-postgres` port 5432→host, for connecting from
-host tools (psql/DBeaver) only. Containers talk to Postgres over the
-internal Docker network as `our-postgres:5432`, not via this mapping.
+flag needed) — adds `our-postgres` port 5432→host (psql/DBeaver), plus
+`search-service` 5001→host and `vehicle-service` 5002→host so Swagger/curl
+can reach them directly from the host during development. Containers talk
+to each other over the internal Docker network (`our-postgres:5432`,
+etc.), not via these host mappings.
 
 **Bug found and fixed (still relevant):** the Postgres volume was
 originally `./data/postgres:/var/lib/postgresql/data`. Windows'
@@ -410,6 +639,22 @@ initialized later (see section 8).
 | Embedding/graph idempotency | Independent existence checks per table, not one blanket flag | Graph rebuild is free; embeddings cost real money — must be skippable separately so adding a key later doesn't redo free work or skip the paid work |
 | SHARES_ENGINE_WITH edge | Built for any two distinct cars sharing an engine code, regardless of brand | Doc's own pseudocode doesn't filter by brand; cross-brand framing is a consumption-time concern (Rule 8), not a build-time filter |
 | FaultCode descriptions | Parsed and available in memory, but not persisted anywhere | The doc's own storage schema (section 6.8) has no table for this; would need a real decision (extra table?) before persisting |
+| `documents` content table | Added to `ingestion-resx` (not in original schema) | Search needed somewhere to read document content from; `gup_rows` and the embedding tables don't carry it |
+| `SearchRequest.Brand` | Added optional field | Engine code alone isn't unique across brands in real data (verified: one engine code spans 4 brands) |
+| Search Type 3/4 result shape | Always exactly one top vector match, no Rule 10 bucketing | Vector search has no natural "exact match count" the way graph search does; any cutoff would be invented |
+| Search Type 4 narrowing | Vector search narrowed to System/Device-matched docs when one is detected | Follows the doc's prose description over its literal (non-narrowing) SQL example |
+| `ValidateSymptom` check order | Fault-code regex checked before word-count | Doc's own specified order made `RedirectToFaultCode` unreachable for any input — a real bug in the doc's own logic, fixed with user confirmation |
+| `SystemCategoryLookup` extra entries | Added 3 systems beyond the doc's 5 examples | Found in real data, approved by user, clearly flagged as inference |
+| Vehicle Service year filter | Overlap, not containment | Doc's only example doesn't disambiguate; overlap is more forgiving and matches mechanic intent better |
+| Swagger | Added to Search/Vehicle, enabled unconditionally (not dev-gated) | User wanted an interactive way to see/test the APIs; neither service sits behind nginx yet, so there's no prod-exposure concern yet |
+| Search/Vehicle compose wiring | Both added as real `docker-compose.yml` services with `restart: unless-stopped`, host ports via override file | No reason left to keep them out once they had real logic; matches the existing ingestion dependency-chain pattern |
+| Search Type 3/4 result shape (revision) | Return all documents tied within `TieThreshold` (0.02 cosine distance) of the best match, not always exactly one | Live testing found real documents with byte-identical `anomalia` text → exact distance ties; picking one arbitrarily was an unstable, silently-wrong choice, not a real ranking result |
+| Chat tool list | Added a 4th tool, `SearchBySystem`, beyond v1's 3 | Search Service already has a tested `/api/search/system` endpoint; excluding it would be an arbitrary gap |
+| Chat session state | In-memory only, no persistence layer | Matches the doc's own unresolved Redis question; this is still a single-instance prototype |
+| Rule 7 replay mechanism | Conversation `History` + a synthetic factual turn, NOT a deterministic `PendingSearch` field | Tested the riskier option directly instead of assuming: 15/15 live trials across two scenarios correctly re-issued the original search with the right text and engine code, with no explicit re-prompt |
+| `engineCode`/`brand` in tool execution | Deterministically overridden from `Session`, never trusted from Gemini's own tool-call args | These are simple structured facts Chat Service already knows authoritatively - no reason to trust an LLM's echo of them, unlike free-text symptom/fault-code content |
+| Chat document-content fidelity | Gemini never sees or produces document/car content - it's parsed directly from the raw Search/Vehicle JSON in code; Gemini only writes the short "message" framing text | Live testing found a real bug: the original design asked Gemini to reproduce document fields in its JSON output, and the result was missing `intervento` (the actual repair instructions) |
+| Audio transcription mime type | Passed through as-is from the upload's `Content-Type`, no transcoding | No frontend exists yet to know what format it will actually send; verified working with a real WAV file, but browser recorders often produce `audio/webm`, which isn't in Gemini's documented supported list |
 
 ---
 
@@ -426,13 +671,16 @@ initialized later (see section 8).
   shown in the doc's folder tree — not renamed because it risked breaking
   IDE/workspace references; flag if this matters.
 - `nginx/nginx.conf` exists with the documented routing rules but is **not**
-  referenced by docker-compose — it would fail to resolve `chat-service`/
-  `search-service`/`vehicle-service`/`frontend` hostnames since those
-  containers don't exist yet.
-- No `.gitignore` exists yet (project isn't a git repo currently) —
-  `pgdata/`, `services/*/bin|obj`, and `.env` should be excluded if/when
-  one is added (the real Gemini key currently lives in plain `.env`).
-- No automated tests anywhere in the project yet.
+  referenced by docker-compose — it would still fail to resolve
+  `chat-service`/`frontend` hostnames (those don't exist as compose
+  services yet), even though `search-service`/`vehicle-service` now do
+  exist and could be added to nginx's upstream today.
+- `.gitignore` now exists (`pgdata/`, `services/*/bin|obj`, `.env`, etc.)
+  and the project is now a git repo with commits — the real Gemini key in
+  `.env` was never committed.
+- No automated tests anywhere in the project yet (Search/Vehicle were
+  verified manually against live Docker containers + live data, not via
+  an automated test suite).
 - `FaultCode.description` text is parsed from resx but has nowhere to live
   in the current schema (see section 5.1) — will need a decision (new
   table? property on an existing one?) before Search/Chat can surface it.
@@ -441,6 +689,18 @@ initialized later (see section 8).
   5.8) and that's all we built. The other 4 (Brand→Model, Model→Car,
   Document→HAS_SYMPTOM→Symptom, System→CONTAINS→Device) are not
   implemented — flagging in case a future session assumes they exist.
+- `chat-service` is fully built and tested but not yet a real
+  `docker-compose.yml` service (section 7) — was only ever run manually
+  on the compose network during testing.
+- No retry/backoff for failed Gemini calls in Chat Service (section 9.1
+  specifies 3 retries, 1s/2s/4s backoff) — currently fails straight to a
+  fixed apology message on the first error.
+- Chat's session state is in-memory/per-process — lost on restart, won't
+  work if Chat Service ever scales beyond one instance.
+- Audio transcription's mime-type handling is untested against a real
+  browser recording (no frontend exists yet) — verified only with a
+  generated WAV file; `MediaRecorder`'s typical `audio/webm` output isn't
+  in Gemini's documented supported list.
 
 ---
 
@@ -459,10 +719,32 @@ initialized later (see section 8).
   try/except only protects against *that record* failing the API call,
   not a DB-level failure). Acceptable for now; would want per-record or
   chunked commits before scaling to thousands of documents.
-- **Search/Vehicle/Chat skeletons:** intentionally incomplete — every
-  `NotImplementedException` is a known gap, not an oversight. `Npgsql`
-  package is referenced in `search`/`vehicle` `.csproj` files but unused
-  by any actual code yet. No `.sln` file ties the three projects together.
+- **Search/Vehicle:** both verified against real, live data via the actual
+  Docker image (not just `dotnet build` — `dotnet run` doesn't work
+  locally for these net8.0 projects since only the .NET 10 SDK is
+  installed). Four real bugs found and fixed in the process, all caught
+  by live-data testing rather than code review: two missing-`DISTINCT`
+  duplication bugs in `GraphSearchService` (`gup_rows` joins multiply
+  rows), the `ValidateSymptom` check-ordering bug (faithfully ported
+  from the doc, but unreachable as originally specified), and the Type
+  3/4 exact-distance-tie issue (section 6.1) — a real user-reported case
+  where the API returned a different document than expected because two
+  documents share identical `anomalia` text. No automated tests exist for
+  either service — verification was manual curl calls against a running
+  container (first a temporary test container, now the real
+  `docker compose` services).
+- **Chat:** verified against the real Gemini API and the real Search/
+  Vehicle services throughout, not mocks - including a real spoken audio
+  file for transcription. Three real bugs found and fixed during the
+  work, all caught by live testing rather than code/design review: the
+  `ToolDefinitions.All` static-init-order bug (would have been a silent
+  list of nulls at runtime), the missing Rule 9 question text (Gemini
+  just echoed the raw validation string instead of asking anything
+  useful), and the big one - document content (`intervento` above all)
+  going missing because the original design round-tripped it through
+  Gemini's JSON output instead of splicing it from the real service
+  response. No automated tests exist; no `.sln` file ties the four
+  projects together.
 - **No secrets at risk in shared text, but real secret now exists
   on disk:** `.env` contains a real Gemini API key as of this update —
   previously it was only dummy Postgres credentials. If this project is
@@ -473,11 +755,23 @@ initialized later (see section 8).
 
 ## 11. Suggested next step
 
-Ingestion (both halves) is now fully done and verified — xlsx, resx
-parsing, the graph, and real embeddings all exist and are idempotent.
-Per the roadmap order, the natural next step is implementing **Vehicle
-Service** for real (simplest — pure SQL filtering over `gup_rows`, no
-embeddings/graph needed), then wiring it into `docker-compose.yml`.
-**Search Service** is also now actually unblocked (its data dependencies
-all exist), so it could reasonably go next instead if that's preferred
-over strict roadmap order.
+**All three services in the original roadmap (Vehicle → Search → Chat)
+are now fully built and verified against live data** — including Chat's
+Gemini orchestration, SSE streaming, and audio transcription, all tested
+against the real APIs, not mocks. Nothing functionally outstanding remains
+from the application logic itself; what's left is infrastructure wiring:
+
+1. Add `chat-service` to `docker-compose.yml` (mechanically the same step
+   already done for search/vehicle — see section 7 for the exact shape
+   needed) so `docker compose up -d` runs the whole working stack with one
+   command, chat included.
+2. Point `nginx/nginx.conf` at the real `search-service`/`vehicle-service`/
+   `chat-service` containers and wire it into compose — it currently only
+   has the documented routing rules.
+3. `frontend/` is still an empty placeholder — nothing built. This is the
+   first point where the project would actually need one to be usable
+   end-to-end by a mechanic, and where the audio-transcription mime-type
+   gap (section 9) would get a real answer.
+4. Everything gated on the company meeting (section 9: real document
+   count, full brand list, production SQL Server access, auth model) is
+   still pending and unblocked by nothing we can do locally.

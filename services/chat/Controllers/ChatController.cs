@@ -1,3 +1,4 @@
+using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
 using ChatService.Models;
 using ChatService.Services;
@@ -8,20 +9,53 @@ namespace ChatService.Controllers;
 [Route("api/chat")]
 public class ChatController : ControllerBase
 {
-    private readonly RepairOrchestrator _orchestrator;
+    // camelCase to match what ASP.NET Core's MVC formatter would produce -
+    // this endpoint writes to the response body manually (SSE), bypassing
+    // that formatter, so it needs its own explicit options to stay
+    // consistent with every other endpoint's JSON casing.
+    private static readonly JsonSerializerOptions JsonOptions = new(JsonSerializerDefaults.Web);
 
-    public ChatController(RepairOrchestrator orchestrator)
+    private readonly RepairOrchestrator _orchestrator;
+    private readonly GeminiChatClient _gemini;
+
+    public ChatController(RepairOrchestrator orchestrator, GeminiChatClient gemini)
     {
         _orchestrator = orchestrator;
+        _gemini = gemini;
     }
 
-    // POST /api/chat/stream - SSE streaming
+    // POST /api/chat/stream - SSE streaming. Each ChatResponse yielded by
+    // RepairOrchestrator (e.g. Rule 4's confirmation message, then the
+    // actual result) becomes one SSE "data:" event, flushed immediately so
+    // the frontend sees the confirmation before the search even runs.
     [HttpPost("stream")]
-    public Task Stream([FromBody] ChatRequest request) =>
-        throw new NotImplementedException();
+    public async Task Stream([FromBody] ChatRequest request, CancellationToken cancellationToken)
+    {
+        Response.ContentType = "text/event-stream";
+        Response.Headers.CacheControl = "no-cache";
 
-    // POST /api/chat/transcribe - audio transcription via Gemini
+        await foreach (var chunk in _orchestrator.HandleMessageAsync(request).WithCancellation(cancellationToken))
+        {
+            var json = JsonSerializer.Serialize(chunk, JsonOptions);
+            await Response.WriteAsync($"data: {json}\n\n", cancellationToken);
+            await Response.Body.FlushAsync(cancellationToken);
+        }
+    }
+
+    // POST /api/chat/transcribe - audio transcription via Gemini. The
+    // browser's actual recording format (e.g. MediaRecorder's audio/webm)
+    // isn't in Gemini's officially documented supported list (wav, mp3,
+    // aiff, aac, ogg, flac) - passed through as-is since there's no
+    // frontend yet to confirm what it will actually send; a real gap to
+    // verify once one exists, not silently assumed to work.
     [HttpPost("transcribe")]
-    public Task<string> Transcribe() =>
-        throw new NotImplementedException();
+    public async Task<string> Transcribe(IFormFile audio)
+    {
+        using var stream = new MemoryStream();
+        await audio.CopyToAsync(stream);
+        var base64 = Convert.ToBase64String(stream.ToArray());
+        var mimeType = string.IsNullOrWhiteSpace(audio.ContentType) ? "audio/wav" : audio.ContentType;
+
+        return await _gemini.TranscribeAsync(mimeType, base64);
+    }
 }

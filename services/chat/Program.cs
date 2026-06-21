@@ -4,6 +4,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddHttpClient<RepairOrchestrator>();
+builder.Services.AddHttpClient<GeminiChatClient>();
+builder.Services.AddSingleton<SessionStore>();
 
 var app = builder.Build();
 
