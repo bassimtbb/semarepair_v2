@@ -15,8 +15,12 @@ public class VehicleController : ControllerBase
         _vehicleSearch = vehicleSearch;
     }
 
-    // GET /api/vehicles?brand=FIAT&model=Ducato&yearFrom=2000&yearTo=2002&fuel=Diesel
-    // GET /api/vehicles?engineCode=F1AE0481C
+    // GET /api/vehicles?marca=FIAT&modello=Ducato&annoInizio=2000&annoFine=2002&alimentazione=Diesel
+    // GET /api/vehicles?marca=FORD&modello=Ecosport&motorizzazione=1.5 TDCi
+    // GET /api/vehicles?codiceMotore=F1AE0481C
+    // Italian query params - a deliberate deviation from
+    // docs/SemaRepair_Architecture.md section 6.5 (English params), see
+    // progress.md's decisions log.
     [HttpGet]
     public Task<VehicleResponse> Search([FromQuery] VehicleQuery query) =>
         _vehicleSearch.SearchAsync(query);
