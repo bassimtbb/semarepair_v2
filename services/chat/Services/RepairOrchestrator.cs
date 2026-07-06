@@ -16,14 +16,16 @@ public class RepairOrchestrator
     private readonly HttpClient _httpClient;
     private readonly GeminiChatClient _gemini;
     private readonly SessionStore _sessions;
+    private readonly ILogger<RepairOrchestrator> _logger;
     private readonly string _searchServiceUrl;
     private readonly string _vehicleServiceUrl;
 
-    public RepairOrchestrator(HttpClient httpClient, GeminiChatClient gemini, SessionStore sessions, IConfiguration configuration)
+    public RepairOrchestrator(HttpClient httpClient, GeminiChatClient gemini, SessionStore sessions, IConfiguration configuration, ILogger<RepairOrchestrator> logger)
     {
         _httpClient = httpClient;
         _gemini = gemini;
         _sessions = sessions;
+        _logger = logger;
         _searchServiceUrl = configuration["SEARCH_SERVICE_URL"] ?? "";
         _vehicleServiceUrl = configuration["VEHICLE_SERVICE_URL"] ?? "";
     }
@@ -31,6 +33,7 @@ public class RepairOrchestrator
     public async IAsyncEnumerable<ChatResponse> HandleMessageAsync(ChatRequest request)
     {
         var session = _sessions.GetOrCreate(request.SessionId);
+        _logger.LogInformation("[history-check] session={SessionId} historyOnArrival={Count}", request.SessionId, session.History.Count);
 
         // Rule 5/8: a newly confirmed (or changed) car. Compare by
         // ConfirmedCarId first - ConfirmedCodiceMotore alone can be
