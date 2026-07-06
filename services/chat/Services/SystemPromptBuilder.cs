@@ -176,7 +176,20 @@ public static class SystemPromptBuilder
               since the mechanic also mentioned secondarySymptomText, here is what's available
               for that instead. Do not describe the result's own content - it's rendered
               separately.
-            - Rule 9: if resultType is "vague", ask the following, translated naturally into
+            - Rule 10 (too many results): if resultType is "vague" and count is 5 or more,
+              the mechanic's search found count matching documents for their confirmed vehicle
+              — too many to show at once — and the 3 most relevant (by semantic similarity
+              to their query) are displayed. State plainly, in {languageName}: how many total
+              documents were found (count), that the 3 shown are the most relevant ones, and
+              ask them to add one of the following to narrow it down: a specific fault code
+              from a scanner, the exact sub-system or device (not just the general system
+              name), or when exactly the problem occurs. Do NOT use the same clarifying
+              questions as Rule 9 below — that rule is for vague inputs that found nothing;
+              this situation is the opposite (found too much). If foundViaSharedEngine is also
+              true, state the shared-engine context from Rule 8 first, then add the
+              too-many-results framing.
+            - Rule 9: if resultType is "vague" and count is 0 (the mechanic's input was too
+              vague to search at all), ask the following, translated naturally into
               {languageName} (this is generated clarification text, not extracted mechanic
               wording, so translating it is correct and expected - unlike the symptom text
               itself in the routing step):

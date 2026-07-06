@@ -67,11 +67,11 @@ public class SearchController : ControllerBase
 
         var docs = await _graphSearch.GetDocumentsForCarsAndFaultAsync(confirmedCarIds, code, lang);
         if (docs.Count > 0)
-            return await BuildDocumentResponseAsync(docs, lang);
+            return await BuildDocumentResponseAsync(docs, lang, code);
 
         // Rule 8: determine the fault's System from ANY car's matching documents.
         var systems = await _graphSearch.GetSystemsForFaultAsync(code, lang);
-        var fallback = await TryFallbackAsync(confirmedCarIds, codiceMotore, lang, systems,
+        var fallback = await TryFallbackAsync(confirmedCarIds, codiceMotore, lang, code, systems,
             sharedCarIds => _graphSearch.GetDocumentsForCarsAndFaultAsync(sharedCarIds, code, lang));
         return fallback ?? NotFoundResponse();
     }
@@ -115,9 +115,9 @@ public class SearchController : ControllerBase
 
         var docs = await _graphSearch.GetDocumentsForCarsAndKeywordAsync(confirmedCarIds, name, lang);
         if (docs.Count > 0)
-            return await BuildDocumentResponseAsync(docs, lang);
+            return await BuildDocumentResponseAsync(docs, lang, name);
 
-        var fallback = await TryFallbackAsync(confirmedCarIds, codiceMotore, lang, [name],
+        var fallback = await TryFallbackAsync(confirmedCarIds, codiceMotore, lang, name, [name],
             sharedCarIds => _graphSearch.GetDocumentsForCarsAndKeywordAsync(sharedCarIds, name, lang));
         return fallback ?? NotFoundResponse();
     }
@@ -250,6 +250,7 @@ public class SearchController : ControllerBase
         List<string> confirmedCarIds,
         string codiceMotore,
         string language,
+        string queryText,
         IReadOnlyCollection<string> systemsToCheck,
         Func<List<string>, Task<List<string>>> searchWithCars)
     {
@@ -262,7 +263,7 @@ public class SearchController : ControllerBase
         var fallbackDocs = await searchWithCars(sharedCarIds);
         if (fallbackDocs.Count == 0) return null;
 
-        var response = await BuildDocumentResponseAsync(fallbackDocs, language);
+        var response = await BuildDocumentResponseAsync(fallbackDocs, language, queryText);
         var sharedInfo = await BuildSharedEngineInfoAsync(fallbackDocs, sharedCarIds, codiceMotore);
         foreach (var doc in response.Documents)
         {
@@ -307,19 +308,52 @@ public class SearchController : ControllerBase
 
     // --- Response builders ---
 
-    // Rule 10 (Type 1/2 only - see decision A): ordered by reliability,
-    // truncated to 3 with a clarification hint once there are 5+ matches.
-    private async Task<SearchResponse> BuildDocumentResponseAsync(List<string> docIds, string language)
+    // Rule 10 (Type 1/2 only): 1-4 docs → return all, ordered by reliability.
+    // 5+ docs → vector-rerank the full set using queryText (the fault code or
+    // system name the mechanic searched for), return the 3 closest, and signal
+    // resultType="vague" so BuildFormatting generates a "here are the 3 most
+    // relevant, add more detail to narrow it down" message. Count preserves the
+    // total (N) so Gemini can tell the mechanic how many were found, not just 3.
+    private async Task<SearchResponse> BuildDocumentResponseAsync(
+        List<string> docIds, string language, string queryText)
     {
         var documents = (await _documentContent.GetDocumentResultsAsync(docIds, language))
             .OrderByDescending(d => d.Reliability)
             .ToList();
 
-        string? validationMessage = null;
         if (documents.Count >= 5)
         {
-            documents = documents.Take(3).ToList();
-            validationMessage = "Puoi essere più specifico?";
+            var totalCount = documents.Count;
+            var ranked = await _vectorSearch.RankWithinSetAsync(queryText, docIds, language);
+            List<DocumentResult> top3;
+            if (ranked.Count > 0)
+            {
+                // Preserve distance order (closest first); docs without an
+                // embedding in document_embeddings are simply absent from
+                // ranked and fall back to whatever reliability-sorted docs
+                // were already loaded.
+                var top3Ids = ranked.Take(3).Select(r => r.IdDocumento).ToList();
+                top3 = top3Ids
+                    .Select(id => documents.FirstOrDefault(d => d.IdDocumento == id))
+                    .Where(d => d is not null)
+                    .Cast<DocumentResult>()
+                    .ToList();
+                if (top3.Count < 3)
+                    top3.AddRange(documents.Where(d => !top3Ids.Contains(d.IdDocumento)).Take(3 - top3.Count));
+            }
+            else
+            {
+                top3 = documents.Take(3).ToList();
+            }
+
+            return new SearchResponse
+            {
+                ResultType = "vague",
+                Count = totalCount,
+                SelectionNeeded = true,
+                Documents = top3,
+                ValidationMessage = "Puoi essere più specifico?",
+            };
         }
 
         return new SearchResponse
@@ -327,7 +361,6 @@ public class SearchController : ControllerBase
             ResultType = documents.Count > 0 ? "document" : "not_found",
             Count = documents.Count,
             Documents = documents,
-            ValidationMessage = validationMessage,
         };
     }
 
