@@ -29,8 +29,11 @@ public class CarOption
     public string? Motorizzazione { get; set; }
 
     public string CodiceMotore { get; set; } = "";
+    public string? Alimentazione { get; set; }
     public int? AnnoInizio { get; set; }
     public int? AnnoFine { get; set; }
+    public int? Kw { get; set; }
+    public int? Cavalli { get; set; }
 }
 
 // All fields here are spliced directly from Search Service's raw
@@ -41,6 +44,7 @@ public class CaseSummary
 {
     public string IdDocumento { get; set; } = "";
     public string Sigla { get; set; } = "";
+    public string Titolo { get; set; } = "";
     public string Impianto { get; set; } = "";
     public string Dispositivo { get; set; } = "";
     public string Anomalia { get; set; } = "";
@@ -50,5 +54,15 @@ public class CaseSummary
     public string Nota { get; set; } = "";
     public int Reliability { get; set; }
     public string Language { get; set; } = "";
-    public List<string> DtcCodes { get; set; } = [];
+    public List<FaultCodeInfo> DtcCodes { get; set; } = [];
+}
+
+// Description is the DTC code's own explanation, spliced directly from
+// Search Service's raw JSON (graph_edges.description on the
+// CONTAINS_FAULT edge) - same fidelity reasoning as the rest of
+// CaseSummary, never invented or merged across documents.
+public class FaultCodeInfo
+{
+    public string Code { get; set; } = "";
+    public string? Description { get; set; }
 }

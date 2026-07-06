@@ -22,10 +22,10 @@ public static class ToolDefinitions
         Name = "FindCar",
         Description =
             "Finds vehicles matching the given criteria. Use when the mechanic describes " +
-            "their vehicle (brand, model, year, fuel type, engine code) and no car is " +
-            "confirmed yet for this session (Rule 7: if a symptom is mentioned in the same " +
-            "message, identify the car first and search for the symptom only after the " +
-            "mechanic confirms which car).",
+            "their vehicle (brand, model, year, fuel type, engine - descriptive label or " +
+            "internal code) and no car is confirmed yet for this session (Rule 7: if a " +
+            "symptom is mentioned in the same message, identify the car first and search for " +
+            "the symptom only after the mechanic confirms which car).",
         Parameters = new JsonObject
         {
             ["type"] = "object",
@@ -35,8 +35,22 @@ public static class ToolDefinitions
                 ["model"] = StringParam("Vehicle model, e.g. Ducato, Focus."),
                 ["yearFrom"] = IntParam("Earliest production year to match, if mentioned."),
                 ["yearTo"] = IntParam("Latest production year to match, if mentioned."),
-                ["fuel"] = StringParam("Fuel type, e.g. Diesel, Benzina."),
-                ["engineCode"] = StringParam("Engine code, if the mechanic states it directly."),
+                ["fuel"] = StringParam(
+                    "Fuel type, translated into exactly one of these 4 fixed database values " +
+                    "(never the mechanic's own language/spelling): \"Diesel\", \"Benzina\", " +
+                    "\"Gas\", \"Benzina/Elettrico\". E.g. Spanish \"diésel\"/\"gasolina\" -> " +
+                    "\"Diesel\"/\"Benzina\"; French \"essence\" -> \"Benzina\"; English " +
+                    "\"petrol\"/\"gas\" -> \"Benzina\". Unlike symptom/system text, this is a " +
+                    "structured filter value, not free text - it must match the database's " +
+                    "fixed vocabulary exactly, regardless of what language the mechanic used."),
+                ["motorizzazione"] = StringParam(
+                    "The engine as the mechanic actually describes it, e.g. \"1.5 TDCi 8v\", " +
+                    "\"2.0 HDi\". This is what mechanics normally say - use this field for it."),
+                ["engineCode"] = StringParam(
+                    "An internal engine code, a short alphanumeric string like \"XVJB\" or " +
+                    "\"F1AE0481C\" - NOT a descriptive label like \"1.5 TDCi 8v\" (that goes in " +
+                    "motorizzazione instead). Mechanics essentially never know this from memory; " +
+                    "only use it if they read one out from a document or a previous result."),
                 ["kw"] = IntParam("Engine power in kW, if mentioned."),
             },
         },
@@ -79,6 +93,20 @@ public static class ToolDefinitions
                 ["symptom"] = StringParam("The cleaned symptom description, in the mechanic's own language and exact words."),
                 ["engineCode"] = StringParam("The session's confirmed engine code, if a car has been confirmed."),
                 ["brand"] = StringParam("The session's confirmed vehicle brand, if known."),
+                ["confirmLowConfidenceMatch"] = BoolParam(
+                    "Set to true ONLY when the previous assistant turn asked whether the " +
+                    "mechanic wants to see a low-confidence/uncertain match, and this message " +
+                    "is a clear affirmative reply (e.g. \"sì\", \"yes\", \"ok\", \"mostramelo\", " +
+                    "\"show me\"). Re-issue the exact same symptom text as the search that " +
+                    "produced that offer. Omit or leave false otherwise."),
+                ["secondarySymptom"] = StringParam(
+                    "ONLY set when the mechanic's message describes two genuinely distinct, " +
+                    "separate faults (not two variants of the same problem) - see the symptom " +
+                    "cleaning rules. \"symptom\" gets the more specific of the two; this field " +
+                    "gets the other one, in the mechanic's own exact words, never invented or " +
+                    "paraphrased. If the first search finds nothing, this second symptom will " +
+                    "be searched automatically - it is never silently discarded. Omit when only " +
+                    "one symptom was described."),
             },
             ["required"] = new JsonArray("symptom"),
         },
@@ -116,4 +144,7 @@ public static class ToolDefinitions
 
     private static JsonObject IntParam(string description) =>
         new() { ["type"] = "integer", ["description"] = description };
+
+    private static JsonObject BoolParam(string description) =>
+        new() { ["type"] = "boolean", ["description"] = description };
 }

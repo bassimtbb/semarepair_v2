@@ -23,22 +23,32 @@ public class GeminiChatClient
 
     private readonly HttpClient _httpClient;
     private readonly string _apiKey;
+    private readonly GeminiPricing _pricing;
+    private readonly UsageLogger _usageLogger;
 
-    public GeminiChatClient(HttpClient httpClient, IConfiguration configuration)
+    public GeminiChatClient(HttpClient httpClient, IConfiguration configuration, GeminiPricing pricing, UsageLogger usageLogger)
     {
         _httpClient = httpClient;
         _apiKey = configuration["GEMINI_API_KEY"] ?? "";
+        _pricing = pricing;
+        _usageLogger = usageLogger;
     }
 
     // tools is omitted entirely (not sent as an empty array) when null/empty,
     // and jsonMode is the only generationConfig knob exposed - matches the
     // two distinct call shapes the orchestrator needs: a tool-routing call
     // (tools set, no JSON mode) and a formatting call (JSON mode, no tools).
+    // operation/sessionId carry no request behavior - they only label the
+    // usage row this call produces (docs/log-dashboard.md section 1.1), so
+    // the dashboard can tell a routing call's cost from a formatting
+    // call's, and tie both back to one mechanic's conversation.
     public async Task<GeminiTurn> GenerateAsync(
         IReadOnlyList<GeminiContent> contents,
         IReadOnlyList<GeminiFunctionDeclaration>? tools = null,
         string? systemInstruction = null,
-        bool jsonMode = false)
+        bool jsonMode = false,
+        string operation = "unspecified",
+        string? sessionId = null)
     {
         using var request = new HttpRequestMessage(
             HttpMethod.Post,
@@ -65,6 +75,38 @@ public class GeminiChatClient
         var content = parsed?.Candidates?.FirstOrDefault()?.Content
             ?? throw new InvalidOperationException("Gemini returned no candidates.");
 
+        // generateContent always returns real usageMetadata, unlike
+        // embedContent (docs/log-dashboard.md section 0) - these are
+        // measured tokens, not an estimate, so is_estimated stays false.
+        //
+        // completionTokens folds candidatesTokenCount (the visible reply)
+        // together with thoughtsTokenCount (2.5 Flash's hidden "thinking"
+        // tokens) - confirmed via a real direct API call that
+        // promptTokenCount + candidatesTokenCount alone doesn't add up to
+        // totalTokenCount; the gap is exactly thoughtsTokenCount, and
+        // Google bills thinking tokens at the same output rate as regular
+        // output (gemini-pricing.json's own note). Folding them here keeps
+        // this column consistent with both totalTokenCount and the cost
+        // figure computed from it, while raw_usage_json still preserves
+        // the verbatim, un-folded breakdown.
+        if (parsed?.UsageMetadata is { } usage)
+        {
+            var completionTokens = usage.CandidatesTokenCount + usage.ThoughtsTokenCount;
+            _usageLogger.Log(new UsageRecord
+            {
+                ServiceName = "chat-service",
+                Operation = operation,
+                Model = Model,
+                PromptTokens = usage.PromptTokenCount,
+                CompletionTokens = completionTokens,
+                TotalTokens = usage.TotalTokenCount,
+                IsEstimated = false,
+                CostUsd = _pricing.CalculateGenerateContentCost(Model, usage.PromptTokenCount, completionTokens),
+                SessionId = sessionId,
+                RawUsage = usage,
+            });
+        }
+
         return new GeminiTurn(content);
     }
 
@@ -83,7 +125,7 @@ public class GeminiChatClient
                 GeminiPart.OfText("Transcribe this audio exactly as spoken. Return ONLY the transcribed text, with no commentary, translation, or formatting."),
                 GeminiPart.OfInlineData(mimeType, base64Audio),
             ],
-        }]);
+        }], operation: "transcription");
         return turn.Text ?? "";
     }
 
@@ -106,11 +148,24 @@ public class GeminiChatClient
     private class GenerateContentResponse
     {
         [JsonPropertyName("candidates")] public List<Candidate>? Candidates { get; set; }
+        [JsonPropertyName("usageMetadata")] public UsageMetadata? UsageMetadata { get; set; }
     }
 
     private class Candidate
     {
         [JsonPropertyName("content")] public GeminiContent? Content { get; set; }
+    }
+
+    // Real, measured token counts Gemini's generateContent always returns
+    // alongside the response - see docs/log-dashboard.md section 0. Public
+    // so it can be stored verbatim as UsageRecord.RawUsage (the raw fact,
+    // not just the derived columns - see that record's own comment).
+    public class UsageMetadata
+    {
+        [JsonPropertyName("promptTokenCount")] public int PromptTokenCount { get; set; }
+        [JsonPropertyName("candidatesTokenCount")] public int CandidatesTokenCount { get; set; }
+        [JsonPropertyName("thoughtsTokenCount")] public int ThoughtsTokenCount { get; set; }
+        [JsonPropertyName("totalTokenCount")] public int TotalTokenCount { get; set; }
     }
 }
 

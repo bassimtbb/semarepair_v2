@@ -24,11 +24,16 @@ public class SessionStore
     // GetOrCreate for this sessionId starts completely fresh.
     public void Reset(string sessionId) => _sessions.TryRemove(sessionId, out _);
 
-    public void ConfirmCar(string sessionId, string engineCode, string? brand, string? carLabel)
+    // Dead code: RepairOrchestrator manages session fields directly
+    // (ConfirmCarAsync/StoreConfirmedCar) and never calls this method -
+    // confirmed live by grepping for callers. Kept in sync with the
+    // Italian field rename anyway since removing unused-but-harmless code
+    // wasn't asked for here.
+    public void ConfirmCar(string sessionId, string codiceMotore, string? marca, string? carLabel)
     {
         var session = GetOrCreate(sessionId);
-        session.ConfirmedEngineCode = engineCode;
-        session.ConfirmedBrand = brand;
+        session.ConfirmedCodiceMotore = codiceMotore;
+        session.ConfirmedMarca = marca;
         session.ConfirmedCarLabel = carLabel;
     }
 }

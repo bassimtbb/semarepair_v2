@@ -16,10 +16,17 @@ public class Session
 {
     public string SessionId { get; set; } = "";
 
-    // Rule 5: persists for the entire session. Rule 8 needs Brand too,
+    // Rule 5: persists for the entire session. Rule 8 needs Marca too,
     // since engine codes aren't unique across brands.
-    public string? ConfirmedEngineCode { get; set; }
-    public string? ConfirmedBrand { get; set; }
+    public string? ConfirmedCodiceMotore { get; set; }
+    public string? ConfirmedMarca { get; set; }
+
+    // idMacchina of the specific confirmed car, when known - the only
+    // unambiguous identity, since codiceMotore+marca alone can still match
+    // several trims (e.g. IVECO Daily III 35C-13/40C-13/45C-13 all share
+    // engine 8140.43S). Used to detect a *different car* confirmation even
+    // when the engine code happens to be the same - see RepairOrchestrator.
+    public string? ConfirmedCarId { get; set; }
 
     // Human-readable label for Rule 4's confirmation message, e.g.
     // "FIAT Ducato 2.3 JTD 16v (F1AE0481C)" - assembled once from the

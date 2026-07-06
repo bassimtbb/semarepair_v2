@@ -32,27 +32,41 @@ public class RepairOrchestrator
     {
         var session = _sessions.GetOrCreate(request.SessionId);
 
-        // Rule 5/8: a newly confirmed (or changed) car. Yield Rule 4's
-        // confirmation message immediately, and tell Gemini about it via a
-        // synthetic, purely factual turn - verified live (15/15 trials
-        // across two scenarios) that Gemini reliably re-issues the
-        // mechanic's earlier search with the engine code filled in from
-        // this alone, with no explicit re-prompt needed.
-        if (!string.IsNullOrWhiteSpace(request.ConfirmedEngineCode) &&
-            request.ConfirmedEngineCode != session.ConfirmedEngineCode)
-        {
-            var carLabel = await ConfirmCarAsync(session, request.ConfirmedEngineCode, request.ConfirmedBrand);
-            yield return new ChatResponse
-            {
-                Phase = "chat",
-                Found = false,
-                Message = BuildConfirmationMessage(carLabel, request.Language),
-            };
+        // Rule 5/8: a newly confirmed (or changed) car. Compare by
+        // ConfirmedCarId first - ConfirmedCodiceMotore alone can be
+        // unchanged while the mechanic picks a *different* car (e.g.
+        // switching between two IVECO Daily III trims that share engine
+        // 8140.43S), which a plain codiceMotore comparison would miss
+        // entirely. Only fall back to comparing codiceMotore when no id
+        // was supplied at all.
+        var confirmingNewCar = !string.IsNullOrWhiteSpace(request.ConfirmedCarId)
+            ? request.ConfirmedCarId != session.ConfirmedCarId
+            : !string.IsNullOrWhiteSpace(request.ConfirmedCodiceMotore) && request.ConfirmedCodiceMotore != session.ConfirmedCodiceMotore;
 
+        if (confirmingNewCar)
+        {
+            // No hardcoded "Veicolo confermato: ..." yield here anymore -
+            // it was always redundant: the routing call below (which runs
+            // unconditionally right after, processing request.Message with
+            // this synthetic fact already in History) produces its own
+            // natural acknowledgment, or replays the original search
+            // (Rule 7) when one was pending. The frontend's own synthetic
+            // "Confermo il veicolo: ..." user message is suppressed the
+            // same way (ChatStore.confirmCar), for the same reason - two
+            // robotic confirmation bubbles before Gemini's real reply.
+            // ConfirmCarAsync's return value (a label) is no longer needed
+            // here for that reason, only its side effect (storing the
+            // confirmed car in session).
+            await ConfirmCarAsync(session, request.ConfirmedCarId, request.ConfirmedCodiceMotore, request.ConfirmedMarca);
+
+            // Built from session's now-authoritative values (resolved by
+            // ConfirmCarAsync from the specific car id when given), not
+            // the raw request fields - keeps Gemini's fact turn consistent
+            // with whatever was actually confirmed.
             session.History.Add(new GeminiContent
             {
                 Role = "user",
-                Parts = [GeminiPart.OfText(BuildConfirmationFact(request.ConfirmedEngineCode, request.ConfirmedBrand))],
+                Parts = [GeminiPart.OfText(BuildConfirmationFact(session.ConfirmedCodiceMotore, session.ConfirmedMarca))],
             });
         }
 
@@ -66,7 +80,9 @@ public class RepairOrchestrator
             routingTurn = await _gemini.GenerateAsync(
                 session.History,
                 tools: ToolDefinitions.All,
-                systemInstruction: SystemPromptBuilder.BuildRouting(request.Language));
+                systemInstruction: SystemPromptBuilder.BuildRouting(request.Language),
+                operation: "routing",
+                sessionId: request.SessionId);
         }
         catch (Exception)
         {
@@ -124,7 +140,48 @@ public class RepairOrchestrator
         // result to Gemini and asked it to reproduce document fields in
         // its JSON output, and live testing found "intervento" - the
         // actual repair instructions - missing from the result.
-        var resultSummary = BuildResultSummary(rawResult);
+        // Only meaningful for SearchBySymptom (the only tool that ever sets
+        // lowConfidenceMatch - see SearchController.SymptomWithCarAsync) -
+        // the mechanic's affirmative reply to a previous low-confidence
+        // offer, decided by Gemini's own routing call from conversation
+        // context, same as how Rule 7's replay decision works.
+        var lowConfidenceConfirmed = routingTurn.FunctionCall.Name == "SearchBySymptom" &&
+            GetBool(routingTurn.FunctionCall.Args, "confirmLowConfidenceMatch");
+
+        // Two-distinct-faults handling: when the mechanic describes two
+        // separate problems in one message, the routing call keeps the
+        // discarded one in "secondarySymptom" instead of dropping it (see
+        // ToolDefinitions.cs/SystemPromptBuilder.BuildRouting). If the
+        // first (more specific) symptom finds nothing, automatically
+        // re-search with the second one - deterministically in C#, no
+        // extra Gemini round-trip - and use THAT result for the rest of
+        // this turn. Deliberately gated on a literal "not_found", never on
+        // a low-confidence match: those already have their own ask-first
+        // flow (Rule 8b/8c) and shouldn't be conflated with this one.
+        string? primarySymptomText = null;
+        string? secondarySymptomText = null;
+        var secondarySymptomTried = false;
+        if (routingTurn.FunctionCall.Name == "SearchBySymptom" &&
+            IsNotFoundResult(rawResult) &&
+            GetString(routingTurn.FunctionCall.Args, "secondarySymptom") is { Length: > 0 } secondary)
+        {
+            primarySymptomText = GetString(routingTurn.FunctionCall.Args, "symptom");
+            secondarySymptomText = secondary;
+            secondarySymptomTried = true;
+            try
+            {
+                rawResult = await CallServiceAsync(BuildSymptomSearchUrl(secondary, routingTurn.FunctionCall.Args, session, request.Language));
+            }
+            catch (Exception)
+            {
+                // Secondary search itself failed (service hiccup, not "no
+                // match") - keep the original not_found result rather than
+                // losing the turn; Rule 9b still fires correctly since
+                // rawResult's resultType is still "not_found".
+            }
+        }
+
+        var resultSummary = BuildResultSummary(rawResult, lowConfidenceConfirmed, secondarySymptomTried, primarySymptomText, secondarySymptomText);
         session.History.Add(new GeminiContent
         {
             Role = "user",
@@ -144,7 +201,9 @@ public class RepairOrchestrator
         var formattingTurn = await _gemini.GenerateAsync(
             session.History,
             systemInstruction: SystemPromptBuilder.BuildFormatting(request.Language),
-            jsonMode: true);
+            jsonMode: true,
+            operation: "formatting",
+            sessionId: request.SessionId);
 
         string? message = null;
         if (formattingTurn.Text is not null)
@@ -161,18 +220,22 @@ public class RepairOrchestrator
             }
         }
 
-        yield return BuildChatResponse(rawResult, message);
+        yield return BuildChatResponse(rawResult, message, routingTurn.FunctionCall, request.Language, lowConfidenceConfirmed);
     }
 
     // phase/found/cases/carMatches are all derived directly from the real
     // Search/Vehicle Service response - never from Gemini's JSON output.
-    private static ChatResponse BuildChatResponse(JsonElement rawResult, string? message)
+    private static ChatResponse BuildChatResponse(
+        JsonElement rawResult, string? message, GeminiFunctionCall call, string language, bool lowConfidenceConfirmed)
     {
         if (rawResult.ValueKind == JsonValueKind.Object &&
             rawResult.TryGetProperty("cars", out var cars) &&
             cars.ValueKind == JsonValueKind.Array &&
             cars.GetArrayLength() > 0)
         {
+            // Unchanged from before this session's FindCar-not-found work -
+            // also correctly handles Search Service's own car-selection
+            // responses (Rule 1/2), not just FindCar's.
             return new ChatResponse
             {
                 Phase = "identification",
@@ -182,11 +245,63 @@ public class RepairOrchestrator
             };
         }
 
+        // Real bug found via live testing: Search Service's own response
+        // shape (fault-code/symptom/system) always includes an empty
+        // "cars": [] placeholder field *alongside* a real "documents"
+        // array - checking for "cars" presence alone (regardless of
+        // call.Name) made this branch wrongly fire for a SUCCESSFUL
+        // fault-code search, discarding the real found document and
+        // replacing it with a fabricated "vehicle not found" message.
+        // Gating on call.Name == "FindCar" is what actually distinguishes
+        // "this is Vehicle Service's empty result" from "Search Service's
+        // harmless empty placeholder field" - shape alone isn't enough.
+        if (call.Name == "FindCar" &&
+            rawResult.ValueKind == JsonValueKind.Object &&
+            rawResult.TryGetProperty("cars", out _))
+        {
+            // FindCar matched nothing - build the not-found message
+            // deterministically from VehicleResponse's real
+            // suggestedYearFrom/suggestedYearTo facts (set only when
+            // Vehicle Service's own fallback query found the brand+model
+            // for *some* year range - see VehicleSearchService), never
+            // from Gemini's free-text formatting call. Same fidelity
+            // principle as document content/car identity elsewhere in this
+            // build - the formatting call still runs (it doesn't know
+            // which tool produced rawResult), its "message" is just
+            // discarded here.
+            return new ChatResponse
+            {
+                Phase = "chat",
+                Found = false,
+                Message = BuildVehicleNotFoundMessage(
+                    BuildVehicleLabel(GetString(call.Args, "brand"), GetString(call.Args, "model"), language),
+                    BuildYearLabel(GetInt(call.Args, "yearFrom"), GetInt(call.Args, "yearTo")),
+                    GetInt(rawResult, "suggestedYearFrom"),
+                    GetInt(rawResult, "suggestedYearTo"),
+                    language),
+            };
+        }
+
         if (rawResult.ValueKind == JsonValueKind.Object &&
             rawResult.TryGetProperty("documents", out var docs) &&
             docs.ValueKind == JsonValueKind.Array &&
             docs.GetArrayLength() > 0)
         {
+            var first = docs.EnumerateArray().First();
+            var isLowConfidence = first.ValueKind == JsonValueKind.Object &&
+                first.TryGetProperty("lowConfidenceMatch", out var lc) && lc.ValueKind == JsonValueKind.True;
+
+            // Real bug fix (see progress.md section 6.20): a low-confidence
+            // match used to be shown immediately, with only the chat text
+            // disclaiming it - the document card itself looked just as
+            // confident as a real match. Now it's withheld entirely until
+            // the mechanic explicitly says they want to see it anyway
+            // (lowConfidenceConfirmed, decided by Gemini's routing call from
+            // conversation context) - the formatting call's message (Rule
+            // 8b) is the whole response this turn.
+            if (isLowConfidence && !lowConfidenceConfirmed)
+                return new ChatResponse { Phase = "chat", Found = false, Message = message };
+
             return new ChatResponse
             {
                 Phase = "chat",
@@ -201,14 +316,21 @@ public class RepairOrchestrator
     }
 
     // Metadata-only view of a Search/Vehicle Service result - resultType,
-    // count, and the Rule 8 transparency fields, never document/car
+    // count, and the Rule 8/8b transparency fields, never document/car
     // content. This is what Gemini actually sees, both in session.History
     // (so future routing turns don't see document bodies either) and as
     // input to the formatting call.
-    private static object BuildResultSummary(JsonElement rawResult)
+    private static bool IsNotFoundResult(JsonElement rawResult) =>
+        GetString(rawResult, "resultType") == "not_found";
+
+    private static object BuildResultSummary(
+        JsonElement rawResult, bool lowConfidenceConfirmed,
+        bool secondarySymptomTried, string? primarySymptomText, string? secondarySymptomText)
     {
         bool foundViaSharedEngine = false;
         string? sharedEngineInfo = null;
+        bool lowConfidenceMatch = false;
+        string? lowConfidenceReason = null;
         if (rawResult.ValueKind == JsonValueKind.Object &&
             rawResult.TryGetProperty("documents", out var docs) &&
             docs.ValueKind == JsonValueKind.Array)
@@ -219,6 +341,9 @@ public class RepairOrchestrator
                 foundViaSharedEngine = first.TryGetProperty("foundViaSharedEngine", out var f) &&
                     f.ValueKind == JsonValueKind.True;
                 sharedEngineInfo = GetString(first, "sharedEngineInfo");
+                lowConfidenceMatch = first.TryGetProperty("lowConfidenceMatch", out var lc) &&
+                    lc.ValueKind == JsonValueKind.True;
+                lowConfidenceReason = GetString(first, "lowConfidenceReason");
             }
         }
 
@@ -228,6 +353,12 @@ public class RepairOrchestrator
             count = GetInt(rawResult, "count"),
             foundViaSharedEngine,
             sharedEngineInfo,
+            lowConfidenceMatch,
+            lowConfidenceConfirmed,
+            lowConfidenceReason,
+            secondarySymptomTried,
+            primarySymptomText,
+            secondarySymptomText,
             validationMessage = GetString(rawResult, "validationMessage"),
             redirectedTo = GetString(rawResult, "redirectedTo"),
         };
@@ -240,14 +371,18 @@ public class RepairOrchestrator
         Modello = GetString(car, "modello") ?? "",
         Motorizzazione = GetString(car, "motorizzazione"),
         CodiceMotore = GetString(car, "codiceMotore") ?? "",
+        Alimentazione = GetString(car, "alimentazione"),
         AnnoInizio = GetInt(car, "annoInizio"),
         AnnoFine = GetInt(car, "annoFine"),
+        Kw = GetInt(car, "kw"),
+        Cavalli = GetInt(car, "cavalli"),
     };
 
     private static CaseSummary ParseCaseSummary(JsonElement doc) => new()
     {
         IdDocumento = GetString(doc, "idDocumento") ?? "",
         Sigla = GetString(doc, "siglaDocumento") ?? "",
+        Titolo = GetString(doc, "titolo") ?? "",
         Impianto = GetString(doc, "impianto") ?? "",
         Dispositivo = GetString(doc, "dispositivo") ?? "",
         Anomalia = GetString(doc, "anomalia") ?? "",
@@ -260,7 +395,11 @@ public class RepairOrchestrator
         DtcCodes = doc.ValueKind == JsonValueKind.Object &&
             doc.TryGetProperty("dtcCodes", out var codes) &&
             codes.ValueKind == JsonValueKind.Array
-                ? codes.EnumerateArray().Where(c => c.ValueKind == JsonValueKind.String).Select(c => c.GetString()!).ToList()
+                ? codes.EnumerateArray().Where(c => c.ValueKind == JsonValueKind.Object).Select(c => new FaultCodeInfo
+                    {
+                        Code = GetString(c, "code") ?? "",
+                        Description = GetString(c, "description"),
+                    }).ToList()
                 : [],
     };
 
@@ -279,13 +418,28 @@ public class RepairOrchestrator
             _ => throw new InvalidOperationException($"Unknown tool: {call.Name}"),
         };
 
+    // Query-string keys sent to Vehicle Service are Italian
+    // (marca/modello/annoInizio/annoFine/alimentazione/motorizzazione/codiceMotore) -
+    // Vehicle Service's own deliberate deviation from the architecture
+    // doc's English query params (see VehicleQuery.cs). Gemini's own
+    // function-call argument names below (the second argument to
+    // GetString/GetInt) are unrelated and stay English, matching
+    // ToolDefinitions.cs - only the outgoing HTTP query key changes.
+    //
+    // motorizzazione/engineCode map to two different Gemini args
+    // (ToolDefinitions.FindCar) on purpose - conflating them into one
+    // "engineCode" param was a real bug: a mechanic's free-text engine
+    // label ("1.5 TDCi 8v") landed in Vehicle Service's exact-match
+    // CodiceMotore filter, silently matching zero rows instead of the
+    // real ones.
     private string BuildFindCarUrl(JsonElement args) => BuildQuery($"{_vehicleServiceUrl}/api/vehicles",
-        ("brand", GetString(args, "brand")),
-        ("model", GetString(args, "model")),
-        ("yearFrom", GetInt(args, "yearFrom")?.ToString()),
-        ("yearTo", GetInt(args, "yearTo")?.ToString()),
-        ("fuel", GetString(args, "fuel")),
-        ("engineCode", GetString(args, "engineCode")),
+        ("marca", GetString(args, "brand")),
+        ("modello", GetString(args, "model")),
+        ("annoInizio", GetInt(args, "yearFrom")?.ToString()),
+        ("annoFine", GetInt(args, "yearTo")?.ToString()),
+        ("alimentazione", GetString(args, "fuel")),
+        ("motorizzazione", GetString(args, "motorizzazione")),
+        ("codiceMotore", GetString(args, "engineCode")),
         ("kw", GetInt(args, "kw")?.ToString()));
 
     // Engine code/brand are deterministically taken from session state
@@ -294,15 +448,38 @@ public class RepairOrchestrator
     // authoritatively knows, so there's no reason to trust an LLM's echo of
     // them over the session itself (unlike the search text/fault code,
     // which only the mechanic's own words can supply).
+    //
+    // Query-string keys sent to Search Service are Italian
+    // (codiceMotore/marca) - Search Service's own deliberate deviation
+    // from the architecture doc's English query params (see
+    // SearchRequest.cs), matching Vehicle Service's convention. Gemini's
+    // own function-call argument names below (the second argument to
+    // GetString) are unrelated and stay English, matching
+    // ToolDefinitions.cs - only the outgoing HTTP query key changes.
     private string BuildSearchUrl(string endpoint, string queryParam, string argName, JsonElement args, Session session, string language)
     {
-        var engineCode = session.ConfirmedEngineCode ?? GetString(args, "engineCode");
-        var brand = session.ConfirmedBrand ?? GetString(args, "brand");
+        var codiceMotore = session.ConfirmedCodiceMotore ?? GetString(args, "engineCode");
+        var marca = session.ConfirmedMarca ?? GetString(args, "brand");
         return BuildQuery($"{_searchServiceUrl}/api/search/{endpoint}",
             (queryParam, GetString(args, argName)),
-            ("engine", engineCode),
-            ("brand", brand),
+            ("codiceMotore", codiceMotore),
+            ("marca", marca),
             ("lang", language));
+    }
+
+    // Re-runs a symptom search with literal text rather than Gemini's own
+    // call args - used only for the secondary-symptom retry above, where
+    // the text to search ("secondarySymptom") is separate from the
+    // original call's "symptom" argument. engineCode/brand fallback
+    // mirrors BuildSearchUrl exactly (session's confirmed values take
+    // priority; originalArgs is the FIRST call's args, since Gemini never
+    // gave a separate engineCode/brand for the discarded symptom).
+    private string BuildSymptomSearchUrl(string symptomText, JsonElement originalArgs, Session session, string language)
+    {
+        var codiceMotore = session.ConfirmedCodiceMotore ?? GetString(originalArgs, "engineCode");
+        var marca = session.ConfirmedMarca ?? GetString(originalArgs, "brand");
+        return BuildQuery($"{_searchServiceUrl}/api/search/symptom",
+            ("q", symptomText), ("codiceMotore", codiceMotore), ("marca", marca), ("lang", language));
     }
 
     private async Task<JsonElement> CallServiceAsync(string url)
@@ -314,56 +491,164 @@ public class RepairOrchestrator
         return JsonDocument.Parse(raw).RootElement;
     }
 
-    // Looks up the confirmed car's full details (for Rule 4's label) and
-    // stores them in session - takes the first match if engineCode+brand
-    // still matches more than one trim/year-range; the label is purely
-    // informational text, not used for any further query scoping.
-    private async Task<string> ConfirmCarAsync(Session session, string engineCode, string? brand)
+    // Resolves the confirmed car and stores it in session. carId (the
+    // mechanic's actual card click - idMacchina) is the only unambiguous
+    // path: codiceMotore+marca alone can match several trims at once
+    // (e.g. IVECO Daily III 35C-13/40C-13/45C-13/50C-13 all share engine
+    // 8140.43S) - live testing confirmed clicking "40C-13" was silently
+    // resolved to "35C-13" because the old codiceMotore+marca lookup had
+    // no way to disambiguate and just took whatever row came back first.
+    // codiceMotore/marca are kept only as a fallback for callers that
+    // don't have a specific car id - that path can still be ambiguous,
+    // but it's no longer the primary one.
+    private async Task<string> ConfirmCarAsync(Session session, string? carId, string? codiceMotore, string? marca)
     {
-        session.ConfirmedEngineCode = engineCode;
-        session.ConfirmedBrand = brand;
+        if (!string.IsNullOrWhiteSpace(carId))
+        {
+            try
+            {
+                var car = await CallServiceAsync($"{_vehicleServiceUrl}/api/vehicles/{Uri.EscapeDataString(carId)}");
+                if (car.ValueKind == JsonValueKind.Object && car.TryGetProperty("idMacchina", out _))
+                {
+                    return StoreConfirmedCar(session, carId, car);
+                }
+            }
+            catch (Exception)
+            {
+                // Vehicle Service unreachable, or the id no longer exists -
+                // fall through to the codiceMotore/marca fallback below
+                // rather than failing the whole confirmation outright.
+            }
+        }
 
-        var url = BuildQuery($"{_vehicleServiceUrl}/api/vehicles", ("engineCode", engineCode), ("brand", brand));
+        if (string.IsNullOrWhiteSpace(codiceMotore))
+        {
+            // No id and no engine code at all - nothing to confirm against.
+            session.ConfirmedCarId = carId;
+            session.ConfirmedMarca = marca;
+            return marca ?? "";
+        }
+
+        var url = BuildQuery($"{_vehicleServiceUrl}/api/vehicles", ("codiceMotore", codiceMotore), ("marca", marca));
         try
         {
             var result = await CallServiceAsync(url);
             var car = result.GetProperty("cars").EnumerateArray().FirstOrDefault();
             if (car.ValueKind == JsonValueKind.Object)
             {
-                var label = $"{car.GetProperty("marca").GetString()} {car.GetProperty("modello").GetString()}" +
-                    (car.TryGetProperty("motorizzazione", out var m) && m.ValueKind == JsonValueKind.String ? $" {m.GetString()}" : "") +
-                    $" ({engineCode})";
-                session.ConfirmedCarLabel = label;
-                return label;
+                var resolvedId = car.TryGetProperty("idMacchina", out var idProp) ? idProp.GetString() : null;
+                return StoreConfirmedCar(session, resolvedId, car);
             }
         }
         catch (Exception)
         {
             // Vehicle Service unreachable - confirmation still proceeds
-            // (engineCode/brand are already stored above), just without a
-            // friendly label this turn.
+            // below, just without a friendly label this turn.
         }
 
-        return $"{brand} ({engineCode})".Trim();
+        session.ConfirmedCarId = carId;
+        session.ConfirmedCodiceMotore = codiceMotore;
+        session.ConfirmedMarca = marca;
+        var fallbackLabel = $"{marca} ({codiceMotore})".Trim();
+        session.ConfirmedCarLabel = fallbackLabel;
+        return fallbackLabel;
     }
 
-    private static string BuildConfirmationFact(string engineCode, string? brand) =>
-        $"Il meccanico ha confermato il veicolo. Motore: {engineCode}." + (brand is null ? "" : $" Marca: {brand}.");
-
-    // Fixed, short template text - hardcoded per language rather than
-    // asking Gemini to generate it, since it's the same sentence every
-    // time (no need for an extra API call for something this simple).
-    // Translations beyond Italian are my own, not verified by a native
-    // speaker - flagging since this is generated/templated text rather
-    // than text extracted from the mechanic's own words.
-    private static string BuildConfirmationMessage(string carLabel, string language) => language switch
+    private static string StoreConfirmedCar(Session session, string? carId, JsonElement car)
     {
-        "en" => $"Vehicle confirmed: {carLabel}. Describe the problem or enter a fault code.",
-        "fr" => $"Véhicule confirmé : {carLabel}. Décrivez le problème ou saisissez un code de panne.",
-        "pt" => $"Veículo confirmado: {carLabel}. Descreva o problema ou insira um código de falha.",
-        "es" => $"Vehículo confirmado: {carLabel}. Describe el problema o introduce un código de avería.",
-        _ => $"Veicolo confermato: {carLabel}. Descrivi il problema o inserisci un codice guasto.",
-    };
+        var codiceMotore = car.GetProperty("codiceMotore").GetString();
+        var marca = car.GetProperty("marca").GetString();
+        var label = $"{marca} {car.GetProperty("modello").GetString()}" +
+            (car.TryGetProperty("motorizzazione", out var m) && m.ValueKind == JsonValueKind.String ? $" {m.GetString()}" : "") +
+            $" ({codiceMotore})";
+
+        session.ConfirmedCarId = carId;
+        session.ConfirmedCodiceMotore = codiceMotore;
+        session.ConfirmedMarca = marca;
+        session.ConfirmedCarLabel = label;
+        return label;
+    }
+
+    private static string BuildConfirmationFact(string? codiceMotore, string? marca) =>
+        "Il meccanico ha confermato il veicolo." +
+        (codiceMotore is null ? "" : $" Motore: {codiceMotore}.") +
+        (marca is null ? "" : $" Marca: {marca}.");
+
+
+    // Distinct from the generic case below: brand+model genuinely exist in
+    // gup_rows for *some* year range (suggestedYearFrom/To are non-null,
+    // set only by Vehicle Service's own fallback query - never invented
+    // here), so the mechanic gets the real range instead of a blank "not
+    // found." requestedYearLabel is built from the mechanic's own
+    // yearFrom/yearTo args, which is guaranteed non-null whenever a
+    // suggestion exists - Vehicle Service only runs its fallback query
+    // when the original request had a year filter at all.
+    private static string BuildVehicleNotFoundMessage(
+        string vehicleLabel, string? requestedYearLabel, int? suggestedYearFrom, int? suggestedYearTo, string language)
+    {
+        if (suggestedYearFrom is null || suggestedYearTo is null)
+        {
+            return language switch
+            {
+                "en" => $"We don't have a {vehicleLabel} in our database.",
+                "fr" => $"Nous n'avons pas de {vehicleLabel} dans notre base de données.",
+                "pt" => $"Não temos um {vehicleLabel} na nossa base de dados.",
+                "es" => $"No tenemos un {vehicleLabel} en nuestra base de datos.",
+                _ => $"Non abbiamo un {vehicleLabel} a catalogo.",
+            };
+        }
+
+        // anno_fine_macchina uses 9999 to mean "still in production, no end
+        // year yet" - stating that literally ("until 9999") would read as
+        // nonsense to a mechanic, so it's phrased as "to today" instead.
+        var stillInProduction = suggestedYearTo == 9999;
+        var yearRangeText = language switch
+        {
+            "en" => stillInProduction ? $"from {suggestedYearFrom} to today" : $"from {suggestedYearFrom} to {suggestedYearTo}",
+            "fr" => stillInProduction ? $"de {suggestedYearFrom} à aujourd'hui" : $"de {suggestedYearFrom} à {suggestedYearTo}",
+            "pt" => stillInProduction ? $"de {suggestedYearFrom} até hoje" : $"de {suggestedYearFrom} a {suggestedYearTo}",
+            "es" => stillInProduction ? $"de {suggestedYearFrom} a hoy" : $"de {suggestedYearFrom} a {suggestedYearTo}",
+            _ => stillInProduction ? $"dal {suggestedYearFrom} a oggi" : $"dal {suggestedYearFrom} al {suggestedYearTo}",
+        };
+
+        return language switch
+        {
+            "en" => $"We don't have a {vehicleLabel} for {requestedYearLabel}, but we do have it {yearRangeText}.",
+            "fr" => $"Nous n'avons pas de {vehicleLabel} pour {requestedYearLabel}, mais nous l'avons {yearRangeText}.",
+            "pt" => $"Não temos um {vehicleLabel} para {requestedYearLabel}, mas temos {yearRangeText}.",
+            "es" => $"No tenemos un {vehicleLabel} para {requestedYearLabel}, pero lo tenemos {yearRangeText}.",
+            _ => $"Non abbiamo un {vehicleLabel} per il {requestedYearLabel}, ma è disponibile {yearRangeText}.",
+        };
+    }
+
+    // marca/modello come from Gemini's own FindCar call args (the
+    // mechanic's words, e.g. "FIAT"/"Panda") - falls back to a generic
+    // per-language word only if Gemini called FindCar with neither, which
+    // shouldn't happen in practice but isn't a crash-worthy condition.
+    private static string BuildVehicleLabel(string? marca, string? modello, string language)
+    {
+        var label = string.Join(" ", new[] { marca, modello }.Where(s => !string.IsNullOrWhiteSpace(s)));
+        if (label.Length > 0) return label;
+        return language switch
+        {
+            "en" => "vehicle",
+            "fr" => "véhicule",
+            "pt" => "veículo",
+            "es" => "vehículo",
+            _ => "veicolo",
+        };
+    }
+
+    // A single year ("2020") when only one bound was given or both match;
+    // a range ("2018-2020") when they differ. Null only when neither bound
+    // was given at all.
+    private static string? BuildYearLabel(int? yearFrom, int? yearTo)
+    {
+        if (yearFrom is null && yearTo is null) return null;
+        if (yearFrom is null) return yearTo.ToString();
+        if (yearTo is null || yearTo == yearFrom) return yearFrom.ToString();
+        return $"{yearFrom}-{yearTo}";
+    }
 
     private static ChatResponse ServiceUnavailableResponse(string language) => new()
     {
@@ -388,6 +673,9 @@ public class RepairOrchestrator
         args.ValueKind == JsonValueKind.Object && args.TryGetProperty(name, out var v) && v.ValueKind == JsonValueKind.Number
             ? v.GetInt32()
             : null;
+
+    private static bool GetBool(JsonElement args, string name) =>
+        args.ValueKind == JsonValueKind.Object && args.TryGetProperty(name, out var v) && v.ValueKind == JsonValueKind.True;
 
     private static string BuildQuery(string baseUrl, params (string Key, string? Value)[] parameters)
     {
