@@ -17,7 +17,7 @@ public class DocumentResult
 {
     public string IdDocumento { get; set; } = "";
     public string SiglaDocumento { get; set; } = "";
-    public string Title { get; set; } = "";
+    public string Titolo { get; set; } = "";
     public string Impianto { get; set; } = "";
     public string Dispositivo { get; set; } = "";
     public string Anomalia { get; set; } = "";
@@ -27,9 +27,25 @@ public class DocumentResult
     public string Nota { get; set; } = "";
     public int Reliability { get; set; }
     public string Language { get; set; } = "it";
-    public List<string> DtcCodes { get; set; } = [];
+    public List<FaultCodeInfo> DtcCodes { get; set; } = [];
     public bool FoundViaSharedEngine { get; set; }
     public string? SharedEngineInfo { get; set; }
+    // Set when the vector search found nothing within MaxRelevantDistance
+    // (see SearchController) - this is the nearest document available, not
+    // a confirmed match for the symptom described. LowConfidenceReason is
+    // the document's own real Impianto/Dispositivo, never invented text.
+    public bool LowConfidenceMatch { get; set; }
+    public string? LowConfidenceReason { get; set; }
+}
+
+// Description is the DTC code's own explanation, taken verbatim from this
+// specific document's resx text (graph_edges.description on the
+// CONTAINS_FAULT edge) - never invented, and never merged across
+// documents that might phrase the same code slightly differently.
+public class FaultCodeInfo
+{
+    public string Code { get; set; } = "";
+    public string? Description { get; set; }
 }
 
 public class CarSummary
@@ -39,6 +55,9 @@ public class CarSummary
     public string Modello { get; set; } = "";
     public string? Motorizzazione { get; set; }
     public string CodiceMotore { get; set; } = "";
+    public string? Alimentazione { get; set; }
     public int? AnnoInizio { get; set; }
     public int? AnnoFine { get; set; }
+    public int? Kw { get; set; }
+    public int? Cavalli { get; set; }
 }

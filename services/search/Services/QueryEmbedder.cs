@@ -15,11 +15,15 @@ public class QueryEmbedder
 
     private readonly HttpClient _httpClient;
     private readonly string _apiKey;
+    private readonly GeminiPricing _pricing;
+    private readonly UsageLogger _usageLogger;
 
-    public QueryEmbedder(HttpClient httpClient, IConfiguration configuration)
+    public QueryEmbedder(HttpClient httpClient, IConfiguration configuration, GeminiPricing pricing, UsageLogger usageLogger)
     {
         _httpClient = httpClient;
         _apiKey = configuration["GEMINI_API_KEY"] ?? "";
+        _pricing = pricing;
+        _usageLogger = usageLogger;
     }
 
     public async Task<float[]> EmbedAsync(string text)
@@ -40,8 +44,26 @@ public class QueryEmbedder
         response.EnsureSuccessStatusCode();
 
         var body = await response.Content.ReadFromJsonAsync<EmbedResponse>();
-        return body?.Embedding?.Values
+        var values = body?.Embedding?.Values
             ?? throw new InvalidOperationException("Gemini returned no embedding.");
+
+        // Gemini's embedContent response never returns real token usage,
+        // unlike generateContent - this is an estimate from input length,
+        // never a measured fact. See docs/log-dashboard.md section 0.
+        var estimatedTokens = _pricing.EstimateTokens(text);
+        _usageLogger.Log(new UsageRecord
+        {
+            ServiceName = "search-service",
+            Operation = "query_embed",
+            Model = Model,
+            PromptTokens = estimatedTokens,
+            TotalTokens = estimatedTokens,
+            IsEstimated = true,
+            CostUsd = _pricing.CalculateEmbeddingCost(Model, estimatedTokens),
+            RawUsage = new { estimated_from_text_length = text.Length },
+        });
+
+        return values;
     }
 
     private class EmbedRequest

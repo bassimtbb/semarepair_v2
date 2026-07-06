@@ -3,12 +3,16 @@ using SearchService.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+builder.Services.AddSingleton<GeminiPricing>();
+builder.Services.AddSingleton<UsageLogger>();
+builder.Services.AddHostedService<UsageLogBackgroundService>();
 builder.Services.AddHttpClient<QueryEmbedder>();
 builder.Services.AddSingleton<GraphSearchService>();
 builder.Services.AddSingleton<VectorSearchService>();
 builder.Services.AddSingleton<SymptomSearchService>();
 builder.Services.AddSingleton<ValidationService>();
 builder.Services.AddSingleton<DocumentContentService>();
+builder.Services.AddSingleton<UsageQueryService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

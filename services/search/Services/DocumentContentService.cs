@@ -45,7 +45,7 @@ public class DocumentContentService
                 {
                     IdDocumento = id,
                     SiglaDocumento = reader.IsDBNull(1) ? "" : reader.GetString(1),
-                    Title = reader.IsDBNull(2) ? "" : reader.GetString(2),
+                    Titolo = reader.IsDBNull(2) ? "" : reader.GetString(2),
                     Impianto = reader.IsDBNull(3) ? "" : reader.GetString(3),
                     Dispositivo = reader.IsDBNull(4) ? "" : reader.GetString(4),
                     Anomalia = reader.IsDBNull(5) ? "" : reader.GetString(5),
@@ -60,7 +60,7 @@ public class DocumentContentService
         }
 
         await using (var cmd = new NpgsqlCommand("""
-            SELECT from_id, to_id FROM graph_edges
+            SELECT from_id, to_id, description FROM graph_edges
             WHERE relation = 'CONTAINS_FAULT' AND language = @lang AND from_id = ANY(@ids)
             """, conn))
         {
@@ -71,7 +71,13 @@ public class DocumentContentService
             {
                 var id = reader.GetString(0);
                 if (byId.TryGetValue(id, out var doc))
-                    doc.DtcCodes.Add(reader.GetString(1));
+                {
+                    doc.DtcCodes.Add(new FaultCodeInfo
+                    {
+                        Code = reader.GetString(1),
+                        Description = reader.IsDBNull(2) ? null : reader.GetString(2),
+                    });
+                }
             }
         }
 

@@ -15,6 +15,18 @@ public class SearchController : ControllerBase
     // matches instead of arbitrarily picking one - see decision A revision.
     private const double TieThreshold = 0.02;
 
+    // Calibrated against real Gemini embeddings, not guessed: a true match
+    // ("spia motore accesa scarse prestazioni" -> its own document) scored
+    // 0.24, with a clear gap to the next candidate at 0.28. The single most
+    // topically-relevant real brake document available ("freni che
+    // stridono quando frenano" -> a real Freni/ABS document) scored 0.337,
+    // while a confirmed car's genuinely unrelated documents (injection/fuel
+    // faults) started at 0.398. Below this line a vector match is treated
+    // as a real answer (existing tie-grouping behavior, unchanged); at or
+    // above it, nothing in the candidate set actually answers the
+    // question - see the real bug this fixed in progress.md.
+    private const double MaxRelevantDistance = 0.35;
+
     private readonly GraphSearchService _graphSearch;
     private readonly VectorSearchService _vectorSearch;
     private readonly SymptomSearchService _symptomSearch;
@@ -35,19 +47,22 @@ public class SearchController : ControllerBase
         _documentContent = documentContent;
     }
 
-    // GET /api/search/fault-code?code=P2279&engine=XUJN&brand=FORD&lang=it
+    // GET /api/search/fault-code?code=P2279&codiceMotore=XUJN&marca=FORD&lang=it
+    // Italian query params (codiceMotore/marca) - a deliberate deviation
+    // from docs/SemaRepair_Architecture.md section 6.4 (English params),
+    // matching Vehicle Service's completed convention. See progress.md.
     [HttpGet("fault-code")]
     public async Task<SearchResponse> FaultCode(
-        [FromQuery] string code, [FromQuery] string? engine, [FromQuery] string? brand, [FromQuery] string lang = "it")
+        [FromQuery] string code, [FromQuery] string? codiceMotore, [FromQuery] string? marca, [FromQuery] string lang = "it")
     {
-        if (engine is null)
+        if (codiceMotore is null)
         {
             var carIds = await _graphSearch.GetCarIdsForFaultAsync(code, lang);
             if (carIds.Count == 0) return NotFoundResponse();
             return BuildCarSelectionResponse(await _graphSearch.GetCarSummariesAsync(carIds));
         }
 
-        var confirmedCarIds = await _graphSearch.ResolveCarIdsAsync(engine, brand);
+        var confirmedCarIds = await _graphSearch.ResolveCarIdsAsync(codiceMotore, marca);
         if (confirmedCarIds.Count == 0) return NotFoundResponse();
 
         var docs = await _graphSearch.GetDocumentsForCarsAndFaultAsync(confirmedCarIds, code, lang);
@@ -56,15 +71,15 @@ public class SearchController : ControllerBase
 
         // Rule 8: determine the fault's System from ANY car's matching documents.
         var systems = await _graphSearch.GetSystemsForFaultAsync(code, lang);
-        var fallback = await TryFallbackAsync(confirmedCarIds, engine, lang, systems,
+        var fallback = await TryFallbackAsync(confirmedCarIds, codiceMotore, lang, systems,
             sharedCarIds => _graphSearch.GetDocumentsForCarsAndFaultAsync(sharedCarIds, code, lang));
         return fallback ?? NotFoundResponse();
     }
 
-    // GET /api/search/symptom?q=ventola+radiatore&engine=F1AE0481C&brand=FIAT&lang=it
+    // GET /api/search/symptom?q=ventola+radiatore&codiceMotore=F1AE0481C&marca=FIAT&lang=it
     [HttpGet("symptom")]
     public async Task<SearchResponse> Symptom(
-        [FromQuery] string q, [FromQuery] string? engine, [FromQuery] string? brand, [FromQuery] string lang = "it")
+        [FromQuery] string q, [FromQuery] string? codiceMotore, [FromQuery] string? marca, [FromQuery] string lang = "it")
     {
         var validation = _validation.ValidateSymptom(q);
 
@@ -73,44 +88,44 @@ public class SearchController : ControllerBase
 
         if (validation.Type == ValidationResultType.RedirectToFaultCode)
         {
-            var redirected = await FaultCode(validation.FaultCode!, engine, brand, lang);
+            var redirected = await FaultCode(validation.FaultCode!, codiceMotore, marca, lang);
             redirected.RedirectedTo = validation.FaultCode;
             return redirected;
         }
 
-        return engine is null
+        return codiceMotore is null
             ? await SymptomWithoutCarAsync(q, lang)
-            : await SymptomWithCarAsync(q, engine, brand, lang);
+            : await SymptomWithCarAsync(q, codiceMotore, marca, lang);
     }
 
-    // GET /api/search/system?name=Iniezione&engine=F1AE0481C&brand=FIAT&lang=it
+    // GET /api/search/system?name=Iniezione&codiceMotore=F1AE0481C&marca=FIAT&lang=it
     [HttpGet("system")]
     public async Task<SearchResponse> System(
-        [FromQuery] string name, [FromQuery] string? engine, [FromQuery] string? brand, [FromQuery] string lang = "it")
+        [FromQuery] string name, [FromQuery] string? codiceMotore, [FromQuery] string? marca, [FromQuery] string lang = "it")
     {
-        if (engine is null)
+        if (codiceMotore is null)
         {
             var carIds = await _graphSearch.GetCarIdsForKeywordAsync(name, lang);
             if (carIds.Count == 0) return NotFoundResponse();
             return BuildCarSelectionResponse(await _graphSearch.GetCarSummariesAsync(carIds));
         }
 
-        var confirmedCarIds = await _graphSearch.ResolveCarIdsAsync(engine, brand);
+        var confirmedCarIds = await _graphSearch.ResolveCarIdsAsync(codiceMotore, marca);
         if (confirmedCarIds.Count == 0) return NotFoundResponse();
 
         var docs = await _graphSearch.GetDocumentsForCarsAndKeywordAsync(confirmedCarIds, name, lang);
         if (docs.Count > 0)
             return await BuildDocumentResponseAsync(docs, lang);
 
-        var fallback = await TryFallbackAsync(confirmedCarIds, engine, lang, [name],
+        var fallback = await TryFallbackAsync(confirmedCarIds, codiceMotore, lang, [name],
             sharedCarIds => _graphSearch.GetDocumentsForCarsAndKeywordAsync(sharedCarIds, name, lang));
         return fallback ?? NotFoundResponse();
     }
 
     // --- Search Type 3: symptom + confirmed car ---
-    private async Task<SearchResponse> SymptomWithCarAsync(string symptom, string engine, string? brand, string lang)
+    private async Task<SearchResponse> SymptomWithCarAsync(string symptom, string codiceMotore, string? marca, string lang)
     {
-        var carIds = await _graphSearch.ResolveCarIdsAsync(engine, brand);
+        var carIds = await _graphSearch.ResolveCarIdsAsync(codiceMotore, marca);
         if (carIds.Count == 0) return NotFoundResponse();
 
         var candidateDocs = await _graphSearch.GetDocumentsForCarsAsync(carIds);
@@ -131,13 +146,16 @@ public class SearchController : ControllerBase
             if (sharedDocs.Count == 0) return NotFoundResponse();
 
             var ranked = await _vectorSearch.RankWithinSetAsync(symptom, sharedDocs, lang);
-            if (ranked.Count == 0) return NotFoundResponse();
+            // Nothing close enough even among shared-engine vehicles - a
+            // real not-found, not a doubly-qualified "low confidence AND
+            // shared engine" guess (see MaxRelevantDistance).
+            if (ranked.Count == 0 || ranked[0].Distance > MaxRelevantDistance) return NotFoundResponse();
 
             var tiedIds = GetTiedDocumentIds(ranked);
             var response = await BuildVectorMatchResponseAsync(tiedIds, lang);
             if (response.Documents.Count > 0)
             {
-                var sharedInfo = await BuildSharedEngineInfoAsync(tiedIds, sharedCarIds, engine);
+                var sharedInfo = await BuildSharedEngineInfoAsync(tiedIds, sharedCarIds, codiceMotore);
                 foreach (var doc in response.Documents)
                 {
                     doc.FoundViaSharedEngine = true;
@@ -153,9 +171,29 @@ public class SearchController : ControllerBase
         // 2-4/5+ buckets to, but distance ties between distinct documents do
         // happen in real data and shouldn't collapse to one arbitrary pick.
         var rankedCandidates = await _vectorSearch.RankWithinSetAsync(symptom, candidateDocs, lang);
-        return rankedCandidates.Count == 0
-            ? NotFoundResponse()
-            : await BuildVectorMatchResponseAsync(GetTiedDocumentIds(rankedCandidates), lang);
+        if (rankedCandidates.Count == 0) return NotFoundResponse();
+
+        // Real bug found via a real query ("freni che stridono quando
+        // frenano" against a car whose only documents are injection/fuel
+        // faults): with no floor on relevance, the closest-but-unrelated
+        // document was returned as if it answered the question. Below
+        // MaxRelevantDistance, this is a genuine match (existing
+        // tie-grouping behavior, unchanged). At or above it, surface only
+        // the single nearest document, flagged as a low-confidence guess
+        // rather than a confirmed answer - Chat Service's formatting step
+        // is told not to present it as if it actually matched the symptom.
+        if (rankedCandidates[0].Distance > MaxRelevantDistance)
+        {
+            var nearest = await BuildVectorMatchResponseAsync([rankedCandidates[0].IdDocumento], lang);
+            foreach (var doc in nearest.Documents)
+            {
+                doc.LowConfidenceMatch = true;
+                doc.LowConfidenceReason = $"{doc.Impianto} - {doc.Dispositivo}";
+            }
+            return nearest;
+        }
+
+        return await BuildVectorMatchResponseAsync(GetTiedDocumentIds(rankedCandidates), lang);
     }
 
     // --- Search Type 4: symptom, no car confirmed ---
@@ -175,7 +213,13 @@ public class SearchController : ControllerBase
             ranked = await _symptomSearch.FindBestMatchesAsync(symptom, lang);
         }
 
-        if (ranked.Count == 0) return NotFoundResponse();
+        // No car confirmed yet, so this path can only ever surface a car
+        // list, never the document itself - there's no field to attach a
+        // "low confidence" disclaimer to a bare car list, so below
+        // MaxRelevantDistance this is a real not-found rather than a
+        // misleadingly confident car list (see the Type 3 fix above for
+        // the same underlying gap).
+        if (ranked.Count == 0 || ranked[0].Distance > MaxRelevantDistance) return NotFoundResponse();
 
         // Rule 1/2: never show the document itself before a car is confirmed -
         // so a distance tie between documents (see TieThreshold) just means
@@ -204,7 +248,7 @@ public class SearchController : ControllerBase
     // it needs vector reranking, not just a graph re-query). ---
     private async Task<SearchResponse?> TryFallbackAsync(
         List<string> confirmedCarIds,
-        string engineCode,
+        string codiceMotore,
         string language,
         IReadOnlyCollection<string> systemsToCheck,
         Func<List<string>, Task<List<string>>> searchWithCars)
@@ -219,7 +263,7 @@ public class SearchController : ControllerBase
         if (fallbackDocs.Count == 0) return null;
 
         var response = await BuildDocumentResponseAsync(fallbackDocs, language);
-        var sharedInfo = await BuildSharedEngineInfoAsync(fallbackDocs, sharedCarIds, engineCode);
+        var sharedInfo = await BuildSharedEngineInfoAsync(fallbackDocs, sharedCarIds, codiceMotore);
         foreach (var doc in response.Documents)
         {
             doc.FoundViaSharedEngine = true;
@@ -241,7 +285,7 @@ public class SearchController : ControllerBase
     // only names brands/models that actually produced a matching document,
     // not every car that merely shares the engine code.
     private async Task<string> BuildSharedEngineInfoAsync(
-        List<string> matchedDocIds, List<string> sharedCarIds, string engineCode)
+        List<string> matchedDocIds, List<string> sharedCarIds, string codiceMotore)
     {
         var relevantCarIds = new HashSet<string>();
         foreach (var docId in matchedDocIds)
@@ -258,7 +302,7 @@ public class SearchController : ControllerBase
             .Distinct()
             .OrderBy(s => s);
 
-        return $"Stesso motore ({engineCode}): {string.Join(", ", brandsModels)}";
+        return $"Stesso motore ({codiceMotore}): {string.Join(", ", brandsModels)}";
     }
 
     // --- Response builders ---

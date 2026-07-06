@@ -19,18 +19,18 @@ public class GraphSearchService
 
     // Resolves engine (+ optional brand) to the specific car(s) it refers
     // to. Engine code alone is not unique across brands in real data - see
-    // the Brand comment on SearchRequest.
-    public async Task<List<string>> ResolveCarIdsAsync(string engineCode, string? brand)
+    // the Marca comment on SearchRequest.
+    public async Task<List<string>> ResolveCarIdsAsync(string codiceMotore, string? marca)
     {
         await using var conn = Connect();
         await conn.OpenAsync();
         await using var cmd = new NpgsqlCommand("""
             SELECT DISTINCT id_macchina FROM gup_rows
-            WHERE codice_motore_macchina = @engine
-              AND (@brand::text IS NULL OR marca_macchina ILIKE @brand)
+            WHERE codice_motore_macchina = @codiceMotore
+              AND (@marca::text IS NULL OR marca_macchina ILIKE @marca)
             """, conn);
-        cmd.Parameters.AddWithValue("engine", engineCode);
-        cmd.Parameters.AddWithValue("brand", brand ?? (object)DBNull.Value);
+        cmd.Parameters.AddWithValue("codiceMotore", codiceMotore);
+        cmd.Parameters.AddWithValue("marca", marca ?? (object)DBNull.Value);
         return await ReadStringColumnAsync(cmd);
     }
 
@@ -189,7 +189,8 @@ public class GraphSearchService
         await using var cmd = new NpgsqlCommand("""
             SELECT DISTINCT gr.id_macchina, gr.marca_macchina, gr.modello_macchina,
                    gr.motorizzazione_macchina, gr.codice_motore_macchina,
-                   gr.anno_inizio_macchina, gr.anno_fine_macchina
+                   gr.anno_inizio_macchina, gr.anno_fine_macchina,
+                   gr.alimentazione_macchina, gr.kw_macchina, gr.cavalli_macchina
             FROM graph_edges ge
             JOIN gup_rows gr ON gr.id_macchina = ge.from_id
             WHERE ge.from_type = 'car' AND ge.to_type = 'document'
@@ -210,6 +211,9 @@ public class GraphSearchService
                 CodiceMotore = reader.GetString(4),
                 AnnoInizio = reader.IsDBNull(5) ? null : reader.GetInt32(5),
                 AnnoFine = reader.IsDBNull(6) ? null : reader.GetInt32(6),
+                Alimentazione = reader.IsDBNull(7) ? null : reader.GetString(7),
+                Kw = reader.IsDBNull(8) ? null : reader.GetInt32(8),
+                Cavalli = reader.IsDBNull(9) ? null : reader.GetInt32(9),
             });
         }
         return results;
@@ -226,7 +230,8 @@ public class GraphSearchService
         await using var cmd = new NpgsqlCommand("""
             SELECT DISTINCT id_macchina, marca_macchina, modello_macchina,
                    motorizzazione_macchina, codice_motore_macchina,
-                   anno_inizio_macchina, anno_fine_macchina
+                   anno_inizio_macchina, anno_fine_macchina,
+                   alimentazione_macchina, kw_macchina, cavalli_macchina
             FROM gup_rows
             WHERE id_macchina = ANY(@carIds)
             """, conn);
@@ -245,6 +250,9 @@ public class GraphSearchService
                 CodiceMotore = reader.GetString(4),
                 AnnoInizio = reader.IsDBNull(5) ? null : reader.GetInt32(5),
                 AnnoFine = reader.IsDBNull(6) ? null : reader.GetInt32(6),
+                Alimentazione = reader.IsDBNull(7) ? null : reader.GetString(7),
+                Kw = reader.IsDBNull(8) ? null : reader.GetInt32(8),
+                Cavalli = reader.IsDBNull(9) ? null : reader.GetInt32(9),
             });
         }
         return results;
