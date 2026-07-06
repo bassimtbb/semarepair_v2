@@ -1,0 +1,20 @@
+{
+  "_disclaimer": "Prices below are last confirmed against https://ai.google.dev/gemini-api/docs/pricing on prices_verified_at. Google changes pricing without notice - re-verify against the live pricing page before trusting cost_usd as an authoritative dollar figure, and update prices_verified_at when you do. Never edit cost_usd on existing rows when prices change - only new rows use the new price, same as a real invoice.",
+  "prices_verified_at": "2026-06-24",
+  "estimation": {
+    "characters_per_token": 4,
+    "_note": "Used only for embedContent calls (search-service's QueryEmbedder, ingestion-resx's embedder.py) - Gemini's embedContent response never returns real token usage, unlike generateContent. Rows using this estimate must be written with is_estimated = true."
+  },
+  "models": {
+    "gemini-2.5-flash": {
+      "input_price_per_million_tokens_usd": 0.30,
+      "output_price_per_million_tokens_usd": 2.50,
+      "_note": "Output price covers both regular and thinking output tokens at the same published rate."
+    },
+    "gemini-embedding-001": {
+      "input_price_per_million_tokens_usd": 0.15,
+      "output_price_per_million_tokens_usd": 0.0,
+      "_note": "Embedding models have no output tokens - kept at 0.0 only so every model entry has the same shape and reader code never needs a special case."
+    }
+  }
+}
