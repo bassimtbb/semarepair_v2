@@ -37,8 +37,18 @@ CREATE TABLE IF NOT EXISTS graph_edges (
     to_id       TEXT NOT NULL,
     language    TEXT,
     weight      FLOAT DEFAULT 1.0,
+    description TEXT,
     created_at  TIMESTAMPTZ DEFAULT NOW()
 );
+
+-- Only populated for CONTAINS_FAULT edges (the DTC code's own explanation,
+-- e.g. "Relazione interruttore freno 1-2 - Rapporto errato" for P0504),
+-- taken verbatim from the specific document's own resx text - see
+-- resx_parser.py's fault_code_descriptions. Added after graph_edges
+-- already existed in deployed databases, so CREATE TABLE IF NOT EXISTS
+-- above wouldn't add it on its own - this ALTER is what actually applies
+-- to an already-running database; idempotent, safe on every startup.
+ALTER TABLE graph_edges ADD COLUMN IF NOT EXISTS description TEXT;
 
 CREATE INDEX IF NOT EXISTS idx_graph_from     ON graph_edges (from_type, from_id);
 CREATE INDEX IF NOT EXISTS idx_graph_to       ON graph_edges (to_type, to_id);
@@ -78,3 +88,34 @@ CREATE TABLE IF NOT EXISTS ingestion_log (
     duration_seconds     INTEGER,
     notes                TEXT
 );
+
+-- One row per Gemini API call, written by whichever service made the call
+-- (chat-service, search-service, ingestion-resx) - see docs/log-dashboard.md.
+-- is_estimated is true for every embedContent-derived row (P0148-style
+-- fidelity rule: Gemini's embedContent response never returns token usage,
+-- unlike generateContent, so those rows can only ever carry an estimate,
+-- and that must stay visible rather than presented as a measured fact).
+-- cost_usd is computed once at write time from config/gemini-pricing.json
+-- and never recomputed in place - a later price change affects new rows
+-- only, like a real invoice. raw_usage_json keeps the verbatim source
+-- fact (the real usageMetadata object, or the estimation input) so cost
+-- can be recalculated later if pricing/estimation assumptions change.
+CREATE TABLE IF NOT EXISTS gemini_usage_log (
+    id                 BIGSERIAL PRIMARY KEY,
+    occurred_at        TIMESTAMPTZ DEFAULT NOW(),
+    service_name       TEXT NOT NULL,
+    operation          TEXT,
+    model              TEXT NOT NULL,
+    prompt_tokens      INTEGER,
+    completion_tokens  INTEGER,
+    total_tokens       INTEGER,
+    is_estimated       BOOLEAN NOT NULL DEFAULT FALSE,
+    cost_usd           NUMERIC(12, 8),
+    session_id         TEXT,
+    ingestion_run_id   INTEGER REFERENCES ingestion_log(id),
+    raw_usage_json     JSONB
+);
+
+CREATE INDEX IF NOT EXISTS idx_usage_occurred_at ON gemini_usage_log (occurred_at);
+CREATE INDEX IF NOT EXISTS idx_usage_service     ON gemini_usage_log (service_name);
+CREATE INDEX IF NOT EXISTS idx_usage_model       ON gemini_usage_log (model);
