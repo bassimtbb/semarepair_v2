@@ -1,0 +1,60 @@
+.bubble-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.bubble-row.user {
+  justify-content: flex-end;
+}
+
+.bubble {
+  max-width: 80%;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 12px;
+  padding: 10px 14px;
+  box-shadow: 0 1px 3px rgb(var(--shadow-color));
+  transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* A flex item's default width is shrink-to-fit (max-content), not "grow
+   to max-width" - max-width:80% above is only ever a ceiling, never
+   reached by a short text bubble, which is correct for those. A car
+   results bubble needs the opposite: width:100% (still capped at 80% by
+   max-width) so app-car-selection-list's own .car-grid actually has room
+   to lay out multiple columns - without this, the grid technically works
+   but every viewport renders exactly 1 column, since its container never
+   grows past minmax(220px,1fr)'s single-column minimum. Keyed off
+   .car-selection (the new component's host content) rather than the
+   inner .car-grid directly, so this still matches regardless of how that
+   component's internal markup changes later. */
+.bubble:has(.car-selection) {
+  width: 100%;
+}
+
+/* Wins over .bg-surface/.border-border (template utility classes) on
+   specificity alone - two classes vs. one, no !important needed - same
+   fixed accent color in both themes, this bubble doesn't follow the
+   page/card split above. */
+.bubble.user {
+  background: var(--color-accent);
+  color: var(--color-accent-foreground);
+  border-color: var(--color-accent);
+}
+
+.text {
+  font-size: 14px;
+  white-space: pre-wrap;
+}
+
+/* Car-selection results: responsive grid, 1 column on narrow viewports
+   widening to more as space allows - car-card's content dictates a
+   reasonable minimum width per card rather than a fixed column count,
+   so it naturally collapses on narrow screens without a breakpoint list.
+   Click-to-data binding is untouched by this layout change: Angular's
+   @for(...; track car.idMacchina) in message-bubble.component.ts binds
+   each app-car-card to its own car object directly - a CSS display
+   change here cannot remap which card's (select) emits which car. */
+.cards {
+  margin-top: 8px;
+}

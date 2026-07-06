@@ -1,0 +1,24 @@
+/* Angular component hosts default to display:block, which is just
+   another box in the flex flow - flex:1 on the inner div has no effect
+   on IT, since the inner div's parent (this host) is the actual flex
+   item being sized, and a block host sizes to its own content ("auto"),
+   never stretching. Without display:contents, app-message-list's host
+   never grows to fill the remaining .app-shell space, so the inner
+   div's height is also just "auto" (content-sized), overflow-y:auto
+   on it never triggers (scrollHeight===clientHeight always), and the
+   whole *page* scrolls instead of this panel - confirmed via direct
+   getBoundingClientRect/scrollHeight measurement, not assumed. With
+   display:contents the host itself disappears from the box tree, so
+   .message-list below becomes a direct flex item of .app-shell and
+   flex:1 + overflow-y:auto both work as intended. */
+:host {
+  display: contents;
+}
+
+.message-list {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 16px;
+  transition: background-color 0.15s ease;
+}

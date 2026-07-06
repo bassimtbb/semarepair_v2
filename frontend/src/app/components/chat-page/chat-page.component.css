@@ -1,0 +1,9 @@
+/* Same reasoning as message-list.component.css: without display:contents,
+   this host would be just another box in .app-shell's flex column,
+   preventing app-message-list/app-chat-input's own elements from being
+   true direct flex items of .app-shell - which they were before this
+   component existed (this page didn't introduce a new layout, just
+   relocated the same markup behind a route). */
+:host {
+  display: contents;
+}

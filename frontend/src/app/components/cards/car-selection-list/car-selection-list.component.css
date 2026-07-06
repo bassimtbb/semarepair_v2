@@ -1,0 +1,70 @@
+.car-selection {
+  margin-top: 8px;
+}
+
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  padding: 6px 10px;
+  margin-bottom: 8px;
+}
+
+.filter-bar input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 13px;
+  outline: none;
+  color: inherit;
+}
+
+.car-group {
+  margin-bottom: 4px;
+}
+
+.group-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: transparent;
+  padding: 6px 4px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+.group-header svg {
+  flex-shrink: 0;
+  transition: transform 0.15s ease;
+}
+
+.group-header.expanded svg {
+  transform: rotate(90deg);
+}
+
+.group-count {
+  font-weight: 400;
+}
+
+/* Same responsive grid as the original .car-grid (message-bubble.component.css) -
+   one column on narrow viewports, widening as space allows. */
+.car-grid {
+  margin-top: 4px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 8px;
+}
+
+.no-matches {
+  font-size: 13px;
+  padding: 8px 4px;
+}

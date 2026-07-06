@@ -1,0 +1,19 @@
+/* Deliberately NOT tokenized and NOT given a dark: variant - measured
+   contrast (text #92400e on bg #fef3c7) is 6.367:1, well past AA, and
+   that's independent of the surrounding card's theme since both colors
+   are fixed together as one self-contained pill. Renders identically in
+   both themes on purpose, like a colored tag/label component would in
+   most design systems - checked for a real failure (per Stage 4's
+   instruction), found none, so no dark: override was added. */
+.dtc-badge {
+  display: inline-block;
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: 600;
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fde68a;
+  border-radius: 6px;
+  padding: 2px 6px;
+  margin-right: 4px;
+}

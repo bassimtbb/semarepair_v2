@@ -1,0 +1,99 @@
+/* The host element is a real flex-column child with a fixed height
+   matching the bar's actual footprint (measured: 75px = bar height +
+   the wrapper's own 16px bottom gap) - this is what actually reserves
+   room for the bar. A position:fixed descendant does NOT shrink its
+   ancestor's flex:1 sizing on its own: without this host height,
+   message-list's flex:1 fills the entire remaining viewport (including
+   the area the fixed bar visually covers), and message-list's own
+   bottom padding does nothing to prevent overlap unless its content
+   actually overflows and gets scrolled - short conversations never
+   reach that point, so the last message rendered directly under the
+   bar. Found via real measurement (getBoundingClientRect), not assumed -
+   a first attempt using only message-list padding looked fine when the
+   page happened to scroll, but failed for short conversations. */
+:host {
+  display: block;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+/* Fixed-to-viewport wrapper, not part of the flex flow - this is what
+   keeps the bar glued to the bottom of the screen while messages scroll
+   underneath it. */
+.input-bar-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 16px;
+  display: flex;
+  justify-content: center;
+  padding: 0 16px;
+  pointer-events: none;
+}
+
+.input-bar {
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 720px;
+  padding: 8px 8px 8px 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 999px;
+  /* Was a flat rgba(0,0,0,0.12) applied identically in both themes - never
+     actually checked against the dark surface, where a 12%-opacity black
+     shadow on an already-near-black background is nearly invisible. Now
+     theme-aware via --shadow-color (styles.css), same fix as the header. */
+  box-shadow: 0 4px 16px rgb(var(--shadow-color));
+  transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 10px 0;
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+}
+
+.mic-button,
+.send-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0 16px;
+  height: 40px;
+  flex-shrink: 0;
+  transition: background-color 0.15s ease;
+}
+
+.mic-button {
+  width: 40px;
+  padding: 0;
+}
+
+.mic-button.recording {
+  background: #dc2626;
+  border-color: #dc2626;
+  color: #ffffff;
+}
+
+.send-button {
+  gap: 6px;
+  border-color: transparent;
+  font-weight: 600;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

@@ -1,0 +1,76 @@
+:host {
+  display: block;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+.usage-page {
+  padding: 20px 24px 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+
+.loading-state,
+.error-banner {
+  padding: 16px;
+  font-size: 14px;
+}
+
+.error-banner {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+}
+
+.kpi-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.chart-section,
+.breakdown-card {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgb(var(--shadow-color));
+}
+
+.chart-section {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0 0 12px;
+}
+
+.breakdown-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.breakdown-line {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  padding: 4px 0;
+}
+
+.log-section .section-title {
+  margin-top: 4px;
+}

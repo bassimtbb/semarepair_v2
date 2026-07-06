@@ -1,0 +1,52 @@
+.car-card {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px 12px;
+  cursor: pointer;
+  font-family: inherit;
+  box-shadow: 0 1px 3px rgb(var(--shadow-color));
+  transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Elevated shadow on hover, same --shadow-color token as the resting
+   state (just a bigger offset/blur) - not a separate hover style, the
+   same approach used for the rest of this redesign's hover treatments. */
+.car-card:hover {
+  box-shadow: 0 4px 10px rgb(var(--shadow-color));
+}
+
+.car-title {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.car-detail {
+  font-size: 13px;
+}
+
+.car-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  margin-top: 4px;
+  font-size: 12px;
+}
+
+.engine-code {
+  font-family: monospace;
+}
+
+/* Without this, "2011–2014" wraps mid-token onto two lines whenever the
+   flex row (.car-meta) gets squeezed at narrow grid-column widths - the
+   span is a flex item with the default shrink-to-min-content behavior,
+   and en-dash-joined digits aren't an unbreakable unit on their own.
+   Forcing one line here is the explicit tradeoff: the row may overflow
+   or push engine-code/power to wrap instead, which is preferred over a
+   single year value visually splitting in half. */
+.years {
+  white-space: nowrap;
+}
