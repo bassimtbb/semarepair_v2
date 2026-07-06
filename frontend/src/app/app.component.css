@@ -1,0 +1,131 @@
+.app-shell {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  transition: background-color 0.15s ease;
+}
+
+/* border-bottom-width/-style only, never the shorthand "border-bottom: 1px
+   solid" - that shorthand resets the omitted border-bottom-color
+   sub-property to its initial value (currentcolor), and Angular's
+   per-component style scoping (an attribute selector Angular appends to
+   every rule) gives this rule higher specificity than the plain
+   `.border-border` utility class in the template, so the reset wins -
+   the border silently rendered in the *text* color (near-black in light
+   mode, near-white in dark), never the intended soft border-border token.
+   Confirmed via getComputedStyle before fixing, not assumed. Same fix
+   applied everywhere else in this file/the other component CSS files that
+   had this exact shorthand. */
+/* 3-column grid (not flex + justify-content:space-between) so the
+   confirmed-car badge can sit at the header's true horizontal center
+   regardless of the logo's width - a flex layout with the badge as a
+   middle child would center it relative to the *remaining* space next to
+   the logo and actions, not the header itself. */
+.app-header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  flex-shrink: 0;
+  box-shadow: 0 1px 3px rgb(var(--shadow-color));
+  transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.brand-logo {
+  height: 32px;
+  width: auto;
+  display: block;
+  justify-self: start;
+}
+
+.header-center {
+  display: flex;
+  justify-content: center;
+  min-width: 0;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  justify-self: end;
+  gap: 10px;
+}
+
+.confirmed-car {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  padding: 4px 14px;
+  text-align: center;
+  max-width: 100%;
+}
+
+.car-name {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.car-details {
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+/* Sits half on/off the badge's own top-right corner (classic dismissible-
+   chip pattern) - bg-background (the page background, not bg-surface
+   like the badge itself) so the circle reads as a distinct control
+   rather than blending into the badge it's attached to. No "background:
+   transparent" override here, same specificity-tie reasoning documented
+   elsewhere in this file for .theme-toggle. */
+.close-badge {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 6px 10px;
+  transition: background-color 0.15s ease;
+}
+
+/* Same shape as .theme-toggle, on an <a> rather than a <button> - the
+   first controls this app has ever had to navigate between routes
+   (introduced with the usage dashboard, app.routes.ts). */
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  line-height: 1;
+  padding: 6px 10px;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}

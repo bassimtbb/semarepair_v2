@@ -1,0 +1,58 @@
+<div class="app-shell bg-background">
+  <header class="app-header bg-background border-border">
+    <img class="brand-logo" src="SemaRepairLogo.png" alt="SemaRepair" />
+
+    <div class="header-center">
+      @if (chat.confirmedCar(); as car) {
+        <div class="confirmed-car bg-surface border-border">
+          <button
+            type="button"
+            class="close-badge bg-background border-border text-muted hover:bg-foreground/8"
+            (click)="chat.reset()"
+            title="Reset"
+            aria-label="Reset veicolo confermato"
+          >
+            <svg lucideX [size]="10"></svg>
+          </button>
+          <span class="car-name text-accent">{{ car.marca }} {{ car.modello }}</span>
+          <span class="car-details text-muted">{{ carDetails(car) }}</span>
+        </div>
+      }
+    </div>
+
+    <div class="header-actions">
+      <a
+        class="nav-link border-border text-foreground hover:bg-foreground/8"
+        routerLink="/usage"
+        title="Dashboard utilizzo Gemini"
+        aria-label="Vai alla dashboard utilizzo"
+      >
+        <svg lucideLayoutDashboard [size]="18"></svg>
+      </a>
+
+      <a
+        class="nav-link border-border text-foreground hover:bg-foreground/8"
+        routerLink="/"
+        title="Torna alla chat"
+        aria-label="Torna alla chat"
+      >
+        <svg lucideMessageCircle [size]="18"></svg>
+      </a>
+
+      <button
+        type="button"
+        class="theme-toggle border-border text-foreground hover:bg-foreground/8"
+        (click)="theme.toggle()"
+        [title]="theme.isDark() ? 'Passa al tema chiaro' : 'Passa al tema scuro'"
+      >
+        @if (theme.isDark()) {
+          <svg lucideSun [size]="18"></svg>
+        } @else {
+          <svg lucideMoon [size]="18"></svg>
+        }
+      </button>
+    </div>
+  </header>
+
+  <router-outlet />
+</div>

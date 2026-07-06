@@ -1,0 +1,119 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss';
+
+/* Manual dark mode: dark: utilities activate when .dark is present on an
+   ancestor (<html>, toggled by ThemeService in Stage 3) - Tailwind v4 has
+   no tailwind.config.js darkMode key anymore, this @custom-variant is the
+   CSS-first equivalent. Not OS-preference-driven on purpose: the toggle is
+   the single source of truth, matching the localStorage-persisted design. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Core UI tokens - light values. Generates utilities (bg-background,
+   text-foreground, border-border, etc.) whose CSS reads var(--color-*),
+   not a literal hex - that indirection is what lets .dark below repaint
+   every consumer with no per-element dark: prefix needed. Values match
+   the hex already hardcoded across existing component CSS (verified via
+   grep before proposing this), so light mode is a no-op visually once
+   components migrate onto these tokens.
+   "static" (not plain @theme) matters: by default Tailwind v4 only emits
+   a theme variable into :root if it detects a matching utility class in
+   scanned content - with no component using bg-background etc. yet, the
+   defaults would silently vanish from the build, leaving the .dark
+   override below with nothing to override anything from. */
+/* background = the page canvas (message-list); surface = card/elevated
+   content (bubbles, repair-case/car cards, the input bar pill) - this
+   role split is fixed across both themes on purpose, even though in
+   light mode it makes surface slightly DARKER than background, the
+   opposite of dark mode where surface (#1e293b) is LIGHTER than
+   background (#0f172a). Swapping which token each area uses per-theme
+   would "fix" the subtle light-mode distinction but break dark mode's
+   much more visible elevation cue (cards would render darker than the
+   page, backwards) - card borders carry the visual separation in light
+   mode instead.
+   surface = #eef2f6, not the original #f8fafc - the original measured a
+   1.046:1 luminance-contrast ratio against #ffffff (essentially
+   indistinguishable, confirmed by screenshot: cards blended into the page).
+   #eef2f6 measures 1.125:1 against background while staying at 1.096:1
+   against --color-border (#e2e8f0) - distinct enough from white to read
+   as an elevated panel without crossing into the same shade as its own
+   border, which would erase the border's edge instead of complementing it. */
+@theme static {
+  --color-background: #ffffff;
+  --color-surface: #eef2f6;
+  --color-bubble: #f6f8fa;
+  --color-card-surface: #dde4ea;
+  --color-accent: #1a3a6b;
+  --color-accent-foreground: #ffffff;
+  --color-foreground: #1e293b;
+  --color-muted: #64748b;
+  --color-border: #e2e8f0;
+}
+
+/* --color-bubble (message bubbles only) and --color-card-surface
+   (car-selection cards only) split off from --color-surface (still used
+   by repair-case-card/input-bar/the header's confirmed-car badge - those
+   weren't reported as a problem, so left alone) because the SAME value
+   can't satisfy two opposite asks at once: bubbles needed to read
+   lighter / lower-key than --color-surface (#eef2f6 read as "too heavy"
+   once every bubble inherited it), while car-cards needed to read more
+   pronounced than the bubble they sit inside, specifically so the two
+   don't blend into the same shade. One shared token can't be both.
+   bubble = #f6f8fa: closer to white than --color-surface (1.065:1
+   contrast against it - a real, visible step lighter, confirmed by
+   screenshot, not just the small hex distance), while still nowhere
+   near identical to #ffffff (1.055:1 against background) so a bubble is
+   still readable as its own shape against the page.
+   card-surface = #dde4ea: the most distinct value found that didn't
+   collapse --color-muted's contrast too far below its own pre-existing
+   baseline (text-muted-on-surface was already 4.230:1, itself short of
+   AA's 4.5 normal-text floor, before this change) - 1.141:1 against
+   --color-surface and 1.041:1 against --color-border, both real
+   measured separations, at the cost of muted text landing at 3.707:1 on
+   top of it. Flagged explicitly for sign-off rather than silently
+   accepted: a bolder, more clearly "different" card-surface value exists
+   (e.g. #d9e0e8, ~1.18:1 vs surface) but pushes muted text to 3.575:1 -
+   this is a real tradeoff between visual distinctness and secondary-text
+   legibility, not a free choice. */
+
+/* --shadow-color is deliberately NOT inside @theme above: it's not a
+   Tailwind-generated utility (nothing references a `shadow-color` class),
+   just a plain custom property components read directly via
+   `box-shadow: 0 1px 3px rgb(var(--shadow-color));` - putting it in
+   @theme would make Tailwind treat the key as a named --shadow-* utility
+   definition (a different, colliding meaning) for no benefit, since nothing
+   consumes it that way. Needs its own light/dark value, same reasoning as
+   every other token here: a flat black shadow at light-mode-appropriate
+   opacity reads as barely-there on the dark surface, so dark mode uses
+   pure black at much higher alpha instead of the navy-tinted light value -
+   verified by rendering both, not assumed. */
+@layer base {
+  :root {
+    --shadow-color: 15 23 42 / 0.08;
+  }
+}
+
+/* Dark overrides - same variable names, redefined. accent is lightened
+   (not the literal light-mode navy) since #1a3a6b on a #0f172a background
+   would be low-contrast; foreground is slate-100, not pure white, to
+   avoid harsh contrast on a dark surface.
+   accent = #4773b4, not the originally proposed #4d7dc4 - measured via a
+   real WCAG calculation (not eyeballed): white-on-#4d7dc4 was 4.162:1,
+   failing AA-normal-text (4.5 min). #4773b4 clears it at 4.795:1 while
+   keeping accent-vs-background contrast at 3.723:1 (still clearly a
+   "button", not blending into the page) - darkening further to fix
+   contrast trades away that distinctness, so this is the sweet spot, not
+   just the first value that cleared the threshold. */
+@layer base {
+  .dark {
+    --color-background: #0f172a;
+    --color-surface: #1e293b;
+    --color-bubble: #172033;
+    --color-card-surface: #283750;
+    --color-accent: #4773b4;
+    --color-accent-foreground: #ffffff;
+    --color-foreground: #f1f5f9;
+    --color-muted: #94a3b8;
+    --color-border: #334155;
+    --shadow-color: 0 0 0 / 0.45;
+  }
+}

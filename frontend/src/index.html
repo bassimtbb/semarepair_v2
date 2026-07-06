@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SemaRepair Chat</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script>
+    // Runs synchronously before Angular/CSS load, so the correct theme
+    // class is already on <html> for the very first paint - ThemeService
+    // takes over as the source of truth for changes after this.
+    (function () {
+      try {
+        if (localStorage.getItem('semarepair-theme') === 'dark') {
+          document.documentElement.classList.add('dark');
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>
