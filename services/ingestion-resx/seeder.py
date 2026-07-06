@@ -50,7 +50,7 @@ def build_graph(conn, resx_records: list[dict], gup_rows: list[dict]) -> int:
         cur.execute("TRUNCATE graph_edges")
         execute_values(
             cur,
-            "INSERT INTO graph_edges (from_type, from_id, relation, to_type, to_id, language) VALUES %s",
+            "INSERT INTO graph_edges (from_type, from_id, relation, to_type, to_id, language, description) VALUES %s",
             edges,
         )
     conn.commit()
@@ -77,11 +77,12 @@ def build_documents(conn, resx_records: list[dict]) -> int:
     return len(values)
 
 
-def generate_embeddings(conn, resx_records: list[dict]) -> tuple[int, int]:
+def generate_embeddings(conn, embedder: Embedder, resx_records: list[dict]) -> tuple[int, int]:
     """Generates document_embeddings and symptom_embeddings for every resx
     record. Returns (embeddings_generated, errors). A failure on one record
-    is logged and skipped - it never aborts the whole run (section 9.1)."""
-    embedder = Embedder(GEMINI_API_KEY)
+    is logged and skipped - it never aborts the whole run (section 9.1).
+    embedder is constructed by the caller (not here) so its accumulated
+    usage_records survive after this function returns - see main()."""
     generated = 0
     errors = 0
 
@@ -92,7 +93,7 @@ def generate_embeddings(conn, resx_records: list[dict]) -> tuple[int, int]:
 
             try:
                 embed_text = build_document_embed_text(record)
-                doc_vector = embedder.embed(embed_text, task_type="RETRIEVAL_DOCUMENT")
+                doc_vector = embedder.embed(embed_text, task_type="RETRIEVAL_DOCUMENT", operation="document_embed")
                 cur.execute(
                     "INSERT INTO document_embeddings (id_documento, language, embed_text, embedding) "
                     "VALUES (%s, %s, %s, %s)",
@@ -101,7 +102,7 @@ def generate_embeddings(conn, resx_records: list[dict]) -> tuple[int, int]:
                 generated += 1
 
                 if record["anomalia"]:
-                    sym_vector = embedder.embed(record["anomalia"], task_type="RETRIEVAL_DOCUMENT")
+                    sym_vector = embedder.embed(record["anomalia"], task_type="RETRIEVAL_DOCUMENT", operation="symptom_embed")
                     cur.execute(
                         "INSERT INTO symptom_embeddings (id_documento, language, anomalia, embedding) "
                         "VALUES (%s, %s, %s, %s)",
@@ -117,6 +118,30 @@ def generate_embeddings(conn, resx_records: list[dict]) -> tuple[int, int]:
 
     conn.commit()
     return generated, errors
+
+
+USAGE_COLUMNS = [
+    "occurred_at", "service_name", "operation", "model", "prompt_tokens",
+    "completion_tokens", "total_tokens", "is_estimated", "cost_usd",
+    "session_id", "ingestion_run_id", "raw_usage_json",
+]
+
+
+def log_usage(conn, usage_records: list[dict], ingestion_run_id: int) -> int:
+    if not usage_records:
+        return 0
+    values = [
+        tuple(r.get(c, ingestion_run_id if c == "ingestion_run_id" else None) for c in USAGE_COLUMNS)
+        for r in usage_records
+    ]
+    with conn.cursor() as cur:
+        execute_values(
+            cur,
+            f"INSERT INTO gemini_usage_log ({', '.join(USAGE_COLUMNS)}) VALUES %s",
+            values,
+        )
+    conn.commit()
+    return len(values)
 
 
 def main():
@@ -164,6 +189,7 @@ def main():
 
         embeddings_generated = 0
         errors = 0
+        usage_records: list[dict] = []
         if embeddings_already_built:
             print("document_embeddings already populated, skipping embedding generation.")
             notes = "Already loaded - skipped"
@@ -172,7 +198,9 @@ def main():
             notes = "GEMINI_API_KEY not set, embeddings skipped"
         else:
             print("Generating embeddings (this calls the Gemini API for every record)...")
-            embeddings_generated, errors = generate_embeddings(conn, resx_records)
+            embedder = Embedder(GEMINI_API_KEY)
+            embeddings_generated, errors = generate_embeddings(conn, embedder, resx_records)
+            usage_records = embedder.usage_records
             notes = "Graph edges + embeddings"
 
         duration = int(time.time() - started)
@@ -182,11 +210,16 @@ def main():
                 INSERT INTO ingestion_log
                     (documents_processed, embeddings_generated, edges_created, errors, duration_seconds, notes)
                 VALUES (%s, %s, %s, %s, %s, %s)
+                RETURNING id
             """, (documents_processed, embeddings_generated, edges_created, errors, duration, notes))
+            ingestion_run_id = cur.fetchone()[0]
         conn.commit()
 
+        usage_rows_logged = log_usage(conn, usage_records, ingestion_run_id)
+
         print(f"Done: {edges_created} edges created, {embeddings_generated} embeddings generated, "
-              f"{documents_processed} documents, {duration}s, {errors} errors.")
+              f"{documents_processed} documents, {duration}s, {errors} errors, "
+              f"{usage_rows_logged} usage rows logged.")
     finally:
         conn.close()
 
