@@ -15,3 +15,7 @@ services:
   search-service:
     ports:
       - "5001:5001"
+
+  chat-service:
+    ports:
+      - "5000:5000"

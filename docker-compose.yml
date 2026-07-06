@@ -33,8 +33,10 @@ services:
       OUR_DB: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@our-postgres:5432/${POSTGRES_DB}
       RESX_PATH: /app/Data/resx_samples
       GEMINI_API_KEY: ${GEMINI_API_KEY}
+      GEMINI_PRICING_PATH: /app/Config/gemini-pricing.json
     volumes:
       - ./Data:/app/Data:ro
+      - ./config:/app/Config:ro
     depends_on:
       our-postgres:
         condition: service_healthy
@@ -58,8 +60,55 @@ services:
     environment:
       OUR_DB: Host=our-postgres;Port=5432;Database=${POSTGRES_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}
       GEMINI_API_KEY: ${GEMINI_API_KEY}
+      GEMINI_PRICING_PATH: /app/Config/gemini-pricing.json
+    volumes:
+      - ./config:/app/Config:ro
     depends_on:
       our-postgres:
         condition: service_healthy
       ingestion-resx:
         condition: service_completed_successfully
+
+  chat-service:
+    build: ./services/chat
+    restart: unless-stopped
+    environment:
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      SEARCH_SERVICE_URL: http://search-service:5001
+      VEHICLE_SERVICE_URL: http://vehicle-service:5002
+      GEMINI_PRICING_PATH: /app/Config/gemini-pricing.json
+      OUR_DB: Host=our-postgres;Port=5432;Database=${POSTGRES_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}
+    volumes:
+      - ./config:/app/Config:ro
+    depends_on:
+      our-postgres:
+        condition: service_healthy
+      search-service:
+        condition: service_started
+      vehicle-service:
+        condition: service_started
+
+  frontend:
+    build: ./frontend
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    environment:
+      USAGE_DASHBOARD_KEY: ${USAGE_DASHBOARD_KEY}
+    # Mounted into /templates (not /conf.d) so the official nginx image's
+    # entrypoint runs envsubst over it at startup, substituting
+    # ${USAGE_DASHBOARD_KEY} with the real secret before nginx loads it -
+    # see docs/log-dashboard.md section 8 (the usage dashboard's
+    # shared-secret guard). nginx.conf itself is unchanged on disk; only
+    # the mount target/mechanism changed.
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/templates/default.conf.template:ro
+    depends_on:
+      - chat-service
+      - search-service
+      - vehicle-service
+      - frontend
