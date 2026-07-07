@@ -2741,7 +2741,100 @@ VoiceModeService's state machine internals (which are DO-NOT-TOUCH).
 
 ---
 
-## 13. Suggested next step
+## 13. Voice Mode — Phase 2 (Google Cloud TTS)
+
+Phase 2 is complete and verified. The ✨ Voice HD button is live.
+
+### What was built
+
+**Backend: `POST /api/chat/tts`** (`ChatController.cs` + `GoogleCloudTtsService.cs`
++ `TtsRequest.cs` — additive only, §6.4 exactly):
+- Calls `texttospeech.googleapis.com/v1/text:synthesize` server-side. The
+  `GOOGLE_CLOUD_TTS_API_KEY` env var never leaves the backend.
+- Voice map (single named constant): `it-IT-Neural2-A`, `en-US-Neural2-F`,
+  `fr-FR-Neural2-A`, `pt-BR-Neural2-A`, `es-ES-Neural2-A`.
+- HttpClient timeout = 10s (configured via `AddHttpClient<GoogleCloudTtsService>`).
+- ALL error responses are JSON, never HTML:
+  `empty_text` / `text_too_long` / `unsupported_language` (400),
+  `tts_upstream_failed` (502), `tts_unavailable` (503),
+  `tts_not_configured` (503 when key absent).
+- Missing/empty key: service starts normally, all other endpoints unaffected.
+- Structured log line per call: `chars={} lang={} ms={} status={}`.
+- `docker-compose.yml` + `.env.example` updated with `GOOGLE_CLOUD_TTS_API_KEY`.
+
+**Frontend: `GoogleCloudEngine`** (replaces Phase 1 stub in
+`google-cloud.engine.ts`):
+- `isSupported()` returns `true` unconditionally. Errors surface at
+  `speak()` time (backed by the JSON error body from the endpoint).
+- One reused `<audio>` element; previous blob URL revoked before each new play.
+- `speak(text, lang)`: fetches `/api/chat/tts`, plays MP3 via the `<audio>`
+  element, resolves on `'ended'`, rejects on any fetch/HTTP/playback error.
+- `stop()`: `pause()` + revoke blob URL, idempotent.
+- iOS audio unlock (`init()`, per §10.3): plays a minimal silent WAV (constructed
+  as a 46-byte ArrayBuffer, valid PCM WAV) through the same `<audio>` element
+  on the ✨ button tap (user gesture) before any async code runs.
+
+**ISpeechEngine**: added optional `init?(): void` for the iOS unlock hook.
+**SpeechService**: added `initForGesture(type)` — calls `engine.init?.()`.
+**chat-input.component.ts**: injects `SpeechService`, calls
+`speech.initForGesture(type)` inside the `toggleVoiceMode` handler
+(still inside the click stack, before `startVoiceMode`).
+**voice-strings.ts**: added `hd_voice_unavailable_toast` in all 5 languages.
+**voice-mode.service.ts**: `handleResponseReady`'s `.catch()` now selects
+`hd_voice_unavailable_toast` when `engine()==='google'` (§8 row 6), otherwise
+`voice_unavailable_toast` (§8 row 5).
+
+### nginx routing
+
+`/api/chat/tts` routes through the existing `^/api/chat(/|$)` location — no
+nginx change was needed. Confirmed by curl through port 80.
+
+### Verification evidence
+
+**Backend (via `http://localhost/api/chat/tts` — through nginx, port 80):**
+```
+# tts_not_configured (no API key in .env):
+$ curl -s -X POST .../tts -d '{"text":"Ciao","language":"it"}'
+{"error":"tts_not_configured"}  HTTP 503  Content-Type: application/json
+
+# empty_text:
+{"error":"empty_text"}  HTTP 400
+
+# text_too_long (2001 chars):
+{"error":"text_too_long"}  HTTP 400
+
+# unsupported_language:
+{"error":"unsupported_language"}  HTTP 400
+
+# bad API key → Google rejects → 502:
+{"error":"tts_upstream_failed"}  HTTP 502  Content-Type: application/json
+```
+
+**Frontend (Playwright, headless Chrome, fake mic):**
+- 2 orbs present, both with `radial-gradient` backgrounds ✓
+- HD orb (`voice-orb--hd`): `disabled=false` (enabled in Phase 2) ✓
+- Mic button: SVG icon, no `voice-orb` class (unchanged) ✓
+- HD orb click → `voice-orb--listening` class applied ✓
+- Web orb disabled while HD active (only one engine at a time) ✓
+- Visualizer canvas: `voice-viz--active`, opacity=1 ✓
+- HD orb stop → returns to idle ✓
+- Web orb re-enabled after HD stops ✓
+- Web orb listening state (regression check): true ✓
+- Console errors: none ✓
+
+**Deviations from spec:**
+- None. All §6.4, §10.3, and §9 Phase 2 requirements implemented exactly.
+
+### Phase 3 prerequisites
+
+- Phase 1 Rule 8 live verification is still pending (Docker/mic test with
+  CI2505 CITROEN Jumper 4HV and a fuel/injection code from FI2515).
+- Phase 3 (button animation refinement + demo prep) can start once Rule 8
+  is verified and a real Google Cloud TTS API key is in `.env`.
+
+---
+
+## 15. Suggested next step
 
 **Voice mode Phase 1 is code-complete.** The outstanding item before Phase 2
 can start is live verification of the Rule 8 cross-brand path:

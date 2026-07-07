@@ -11,6 +11,10 @@ using the app today could be misled or hit a dead end because of these.
 
 ### Voice Mode
 
+- [x] **Phase 2 (Google Cloud TTS) complete** — `POST /api/chat/tts` backend proxy,
+  `GoogleCloudEngine` frontend, iOS audio unlock, ✨ button enabled. All error
+  paths return JSON. Verified through nginx (port 80). See `progress.md §13`.
+
 - [ ] **Rule 8 cross-brand path never live-tested — Phase 1 gate not yet passed**
   - Where: `frontend/src/app/services/voice-mode.service.ts` `buildSpokenText()`
   - Why it matters: the Phase 1→Phase 2 gate requires the Rule 8 two-turn ask-first flow to be verified live before any Phase 2 file is created; the fix (flag + document-absence guard) is code-complete and root-cause-confirmed from code reading, but was not verified in a browser session because Docker went down during the test
