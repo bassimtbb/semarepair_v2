@@ -25,13 +25,22 @@ export class ChatStore {
   readonly messages = signal<ChatMessage[]>([]);
   readonly confirmedCar = signal<CarOption | null>(null);
   readonly isStreaming = signal(false);
+  readonly lastResponse = signal<ChatResponse | null>(null);
+  readonly detectedLanguage = signal('it');
 
   constructor(private readonly api: ChatApiService) {}
 
   async sendMessage(text: string): Promise<void> {
     if (!text.trim() || this.isStreaming()) return;
     this.language = detectLanguage(text, this.language);
+    this.detectedLanguage.set(this.language);
     await this.send(text);
+  }
+
+  async confirmCarByIndex(index: number): Promise<void> {
+    const cars = this.lastResponse()?.carMatches;
+    if (!cars || index < 0 || index >= cars.length) return;
+    await this.confirmCar(cars[index]);
   }
 
   // Called when the mechanic picks a car from a carMatches list. Sends
@@ -60,6 +69,10 @@ export class ChatStore {
   reset(): void {
     this.messages.set([]);
     this.confirmedCar.set(null);
+    this.lastResponse.set(null);
+    // Best-effort: clear backend session so ghost history doesn't influence
+    // Gemini routing on the next conversation (Rule 6).
+    this.api.resetSession(this.sessionId).catch(() => {});
   }
 
   private async send(
@@ -84,6 +97,7 @@ export class ChatStore {
           language: this.language,
         },
         (event: ChatResponse) => {
+          this.lastResponse.set(event);
           if (carBeingConfirmed) {
             this.confirmedCar.set(carBeingConfirmed);
           }

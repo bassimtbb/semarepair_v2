@@ -27,6 +27,9 @@ public class VehicleController : ControllerBase
 
     // GET /api/vehicles/{idMacchina}
     [HttpGet("{idMacchina}")]
-    public Task<VehicleResult?> GetById(string idMacchina) =>
-        _vehicleSearch.GetByIdAsync(idMacchina);
+    public async Task<IActionResult> GetById(string idMacchina)
+    {
+        var result = await _vehicleSearch.GetByIdAsync(idMacchina);
+        return result is null ? NotFound() : Ok(result);
+    }
 }

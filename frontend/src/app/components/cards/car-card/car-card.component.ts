@@ -15,7 +15,7 @@ import type { CarOption } from '../../../models/chat.models';
       <div class="car-meta text-muted">
         <span class="engine-code">{{ car.codiceMotore }}</span>
         @if (car.annoInizio) {
-          <span class="years">{{ car.annoInizio }}–{{ car.annoFine ?? '' }}</span>
+          <span class="years">{{ car.annoInizio }}–{{ car.annoFine === 9999 ? 'oggi' : (car.annoFine ?? '') }}</span>
         }
         @if (car.kw || car.cavalli) {
           <span class="power">

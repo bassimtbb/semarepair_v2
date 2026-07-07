@@ -404,6 +404,8 @@ public class RepairOrchestrator
                         Description = GetString(c, "description"),
                     }).ToList()
                 : [],
+        FoundViaSharedEngine = doc.TryGetProperty("foundViaSharedEngine", out var fvse) &&
+            fvse.ValueKind == JsonValueKind.True,
     };
 
     private class FormattingResult

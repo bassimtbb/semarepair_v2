@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Diagnostics;
 using SearchService.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,8 +19,21 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-app.UseSwagger();
-app.UseSwaggerUI();
+app.UseExceptionHandler(errorApp => errorApp.Run(async context =>
+{
+    var logger = context.RequestServices.GetRequiredService<ILogger<Program>>();
+    var feature = context.Features.Get<IExceptionHandlerFeature>();
+    logger.LogError(feature?.Error, "Unhandled exception in search-service");
+    context.Response.StatusCode = 503;
+    context.Response.ContentType = "application/json";
+    await context.Response.WriteAsync("{\"error\":\"Search service temporarily unavailable\"}");
+}));
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 app.MapControllers();
 

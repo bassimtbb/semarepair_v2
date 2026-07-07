@@ -5,6 +5,7 @@ import type { ChatRequest, ChatResponse } from '../models/chat.models';
 // `ng serve`'s dev proxy (proxy.conf.json) forwards the same path locally.
 const STREAM_URL = '/api/chat/stream';
 const TRANSCRIBE_URL = '/api/chat/transcribe';
+const sessionUrl = (id: string) => `/api/chat/session/${encodeURIComponent(id)}`;
 
 @Injectable({ providedIn: 'root' })
 export class ChatApiService {
@@ -43,6 +44,10 @@ export class ChatApiService {
         onEvent(JSON.parse(data) as ChatResponse);
       }
     }
+  }
+
+  async resetSession(sessionId: string): Promise<void> {
+    await fetch(sessionUrl(sessionId), { method: 'DELETE' });
   }
 
   async transcribe(audio: Blob): Promise<string> {

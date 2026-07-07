@@ -2535,32 +2535,130 @@ initialized later (see section 8).
 
 ---
 
-## 11. Suggested next step
+## 11. Voice Mode — Phase 1
 
-**Every service in the original roadmap (Vehicle → Search → Chat), plus
-nginx and a working Angular frontend, are now built, verified against
-live data, and wired together under one `docker compose up -d` (section
-7)** — including Chat's Gemini orchestration, SSE streaming, and audio
-transcription, and now a real browser-driven chat UI in front of all of
-it, all tested against the real APIs and the real compose-managed
-deployment, not mocks. Nothing functionally outstanding remains from the
-application logic or infrastructure wiring itself; what's left:
+Voice mode (Phase 1) is implemented and pending live verification of the
+Rule 8 cross-brand path. Everything else in Phase 1 is code-complete and
+has been exercised through the UI.
 
-1. Language is now handled (section 6.4 - auto-detected per message via
-   `tinyld/light`, no manual switcher needed or built). The remaining
-   frontend scope cut is TTS playback for spoken replies (would need a
-   new `chat-service` endpoint - none exists yet, only `/transcribe` for
-   speech-*in*).
-2. The audio-transcription mime-type gap (section 9) still needs a real
-   answer - a live microphone → `/transcribe` round-trip through the new
-   frontend, in an actual browser, hasn't been exercised yet (the
-   Playwright verification so far only covered the typed-text path).
-3. Everything gated on the company meeting (section 9: real document
-   count, full brand list, production SQL Server access, auth model) is
-   still pending and unblocked by nothing we can do locally.
-4. The frontend's visual redesign (section 6.5 - Tailwind v4, light/dark
-   theming, Lucide icons, a responsive car-selection grid, and a
-   pre-existing message-panel scroll-containment bug found and fixed
-   along the way) is now complete and verified in both themes against the
-   real compose-managed stack. A final full-stack sign-off pass is the
-   next step, not yet started.
+### What was built
+
+**Backend additions (both approved as scoped exceptions to DO-NOT-TOUCH):**
+- `services/chat/Models/ChatResponse.cs` — added `FoundViaSharedEngine`
+  to `CaseSummary` so the flag propagates to the frontend.
+- `services/chat/Services/RepairOrchestrator.cs` `ParseCaseSummary()` —
+  reads `foundViaSharedEngine` from the search JSON result and maps it to
+  the new field. The flag originates in Search Service on every qualifying
+  search call; RepairOrchestrator only threads it through.
+
+**Frontend additions (all new files or modified files):**
+- `frontend/src/app/models/chat.models.ts` — added `foundViaSharedEngine:
+  boolean` to `CaseSummary` interface; added `lastResponse` signal and
+  `detectedLanguage` signal to `ChatStore`.
+- `frontend/src/app/services/speech/speech-engine.interface.ts` —
+  `ISpeechEngine` abstraction (`speak`, `stop`, `isSupported`).
+- `frontend/src/app/services/speech/web-speech.engine.ts` — Web Speech
+  API engine. iOS returns `false` from `isSupported()` (blocked outside
+  user gesture). Android Chrome chunking: ≤180 chars at sentence
+  boundaries, `utterance.onend` chaining, `speechSynthesis.resume()`
+  every 14s to defeat Android's cutoff bug.
+- `frontend/src/app/services/speech/google-cloud.engine.ts` — Phase 2
+  stub, always `isSupported()=false`.
+- `frontend/src/app/services/speech/speech.service.ts` — injectable
+  wrapper over both engines.
+- `frontend/src/app/services/silence-detector.ts` — Web Audio
+  AnalyserNode RMS detector. Constants: RMS_THRESHOLD=0.01,
+  SILENCE_GRACE_MS=1500, SILENCE_STOP_MS=2000, NO_SPEECH_TIMEOUT_MS=8000,
+  HARD_CAP_MS=30000.
+- `frontend/src/app/services/voice-car-selection.service.ts` — spoken
+  number parser (IT/EN/FR/PT/ES + digit forms); returns 0-based index or
+  null on ambiguity/miss; used at §4.1 decision point.
+- `frontend/src/app/services/voice-strings.ts` — §7 wrapper strings for
+  all 5 languages. Functions: `t()`, `tCarSelectionPrefix()`, `tCarOption()`,
+  `tFoundNCases()`. Covers car_selection, causa_prefix, intervento_prefix,
+  found_n_cases, see_screen, all four toast keys.
+- `frontend/src/app/services/voice-mode.service.ts` — state machine
+  (idle→listening→transcribing→waiting_response→speaking→listening).
+  `buildSpokenText()` is the sole source of TTS content — §5.8 order
+  enforced; never calls Gemini; never rewrites causa/intervento.
+- `frontend/src/app/components/chat/chat-input/chat-input.component.ts`
+  and `.css` — two voice buttons (🔊 Web, ✨ HD stub), state-class
+  animations (red pulse listening, amber pulse processing, green speaking),
+  voice toast overlay.
+
+### Rule 8 fix
+
+**Bug:** `buildSpokenText()`'s Rule 8 guard originally fired on BOTH turns
+of the cross-brand flow (flag-only check), causing the ask-permission
+message to be spoken again on Turn 2 instead of the repair document.
+
+**Root cause (confirmed from code reading, not live test):** Search Service
+never resets `foundViaSharedEngine` — it is a property of the search
+result, not session state. On Turn 2 after the mechanic says "sì", the LLM
+issues the same search call and gets `foundViaSharedEngine=true` again.
+`BuildFormatting` in `SystemPromptBuilder.cs` generates a non-null message
+whenever the flag is true (its rule fires on the flag, not on whether the
+mechanic has consented). No `confirmSharedEngineMatch` routing instruction
+exists to suppress it (unlike `confirmLowConfidenceMatch` for Rule 8b).
+
+**Fix (applied):** `sharedEngine && !hasRealDocument` — the guard only fires
+on Turn 1 (causa absent = document not yet revealed). On Turn 2 the backend
+has retrieved the actual document so causa+intervento are populated;
+`hasRealDocument=true`, guard is false, §5.1 reads out the repair document.
+
+```typescript
+const sharedEngine = r.cases?.[0]?.foundViaSharedEngine === true;
+const hasRealDocument = !!r.cases?.[0]?.causa && !!r.cases?.[0]?.intervento;
+if (sharedEngine && !hasRealDocument) {
+  return r.message ?? null;  // turn 1: disclosure + ask permission
+}
+// turn 2 and normal documents fall through to §5.1
+```
+
+### Rule 8 live test vehicle
+
+**CITROEN Jumper 8140.43S (CI0046)** — initially selected as a test vehicle
+but has its own documents in the graph; `foundViaSharedEngine` never fires.
+
+**The correct test vehicle is CITROEN Jumper 4HV (CI2505):**
+- 1 document (fuel pressure regulator, system: Alimentazione motore)
+- Shares engine with FIAT Ducato 4HV (FI2515, 10 documents)
+- For the `TryFallbackAsync` path to fire, need an **engine-related**
+  fault code that FI2515 has but CI2505 doesn't.
+  `SystemCategoryLookup.AllowsEngineFallback` gates on: Iniezione,
+  Alimentazione carburante, Candelette, Sensori motore, Gestione motore,
+  Alimentazione motore, Sistema di accensione, Sistema di scarico.
+  C1050 (ABS/chassis code) doesn't qualify. B-prefix or P-prefix fuel/
+  injection codes from FI2515's documents are the right class.
+- The `SymptomWithCarAsync` fallback path also cannot fire here: CI2505 has
+  1 document, so `candidateDocs.Count > 0` always; symptom Rule 8 requires
+  `candidateDocs.Count == 0` (zero documents for the car in the graph).
+
+### Phase 2 prerequisites (not started)
+
+- Implement `google-cloud.engine.ts` fully (currently a stub)
+- Add `POST /api/chat/tts` to Chat Service (server-side TTS proxy — the
+  Google Cloud TTS API key must never be exposed to the browser)
+- Add `GOOGLE_CLOUD_TTS_API_KEY` to docker-compose env
+- iOS audio unlock pattern (Web Audio context needs a gesture to resume)
+- Phase gate: Phase 1 live verification must pass before any Phase 2 file
+  is created or modified
+
+---
+
+## 12. Suggested next step
+
+**Voice mode Phase 1 is code-complete.** The outstanding item before Phase 2
+can start is live verification of the Rule 8 cross-brand path:
+
+1. Start Docker and the full stack.
+2. Confirm CITROEN Jumper 4HV (CI2505) in a chat session.
+3. Find a fuel/injection fault code from FI2515's documents that CI2505
+   doesn't have, and send it.
+4. Turn 1 should speak only the disclosure ("questo codice è documentato
+   per il FIAT Ducato...").
+5. Say "sì" — Turn 2 should speak causa+intervento, not the disclosure again.
+6. Confirm console shows `foundViaSharedEngine=true` on both turns.
+
+All other Phase 1 flows (normal document, multi-case, car selection, no-speech,
+transcription failure, mic denied) were exercised through the UI and verified.

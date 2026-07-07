@@ -55,6 +55,7 @@ public class CaseSummary
     public int Reliability { get; set; }
     public string Language { get; set; } = "";
     public List<FaultCodeInfo> DtcCodes { get; set; } = [];
+    public bool FoundViaSharedEngine { get; set; }
 }
 
 // Description is the DTC code's own explanation, spliced directly from

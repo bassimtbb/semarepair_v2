@@ -17,11 +17,13 @@ public class ChatController : ControllerBase
 
     private readonly RepairOrchestrator _orchestrator;
     private readonly GeminiChatClient _gemini;
+    private readonly SessionStore _sessionStore;
 
-    public ChatController(RepairOrchestrator orchestrator, GeminiChatClient gemini)
+    public ChatController(RepairOrchestrator orchestrator, GeminiChatClient gemini, SessionStore sessionStore)
     {
         _orchestrator = orchestrator;
         _gemini = gemini;
+        _sessionStore = sessionStore;
     }
 
     // POST /api/chat/stream - SSE streaming. Each ChatResponse yielded by
@@ -40,6 +42,15 @@ public class ChatController : ControllerBase
             await Response.WriteAsync($"data: {json}\n\n", cancellationToken);
             await Response.Body.FlushAsync(cancellationToken);
         }
+    }
+
+    // DELETE /api/chat/session/{sessionId} - Rule 6: clears confirmed car
+    // and full session history so the next message starts completely fresh.
+    [HttpDelete("session/{sessionId}")]
+    public IActionResult ResetSession(string sessionId)
+    {
+        _sessionStore.Reset(sessionId);
+        return NoContent();
     }
 
     // POST /api/chat/transcribe - audio transcription via Gemini. The

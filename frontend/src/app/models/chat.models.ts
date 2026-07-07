@@ -42,6 +42,7 @@ export interface CaseSummary {
   reliability: number;
   language: string;
   dtcCodes: FaultCodeInfo[];
+  foundViaSharedEngine: boolean;
 }
 
 export interface FaultCodeInfo {

@@ -97,3 +97,76 @@ button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+.voice-button {
+  width: 40px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 999px;
+  cursor: pointer;
+  height: 40px;
+  flex-shrink: 0;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+/* Listening: pulsing red — microphone is active */
+.voice-button.voice-listening {
+  background: #dc2626;
+  border-color: #dc2626;
+  color: #ffffff;
+  animation: voice-pulse 1.4s ease-in-out infinite;
+}
+
+/* Transcribing / waiting for response: amber spinner-like pulse */
+.voice-button.voice-processing {
+  background: #d97706;
+  border-color: #d97706;
+  color: #ffffff;
+  animation: voice-pulse 0.9s ease-in-out infinite;
+}
+
+/* Speaking: green steady glow */
+.voice-button.voice-speaking {
+  background: #16a34a;
+  border-color: #16a34a;
+  color: #ffffff;
+}
+
+@keyframes voice-pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.6; }
+}
+
+/* Toast: floats above the input bar, centered */
+.voice-toast {
+  position: fixed;
+  bottom: 96px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  pointer-events: none;
+  z-index: 100;
+  white-space: nowrap;
+}
+
+@media (prefers-color-scheme: dark) {
+  .voice-toast {
+    background: rgba(255, 255, 255, 0.15);
+  }
+}
+
+:root[data-theme="light"] .voice-toast {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+:root[data-theme="dark"] .voice-toast {
+  background: rgba(255, 255, 255, 0.15);
+}
