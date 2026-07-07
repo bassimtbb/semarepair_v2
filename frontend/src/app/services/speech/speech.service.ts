@@ -16,6 +16,12 @@ export class SpeechService {
     return this.engines[type].isSupported();
   }
 
+  // Called from a genuine click handler so iOS Safari's audio context is
+  // unlocked before the first programmatic .play() fires later in the pipeline.
+  initForGesture(type: 'web' | 'google'): void {
+    this.engines[type].init?.();
+  }
+
   speak(text: string, lang: string, engine: 'web' | 'google' = 'web'): Promise<void> {
     this.active = this.engines[engine];
     return this.active.speak(text, lang);

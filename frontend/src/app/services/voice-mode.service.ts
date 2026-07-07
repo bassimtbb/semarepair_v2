@@ -275,8 +275,11 @@ export class VoiceModeService {
     this.speech.speak(spokenText, this.detLang(), this.engine() ?? 'web')
       .then(() => this.transitionToListening())
       .catch(() => {
-        // §8 row 5: web speech synthesis failed (utterance.onerror)
-        this.showToast(t(this.detLang(), 'voice_unavailable_toast'));
+        // §8 row 5 (web) / row 6 (google): speech engine rejected
+        const key = this.engine() === 'google'
+          ? 'hd_voice_unavailable_toast'
+          : 'voice_unavailable_toast';
+        this.showToast(t(this.detLang(), key));
         this.stopVoiceMode();
       });
   }

@@ -11,6 +11,7 @@ import { Component, ElementRef, EventEmitter, Input, OnDestroy, Output, ViewChil
 import { FormsModule } from '@angular/forms';
 import { LucideAudioLines, LucideSparkles, LucideSquare, LucideVolume2, LucideSend } from '@lucide/angular';
 import { ChatApiService } from '../../../services/chat-api.service';
+import { SpeechService } from '../../../services/speech/speech.service';
 import { VoiceModeService } from '../../../services/voice-mode.service';
 import type { VoiceEngine } from '../../../services/voice-mode.service';
 
@@ -121,6 +122,7 @@ export class ChatInputComponent implements OnDestroy {
   constructor(
     private readonly api: ChatApiService,
     readonly voiceMode: VoiceModeService,
+    private readonly speech: SpeechService,
   ) {
     // Start typing animation whenever a transcript arrives from the service
     effect(() => {
@@ -155,6 +157,9 @@ export class ChatInputComponent implements OnDestroy {
     if (this.voiceMode.engine() === type) {
       this.voiceMode.stopVoiceMode();
     } else {
+      // iOS audio unlock: must happen inside the click handler (user gesture)
+      // before any async code runs, so .play() is allowed later in the pipeline.
+      this.speech.initForGesture(type);
       this.voiceMode.startVoiceMode(type);
     }
   }

@@ -19,6 +19,7 @@ interface S {
   transcribe_failed_toast: string;
   no_speech_hint: string;
   voice_unavailable_toast: string;
+  hd_voice_unavailable_toast: string;
 }
 
 const STRINGS: Record<VoiceLang, S> = {
@@ -37,6 +38,7 @@ const STRINGS: Record<VoiceLang, S> = {
     transcribe_failed_toast: 'Trascrizione fallita. Riprovo…',
     no_speech_hint: 'Non ho sentito nulla. Parla vicino al microfono.',
     voice_unavailable_toast: 'Voce non disponibile su questo browser — prova Voice HD.',
+    hd_voice_unavailable_toast: 'Voce HD non disponibile.',
   },
   en: {
     car_selection_prefix: n => `I found ${n} compatible vehicles:`,
@@ -53,6 +55,7 @@ const STRINGS: Record<VoiceLang, S> = {
     transcribe_failed_toast: 'Transcription failed. Retrying…',
     no_speech_hint: 'I did not hear anything. Speak close to the microphone.',
     voice_unavailable_toast: 'Voice not available on this browser — try Voice HD.',
+    hd_voice_unavailable_toast: 'Voice HD not available.',
   },
   fr: {
     car_selection_prefix: n => `J'ai trouvé ${n} véhicules compatibles :`,
@@ -69,6 +72,7 @@ const STRINGS: Record<VoiceLang, S> = {
     transcribe_failed_toast: 'Transcription échouée. Nouvelle tentative…',
     no_speech_hint: "Je n'ai rien entendu. Parlez près du microphone.",
     voice_unavailable_toast: 'Voix non disponible sur ce navigateur — essayez Voice HD.',
+    hd_voice_unavailable_toast: 'Voice HD non disponible.',
   },
   pt: {
     car_selection_prefix: n => `Encontrei ${n} veículos compatíveis:`,
@@ -85,6 +89,7 @@ const STRINGS: Record<VoiceLang, S> = {
     transcribe_failed_toast: 'Transcrição falhou. A tentar novamente…',
     no_speech_hint: 'Não ouvi nada. Fale perto do microfone.',
     voice_unavailable_toast: 'Voz não disponível neste navegador — experimente Voice HD.',
+    hd_voice_unavailable_toast: 'Voice HD não disponível.',
   },
   es: {
     car_selection_prefix: n => `Encontré ${n} vehículos compatibles:`,
@@ -101,6 +106,7 @@ const STRINGS: Record<VoiceLang, S> = {
     transcribe_failed_toast: 'Transcripción fallida. Reintentando…',
     no_speech_hint: 'No escuché nada. Hable cerca del micrófono.',
     voice_unavailable_toast: 'Voz no disponible en este navegador — pruebe Voice HD.',
+    hd_voice_unavailable_toast: 'Voice HD no disponible.',
   },
 };
 
@@ -108,7 +114,8 @@ function lang(l: string): VoiceLang {
   return (l in STRINGS ? l : 'it') as VoiceLang;
 }
 
-// Simple string keys only (not the function-valued keys)
+// String keys only (not function-valued keys). hd_voice_unavailable_toast
+// is used in VoiceModeService when engine==='google' and speak() rejects.
 export type StringKey = Exclude<keyof S, 'car_selection_prefix' | 'car_option' | 'found_n_cases'>;
 
 export function t(l: string, key: StringKey): string {
