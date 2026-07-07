@@ -74,6 +74,7 @@ services:
     restart: unless-stopped
     environment:
       GEMINI_API_KEY: ${GEMINI_API_KEY}
+      GOOGLE_CLOUD_TTS_API_KEY: ${GOOGLE_CLOUD_TTS_API_KEY}
       SEARCH_SERVICE_URL: http://search-service:5001
       VEHICLE_SERVICE_URL: http://vehicle-service:5002
       GEMINI_PRICING_PATH: /app/Config/gemini-pricing.json

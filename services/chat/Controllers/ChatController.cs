@@ -15,15 +15,24 @@ public class ChatController : ControllerBase
     // consistent with every other endpoint's JSON casing.
     private static readonly JsonSerializerOptions JsonOptions = new(JsonSerializerDefaults.Web);
 
+    private static readonly HashSet<string> ValidLanguages =
+        new(StringComparer.OrdinalIgnoreCase) { "it", "en", "fr", "pt", "es" };
+
     private readonly RepairOrchestrator _orchestrator;
     private readonly GeminiChatClient _gemini;
     private readonly SessionStore _sessionStore;
+    private readonly GoogleCloudTtsService _tts;
 
-    public ChatController(RepairOrchestrator orchestrator, GeminiChatClient gemini, SessionStore sessionStore)
+    public ChatController(
+        RepairOrchestrator orchestrator,
+        GeminiChatClient gemini,
+        SessionStore sessionStore,
+        GoogleCloudTtsService tts)
     {
         _orchestrator = orchestrator;
         _gemini = gemini;
         _sessionStore = sessionStore;
+        _tts = tts;
     }
 
     // POST /api/chat/stream - SSE streaming. Each ChatResponse yielded by
@@ -68,5 +77,41 @@ public class ChatController : ControllerBase
         var mimeType = string.IsNullOrWhiteSpace(audio.ContentType) ? "audio/wav" : audio.ContentType;
 
         return await _gemini.TranscribeAsync(mimeType, base64);
+    }
+
+    // POST /api/chat/tts - Google Cloud TTS proxy per §6.4.
+    // The API key never leaves the backend. All error responses are JSON
+    // (never HTML) so the frontend's fetch() always receives a parseable body.
+    [HttpPost("tts")]
+    public async Task<IActionResult> Tts(
+        [FromBody] TtsRequest request,
+        CancellationToken cancellationToken)
+    {
+        if (!_tts.IsConfigured)
+            return StatusCode(503, new { error = "tts_not_configured" });
+
+        if (string.IsNullOrWhiteSpace(request.Text))
+            return BadRequest(new { error = "empty_text" });
+
+        if (request.Text.Length > 2000)
+            return BadRequest(new { error = "text_too_long" });
+
+        if (!ValidLanguages.Contains(request.Language))
+            return BadRequest(new { error = "unsupported_language" });
+
+        try
+        {
+            var mp3 = await _tts.SynthesizeAsync(
+                request.Text, request.Language.ToLowerInvariant(), cancellationToken);
+            return File(mp3, "audio/mpeg");
+        }
+        catch (TtsUnavailableException)
+        {
+            return StatusCode(503, new { error = "tts_unavailable" });
+        }
+        catch (TtsUpstreamException)
+        {
+            return StatusCode(502, new { error = "tts_upstream_failed" });
+        }
     }
 }

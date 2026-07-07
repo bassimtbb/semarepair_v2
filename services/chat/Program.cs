@@ -8,6 +8,9 @@ builder.Services.AddSingleton<UsageLogger>();
 builder.Services.AddHostedService<UsageLogBackgroundService>();
 builder.Services.AddHttpClient<RepairOrchestrator>();
 builder.Services.AddHttpClient<GeminiChatClient>();
+// 10s hard timeout on the Google TTS call per §6.4.
+builder.Services.AddHttpClient<GoogleCloudTtsService>(client =>
+    client.Timeout = TimeSpan.FromSeconds(10));
 builder.Services.AddSingleton<SessionStore>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
