@@ -2646,7 +2646,102 @@ but has its own documents in the graph; `foundViaSharedEngine` never fires.
 
 ---
 
-## 12. Suggested next step
+## 12. Voice Mode — UI/UX Polish
+
+Voice mode Phase 1 UI/UX polish pass is complete and Playwright-verified.
+Rule 8 live verification is still pending (see Section 12's pre-existing
+instructions, now Section 13 below).
+
+### What was built
+
+**`silence-detector.ts`** — Added `get analyserNode(): AnalyserNode | null`
+getter to expose the existing AnalyserNode to the visualizer without changing
+any detection logic or creating a second AudioContext consumer.
+
+**`voice-mode.service.ts`** (scoped exception to DO-NOT-TOUCH, approved for
+presentation layer additions only):
+- `readonly pendingTranscript = signal<string | null>(null)` — staging signal
+  that holds the transcript while the typing animation plays. Replaced the
+  direct `routeTranscript` + `state.set` calls in `onRecordingStop()` so
+  §4.1 routing is deferred until the animation commits.
+- `get analyserNode()` — forwards the SilenceDetector getter to components.
+- `commitPendingTranscript()` — public method called by the component after
+  animation completes; runs `routeTranscript`, advances state to
+  `waiting_response`, clears `pendingTranscript`.
+- `stopVoiceMode()` — added `pendingTranscript.set(null)` to safely discard
+  an in-flight animation when the user cancels.
+
+**`chat-input.component.ts`** (complete rewrite of the UI layer):
+- Two `.voice-orb` gradient buttons replace the old plain icon buttons:
+  Web Speech (sky blue) and HD Google stub (violet, disabled).
+- `textSig = signal('')` replaces `text = ''` so animation writes are
+  zone-safe without `NgZone.run()`.
+- Two Angular `effect()` calls in the constructor:
+  - Watches `pendingTranscript` → triggers `startTypeAnimation(transcript)`.
+  - Watches `isActive()` → starts/stops the canvas RAF loop.
+- `startTypeAnimation()`: 15ms/char setTimeout chain. On completion: 80ms
+  pause, then `commitPendingTranscript()`, then 350ms before clearing the
+  field (mechanic sees the text being routed before it disappears).
+- `cancelTypeAnimation(skip)`: if `skip=true` — user tapped mid-animation —
+  sets full text and commits immediately (skip-to-full).
+- `onTextInput()`: user typing during animation → `cancelTypeAnimation(true)`.
+- Canvas visualizer: reads `AnalyserNode.getByteFrequencyData()` each frame,
+  draws 28 rounded bars (barW=3, gap=2), theme-aware color (blue-600 light /
+  blue-200 dark), alpha modulated by amplitude. Self-terminates when
+  `isActive()=false`.
+
+**`chat-input.component.css`** (complete rewrite of the input/button area):
+- `.input-area { flex:1; position:relative; overflow:hidden }` wrapper holds
+  both the input and the canvas.
+- `.viz-input` / `.viz-input--hidden` — text field fades out (opacity→0,
+  pointer-events:none) while listening.
+- `.voice-viz` / `.voice-viz--active` — canvas fades in over the input.
+- `.voice-orb`: `radial-gradient(circle at 34% 34%, #f0f9ff → #0284c7)` —
+  top-left highlight produces 3-D sphere appearance.
+- `.voice-orb--hd`: violet variant (`#faf5ff → #9333ea`).
+- `.voice-orb--listening`: `orb-pulse` keyframes (scale 1→1.08, expanding
+  box-shadow ring, 1.7s).
+- `.voice-orb--processing`: `orb-shimmer` keyframes (opacity 1→0.65, 1.1s).
+- `.voice-orb--speaking`: swaps to green gradient + `orb-breathe` keyframes
+  (box-shadow glow, 1.5s).
+- `.orb-icon` fades to opacity:0 when any active state class is present.
+- HD variants: `orb-pulse-hd` (violet ring) and `orb-breathe-hd`.
+- Full dark mode coverage: `@media (prefers-color-scheme: dark)` +
+  `:root[data-theme="dark/light"]` both handled.
+
+### Typing animation rationale
+
+Gemini transcription is a **single-call, complete result** — no interim
+partials. The character-by-character type-in is purely presentational,
+giving the perception of live typing. The implementation notes a documented
+alternative: `webkitSpeechRecognition` with `interimResults=true` would give
+genuinely incremental display on Chrome, with Gemini remaining authoritative
+for the final commit. Not implemented — Chrome-only, adds a second STT
+consumer.
+
+The key timing constraint driving `pendingTranscript`: §4.1 routing (deciding
+whether the transcript is a car selection or a query) must fire AFTER the
+animation completes, not as soon as the transcript arrives. Without
+`pendingTranscript`, there was no way to delay the routing without modifying
+VoiceModeService's state machine internals (which are DO-NOT-TOUCH).
+
+### Playwright verification results (all passing)
+
+- 2 orbs found, both have `radial-gradient` backgrounds ✓
+- Web orb: sky blue gradient, enabled ✓
+- HD orb: violet gradient, disabled ✓
+- Mic button: SVG icon present, no `voice-orb` class (visually unchanged) ✓
+- Dark theme gradient: present ✓
+- Listening state achieved: `voice-orb--listening` class applied ✓
+- Visualizer canvas: `voice-viz--active`, opacity=1, size=492×41 ✓
+- Input hidden while listening: `viz-input--hidden`, opacity=0 ✓
+- Input visible again after stop ✓
+- DOM structure: `.input-area`, `.viz-input`, canvas all present ✓
+- Console errors: none ✓
+
+---
+
+## 13. Suggested next step
 
 **Voice mode Phase 1 is code-complete.** The outstanding item before Phase 2
 can start is live verification of the Rule 8 cross-brand path:

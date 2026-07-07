@@ -42,23 +42,58 @@
   border-width: 1px;
   border-style: solid;
   border-radius: 999px;
-  /* Was a flat rgba(0,0,0,0.12) applied identically in both themes - never
-     actually checked against the dark surface, where a 12%-opacity black
-     shadow on an already-near-black background is nearly invisible. Now
-     theme-aware via --shadow-color (styles.css), same fix as the header. */
   box-shadow: 0 4px 16px rgb(var(--shadow-color));
   transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
-input {
+/* ------------------------------------------------------------------ */
+/* Input area: flex container that holds the text field + viz canvas   */
+/* ------------------------------------------------------------------ */
+
+.input-area {
   flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.viz-input {
+  width: 100%;
   border: none;
   background: transparent;
   padding: 10px 0;
   font-size: 14px;
   font-family: inherit;
   outline: none;
+  transition: opacity 0.18s ease;
 }
+
+/* Fade the text field out while the visualizer is visible */
+.viz-input--hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Canvas sits over the input, invisible by default */
+.voice-viz {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.voice-viz--active {
+  opacity: 1;
+}
+
+/* ------------------------------------------------------------------ */
+/* Mic + Send buttons (unchanged)                                       */
+/* ------------------------------------------------------------------ */
 
 .mic-button,
 .send-button {
@@ -98,50 +133,164 @@ button:disabled {
   cursor: not-allowed;
 }
 
-.voice-button {
+/* ------------------------------------------------------------------ */
+/* Voice Orb — gradient circle button (Web Speech + HD variants)       */
+/* ------------------------------------------------------------------ */
+
+.voice-orb {
   width: 40px;
-  padding: 0;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 999px;
-  cursor: pointer;
-  height: 40px;
-  flex-shrink: 0;
-  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  /* Sky-blue gradient: bright highlight at top-left, deeper blue at edge */
+  background: radial-gradient(circle at 34% 34%, #f0f9ff 0%, #bae6fd 38%, #38bdf8 68%, #0284c7 100%);
+  box-shadow: 0 1px 6px rgba(2, 132, 199, 0.28), 0 0 0 1px rgba(2, 132, 199, 0.14);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.15s ease;
 }
 
-/* Listening: pulsing red — microphone is active */
-.voice-button.voice-listening {
-  background: #dc2626;
-  border-color: #dc2626;
-  color: #ffffff;
-  animation: voice-pulse 1.4s ease-in-out infinite;
+.voice-orb:hover:not(:disabled) {
+  transform: scale(1.07);
+  box-shadow: 0 2px 12px rgba(2, 132, 199, 0.45), 0 0 0 1px rgba(2, 132, 199, 0.2);
 }
 
-/* Transcribing / waiting for response: amber spinner-like pulse */
-.voice-button.voice-processing {
-  background: #d97706;
-  border-color: #d97706;
-  color: #ffffff;
-  animation: voice-pulse 0.9s ease-in-out infinite;
+/* Icon: visible at rest, fades to transparent when active so the animation speaks */
+.orb-icon {
+  color: #0c4a6e;
+  opacity: 0.72;
+  transition: opacity 0.22s ease;
+  pointer-events: none;
 }
 
-/* Speaking: green steady glow */
-.voice-button.voice-speaking {
-  background: #16a34a;
-  border-color: #16a34a;
-  color: #ffffff;
+.voice-orb--listening .orb-icon,
+.voice-orb--processing .orb-icon,
+.voice-orb--speaking .orb-icon {
+  opacity: 0;
 }
 
-@keyframes voice-pulse {
+/* Listening: scale + pulsing glow ring */
+.voice-orb--listening {
+  animation: orb-pulse 1.7s ease-in-out infinite;
+}
+
+@keyframes orb-pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 1px 6px rgba(2, 132, 199, 0.28), 0 0 0 1px rgba(2, 132, 199, 0.14);
+  }
+  50% {
+    transform: scale(1.08);
+    box-shadow: 0 2px 22px rgba(2, 132, 199, 0.55), 0 0 0 7px rgba(2, 132, 199, 0.09);
+  }
+}
+
+/* Transcribing / waiting_response: softer opacity shimmer */
+.voice-orb--processing {
+  animation: orb-shimmer 1.1s ease-in-out infinite;
+}
+
+@keyframes orb-shimmer {
   0%, 100% { opacity: 1; }
-  50%       { opacity: 0.6; }
+  50%       { opacity: 0.65; }
 }
 
-/* Toast: floats above the input bar, centered */
+/* Speaking: swap to green gradient + breathe */
+.voice-orb--speaking {
+  background: radial-gradient(circle at 34% 34%, #f0fdf4 0%, #bbf7d0 38%, #34d399 68%, #059669 100%);
+  box-shadow: 0 1px 6px rgba(5, 150, 105, 0.3), 0 0 0 1px rgba(5, 150, 105, 0.15);
+  animation: orb-breathe 1.5s ease-in-out infinite;
+}
+
+@keyframes orb-breathe {
+  0%, 100% { box-shadow: 0 1px 6px rgba(5, 150, 105, 0.3),  0 0 0 1px rgba(5, 150, 105, 0.15); }
+  50%       { box-shadow: 0 2px 18px rgba(5, 150, 105, 0.55), 0 0 0 5px rgba(5, 150, 105, 0.08); }
+}
+
+/* HD variant: violet gradient to visually distinguish from Web Speech */
+.voice-orb--hd {
+  background: radial-gradient(circle at 34% 34%, #faf5ff 0%, #e9d5ff 38%, #c084fc 68%, #9333ea 100%);
+  box-shadow: 0 1px 6px rgba(147, 51, 234, 0.22), 0 0 0 1px rgba(147, 51, 234, 0.12);
+}
+
+.voice-orb--hd .orb-icon {
+  color: #3b0764;
+}
+
+.voice-orb--hd.voice-orb--listening {
+  animation: orb-pulse-hd 1.7s ease-in-out infinite;
+}
+
+@keyframes orb-pulse-hd {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 1px 6px rgba(147, 51, 234, 0.22), 0 0 0 1px rgba(147, 51, 234, 0.12);
+  }
+  50% {
+    transform: scale(1.08);
+    box-shadow: 0 2px 22px rgba(147, 51, 234, 0.5), 0 0 0 7px rgba(147, 51, 234, 0.08);
+  }
+}
+
+.voice-orb--hd.voice-orb--speaking {
+  animation: orb-breathe-hd 1.5s ease-in-out infinite;
+}
+
+@keyframes orb-breathe-hd {
+  0%, 100% { box-shadow: 0 1px 6px rgba(147, 51, 234, 0.22); }
+  50%       { box-shadow: 0 2px 18px rgba(147, 51, 234, 0.5); }
+}
+
+/* ------------------------------------------------------------------ */
+/* Dark mode overrides                                                  */
+/* ------------------------------------------------------------------ */
+
+@media (prefers-color-scheme: dark) {
+  .voice-orb {
+    background: radial-gradient(circle at 34% 34%, #e0f2fe 0%, #7dd3fc 38%, #0ea5e9 68%, #0369a1 100%);
+    box-shadow: 0 1px 6px rgba(14, 165, 233, 0.45), 0 0 0 1px rgba(14, 165, 233, 0.2);
+  }
+  .orb-icon { color: #082f49; }
+
+  .voice-orb--speaking {
+    background: radial-gradient(circle at 34% 34%, #dcfce7 0%, #86efac 38%, #22c55e 68%, #15803d 100%);
+  }
+
+  .voice-orb--hd {
+    background: radial-gradient(circle at 34% 34%, #f3e8ff 0%, #d8b4fe 38%, #a855f7 68%, #7e22ce 100%);
+    box-shadow: 0 1px 6px rgba(168, 85, 247, 0.4), 0 0 0 1px rgba(168, 85, 247, 0.18);
+  }
+  .voice-orb--hd .orb-icon { color: #2e1065; }
+}
+
+:root[data-theme="dark"] .voice-orb {
+  background: radial-gradient(circle at 34% 34%, #e0f2fe 0%, #7dd3fc 38%, #0ea5e9 68%, #0369a1 100%);
+  box-shadow: 0 1px 6px rgba(14, 165, 233, 0.45), 0 0 0 1px rgba(14, 165, 233, 0.2);
+}
+:root[data-theme="dark"] .orb-icon { color: #082f49; }
+
+:root[data-theme="dark"] .voice-orb--speaking {
+  background: radial-gradient(circle at 34% 34%, #dcfce7 0%, #86efac 38%, #22c55e 68%, #15803d 100%);
+}
+
+:root[data-theme="dark"] .voice-orb--hd {
+  background: radial-gradient(circle at 34% 34%, #f3e8ff 0%, #d8b4fe 38%, #a855f7 68%, #7e22ce 100%);
+  box-shadow: 0 1px 6px rgba(168, 85, 247, 0.4), 0 0 0 1px rgba(168, 85, 247, 0.18);
+}
+:root[data-theme="dark"] .voice-orb--hd .orb-icon { color: #2e1065; }
+
+:root[data-theme="light"] .voice-orb {
+  background: radial-gradient(circle at 34% 34%, #f0f9ff 0%, #bae6fd 38%, #38bdf8 68%, #0284c7 100%);
+  box-shadow: 0 1px 6px rgba(2, 132, 199, 0.28), 0 0 0 1px rgba(2, 132, 199, 0.14);
+}
+
+/* ------------------------------------------------------------------ */
+/* Toast                                                               */
+/* ------------------------------------------------------------------ */
+
 .voice-toast {
   position: fixed;
   bottom: 96px;
@@ -158,15 +307,8 @@ button:disabled {
 }
 
 @media (prefers-color-scheme: dark) {
-  .voice-toast {
-    background: rgba(255, 255, 255, 0.15);
-  }
+  .voice-toast { background: rgba(255, 255, 255, 0.15); }
 }
 
-:root[data-theme="light"] .voice-toast {
-  background: rgba(0, 0, 0, 0.8);
-}
-
-:root[data-theme="dark"] .voice-toast {
-  background: rgba(255, 255, 255, 0.15);
-}
+:root[data-theme="light"] .voice-toast { background: rgba(0, 0, 0, 0.8); }
+:root[data-theme="dark"]  .voice-toast { background: rgba(255, 255, 255, 0.15); }

@@ -11,6 +11,11 @@ const HARD_CAP_MS = 30_000;         // maximum recording length
 export class SilenceDetector {
   private ctx: AudioContext | null = null;
   private analyser: AnalyserNode | null = null;
+
+  // Read-only access for the visualizer in ChatInputComponent. The visualizer
+  // creates no AudioContext of its own — it reads from this node so the
+  // silence-detection loop (which owns the node) is the sole consumer.
+  get analyserNode(): AnalyserNode | null { return this.analyser; }
   private source: MediaStreamAudioSourceNode | null = null;
   private rafHandle: number | null = null;
   private silenceStart: number | null = null;

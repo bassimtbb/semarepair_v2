@@ -84,6 +84,14 @@ export class VoiceModeService {
   readonly engine = signal<VoiceEngine | null>(null);
   readonly toastMessage = signal<string | null>(null);
   readonly isActive = computed(() => this.engine() !== null);
+  // Set when a transcript is ready but §4.1 routing hasn't fired yet.
+  // ChatInputComponent watches this signal, runs the typing animation, then
+  // calls commitPendingTranscript() — routing fires only after that.
+  readonly pendingTranscript = signal<string | null>(null);
+
+  // Forwards the SilenceDetector's existing AnalyserNode so ChatInputComponent
+  // can drive the visualizer without creating a second AudioContext consumer.
+  get analyserNode(): AnalyserNode | null { return this.silenceDetector.analyserNode; }
 
   private mediaStream: MediaStream | undefined;
   private mediaRecorder: MediaRecorder | undefined;
@@ -133,8 +141,20 @@ export class VoiceModeService {
     this.mediaStream?.getTracks().forEach(t => t.stop());
     this.mediaStream = undefined;
     this.mediaRecorder = undefined;
+    this.pendingTranscript.set(null); // discard any in-flight animation
     this.engine.set(null);
     this.state.set('idle');
+  }
+
+  // Called by ChatInputComponent after the typing animation completes.
+  // Fires §4.1 routing and advances state to waiting_response.
+  // Guard on engine() so a stop mid-animation is a safe no-op.
+  commitPendingTranscript(): void {
+    const transcript = this.pendingTranscript();
+    this.pendingTranscript.set(null);
+    if (transcript === null || this.engine() === null) return;
+    this.routeTranscript(transcript);
+    this.state.set('waiting_response');
   }
 
   private async startRecording(): Promise<void> {
@@ -217,9 +237,11 @@ export class VoiceModeService {
 
     this.consecutiveEmptyAttempts = 0;
 
-    // §4.1 decision point: route transcript to confirm-car or send-message
-    this.routeTranscript(transcript.trim());
-    this.state.set('waiting_response');
+    // §4.1 routing is deferred: set pendingTranscript and stay in 'transcribing'
+    // until ChatInputComponent finishes the typing animation and calls
+    // commitPendingTranscript(). State stays 'transcribing' (amber processing
+    // indicator) during the animation, then advances to 'waiting_response'.
+    this.pendingTranscript.set(transcript.trim());
   }
 
   // §4.1: NEVER unconditionally send transcript as plain text.
