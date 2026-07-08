@@ -2834,6 +2834,68 @@ $ curl -s -X POST .../tts -d '{"text":"Ciao","language":"it"}'
 
 ---
 
+## 14. TTS Live Fix — Root Cause, Gemini Model Audit, Transcribe Error Handling
+
+### Root cause of TTS 502 / transcribe 500
+
+The initial 502 from `/api/chat/tts` was diagnosed as a bad API key
+(hex hash format). The real root cause emerged during key rotation: the
+existing `GEMINI_API_KEY` was accidentally restricted to "Cloud
+Text-to-Speech API only" in Google Cloud Console, which blocked all
+`generativelanguage.googleapis.com` calls — causing the transcribe 500
+with empty body. The fix:
+
+- Created a **separate** `GOOGLE_CLOUD_TTS_API_KEY` restricted to Cloud
+  Text-to-Speech API only (different project key, different credential).
+- Left `GEMINI_API_KEY` unrestricted (Google AI Studio key, not Google
+  Cloud Platform — these are different systems and cannot share a key).
+- Both keys coexist independently in `.env` (gitignored).
+
+### Gemini model audit — all services
+
+Grep across all C# and Python services for experimental model strings:
+
+```
+grep -rn "exp|preview|experimental" --include="*.cs" services/ | grep -i gemini
+grep -rn "gemini-" --include="*.cs" services/
+grep -rn "gemini-" services/ --include="*.py"
+```
+
+**All model strings found — all stable:**
+
+| File | Model | Status |
+|------|-------|--------|
+| `services/chat/Services/GeminiChatClient.cs` | `gemini-2.5-flash` | Stable ✓ |
+| `services/search/Services/QueryEmbedder.cs` | `gemini-embedding-001` | Stable ✓ |
+| `services/ingestion-resx/embedder.py` | `gemini-embedding-001` | Stable ✓ |
+
+No `-exp`, `-preview`, or `-experimental` suffix found anywhere.
+`gemini-2.0-flash-exp` (user's initial suspect) never existed in this
+repo — it had already been replaced with `gemini-2.5-flash` before this
+session.
+
+### Transcribe endpoint — structured error handling
+
+`POST /api/chat/transcribe` previously propagated Gemini exceptions
+unhandled, producing a 500 with an **empty body** (nginx passed through
+a zero-length response). The frontend's `fetch` + `res.text()` got an
+empty string with no way to distinguish an API failure from a legitimate
+empty transcript.
+
+Fix: wrapped `GeminiChatClient.TranscribeAsync()` in a try/catch.
+Success path stays `Content(transcript, "text/plain")` — unchanged
+for the frontend's `res.text()`. Failure returns:
+
+```
+503 { "error": "transcription_unavailable", "detail": "<exception message>" }
+```
+
+Shape matches the TTS and QueryEmbedder error responses. A future Gemini
+outage or model retirement now degrades gracefully with a parseable body
+instead of a silent empty crash.
+
+---
+
 ## 15. Suggested next step
 
 **Voice mode Phase 1 is code-complete.** The outstanding item before Phase 2

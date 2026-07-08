@@ -69,14 +69,23 @@ public class ChatController : ControllerBase
     // frontend yet to confirm what it will actually send; a real gap to
     // verify once one exists, not silently assumed to work.
     [HttpPost("transcribe")]
-    public async Task<string> Transcribe(IFormFile audio)
+    public async Task<IActionResult> Transcribe(IFormFile audio)
     {
         using var stream = new MemoryStream();
         await audio.CopyToAsync(stream);
         var base64 = Convert.ToBase64String(stream.ToArray());
         var mimeType = string.IsNullOrWhiteSpace(audio.ContentType) ? "audio/wav" : audio.ContentType;
 
-        return await _gemini.TranscribeAsync(mimeType, base64);
+        try
+        {
+            var transcript = await _gemini.TranscribeAsync(mimeType, base64);
+            // Return plain text — frontend reads this with res.text(), not res.json().
+            return Content(transcript, "text/plain");
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(503, new { error = "transcription_unavailable", detail = ex.Message });
+        }
     }
 
     // POST /api/chat/tts - Google Cloud TTS proxy per §6.4.

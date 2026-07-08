@@ -131,6 +131,50 @@ using the app today could be misled or hit a dead end because of these.
 
 ---
 
+---
+
+## Known Constraints / Hard Rules
+
+Rules that have been violated once (or nearly so) and must be enforced
+at every future code change.
+
+- **Never use -exp / -preview / -experimental model strings.**
+  `gemini-2.0-flash-exp` and similar are retired without notice by
+  Google. Always pin to stable model names:
+  - Chat / transcription: `gemini-2.5-flash`
+  - Embeddings: `gemini-embedding-001`
+  
+  Grep before every model change: `grep -rn "gemini-" services/ --include="*.cs" --include="*.py"`
+
+- **Two separate Google API keys are required — they cannot be
+  combined.**
+  - `GEMINI_API_KEY` — Google AI Studio key (`generativelanguage.googleapis.com`).
+    Must be **unrestricted** (or restricted only to Gemini/generativeLanguage APIs).
+  - `GOOGLE_CLOUD_TTS_API_KEY` — Google Cloud Platform key (`texttospeech.googleapis.com`).
+    May be restricted to Cloud Text-to-Speech API only.
+  
+  Restricting `GEMINI_API_KEY` to TTS-only blocks all Gemini calls. The two
+  platforms are different systems, and a single key cannot cover both.
+
+- **TTS API key never reaches the browser.** All TTS requests go through
+  `POST /api/chat/tts` (backend proxy). The key is read from `IConfiguration`
+  in `GoogleCloudTtsService` only.
+
+- **All backend error responses are JSON.** No HTML error pages. Every
+  error path in every controller must return a typed JSON body with at
+  least an `error` field. Default ASP.NET Core problem-details HTML must
+  be suppressed or overridden.
+
+- **`buildSpokenText()` must never call Gemini and must never rewrite
+  causa or intervento text.** Voice output uses the exact string from
+  the search response. No summarisation, paraphrasing, or LLM pass.
+
+- **`RepairOrchestrator.cs`, `SystemPromptBuilder.cs`, `SessionStore.cs`
+  are on the DO-NOT-TOUCH list** unless a change is explicitly scoped
+  to one of those files and reviewed before being applied.
+
+---
+
 ## Section 2: Enhancements
 
 Things that work but could be more reliable, observable, or maintainable. Nothing here fixes a mechanic-facing correctness gap, but each would improve production readiness.
