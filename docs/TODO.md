@@ -15,10 +15,32 @@ using the app today could be misled or hit a dead end because of these.
   `GoogleCloudEngine` frontend, iOS audio unlock, ✨ button enabled. All error
   paths return JSON. Verified through nginx (port 80). See `progress.md §13`.
 
-- [ ] **Rule 8 cross-brand path never live-tested — Phase 1 gate not yet passed**
-  - Where: `frontend/src/app/services/voice-mode.service.ts` `buildSpokenText()`
-  - Why it matters: the Phase 1→Phase 2 gate requires the Rule 8 two-turn ask-first flow to be verified live before any Phase 2 file is created; the fix (flag + document-absence guard) is code-complete and root-cause-confirmed from code reading, but was not verified in a browser session because Docker went down during the test
-  - What's needed: start Docker; confirm CITROEN Jumper 4HV (CI2505) in a session; find a fuel/injection fault code present in FI2515 (FIAT Ducato 4HV) but absent in CI2505's 1 document — e.g. a B- or P-prefix code from FI2515's 10 docs with system in `SystemCategoryLookup.AllowsEngineFallback`; send it; verify Turn 1 speaks only the disclosure; say "sì"; verify Turn 2 speaks causa+intervento (not the disclosure again); confirm `console.debug` shows `foundViaSharedEngine=true` on both turns
+- [x] **Web Speech non-English voice defaulted to English (Windows)** — `utterance.lang = 'it'` was
+  set but `utterance.voice` was left null; browser fell back to the system default (English) on
+  Windows without an Italian TTS pack. Fix: explicitly call `speechSynthesis.getVoices().find(v =>
+  v.lang.toLowerCase().startsWith(lang))` and assign to `utterance.voice`; rejects with
+  `no_voice_for_language` if voices are loaded but none match. Where:
+  `frontend/src/app/services/speech/web-speech.engine.ts`.
+
+- [x] **Mic icon (`lucide-mic`) was broken** — old kebab-case attribute API; `LucideMic` not imported.
+  Fix: import `LucideMic`, add to component `imports[]`, change template attribute from `lucide-mic`
+  to `lucideMic`. Where: `frontend/src/app/components/chat/chat-input/chat-input.component.ts`.
+
+- [x] **Voice mode visual restyle — presentation only** — gradient orb buttons replaced with quiet
+  line-style buttons matching the mic button template (`border-width`/`border-style` only, no
+  hardcoded `border` shorthand, no `opacity: 0.5`; Tailwind `border-border text-foreground
+  hover:bg-foreground/8` classes supply theme-aware colours). Active indicator moved to input bar as
+  a 3.5s breathing `box-shadow` glow. Dark mode uses `:host-context(.dark)` throughout — app uses
+  `.dark` class on `<html>` (Tailwind v4), not `data-theme` attribute or `prefers-color-scheme`.
+  Where: `frontend/src/app/components/chat/chat-input/chat-input.component.{ts,css}`.
+
+- [x] **Rule 8 cross-brand voice path — two bugs found, fixed, and verified live (Phase 1 gate passed)**
+  - Where: `frontend/src/app/services/voice-mode.service.ts`
+  - Test case: CI0037 (CITROEN Jumper RHV) + P0380 → fallback to FI0393 (FIAT Ducato RHV), doc 199310118
+  - **Bug 1**: `buildSpokenText`'s `hasRealDocument` guard assumed `causa=null` on Turn 1 — wrong. Backend ALWAYS includes full `causa`/`intervento` even on the disclosure turn. Guard was never reachable. Fix: simplified to `if (foundViaSharedEngine) return r.message ?? null` (safety net only).
+  - **Bug 2**: Planned Turn 2 flow assumed Gemini would re-issue the same search after "sì" — wrong. Gemini gives a generic reply with no tool call.
+  - **Fix**: Frontend-only consent gate — `pendingSharedEngineConsent` field stores the full response. `handleResponseReady` intercepts `foundViaSharedEngine=true`, speaks only `r.message`. Next transcript in `commitPendingTranscript`: affirmative → `speakStoredConsent` (no backend call); negative/unrelated → consent discarded, routed normally.
+  - **Verified via Playwright** (7/7 PASS, 0 FAIL): real P0380 confirmed `foundViaSharedEngine=true`; "si" → 0 backend calls, consent cleared; "no" → routed to backend; "P0560" → consent cleared, routed. All `isAffirmativeConsent` edge cases correct. See `progress.md §16`.
 
 ---
 
@@ -145,6 +167,11 @@ at every future code change.
   - Embeddings: `gemini-embedding-001`
   
   Grep before every model change: `grep -rn "gemini-" services/ --include="*.cs" --include="*.py"`
+
+- **`GEMINI_API_KEY` must be an `AIzaSy`-prefix Google AI Studio key.**
+  Keys with an `AQ.` prefix (a different Google credential format) return
+  401 on `generativelanguage.googleapis.com` — Gemini calls silently fail.
+  Get the correct key from `aistudio.google.com/app/apikey`.
 
 - **Two separate Google API keys are required — they cannot be
   combined.**

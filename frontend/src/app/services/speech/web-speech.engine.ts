@@ -75,6 +75,27 @@ export class WebSpeechEngine implements ISpeechEngine {
 
         const utterance = new SpeechSynthesisUtterance(chunks[index++]);
         utterance.lang = lang;
+
+        // Explicitly assign a matching voice. Setting .lang alone is
+        // insufficient: browsers on systems without the target language's
+        // TTS pack installed silently use the default (English) voice.
+        // getVoices() may be empty on the very first synchronous call
+        // (Chrome populates it after 'voiceschanged'); if voices are
+        // already loaded but none match, reject so the caller can show
+        // voice_unavailable_toast rather than playing garbled English.
+        const voices = speechSynthesis.getVoices();
+        if (voices.length > 0) {
+          const match = voices.find(v =>
+            v.lang.toLowerCase().startsWith(lang.toLowerCase())
+          ) ?? null;
+          if (!match) {
+            this.clearResumeTimer();
+            reject(new Error('no_voice_for_language'));
+            return;
+          }
+          utterance.voice = match;
+        }
+
         this.currentUtterance = utterance;
 
         utterance.onend = () => {

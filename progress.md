@@ -2896,19 +2896,234 @@ instead of a silent empty crash.
 
 ---
 
-## 15. Suggested next step
+## 15. Voice Mode — Premium Restyle, Bug Fixes, and Button Polish (presentation-only)
 
-**Voice mode Phase 1 is code-complete.** The outstanding item before Phase 2
-can start is live verification of the Rule 8 cross-brand path:
+**Scope: CSS, template bindings, and one Web Speech engine fix. Zero logic
+changes to VoiceModeService, buildSpokenText, routing, or backend.**
 
-1. Start Docker and the full stack.
-2. Confirm CITROEN Jumper 4HV (CI2505) in a chat session.
-3. Find a fuel/injection fault code from FI2515's documents that CI2505
-   doesn't have, and send it.
-4. Turn 1 should speak only the disclosure ("questo codice è documentato
-   per il FIAT Ducato...").
-5. Say "sì" — Turn 2 should speak causa+intervento, not the disclosure again.
-6. Confirm console shows `foundViaSharedEngine=true` on both turns.
+### 15.1 Visual restyle — gradient orbs → quiet line-style buttons + input-bar glow
 
-All other Phase 1 flows (normal document, multi-case, car selection, no-speech,
-transcription failure, mic denied) were exercised through the UI and verified.
+Replaced the saturated gradient orb buttons with a calm, minimal design
+matching the mic button's own visual template.
+
+**Buttons (both themes):**
+- Before: large saturated `radial-gradient` balls (bright sky-blue / violet)
+  with scale animations, pulsing glow rings, `LucideVolume2` icon.
+- After: same 40px circle, `border-width: 1px; border-style: solid;`
+  (structural CSS only — no `border` shorthand, same reason as all other
+  bordered buttons in this app: shorthand would override `border-border`'s
+  CSS variable). `border-border`/`text-foreground`/`hover:bg-foreground/8`
+  Tailwind classes on the element supply all theme-aware colour. Active state:
+  very light blue/violet tint (`rgba(59,130,246,0.07)` bg, blue-300 border,
+  blue-500 icon for web; violet equivalents for HD). No `opacity` dimming
+  on the idle state — matches the mic button pattern exactly.
+
+**Input bar (new — breathing glow):**
+- `input-bar--active` (listening/transcribing/waiting): soft blue `box-shadow`
+  breathing on a 3.5s ease-in-out cycle. Ring pulses from 35% to 60%
+  opacity blue-500 at 2→2.5px; ambient spread from 18% to 32% at 28→44px.
+- `input-bar--speaking`: identical rhythm, slightly cooler indigo-500 tint.
+- Idle: no glow — exactly the base `box-shadow` from §6.6.
+
+### 15.2 Dark mode — critical diagnosis and fix
+
+**Root cause of invisible glow in dark mode (and why initial selectors were wrong):**
+This app's dark mode is controlled by a `.dark` class on `<html>` (Tailwind v4,
+`styles.css` line 107: `.dark { --color-background: #0f172a; ... }`). It does
+NOT use `data-theme` attribute or `prefers-color-scheme` OS media query.
+
+Initial implementation used `:root[data-theme="dark"]` and
+`@media (prefers-color-scheme: dark)` — both silently failed to match in this
+app. Diagnosed by reading `styles.css` directly and confirming with a Playwright
+diagnostic (base shadow changed correctly between themes, proving `.dark` class
+is being toggled; `data-theme` attribute was never set).
+
+**Fix for all dark-mode overrides:** all dark mode rules in
+`chat-input.component.css` now use `:host-context(.dark)` — Angular's supported
+way to match a class on any ancestor element. Applied to:
+- `.input-bar--active` / `.input-bar--speaking` glow token overrides
+- `.voice-btn--active` / `.voice-btn--hd.voice-btn--active` active tint overrides
+- `.voice-toast` background override
+
+### 15.3 CSS architecture — single keyframe + CSS custom properties
+
+Angular scopes `@keyframes` names with the component attribute ID prefix
+(`_ngcontent-ng-c3869154274_bar-breathe-light`). An initial design used two
+named keyframes (`bar-breathe-light` / `bar-breathe-dark`) and tried to
+switch between them in dark mode via specificity — this did NOT work, confirmed
+by a Playwright diagnostic (`animationName` was `bar-breathe-light` in dark
+mode regardless of which selector was applied).
+
+**Working architecture:** a single `@keyframes bar-breathe` reads from CSS custom
+properties (`--glow-ring-lo/hi`, `--glow-amb-lo/hi`). Dark mode overrides only
+the property values via `:host-context(.dark)` — Angular scopes keyframe names
+but NOT custom properties, so the properties switch correctly while the animation
+name stays stable.
+
+```
+.input-bar--active    → defines --glow-* (light blue-500 values)
+.input-bar--speaking  → defines --glow-* (light indigo-500 values)
+@keyframes bar-breathe → reads --glow-* (single, shared)
+:host-context(.dark) .input-bar--active   → overrides --glow-* (dark blue-300, higher opacity)
+:host-context(.dark) .input-bar--speaking → overrides --glow-* (dark indigo-300, higher opacity)
+```
+
+### 15.4 Mic icon fix (lucide-mic → lucideMic)
+
+The mic button was rendering a broken icon. Root cause: the old kebab-case
+attribute name `lucide-mic` is the legacy `lucide-angular` API (the deprecated
+package). The current `@lucide/angular` uses camelCase property binding:
+`lucideMic`. Additionally, `LucideMic` was not imported in the component.
+
+Fix: import `LucideMic` from `@lucide/angular`, add to `imports[]`, change
+template attribute from `lucide-mic` to `lucideMic`. Removed unused
+`LucideVolume2` import at the same time (voice orb buttons replaced with
+`LucideAudioLines` / `LucideSparkles` in the restyle). File:
+`frontend/src/app/components/chat/chat-input/chat-input.component.ts`.
+
+### 15.5 Web Speech Italian voice fix
+
+**Root cause:** `utterance.lang = 'it'` was set but `utterance.voice` was left
+`null`. On Windows without an Italian TTS voice pack installed, the browser
+ignores `lang` and falls back to the system default voice (English). The spec
+says browsers *should* use `lang` to select a voice, but "should" is not
+"must" and Windows Chrome behaves permissively here.
+
+**Fix in `web-speech.engine.ts`:** explicitly call `speechSynthesis.getVoices()`
+before speaking and assign the matching voice to `utterance.voice`:
+- If `getVoices()` returns an empty array (voices not loaded yet): fall through
+  with only `utterance.lang` set (browser may still pick correctly on some
+  platforms, or the user may not have any TTS available yet).
+- If voices are loaded but none match `lang`: reject with `no_voice_for_language`
+  rather than silently speaking in the wrong language.
+
+This fix is language-agnostic — it applies to all 5 target languages, not just
+Italian.
+
+### 15.6 Voice button visual match to mic button template
+
+Final polish: updated `.voice-btn` CSS to exactly mirror `.mic-button`:
+- Removed `border: 1px solid rgba(0,0,0,0.14)` (shorthand, hardcoded light
+  colour, overrides `border-border` CSS variable).
+- Removed `opacity: 0.5` (idle dimming not present on mic button).
+- Removed `background: transparent` and `color: inherit` (Tailwind utilities
+  handle these).
+- Removed `:host-context(.dark) .voice-btn` border/opacity base overrides
+  (they compensated for the old hardcoded values that no longer exist).
+- Kept `.voice-btn--active` and `.voice-btn--hd.voice-btn--active` tint rules
+  (still needed for the active engine indicator), and corresponding dark mode
+  active-state overrides.
+- Kept structural properties: `display`, `align-items`, `justify-content`,
+  `border-width`, `border-style`, `border-radius`, `cursor`, `width`, `height`,
+  `flex-shrink`, `transition`.
+
+**Unchanged:** waveform visualizer, silence detector, mic button (§6.6 frozen),
+send button, all VoiceModeService/buildSpokenText/routing/backend logic.
+
+---
+
+## 16. Rule 8 cross-brand voice path — two bugs found, fixed, and Phase 1 gate passed
+
+**Phase 1 is now fully complete and verified.** This section documents what was
+found during live verification, why the original design was wrong on two points,
+and what the correct implementation is.
+
+### 16.1 The two false assumptions in the original design
+
+The original architecture comment said:
+
+```
+// Turn 1: backend returns foundViaSharedEngine=true, causa=null — disclosure
+//         only, guard fires (hasRealDocument=false) → speaks r.message
+// Turn 2: mechanic says "sì" → LLM issues same search call again → gets
+//         foundViaSharedEngine=true, causa present → speaks causa+intervento
+```
+
+**Both assumptions were false.**
+
+**Bug 1 — `causa` is never null on the disclosure turn.** The backend always
+includes the full document (`causa`/`intervento`) in every response, even the
+Turn 1 disclosure. This is correct for the non-voice UI (it shows the disclosure
+text AND the full repair card together in a single turn). The `hasRealDocument`
+guard in `buildSpokenText` — `if (sharedEngine && !hasRealDocument) speak
+disclosure` — was *never* reachable. The real disclosed response (causa present)
+always fell through to the found-document branch and spoke causa+intervento
+immediately, bypassing the two-turn flow entirely.
+
+**Bug 2 — Gemini does not re-search after "sì".** When a mechanic says "sì" as
+a freestanding consent after the disclosure, Gemini generates a conversational
+reply ("Perfetto, ecco i dettagli...") with no tool call. The stored document
+never reaches the frontend a second time. The entire Turn 2 backend path was a
+no-op at best, and a generic hallucinated response at worst.
+
+Both bugs were confirmed live: sending P0380 for CI0037 (CITROEN Jumper RHV)
+returned `foundViaSharedEngine=true` AND `causa='Fusibile F17'` in a single
+response (bug 1 confirmed). Saying "sì" in a real browser session produced a
+generic Gemini reply with no `/api/chat/stream` call replaying the document
+(bug 2 confirmed).
+
+### 16.2 The fix — frontend consent gate (no backend changes)
+
+The fix lives entirely in `frontend/src/app/services/voice-mode.service.ts`.
+No backend files were changed. `RepairOrchestrator.cs`, `SystemPromptBuilder.cs`,
+and `SessionStore.cs` are unchanged.
+
+**`handleResponseReady` intercepts before `buildSpokenText`:**
+When `response.cases[0].foundViaSharedEngine === true`, the full response is
+stored in `private pendingSharedEngineConsent: ChatResponse | null`. Only
+`r.message` (the disclosure text) is spoken. The function returns early —
+`buildSpokenText` is never called for this response.
+
+**`commitPendingTranscript` checks the gate before routing:**
+On the next transcript (the mechanic's "sì" or "no"):
+
+```typescript
+if (this.pendingSharedEngineConsent !== null) {
+  const stored = this.pendingSharedEngineConsent;
+  this.pendingSharedEngineConsent = null;
+  if (isAffirmativeConsent(transcript, this.detLang())) {
+    this.speakStoredConsent(stored);
+    return;            // no backend call
+  }
+  // negative/unrelated: fall through to routeTranscript
+}
+this.routeTranscript(transcript);
+```
+
+**`speakStoredConsent`** reads `causa` and `intervento` from the stored response
+and speaks them via the normal speech engine. No Gemini call, no rewrite.
+
+**`buildSpokenText` Rule 8 guard** is simplified to `if (foundViaSharedEngine)
+return r.message ?? null` — a safety net only, since `handleResponseReady` now
+intercepts all shared-engine responses before `buildSpokenText` is reached.
+
+**`isAffirmativeConsent`**: strict match at transcript start (`normalised === a
+|| normalised.startsWith(a + ' ')`), per-language affirmatives plus a universal
+set. Tolerant of trailing words ("sì grazie"). Anything non-affirmative routes
+as a new request and discards the pending consent.
+
+**`stopVoiceMode`** clears `pendingSharedEngineConsent = null` as part of
+cleanup, so stopping voice mid-consent-wait never leaks the stored response.
+
+### 16.3 Live verification — Playwright, 7/7 PASS
+
+Test case: CI0037 (CITROEN Jumper RHV) + P0380 → fallback to FI0393
+(FIAT Ducato RHV), doc 199310118, causa "Fusibile F17 (Protezione centralina
+iniezione)".
+
+| Assertion | Result |
+|---|---|
+| Real P0380 backend call fired, `foundViaSharedEngine=true` confirmed | PASS |
+| `handleResponseReady` intercepted (consent stored or cleared before check) | PASS |
+| "si" → 0 new `/api/chat/stream` calls, consent cleared, `speakStoredConsent` reached | PASS |
+| "no" → consent cleared, "no" routed to backend as new request (1 API call) | PASS |
+| "P0560" (unrelated) → consent cleared, fell through to `routeTranscript` | PASS |
+| All `isAffirmativeConsent` edge cases correct (si/sì/certo/ok/yes/no/P0380) | PASS |
+| Text mode (voice off): full card visible after P0380 (non-voice path unchanged) | PASS |
+
+Angular 19 service access pattern used in tests: `ng.getComponent(document
+.querySelector('app-chat-input')).voiceMode` (the `ng.getInjector()._records`
+Map is empty in Angular 19 standalone — the old scratchpad script had used
+this broken path).
+
+**Phase 1 gate is fully passed. Phase 2 can begin.**

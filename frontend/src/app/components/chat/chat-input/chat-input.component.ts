@@ -9,7 +9,7 @@
 // second STT consumer.
 import { Component, ElementRef, EventEmitter, Input, OnDestroy, Output, ViewChild, effect, signal, untracked } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { LucideAudioLines, LucideSparkles, LucideSquare, LucideVolume2, LucideSend } from '@lucide/angular';
+import { LucideAudioLines, LucideMic, LucideSparkles, LucideSquare, LucideSend } from '@lucide/angular';
 import { ChatApiService } from '../../../services/chat-api.service';
 import { SpeechService } from '../../../services/speech/speech.service';
 import { VoiceModeService } from '../../../services/voice-mode.service';
@@ -18,13 +18,15 @@ import type { VoiceEngine } from '../../../services/voice-mode.service';
 @Component({
   selector: 'app-chat-input',
   standalone: true,
-  imports: [FormsModule, LucideAudioLines, LucideSparkles, LucideSquare, LucideVolume2, LucideSend],
+  imports: [FormsModule, LucideAudioLines, LucideMic, LucideSparkles, LucideSquare, LucideSend],
   template: `
     @if (voiceMode.toastMessage()) {
       <div class="voice-toast">{{ voiceMode.toastMessage() }}</div>
     }
     <div class="input-bar-wrapper">
-      <div class="input-bar bg-surface border-border">
+      <div class="input-bar bg-surface border-border"
+          [class.input-bar--active]="voiceMode.isActive() && voiceMode.state() !== 'speaking'"
+          [class.input-bar--speaking]="voiceMode.state() === 'speaking'">
 
         <!-- 🎤 Mic: frozen per §6.6 -->
         <button
@@ -38,36 +40,32 @@ import type { VoiceEngine } from '../../../services/voice-mode.service';
           @if (isRecording()) {
             <svg lucideSquare [size]="18"></svg>
           } @else {
-            <svg lucideAudioLines [size]="18"></svg>
+            <svg lucideMic [size]="18"></svg>
           }
         </button>
 
-        <!-- 🔊 Voice Orb (Web Speech API) -->
+        <!-- 🔊 Voice button (Web Speech API) -->
         <button
           type="button"
-          class="voice-orb"
-          [class.voice-orb--listening]="voiceMode.engine() === 'web' && voiceMode.state() === 'listening'"
-          [class.voice-orb--processing]="voiceMode.engine() === 'web' && (voiceMode.state() === 'transcribing' || voiceMode.state() === 'waiting_response')"
-          [class.voice-orb--speaking]="voiceMode.engine() === 'web' && voiceMode.state() === 'speaking'"
+          class="voice-btn  border-border text-foreground hover:bg-foreground/8"
+          [class.voice-btn--active]="voiceMode.engine() === 'web'"
           [disabled]="disabled || (voiceMode.isActive() && voiceMode.engine() !== 'web') || !voiceMode.isSupported('web')"
           (click)="toggleVoiceMode('web')"
           [title]="voiceButtonTitle('web')"
         >
-          <svg lucideVolume2 [size]="16" class="orb-icon"></svg>
+          <svg lucideAudioLines [size]="16" class="voice-icon"></svg>
         </button>
 
-        <!-- ✨ Voice HD Orb (Google Cloud — Phase 2 stub, always disabled) -->
+        <!-- ✨ Voice HD button (Google Cloud TTS) -->
         <button
           type="button"
-          class="voice-orb voice-orb--hd"
-          [class.voice-orb--listening]="voiceMode.engine() === 'google' && voiceMode.state() === 'listening'"
-          [class.voice-orb--processing]="voiceMode.engine() === 'google' && (voiceMode.state() === 'transcribing' || voiceMode.state() === 'waiting_response')"
-          [class.voice-orb--speaking]="voiceMode.engine() === 'google' && voiceMode.state() === 'speaking'"
+          class="voice-btn voice-btn--hd border-border text-foreground hover:bg-foreground/8"
+          [class.voice-btn--active]="voiceMode.engine() === 'google'"
           [disabled]="disabled || (voiceMode.isActive() && voiceMode.engine() !== 'google') || !voiceMode.isSupported('google')"
           (click)="toggleVoiceMode('google')"
           [title]="voiceButtonTitle('google')"
         >
-          <svg lucideSparkles [size]="16" class="orb-icon"></svg>
+          <svg lucideSparkles [size]="16" class="voice-icon"></svg>
         </button>
 
         <!-- Input + visualizer: canvas always in DOM, opacity driven by CSS -->

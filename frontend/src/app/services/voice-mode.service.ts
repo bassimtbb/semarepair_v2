@@ -15,28 +15,19 @@ export type VoiceEngine = 'web' | 'google';
 // strings are added. This function is the sole source of TTS content.
 //
 // Order strictly follows §5.8:
-//   1. §5.6 foundViaSharedEngine guard — MUST be first (ask-first contract)
+//   1. §5.6 Rule 8 cross-brand guard — MUST be first (ask-first contract)
 //   2. Car selection (§5.4)
 //   3. Found document (§5.1 single / §5.2 multi)
 //   4. Everything else: speak r.message verbatim (Rule 8b/8c/9/10/not_found)
+//
+// NOTE: foundViaSharedEngine responses are intercepted in handleResponseReady()
+// BEFORE this function is called, so the §5.6 guard here is a safety net only.
+// The consent gate (including causa/intervento reveal) lives in commitPendingTranscript
+// / speakStoredConsent, not here.
 export function buildSpokenText(r: ChatResponse, lang: string): string | null {
-  // §5.6 Rule 8 cross-brand ask-first guard. Must be FIRST per §5.8.
-  //
-  // WHY flag alone is insufficient: Search Service never resets
-  // foundViaSharedEngine — it is a property of the search result, not
-  // session state. After the mechanic confirms ("sì"), the LLM issues the
-  // same search call again and gets foundViaSharedEngine=true a second time.
-  // BuildFormatting still generates a non-null message on that second turn
-  // (its rule fires on the flag, not on whether the mechanic has consented).
-  // A flag-only guard loops the disclosure indefinitely.
-  //
-  // Fix: speak the disclosure only on Turn 1 (causa absent = document not
-  // yet revealed). On Turn 2 the LLM has retrieved the actual document so
-  // causa + intervento are populated — the guard is false and §5.1 below
-  // reads them out normally.
-  const sharedEngine = r.cases?.[0]?.foundViaSharedEngine === true;
-  const hasRealDocument = !!r.cases?.[0]?.causa && !!r.cases?.[0]?.intervento;
-  if (sharedEngine && !hasRealDocument) {
+  // §5.6 Rule 8 safety net: if a shared-engine response somehow reaches here,
+  // speak only the disclosure. The real gate is in handleResponseReady().
+  if (r.cases?.[0]?.foundViaSharedEngine === true) {
     return r.message ?? null;
   }
 
@@ -76,6 +67,30 @@ export function buildSpokenText(r: ChatResponse, lang: string): string | null {
   return r.message ?? null;
 }
 
+// §5.6 Rule 8 consent detection — strict "yes"-equivalent match.
+// Fail-safe: only affirmative words at the start of the transcript reveal
+// the stored document. Anything else (negative, ambiguous, new fault code)
+// routes as a new request and discards the pending consent.
+// Tolerant of trailing words ("sì grazie", "yes please").
+function isAffirmativeConsent(transcript: string, lang: string): boolean {
+  const normalised = transcript.toLowerCase().trim().replace(/[.,!?¿¡]/g, '').trim();
+  // Per-language primary affirmatives
+  const byLang: Record<string, string[]> = {
+    it: ['sì', 'si', 'certo', 'ok', 'va bene'],
+    en: ['yes', 'yeah', 'yep', 'sure', 'ok'],
+    fr: ['oui', 'ok', 'bien sur'],
+    pt: ['sim', 'ok', 'claro'],
+    es: ['sí', 'si', 'ok', 'claro'],
+  };
+  // Cross-language universal set always accepted regardless of detected lang
+  const universal = ['yes', 'sì', 'si', 'oui', 'sim', 'sí', 'ok'];
+  const candidates = new Set([...(byLang[lang] ?? byLang['it']), ...universal]);
+  for (const a of candidates) {
+    if (normalised === a || normalised.startsWith(a + ' ')) return true;
+  }
+  return false;
+}
+
 @Injectable({ providedIn: 'root' })
 export class VoiceModeService {
   private readonly silenceDetector = new SilenceDetector();
@@ -88,6 +103,12 @@ export class VoiceModeService {
   // ChatInputComponent watches this signal, runs the typing animation, then
   // calls commitPendingTranscript() — routing fires only after that.
   readonly pendingTranscript = signal<string | null>(null);
+
+  // §5.6 Rule 8: full ChatResponse stored after a foundViaSharedEngine turn.
+  // commitPendingTranscript checks this before routing the next transcript.
+  // Cleared on consent (affirmative → speakStoredConsent), on discard
+  // (negative/ambiguous → route as new request), and on stopVoiceMode().
+  private pendingSharedEngineConsent: ChatResponse | null = null;
 
   // Forwards the SilenceDetector's existing AnalyserNode so ChatInputComponent
   // can drive the visualizer without creating a second AudioContext consumer.
@@ -141,7 +162,8 @@ export class VoiceModeService {
     this.mediaStream?.getTracks().forEach(t => t.stop());
     this.mediaStream = undefined;
     this.mediaRecorder = undefined;
-    this.pendingTranscript.set(null); // discard any in-flight animation
+    this.pendingTranscript.set(null);
+    this.pendingSharedEngineConsent = null;
     this.engine.set(null);
     this.state.set('idle');
   }
@@ -153,6 +175,22 @@ export class VoiceModeService {
     const transcript = this.pendingTranscript();
     this.pendingTranscript.set(null);
     if (transcript === null || this.engine() === null) return;
+
+    // §5.6 Rule 8 consent gate — mirrors the §4.1 car-selection interception.
+    // If a shared-engine disclosure was just spoken and we're waiting for the
+    // mechanic's consent, intercept the next transcript here before it reaches
+    // the backend. Affirmative → reveal stored causa/intervento locally, no
+    // backend call. Anything else → discard consent, route as a new request.
+    if (this.pendingSharedEngineConsent !== null) {
+      const stored = this.pendingSharedEngineConsent;
+      this.pendingSharedEngineConsent = null;
+      if (isAffirmativeConsent(transcript, this.detLang())) {
+        this.speakStoredConsent(stored);
+        return; // no backend call, state goes directly to speaking → listening
+      }
+      // Negative or ambiguous: fall through and route transcript as new request.
+    }
+
     this.routeTranscript(transcript);
     this.state.set('waiting_response');
   }
@@ -265,6 +303,31 @@ export class VoiceModeService {
     const response = this.chatStore.lastResponse();
     if (!response || this.engine() === null) return;
 
+    // §5.6 Rule 8 cross-brand consent gate.
+    // The backend always includes full causa/intervento even on the disclosure
+    // turn (correct for non-voice UI — shows disclosure + card together).
+    // For voice: store the full response and speak ONLY r.message (disclosure).
+    // The next transcript goes through the consent gate in commitPendingTranscript
+    // instead of being routed to the backend.
+    if (response.cases?.[0]?.foundViaSharedEngine === true) {
+      this.pendingSharedEngineConsent = response;
+      const disclosure = response.message ?? null;
+      if (!disclosure) {
+        // No disclosure text — stay in consent-pending, listen for "sì".
+        this.transitionToListening();
+        return;
+      }
+      this.state.set('speaking');
+      this.speech.speak(disclosure, this.detLang(), this.engine() ?? 'web')
+        .then(() => this.transitionToListening())
+        .catch(() => {
+          const key = this.engine() === 'google' ? 'hd_voice_unavailable_toast' : 'voice_unavailable_toast';
+          this.showToast(t(this.detLang(), key));
+          this.stopVoiceMode();
+        });
+      return;
+    }
+
     const spokenText = buildSpokenText(response, this.detLang());
     if (!spokenText) {
       this.transitionToListening();
@@ -279,6 +342,28 @@ export class VoiceModeService {
         const key = this.engine() === 'google'
           ? 'hd_voice_unavailable_toast'
           : 'voice_unavailable_toast';
+        this.showToast(t(this.detLang(), key));
+        this.stopVoiceMode();
+      });
+  }
+
+  // Speaks causa+intervento from a stored shared-engine response without a
+  // backend call. Called by commitPendingTranscript when the mechanic consents.
+  private speakStoredConsent(stored: ChatResponse): void {
+    const c = stored.cases[0];
+    const parts: string[] = [];
+    if (c?.causa)      parts.push(`${t(this.detLang(), 'causa_prefix')} ${c.causa}`);
+    if (c?.intervento) parts.push(`${t(this.detLang(), 'intervento_prefix')} ${c.intervento}`);
+    const text = parts.join(' ');
+    if (!text) {
+      this.transitionToListening();
+      return;
+    }
+    this.state.set('speaking');
+    this.speech.speak(text, this.detLang(), this.engine() ?? 'web')
+      .then(() => this.transitionToListening())
+      .catch(() => {
+        const key = this.engine() === 'google' ? 'hd_voice_unavailable_toast' : 'voice_unavailable_toast';
         this.showToast(t(this.detLang(), key));
         this.stopVoiceMode();
       });
