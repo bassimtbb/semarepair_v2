@@ -1,6 +1,8 @@
-import { Injectable, signal } from '@angular/core';
+import { Injectable, computed, signal } from '@angular/core';
 import { ChatApiService } from './chat-api.service';
 import { detectLanguage } from './language-detector';
+import { parseCarSelection } from './selection-parser';
+import { sortCarsForDisplay } from '../utils/car-sort';
 import type { CarOption, ChatMessage, ChatResponse } from '../models/chat.models';
 
 function generateId(): string {
@@ -28,10 +30,35 @@ export class ChatStore {
   readonly lastResponse = signal<ChatResponse | null>(null);
   readonly detectedLanguage = signal('it');
 
+  // Flat car list in the same visual order CarSelectionListComponent renders:
+  // groups sorted alphabetically (Altro last), within each group by annoInizio
+  // desc then codiceMotore asc. Badge number N on a card = carDisplayOrder[N-1].
+  readonly carDisplayOrder = computed<CarOption[]>(() =>
+    sortCarsForDisplay(this.lastResponse()?.carMatches ?? []),
+  );
+
   constructor(private readonly api: ChatApiService) {}
 
   async sendMessage(text: string): Promise<void> {
     if (!text.trim() || this.isStreaming()) return;
+
+    // If a car-selection list is currently visible, try to parse the typed
+    // text as a number reference before sending to the backend. A bare "8",
+    // "otto", "the eighth", etc. should confirm the car at visual position 8
+    // without creating a /api/chat/stream call with that literal text as the
+    // body (which would fail TooVague validation or confuse Gemini).
+    const displayOrder = this.carDisplayOrder();
+    if (displayOrder.length > 0) {
+      const index = parseCarSelection(text, this.language, displayOrder.length);
+      if (index !== null) {
+        const car = displayOrder[index];
+        if (car) {
+          await this.confirmCar(car);
+          return;
+        }
+      }
+    }
+
     this.language = detectLanguage(text, this.language);
     this.detectedLanguage.set(this.language);
     await this.send(text);

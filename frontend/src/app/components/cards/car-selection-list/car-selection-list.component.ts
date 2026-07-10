@@ -1,12 +1,17 @@
 import { Component, EventEmitter, Input, Output, computed, signal } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { LucideChevronRight, LucideSearch } from '@lucide/angular';
+import { LucideChevronRight } from '@lucide/angular';
 import { CarCardComponent } from '../car-card/car-card.component';
 import type { CarOption } from '../../../models/chat.models';
+import { sortCarsForDisplay } from '../../../utils/car-sort';
+
+interface NumberedCar {
+  car: CarOption;
+  badge: number;
+}
 
 interface CarGroup {
   key: string;
-  cars: CarOption[];
+  cars: NumberedCar[];
 }
 
 // Groups a car-selection result by motorizzazione (the engine label a
@@ -20,19 +25,9 @@ interface CarGroup {
 @Component({
   selector: 'app-car-selection-list',
   standalone: true,
-  imports: [FormsModule, CarCardComponent, LucideChevronRight, LucideSearch],
+  imports: [CarCardComponent, LucideChevronRight],
   template: `
     <div class="car-selection">
-      <div class="filter-bar bg-card-surface border-border">
-        <svg lucideSearch [size]="14" class="text-muted"></svg>
-        <input
-          type="text"
-          class="text-foreground"
-          [(ngModel)]="filterText"
-          placeholder="Filtra per motore, anno, codice..."
-        />
-      </div>
-
       @for (group of groups(); track group.key) {
         <div class="car-group">
           <button
@@ -47,16 +42,12 @@ interface CarGroup {
           </button>
           @if (isExpanded(group.key)) {
             <div class="car-grid">
-              @for (car of group.cars; track car.idMacchina) {
-                <app-car-card [car]="car" (select)="select.emit($event)" />
+              @for (item of group.cars; track item.car.idMacchina) {
+                <app-car-card [car]="item.car" [badge]="item.badge" (select)="select.emit($event)" />
               }
             </div>
           }
         </div>
-      }
-
-      @if (groups().length === 0) {
-        <div class="no-matches text-muted">Nessun veicolo corrisponde al filtro.</div>
       }
     </div>
   `,
@@ -66,50 +57,30 @@ export class CarSelectionListComponent {
   @Input({ required: true }) cars!: CarOption[];
   @Output() select = new EventEmitter<CarOption>();
 
-  private readonly filter = signal('');
   // Collapsed-by-key, not expanded-by-key, so that newly arriving groups
   // (a fresh car-selection result replacing the previous one) default to
   // expanded without needing to be seeded - only explicit user action ever
   // adds to this set.
   private readonly collapsedKeys = signal<ReadonlySet<string>>(new Set());
 
-  get filterText(): string {
-    return this.filter();
-  }
-
-  set filterText(value: string) {
-    this.filter.set(value);
-  }
-
   readonly groups = computed<CarGroup[]>(() => {
-    const term = this.filter().trim().toLowerCase();
-    const filtered = term
-      ? this.cars.filter((car) => this.searchableText(car).includes(term))
-      : this.cars;
-
-    const byKey = new Map<string, CarOption[]>();
-    for (const car of filtered) {
+    // sortCarsForDisplay produces the exact flat visual order that ChatStore's
+    // carDisplayOrder also uses — badge numbers here are therefore always
+    // identical to the indices the selection parsers resolve to.
+    const flat = sortCarsForDisplay(this.cars);
+    const byKey = new Map<string, NumberedCar[]>();
+    flat.forEach((car, i) => {
       const key = car.motorizzazione?.trim() || 'Altro';
       const list = byKey.get(key) ?? [];
-      list.push(car);
+      list.push({ car, badge: i + 1 });
       byKey.set(key, list);
-    }
-
-    return [...byKey.entries()]
-      .sort(([a], [b]) => (a === 'Altro' ? 1 : b === 'Altro' ? -1 : a.localeCompare(b)))
-      .map(([key, cars]) => ({
-        key,
-        cars: [...cars].sort(
-          (a, b) => (b.annoInizio ?? 0) - (a.annoInizio ?? 0) || a.codiceMotore.localeCompare(b.codiceMotore),
-        ),
-      }));
+    });
+    // Map preserves insertion order, which mirrors flat's group order (alpha, Altro last).
+    return [...byKey.entries()].map(([key, cars]) => ({ key, cars }));
   });
 
-  // While filtering, every matching group is shown fully open - the
-  // mechanic is actively searching for something specific and shouldn't
-  // also have to manually expand each group to see whether it matched.
   isExpanded(key: string): boolean {
-    return this.filter().trim().length > 0 || !this.collapsedKeys().has(key);
+    return !this.collapsedKeys().has(key);
   }
 
   toggleGroup(key: string): void {
@@ -120,12 +91,5 @@ export class CarSelectionListComponent {
       next.add(key);
     }
     this.collapsedKeys.set(next);
-  }
-
-  private searchableText(car: CarOption): string {
-    return [car.marca, car.modello, car.motorizzazione, car.codiceMotore, car.alimentazione, car.annoInizio, car.annoFine]
-      .filter((v) => v !== null && v !== undefined && v !== '')
-      .join(' ')
-      .toLowerCase();
   }
 }

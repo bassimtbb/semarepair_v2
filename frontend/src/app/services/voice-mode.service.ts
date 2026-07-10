@@ -283,17 +283,23 @@ export class VoiceModeService {
   }
 
   // §4.1: NEVER unconditionally send transcript as plain text.
-  // If the last response had 1–5 car options pending, try to parse the
-  // transcript as a number first. A match → structured confirmCarByIndex()
-  // payload (not text). "due" as plain text would trigger TooVague validation
-  // and fail. Only fall through to sendMessage() if parsing finds no number.
+  // If any car-selection list is pending (any size — the old 1–5 cap is
+  // removed; §5.4 still limits what is READ aloud, but recognition is
+  // unlimited), try to parse the transcript as a number first.
+  // A match → confirmCar() on the car at that visual-order position.
+  // "due" as plain text would trigger TooVague validation and fail.
+  // Only fall through to sendMessage() if parsing finds no number.
   private routeTranscript(transcript: string): void {
     const last = this.chatStore.lastResponse();
-    if (last && last.carMatches.length > 0 && last.carMatches.length <= 5) {
-      const index = this.voiceCarSelection.parse(transcript, this.detLang(), last.carMatches.length);
+    if (last && last.carMatches.length > 0) {
+      const displayOrder = this.chatStore.carDisplayOrder();
+      const index = this.voiceCarSelection.parse(transcript, this.detLang(), displayOrder.length);
       if (index !== null) {
-        void this.chatStore.confirmCarByIndex(index);
-        return;
+        const car = displayOrder[index];
+        if (car) {
+          void this.chatStore.confirmCar(car);
+          return;
+        }
       }
     }
     void this.chatStore.sendMessage(transcript);

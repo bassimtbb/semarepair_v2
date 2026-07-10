@@ -10,6 +10,9 @@ import type { CarOption } from '../../../models/chat.models';
       class="car-card bg-card-surface border-border hover:border-accent hover:bg-foreground/8"
       (click)="select.emit(car)"
     >
+      @if (badge > 0) {
+        <span class="car-badge">{{ badge }}</span>
+      }
       <div class="car-title text-accent">{{ car.marca }} {{ car.modello }}</div>
       <div class="car-detail text-muted">{{ car.motorizzazione }}</div>
       <div class="car-meta text-muted">
@@ -29,5 +32,6 @@ import type { CarOption } from '../../../models/chat.models';
 })
 export class CarCardComponent {
   @Input({ required: true }) car!: CarOption;
+  @Input() badge = 0;
   @Output() select = new EventEmitter<CarOption>();
 }

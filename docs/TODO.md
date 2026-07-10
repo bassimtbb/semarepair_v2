@@ -114,6 +114,15 @@ using the app today could be misled or hit a dead end because of these.
   - Why it matters: a mechanic sees the car-selection list showing "9999" as a literal year, then clicks through to a confirmed-car badge that shows "oggi" — visually inconsistent on the same screen for the same car
   - What's needed: code fix — one-line template change to render `annoFine === 9999` as "oggi" (or per-language equivalent already used in `RepairOrchestrator.BuildVehicleNotFoundMessage`) in the car-card year-range span
 
+- [x] **Numbered car selection — voice + text, all 30 slots, 5 languages** (see `progress.md §17`)
+  - Badge (1…N) on every car card, continuous across groups; single source of truth via `car-sort.ts`
+  - Shared `selection-parser.ts`: digits, words, ordinals, 2/3-gram compounds, all 5 languages, greedy match
+  - `ChatStore.sendMessage()` intercepts typed numbers before hitting the backend
+  - `VoiceModeService.routeTranscript()` cap (≤5) removed; uses `carDisplayOrder` so badge = voice index
+  - Where: `frontend/src/app/utils/car-sort.ts`, `frontend/src/app/services/selection-parser.ts`,
+    `voice-car-selection.service.ts`, `chat-store.service.ts`, `voice-mode.service.ts`,
+    `car-card.component.{ts,css}`, `car-selection-list.component.ts`
+
 - [ ] **Muted text on `--color-card-surface` fails WCAG AA — measured 3.707:1, floor is 4.5:1** (see §6.7)
   - Where: `frontend/src/styles.css` (`--color-card-surface` token); `frontend/src/app/components/cards/car-card/car-card.component.css` muted detail text
   - Why it matters: this is a measured failure against a real standard, not a subjective "could be better" — the pre-existing baseline was already below AA (4.230:1); this change moved it further down; the explicit acceptance was "smallest available regression," not "acceptable to ship"

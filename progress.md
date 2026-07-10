@@ -3127,3 +3127,90 @@ Map is empty in Angular 19 standalone — the old scratchpad script had used
 this broken path).
 
 **Phase 1 gate is fully passed. Phase 2 can begin.**
+
+
+---
+
+## 17. Numbered car selection — voice + text, all 30 slots, 5 languages
+
+**Date:** July 2026
+
+### 17.1 What was built
+
+Mechanics can now select a car from the displayed list by number — by speaking
+"otto", "8", "the eighth", "le huitième", etc., or by typing the number in the
+text field. All car sizes (not just ≤5) are supported.
+
+**Part 1 — Number badge on every car card**
+
+Each card in the selection list shows a small badge (top-right corner) with its
+visual position number (1, 2, 3 … N). Numbering is continuous across groups.
+Badges render correctly in both light and dark themes via the `--color-muted`
+token (auto-inverts under `.dark`). Collapsed groups do not break badge
+correspondence — numbers are assigned from the flat sorted list regardless of
+collapsed state.
+
+**Part 2 — Shared selection parser (`selection-parser.ts`)**
+
+A new pure-function utility `parseCarSelection(text, lang, listLength)` covers:
+- Bare digits: "8", "21"
+- Number words in all 5 languages (cardinals + ordinals 1–30):
+  IT: uno…trenta, primo…ventesimo
+  EN: one…thirty, first…twentieth
+  FR: deux…trente, premier…dixième (skips "un/une" to avoid article false-positives)
+  PT: dois/duas…trinta, primeiro…décimo
+  ES: uno…treinta, primero…décimo
+- Prefix words ("numero", "auto", "number", "car", "voiture", "coche", "carro",
+  "veicolo") are non-number tokens — they're ignored naturally by the scanner,
+  leaving only the number word to match.
+- Compound 2-grams: "twenty eight", "dix sept", "vinte dois", "veinte uno"
+- Compound 3-grams: "vingt et un", "vinte e um", "vinte e tres" (etc.)
+- Greedy left-to-right n-gram matching prevents "vinte e quatro" from being
+  split into two matches (20 and 4 → ambiguous) — the 3-gram "vinte e quatro"
+  wins and yields 24.
+- Ambiguity rule: multiple different numbers → null (route normally)
+- Range rule: any number > listLength → null (route normally)
+- Returns 0-based visual-order index, or null
+
+**Part 3 — Text interception in ChatStore.sendMessage()**
+
+Before sending to the backend, `sendMessage` checks `carDisplayOrder()`. If a
+selection list is visible and the typed text parses as a valid number,
+`confirmCar(carDisplayOrder[index])` is called and the text is never sent to
+`/api/chat/stream`. This prevents Gemini's TooVague validation from rejecting
+bare numbers while cars are pending.
+
+**Part 4 — Voice path refactored**
+
+`VoiceModeService.routeTranscript()` previously capped recognition at ≤5 cars.
+The cap is removed. `VoiceCarSelectionService.parse()` now delegates entirely
+to `parseCarSelection`. The route uses `chatStore.carDisplayOrder()` to map
+index → car object and calls `confirmCar(car)` (not `confirmCarByIndex`) so
+voice and the display always agree on which car is "number 8".
+
+### 17.2 Single source of truth for visual order
+
+New utility `frontend/src/app/utils/car-sort.ts` exports `sortCarsForDisplay`:
+groups by motorizzazione (alphabetical, Altro last), within group by annoInizio
+desc then codiceMotore asc. Both `ChatStore.carDisplayOrder` (computed signal)
+and `CarSelectionListComponent.groups()` call this function, so badge number N
+on card always equals index N−1 in the array the parsers use.
+
+### 17.3 Files changed
+
+| File | Change |
+|---|---|
+| `frontend/src/app/utils/car-sort.ts` | NEW — sortCarsForDisplay() |
+| `frontend/src/app/services/selection-parser.ts` | NEW — parseCarSelection() |
+| `frontend/src/app/services/voice-car-selection.service.ts` | Thin wrapper delegating to parseCarSelection |
+| `frontend/src/app/services/chat-store.service.ts` | + carDisplayOrder computed + sendMessage interception |
+| `frontend/src/app/services/voice-mode.service.ts` | routeTranscript: removed ≤5 cap, uses carDisplayOrder |
+| `frontend/src/app/components/cards/car-card/car-card.component.ts` | + badge @Input, badge element in template |
+| `frontend/src/app/components/cards/car-card/car-card.component.css` | + position:relative, .car-badge styles |
+| `frontend/src/app/components/cards/car-selection-list/car-selection-list.component.ts` | Uses sortCarsForDisplay, passes badge per card |
+
+### 17.4 §5.4 rule unchanged
+
+`buildSpokenText()` still reads aloud ≤5 cars and says "too many" for >5.
+This is independent of the recognition cap (which is now gone). Mechanics
+can select by number regardless of whether the TTS read the list aloud.

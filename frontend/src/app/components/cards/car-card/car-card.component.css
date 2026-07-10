@@ -1,4 +1,5 @@
 .car-card {
+  position: relative;
   display: block;
   width: 100%;
   text-align: left;
@@ -10,6 +11,23 @@
   font-family: inherit;
   box-shadow: 0 1px 3px rgb(var(--shadow-color));
   transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Unobtrusive number badge — both light and dark themes respond automatically
+   because --color-muted flips via the .dark token set in styles.css. */
+.car-badge {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--color-muted) 15%, transparent);
+  color: var(--color-muted);
+  pointer-events: none;
+  user-select: none;
 }
 
 /* Elevated shadow on hover, same --shadow-color token as the resting
