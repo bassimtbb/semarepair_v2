@@ -15,6 +15,9 @@ interface S {
   intervento_prefix: string;
   found_n_cases: (n: number) => string;
   see_screen: string;
+  case_option: (badge: number, label: string) => string;
+  case_selection_prompt: string;
+  case_too_many: (n: number) => string;
   mic_unavailable_toast: string;
   transcribe_failed_toast: string;
   no_speech_hint: string;
@@ -32,8 +35,11 @@ const STRINGS: Record<VoiceLang, S> = {
     too_vague: 'La descrizione è troppo vaga. Puoi darmi più dettagli o un codice guasto?',
     causa_prefix: 'Causa:',
     intervento_prefix: 'Intervento:',
-    found_n_cases: n => `Ho trovato ${n} casi. Il più rilevante —`,
+    found_n_cases: n => `Ho trovato ${n} casi.`,
     see_screen: 'Guarda lo schermo per gli altri casi.',
+    case_option: (n, l) => `${n}: ${l}.`,
+    case_selection_prompt: 'Quale vuoi?',
+    case_too_many: n => `Ho trovato ${n} casi. Guarda lo schermo e dimmi il numero.`,
     mic_unavailable_toast: 'Microfono non disponibile. Controlla i permessi.',
     transcribe_failed_toast: 'Trascrizione fallita. Riprovo…',
     no_speech_hint: 'Non ho sentito nulla. Parla vicino al microfono.',
@@ -49,8 +55,11 @@ const STRINGS: Record<VoiceLang, S> = {
     too_vague: 'The description is too vague. Can you give me more details or a fault code?',
     causa_prefix: 'Cause:',
     intervento_prefix: 'Procedure:',
-    found_n_cases: n => `I found ${n} cases. The most relevant —`,
+    found_n_cases: n => `I found ${n} cases.`,
     see_screen: 'Check the screen for the other cases.',
+    case_option: (n, l) => `${n}: ${l}.`,
+    case_selection_prompt: 'Which one do you want?',
+    case_too_many: n => `I found ${n} cases. Look at the screen and say the number.`,
     mic_unavailable_toast: 'Microphone unavailable. Check permissions.',
     transcribe_failed_toast: 'Transcription failed. Retrying…',
     no_speech_hint: 'I did not hear anything. Speak close to the microphone.',
@@ -66,8 +75,11 @@ const STRINGS: Record<VoiceLang, S> = {
     too_vague: 'La description est trop vague. Pouvez-vous me donner plus de détails ou un code défaut ?',
     causa_prefix: 'Cause :',
     intervento_prefix: 'Intervention :',
-    found_n_cases: n => `J'ai trouvé ${n} cas. Le plus pertinent —`,
+    found_n_cases: n => `J'ai trouvé ${n} cas.`,
     see_screen: "Regardez l'écran pour les autres cas.",
+    case_option: (n, l) => `${n} : ${l}.`,
+    case_selection_prompt: 'Lequel voulez-vous ?',
+    case_too_many: n => `J'ai trouvé ${n} cas. Regardez l'écran et dites le numéro.`,
     mic_unavailable_toast: 'Microphone indisponible. Vérifiez les autorisations.',
     transcribe_failed_toast: 'Transcription échouée. Nouvelle tentative…',
     no_speech_hint: "Je n'ai rien entendu. Parlez près du microphone.",
@@ -83,8 +95,11 @@ const STRINGS: Record<VoiceLang, S> = {
     too_vague: 'A descrição é vaga. Pode dar mais detalhes ou um código de avaria?',
     causa_prefix: 'Causa:',
     intervento_prefix: 'Intervenção:',
-    found_n_cases: n => `Encontrei ${n} casos. O mais relevante —`,
+    found_n_cases: n => `Encontrei ${n} casos.`,
     see_screen: 'Veja o ecrã para os outros casos.',
+    case_option: (n, l) => `${n}: ${l}.`,
+    case_selection_prompt: 'Qual quer?',
+    case_too_many: n => `Encontrei ${n} casos. Olhe para o ecrã e diga o número.`,
     mic_unavailable_toast: 'Microfone indisponível. Verifique as permissões.',
     transcribe_failed_toast: 'Transcrição falhou. A tentar novamente…',
     no_speech_hint: 'Não ouvi nada. Fale perto do microfone.',
@@ -100,8 +115,11 @@ const STRINGS: Record<VoiceLang, S> = {
     too_vague: 'La descripción es demasiado vaga. ¿Puede darme más detalles o un código de fallo?',
     causa_prefix: 'Causa:',
     intervento_prefix: 'Intervención:',
-    found_n_cases: n => `Encontré ${n} casos. El más relevante —`,
+    found_n_cases: n => `Encontré ${n} casos.`,
     see_screen: 'Mira la pantalla para los otros casos.',
+    case_option: (n, l) => `${n}: ${l}.`,
+    case_selection_prompt: '¿Cuál quieres?',
+    case_too_many: n => `Encontré ${n} casos. Mira la pantalla y dime el número.`,
     mic_unavailable_toast: 'Micrófono no disponible. Compruebe los permisos.',
     transcribe_failed_toast: 'Transcripción fallida. Reintentando…',
     no_speech_hint: 'No escuché nada. Hable cerca del micrófono.',
@@ -116,7 +134,10 @@ function lang(l: string): VoiceLang {
 
 // String keys only (not function-valued keys). hd_voice_unavailable_toast
 // is used in VoiceModeService when engine==='google' and speak() rejects.
-export type StringKey = Exclude<keyof S, 'car_selection_prefix' | 'car_option' | 'found_n_cases'>;
+export type StringKey = Exclude<
+  keyof S,
+  'car_selection_prefix' | 'car_option' | 'found_n_cases' | 'case_option' | 'case_too_many'
+>;
 
 export function t(l: string, key: StringKey): string {
   return STRINGS[lang(l)][key];
@@ -132,4 +153,12 @@ export function tCarOption(l: string, n: number, label: string): string {
 
 export function tFoundNCases(l: string, n: number): string {
   return STRINGS[lang(l)].found_n_cases(n);
+}
+
+export function tCaseOption(l: string, badge: number, label: string): string {
+  return STRINGS[lang(l)].case_option(badge, label);
+}
+
+export function tCaseTooMany(l: string, n: number): string {
+  return STRINGS[lang(l)].case_too_many(n);
 }

@@ -4,8 +4,8 @@ import { ChatStore } from './chat-store.service';
 import { SilenceDetector } from './silence-detector';
 import { SpeechService } from './speech/speech.service';
 import { VoiceCarSelectionService } from './voice-car-selection.service';
-import { t, tCarOption, tCarSelectionPrefix, tFoundNCases } from './voice-strings';
-import type { ChatResponse } from '../models/chat.models';
+import { t, tCarOption, tCarSelectionPrefix, tCaseOption, tCaseTooMany, tFoundNCases } from './voice-strings';
+import type { CaseSummary, ChatResponse } from '../models/chat.models';
 
 export type VoiceState = 'idle' | 'listening' | 'transcribing' | 'waiting_response' | 'speaking';
 export type VoiceEngine = 'web' | 'google';
@@ -48,18 +48,25 @@ export function buildSpokenText(r: ChatResponse, lang: string): string | null {
   // §5.1 / §5.2 Found document — message is null for clean results
   // (BuildFormatting: "message is null when the result speaks for itself")
   if (r.found && r.cases.length > 0) {
-    const c = r.cases[0];
-    const parts: string[] = [];
-    if (r.cases.length >= 2) {
-      // §5.2: multi-case announcement, then first case only
-      parts.push(tFoundNCases(lang, r.cases.length));
+    if (r.cases.length === 1) {
+      // §5.1: single case — read causa + intervento verbatim
+      const c = r.cases[0];
+      const parts: string[] = [];
+      if (c.causa)      parts.push(`${t(lang, 'causa_prefix')} ${c.causa}`);
+      if (c.intervento) parts.push(`${t(lang, 'intervento_prefix')} ${c.intervento}`);
+      return parts.length > 0 ? parts.join(' ') : null;
     }
-    if (c.causa)      parts.push(`${t(lang, 'causa_prefix')} ${c.causa}`);
-    if (c.intervento) parts.push(`${t(lang, 'intervento_prefix')} ${c.intervento}`);
-    if (r.cases.length >= 2) {
-      parts.push(t(lang, 'see_screen'));
+    // §5.2: multiple cases
+    if (r.cases.length > 5) {
+      return tCaseTooMany(lang, r.cases.length);
     }
-    return parts.length > 0 ? parts.join(' ') : null;
+    // 2–5 cases: numbered list, then prompt
+    const parts = [tFoundNCases(lang, r.cases.length)];
+    r.cases.forEach((c, i) => {
+      parts.push(tCaseOption(lang, i + 1, c.dispositivo || c.titolo));
+    });
+    parts.push(t(lang, 'case_selection_prompt'));
+    return parts.join(' ');
   }
 
   // Rule 8b/8c (low-confidence), Rule 9 (vague), Rule 10 (too many),
@@ -191,8 +198,10 @@ export class VoiceModeService {
       // Negative or ambiguous: fall through and route transcript as new request.
     }
 
-    this.routeTranscript(transcript);
-    this.state.set('waiting_response');
+    const locallyHandled = this.routeTranscript(transcript);
+    if (!locallyHandled) {
+      this.state.set('waiting_response');
+    }
   }
 
   private async startRecording(): Promise<void> {
@@ -283,13 +292,15 @@ export class VoiceModeService {
   }
 
   // §4.1: NEVER unconditionally send transcript as plain text.
-  // If any car-selection list is pending (any size — the old 1–5 cap is
-  // removed; §5.4 still limits what is READ aloud, but recognition is
-  // unlimited), try to parse the transcript as a number first.
-  // A match → confirmCar() on the car at that visual-order position.
-  // "due" as plain text would trigger TooVague validation and fail.
-  // Only fall through to sendMessage() if parsing finds no number.
-  private routeTranscript(transcript: string): void {
+  // Returns true when the transcript was handled locally (no backend call);
+  // returns false when a backend call was dispatched (commitPendingTranscript
+  // must then advance to waiting_response so the effect knows to speak the reply).
+  //
+  // Priority: car selection → doc selection → sendMessage (backend).
+  // Car and doc selection are mutually exclusive in practice (the backend
+  // returns either carMatches OR cases, not both), but car always wins.
+  private routeTranscript(transcript: string): boolean {
+    // Car selection (§4.1 / §5.4)
     const last = this.chatStore.lastResponse();
     if (last && last.carMatches.length > 0) {
       const displayOrder = this.chatStore.carDisplayOrder();
@@ -298,11 +309,27 @@ export class VoiceModeService {
         const car = displayOrder[index];
         if (car) {
           void this.chatStore.confirmCar(car);
-          return;
+          return false; // confirmCar triggers a backend call
         }
       }
     }
+
+    // Doc selection (§5.2) — strict=false for voice (speaker just says "due")
+    const pendingDocs = this.chatStore.pendingDocSelection();
+    if (pendingDocs) {
+      const index = this.voiceCarSelection.parse(transcript, this.detLang(), pendingDocs.length);
+      if (index !== null) {
+        const caseSummary = pendingDocs[index];
+        if (caseSummary) {
+          this.chatStore.selectDocumentInLastResponse(index);
+          this.speakCaseSummary(caseSummary);
+          return true; // locally handled, no backend call
+        }
+      }
+    }
+
     void this.chatStore.sendMessage(transcript);
+    return false;
   }
 
   private handleResponseReady(): void {
@@ -371,6 +398,28 @@ export class VoiceModeService {
       .catch(() => {
         const key = this.engine() === 'google' ? 'hd_voice_unavailable_toast' : 'voice_unavailable_toast';
         this.showToast(t(this.detLang(), key));
+        this.stopVoiceMode();
+      });
+  }
+
+  // Reads causa+intervento for a selected case without a backend call.
+  // Called by routeTranscript when the user picks a doc by voice (§5.2).
+  private speakCaseSummary(c: CaseSummary): void {
+    const lang = this.detLang();
+    const parts: string[] = [];
+    if (c.causa)      parts.push(`${t(lang, 'causa_prefix')} ${c.causa}`);
+    if (c.intervento) parts.push(`${t(lang, 'intervento_prefix')} ${c.intervento}`);
+    const text = parts.join(' ');
+    if (!text) {
+      this.transitionToListening();
+      return;
+    }
+    this.state.set('speaking');
+    this.speech.speak(text, lang, this.engine() ?? 'web')
+      .then(() => this.transitionToListening())
+      .catch(() => {
+        const key = this.engine() === 'google' ? 'hd_voice_unavailable_toast' : 'voice_unavailable_toast';
+        this.showToast(t(lang, key));
         this.stopVoiceMode();
       });
   }

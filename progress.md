@@ -3214,3 +3214,69 @@ on card always equals index N−1 in the array the parsers use.
 `buildSpokenText()` still reads aloud ≤5 cars and says "too many" for >5.
 This is independent of the recognition cap (which is now gone). Mechanics
 can select by number regardless of whether the TTS read the list aloud.
+
+---
+
+## §18 — Multi-document compact card selection (2026-07-13)
+
+When the backend returns 2+ repair cases the UI now shows a compact numbered
+selection list instead of stacking full cards. Selection works via click, typed
+number, or voice command. Expanding a card is fully reversible (back button).
+
+### 18.1 Architecture
+
+| Trigger | Path |
+|---|---|
+| Click compact card | `CaseSummaryCardComponent.select` → message-bubble `selectDoc` output → chat-page `handleSelectDoc` → `ChatStore.selectDocument(messageId, index)` |
+| Type "2"/"secondo caso" | `ChatStore.sendMessage` → strict `parseCarSelection` → `selectDocumentInLastResponse(index)` |
+| Say "due" | `VoiceModeService.routeTranscript` → `voiceCarSelection.parse` (strict=false) → `selectDocumentInLastResponse` → `speakCaseSummary` → `transitionToListening`; returns `true` (locally handled, no waiting_response) |
+| Click back | message-bubble `clearDocSelection` output → `ChatStore.clearDocumentSelection(messageId)` |
+
+### 18.2 selection-parser.ts strict mode
+
+`parseCarSelection(text, lang, listLength, strict=false)` gains a 4th parameter.
+`consumed: Set<number>` tracks token indices matched by the number scanner.
+When `strict=true`, every non-consumed token is checked against `STRICT_CONTEXT`
+(articles, vehicle nouns, doc nouns). Any real content word → returns null.
+
+Examples with `listLength=5`:
+- `"2"` → index 1 ✓
+- `"il secondo caso"` → index 1 ✓ (il, secondo, caso all in STRICT_CONTEXT)
+- `"ho 2 auto"` strict → null ✓ ("ho" is not in STRICT_CONTEXT)
+- `"ho 2 auto"` non-strict → index 1 (voice path — mechanic just says "due", ok)
+
+### 18.3 ChatStore additions
+
+- `pendingDocSelection` — `computed<CaseSummary[] | null>`: cases array from most recent assistant message with `selectedCaseIndex == null` and `cases.length >= 2`
+- `selectDocument(messageId, index)` — sets `selectedCaseIndex` on the message, returns CaseSummary
+- `selectDocumentInLastResponse(index)` — finds the pending message, delegates to selectDocument
+- `clearDocumentSelection(messageId)` — sets `selectedCaseIndex: null`
+- `sendMessage` — intercepts car selection first (car wins if both somehow pending), then doc selection in strict mode; neither hits the backend
+
+### 18.4 Voice §5.2 (buildSpokenText)
+
+| Cases count | Spoken output |
+|---|---|
+| 1 | §5.1 unchanged: causa + intervento verbatim |
+| 2–5 | `tFoundNCases` + numbered items `tCaseOption(i, dispositivo\|titolo)` + `case_selection_prompt` |
+| >5 | `tCaseTooMany(n)` — "Ho trovato N casi. Guarda lo schermo e dimmi il numero." |
+
+`routeTranscript` now returns `boolean`. `commitPendingTranscript` only sets
+`waiting_response` when the return value is `false`. Doc-selection is locally
+handled (true); car-selection and sendMessage both return false.
+
+### 18.5 Files changed
+
+| File | Change |
+|---|---|
+| `frontend/src/app/components/cards/case-summary-card/case-summary-card.component.ts` | NEW — compact card |
+| `frontend/src/app/components/cards/case-summary-card/case-summary-card.component.css` | NEW — badge + layout |
+| `frontend/src/app/services/selection-parser.ts` | + strict mode (consumed set, STRICT_CONTEXT, 4th param) |
+| `frontend/src/app/models/chat.models.ts` | + `selectedCaseIndex?: number \| null` on ChatMessage |
+| `frontend/src/app/services/chat-store.service.ts` | + pendingDocSelection, selectDocument, selectDocumentInLastResponse, clearDocumentSelection; sendMessage doc-interception |
+| `frontend/src/app/services/voice-strings.ts` | + case_option, case_selection_prompt, case_too_many; updated found_n_cases (removed trailing "Il più rilevante"); + tCaseOption, tCaseTooMany exports |
+| `frontend/src/app/services/voice-mode.service.ts` | buildSpokenText §5.2 rewrite; routeTranscript returns boolean + doc-selection branch; speakCaseSummary; commitPendingTranscript uses boolean |
+| `frontend/src/app/components/chat/message-bubble/message-bubble.component.ts` | Conditional rendering (1 doc / expanded / compact list); +selectDoc/clearDocSelection outputs; selectedCase getter; backLabel |
+| `frontend/src/app/components/chat/message-bubble/message-bubble.component.css` | + .doc-list, .back-btn |
+| `frontend/src/app/components/chat/message-list/message-list.component.ts` | +selectDoc, +clearDocSelection outputs; passes through from message-bubble |
+| `frontend/src/app/components/chat-page/chat-page.component.ts` | handleSelectDoc; wires all 3 doc-selection events |
