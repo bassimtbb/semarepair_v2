@@ -2,25 +2,6 @@
   margin-top: 8px;
 }
 
-.filter-bar {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 8px;
-  padding: 6px 10px;
-  margin-bottom: 8px;
-}
-
-.filter-bar input {
-  flex: 1;
-  border: none;
-  background: transparent;
-  font-size: 13px;
-  outline: none;
-  color: inherit;
-}
 
 .car-group {
   margin-bottom: 4px;
@@ -62,9 +43,4 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 8px;
-}
-
-.no-matches {
-  font-size: 13px;
-  padding: 8px 4px;
 }

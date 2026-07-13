@@ -1,7 +1,7 @@
 # SemaRepair Chatbot — Architecture & Rebuild Documentation
 
-> **Status:** Prototype v1 complete — Planning v2
-> **Last updated:** June 2026
+> **Status:** v2 core built and verified — production data access pending
+> **Last updated:** July 2026
 > **Author:** Development Team
 
 ---
@@ -45,20 +45,25 @@ vehicles across many brands. The prototype sample covers FIAT, FORD, CITROEN,
 PEUGEOT, and IVECO — the full production database includes many more brands
 to be confirmed at the company meeting.
 
-Each repair guide is available in four languages:
-Italian (IT), French (FR), English (EN), and Portuguese (PT).
+Each repair guide is available in five languages:
+Italian (IT), French (FR), English (EN), Portuguese (PT), and Spanish (ES).
+The chatbot auto-detects the mechanic's language per message (tinyld/light,
+restricted to these five candidates); no language selector is needed.
 
 ### 1.3 Current Status
 
 | Item | Status |
 |------|--------|
 | Prototype v1 | ✅ Complete |
-| Data source | Excel sample (108 documents, IT only) |
-| Languages supported | Italian only |
-| Deployment | Docker Compose, local |
+| v2 services (chat, search, vehicle, ingestion) | ✅ Built and verified against real data |
+| Languages supported | ✅ IT / EN / FR / PT / ES, auto-detected per message |
+| Frontend | ✅ Angular 19, light/dark theme, Tailwind v4 |
+| Voice input | ✅ Three modes — Mic (Gemini transcription), Voice web (Web Speech free), Voice HD (Google Cloud TTS paid) |
+| Gemini usage dashboard | ✅ Live — gemini_usage_log, /api/usage/* in search-service |
+| Sample data loaded | ✅ 108 documents × 5 languages, graph + embeddings |
 | Production data access | ❌ Pending company approval |
-| Full document set | ❌ Pending |
-| v2 Architecture | 📋 Planning |
+| Production hosting/SSL | ❌ Pending company decision |
+| Authentication | ❌ Pending business requirements |
 
 ---
 
@@ -196,14 +201,14 @@ Fragile CSV extraction. Some documents had missing Impianto, Dispositivo,
 and Causa fields.
 
 **Problem 5 — Single language**
-The real product needs IT, FR, EN, PT — each requiring separate embeddings.
+The real product needs IT, FR, EN, PT, ES — each requiring separate embeddings.
 
 ### 3.2 Why the Monolith Does Not Scale
 
 | Issue | Impact |
 |-------|--------|
 | 40,000+ embeddings at startup | Backend unavailable for hours |
-| 4 languages in same process | Slow IT search blocks FR mechanic |
+| 5 languages in same process | Slow IT search blocks FR mechanic |
 | No fault isolation | One crash stops everything |
 | Cannot scale search independently | Wasted resources |
 
@@ -213,11 +218,11 @@ The real product needs IT, FR, EN, PT — each requiring separate embeddings.
 
 ### 4.1 Document Volume
 
-| Estimate | Documents | Embeddings (4 langs) |
+| Estimate | Documents | Embeddings (5 langs) |
 |----------|-----------|---------------------|
-| Conservative | 5,000 | 20,000 |
-| Realistic | 20,000 | 80,000 |
-| Full platform | 60,000 | 240,000 |
+| Conservative | 5,000 | 25,000 |
+| Realistic | 20,000 | 100,000 |
+| Full platform | 60,000 | 300,000 |
 
 ### 4.2 Multi-Language Requirements
 
@@ -226,7 +231,8 @@ id_documento = 199309631
   ├── 199309631_IT.resx  → Italian
   ├── 199309631_FR.resx  → French
   ├── 199309631_EN.resx  → English
-  └── 199309631_PT.resx  → Portuguese
+  ├── 199309631_PT.resx  → Portuguese
+  └── 199309631_ES.resx  → Spanish
 ```
 
 Embeddings generated per language. Search language-filtered before ranking.
@@ -242,7 +248,7 @@ Gemini responds in the mechanic's language.
 
 | Decision | Why mandatory |
 |----------|--------------|
-| Multi-service | 4 languages × large document set |
+| Multi-service | 5 languages × large document set |
 | Background ingestion | 40,000+ embeddings cannot run at startup |
 | Direct DB access preferred | Manual resx management at scale not feasible |
 | GraphRAG | Exact relationships required |
@@ -352,7 +358,7 @@ queries, not similarity scores.
 | procedura | string | - - | Procedura chapter |
 | nota | string | Il componente difettoso... | Procedura chapter |
 | reliability | integer | 1 / 2 / 3 | Grado chapter |
-| language | string | it / fr / en / pt | filename suffix |
+| language | string | it / fr / en / pt / es | filename suffix |
 
 **Real examples from sample data:**
 
@@ -710,7 +716,7 @@ For each document processed:
    c. FaultCode → RELATED_TO → FaultCode (all pairs in same document)
    d. Document → AFFECTS_SYSTEM → System (from impianto)
    e. Document → INVOLVES_DEVICE → Device (from dispositivo)
-   f. Document → HAS_TRANSLATION → Document (link IT/FR/EN/PT)
+   f. Document → HAS_TRANSLATION → Document (link IT/FR/EN/PT/ES)
    g. Car → SHARES_ENGINE_WITH → Car (same engineCode, different brand)
 
 4. Generate full document embedding → store in document_embeddings
@@ -824,6 +830,14 @@ ALWAYS: "Non ho trovato per il tuo CITROEN Jumper. Trovato per veicoli
 ```
 
 Only for Motore and Elettrico motore categories.
+
+**Voice mode — frontend consent gate:** When `foundViaSharedEngine=true` is received
+while voice mode is active, `VoiceModeService.handleResponseReady()` stores the full
+response in `pendingSharedEngineConsent` and speaks only the disclosure message.
+On the next transcript, `commitPendingTranscript()` checks this field: an affirmative
+word ("sì", "yes", "oui" etc.) triggers `speakStoredConsent()` with no backend call;
+any other response clears the gate and routes normally. Applies to voice mode only;
+the non-voice UI shows disclosure + full card in a single turn (unchanged).
 
 ---
 
@@ -1004,7 +1018,7 @@ Mechanic sends message
 ### 6.1 Why Multi-Service is Justified
 
 - 40,000+ embeddings need background ingestion not startup loading ✅
-- 4 languages need independent search paths ✅
+- 5 languages need independent search paths ✅
 - Their SQL Server + our PostgreSQL = already two databases ✅
 - Gemini streaming needs isolation from heavy search ✅
 - Nightly sync is a background concern, not a request concern ✅
@@ -1013,8 +1027,8 @@ Mechanic sends message
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│                   React Frontend                          │
-│         Multi-language UI (IT / FR / EN / PT)            │
+│               Angular 19 Frontend                        │
+│    Multi-language UI (IT / EN / FR / PT / ES)            │
 └─────────────────────────┬────────────────────────────────┘
                           │ HTTPS
                           ▼
@@ -1051,8 +1065,18 @@ Mechanic sends message
 **Endpoints:**
 - `POST /api/chat/stream` — SSE streaming
 - `POST /api/chat/transcribe` — Audio transcription via Gemini
+- `POST /api/chat/tts` — Google Cloud TTS proxy (HD voice; key never reaches browser)
 
-**Dependencies:** Gemini API, Search Service, Vehicle Service
+**Voice input modes (frontend, three options):**
+- **Mic button** — records WebM audio, calls `/api/chat/transcribe`, fills text box for mechanic review before sending
+- **Voice button (🔊)** — Web Speech API, free, browser-native; Rule 8 consent gate in `VoiceModeService`
+- **Voice HD button (✨)** — Google Cloud Neural2 TTS, paid; requires `GOOGLE_CLOUD_TTS_API_KEY`
+
+**Two separate Google API keys required:**
+- `GEMINI_API_KEY` — Google AI Studio (`generativelanguage.googleapis.com`), for chat + embed + transcribe
+- `GOOGLE_CLOUD_TTS_API_KEY` — Google Cloud Platform (`texttospeech.googleapis.com`), for TTS only; cannot be shared with `GEMINI_API_KEY` (different credential systems)
+
+**Dependencies:** Gemini API, Google Cloud TTS API, Search Service, Vehicle Service
 
 ### 6.4 Search Service
 
@@ -1144,7 +1168,7 @@ Mechanic sends message
 **Process:**
 ```
 1. Query SQL Server for updated documents since last run
-2. For each document × 4 languages:
+2. For each document × 5 languages:
    a. Parse resx XML
    b. Extract all fields
    c. Generate document_embedding (full embed_text)
@@ -1162,6 +1186,8 @@ location /api/search/   { proxy_pass http://search-service:5001; }
 location /api/vehicles/ { proxy_pass http://vehicle-service:5002; }
 location /              { proxy_pass http://frontend:80; }
 ```
+
+Note: `POST /api/chat/tts` is covered by the existing `/api/chat/` location block — no additional nginx rule needed.
 
 ### 6.8 Data Layer
 
@@ -1230,7 +1256,52 @@ CREATE TABLE ingestion_log (
     duration_seconds     INTEGER,
     notes                TEXT
 );
+
+-- Gemini API usage and cost tracking
+-- Written by: chat-service (chat_turn, transcribe), search-service (embed), ingestion-resx (embed)
+-- Read by: UsageController in search-service at /api/usage/*
+CREATE TABLE gemini_usage_log (
+    id                  SERIAL PRIMARY KEY,
+    logged_at           TIMESTAMPTZ DEFAULT NOW(),
+    service             TEXT NOT NULL,
+    operation           TEXT NOT NULL,
+    model               TEXT,
+    prompt_tokens       INTEGER,
+    candidates_tokens   INTEGER,
+    thoughts_tokens     INTEGER,
+    total_tokens        INTEGER,
+    is_estimated        BOOLEAN DEFAULT FALSE,
+    cost_usd_estimated  NUMERIC(10, 6)
+);
+CREATE INDEX idx_usage_logged_at ON gemini_usage_log (logged_at DESC);
+CREATE INDEX idx_usage_service   ON gemini_usage_log (service);
 ```
+
+### 6.9 Voice Mode and Gemini Usage Dashboard
+
+**Voice mode** (no separate service — all in Chat Service + Angular frontend):
+Three input modes are provided. The Mic button records WebM audio, calls
+`/api/chat/transcribe`, and fills the text input for mechanic review before
+sending. The Voice web button (🔊) uses the browser-native Web Speech API (free,
+no server call for TTS). The Voice HD button (✨) calls `/api/chat/tts`, which
+proxies to Google Cloud Neural2 TTS — the `GOOGLE_CLOUD_TTS_API_KEY` never
+reaches the browser. The Rule 8 cross-brand consent gate lives entirely in
+`VoiceModeService` on the frontend (see §5.10 Rule 8).
+
+**Gemini usage dashboard** (no separate service — added to Search Service):
+Three places that call Gemini write rows to `gemini_usage_log`:
+`GeminiChatClient` in chat-service, `QueryEmbedder` in search-service, and
+`embedder.py` in ingestion-resx. Three read-only endpoints were added to
+`UsageController` / `UsageQueryService` in **search-service**:
+- `GET /api/usage/summary` — total tokens + estimated cost by service
+- `GET /api/usage/by-operation` — breakdown by operation type
+- `GET /api/usage/log` — paginated raw log
+
+The Angular frontend has a `/usage` route (shared-secret gated) that fetches
+these endpoints and renders daily token/cost charts. `thoughtsTokenCount` from
+Gemini's `usageMetadata` is tracked separately in `thoughts_tokens`; it is
+billed differently from candidate tokens and was the source of an undercount
+bug that is now fixed.
 
 ---
 
@@ -1250,8 +1321,11 @@ full-text search built in, free and open source.
 
 ### 7.4 Why Gemini
 Already integrated, `gemini-2.5-flash` fast and cost-effective, native
-function calling, `gemini-embedding-001` 768-dim, supports IT/FR/EN/PT,
-single API key for chat + embed + transcribe.
+function calling, `gemini-embedding-001` 768-dim, supports IT/FR/EN/PT/ES.
+One `GEMINI_API_KEY` (Google AI Studio) covers chat + embed + transcribe.
+A separate `GOOGLE_CLOUD_TTS_API_KEY` (Google Cloud Platform, different
+credential system) is required for Voice HD TTS only. These two keys cannot
+be merged — they authenticate to different Google APIs.
 
 ### 7.5 Why Docker Compose
 Already in v1, multi-service without Kubernetes complexity, simple VPS
@@ -1288,9 +1362,11 @@ Document 199309631:
   EN symptom_embedding  → anomalia in English only
   PT document_embedding → full embed_text in Portuguese
   PT symptom_embedding  → anomalia in Portuguese only
+  ES document_embedding → full embed_text in Spanish
+  ES symptom_embedding  → anomalia in Spanish only
 ```
 
-Total embeddings per document: 8 (4 languages × 2 tables).
+Total embeddings per document: 10 (5 languages × 2 tables).
 
 ### 8.4 Ingestion Schedule
 
@@ -1382,7 +1458,7 @@ GET /health
   "status": "healthy",
   "service": "search-service",
   "database": "connected",
-  "timestamp": "2026-06-01T10:00:00Z"
+  "timestamp": "2026-07-09T10:00:00Z"
 }
 
 503 (degraded):
@@ -1390,7 +1466,7 @@ GET /health
   "status": "degraded",
   "service": "search-service",
   "reason": "PostgreSQL connection failed",
-  "timestamp": "2026-06-01T10:00:00Z"
+  "timestamp": "2026-07-09T10:00:00Z"
 }
 ```
 
@@ -1403,7 +1479,7 @@ GET /health
 1. How many total repair documents (GUP) in the database?
 2. How many total vehicle configurations?
 3. How many new documents added per month?
-4. Are all documents available in all 4 languages?
+4. Are all documents available in all 5 languages (IT/FR/EN/PT/ES)?
 5. Can we have read-only SQL Server access?
 6. Is it accessible from outside or VPN required?
 7. Can you share the database schema?
@@ -1432,7 +1508,7 @@ OPZIONE 1 — Accesso diretto al database:
   • Tabelle: documenti, veicoli, capitoli, traduzioni
 
 OPZIONE 2 — Export bulk:
-  • Tutti i file {id_documento}_{LANG}.resx per IT/FR/EN/PT
+  • Tutti i file {id_documento}_{LANG}.resx per IT/FR/EN/PT/ES
   • Aggiornamento mensile o webhook per nuovi documenti
 
 Garanzie:
@@ -1445,61 +1521,52 @@ Garanzie:
 
 ## 11. Development Roadmap
 
-### 11.1 Phase 1 — Before Coding (Weeks 1-2)
-- [ ] Company meeting — data access answer
-- [ ] Confirm document count and language availability
-- [ ] Get DB schema or full resx export
-- [ ] Design graph schema with real data structure
-- [ ] Set up development environment
+### 11.1 Phase 1 — Foundation ✅ Complete
 
-### 11.2 Phase 2 — Foundation (Weeks 3-4)
-- [ ] Docker Compose with all service skeletons
-- [ ] Connect to SQL Server / parse resx export
-- [ ] Build Ingestion Service — graph + embeddings (both tables)
-- [ ] Verify all 4 languages, verify graph edges, verify symptom_embeddings
+- [x] Docker Compose with all service skeletons
+- [x] ingestion service — xlsx → gup_rows (one-shot, 108 documents)
+- [x] ingestion-resx service — resx → graph + embeddings, all 5 languages
+- [x] Verify graph edges, verify symptom_embeddings, verify document_embeddings
 
-### 11.3 Phase 3 — Services (Weeks 5-8)
+### 11.2 Phase 2 — Backend Services ✅ Complete and verified
 
-**Week 5 — Vehicle Service**
-SQL filtering, all 4 languages, health check, unit tests.
+- [x] Vehicle Service — SQL filtering, 5 languages, health check
+- [x] Search Service — GraphRAG + vector hybrid, validation layer, all 13 business rules, language filtering, Rule 10
+- [x] Chat Service — Gemini function calling, SSE streaming, 5 languages, transcription, system prompt with Rule 11, all business rules
+- [x] API Gateway — nginx routing, all services wired
 
-**Week 6 — Search Service**
-Graph traversal, vector search (document_embeddings + symptom_embeddings),
-validation layer (TooVague, RedirectToFaultCode, Valid),
-language filtering, hybrid search, Rule 10, health check, unit tests.
+### 11.3 Phase 3 — Frontend ✅ Complete
 
-**Week 7 — Chat Service**
-Gemini function calling, SSE streaming, multi-language, transcription,
-system prompt with Rule 11 (query cleaning), all 13 business rules, health check.
+- [x] Angular 19 standalone components, Tailwind v4 CSS-first
+- [x] Light/dark theme via `.dark` class on `<html>`
+- [x] Language auto-detection per message (tinyld/light)
+- [x] All chat components: car selection, repair document card, message bubbles
+- [x] Gemini usage dashboard at `/usage`
 
-**Week 8 — API Gateway**
-nginx routing, SSL, rate limiting, health check routing.
+### 11.4 Phase 4 — Voice Mode ✅ Complete, Phase 1 gate verified
 
-### 11.4 Phase 4 — Integration (Weeks 9-12)
+- [x] Mic button (record → Gemini transcription → fill text box)
+- [x] Voice web button (🔊) — Web Speech API, free
+- [x] Voice HD button (✨) — Google Cloud Neural2 TTS, paid, backend proxy
+- [x] Rule 8 frontend consent gate in `VoiceModeService` — live-tested with Playwright (7/7 PASS)
+- [x] `isAffirmativeConsent()` multilingual: IT/EN/FR/PT/ES
 
-**Week 9:** Frontend — language selector, reuse v1 components, new endpoints.
+### 11.5 Phase 5 — Gemini Usage Dashboard ✅ Complete
 
-**Week 10:** Integration testing — all flows, performance, multi-language,
-resilience testing.
+- [x] `gemini_usage_log` table written by 3 services
+- [x] `thoughtsTokenCount` tracked separately (billing fix)
+- [x] `/api/usage/*` endpoints in search-service
+- [x] Angular dashboard at `/usage`
 
-**Week 11:** Bug fixes and polish.
+### 11.6 Pending — blocked on company meeting / business decisions
 
-**Week 12:** Production — VPS, SSL, monitoring, documentation.
-
-### 11.5 Timeline
-
-```
-Week 1-2:   Company meeting + data access
-Week 3-4:   Foundation + ingestion
-Week 5:     Vehicle Service
-Week 6:     Search Service
-Week 7:     Chat Service
-Week 8:     API Gateway
-Week 9:     Frontend
-Week 10:    Integration testing
-Week 11:    Bug fixes
-Week 12:    Production
-```
+- [ ] Production data access (SQL Server read-only or resx export)
+- [ ] Full document set (estimated 5,000–60,000 real documents)
+- [ ] Authentication (API key / JWT / SSO — pending business requirements)
+- [ ] Session persistence (Redis / Postgres — currently in-memory)
+- [ ] Production hosting, SSL certificate
+- [ ] Update mechanism (nightly cron vs webhook — pending company meeting)
+- [ ] Image handling (`GETFILE:{id}` references in resx — pending company meeting)
 
 ---
 
@@ -1508,21 +1575,26 @@ Week 12:    Production
 ### 12.1 Repository Layout
 
 ```
-SemaRepair-v2/
+semarepair_v2/
 ├── services/
 │   ├── chat/
 │   ├── search/
 │   ├── vehicle/
-│   └── ingestion/
-├── frontend/
+│   ├── ingestion/         ← xlsx → gup_rows (one-shot)
+│   └── ingestion-resx/    ← resx → graph + embeddings (one-shot)
+├── frontend/              ← Angular 19 (standalone components, Tailwind v4)
 ├── nginx/
 │   └── nginx.conf
 ├── docs/
-│   └── SemaRepair_Architecture.md
+│   ├── SemaRepair_Architecture.md
+│   ├── SemaRepair_Architecture_IT.md
+│   ├── VoiceMode_Architecture_v2.md
+│   └── log-dashboard.md
 ├── docker-compose.yml
 ├── docker-compose.override.yml
 ├── .env.example
 ├── .env
+├── progress.md
 └── README.md
 ```
 
@@ -1572,6 +1644,7 @@ services:
     restart: unless-stopped
     environment:
       GEMINI_API_KEY: ${GEMINI_API_KEY}
+      GOOGLE_CLOUD_TTS_API_KEY: ${GOOGLE_CLOUD_TTS_API_KEY}
       SEARCH_SERVICE_URL: http://search-service:5001
       VEHICLE_SERVICE_URL: http://vehicle-service:5002
 
@@ -1591,11 +1664,20 @@ services:
     environment:
       THEIR_DB: ${THEIR_DB_CONNECTION}
 
-  ingestion-service:
+  ingestion:
     build: ./services/ingestion
     restart: "no"
     environment:
       THEIR_DB: ${THEIR_DB_CONNECTION}
+      OUR_DB: ${OUR_DB_CONNECTION}
+    depends_on:
+      our-postgres:
+        condition: service_healthy
+
+  ingestion-resx:
+    build: ./services/ingestion-resx
+    restart: "no"
+    environment:
       OUR_DB: ${OUR_DB_CONNECTION}
       GEMINI_API_KEY: ${GEMINI_API_KEY}
     depends_on:
@@ -1630,16 +1712,23 @@ services:
 | Symptom search entry point | symptom_embeddings (anomalia only) | More precise than full document embeddings |
 | Query cleaning | Gemini cleans inside tool call | Handles all languages and phrasings without code |
 | Validation layer | TooVague / Redirect / Valid in Search Service | Silent correction of Gemini mistakes |
-| Architecture | Multi-service | Scale, 4 languages, background ingestion |
+| Architecture | Multi-service | Scale, 5 languages, background ingestion |
 | Chat technology | ASP.NET Core 8 | Same as v1, proven |
 | Ingestion technology | Python | Best XML/data ecosystem |
 | Vector database | PostgreSQL + pgvector | Already in stack |
 | Graph storage | PostgreSQL graph_edges table | No separate graph DB at this scale |
-| AI provider | Google Gemini | Already integrated, all 4 languages |
+| AI provider | Google Gemini | Already integrated, all 5 languages |
 | Infrastructure | Docker Compose | Sufficient for VPS |
 | Car confirmation | Mandatory before any document | Prevents wrong engine procedure |
 | Cross-brand fallback | Engine-related systems only | Chassis-specific systems differ per brand |
 | Confirmed car on TooVague | Preserved | Mechanic should not re-confirm after vague message |
+| Frontend framework | Angular 19, not React | Fresh build from scratch; v1 React prototype not reused |
+| Languages | 5 (IT/FR/EN/PT/ES) | Real resx sample data includes Spanish; no reason to discard it |
+| Language detection | tinyld/light per message, restricted to 5 candidates | Auto-detect eliminates language UI; /light stays under 500 KB bundle budget |
+| Voice input | Three modes: Mic / Web Speech (free) / Google Cloud TTS (paid HD) | Separate quality tiers; TTS key never reaches browser — backend proxy only |
+| Voice Rule 8 gate | Frontend `pendingSharedEngineConsent` in `VoiceModeService` | Backend always returns causa/intervento on Turn 1 (correct for non-voice UI); Gemini does not re-search after "sì" — frontend gate eliminates both backend calls on consent |
+| Gemini usage tracking | gemini_usage_log table + /api/usage/* in search-service | No separate service; thoughtsTokenCount tracked separately (billed differently) |
+| Dark mode | `.dark` class on `<html>` (Tailwind v4 class strategy); `:host-context(.dark)` in component CSS | prefers-color-scheme and data-theme do not apply; explicit toggle persisted to localStorage is the only source of truth |
 
 ### 13.2 Decisions Pending
 
@@ -1653,9 +1742,8 @@ services:
 | Hosting | VPS / cloud / company server | Business |
 | Update mechanism | Nightly cron / webhook | Company meeting |
 | Image handling | Include / exclude | Company meeting |
-| Redis cache | Add for Vehicle Service / skip | Performance testing |
 
 ---
 
-*Document version 3.0 — June 2026*
-*Next review: After company meeting*
+*Document version 4.0 — July 2026*
+*Next review: After company meeting / production deployment decision*

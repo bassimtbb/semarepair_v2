@@ -1,0 +1,64 @@
+.case-summary-card {
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: left;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px 12px;
+  cursor: pointer;
+  font-family: inherit;
+  box-shadow: 0 1px 3px rgb(var(--shadow-color));
+  transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.case-summary-card:hover {
+  box-shadow: 0 4px 10px rgb(var(--shadow-color));
+}
+
+/* Identical to .car-badge in car-card.component.css — both selection UIs
+   use the same badge style so they feel like one system. */
+.car-badge {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--color-muted) 15%, transparent);
+  color: var(--color-muted);
+  pointer-events: none;
+  user-select: none;
+}
+
+.cs-titolo {
+  font-weight: 600;
+  font-size: 14px;
+  /* Leave room for the badge on the right */
+  padding-right: 30px;
+  margin-bottom: 4px;
+}
+
+.cs-stars {
+  margin-bottom: 4px;
+}
+
+.cs-system {
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.cs-device {
+  font-size: 13px;
+  margin-top: 2px;
+}
+
+.cs-dtcs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+}
