@@ -10,7 +10,12 @@ import type { CarOption, ChatMessage } from '../../../models/chat.models';
   template: `
     <div class="message-list bg-background" #scrollContainer>
       @for (message of messages; track message.id) {
-        <app-message-bubble [message]="message" (selectCar)="selectCar.emit($event)" />
+        <app-message-bubble
+          [message]="message"
+          (selectCar)="selectCar.emit($event)"
+          (selectDoc)="selectDoc.emit($event)"
+          (clearDocSelection)="clearDocSelection.emit($event)"
+        />
       }
       @if (isStreaming) {
         <app-typing-indicator />
@@ -23,6 +28,8 @@ export class MessageListComponent implements AfterViewChecked {
   @Input({ required: true }) messages: ChatMessage[] = [];
   @Input() isStreaming = false;
   @Output() selectCar = new EventEmitter<CarOption>();
+  @Output() selectDoc = new EventEmitter<{ messageId: string; index: number }>();
+  @Output() clearDocSelection = new EventEmitter<string>();
 
   @ViewChild('scrollContainer') private scrollContainer?: ElementRef<HTMLDivElement>;
 

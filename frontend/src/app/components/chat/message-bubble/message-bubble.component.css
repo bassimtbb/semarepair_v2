@@ -58,3 +58,28 @@
 .cards {
   margin-top: 8px;
 }
+
+.doc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-muted);
+  background: none;
+  border: none;
+  padding: 0 0 6px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: color 0.12s ease;
+}
+
+.back-btn:hover {
+  color: var(--color-foreground);
+}

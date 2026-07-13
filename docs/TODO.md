@@ -114,6 +114,14 @@ using the app today could be misled or hit a dead end because of these.
   - Why it matters: a mechanic sees the car-selection list showing "9999" as a literal year, then clicks through to a confirmed-car badge that shows "oggi" — visually inconsistent on the same screen for the same car
   - What's needed: code fix — one-line template change to render `annoFine === 9999` as "oggi" (or per-language equivalent already used in `RepairOrchestrator.BuildVehicleNotFoundMessage`) in the car-card year-range span
 
+- [x] **Multi-document compact card selection — click, type, voice** (see `progress.md §18`)
+  - 1 doc: full card immediately (unchanged); 2+ docs: compact numbered list → expanded full card on selection; back button restores list
+  - `selection-parser.ts` strict mode: "ho 2 auto" routes normally; "2"/"il secondo caso" triggers local expansion
+  - `ChatStore`: `pendingDocSelection`, `selectDocument`, `selectDocumentInLastResponse`, `clearDocumentSelection`; `sendMessage` intercepts doc number in strict mode
+  - `VoiceModeService.routeTranscript()` now returns `boolean` (true = locally handled); doc-selection branch speaks causa+intervento via `speakCaseSummary` then transitions to listening
+  - Voice §5.2: 2–5 docs → numbered list; >5 → "Ho trovato N casi. Guarda lo schermo e dimmi il numero."
+  - Where: `case-summary-card.component.{ts,css}`, `selection-parser.ts`, `chat.models.ts`, `chat-store.service.ts`, `voice-strings.ts`, `voice-mode.service.ts`, `message-bubble.component.{ts,css}`, `message-list.component.ts`, `chat-page.component.ts`
+
 - [x] **Numbered car selection — voice + text, all 30 slots, 5 languages** (see `progress.md §17`)
   - Badge (1…N) on every car card, continuous across groups; single source of truth via `car-sort.ts`
   - Shared `selection-parser.ts`: digits, words, ordinals, 2/3-gram compounds, all 5 languages, greedy match

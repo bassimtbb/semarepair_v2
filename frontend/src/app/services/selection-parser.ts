@@ -249,6 +249,29 @@ const WORDS: Record<string, number> = {
   // decimo/decima: already present
 };
 
+// Tokens that may surround a number reference without indicating a sentence.
+// Used by strict mode: if any non-consumed token is NOT in this set, the
+// text is treated as an embedded-number sentence rather than a selection input.
+// All entries are in normalised (accent-stripped, lowercase) form.
+const STRICT_CONTEXT = new Set([
+  // Articles / function words
+  'il', 'la', 'lo', 'le', 'i', 'gli', 'l',  // IT
+  'un', 'una',                                  // IT/ES/PT indefinite
+  'the', 'a', 'an',                            // EN
+  'les', 'des', 'du', 'de', 'd',              // FR
+  'o', 'os', 'as', 'um', 'uma',              // PT
+  'el', 'los', 'las',                          // ES
+  // Vehicle selection nouns / prefixes (accent-stripped)
+  'numero', 'number',                          // IT/ES/PT "número"→"numero"; FR "numéro"→"numero"
+  'auto', 'veicolo', 'macchina',              // IT
+  'car', 'vehicle',                            // EN
+  'voiture', 'vehicule',                       // FR (véhicule→vehicule)
+  'carro', 'veiculo',                         // PT (veículo→veiculo)
+  'coche',                                     // ES
+  // Document selection nouns
+  'caso', 'case', 'cas', 'documento', 'document', 'doc',
+]);
+
 function normalise(s: string): string {
   // NFD decomposition separates base letters from their accent marks;
   // the replace then removes only the accent code points (U+0300–U+036F).
@@ -261,20 +284,31 @@ function normalise(s: string): string {
     .trim();
 }
 
-// Returns the 0-based visual-order index of the selected car, or null if:
+// Returns the 0-based visual-order index of the selected item, or null if:
 //   • no number reference is found
 //   • multiple different numbers are referenced (ambiguous)
 //   • the found number exceeds listLength (out of range)
+//   • strict=true AND any non-number token is not a known article/prefix
+//     (detects "ho 2 auto" as an embedded-number sentence, not a selection)
 //
 // Scanning is greedy left-to-right: at each position the longest matching
 // n-gram wins (3-gram → 2-gram → 1-gram). This prevents compound words like
 // "vinte e quatro" from being split into two separate numbers (20 and 4).
 //
+// strict defaults to false (voice path). Pass true for the typed-text path
+// where a sentence about a number (e.g. "ho 2 auto") must not trigger selection.
+//
 // lang is accepted for API symmetry with VoiceCarSelectionService.parse()
 // but the table already covers all 5 languages simultaneously.
-export function parseCarSelection(text: string, _lang: string, listLength: number): number | null {
+export function parseCarSelection(
+  text: string,
+  _lang: string,
+  listLength: number,
+  strict = false,
+): number | null {
   const tokens = normalise(text).split(' ').filter(Boolean);
   const matched = new Set<number>();
+  const consumed = new Set<number>(); // token indices consumed by number matches
 
   for (let i = 0; i < tokens.length; ) {
     let advanced = false;
@@ -286,6 +320,7 @@ export function parseCarSelection(text: string, _lang: string, listLength: numbe
       if (v !== undefined) {
         if (v > listLength) return null;
         matched.add(v);
+        consumed.add(i); consumed.add(i + 1); consumed.add(i + 2);
         i += 3;
         advanced = true;
       }
@@ -298,6 +333,7 @@ export function parseCarSelection(text: string, _lang: string, listLength: numbe
       if (v !== undefined) {
         if (v > listLength) return null;
         matched.add(v);
+        consumed.add(i); consumed.add(i + 1);
         i += 2;
         advanced = true;
       }
@@ -309,11 +345,22 @@ export function parseCarSelection(text: string, _lang: string, listLength: numbe
       if (v !== undefined) {
         if (v > listLength) return null;
         matched.add(v);
+        consumed.add(i);
       }
       i++;
     }
   }
 
-  if (matched.size === 1) return [...matched][0] - 1; // 0-based
-  return null; // 0 matches or ambiguous
+  if (matched.size !== 1) return null; // 0 matches or ambiguous
+
+  if (strict) {
+    // In strict mode every non-consumed token must be a known article or
+    // selection prefix. Any real content word → this is a sentence with an
+    // embedded number, not a selection input.
+    for (let i = 0; i < tokens.length; i++) {
+      if (!consumed.has(i) && !STRICT_CONTEXT.has(tokens[i])) return null;
+    }
+  }
+
+  return [...matched][0] - 1; // 0-based
 }

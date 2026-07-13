@@ -17,6 +17,8 @@ import { ChatStore } from '../../services/chat-store.service';
       [messages]="chat.messages()"
       [isStreaming]="chat.isStreaming()"
       (selectCar)="chat.confirmCar($event)"
+      (selectDoc)="handleSelectDoc($event)"
+      (clearDocSelection)="chat.clearDocumentSelection($event)"
     />
     <app-chat-input [disabled]="chat.isStreaming()" (send)="chat.sendMessage($event)" />
   `,
@@ -24,4 +26,8 @@ import { ChatStore } from '../../services/chat-store.service';
 })
 export class ChatPageComponent {
   constructor(readonly chat: ChatStore) {}
+
+  handleSelectDoc(e: { messageId: string; index: number }): void {
+    this.chat.selectDocument(e.messageId, e.index);
+  }
 }

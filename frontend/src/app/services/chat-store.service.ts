@@ -3,7 +3,7 @@ import { ChatApiService } from './chat-api.service';
 import { detectLanguage } from './language-detector';
 import { parseCarSelection } from './selection-parser';
 import { sortCarsForDisplay } from '../utils/car-sort';
-import type { CarOption, ChatMessage, ChatResponse } from '../models/chat.models';
+import type { CarOption, CaseSummary, ChatMessage, ChatResponse } from '../models/chat.models';
 
 function generateId(): string {
   return `${Date.now()}-${Math.random().toString(36).slice(2)}`;
@@ -37,6 +37,20 @@ export class ChatStore {
     sortCarsForDisplay(this.lastResponse()?.carMatches ?? []),
   );
 
+  // The cases[] from the most recent assistant message that has ≥2 cases and
+  // no case currently expanded. Non-null means the compact selection list is
+  // visible and ready to receive a number reference (click, type, or voice).
+  readonly pendingDocSelection = computed<CaseSummary[] | null>(() => {
+    const msgs = this.messages();
+    for (let i = msgs.length - 1; i >= 0; i--) {
+      const m = msgs[i];
+      if (m.role === 'assistant' && m.cases && m.cases.length >= 2 && m.selectedCaseIndex == null) {
+        return m.cases;
+      }
+    }
+    return null;
+  });
+
   constructor(private readonly api: ChatApiService) {}
 
   async sendMessage(text: string): Promise<void> {
@@ -53,15 +67,68 @@ export class ChatStore {
       if (index !== null) {
         const car = displayOrder[index];
         if (car) {
+          if (this.pendingDocSelection()) {
+            console.warn('[ChatStore] Both car and doc selection pending — car wins.');
+          }
           await this.confirmCar(car);
           return;
         }
       }
     }
 
+    // If a multi-doc compact list is visible, try to parse in strict mode so
+    // that "ho 2 auto" (embedded number sentence) routes normally to the
+    // backend, while "2" or "il secondo caso" triggers local expansion.
+    const pendingDocs = this.pendingDocSelection();
+    if (pendingDocs) {
+      const index = parseCarSelection(text, this.language, pendingDocs.length, true);
+      if (index !== null) {
+        this.selectDocumentInLastResponse(index);
+        return;
+      }
+    }
+
     this.language = detectLanguage(text, this.language);
     this.detectedLanguage.set(this.language);
     await this.send(text);
+  }
+
+  // Expands case at `index` in the message with `messageId`. Updates
+  // selectedCaseIndex on that message and returns the CaseSummary, or null if
+  // messageId/index is invalid.
+  selectDocument(messageId: string, index: number): CaseSummary | null {
+    let found: CaseSummary | null = null;
+    this.messages.update(msgs =>
+      msgs.map(m => {
+        if (m.id === messageId && m.cases && index >= 0 && index < m.cases.length) {
+          found = m.cases[index];
+          return { ...m, selectedCaseIndex: index };
+        }
+        return m;
+      }),
+    );
+    return found;
+  }
+
+  // Finds the most recent assistant message with ≥2 cases and no expanded
+  // selection, then expands the case at `index`. Returns the CaseSummary or
+  // null if no such message exists or index is out of range.
+  selectDocumentInLastResponse(index: number): CaseSummary | null {
+    const msgs = this.messages();
+    for (let i = msgs.length - 1; i >= 0; i--) {
+      const m = msgs[i];
+      if (m.role === 'assistant' && m.cases && m.cases.length >= 2 && m.selectedCaseIndex == null) {
+        return this.selectDocument(m.id, index);
+      }
+    }
+    return null;
+  }
+
+  // Collapses an expanded document back to the compact list view.
+  clearDocumentSelection(messageId: string): void {
+    this.messages.update(msgs =>
+      msgs.map(m => (m.id === messageId ? { ...m, selectedCaseIndex: null } : m)),
+    );
   }
 
   async confirmCarByIndex(index: number): Promise<void> {

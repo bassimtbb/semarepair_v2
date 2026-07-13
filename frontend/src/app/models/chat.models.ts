@@ -68,4 +68,8 @@ export interface ChatMessage {
   carMatches?: CarOption[];
   cases?: CaseSummary[];
   isStreaming?: boolean;
+  // Index into cases[] of the document currently expanded in the selection
+  // list. undefined/null = compact list visible. Set by selectDocument() and
+  // cleared by clearDocumentSelection() in ChatStore.
+  selectedCaseIndex?: number | null;
 }
