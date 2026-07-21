@@ -175,7 +175,7 @@ public class RepairOrchestrator
             secondarySymptomTried = true;
             try
             {
-                rawResult = await CallServiceAsync(BuildSymptomSearchUrl(secondary, routingTurn.FunctionCall.Args, session, request.Language));
+                rawResult = await CallServiceAsync(BuildSymptomSearchUrl(secondary, session, request.Language));
             }
             catch (Exception)
             {
@@ -248,13 +248,23 @@ public class RepairOrchestrator
             message = FormattingFallbackMessage(request.Language);
         }
 
-        yield return BuildChatResponse(rawResult, message, routingTurn.FunctionCall, request.Language, lowConfidenceConfirmed);
+        // Rule 1 signal (M1, Half B): a car is confirmed this session if either
+        // identity field is set. Both are normally set together by
+        // ConfirmCarAsync/StoreConfirmedCar; the codiceMotore-only fallback path
+        // sets ConfirmedCodiceMotore without ConfirmedCarId, and that IS a
+        // legitimate confirmation (it drives the with-car search), so keying on
+        // ConfirmedCarId alone would wrongly block it. Fires only when NOTHING
+        // was confirmed.
+        var carConfirmed = session.ConfirmedCarId is not null || session.ConfirmedCodiceMotore is not null;
+        yield return BuildChatResponse(rawResult, message, routingTurn.FunctionCall, request.Language, lowConfidenceConfirmed, carConfirmed);
     }
 
     // phase/found/cases/carMatches are all derived directly from the real
     // Search/Vehicle Service response - never from Gemini's JSON output.
-    private static ChatResponse BuildChatResponse(
-        JsonElement rawResult, string? message, GeminiFunctionCall call, string language, bool lowConfidenceConfirmed)
+    // Instance (not static) so the Half B guard can log; carConfirmed is the
+    // Rule 1 signal (M1).
+    private ChatResponse BuildChatResponse(
+        JsonElement rawResult, string? message, GeminiFunctionCall call, string language, bool lowConfidenceConfirmed, bool carConfirmed)
     {
         if (rawResult.ValueKind == JsonValueKind.Object &&
             rawResult.TryGetProperty("cars", out var cars) &&
@@ -315,6 +325,28 @@ public class RepairOrchestrator
             docs.ValueKind == JsonValueKind.Array &&
             docs.GetArrayLength() > 0)
         {
+            // Half B (M1 / Rule 1): structural backstop - a document result must
+            // never be emitted without a confirmed car, whatever Gemini put in
+            // the tool args. Half A stops the known trigger (an unconfirmed
+            // engine code seeding the with-car search); this stops EVERY other
+            // path too, so Rule 1 no longer depends on the model's discretion.
+            // After Half A this is unreachable in the known flows (documents
+            // only come back when session.ConfirmedCodiceMotore was passed) -
+            // if it ever fires, a with-car search ran unconfirmed and we refuse
+            // to show the document, asking the mechanic to identify the vehicle.
+            if (!carConfirmed)
+            {
+                _logger.LogWarning(
+                    "Rule 1 guard (M1): suppressed document emission for tool {Tool} with no confirmed car",
+                    call.Name);
+                return new ChatResponse
+                {
+                    Phase = "identification",
+                    Found = false,
+                    Message = IdentifyVehicleFirstMessage(language),
+                };
+            }
+
             var first = docs.EnumerateArray().First();
             var isLowConfidence = first.ValueKind == JsonValueKind.Object &&
                 first.TryGetProperty("lowConfidenceMatch", out var lc) && lc.ValueKind == JsonValueKind.True;
@@ -472,12 +504,17 @@ public class RepairOrchestrator
         ("codiceMotore", GetString(args, "engineCode")),
         ("kw", GetInt(args, "kw")?.ToString()));
 
-    // Engine code/brand are deterministically taken from session state
-    // when a car is confirmed, overriding whatever Gemini put in args -
-    // these are simple structured values Chat Service already
-    // authoritatively knows, so there's no reason to trust an LLM's echo of
-    // them over the session itself (unlike the search text/fault code,
-    // which only the mechanic's own words can supply).
+    // Engine code/brand come ONLY from confirmed session state, never from
+    // Gemini's tool args (M1 / Rule 1, Half A). A codiceMotore passed to
+    // Search Service selects the with-car document path; sourcing it from
+    // args meant a bare engine code the mechanic typed in free text
+    // ("...motore 8140.43S") seeded a confirmed-car document search with no
+    // car ever confirmed - a Rule 1 leak, AND product-wrong since one engine
+    // code is ambiguous (8140.43S maps to 14 cars across 4 brands). With the
+    // args fallback removed, an unconfirmed engine code leaves codiceMotore
+    // null, so Search Service takes its no-car path and returns a car
+    // SELECTION (identification) instead - exactly how a bare model name is
+    // treated. When a car IS confirmed the session value is used, unchanged.
     //
     // Query-string keys sent to Search Service are Italian
     // (codiceMotore/marca) - Search Service's own deliberate deviation
@@ -488,8 +525,8 @@ public class RepairOrchestrator
     // ToolDefinitions.cs - only the outgoing HTTP query key changes.
     private string BuildSearchUrl(string endpoint, string queryParam, string argName, JsonElement args, Session session, string language)
     {
-        var codiceMotore = session.ConfirmedCodiceMotore ?? GetString(args, "engineCode");
-        var marca = session.ConfirmedMarca ?? GetString(args, "brand");
+        var codiceMotore = session.ConfirmedCodiceMotore;
+        var marca = session.ConfirmedMarca;
         return BuildQuery($"{_searchServiceUrl}/api/search/{endpoint}",
             (queryParam, GetString(args, argName)),
             ("codiceMotore", codiceMotore),
@@ -500,14 +537,14 @@ public class RepairOrchestrator
     // Re-runs a symptom search with literal text rather than Gemini's own
     // call args - used only for the secondary-symptom retry above, where
     // the text to search ("secondarySymptom") is separate from the
-    // original call's "symptom" argument. engineCode/brand fallback
-    // mirrors BuildSearchUrl exactly (session's confirmed values take
-    // priority; originalArgs is the FIRST call's args, since Gemini never
-    // gave a separate engineCode/brand for the discarded symptom).
-    private string BuildSymptomSearchUrl(string symptomText, JsonElement originalArgs, Session session, string language)
+    // original call's "symptom" argument. engineCode/brand come ONLY from
+    // confirmed session state (M1 / Rule 1, Half A - same reasoning as
+    // BuildSearchUrl: an unconfirmed engine code must not seed a with-car
+    // document search); originalArgs is no longer read for them.
+    private string BuildSymptomSearchUrl(string symptomText, Session session, string language)
     {
-        var codiceMotore = session.ConfirmedCodiceMotore ?? GetString(originalArgs, "engineCode");
-        var marca = session.ConfirmedMarca ?? GetString(originalArgs, "brand");
+        var codiceMotore = session.ConfirmedCodiceMotore;
+        var marca = session.ConfirmedMarca;
         return BuildQuery($"{_searchServiceUrl}/api/search/symptom",
             ("q", symptomText), ("codiceMotore", codiceMotore), ("marca", marca), ("lang", language));
     }
@@ -679,6 +716,19 @@ public class RepairOrchestrator
         if (yearTo is null || yearTo == yearFrom) return yearFrom.ToString();
         return $"{yearFrom}-{yearTo}";
     }
+
+    // Half B (M1) message: shown only if the Rule 1 guard fires (a document
+    // result reached BuildChatResponse with no confirmed car). Fixed
+    // per-language, never LLM-generated, mirroring the other per-language
+    // switches here.
+    private static string IdentifyVehicleFirstMessage(string language) => language switch
+    {
+        "en" => "Which vehicle is this for? I can show the repair documentation once the vehicle is confirmed.",
+        "fr" => "Pour quel véhicule ? Je peux afficher la documentation une fois le véhicule confirmé.",
+        "pt" => "Para qual veículo? Posso mostrar a documentação depois de confirmar o veículo.",
+        "es" => "¿Para qué vehículo? Puedo mostrar la documentación una vez confirmado el vehículo.",
+        _ => "Per quale veicolo? Posso mostrare la documentazione una volta confermato il veicolo.",
+    };
 
     // H2 fallback prose when the formatting Gemini call fails but structured
     // results are already in hand. Deliberately NOT the service-unavailable

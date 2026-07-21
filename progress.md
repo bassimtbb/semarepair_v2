@@ -3716,3 +3716,61 @@ Throwaway mutation reverted (`git diff` clean of it; `RepairOrchestrator.cs` byt
 | `nginx/nginx.conf` | H4 (committed separately): resolver + variable `proxy_pass`. H3: `proxy_buffering off; gzip off; proxy_read_timeout 300s;` on the chat route. |
 | `services/chat/Controllers/ChatController.cs` | H3: `X-Accel-Buffering: no` on the stream response. |
 | `frontend/src/app/services/chat-store.service.ts` | M7: one assistant-message id per turn; first event appends, later events update in place instead of appending. |
+
+## 25. M1 — gate document emission on a confirmed car (Rule 1, defense in depth) (2026-07-20)
+
+Code-review finding M1 (MEDIUM, but Rule-1-critical). Rule 1 — "never show a repair document before a vehicle is confirmed" — rested entirely on Gemini's discretion. In `RepairOrchestrator`, the with-car search's engine code was resolved as `session.ConfirmedCodiceMotore ?? GetString(args, "engineCode")`. If no car was confirmed but Gemini extracted an `engineCode` from the mechanic's free text (e.g. "P0504 su motore F1AE0481C"), the args fallback seeded the confirmed-car document path and `BuildChatResponse` emitted the document `Cases` — with no confirmed-car check anywhere. Since Gemini's extraction is non-deterministic, a hard business invariant was depending on the model.
+
+### 25.1 The fix — both halves
+
+**Half A (product-correct routing).** `BuildSearchUrl`/`BuildSymptomSearchUrl` now source `codiceMotore`/`marca` **only** from confirmed session state — the `?? GetString(args, …)` fallback is removed. A bare engine code from free text therefore leaves `codiceMotore` null, so Search Service takes its **no-car path** and returns a car **selection** (identification), exactly as a bare model name would. This is also product-correct: one engine code is ambiguous — `8140.43S` maps to **14 cars across 4 brands** — so it can never confirm a specific vehicle. When a car *is* confirmed the session value is used, unchanged.
+
+**Half B (structural backstop).** In `BuildChatResponse`, the document-emission branch is now gated on `carConfirmed`; if false it logs `"Rule 1 guard (M1): suppressed document emission …"` and returns an identification prompt (`IdentifyVehicleFirstMessage`, fixed per-language, never LLM-generated) instead of the document. This makes Rule 1 **structural** — no path can emit a document without a confirmed car, regardless of what Gemini extracted. `BuildChatResponse` was made an instance method so it can log.
+
+**Confirmed-car signal (deviation from the literal plan, flagged).** The plan said key on `session.ConfirmedCarId`. But `ConfirmCarAsync` has a legitimate codiceMotore-only fallback that sets `ConfirmedCodiceMotore` **without** `ConfirmedCarId`, and that path genuinely confirms a car and drives the with-car search. Keying on `ConfirmedCarId` alone would wrongly block it. Since the with-car document search is driven by `ConfirmedCodiceMotore`, the Rule-1-correct "was any car confirmed?" signal is `ConfirmedCarId is not null || ConfirmedCodiceMotore is not null` — it fires only when *nothing* was confirmed and does not regress the fallback. Chosen to keep both Rule 1 and the legitimate confirmed path correct.
+
+**Rule 8 interaction (checked, no conflict).** Rule 8 shared-engine fallback runs only inside Search Service's `codiceMotore is not null` branches, so a Rule 8 document result always reaches `BuildChatResponse` with `carConfirmed=true`; the Half B guard (placed before the low-confidence/Rule-8b consent check) passes cleanly and the existing consent logic is untouched. Confirmed live below.
+
+### 25.2 Verification — adversarial (tried to leak a document, all failed)
+
+Fresh sessions, **no** confirmed car, through nginx. Rule 1 assertion: zero document `cases` in the response.
+
+| # | Message | Result | Leak? |
+|---|---|---|---|
+| 1 | "P0504 su motore F1AE0481C" (fault + engine code, the known trigger) | identification, 7 car matches, **0 cases** | none |
+| 2 | "problemi iniezione motore 8140.43S" (symptom + ambiguous engine) | identification, 20 car matches, **0 cases** | none |
+| 3 | "motore F1AE0481C" (engine code alone) | clarification, 0 cars, **0 cases** | none |
+| 4 | "iniezione difettosa motore F1AE0481C FIAT" (symptom + engine + brand) | identification, 21 car matches, **0 cases** | none |
+
+Every phrasing designed to smuggle an engine code into the search path routed to identification/clarification; **none leaked a document**.
+
+### 25.3 Verification — Half B proven independently (forced dangerous state)
+
+To prove Half B is a real structural guard and not just a consequence of Half A, a **throwaway** mutation re-introduced the pre-Half-A args fallback in `BuildSearchUrl` (reverted after; `git diff` confirmed only `RepairOrchestrator.cs` remained, no `TEMP-` markers). Then "problemi iniezioni motore 8140.43S" with **no** confirmed car — which, with the bug re-added, *did* run the with-car search and produce documents:
+
+```
+phase=identification  found=False  cases=0  carMatches=0
+message="Per quale veicolo? Posso mostrare la documentazione una volta confermato il veicolo."
+log:  warn: Rule 1 guard (M1): suppressed document emission for tool SearchBySymptom with no confirmed car
+```
+
+Half B suppressed the documents that Half A's absence let through — **0 cases**, the identification message, and the guard log fired. Without Half B this exact input leaked 4 documents (the original M1 bug).
+
+### 25.4 Verification — regressions (legitimate paths unbroken)
+
+All with a properly confirmed car, through nginx:
+
+- **Confirmed-car search:** "Problemi iniezioni" + confirmed FI0398/8140.43S/FIAT → `phase=chat, found=true, cases=4`; `causa`/`intervento` **byte-identical** to the §23 baseline.
+- **Rule 10 (multi-doc):** "Iniezione" + confirmed F1AE0481D (FI2504 FIAT) → `found=true, cases=3` (3 shown of the 14-doc set).
+- **Rule 8 (shared engine):** confirm CI0037 (CITROEN Jumper, engine RHV) + "P0380" → `found=true, cases=1, foundViaSharedEngine=[true]` with the shared-engine disclosure message. The reveal flow works; **Half B did not block it** (carConfirmed=true).
+- **No false positives:** the Rule 1 guard fired **0 times** across all legitimate confirmed-car turns.
+
+### 25.5 Honest boundary
+
+Half A is proven behaviourally live (adversarial battery); Half B is proven by forcing the exact document-without-car internal state via a throwaway hook and observing suppression + the guard log — i.e. the structural guard was exercised, not just code-read. Document fidelity (`causa`/`intervento` verbatim, never through any LLM) is unchanged and byte-verified on the confirmed path.
+
+### 25.6 Files changed
+
+| File | Change |
+|---|---|
+| `services/chat/Services/RepairOrchestrator.cs` | Half A: `BuildSearchUrl`/`BuildSymptomSearchUrl` source engine code/brand only from confirmed session state (removed the `?? args` fallback; dropped `BuildSymptomSearchUrl`'s now-unused `originalArgs` param). Half B: `BuildChatResponse` (now instance) gates document emission on `carConfirmed = ConfirmedCarId ?? ConfirmedCodiceMotore is set`, logs and returns `IdentifyVehicleFirstMessage` otherwise. |
