@@ -46,6 +46,11 @@ using the app today could be misled or hit a dead end because of these.
 
 ### Chat Service
 
+- [ ] **chat-service H1 handler proven only by code-identity, not live** (see progress.md §22)
+  - Where: `services/chat/Program.cs` (the `UseExceptionHandler` block, added in H1)
+  - Why it matters: the H1 global JSON exception handler was demonstrated live on *vehicle*-service (Postgres stopped → Npgsql throw → JSON 503), but chat-service could not be forced to throw an unhandled exception from outside because every request path is guarded — so chat's handler was verified only by being the byte-identical block, not by a real failure
+  - What's needed: confirm it live during H2 testing. H2 deliberately forces a formatting-call failure, and that formatting Gemini call IS chat's one genuinely unguarded path — so H2's forced-failure test either proves H2 catches it *before* the global handler (desired) or proves the global handler itself returns JSON. Either way, close this note once H2 is verified.
+
 - [ ] **Real browser mic recording never tested against Gemini** (see §6.4, §9)
   - Where: `services/chat/Services/GeminiChatClient.cs` `TranscribeAsync`; `frontend/src/app/components/chat/chat-input/chat-input.component.ts`
   - Why it matters: every mechanic using the mic button in a real browser produces `audio/webm` (standard `MediaRecorder` output), which is not in Gemini's documented supported format list — verified only with a synthetic WAV file; could silently fail or garble every real voice input
@@ -99,6 +104,11 @@ using the app today could be misled or hit a dead end because of these.
 ---
 
 ### Infrastructure
+
+- [ ] **Docker Desktop Linux engine died once right after `docker compose stop our-postgres`** (observed during H1 testing, see progress.md §22.4)
+  - Where: host Docker Desktop (Windows); not application code
+  - Why it matters: the `//./pipe/dockerDesktopLinuxEngine` named pipe disappeared and `com.docker.service` stopped moments after intentionally stopping the Postgres container for the H1 forced-exception demo — the whole engine went down, not just one container. Cause unconfirmed: possibly a coincidental host crash, possibly related to stopping a container. Recovery was clean (relaunched Docker Desktop, daemon came back at server 29.0.1, `docker compose up -d` restored the stack, `./pgdata` bind mount persisted so no data lost)
+  - What's needed: watch for recurrence after `docker compose stop`/`down` of any container; if it repeats, capture Docker Desktop diagnostics at the time. Not actionable until it reproduces
 
 - [x] **Swagger UI unconditionally enabled in all 3 C# services — no dev-environment gate** (see §6.1/6.2/6.4 audit)
   - Where: `services/chat/Program.cs:17–18`, `services/search/Program.cs:21–22`, `services/vehicle/Program.cs:12–13`

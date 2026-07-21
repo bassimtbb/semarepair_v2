@@ -3280,3 +3280,323 @@ handled (true); car-selection and sendMessage both return false.
 | `frontend/src/app/components/chat/message-bubble/message-bubble.component.css` | + .doc-list, .back-btn |
 | `frontend/src/app/components/chat/message-list/message-list.component.ts` | +selectDoc, +clearDocSelection outputs; passes through from message-bubble |
 | `frontend/src/app/components/chat-page/chat-page.component.ts` | handleSelectDoc; wires all 3 doc-selection events |
+
+---
+
+## 19. Backend routing fix + determinism hardening (2026-07-14)
+
+Three separate bugs found and fixed in a single diagnostic session triggered by "Problemi iniezioni" returning no results while "Guasto sistema di iniezione" worked.
+
+### 19.1 Root cause of "Problemi iniezioni" → no results
+
+Diagnosis from real logs: Gemini routed "Problemi iniezioni" to `SearchBySystem(name="iniezioni")` instead of `SearchBySymptom`. The routing prompt said "call SearchBySystem when the mechanic names a system **without describing a fault**" but gave no examples of fault words, so Gemini extracted "iniezioni" as the system name and ignored "problemi".
+
+The `SearchBySystem` path uses `ILIKE @keyword` (exact case-insensitive match). Graph stores `Iniezione` (singular); Gemini passed `iniezioni` (plural). Neither is a substring of the other — the query returned 0 results.
+
+"Guasto sistema di iniezione" routed to `SearchBySymptom` → vector embedding → found 6 docs (F1AE0481D) / 4 docs (8140.43S).
+
+**Fix:** Added explicit fault-word rule to `SystemPromptBuilder.BuildRouting()` with all 5 languages' fault vocabularies and positive/negative examples. Only routing prompt change — no SQL or search logic touched.
+
+Fault words added (all 5 languages):
+- IT: problemi, problema, guasto, errore, anomalia, avaria
+- EN: problem, problems, fault, error, issue, failure
+- FR: problème, problèmes, panne, erreur, anomalie, défaut
+- PT: problema, problemas, avaria, erro, anomalia, falha
+- ES: problema, problemas, avería, error, anomalía, fallo
+
+### 19.2 Non-determinism in search results ("4 docs vs 5 docs")
+
+Observed: same mechanic input on same car returned different document counts across runs. Diagnosed from 27 real cosine distances (8140.43S, "Problemi iniezioni"):
+
+```
+Rank | id_documento | dist    | gap from best
+  1  | 199309715    | 0.25050 | 0.00000  ← INCLUDED (TieThreshold=0.02)
+  2  | 199309871    | 0.26086 | 0.01036  ← INCLUDED
+  3  | 199309732    | 0.26329 | 0.01279  ← INCLUDED
+  4  | 199310191    | 0.26422 | 0.01372  ← INCLUDED
+  5  | 199309706    | 0.27977 | 0.02927  ← EXCLUDED — 0.00927 past threshold
+```
+
+Doc #5 is 9.3mm outside the 20mm TieThreshold window. A ±0.01 shift in the best distance (from slightly different Gemini cleaning output) crosses this boundary. This is a **known characteristic, not a bug** — anyone seeing result counts change after a prompt tweak should check cosine distances.
+
+### 19.3 Temperature was never set — affected every LLM decision in the system
+
+`GeminiChatClient.GenerateAsync` sent no `temperature` field for its entire existence. Every routing call, formatting call, and transcription call was running at gemini-2.5-flash's default (non-zero) temperature. This is the root cause of the 4-vs-5 result variation: Gemini's routing call cleaned "Problemi iniezioni" to slightly different `symptom` text on different runs, producing different embedding vectors.
+
+**Fix:** `temperature` and `disableThinking` added as per-call parameters to `GenerateAsync`. Each call site opts in independently:
+
+| Call | temperature | disableThinking | Rationale |
+|---|---|---|---|
+| Routing | 0 | true | Mechanical classification: which tool, which args. No creativity needed. |
+| Formatting | default | false | Conversational prose. Slight variation harmless, thinking helps quality. |
+| Transcription | default | false | Audio → text. No structured output needed. |
+
+### 19.4 Why temperature=0 alone was not enough (thinkingBudget=0 required)
+
+gemini-2.5-flash is a thinking model. Setting `temperature=0` controls the output token sampling but NOT the thinking chain. The thinking tokens are sampled independently — a non-zero internal temperature during the "thinking" phase means the reasoning chain can still vary run-to-run even when final output tokens are greedy. Observed: with only `temperature=0`, 3 of 8 runs still produced NO-CALL responses (Gemini's thinking led it to "clarify" rather than call a tool). After adding `thinkingBudget=0` (disables extended reasoning entirely), all 5/5 runs were identical.
+
+The routing call is purely structural (classify → call tool → extract args). Thinking is appropriate for the formatting call (prose quality benefits from reasoning about tone, completeness, etc.) but counterproductive for routing.
+
+### 19.5 SQL ORDER BY missing tiebreaker (ConfirmCarAsync precedent)
+
+Both vector SQL queries had `ORDER BY dist` with no stable tiebreaker. With 108 documents in the sample, no two docs currently land at the same cosine distance — but this is luck. With production data (many more documents), distance collisions become likely, and `ORDER BY dist` without a tiebreaker + a LIMIT returns an arbitrary document when two tie. This is the identical class of bug as the ConfirmCarAsync IVECO issue (no ORDER BY → "whatever row PostgreSQL scanned first").
+
+**Fix:** Both queries changed from `ORDER BY dist` to `ORDER BY dist, id_documento`.
+
+### 19.6 Verification results (post-fix)
+
+All 3 sequences ran 5 fresh sessions each with temperature=0 + thinkingBudget=0:
+
+| Test | What | Expected | Result |
+|---|---|---|---|
+| A | "Problemi iniezioni" / 8140.43S, 5 runs | tool=symptom, q=[problemi iniezioni], docs=4, same IDs | **5/5 ✓** |
+| B | "Iniezione" alone / 8140.43S, 5 runs | tool=system, q=[Iniezione], docs=3, same IDs | **5/5 ✓** |
+| C | "Problemi iniezioni" / F1AE0481D (Rule 7 regression), 5 runs | tool=symptom, same count | **5/5 ✓ (8 docs each run)** |
+
+### 19.7 Files changed
+
+| File | Change |
+|---|---|
+| `services/chat/Services/SystemPromptBuilder.cs` | + fault-word rule, 5-language vocabulary, positive/negative routing examples |
+| `services/chat/Services/GeminiChatClient.cs` | + `temperature` and `disableThinking` per-call params; `ThinkingConfig` inner class |
+| `services/chat/Services/RepairOrchestrator.cs` | routing call now passes `temperature: 0, disableThinking: true` |
+| `services/search/Services/VectorSearchService.cs` | `ORDER BY dist` → `ORDER BY dist, id_documento` |
+| `services/search/Services/SymptomSearchService.cs` | `ORDER BY dist` → `ORDER BY dist, id_documento` |
+
+## 20. Routing-prompt contradiction fixed: word-count rule replaced with a specificity rule (2026-07-15)
+
+### 20.1 The contradiction
+
+`SystemPromptBuilder.BuildRouting()` contained both a rule and a worked example that directly disagreed with each other, in the same prompt:
+
+- Rule (Symptom cleaning rules section): "Minimo 3 parole tecniche" (minimum 3 technical words).
+- Example (Tool routing section, §19.1's own fault-word-list fix): `"Problemi iniezioni" → SearchBySymptom(symptom="problemi iniezioni")` — 2 words.
+
+Gemini had no way to reconcile these — a rule and an immediate violation of that rule, both presented as authoritative. This is exactly the kind of prompt-internal disagreement that produces the run-to-run unpredictability §19 was written to eliminate.
+
+### 20.2 Word count was the wrong proxy for specificity
+
+"problemi iniezioni" (2 words) names a system precisely. "la macchina non va bene" (5 words) names nothing. The word-count rule accepted the vague one and rejected the specific one — backwards, because word count was never actually measuring specificity; it was a shortcut standing in for it.
+
+### 20.3 The fix: judge concreteness, not word count
+
+The "Minimo 3 parole tecniche" line was replaced with a rule that asks whether the description names something concrete — a system, a component, a warning light, or a specific observable behavior — regardless of how many words that takes. "È vaga solo quando dice che qualcosa non va SENZA dire cosa o dove" (it's vague only when it says something's wrong without saying what or where). No minimum or maximum word count appears anywhere in the prompt anymore.
+
+### 20.4 The fault-word list (added in §19.1) was also removed — it had the same flaw
+
+§19.1's fix was a closed, per-language vocabulary list (`problemi, problema, guasto, errore, anomalia, avaria`, ×5 languages) used to decide "system name alone → SearchBySystem" vs "system name + fault word → SearchBySymptom". It was already known to be incomplete: "iniettori rotti" has no listed fault word ("rotti" isn't on the list), so it would have silently fallen through. This is the identical shortcut-for-a-judgment problem as the word-count rule, just implemented as vocabulary matching instead of counting.
+
+Replaced with the same concreteness test used in §20.3: a bare system/device name → SearchBySystem; a system/device name plus ANY indication something's wrong, in any wording, not limited to a fixed list → SearchBySymptom. One mechanism now governs both decisions instead of two separate, potentially-conflicting ones — this was a deliberate choice to avoid re-creating the exact kind of contradiction this section started from.
+
+### 20.5 A second gap found and fixed during verification (not in the original ask, found by testing)
+
+Verifying "la macchina va male" and "it doesn't work" against the §20.3 fix alone showed the concreteness judgment wasn't yet applied to the earlier decision of whether to call a tool *at all*:
+
+- "la macchina va male" → Gemini called `SearchBySymptom(symptom="la macchina va male")` and returned 3 real (irrelevant) documents, instead of asking for clarification.
+- "it doesn't work" → Gemini called `SearchBySymptom` and landed on a low-confidence-match fallback (Rule 8b), instead of asking for clarification.
+
+Both are technically-defensible-looking but wrong outcomes: the model was willing to attempt a search on text that names nothing concrete, just because it was Not Obviously Empty ("non funziona" — 2 nearly-identical words — was correctly recognized as too vague to search; a longer sentence built entirely from filler was not).
+
+Added an explicit rule, positioned first in Tool routing (before the DTC/system/symptom bullets): if the message names nothing concrete, call no tool at all and ask a short clarifying question directly, using the same concreteness test as §20.3/20.4. Explicitly states that word count is not the test, so a longer-but-still-empty sentence doesn't get treated as more searchable than a short one.
+
+### 20.6 Verification results (5 runs each, fresh sessions, confirmed car 8140.43S/FIAT — id `FI0398`, live Gemini calls, real DB)
+
+| # | Input | Language | Expected | Result |
+|---|---|---|---|---|
+| 1 | "Problemi iniezioni" | it | SearchBySymptom, docs found | **5/5** — `symptom=problemi iniezioni`, 4 docs every run |
+| 2 | "iniettori rotti" (not on old fault-word list) | it | SearchBySymptom | **5/5** — `symptom=iniettori rotti`, 4 docs every run |
+| 3 | "iniettore difettoso" | it | SearchBySymptom | **5/5** — `symptom=iniettore difettoso`, 3 docs every run |
+| 4 | "Iniezione" alone | it | SearchBySystem (no over-correction) | **5/5** — `name=Iniezione` |
+| 5 | "non funziona" | it | Rule-9-style clarification, no tool call | **5/5** — no tool call every run |
+| 6 | "la macchina va male" | it | Rule-9-style clarification, no tool call | **5/5** after §20.5 fix (was 5/5 *wrong* — real search — before it) |
+| 7 | "injection problems" / "injectors broken" / "problemes d'injection" | en / en / fr | SearchBySymptom | **5/5 each** (15/15 total) |
+| 8 | "it doesn't work" | en | Rule-9-style clarification, no tool call | **5/5** after §20.5 fix (was 5/5 *wrong* — low-confidence fallback — before it) |
+
+Every run used a fresh session against the real local stack (chat-service → search-service/vehicle-service → Postgres with pgvector, real Gemini API calls) — no mocking.
+
+### 20.7 A separate, pre-existing gap found but NOT fixed here (flagging, out of scope)
+
+`ValidationService.ValidateSymptom` (search-service, Rule 12 — see docs/EmbeddingAndGraph_Technical.md) gates vagueness server-side with a hardcoded 6-word Italian stopword list (`problema, errore, guasto, non, funziona, rotto`) plus a "fewer than 2 words" floor. Tested directly: this gate would **not** have caught "va male" as vague (2 words, neither is on the stopword list) if Gemini had called `SearchBySymptom` with that text — which is exactly what was happening before the §20.5 fix. It's the same word-list-proxy-for-meaning flaw as §20.1–20.4, just server-side instead of in the prompt.
+
+Not touched this session — different file, not part of what was asked, and currently masked in practice by §20.5 (Gemini no longer calls the tool for this kind of input at all). Flagging it because the mask is only as good as the prompt's own judgment: if routing ever regresses, or a future caller reaches `SearchBySymptom` without going through this prompt (a different client, a retry path, etc.), this backend gate would silently let vague text through as a real search. Worth a follow-up pass if that surfaces.
+
+### 20.8 Files changed
+
+| File | Change |
+|---|---|
+| `services/chat/Services/SystemPromptBuilder.cs` | Removed "Minimo 3 parole tecniche" word-count rule and the closed fault-word vocabulary list; replaced both with one concreteness/specificity judgment; added an explicit "name nothing concrete → call no tool, ask directly" rule |
+
+### 20.9 Follow-up check: is a closed fault-word list still needed anywhere? No — already gone
+
+A later prompt asked to re-verify (before doing any more work) whether the closed fault-word vocabulary from §19.1 was still present and still being matched against — the concern being that §20.3's specificity rule only helps if the old list was actually removed, not left in place alongside it as a second, potentially-conflicting mechanism.
+
+Checked by reading the current prompt text directly: the list is gone (removed in §20.4) and the routing rule now reads "not limited to a fixed list of 'fault words'" with no enumerated vocabulary anywhere. §20.6's existing results already cover the specific regression this check was worried about — "iniettori rotti" and "iniettore difettoso" (§20.6 rows 2–3) were never on the old list and both routed to `SearchBySymptom` 5/5, and the non-Italian equivalents (§20.6 row 7) passed 5/5 each. No code change made; nothing further was needed.
+
+## 21. Boundary-tie fix — live end-to-end verification through the real stack (2026-07-20)
+
+The boundary-tie handling in `SymptomSearchService.FindBestMatchesAsync` (the `limit+1` probe + epsilon re-query + `LogInformation` line, added earlier) had only ever been exercised via a standalone console harness that instantiated the service directly. This section records the full verification through the **real running Docker stack** (nginx → search-service → Postgres/pgvector, live Gemini embeddings), following the handoff §5 checklist. No source code was modified; the only file changed is this one. The boundary case was reachable on local data, so this is a **complete** verification, not the reduced-limit fallback.
+
+### 21.1 Why 199309673 / 199309676 are the test case
+
+These two documents carry byte-identical `anomalia` text in it/en/fr/pt, so their stored `symptom_embeddings` vectors are identical and the cosine distance **between them is exactly 0** (measured live; `es` differs at 0.0136 due to a slightly different Spanish wording):
+
+```
+ language | dist_673_to_676
+----------+-----------------
+ en       | 0
+ fr       | 0
+ it       | 0
+ pt       | 0
+ es       | 0.013585872387191888
+```
+
+Because they are a perfect tie, they always occupy two adjacent ranks at the identical distance to any query. If that adjacent pair straddles the `LIMIT` cutoff, a plain `ORDER BY dist LIMIT n` keeps one and silently drops the other — the exact bug the fix exists to prevent.
+
+### 21.2 Step 1–2: positioning the tie at the LIMIT=5 boundary (iterative query-crafting)
+
+The default `limit` for the no-car path (`SymptomWithoutCarAsync` → `FindBestMatchesAsync`) is 5, so the tie has to land at ranks 5–6. Query text was embedded with the **same** params the service uses (`gemini-embedding-001`, `task_type=RETRIEVAL_QUERY`, 768 dims) and the resulting vector ranked against `symptom_embeddings` in psql. Several rounds of adjustment were needed because the "loss of performance + engine warning light" cluster is very tight (~0.15–0.16). One extra constraint surfaced mid-iteration: the query must contain **no** system/device name (e.g. "Quadro strumenti" is a real device name), or the endpoint's `MatchSystemOrDeviceAsync` narrows the candidate set and the full-table ranking no longer applies. The winning query avoids all 70 Italian system/device names:
+
+**Query (lang=it):** `Notevole calo di prestazioni e potenza con accensione spia avaria motore sul cruscotto`
+
+Full-table ranking (psql, live query vector):
+
+```
+ rank | id_documento |   dist   |     mark
+------+--------------+----------+---------------
+    1 | 199310573    | 0.151807 |
+    2 | 199309703    | 0.152774 |
+    3 | 199310553    | 0.158678 |
+    4 | 199310207    | 0.161831 |
+    5 | 199309673    | 0.162261 | <== TIED PAIR
+    6 | 199309676    | 0.162261 | <== TIED PAIR
+    7 | 199310614    | 0.162421 |   (strictly greater — clean boundary)
+    8 | 199310368    | 0.163225 |
+```
+
+Exactly 4 distinct documents rank ahead of the pair; ranks 5 and 6 share the identical distance 0.162261; rank 7 is strictly greater (0.162421). This is the precise boundary straddle.
+
+### 21.3 The bug the fix prevents (pre-fix vs probe, shown directly in psql)
+
+```
+--- plain LIMIT 5 (pre-fix behaviour): rank 6 of the tied pair is SILENTLY DROPPED ---
+ 199310573 | 0.151807
+ 199309703 | 0.152774
+ 199310553 | 0.158678
+ 199310207 | 0.161831
+ 199309673 | 0.162261   <== TIED  (199309676 is gone — it was rank 6)
+
+--- LIMIT 6 (the limit+1 probe the fix uses): both tied rows visible at 0.162261 ---
+ ... same 4 ...
+ 199309673 | 0.162261   <== TIED
+ 199309676 | 0.162261   <== TIED
+```
+
+With `id_documento` as the deterministic tiebreak, plain `LIMIT 5` keeps 673 (lower id) and drops 676 with no signal. The fix's `limit+1` probe sees both share the cutoff distance, so it re-queries for every document at or below the cutoff and returns the whole tied set.
+
+### 21.4 Step 3–4: real endpoint + log line
+
+`GET http://localhost:5001/api/search/symptom?q=<query>&lang=it` (no `codiceMotore` → Search Type 4, full-table) → **HTTP 200**. The search-service container log emitted the re-query line, with the distance matching the psql prediction to full precision:
+
+```
+Boundary tie detected at distance 0.16226141730443222; re-query returned 6 tied documents
+```
+
+(The count is 6 because the re-query returns every document at or below the cutoff — ranks 1–6 — which it then merges and dedupes; the load-bearing fact is that both 673 and 676 are in the returned set instead of 676 being dropped.)
+
+### 21.5 Step 5: 5× determinism
+
+Five fresh calls to the same endpoint:
+
+```
+run 1: HTTP 200  bodyMD5=69c26fb9e86a439ddd79fb087c07081b
+run 2: HTTP 200  bodyMD5=69c26fb9e86a439ddd79fb087c07081b
+run 3: HTTP 200  bodyMD5=69c26fb9e86a439ddd79fb087c07081b
+run 4: HTTP 200  bodyMD5=69c26fb9e86a439ddd79fb087c07081b
+run 5: HTTP 200  bodyMD5=69c26fb9e86a439ddd79fb087c07081b
+```
+
+- All 5 response bodies byte-identical (1 distinct MD5).
+- The "Boundary tie detected" log line fired exactly 5 times (once per call), all at the identical distance `0.16226141730443222`.
+- Endpoint response shape: `resultType=car_selection, count=26` — Type 4 merges the car sets of every tied top document (both 673 and 676 contribute), never surfacing the document itself pre-confirmation (Rule 1 intact).
+
+### 21.6 Verdict
+
+**Mechanism verified end-to-end through the real stack, boundary reachable on local data.** The tied pair 199309673/199309676 was positioned exactly at the LIMIT=5 boundary (ranks 5–6, identical distance 0.162261, rank 7 strictly greater); the re-query fired and returned both tied documents where a plain `LIMIT 5` would have dropped 199309676; behaviour is fully deterministic across 5 runs. `VectorSearchService` is unaffected (it has no `LIMIT`, so it cannot truncate a tie and needs no equivalent fix). No source code was changed during this verification.
+
+### 21.7 Negative check: the re-query must NOT fire on normal queries
+
+The positive test proves the re-query fires when a tie straddles the boundary; this proves it stays silent otherwise, so the fix isn't a table-scan running on every hot-path query. Two known-good regression queries were run against the real endpoint (search-service :5001), counting "Boundary tie detected" log lines immediately before and after. Both carry a `codiceMotore`, so they take the confirmed-car paths (`VectorSearchService.RankWithinSetAsync` for Type 3, graph Rule 10 for system search) and never reach `SymptomSearchService.FindBestMatchesAsync` where the re-query lives:
+
+```
+boundary-tie log lines BEFORE: 6
+
+Q1  GET /api/search/symptom?q=Problemi iniezioni&codiceMotore=8140.43S&lang=it
+    HTTP 200  →  resultType=document, count=4, documents=4          (expected 4 ✓)
+
+Q2  GET /api/search/system?name=Iniezione&codiceMotore=F1AE0481D&lang=it
+    HTTP 200  →  resultType=vague, count=14, documents=3, selectionNeeded=true
+                 (Rule 10 multi-result: 14 total found, top 3 shown ✓)
+
+boundary-tie log lines AFTER: 6
+DELTA: 0  ✓
+```
+
+The re-query fired zero times across both normal queries, and both returned the expected result shapes. Combined with §21.4/21.5, this confirms the fix triggers **only** on a detected boundary tie, never on the general path.
+
+## 22. H1 — JSON error handler added to chat-service & vehicle-service (2026-07-20)
+
+Code-review finding H1: only search-service had a global `UseExceptionHandler` that turns an unhandled exception into a JSON body; chat-service and vehicle-service had none, so an unhandled exception on those two would surface ASP.NET's default response (an empty/HTML 500), which a fetch()-based frontend can't parse. Fix: copy search-service's exact handler block into both services' `Program.cs`, adapting only the log message and the user-facing string.
+
+### 22.1 The change
+
+Both files got `using Microsoft.AspNetCore.Diagnostics;` and, immediately after `var app = builder.Build();`, the same block search-service already uses:
+
+```csharp
+app.UseExceptionHandler(errorApp => errorApp.Run(async context =>
+{
+    var logger = context.RequestServices.GetRequiredService<ILogger<Program>>();
+    var feature = context.Features.Get<IExceptionHandlerFeature>();
+    logger.LogError(feature?.Error, "Unhandled exception in <service>");
+    context.Response.StatusCode = 503;
+    context.Response.ContentType = "application/json";
+    await context.Response.WriteAsync("{\"error\":\"<Service> temporarily unavailable\"}");
+}));
+```
+
+| File | Message / body string |
+|---|---|
+| `services/chat/Program.cs` | "Unhandled exception in chat-service" / `{"error":"Chat service temporarily unavailable"}` |
+| `services/vehicle/Program.cs` | "Unhandled exception in vehicle-service" / `{"error":"Vehicle service temporarily unavailable"}` |
+
+Both containers were rebuilt (`DOCKER_BUILDKIT=0 docker compose build`) and recreated. The handler string is confirmed compiled into each running binary (`grep` inside the container's `/app/*.dll`).
+
+### 22.2 vehicle-service — global handler demonstrated with a real unhandled exception
+
+`VehicleSearchService.SearchAsync` has no try/catch around its Npgsql call, so stopping Postgres and hitting the endpoint forces a genuinely unhandled exception. Through **nginx (port 80)**, with Postgres stopped:
+
+```
+GET http://localhost/api/vehicles?marca=FIAT&modello=Ducato
+→ {"error":"Vehicle service temporarily unavailable"}
+   HTTP 503   Content-Type: application/json
+```
+
+Container log confirmed `Unhandled exception in vehicle-service` — i.e. the exception was genuinely unhandled and the global handler is what produced the JSON body. Before H1 this same trigger would have returned a non-JSON 500. This is the definitive proof the copied block works.
+
+### 22.3 chat-service — identical block deployed; not deterministically triggerable via HTTP (and why that's expected)
+
+The identical handler block is deployed and present in the running chat-service binary. But unlike vehicle-service, chat-service could not be made to throw an *unhandled* exception from outside, because every request path is already individually guarded:
+
+- **Binding** — `[ApiController]` rejects malformed/missing inputs with its own 400 (e.g. `POST /api/chat/transcribe` with no `audio` field → framework 400 `application/problem+json`, before the action runs; the global handler is never reached).
+- **`/api/chat/stream`** — `RepairOrchestrator` wraps the routing Gemini call and the tool/downstream HTTP calls in try/catch and yields a graceful `ServiceUnavailableResponse` on failure. Demonstrated live: with Postgres stopped, `POST /api/chat/stream` (a symptom + confirmed car, which routes to a search tool) returned `HTTP 200 text/event-stream` with `{"message":"Il servizio è temporaneamente non disponibile. Riprova a breve."}` — graceful degradation, not an unhandled exception.
+- **transcribe / tts** — wrap their Gemini/Google calls in `try/catch` and return their own 503/502 JSON.
+
+The only two unguarded paths that remain are the `RepairOrchestrator` **formatting** Gemini call (finding H2) and a `SynthesizeAsync` `JsonException`/`FormatException` on a malformed Google 200. Neither can be forced from outside deterministically: the formatting call shares the same Gemini key/endpoint as the routing call that must succeed first, and the TTS edge needs Google itself to return a 2xx with a malformed body. So chat-service's global handler is a genuine safety net for those residual paths, and its correctness is established by **code-identity** with the vehicle-service block proven live in §22.2 — not by a separate forced exception. (The robustness that prevents an easy trigger is itself the desirable property.)
+
+### 22.4 Two incidental observations during the exercise
+
+- **Finding H4 reproduced live.** Recreating the chat/vehicle containers gave them new IPs; the already-running nginx had cached the old ones and returned `HTTP 502` for every backend route until nginx was restarted. This is the documented "backend IPs cached at startup" nginx issue — confirmed real, not theoretical.
+- **Docker Desktop engine crashed mid-exercise** (the `//./pipe/dockerDesktopLinuxEngine` named pipe disappeared, `com.docker.service` stopped) while Postgres was intentionally stopped for the vehicle demo. This was a host-level failure, unrelated to the code change. Docker Desktop was relaunched, the daemon recovered (server 29.0.1), and the full stack was brought back with `docker compose up -d`. The `./pgdata` bind mount persisted, so no data was lost.
+
+### 22.5 Restore confirmation
+
+Stack fully restored and healthy after recovery: Postgres healthy; normal traffic through nginx returns `HTTP 200` for vehicle (`/api/vehicles`), search (`/api/search/symptom` car path), and chat (`/api/chat/stream` returned `phase=chat, found=true, cases=4` for "Problemi iniezioni" + 8140.43S — matching §21.7's expected 4-doc result). The H1 `Program.cs` edits are intentionally **kept** (they are the fix, not scaffolding); only the forced-exception condition (stopped Postgres) was undone.
