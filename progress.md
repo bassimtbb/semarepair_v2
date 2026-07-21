@@ -3600,3 +3600,57 @@ The only two unguarded paths that remain are the `RepairOrchestrator` **formatti
 ### 22.5 Restore confirmation
 
 Stack fully restored and healthy after recovery: Postgres healthy; normal traffic through nginx returns `HTTP 200` for vehicle (`/api/vehicles`), search (`/api/search/symptom` car path), and chat (`/api/chat/stream` returned `phase=chat, found=true, cases=4` for "Problemi iniezioni" + 8140.43S — matching §21.7's expected 4-doc result). The H1 `Program.cs` edits are intentionally **kept** (they are the fix, not scaffolding); only the forced-exception condition (stopped Postgres) was undone.
+
+## 23. H2 — graceful fallback when the chat formatting Gemini call fails (2026-07-20)
+
+Code-review finding H2: in `RepairOrchestrator.HandleMessageAsync`, the **second** Gemini call of a turn — the formatting/prose call — was not wrapped in try/catch, unlike the routing call above it. `GenerateAsync` throws `HttpRequestException` on any non-2xx (see `GeminiChatClient`). So a Gemini 429/500 on the formatting call — which happens *after* routing succeeded and the search already ran — propagated out through the SSE `await foreach` in `ChatController`, breaking the stream and taking the structured `cases` (`causa`/`intervento`, already retrieved verbatim from Search Service) down with it, even though those cases never depended on the formatting call.
+
+### 23.1 The fix
+
+Wrapped the formatting call in try/catch (`services/chat/Services/RepairOrchestrator.cs`). The `yield return BuildChatResponse(...)` stays **outside** the try (C# forbids `yield` inside try/catch, and it doesn't need to be inside — `rawResult` with the cases is already in hand). On failure the turn degrades instead of throwing:
+
+- **Structured cases preserved** — `BuildChatResponse(rawResult, ...)` still emits them from `rawResult`; the document text is never touched and is **never** routed through any fallback LLM call, so the document-fidelity invariant holds.
+- **`message` set to a fixed per-language fallback** — new `FormattingFallbackMessage(language)` helper, mirroring the existing `ServiceUnavailableResponse` per-language switch. Deliberately a "here are the results" line (`"Ecco i risultati trovati."` / `"Here are the results I found."` / …) **not** the service-unavailable string, which would misread when results are actually being shown. (Rationale for adding a new string rather than reusing: the task's first-choice was a "here are the results" line; none existed; the service-unavailable string reads wrong in this scenario.)
+- **Logged** at `warn` level (`"Formatting call failed for session {SessionId}; …"`), like the boundary-tie log, for observability.
+- **SSE completes normally with HTTP 200**; no unhandled exception escapes.
+
+Routing determinism (§19) is a different call and was left untouched. Rule 1 (no document before car confirmation) is unaffected — the fallback only replaces prose; emission still runs through the same `BuildChatResponse` gate.
+
+### 23.2 Forced-failure method
+
+To force the formatting call to fail without waiting for a real Gemini outage, a **throwaway** mutation was added to `GeminiChatClient.GenerateAsync`: `if (operation == "formatting") throw new HttpRequestException(...)`. This is the most faithful simulation (the real non-2xx path throws exactly this type) and fails **only** the formatting call, leaving routing healthy. Built into the container, tested, then **reverted** (confirmed: `git diff` shows only `RepairOrchestrator.cs`; `GeminiChatClient.cs` byte-clean). Never committed.
+
+### 23.3 Verification (live, through nginx port 80)
+
+**(a) Graceful degradation — formatting call forced to fail**, query `Problemi iniezioni` + `codiceMotore=8140.43S`:
+
+```
+HTTP 200   Content-Type: text/event-stream
+phase=chat  found=True  cases=4
+message="Ecco i risultati trovati."      (Italian fallback, session language)
+log:  warn: RepairOrchestrator[0] Formatting call failed for session h2-forced-fail; returning structured result with fallback message
+```
+
+- `cases=4`, and `causa`/`intervento` **byte-identical** to a normal run (compared keyed by `idDocumento`: 199309715/199309732/199309871/199310191 — identical). Document text was not altered.
+- **No broken stream, no unhandled exception.**
+
+**(b) H1 chat-handler gap — now closed live.** The formatting call is chat-service's one genuinely unguarded path from outside (§22.3 could only prove chat's H1 handler by code-identity). With the failure forced, the chat log shows the exception logged at **`warn`** by `RepairOrchestrator` (the H2 catch) immediately followed by the request completing (`info: ControllerActionInvoker[105]`) — and **no** `"Unhandled exception in chat-service"` (the H1 global handler's message), **no** `fail:`-level line. So **H2 catches the failure *before* it reaches the global handler** — the desired outcome. Chat's failure behaviour on its real unguarded path is now demonstrated live, not inferred.
+
+**(c) Regression — normal path, mutation reverted, 3×** (same query):
+
+```
+run 1: HTTP 200 text/event-stream  phase=chat found=True cases=4
+run 2: HTTP 200 text/event-stream  phase=chat found=True cases=4
+run 3: HTTP 200 text/event-stream  phase=chat found=True cases=4
+formatting-failure warnings this container: 0
+```
+
+`cases=4` stable across all three; `causa`/`intervento` byte-identical to baseline every run. `message` is **null** on the healthy path — correct, because `BuildFormatting`'s own rule returns null when a found-docs result "speaks for itself." That null-vs-fallback contrast is itself confirmation the catch fires *only* on failure: healthy → `null`; failed → `"Ecco i risultati trovati."`.
+
+**(d) Clean tree / healthy stack.** `git diff` after revert shows only the intended `RepairOrchestrator.cs` H2 change; the throwaway mutation is gone; the full stack is up and serving 200s through nginx.
+
+### 23.4 Files changed
+
+| File | Change |
+|---|---|
+| `services/chat/Services/RepairOrchestrator.cs` | Formatting Gemini call wrapped in try/catch; on failure logs a warning, keeps the structured cases untouched, and substitutes the new `FormattingFallbackMessage(language)` per-language "here are the results" line. |

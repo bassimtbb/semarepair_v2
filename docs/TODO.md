@@ -46,10 +46,10 @@ using the app today could be misled or hit a dead end because of these.
 
 ### Chat Service
 
-- [ ] **chat-service H1 handler proven only by code-identity, not live** (see progress.md §22)
+- [x] **chat-service H1 handler proven only by code-identity, not live** — CLOSED via H2 (see progress.md §22–23)
   - Where: `services/chat/Program.cs` (the `UseExceptionHandler` block, added in H1)
   - Why it matters: the H1 global JSON exception handler was demonstrated live on *vehicle*-service (Postgres stopped → Npgsql throw → JSON 503), but chat-service could not be forced to throw an unhandled exception from outside because every request path is guarded — so chat's handler was verified only by being the byte-identical block, not by a real failure
-  - What's needed: confirm it live during H2 testing. H2 deliberately forces a formatting-call failure, and that formatting Gemini call IS chat's one genuinely unguarded path — so H2's forced-failure test either proves H2 catches it *before* the global handler (desired) or proves the global handler itself returns JSON. Either way, close this note once H2 is verified.
+  - Outcome: H2 testing forced chat's one genuinely unguarded path (the formatting Gemini call) to fail live. Result: **H2 catches it *before* the global handler** — the SSE stream completes with HTTP 200, structured cases preserved, exception logged at `warn` by `RepairOrchestrator`, and no `"Unhandled exception in chat-service"` line. Chat's failure behaviour is now demonstrated live, not inferred. (The global handler remains as a deeper safety net for any future unguarded path.)
 
 - [ ] **Real browser mic recording never tested against Gemini** (see §6.4, §9)
   - Where: `services/chat/Services/GeminiChatClient.cs` `TranscribeAsync`; `frontend/src/app/components/chat/chat-input/chat-input.component.ts`
