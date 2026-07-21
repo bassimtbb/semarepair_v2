@@ -51,6 +51,16 @@ using the app today could be misled or hit a dead end because of these.
   - Why it matters: the H1 global JSON exception handler was demonstrated live on *vehicle*-service (Postgres stopped → Npgsql throw → JSON 503), but chat-service could not be forced to throw an unhandled exception from outside because every request path is guarded — so chat's handler was verified only by being the byte-identical block, not by a real failure
   - Outcome: H2 testing forced chat's one genuinely unguarded path (the formatting Gemini call) to fail live. Result: **H2 catches it *before* the global handler** — the SSE stream completes with HTTP 200, structured cases preserved, exception logged at `warn` by `RepairOrchestrator`, and no `"Unhandled exception in chat-service"` line. Chat's failure behaviour is now demonstrated live, not inferred. (The global handler remains as a deeper safety net for any future unguarded path.)
 
+- [ ] **M7 one-bubble fix never verified in a real browser** (see progress.md §24.3)
+  - Where: `frontend/src/app/services/chat-store.service.ts` `send()` `onEvent`
+  - Why it matters: the M7 store reducer (first event appends the bubble, later events update it in place) was proven in isolation (Node, 2 simulated events → 1 bubble; old code → 2), but the full Angular-signal → DOM render with a real two-event stream was never exercised in a browser
+  - What's needed: manual check — open the app, trigger a two-event turn, confirm ONE bubble updates rather than two stacking. Low-risk but not verified. **Becomes REQUIRED (not optional) if `HandleMessageAsync` re-introduces an early "searching" confirmation yield** (see dormancy note below).
+
+- [ ] **H3/M7 are correct-but-dormant in the shipping path** (context, see progress.md §24)
+  - Where: `services/chat/Services/RepairOrchestrator.cs` `HandleMessageAsync`
+  - Why it matters: `HandleMessageAsync` currently single-yields per turn (the old confirmation-then-results double-yield was removed earlier), so H3's incremental streaming and M7's one-bubble fix are correct but nothing in production exercises them today. Not a bug — a latency note: the fixes are ready for when multi-yield returns.
+  - What's needed: no action now. If/when `HandleMessageAsync` re-introduces an early "searching" confirmation yield, the M7 real-browser check above becomes REQUIRED.
+
 - [ ] **Real browser mic recording never tested against Gemini** (see §6.4, §9)
   - Where: `services/chat/Services/GeminiChatClient.cs` `TranscribeAsync`; `frontend/src/app/components/chat/chat-input/chat-input.component.ts`
   - Why it matters: every mechanic using the mic button in a real browser produces `audio/webm` (standard `MediaRecorder` output), which is not in Gemini's documented supported format list — verified only with a synthetic WAV file; could silently fail or garble every real voice input
@@ -81,6 +91,11 @@ using the app today could be misled or hit a dead end because of these.
 ---
 
 ### Search Service
+
+- [ ] **[MEDIUM] `MatchSystemOrDeviceAsync` substring false-match narrows the wrong searches** (code-review L3, promoted LOW→MEDIUM; confirmed live)
+  - Where: `services/search/Services/GraphSearchService.cs` `MatchSystemOrDeviceAsync` (called from `SymptomSearchService`/`SearchController` symptom path)
+  - Why it matters: it matches a system/device by naive substring (`text.Contains(name)`), so a free-text symptom that merely mentions a device name as an incidental locative phrase wrongly narrows the candidate set to that device's documents. **No longer theoretical — hit live** while constructing the §5 boundary query: `"...accensione spia avaria motore sul quadro strumenti"` substring-matched the device **"Quadro strumenti"** and narrowed the search, even though the mechanic's real complaint was an engine-performance fault, not an instrument-cluster one. A mechanic phrasing a symptom with an incidental component name silently gets a narrowed/wrong result set.
+  - What's needed (future task, NOT this session): match on word boundaries / token overlap rather than raw substring, or only narrow when the device name is the grammatical subject; add a test with the "sul quadro strumenti" locative case.
 
 - [x] **`QueryEmbedder.EmbedAsync` has no error handling — raw 500 on any Gemini failure** (see §6.1 audit)
   - Where: `services/search/Services/QueryEmbedder.cs` lines 43–48
