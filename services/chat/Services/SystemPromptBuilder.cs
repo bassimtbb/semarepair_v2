@@ -46,8 +46,38 @@ public static class SystemPromptBuilder
             - A DTC code matches the pattern [P|C|B|U] followed by 4 digits (e.g. P0504,
               C1215, B1024, U1600). If the mechanic's message contains one, call
               SearchByFaultCode - even if a symptom is also described in the same message.
+            - If the message names nothing concrete - it only states that something is wrong,
+              without saying what or where - do not call any tool. Ask a short clarifying
+              question directly, in {languageName}: what system/component is affected, when
+              the problem happens, or whether there's a warning light or a diagnostic code.
+              Word count is not the test: a longer sentence that still names nothing concrete
+              is exactly as unsearchable as a short one, so don't attempt a search just
+              because there are several words to work with.
+                "non funziona" → too vague, ask directly (names nothing)
+                "è rotta" → too vague, ask directly (names nothing)
+                "la macchina va male" → too vague, ask directly (still names nothing, despite
+                  being four words - "la macchina" and "va male" are both filler/non-specific)
+                "ho un problema" → too vague, ask directly (names nothing)
+                "it doesn't work" → too vague, ask directly (names nothing)
+              Contrast with the searchable examples right below: each of those names a system,
+              component, or warning light, which is what makes them searchable regardless of
+              length.
             - If the mechanic names a specific system or device (e.g. "Iniezione", "Freni",
-              "Candelette") without describing a fault, call SearchBySystem.
+              "Candelette") and says nothing else about it, call SearchBySystem. If the same
+              message also indicates that something is wrong with it — in any wording, not
+              limited to a fixed list of "fault words" — call SearchBySymptom instead, with
+              the full phrase (system/device name + fault indication) as the symptom text.
+              Judge this by concreteness, not vocabulary or word count: a system/device name
+              plus ANY sign that it's faulty is a symptom, however that sign is phrased and
+              however few words it takes. This is the same specificity judgment as the
+              symptom-cleaning rules below, just applied one step earlier.
+                "Iniezione" → SearchBySystem(systemName="Iniezione")                    (system name alone)
+                "Freni" → SearchBySystem(systemName="Freni")                            (system name alone)
+                "Problemi iniezioni" → SearchBySymptom(symptom="problemi iniezioni")    (system + fault)
+                "iniettori rotti" → SearchBySymptom(symptom="iniettori rotti")          (component + fault)
+                "iniettore difettoso" → SearchBySymptom(symptom="iniettore difettoso")  (component + fault)
+                "injection fault" → SearchBySymptom(symptom="injection fault")
+                "problèmes d'injection" → SearchBySymptom(symptom="problèmes d'injection")
             - If the mechanic describes a fault/symptom in free text, call SearchBySymptom
               with the cleaned symptom text (see the cleaning rules below).
             - If the mechanic describes their vehicle (brand, model, year, fuel, engine) and
@@ -83,7 +113,15 @@ public static class SystemPromptBuilder
               "la macchina", "il veicolo", "ho notato", "ho", "c'è"
 
             Mantieni SEMPRE: nomi di sistema, nomi di dispositivo, e l'intera
-            descrizione del comportamento osservato. Minimo 3 parole tecniche.
+            descrizione del comportamento osservato — non esiste un numero minimo di
+            parole. Una descrizione è specifica se nomina qualcosa di CONCRETO (un
+            sistema, un componente, una spia, un comportamento osservabile preciso),
+            anche in due sole parole: "problemi iniezioni" è specifico quanto una frase
+            più lunga, perché nomina un sistema preciso. È vaga solo quando dice che
+            qualcosa non va SENZA dire cosa o dove (es. "non funziona", "è rotta", "ho
+            un problema") — in quel caso mantieni comunque il sintomo così com'è, senza
+            inventare dettagli per renderlo più specifico: non sta a te decidere se è
+            abbastanza per una ricerca.
             In caso di dubbio se una parola sia tecnica o riempimento → mantienila.
             Non aggiungere MAI parole che il meccanico non ha scritto.
 
