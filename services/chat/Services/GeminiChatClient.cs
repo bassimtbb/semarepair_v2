@@ -34,21 +34,28 @@ public class GeminiChatClient
         _usageLogger = usageLogger;
     }
 
-    // tools is omitted entirely (not sent as an empty array) when null/empty,
-    // and jsonMode is the only generationConfig knob exposed - matches the
-    // two distinct call shapes the orchestrator needs: a tool-routing call
-    // (tools set, no JSON mode) and a formatting call (JSON mode, no tools).
-    // operation/sessionId carry no request behavior - they only label the
-    // usage row this call produces (docs/log-dashboard.md section 1.1), so
-    // the dashboard can tell a routing call's cost from a formatting
-    // call's, and tie both back to one mechanic's conversation.
+    // tools is omitted entirely (not sent as an empty array) when null/empty.
+    // temperature=0 + thinkingBudget=0 on the routing call: tool selection and
+    // symptom cleaning require no creativity. temperature=0 alone is not
+    // sufficient for gemini-2.5-flash because the thinking tokens are sampled
+    // independently of the output temperature - the thinking chain can still
+    // vary and sometimes picks "ask for clarification" instead of calling a
+    // tool. Disabling thinking (thinkingBudget=0) removes that source of
+    // non-determinism and makes routing fully greedy. The formatting call
+    // does NOT get these settings - it generates conversational prose where
+    // slight variation is harmless and thinking helps quality.
+    // temperature=null / disableThinking=false omits those fields, using the
+    // model defaults. operation/sessionId carry no request behavior - they
+    // only label the usage row (docs/log-dashboard.md section 1.1).
     public async Task<GeminiTurn> GenerateAsync(
         IReadOnlyList<GeminiContent> contents,
         IReadOnlyList<GeminiFunctionDeclaration>? tools = null,
         string? systemInstruction = null,
         bool jsonMode = false,
         string operation = "unspecified",
-        string? sessionId = null)
+        string? sessionId = null,
+        float? temperature = null,
+        bool disableThinking = false)
     {
         using var request = new HttpRequestMessage(
             HttpMethod.Post,
@@ -62,7 +69,14 @@ public class GeminiChatClient
             SystemInstruction = systemInstruction is null
                 ? null
                 : new GeminiContent { Parts = [GeminiPart.OfText(systemInstruction)] },
-            GenerationConfig = jsonMode ? new GenerationConfig { ResponseMimeType = "application/json" } : null,
+            GenerationConfig = (jsonMode || temperature.HasValue || disableThinking)
+                ? new GenerationConfig
+                    {
+                        ResponseMimeType = jsonMode ? "application/json" : null,
+                        Temperature = temperature,
+                        ThinkingConfig = disableThinking ? new ThinkingConfig { ThinkingBudget = 0 } : null,
+                    }
+                : null,
         };
         request.Content = JsonContent.Create(body, options: JsonOptions);
 
@@ -143,6 +157,13 @@ public class GeminiChatClient
     private class GenerationConfig
     {
         [JsonPropertyName("responseMimeType")] public string? ResponseMimeType { get; set; }
+        [JsonPropertyName("temperature")] public float? Temperature { get; set; }
+        [JsonPropertyName("thinkingConfig")] public ThinkingConfig? ThinkingConfig { get; set; }
+    }
+
+    private class ThinkingConfig
+    {
+        [JsonPropertyName("thinkingBudget")] public int ThinkingBudget { get; set; }
     }
 
     private class GenerateContentResponse

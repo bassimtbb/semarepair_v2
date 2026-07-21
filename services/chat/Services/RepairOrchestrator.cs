@@ -85,7 +85,9 @@ public class RepairOrchestrator
                 tools: ToolDefinitions.All,
                 systemInstruction: SystemPromptBuilder.BuildRouting(request.Language),
                 operation: "routing",
-                sessionId: request.SessionId);
+                sessionId: request.SessionId,
+                temperature: 0,
+                disableThinking: true);
         }
         catch (Exception)
         {
