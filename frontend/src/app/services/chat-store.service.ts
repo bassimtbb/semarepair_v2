@@ -180,6 +180,15 @@ export class ChatStore {
       this.messages.update(msgs => [...msgs, { id: generateId(), role: 'user', text }]);
     }
 
+    // One turn = one api.stream call, so all events in this callback belong
+    // to the same assistant reply. M7: the first event of the turn creates the
+    // bubble; every later event (once the stream actually yields more than
+    // once - see H3) UPDATES that same bubble in place instead of appending a
+    // new one. Without this, a two-yield turn (e.g. a "searching..."
+    // confirmation followed by the results) stacked duplicate bubbles. The id
+    // is generated frontend-side and is sufficient to key on; the backend
+    // needs no turn identifier.
+    let assistantMessageId: string | null = null;
     try {
       await this.api.stream(
         {
@@ -195,16 +204,37 @@ export class ChatStore {
           if (carBeingConfirmed) {
             this.confirmedCar.set(carBeingConfirmed);
           }
-          this.messages.update(msgs => [
-            ...msgs,
-            {
-              id: generateId(),
-              role: 'assistant',
-              text: event.message,
-              carMatches: event.carMatches,
-              cases: event.cases,
-            },
-          ]);
+          if (assistantMessageId === null) {
+            assistantMessageId = generateId();
+            const id = assistantMessageId;
+            this.messages.update(msgs => [
+              ...msgs,
+              {
+                id,
+                role: 'assistant',
+                text: event.message,
+                carMatches: event.carMatches,
+                cases: event.cases,
+              },
+            ]);
+          } else {
+            const id = assistantMessageId;
+            this.messages.update(msgs =>
+              msgs.map(m =>
+                m.id === id
+                  ? {
+                      ...m,
+                      text: event.message,
+                      carMatches: event.carMatches,
+                      cases: event.cases,
+                      // A fresh final result for this turn is not expanded;
+                      // drop any stale expansion from an earlier event.
+                      selectedCaseIndex: null,
+                    }
+                  : m,
+              ),
+            );
+          }
         },
       );
     } catch (err) {

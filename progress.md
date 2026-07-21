@@ -3654,3 +3654,65 @@ formatting-failure warnings this container: 0
 | File | Change |
 |---|---|
 | `services/chat/Services/RepairOrchestrator.cs` | Formatting Gemini call wrapped in try/catch; on failure logs a warning, keeps the structured cases untouched, and substitutes the new `FormattingFallbackMessage(language)` per-language "here are the results" line. |
+
+## 24. H4 (nginx per-request DNS) + H3/M7 (SSE streams incrementally, one bubble per turn) (2026-07-20)
+
+Three code-review findings from the same area, committed as two units: H4 on its own (infra), then H3+M7 together (they fix one user-facing behaviour — incremental streaming — and are coupled: H3 makes the stream actually yield incrementally, which is exactly what arms M7's dormant duplicate-bubble bug).
+
+### 24.1 H4 — nginx cached backend IPs → 502 after any container recreate
+
+`nginx.conf` used static `proxy_pass http://<service>:<port>;`. nginx resolves those hostnames once at startup and caches the IPs, so a recreated backend (new IP) returned 502 until nginx itself was restarted — the 502-restart tax hit on every rebuild loop in prior sessions.
+
+**Fix** (`nginx/nginx.conf`): `resolver 127.0.0.11 valid=10s;` (Docker's embedded DNS) + variable `proxy_pass $upstream_x$request_uri;` on every route. A variable in `proxy_pass` forces per-request re-resolution; `$request_uri` is appended explicitly because a variable `proxy_pass` no longer auto-forwards the URI (omitting it would silently route everything to `/`). The `$upstream_*`/`$request_uri` nginx vars survive the image's envsubst step (it only substitutes defined env vars like `${USAGE_DASHBOARD_KEY}` — the pre-existing `$http_x_usage_key` already relied on this).
+
+**Verified live:** recreated all three backends; search-service and vehicle-service **swapped IPs** (.4↔.5). With nginx **not** restarted, every route returned the correct backend: `/api/vehicles`→34 cars, `/api/search`→`resultType=document count=4`, `/api/chat`→cases=4, `/api/usage`→403. No 502, no cross-wiring. The old static config would have 502'd or mis-routed. Committed as `fix(infra): nginx per-request DNS resolution … (H4)`.
+
+### 24.2 H3 — nginx buffered the whole SSE stream
+
+The chat-stream route had no `proxy_buffering off;` and `ChatController.Stream` set no `X-Accel-Buffering` header, so nginx buffered the entire `text/event-stream` body and released it at once — the intended "flush a fast confirmation event before the slow search" design never reached the browser incrementally.
+
+**Fix** (both layers): `nginx/nginx.conf` chat route gets `proxy_buffering off; gzip off; proxy_read_timeout 300s;`; `ChatController.Stream` sets `Response.Headers["X-Accel-Buffering"] = "no"` (belt-and-suspenders — the header disables buffering for this specific response regardless of location config).
+
+**Verified live at the transport layer, through nginx (port 80).** To get a two-event turn, a throwaway mutation gated on `sessionId.Contains("FORCEYIELD")` (so Gemini routing, which only sees the message, stayed clean and the real result still returned cases=4) yielded an early "Sto cercando..." event before the slow work. Per-event arrival times, timestamped from request start:
+
+```
++0.254s   cases=0   message='Sto cercando...'
++4.189s   cases=4   message=''
+gap first→last event: 3.934s
+```
+
+The first event landed **~3.9s before** the second while the stream was held open. If nginx were buffering, both would have arrived together at +4.2s; the early first event rules that out definitively. (Pre-fix, with neither `proxy_buffering off` nor `X-Accel-Buffering`, nginx's default `proxy_buffering on` batches the stream.) Confirmed chat-service emits `X-Accel-Buffering: no` on a direct `:5000` hit; the client sees it as absent through nginx because nginx consumes and strips that directive header — expected.
+
+### 24.3 M7 — frontend appended a new bubble per SSE event
+
+`ChatStore.send()`'s `onEvent` handler appended a **new** assistant message on every SSE event. Dormant while the backend single-yields (one event = one bubble), but the instant the stream yields twice (which H3 enables), the user gets duplicate stacked bubbles.
+
+**Fix** (`frontend/src/app/services/chat-store.service.ts`): a turn = one `api.stream` call, so all its events share one assistant reply. The handler now generates one assistant-message id per turn: the first event **appends** the bubble; subsequent events **update it in place** by id (replacing text/carMatches/cases with the latest event, clearing any stale expansion). No backend turn-id was needed — the frontend already knows the turn boundary, so this is a pure frontend change.
+
+**Verified — store reducer logic.** No browser automation is available in this environment (no host node/Playwright), so the reducer was proven directly: the exact append-vs-update-in-place branch, run in Node (via a `node:alpine` container) against two simulated events:
+
+```
+multi-yield turn : bubbles=1  cases-in-bubble=4  final-text=""
+single-yield turn: bubbles=1  cases-in-bubble=4
+PASS: exactly one bubble per turn; final results preserved
+OLD code, multi-yield turn: bubbles=2   (the M7 bug, for contrast)
+```
+
+The new reducer collapses a two-event turn to **one** bubble carrying the final results; the old append-per-event code produced **two**. **Remaining manual check (stated honestly):** the reducer logic is proven, but the full Angular-signal + DOM render in a real browser was not exercised here — driving the live UI with a forced two-event turn and eyeballing a single rendered bubble is a remaining manual step. The backend half is already confirmed live (the FORCEYIELD capture in §24.2 shows the real stream now delivers two events).
+
+### 24.4 Regression, fidelity, Rule 1
+
+Throwaway mutation reverted (`git diff` clean of it; `RepairOrchestrator.cs` byte-matches its committed state), chat-service rebuilt clean, then a normal turn ("Problemi iniezioni" + `codiceMotore=8140.43S`) through nginx:
+
+- **Single-yield:** exactly **1 event**, cases=4, HTTP 200, `text/event-stream`.
+- **Fidelity:** `causa`/`intervento` **byte-identical** to the §23 baseline (keyed by idDocumento). Document text untouched — H3/M7 change only transport/rendering.
+- **Rule 1:** structurally unaffected — H3/M7 don't touch `BuildChatResponse`'s car-confirmation emission gate; documents were emitted here only because a car was confirmed.
+- **H4 bonus:** chat was reachable through nginx immediately after the chat-service recreate with no nginx restart — H4 working across a real recreate.
+
+### 24.5 Files changed
+
+| File | Change |
+|---|---|
+| `nginx/nginx.conf` | H4 (committed separately): resolver + variable `proxy_pass`. H3: `proxy_buffering off; gzip off; proxy_read_timeout 300s;` on the chat route. |
+| `services/chat/Controllers/ChatController.cs` | H3: `X-Accel-Buffering: no` on the stream response. |
+| `frontend/src/app/services/chat-store.service.ts` | M7: one assistant-message id per turn; first event appends, later events update in place instead of appending. |

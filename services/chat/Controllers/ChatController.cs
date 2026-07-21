@@ -44,6 +44,12 @@ public class ChatController : ControllerBase
     {
         Response.ContentType = "text/event-stream";
         Response.Headers.CacheControl = "no-cache";
+        // Belt-and-suspenders with nginx's `proxy_buffering off` on this route
+        // (H3): this response-level header tells nginx (and any other reverse
+        // proxy) not to buffer THIS stream specifically, so the per-event
+        // FlushAsync calls below actually reach the browser incrementally
+        // rather than being batched and released at the end.
+        Response.Headers["X-Accel-Buffering"] = "no";
 
         await foreach (var chunk in _orchestrator.HandleMessageAsync(request).WithCancellation(cancellationToken))
         {
