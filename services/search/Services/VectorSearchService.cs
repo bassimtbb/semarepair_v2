@@ -38,7 +38,7 @@ public class VectorSearchService
             SELECT id_documento, embedding <=> @vec::vector AS dist
             FROM document_embeddings
             WHERE language = @lang AND id_documento = ANY(@candidateIds)
-            ORDER BY dist
+            ORDER BY dist, id_documento
             """, conn);
         cmd.Parameters.AddWithValue("vec", vectorLiteral);
         cmd.Parameters.AddWithValue("lang", language);

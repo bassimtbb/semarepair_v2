@@ -11,13 +11,21 @@ namespace SearchService.Services;
 // correct match and the next candidate.
 public class SymptomSearchService
 {
+    // Tolerance for comparing a distance already round-tripped through C#
+    // against one PostgreSQL computes fresh in the tie re-query - exact
+    // equality between the two is fragile and would silently return zero
+    // rows (and re-drop the tied document) on any rounding mismatch.
+    private const double DistanceEpsilon = 1e-9;
+
     private readonly string _connectionString;
     private readonly QueryEmbedder _embedder;
+    private readonly ILogger<SymptomSearchService> _logger;
 
-    public SymptomSearchService(IConfiguration configuration, QueryEmbedder embedder)
+    public SymptomSearchService(IConfiguration configuration, QueryEmbedder embedder, ILogger<SymptomSearchService> logger)
     {
         _connectionString = configuration["OUR_DB"] ?? "";
         _embedder = embedder;
+        _logger = logger;
     }
 
     // Ranks every document in symptom_embeddings for this language by
@@ -41,12 +49,54 @@ public class SymptomSearchService
 
         await using var conn = new NpgsqlConnection(_connectionString);
         await conn.OpenAsync();
+
+        // Fetch one row past the limit - it's the cheapest way to tell
+        // whether the cutoff falls in the middle of a tie. Two documents
+        // with the exact same distance sit right at the boundary as often
+        // as not (duplicate symptom text, near-duplicate documents), and
+        // without this probe row LIMIT would silently keep one and drop
+        // the other based on nothing but id_documento ordering.
+        var results = await QueryRankedAsync(conn, vectorLiteral, language, candidateIds, limit + 1);
+
+        if (results.Count <= limit)
+            return results;
+
+        var cutoffDist = results[limit - 1].Distance;
+        if (results[limit].Distance > cutoffDist + DistanceEpsilon)
+        {
+            results.RemoveAt(limit);
+            return results;
+        }
+
+        // Boundary tie: the row just past the limit shares the cutoff
+        // distance, so more documents are tied there than this LIMIT
+        // window can show us. Re-query with no LIMIT for every document at
+        // or under the cutoff instead of silently truncating the tie.
+        var tied = await QueryTiedAsync(conn, vectorLiteral, language, candidateIds, cutoffDist);
+        _logger.LogInformation(
+            "Boundary tie detected at distance {Dist}; re-query returned {Count} tied documents",
+            cutoffDist, tied.Count);
+
+        var merged = results.Where(r => r.Distance < cutoffDist - DistanceEpsilon).ToList();
+        merged.AddRange(tied);
+        return merged
+            .GroupBy(r => r.IdDocumento)
+            .Select(g => g.First())
+            .OrderBy(r => r.Distance)
+            .ThenBy(r => r.IdDocumento, StringComparer.Ordinal)
+            .ToList();
+    }
+
+    private static async Task<List<(string IdDocumento, double Distance)>> QueryRankedAsync(
+        NpgsqlConnection conn, string vectorLiteral, string language,
+        IReadOnlyCollection<string>? candidateIds, int limit)
+    {
         await using var cmd = new NpgsqlCommand($"""
             SELECT id_documento, embedding <=> @vec::vector AS dist
             FROM symptom_embeddings
             WHERE language = @lang
               {(candidateIds is null ? "" : "AND id_documento = ANY(@candidateIds)")}
-            ORDER BY dist
+            ORDER BY dist, id_documento
             LIMIT @limit
             """, conn);
         cmd.Parameters.AddWithValue("vec", vectorLiteral);
@@ -55,6 +105,34 @@ public class SymptomSearchService
         if (candidateIds is not null)
             cmd.Parameters.AddWithValue("candidateIds", candidateIds.ToArray());
 
+        return await ReadResultsAsync(cmd);
+    }
+
+    // No LIMIT - the whole point is to never truncate a tie, however wide
+    // it turns out to be.
+    private static async Task<List<(string IdDocumento, double Distance)>> QueryTiedAsync(
+        NpgsqlConnection conn, string vectorLiteral, string language,
+        IReadOnlyCollection<string>? candidateIds, double cutoffDist)
+    {
+        await using var cmd = new NpgsqlCommand($"""
+            SELECT id_documento, embedding <=> @vec::vector AS dist
+            FROM symptom_embeddings
+            WHERE language = @lang
+              AND embedding <=> @vec::vector <= @cutoffDist + 1e-9
+              {(candidateIds is null ? "" : "AND id_documento = ANY(@candidateIds)")}
+            ORDER BY dist, id_documento
+            """, conn);
+        cmd.Parameters.AddWithValue("vec", vectorLiteral);
+        cmd.Parameters.AddWithValue("lang", language);
+        cmd.Parameters.AddWithValue("cutoffDist", cutoffDist);
+        if (candidateIds is not null)
+            cmd.Parameters.AddWithValue("candidateIds", candidateIds.ToArray());
+
+        return await ReadResultsAsync(cmd);
+    }
+
+    private static async Task<List<(string IdDocumento, double Distance)>> ReadResultsAsync(NpgsqlCommand cmd)
+    {
         var results = new List<(string, double)>();
         await using var reader = await cmd.ExecuteReaderAsync();
         while (await reader.ReadAsync())
