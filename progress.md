@@ -3890,3 +3890,47 @@ dotnet test tests/SemaRepair.IntegrationTests --filter "Category!=Slow"   # fast
 | `tests/SemaRepair.IntegrationTests/BoundaryTieTests.cs` | §5 boundary-tie regression. |
 | `tests/SemaRepair.IntegrationTests/Rule1GateTests.cs` | M1 / Rule 1 no-document-without-car gate. |
 | `tests/SemaRepair.IntegrationTests/RoutingDeterminismTests.cs` | Routing determinism (5× SearchBySymptom), Slow-tagged. |
+
+## 28. L3 — don't narrow on an incidental device mention (subject vs locative) (2026-07-21)
+
+Code-review finding L3 (promoted LOW→MEDIUM in §TODO after being hit live during §5). `GraphSearchService.MatchSystemOrDeviceAsync` decided whether to narrow a no-car symptom search to a system/device's documents by **raw case-insensitive substring** (`text.Contains(name)`, longest match wins). So a device named only as a *location* wrongly narrowed the whole search.
+
+### 28.1 Diagnosis (reproduced live before editing)
+
+- **How it matched:** substring; "narrowing" = `SymptomWithoutCarAsync` restricts the vector search to `GetDocumentsForKeywordAsync(match)` (that device's docs only). Also used by the Type-3 Rule 8 path.
+- **False-match, confirmed live:** "accensione spia avaria motore sul quadro strumenti" substring-matched device **"Quadro strumenti"** → narrowed to its 4 instrument-cluster docs → car_selection of **24 cars**, vs the broad engine-fault result of **9** different cars. The mechanic's fault is an engine-performance fault; "sul quadro strumenti" (on the instrument cluster) is just where the light is.
+- **Legit case that had to keep working:** "problema al quadro strumenti" → substring-matched "Quadro strumenti" and narrowed (36 cars) — correct, the cluster IS the subject.
+- **Not affected:** plain system queries ("Iniezione"/"Freni") go through the System endpoint (`GetCarIdsForKeywordAsync`), not `MatchSystemOrDeviceAsync`; via the symptom endpoint they're TooVague (1 word) before narrowing. So the System path can't be regressed by this fix.
+
+### 28.2 Fix (search layer, `GraphSearchService.MatchSystemOrDeviceAsync`)
+
+**Locative-preposition guard, scoped to Italian.** The device name is matched as a whole-word contiguous token sequence, and an occurrence is **rejected when the token immediately before it is an Italian locative preposition** (`su`/`in` families: sul, sullo, sulla, sull('), sui, sugli, sulle, nel, nella, …, plus sopra/sotto/dietro/presso). Subject prepositions (`al`, `del`, `con`) and subject position (start of phrase) fall through and still narrow.
+- *Why not word-boundary alone:* "sul quadro strumenti" contains the whole words "quadro strumenti", so word boundaries don't fix it — the locative guard is the operative part (whole-word tokens are a free extra that also avoids substring-inside-a-word matches).
+- Added an `ILogger<GraphSearchService>` and a narrowing-decision log line ("narrowed to system/device 'X'" / "not narrowed …") — the narrowing was previously **silent**; this makes it observable in production and is the faithful surface the regression test asserts on.
+
+**Residual risk (documented, deliberate):**
+1. **Other languages keep the substring match.** Cross-language preposition ambiguity makes a universal guard unsafe — e.g. Spanish "en" / French "au" can be subject-indicating in one construction and locative in another, so guarding them could break legitimate non-Italian narrowing. Non-Italian retains today's behaviour (bug unfixed there, but no regression). The base data and the reported bug are Italian.
+2. **Even in Italian**, a purely lexical rule can't separate subject from locative in every phrasing; the su/in-family guard covers the common and reported cases. An unusual locative construction outside the list would still narrow.
+
+### 28.3 Verification (live through nginx)
+
+| Query | Before | After | Log |
+|---|---|---|---|
+| "accensione spia avaria motore **sul** quadro strumenti" (incidental) | narrowed → 24 cars | **broad → 6 cars** | "not narrowed - no system/device subject" |
+| "problema **al** quadro strumenti" (subject) | narrowed → 36 | narrowed → 36 | "narrowed to system/device 'Quadro strumenti'" |
+| "quadro strumenti non funziona" (subject at start) | narrowed | narrowed → 24 | "narrowed to system/device 'Quadro strumenti'" |
+
+### 28.4 Regression test + red→green proof
+
+Added `tests/SemaRepair.IntegrationTests/SystemDeviceMatchTests.cs`, guarding **both directions** on the narrowing log line (query-specific assertions so concurrent log noise can't skew them):
+- `IncidentalDeviceMention_DoesNotNarrow` — the incidental query must NOT narrow to Quadro strumenti.
+- `GenuineDeviceSubject_StillNarrows` — the subject query must still narrow (catches over-correction).
+
+**Red→green (mandatory):** temporarily reverted the predicate to the old substring match (keeping the log). `IncidentalDeviceMention_DoesNotNarrow` went **RED** for the right reason — *"an incidental locative mention narrowed the search to the instrument cluster"* — while the request still returned HTTP 200 (fix-specific failure, not a crash). This proves the negative assertion is non-vacuous. `GenuineDeviceSubject_StillNarrows` stayed green under the revert (correct — it guards the legit direction, which the revert doesn't change). Restored the fix → both green; the throwaway revert was never committed (no `TEMP-REDPROOF` markers). **All 5 harness tests pass** (the 3 existing + 2 new), so the boundary-tie test that exercises the same search layer did not regress.
+
+### 28.5 Files
+
+| File | Change |
+|---|---|
+| `services/search/Services/GraphSearchService.cs` | `MatchSystemOrDeviceAsync` narrows only on a device SUBJECT (Italian locative-preposition guard + whole-word tokens); other languages unchanged. Added `ILogger` + narrowing-decision log line. |
+| `tests/SemaRepair.IntegrationTests/SystemDeviceMatchTests.cs` | New both-direction regression test (incidental doesn't narrow / subject still narrows), red-proved. |

@@ -9,11 +9,26 @@ namespace SearchService.Services;
 public class GraphSearchService
 {
     private readonly string _connectionString;
+    private readonly ILogger<GraphSearchService> _logger;
 
-    public GraphSearchService(IConfiguration configuration)
+    public GraphSearchService(IConfiguration configuration, ILogger<GraphSearchService> logger)
     {
         _connectionString = configuration["OUR_DB"] ?? "";
+        _logger = logger;
     }
+
+    // Italian locative prepositions (su-/in- families). When a system/device
+    // name is immediately preceded by one of these, the name is describing
+    // WHERE something appears ("...sul quadro strumenti") rather than being the
+    // subject of the fault - so it must NOT narrow the search. Subject
+    // prepositions ("al", "del", "con") and subject position (start of the
+    // phrase) deliberately fall through and DO narrow.
+    private static readonly HashSet<string> ItalianLocativePrepositions = new(StringComparer.OrdinalIgnoreCase)
+    {
+        "su", "sul", "sullo", "sulla", "sull", "sui", "sugli", "sulle",
+        "in", "nel", "nello", "nella", "nell", "nei", "negli", "nelle",
+        "sopra", "sotto", "dietro", "presso",
+    };
 
     private NpgsqlConnection Connect() => new(_connectionString);
 
@@ -162,8 +177,17 @@ public class GraphSearchService
     }
 
     // Search Type 4 step 2: does any System/Device name appear in the
-    // cleaned symptom text? Returns the longest match (prefer specific over
-    // generic when more than one name matches), or null if none do.
+    // cleaned symptom text AS ITS SUBJECT? Returns the longest such match
+    // (prefer specific over generic), or null if none do. Narrowing the
+    // vector search to a matched device's documents is only correct when the
+    // device is what the fault is ABOUT - a device named incidentally as a
+    // location ("...la spia sul quadro strumenti") must not narrow, or an
+    // engine fault silently gets restricted to instrument-cluster documents
+    // (L3, confirmed live). For Italian this is done by rejecting a match
+    // that is immediately preceded by a locative preposition; for other
+    // languages the original whole-substring match is kept (cross-language
+    // preposition ambiguity makes a universal guard unsafe - see progress.md
+    // §28 for the residual risk).
     public async Task<string?> MatchSystemOrDeviceAsync(string text, string language)
     {
         await using var conn = Connect();
@@ -175,10 +199,63 @@ public class GraphSearchService
         cmd.Parameters.AddWithValue("lang", language);
         var names = await ReadStringColumnAsync(cmd);
 
-        return names
-            .Where(name => text.Contains(name, StringComparison.OrdinalIgnoreCase))
+        var isItalian = string.Equals(language, "it", StringComparison.OrdinalIgnoreCase);
+        var textTokens = isItalian ? Tokenize(text) : null;
+
+        var match = names
+            .Where(name => isItalian
+                ? AppearsAsSubject(textTokens!, name)
+                : text.Contains(name, StringComparison.OrdinalIgnoreCase))
             .OrderByDescending(name => name.Length)
             .FirstOrDefault();
+
+        if (match is not null)
+            _logger.LogInformation("Symptom search narrowed to system/device '{Match}' (query: '{Text}')", match, text);
+        else
+            _logger.LogInformation("Symptom search not narrowed - no system/device subject in '{Text}'", text);
+
+        return match;
+    }
+
+    // True if `name` occurs in the tokenized text as a whole-word contiguous
+    // sequence in a SUBJECT position - i.e. at least one occurrence is not
+    // immediately preceded by a locative preposition. Whole-word tokens also
+    // avoid substring-inside-a-word false matches.
+    private static bool AppearsAsSubject(IReadOnlyList<string> textTokens, string name)
+    {
+        var nameTokens = Tokenize(name);
+        if (nameTokens.Count == 0) return false;
+
+        for (var p = 0; p + nameTokens.Count <= textTokens.Count; p++)
+        {
+            var matches = true;
+            for (var k = 0; k < nameTokens.Count; k++)
+                if (textTokens[p + k] != nameTokens[k]) { matches = false; break; }
+            if (!matches) continue;
+
+            // Occurrence found: subject unless the token right before it is a
+            // locative preposition. Position 0 (no preceding word) is subject.
+            if (p == 0 || !ItalianLocativePrepositions.Contains(textTokens[p - 1]))
+                return true;
+            // Otherwise this occurrence is incidental (locative); keep scanning
+            // for a non-locative occurrence of the same name.
+        }
+        return false;
+    }
+
+    // Lowercased alphanumeric word tokens; every other character is a
+    // separator. Applied to both the text and the name so they align.
+    private static List<string> Tokenize(string s)
+    {
+        var tokens = new List<string>();
+        var sb = new System.Text.StringBuilder();
+        foreach (var c in s)
+        {
+            if (char.IsLetterOrDigit(c)) sb.Append(char.ToLowerInvariant(c));
+            else if (sb.Length > 0) { tokens.Add(sb.ToString()); sb.Clear(); }
+        }
+        if (sb.Length > 0) tokens.Add(sb.ToString());
+        return tokens;
     }
 
     // Extracts the cars a matched document applies to, for a car_selection response.

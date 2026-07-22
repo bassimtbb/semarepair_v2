@@ -92,10 +92,11 @@ using the app today could be misled or hit a dead end because of these.
 
 ### Search Service
 
-- [ ] **[MEDIUM] `MatchSystemOrDeviceAsync` substring false-match narrows the wrong searches** (code-review L3, promoted LOW→MEDIUM; confirmed live)
-  - Where: `services/search/Services/GraphSearchService.cs` `MatchSystemOrDeviceAsync` (called from `SymptomSearchService`/`SearchController` symptom path)
-  - Why it matters: it matches a system/device by naive substring (`text.Contains(name)`), so a free-text symptom that merely mentions a device name as an incidental locative phrase wrongly narrows the candidate set to that device's documents. **No longer theoretical — hit live** while constructing the §5 boundary query: `"...accensione spia avaria motore sul quadro strumenti"` substring-matched the device **"Quadro strumenti"** and narrowed the search, even though the mechanic's real complaint was an engine-performance fault, not an instrument-cluster one. A mechanic phrasing a symptom with an incidental component name silently gets a narrowed/wrong result set.
-  - What's needed (future task, NOT this session): match on word boundaries / token overlap rather than raw substring, or only narrow when the device name is the grammatical subject; add a test with the "sul quadro strumenti" locative case.
+- [x] **[MEDIUM] `MatchSystemOrDeviceAsync` substring false-match narrows the wrong searches** — FIXED + regression test (code-review L3; see progress.md §28)
+  - Where: `services/search/Services/GraphSearchService.cs` `MatchSystemOrDeviceAsync`
+  - Was: matched a system/device by naive substring, so an incidental locative mention ("...spia avaria motore **sul** quadro strumenti") wrongly narrowed an engine-fault search to instrument-cluster documents (hit live during §5).
+  - Fix: narrows only when the device is the grammatical SUBJECT — Italian locative-preposition guard (`sul/nel/...`) + whole-word tokens; subject prepositions (`al/del/con`) and subject position still narrow. Added a narrowing-decision log line. Both-direction regression test in `SystemDeviceMatchTests.cs`, red-proved.
+  - Residual (documented in §28): scoped to Italian — other languages keep the substring behaviour (cross-language preposition ambiguity makes a universal guard unsafe). A follow-up could extend per-language locative sets if a non-Italian repro appears.
 
 - [x] **`QueryEmbedder.EmbedAsync` has no error handling — raw 500 on any Gemini failure** (see §6.1 audit)
   - Where: `services/search/Services/QueryEmbedder.cs` lines 43–48
