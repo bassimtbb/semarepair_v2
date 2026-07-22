@@ -24,6 +24,23 @@ public class VehicleSearchService
         FROM gup_rows
         """;
 
+    // Shared filter on marca/modello/alimentazione/motorizzazione/codiceMotore/kw.
+    // motorizzazione is matched token-by-token (see @motorizzazioneTokens below),
+    // not as one literal substring - the year clauses are appended per-query
+    // since the year-suggestion query deliberately omits them.
+    private const string CommonWhere = """
+        WHERE (@marca::text IS NULL OR marca_macchina ILIKE @marca)
+          AND (@modello::text IS NULL OR modello_macchina ILIKE @modello)
+          AND (@alimentazione::text IS NULL OR alimentazione_macchina ILIKE @alimentazione)
+          AND (@motorizzazioneTokens::text[] IS NULL
+               OR NOT EXISTS (
+                    SELECT 1 FROM unnest(@motorizzazioneTokens) AS tok
+                    WHERE motorizzazione_macchina IS NULL
+                       OR motorizzazione_macchina NOT ILIKE '%' || tok || '%'))
+          AND (@codiceMotore::text IS NULL OR codice_motore_macchina = @codiceMotore)
+          AND (@kw::int IS NULL OR kw_macchina = @kw)
+        """;
+
     // gup_rows is one row per (car, document) pair, so every query here needs
     // DISTINCT to avoid returning the same car once per linked document - see
     // the same bug fixed in GraphSearchService.
@@ -31,40 +48,29 @@ public class VehicleSearchService
     {
         await using var conn = Connect();
         await conn.OpenAsync();
-        await using var cmd = new NpgsqlCommand($"""
-            {SelectColumns}
-            WHERE (@marca::text IS NULL OR marca_macchina ILIKE @marca)
-              AND (@modello::text IS NULL OR modello_macchina ILIKE @modello)
-              AND (@alimentazione::text IS NULL OR alimentazione_macchina ILIKE @alimentazione)
-              AND (@motorizzazione::text IS NULL OR motorizzazione_macchina ILIKE @motorizzazione)
-              AND (@codiceMotore::text IS NULL OR codice_motore_macchina = @codiceMotore)
-              AND (@kw::int IS NULL OR kw_macchina = @kw)
-              AND (@annoInizio::int IS NULL OR anno_fine_macchina IS NULL OR anno_fine_macchina >= @annoInizio)
-              AND (@annoFine::int IS NULL OR anno_inizio_macchina IS NULL OR anno_inizio_macchina <= @annoFine)
-            """, conn);
-        cmd.Parameters.AddWithValue("marca", query.Marca ?? (object)DBNull.Value);
-        // Wrapped in wildcards (unlike marca/alimentazione, which rely on the caller
-        // passing the exact brand/fuel text) - real bug found via a real query
-        // ("ho un iveco daily con motore 8140.43S"): the mechanic naturally says
-        // "Daily", but gup_rows stores "Daily III", and an exact ILIKE match
-        // returned zero rows despite codiceMotore alone correctly identifying all
-        // 5 trims. Accepted tradeoff, same as motorizzazione below: this can
-        // over-match (e.g. "Focus" also matching the unrelated "Focus C-Max"
-        // model), but FindCar already returns every match as a selectable card
-        // list, so a mechanic seeing one extra card they can ignore is far better
-        // than a real car returning zero results at all.
-        cmd.Parameters.AddWithValue("modello", query.Modello is null ? (object)DBNull.Value : $"%{query.Modello}%");
-        cmd.Parameters.AddWithValue("alimentazione", query.Alimentazione ?? (object)DBNull.Value);
-        // Wrapped in wildcards (unlike marca/alimentazione, which rely on the
-        // caller passing the exact brand/fuel text) - a mechanic's free-text engine
-        // label ("1.5 TDCi", "1.5 TDCi Euro 5") is rarely the full stored string verbatim.
-        cmd.Parameters.AddWithValue("motorizzazione", query.Motorizzazione is null ? (object)DBNull.Value : $"%{query.Motorizzazione}%");
-        cmd.Parameters.AddWithValue("codiceMotore", query.CodiceMotore ?? (object)DBNull.Value);
-        cmd.Parameters.AddWithValue("kw", query.Kw ?? (object)DBNull.Value);
-        cmd.Parameters.AddWithValue("annoInizio", query.AnnoInizio ?? (object)DBNull.Value);
-        cmd.Parameters.AddWithValue("annoFine", query.AnnoFine ?? (object)DBNull.Value);
 
-        var cars = await ReadCarsAsync(cmd);
+        var motorizzazioneTokens = TokenizeMotorizzazione(query.Motorizzazione);
+
+        // Defect 1: the trim (motorizzazione) is matched token-by-token, not as
+        // one literal substring. A mechanic's "3.0 multijet 180" must match the
+        // stored "3.0 Multijet - 180 16v" despite the "- " separator and the
+        // missing "16v" suffix - splitting the query into tokens (3.0 / multijet
+        // / 180) and requiring each to appear in the stored trim does that, while
+        // a distinct displacement/power token (150 vs 180) still keeps genuinely
+        // different trims apart (verified in progress.md).
+        var cars = await RunSearchAsync(conn, query, motorizzazioneTokens);
+
+        // Defect 2: brand+model are in the catalogue but the given trim matched
+        // nothing - do NOT dead-end to "Non abbiamo un {brand} {model}". Re-run
+        // without the trim filter and return the model's available trims as a
+        // car SELECTION (identification, never a document - Rule 1 holds). Only
+        // fires when a trim was actually supplied and marca/modello can anchor
+        // the broadened search, so a genuinely-absent car still returns nothing.
+        if (cars.Count == 0 && motorizzazioneTokens is not null &&
+            (query.Marca is not null || query.Modello is not null))
+        {
+            cars = await RunSearchAsync(conn, query, motorizzazioneTokens: null);
+        }
 
         int? suggestedYearFrom = null;
         int? suggestedYearTo = null;
@@ -75,7 +81,7 @@ public class VehicleSearchService
         // no reason.
         if (cars.Count == 0 && (query.AnnoInizio.HasValue || query.AnnoFine.HasValue))
         {
-            (suggestedYearFrom, suggestedYearTo) = await ComputeSuggestedYearRangeAsync(conn, query);
+            (suggestedYearFrom, suggestedYearTo) = await ComputeSuggestedYearRangeAsync(conn, query, motorizzazioneTokens);
         }
 
         return new VehicleResponse
@@ -87,6 +93,52 @@ public class VehicleSearchService
         };
     }
 
+    private async Task<List<VehicleResult>> RunSearchAsync(
+        NpgsqlConnection conn, VehicleQuery query, string[]? motorizzazioneTokens)
+    {
+        await using var cmd = new NpgsqlCommand($"""
+            {SelectColumns}
+            {CommonWhere}
+              AND (@annoInizio::int IS NULL OR anno_fine_macchina IS NULL OR anno_fine_macchina >= @annoInizio)
+              AND (@annoFine::int IS NULL OR anno_inizio_macchina IS NULL OR anno_inizio_macchina <= @annoFine)
+            """, conn);
+        BindCommonParams(cmd, query, motorizzazioneTokens);
+        cmd.Parameters.AddWithValue("annoInizio", query.AnnoInizio ?? (object)DBNull.Value);
+        cmd.Parameters.AddWithValue("annoFine", query.AnnoFine ?? (object)DBNull.Value);
+        return await ReadCarsAsync(cmd);
+    }
+
+    // marca/alimentazione are matched exactly (the caller passes the exact
+    // brand/fuel text); modello is wildcard-wrapped because a mechanic says
+    // "Daily" while gup_rows stores "Daily III" (real bug - see git history).
+    // motorizzazione is passed as a token array and matched per-token in
+    // CommonWhere. A null tokens array skips the trim filter entirely (defect 2
+    // broadening). Tokens with ILIKE metachars (%,_) aren't a concern for this
+    // domain - engine trims are alphanumerics + '.'/'-'/spaces only.
+    private static void BindCommonParams(NpgsqlCommand cmd, VehicleQuery query, string[]? motorizzazioneTokens)
+    {
+        cmd.Parameters.AddWithValue("marca", query.Marca ?? (object)DBNull.Value);
+        cmd.Parameters.AddWithValue("modello", query.Modello is null ? (object)DBNull.Value : $"%{query.Modello}%");
+        cmd.Parameters.AddWithValue("alimentazione", query.Alimentazione ?? (object)DBNull.Value);
+        cmd.Parameters.AddWithValue("motorizzazioneTokens", (object?)motorizzazioneTokens ?? DBNull.Value);
+        cmd.Parameters.AddWithValue("codiceMotore", query.CodiceMotore ?? (object)DBNull.Value);
+        cmd.Parameters.AddWithValue("kw", query.Kw ?? (object)DBNull.Value);
+    }
+
+    // Splits a free-text trim into match tokens on whitespace, dropping pure
+    // separators ("-") so only content tokens (3.0, multijet, 180, 16v) remain.
+    // Returns null when there's nothing to match on, which callers treat as "no
+    // trim filter".
+    private static string[]? TokenizeMotorizzazione(string? motorizzazione)
+    {
+        if (string.IsNullOrWhiteSpace(motorizzazione)) return null;
+        var tokens = motorizzazione
+            .Split((char[]?)null, StringSplitOptions.RemoveEmptyEntries)
+            .Where(t => t.Any(char.IsLetterOrDigit))
+            .ToArray();
+        return tokens.Length == 0 ? null : tokens;
+    }
+
     // Same marca/modello/alimentazione/motorizzazione/codiceMotore/kw
     // filters as the main query, deliberately without the year constraint -
     // tells the caller whether the brand+model exist at all (count > 0)
@@ -95,25 +147,18 @@ public class VehicleSearchService
     // can be 9999 ("still in production, no end year yet") - returned as-is
     // here; turning that into a sensible "to today" phrase is Chat
     // Service's concern, not this query's.
-    private static async Task<(int? From, int? To)> ComputeSuggestedYearRangeAsync(NpgsqlConnection conn, VehicleQuery query)
+    private static async Task<(int? From, int? To)> ComputeSuggestedYearRangeAsync(
+        NpgsqlConnection conn, VehicleQuery query, string[]? motorizzazioneTokens)
     {
-        await using var cmd = new NpgsqlCommand("""
+        await using var cmd = new NpgsqlCommand($"""
             SELECT MIN(anno_inizio_macchina), MAX(anno_fine_macchina), COUNT(*)
             FROM gup_rows
-            WHERE (@marca::text IS NULL OR marca_macchina ILIKE @marca)
-              AND (@modello::text IS NULL OR modello_macchina ILIKE @modello)
-              AND (@alimentazione::text IS NULL OR alimentazione_macchina ILIKE @alimentazione)
-              AND (@motorizzazione::text IS NULL OR motorizzazione_macchina ILIKE @motorizzazione)
-              AND (@codiceMotore::text IS NULL OR codice_motore_macchina = @codiceMotore)
-              AND (@kw::int IS NULL OR kw_macchina = @kw)
+            {CommonWhere}
             """, conn);
-        cmd.Parameters.AddWithValue("marca", query.Marca ?? (object)DBNull.Value);
-        // Same wildcard-wrap and same reasoning as the main query above.
-        cmd.Parameters.AddWithValue("modello", query.Modello is null ? (object)DBNull.Value : $"%{query.Modello}%");
-        cmd.Parameters.AddWithValue("alimentazione", query.Alimentazione ?? (object)DBNull.Value);
-        cmd.Parameters.AddWithValue("motorizzazione", query.Motorizzazione is null ? (object)DBNull.Value : $"%{query.Motorizzazione}%");
-        cmd.Parameters.AddWithValue("codiceMotore", query.CodiceMotore ?? (object)DBNull.Value);
-        cmd.Parameters.AddWithValue("kw", query.Kw ?? (object)DBNull.Value);
+        // Same token-based trim matching as the main query, so "we have this
+        // model for years X-Y" isn't wrongly suppressed by a literal-substring
+        // trim miss.
+        BindCommonParams(cmd, query, motorizzazioneTokens);
 
         await using var reader = await cmd.ExecuteReaderAsync();
         if (!await reader.ReadAsync() || reader.GetInt64(2) == 0)

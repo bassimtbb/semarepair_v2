@@ -3774,3 +3774,61 @@ Half A is proven behaviourally live (adversarial battery); Half B is proven by f
 | File | Change |
 |---|---|
 | `services/chat/Services/RepairOrchestrator.cs` | Half A: `BuildSearchUrl`/`BuildSymptomSearchUrl` source engine code/brand only from confirmed session state (removed the `?? args` fallback; dropped `BuildSymptomSearchUrl`'s now-unused `originalArgs` param). Half B: `BuildChatResponse` (now instance) gates document emission on `carConfirmed = ConfirmedCarId ?? ConfirmedCodiceMotore is set`, logs and returns `IdentifyVehicleFirstMessage` otherwise. |
+
+## 26. FindCar trim matching + brand/model-known dead-end (from two real screenshots) (2026-07-21)
+
+Two UI screenshots showed the **same car, opposite outcomes**, no vehicle confirmed in either:
+
+- "ho un ducato 3.0 multijet 180" → "Non abbiamo un FIAT Ducato a catalogo." (dead-end not-found)
+- "ho un ducato 3.0 Multijet - 180 16v" → matched FIAT Ducato F1CE3481E, 2011-2014, 130 kW/177 CV
+
+### 26.1 Diagnosis (reproduced live before any edit)
+
+The parse step is **Gemini** (routing call → `FindCar` args → `motorizzazione`); `VehicleSearchService.SearchAsync` then matched it as one literal substring: `motorizzazione_macchina ILIKE '%{Motorizzazione}%'`. Reproduced both inputs through nginx and captured the actual `/api/vehicles` request Gemini produced:
+
+| Input | Gemini's `motorizzazione` | SQL | Stored form | Result |
+|---|---|---|---|---|
+| "...3.0 multijet 180" | `3.0 multijet 180` | `%3.0 multijet 180%` | `3.0 Multijet - 180 16v` | **0 rows** → dead-end |
+| "...3.0 Multijet - 180 16v" | `3.0 Multijet - 180 16v` | `%3.0 Multijet - 180 16v%` | `3.0 Multijet - 180 16v` | 1 car (F1CE3481E) |
+
+The `codice_motore` **F1CE3481E** is stored under two trim strings: `3.0 Multijet 16v` (2014-2016) and `3.0 Multijet - 180 16v` (2011-2014). "3.0 multijet 180" fails purely on the literal `- ` separator between "Multijet" and "180" (casing is irrelevant — ILIKE is case-insensitive).
+
+**Both defects real:**
+- **Defect 1 (trim matching too literal):** the trim IS stored in a matchable form; a token match (`3.0` / `multijet` / `180` all present) would find it, and 150/160/180 are distinct tokens so genuinely different trims stay apart.
+- **Defect 2 (dead-end):** FIAT Ducato exists with **34 trims**, but a trim miss returns flat not-found instead of degrading to the model's trim list. Higher-value: it protects the mechanic even when trim matching is imperfect.
+
+### 26.2 Fix (both, in the structural layer — robust to any Gemini parse, per the M1 lesson)
+
+`services/vehicle/Services/VehicleSearchService.cs` only:
+
+- **Defect 1:** `motorizzazione` is tokenized (split on whitespace, pure-separator tokens like `-` dropped) and matched **per-token** — each token must appear in the stored trim (`NOT EXISTS (unnest(tokens) WHERE trim NOT ILIKE '%tok%')`). Distinct displacement/power tokens keep trims apart.
+- **Defect 2:** when the trimmed query returns 0 but a trim was supplied and marca/modello can anchor it, the query is **re-run without the trim filter** and the model's available trims are returned as a car **selection** (identification, never a document → Rule 1 holds). A genuinely-absent model still returns nothing.
+- Refactored into a shared `CommonWhere` + `BindCommonParams`, reused by the main search and the year-suggestion query (the year query now uses the same token matching, so "we have this model for years X-Y" isn't suppressed by a literal-substring miss).
+
+### 26.3 Verification (live through nginx)
+
+**Screenshot inputs (end-to-end chat, Gemini in the loop):**
+- "ho un ducato 3.0 multijet 180" → **identification, carMatches=1, F1CE3481E** (was the "Non abbiamo…" dead-end). Fixed.
+- "ho un ducato 3.0 Multijet - 180 16v" → identification, carMatches=1, F1CE3481E. No regression.
+- Extra phrasings ("DUCATO 3.0 MULTIJET 180" all-caps; "3.0 multijet-180") → all carMatches=1, F1CE3481E.
+
+**Discrimination preserved (the fix must not collapse distinct trims):**
+- "3.0 multijet 150" → F1CE3481N (150) only; "3.0 multijet 160" → F1CE0481D + F1CE3481M (both 160); "3.0 multijet 180" → F1CE3481E (180). All distinct.
+- Generalizes beyond Ducato: FORD C-Max "1.6 tdci" → 1.6 variants only; "2.0 tdci" → 2.0 only.
+
+**Defect 2:** an unmatchable trim ("zzz nonsense 999") on FIAT Ducato → broadened to the 34 Ducato trims (a selection), not not-found.
+
+**Rule 1:** zero document `cases` in every chat response above — only car identification/selection (M1's guard backs this up).
+
+**Regressions:** IVECO Daily `8140.43S` codiceMotore path → 5 cars; FORD Focus → 6; year-suggestion for "Ducato 3.0 multijet 180" + out-of-range year 1995 → count=0 with `suggestedYearFrom=2011, suggestedYearTo=2014` (the token fix even repairs the suggestion, which previously would have missed on the literal substring); genuinely-absent cars (TESLA Model 3; a non-existent model) → 0, no false match from broadening.
+
+### 26.4 Honest boundaries / notes
+
+- API/backend fully verified; the **frontend render** of the selection (1 card in the common case; 34 cards in the rare defect-2 broaden case) was not driven in a real browser — a manual check, same discipline as M7.
+- `VehicleSearchService.SearchAsync` is still **unbounded (no LIMIT)** — the defect-2 broadening can return all 34 Ducato trims, and the numbered-selection UX caps at 30. Left as the pre-existing TODO (Vehicle Service, "no LIMIT or pagination") rather than mixing a pagination change into this fix; noting that defect-2 makes large selections more likely, so that TODO is now more worth doing.
+
+### 26.5 Files changed
+
+| File | Change |
+|---|---|
+| `services/vehicle/Services/VehicleSearchService.cs` | Token-based `motorizzazione` matching (defect 1) via a `CommonWhere`/`BindCommonParams` refactor; broaden to the model's trims as a car selection when a supplied trim matches nothing but marca/modello anchor it (defect 2); year-suggestion query reuses the same token matching. |
