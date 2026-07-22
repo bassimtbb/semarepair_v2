@@ -3832,3 +3832,61 @@ The `codice_motore` **F1CE3481E** is stored under two trim strings: `3.0 Multije
 | File | Change |
 |---|---|
 | `services/vehicle/Services/VehicleSearchService.cs` | Token-based `motorizzazione` matching (defect 1) via a `CommonWhere`/`BindCommonParams` refactor; broaden to the model's trims as a car selection when a supplied trim matches nothing but marca/modello anchor it (defect 2); year-suggestion query reuses the same token matching. |
+
+## 27. Integration test harness — bootstrapped with 3 proven tests (2026-07-21)
+
+First automated tests in the project. The guiding principle this session: **a test is not trusted until it's been watched fail for the right reason.** So the order was strict — one test green end-to-end, then deliberately reintroduce the bug and watch it go RED, then (only then) add the next two.
+
+### 27.1 Framework / DB / surface decision (and why)
+
+- **xUnit, integration tests over HTTP against the running Docker stack** (through nginx :80), not `WebApplicationFactory` and not mocks. Every one of the ten fixes was verified by curling the real endpoints against real Postgres + real Gemini; a mocked-DB unit test would not have caught the boundary-tie, FindCar-token, or Rule 1 bugs (all about real data through real queries). chat's routing/Rule-1 tests need the real downstream search/vehicle services and real nginx routing anyway, so driving the live stack is both the most faithful and the simplest surface.
+- **DB: live dev Postgres, read-only.** No test writes to shared tables; chat tests use fresh `Guid` session ids (server-side sessions are in-memory, so no DB residue).
+- **Location `tests/SemaRepair.IntegrationTests/`**, run with `dotnet test tests/SemaRepair.IntegrationTests` from repo root. **Precondition:** the stack must be up (`docker compose up -d`) and reachable at `http://localhost` (overridable via `SEMAREPAIR_BASE_URL`). The routing-determinism test is tagged `[Trait("Category","Slow")]` (5 live Gemini turns); skip it with `--filter "Category!=Slow"` (fast subset ~3s; full suite ~14s).
+
+### 27.2 The three tests
+
+1. **Boundary-tie (§5)** — `BoundaryTieTests`. Posts the documented §21 boundary query to `/api/search/symptom` (no car) and asserts the `Boundary tie detected` re-query log line fired.
+   - **Surface honesty (important):** the ideal assertion — "both tied documents returned" — is **not HTTP-observable**. The no-car endpoint returns only a car selection (Rule 1 hides document identity), and for a tied doc's *distinct* cars to show it must land at ranks 5-6 AND within the 0.02 tie window; the only pair inside that window (673/676) shares all its cars, so both-vs-one is invisible in the body. The distinct-car pairs (592/602, 545/552) either can't be pinned to ranks 5-6 or fall outside the 0.02 window (evidence gathered live before deciding). So the test asserts the fix's faithful signature — the re-query log line, emitted *only* by the epsilon re-query. This is the surface the task explicitly sanctions ("and/or the log line"). It reads the search-service container logs via `docker logs --since` (couples to the docker stack, which the harness already requires; container name overridable via `SEMAREPAIR_SEARCH_CONTAINER`).
+2. **Rule 1 gate (M1)** — `Rule1GateTests`. An unconfirmed engine-code symptom ("problemi iniezioni motore 8140.43S") must emit **zero** document cases. **Non-vacuity was verified, not assumed:** the task's suggested input "P0504 su motore F1AE0481C" was rejected after a DB check showed that engine has no P0504 document — so that input can never leak and the assertion would pass trivially. "problemi iniezioni motore 8140.43S" was chosen because engine 8140.43S maps to 14 cars whose docs include injection faults, so it genuinely leaks 4 documents when the gate is removed (confirmed in the red-check below).
+3. **Routing determinism** — `RoutingDeterminismTests` (Slow). "Problemi iniezioni" run 5× must route to SearchBySymptom every time, observed via which search endpoint the turn hits (`/api/search/symptom` vs `/api/search/system`) — a direct echo of Gemini's actual tool choice. This is the test a human can't cheaply re-verify by hand: it only means something across repetition.
+
+### 27.3 The red→green proof (the evidence the harness is real)
+
+**Boundary-tie (mandatory red-proof):**
+- Temporarily reverted `LIMIT limit + 1` → `LIMIT limit` in `SymptomSearchService` (removes the probe row → the §5 bug), rebuilt search-service. Test went **RED** with the right message — *"Expected a 'Boundary tie detected' re-query log line … but none was found … the straddling tie was silently truncated"* — while the request still returned HTTP 200 (so it was red for the fix-specific reason, not a crash or connection error).
+- Restored the fix, rebuilt → **GREEN**. `git diff` on `SymptomSearchService.cs` confirmed clean; no `TEMP-REDPROOF` markers remain.
+
+**Rule 1 (bonus red-proof, since it's the highest-stakes invariant):**
+- Temporarily disabled both M1 halves (re-added the Half A args fallback + short-circuited the Half B guard), rebuilt chat-service. Test went **RED**: *"Rule 1 violation: a document (4 case(s)) was emitted for an engine code with NO confirmed car."* This proves the test is non-vacuous — it actually catches a document leak.
+- Restored both halves, rebuilt → **GREEN**. Source confirmed clean, no `TEMP-REDPROOF` markers.
+
+Both throwaway breaks were reverted and never committed. All 3 tests green against restored code.
+
+### 27.4 How to run
+
+```
+docker compose up -d                                   # stack must be up
+dotnet test tests/SemaRepair.IntegrationTests          # all 3 (~14s)
+dotnet test tests/SemaRepair.IntegrationTests --filter "Category!=Slow"   # fast subset (~3s)
+```
+
+### 27.5 Queued next tests (ready list for the next session)
+
+- **FindCar trim token-discrimination (§26):** "3.0 multijet 180" → F1CE3481E, "…150" → F1CE3481N (distinct) — pure `/api/vehicles` assertions, no Gemini, cheap and robust.
+- **Rule 8 shared-engine consent:** confirm CI0037 + P0380 → `foundViaSharedEngine` reveal; guard the consent/disclosure flow.
+- **Rule 10 5+-doc branch:** "Iniezione" + F1AE0481D confirmed → `resultType=vague`, 3 shown of 14.
+- **H2 formatting-fallback:** force the formatting call to fail → stream still completes with cases intact (needs a fault-injection seam).
+- **H3 incremental delivery:** a two-event turn arrives incrementally (needs a multi-yield seam).
+- **Frontend `ChatStore` unit tests** (M7 one-bubble render, car confirmation, secondary-symptom retry) — a separate Angular/Karma harness.
+- **CI wiring** — none yet; the deliverable is a locally-runnable `dotnet test`.
+
+### 27.6 Files added
+
+| File | Purpose |
+|---|---|
+| `tests/SemaRepair.IntegrationTests/SemaRepair.IntegrationTests.csproj` | xUnit test project (net10.0). |
+| `tests/SemaRepair.IntegrationTests/TestEnv.cs` | Shared HTTP client + `docker logs --since` reader; env-overridable base URL / container name. |
+| `tests/SemaRepair.IntegrationTests/ChatClient.cs` | Drives `POST /api/chat/stream` and parses SSE events. |
+| `tests/SemaRepair.IntegrationTests/BoundaryTieTests.cs` | §5 boundary-tie regression. |
+| `tests/SemaRepair.IntegrationTests/Rule1GateTests.cs` | M1 / Rule 1 no-document-without-car gate. |
+| `tests/SemaRepair.IntegrationTests/RoutingDeterminismTests.cs` | Routing determinism (5× SearchBySymptom), Slow-tagged. |

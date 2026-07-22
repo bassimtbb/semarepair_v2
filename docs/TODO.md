@@ -179,10 +179,10 @@ using the app today could be misled or hit a dead end because of these.
 
 ### Testing
 
-- [ ] **Zero automated tests exist anywhere in the project** (see §9, §10)
-  - Where: all services (`services/chat/`, `services/search/`, `services/vehicle/`) + frontend
-  - Why it matters: every verified behavior was confirmed by hand with no regression protection — any code change to `RepairOrchestrator`, `GraphSearchService`, or the frontend store could silently break a verified scenario with no failing test to catch it
-  - What's needed: at minimum, integration tests for search/vehicle endpoints using test fixtures; frontend unit tests for `ChatStore`'s state transitions (car confirmation, language detection, secondary symptom retry)
+- [~] **Automated tests — IN PROGRESS: integration harness bootstrapped with 3 proven tests** (see progress.md §27)
+  - Where: `tests/SemaRepair.IntegrationTests/` (xUnit, hits the real Docker stack over HTTP through nginx against the real seeded Postgres + real Gemini). Run: `dotnet test tests/SemaRepair.IntegrationTests` (add `--filter "Category!=Slow"` to skip the 5-run routing-determinism test). Precondition: stack up (`docker compose up -d`).
+  - Covered now, each proven able to fail (red→green): **§5 boundary-tie** re-query (asserts the re-query log fires for the documented boundary query — the endpoint can't surface the tied doc ids directly, see §27); **M1/Rule 1 gate** (an unconfirmed engine-code symptom emits ZERO document cases — red-checked live: with the gate reverted it leaks 4 docs); **routing determinism** ("Problemi iniezioni" routes to SearchBySymptom 5/5, observed via which search endpoint is hit).
+  - Queued next (ready list in progress.md §27): FindCar trim token-discrimination (§26), Rule 8 shared-engine consent, Rule 10 5+-doc branch, H2 formatting-fallback, H3 incremental-delivery; plus frontend `ChatStore` unit tests (M7 render, car confirmation, secondary-symptom retry). Also: no CI wiring yet (locally-runnable `dotnet test` only).
 
 ---
 
