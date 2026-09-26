@@ -19,9 +19,14 @@ public static class SystemPromptBuilder
         ["es"] = "Spanish",
     };
 
-    public static string BuildRouting(string language)
+    // technicalInfoEnabled gates the extension's rule (Extension v2). With it
+    // false the returned prompt is byte-identical to the pre-extension one:
+    // the model is neither told about a tool it cannot see, nor given a
+    // boundary it has no reason to draw.
+    public static string BuildRouting(string language, bool technicalInfoEnabled = false)
     {
         var languageName = LanguageNames.GetValueOrDefault(language, "Italian");
+        var technicalRule = technicalInfoEnabled ? TechnicalRoutingRule : "";
 
         return $"""
             You are the AI assistant inside SemaRepair, a repair-assistant chatbot for car
@@ -108,6 +113,7 @@ public static class SystemPromptBuilder
             - Once a car is confirmed for this session, always include its engineCode (and
               brand, if known) in SearchByFaultCode/SearchBySymptom/SearchBySystem calls,
               without being asked again.
+            {technicalRule}
             - If your previous turn asked the mechanic whether they want to see a
               low-confidence/uncertain match (because nothing specifically matched their
               symptom), and their new message is a clear affirmative reply, call SearchBySymptom
@@ -170,6 +176,37 @@ public static class SystemPromptBuilder
     // interpolated raw string, which is easy to get wrong silently.
     private const string FormattingJsonShape = """{ "message": string | null }""";
 
+    // Injected into BuildRouting only when the extension is enabled.
+    //
+    // The boundary is stated as one question - "is something wrong?" - rather
+    // than as a list of trigger words, because a word list is exactly what
+    // fails here: "fusibile" appears in both a lookup and a fault report. The
+    // last two examples are the ones that matter; they are also pinned by
+    // RoutingDeterminismTests so a regression shows up in CI rather than in
+    // front of a mechanic.
+    //
+    // Indentation matches the surrounding bullet list in BuildRouting - it is
+    // interpolated into a raw string literal whose layout is the prompt's.
+    private const string TechnicalRoutingRule = """
+- The search tools above are for DIAGNOSING A FAULT: the mechanic reports a symptom, a
+              code, or a system that is not working. SearchTechnicalInfo is for something
+              else: the mechanic asks for INFORMATION about the vehicle while nothing is
+              broken - a value, a location, a servicing procedure, a wiring diagram.
+              The test is not which words appear, it is whether something is wrong. If
+              something is wrong, diagnose. If the mechanic simply wants to know, call
+              SearchTechnicalInfo.
+                "quale fusibile protegge la centralina ABS" → SearchTechnicalInfo
+                "che coppia di serraggio per il coperchio punterie" → SearchTechnicalInfo
+                "dove si trova la presa diagnosi" → SearchTechnicalInfo
+                "mostrami lo schema elettrico dell'airbag" → SearchTechnicalInfo
+                "come azzero l'indicatore di assistenza" → SearchTechnicalInfo
+                "che lampadina monta l'anabbagliante" → SearchTechnicalInfo
+                "il fusibile dell'ABS si brucia sempre" → SearchBySymptom (names a fuse,
+                  but reports a defect)
+                "la spia airbag resta accesa" → SearchBySymptom (names a system, but
+                  reports a defect)
+""";
+
     // BuildFormatting deliberately receives - and outputs - metadata only
     // (resultType, count, queryText, foundViaSharedEngine,
     // validationMessage, redirectedTo), never the actual repair document
@@ -193,8 +230,9 @@ public static class SystemPromptBuilder
             extra fields, no markdown fences): {FormattingJsonShape}
 
             The metadata you receive may include: resultType ("document" | "car_selection" |
-            "not_found" | "vague" | "redirected"), count, queryText (what was searched - the
-            DTC code, the symptom text, or the system name), foundViaSharedEngine,
+            "not_found" | "vague" | "redirected" | "technical"), count, queryText (what was
+            searched - the DTC code, the symptom text, the system name, or the technical
+            question), technicalKinds, foundViaSharedEngine,
             lowConfidenceMatch, lowConfidenceConfirmed, lowConfidenceReason,
             secondarySymptomTried, primarySymptomText, secondarySymptomText, validationMessage,
             redirectedTo - or, for a plain vehicle list (no resultType field at all), just count.
@@ -205,8 +243,11 @@ public static class SystemPromptBuilder
               resultType field at all - the mechanic just described a vehicle, so a list of
               matching vehicles needs no explanation) - UNLESS secondarySymptomTried is true,
               in which case Rule 8d/9b below always applies instead, even for an otherwise
-              silent result. Note this does NOT cover resultType "car_selection", which always
-              gets a message: see Rule 2 below.
+              silent result. Note this does NOT cover resultType "car_selection" or
+              "technical": both always get a message, see Rule 2 and Rule 12 below. A
+              technical answer is a bare list of values or a diagram, and dropping it in
+              front of the mechanic with no sentence at all reads as if the assistant
+              ignored the question.
             - Rule 2 (search matched vehicles, not documents): if resultType is
               "car_selection", the mechanic searched queryText with no vehicle confirmed, so
               the result is every vehicle whose documentation mentions it - count of them,
@@ -216,6 +257,16 @@ public static class SystemPromptBuilder
               vehicles, and ask which one they are working on so the right document can be
               shown. Do not list the vehicles - the frontend renders them as selectable cards
               directly below your message.
+            - Rule 12 (technical information): if resultType is "technical", the mechanic
+              asked for information about the vehicle rather than reporting a fault, and
+              count answers were found. Write ONE short line in {languageName} saying what
+              was looked up (queryText) - nothing more. Do NOT state the values, the fuse
+              numbers, the torque figures or the component names: they are rendered below
+              your message, straight from the database, and repeating them from metadata
+              you do not have would be inventing them. technicalKinds tells you what came
+              back: "fact" a value, "legend" a wiring diagram, "section" a procedure.
+              If technicalKinds contains only "legend", say that the matching wiring
+              diagram is shown below rather than describing it.
             - Rule 8 (shared engine) is NOT your job: when foundViaSharedEngine is true the
               disclosure is composed deterministically outside this call and prepended to
               whatever you return, because a mechanic must never see another brand's procedure

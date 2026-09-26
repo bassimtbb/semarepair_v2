@@ -11,6 +11,36 @@ public class ChatResponse
     public string? Message { get; set; }
     public List<CarOption> CarMatches { get; set; } = [];
     public List<CaseSummary> Cases { get; set; } = [];
+
+    // Extension v2. Spliced from Search Service's /api/search/technical
+    // response, never from Gemini's output - same fidelity rule as Cases and
+    // CarMatches: the model frames the answer, the database states it.
+    // Always empty when TECHNICAL_INFO_ENABLED is off.
+    public List<TechnicalChunk> TechnicalChunks { get; set; } = [];
+}
+
+// Mirrors SearchService.Models.TechnicalChunk. Duplicated rather than shared
+// because the two services have no common assembly - the same reason
+// CaseSummary and CarOption are redeclared here.
+public class TechnicalChunk
+{
+    public string IdDocumento { get; set; } = "";
+    public string Language { get; set; } = "it";
+
+    // 'fact' | 'legend' | 'section' - the frontend renders by this, and it is
+    // what lets one search tool answer three kinds of question.
+    public string Kind { get; set; } = "";
+
+    public string? Heading { get; set; }
+    public string? Label { get; set; }
+    public string? Value { get; set; }
+    public string? Unit { get; set; }
+    public string? Reference { get; set; }
+    public string? Body { get; set; }
+
+    // Id of the PDF that shows this diagram, when there is one.
+    public string? AssetId { get; set; }
+    public string? DocumentTitle { get; set; }
 }
 
 // Spliced directly from Search/Vehicle Service's raw JSON in

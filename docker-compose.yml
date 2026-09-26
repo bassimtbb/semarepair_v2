@@ -79,6 +79,12 @@ services:
       VEHICLE_SERVICE_URL: http://vehicle-service:5002
       GEMINI_PRICING_PATH: /app/Config/gemini-pricing.json
       OUR_DB: Host=our-postgres;Port=5432;Database=${POSTGRES_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}
+      # Extension v2 (docs/Architecture_Extension_v2.md section 6). Off means
+      # the SearchTechnicalInfo tool is not declared to Gemini and its routing
+      # rule is not injected, so behaviour is byte-identical to before the
+      # extension existed. Flipping it back and restarting this one container
+      # is the escape hatch if routing degrades before a demo.
+      TECHNICAL_INFO_ENABLED: ${TECHNICAL_INFO_ENABLED:-false}
     volumes:
       - ./config:/app/Config:ro
     depends_on:

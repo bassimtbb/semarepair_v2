@@ -20,6 +20,11 @@ public class RepairOrchestrator
     private readonly string _searchServiceUrl;
     private readonly string _vehicleServiceUrl;
 
+    // Extension v2 (docs/Architecture_Extension_v2.md section 6). Read once at
+    // construction: flipping it takes a container restart, which is the point -
+    // the escape hatch has to be a deliberate act, not a per-request surprise.
+    private readonly bool _technicalInfoEnabled;
+
     public RepairOrchestrator(HttpClient httpClient, GeminiChatClient gemini, SessionStore sessions, IConfiguration configuration, ILogger<RepairOrchestrator> logger)
     {
         _httpClient = httpClient;
@@ -28,6 +33,8 @@ public class RepairOrchestrator
         _logger = logger;
         _searchServiceUrl = configuration["SEARCH_SERVICE_URL"] ?? "";
         _vehicleServiceUrl = configuration["VEHICLE_SERVICE_URL"] ?? "";
+        _technicalInfoEnabled = configuration.GetValue("TECHNICAL_INFO_ENABLED", false);
+        _logger.LogInformation("[extension] TECHNICAL_INFO_ENABLED={Enabled}", _technicalInfoEnabled);
     }
 
     public async IAsyncEnumerable<ChatResponse> HandleMessageAsync(ChatRequest request)
@@ -82,8 +89,8 @@ public class RepairOrchestrator
         {
             routingTurn = await _gemini.GenerateAsync(
                 session.History,
-                tools: ToolDefinitions.All,
-                systemInstruction: SystemPromptBuilder.BuildRouting(request.Language),
+                tools: ToolDefinitions.For(_technicalInfoEnabled),
+                systemInstruction: SystemPromptBuilder.BuildRouting(request.Language, _technicalInfoEnabled),
                 operation: "routing",
                 sessionId: request.SessionId,
                 temperature: 0,
@@ -323,6 +330,52 @@ public class RepairOrchestrator
             };
         }
 
+        // Extension v2: a technical result carries neither cars nor documents,
+        // so without this branch it would fall through to the generic
+        // "nothing found" return below and the chunks would be dropped.
+        if (rawResult.ValueKind == JsonValueKind.Object &&
+            rawResult.TryGetProperty("chunks", out var chunks) &&
+            chunks.ValueKind == JsonValueKind.Array &&
+            chunks.GetArrayLength() > 0)
+        {
+            // Same structural backstop as Half B below. Unreachable in
+            // practice - /api/search/technical requires codiceMotore and
+            // BuildSearchUrl only ever sends the confirmed session value, so
+            // an unconfirmed turn already comes back empty. Kept because
+            // "unreachable" is a property of today's call path, not a
+            // guarantee, and a torque figure for the wrong engine is exactly
+            // the kind of wrong answer Rule 1 exists to prevent.
+            if (!carConfirmed)
+            {
+                _logger.LogWarning(
+                    "Rule 1 guard (M1): suppressed technical chunks for tool {Tool} with no confirmed car",
+                    call.Name);
+                return new ChatResponse
+                {
+                    Phase = "identification",
+                    Found = false,
+                    Message = IdentifyVehicleFirstMessage(language),
+                };
+            }
+
+            // A floor, not a replacement: when the model writes its own line we
+            // keep it, because a varied sentence reads better than a template.
+            // But it omitted one on two questions out of five in testing, and
+            // a bare list of values with no sentence reads as if the question
+            // had been ignored. Same reasoning as the Rule 8 disclosure -
+            // where the cost of the model staying silent is real, the floor is
+            // built here rather than asked for.
+            return new ChatResponse
+            {
+                Phase = "chat",
+                Found = true,
+                Message = string.IsNullOrWhiteSpace(message)
+                    ? TechnicalFallbackMessage(queryText, language)
+                    : message,
+                TechnicalChunks = chunks.EnumerateArray().Select(ParseTechnicalChunk).ToList(),
+            };
+        }
+
         if (rawResult.ValueKind == JsonValueKind.Object &&
             rawResult.TryGetProperty("documents", out var docs) &&
             docs.ValueKind == JsonValueKind.Array &&
@@ -402,7 +455,8 @@ public class RepairOrchestrator
     private static string? ExtractQueryText(GeminiFunctionCall call) =>
         GetString(call.Args, "faultCode")
         ?? GetString(call.Args, "symptom")
-        ?? GetString(call.Args, "systemName");
+        ?? GetString(call.Args, "systemName")
+        ?? GetString(call.Args, "query");   // SearchTechnicalInfo
 
     private static object BuildResultSummary(
         JsonElement rawResult, bool lowConfidenceConfirmed,
@@ -432,11 +486,28 @@ public class RepairOrchestrator
             }
         }
 
+        // Extension v2: which kinds of answer came back, so the formatting
+        // call can frame "here is the value" differently from "here is the
+        // diagram". The content itself is never sent - the frontend renders
+        // it from the database, same rule as document bodies.
+        string? technicalKinds = null;
+        if (rawResult.ValueKind == JsonValueKind.Object &&
+            rawResult.TryGetProperty("chunks", out var techChunks) &&
+            techChunks.ValueKind == JsonValueKind.Array &&
+            techChunks.GetArrayLength() > 0)
+        {
+            technicalKinds = string.Join(",", techChunks.EnumerateArray()
+                .Select(c => GetString(c, "kind"))
+                .Where(k => k is not null)
+                .Distinct());
+        }
+
         return new
         {
             resultType = GetString(rawResult, "resultType"),
             count = GetInt(rawResult, "count"),
             queryText,
+            technicalKinds,
             foundViaSharedEngine,
             lowConfidenceMatch,
             lowConfidenceConfirmed,
@@ -490,6 +561,40 @@ public class RepairOrchestrator
             fvse.ValueKind == JsonValueKind.True,
     };
 
+    // Same per-language switch shape as FormattingFallbackMessage and
+    // BuildVehicleNotFoundMessage. Names what was looked up and stops there:
+    // the values themselves are rendered from the database below, and
+    // restating them here would mean inventing them.
+    private static string TechnicalFallbackMessage(string? queryText, string language)
+    {
+        var subject = string.IsNullOrWhiteSpace(queryText) ? null : $" \"{queryText}\"";
+        return language switch
+        {
+            "en" => $"Here is the technical information found{subject}:",
+            "fr" => $"Voici les informations techniques trouvées{subject} :",
+            "pt" => $"Aqui estão as informações técnicas encontradas{subject}:",
+            "es" => $"Esta es la información técnica encontrada{subject}:",
+            _ => $"Ecco le informazioni tecniche trovate{subject}:",
+        };
+    }
+
+    // Spliced field by field from Search Service's JSON, like ParseCaseSummary
+    // and ParseCarOption - Gemini never touches this content.
+    private static TechnicalChunk ParseTechnicalChunk(JsonElement c) => new()
+    {
+        IdDocumento   = GetString(c, "idDocumento") ?? "",
+        Language      = GetString(c, "language") ?? "",
+        Kind          = GetString(c, "kind") ?? "",
+        Heading       = GetString(c, "heading"),
+        Label         = GetString(c, "label"),
+        Value         = GetString(c, "value"),
+        Unit          = GetString(c, "unit"),
+        Reference     = GetString(c, "reference"),
+        Body          = GetString(c, "body"),
+        AssetId       = GetString(c, "assetId"),
+        DocumentTitle = GetString(c, "documentTitle"),
+    };
+
     private class FormattingResult
     {
         public string? Message { get; set; }
@@ -502,6 +607,7 @@ public class RepairOrchestrator
             "SearchByFaultCode" => await CallServiceAsync(BuildSearchUrl("fault-code", "code", "faultCode", call.Args, session, language)),
             "SearchBySymptom" => await CallServiceAsync(BuildSearchUrl("symptom", "q", "symptom", call.Args, session, language)),
             "SearchBySystem" => await CallServiceAsync(BuildSearchUrl("system", "name", "systemName", call.Args, session, language)),
+            "SearchTechnicalInfo" => await CallServiceAsync(BuildSearchUrl("technical", "q", "query", call.Args, session, language)),
             _ => throw new InvalidOperationException($"Unknown tool: {call.Name}"),
         };
 

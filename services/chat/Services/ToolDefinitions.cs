@@ -133,11 +133,58 @@ public static class ToolDefinitions
         },
     };
 
-    // Declared after the 4 properties above - static field/property
+    // Extension v2 (docs/Architecture_Extension_v2.md section 5). ONE tool,
+    // not three, and that is the single biggest risk-reduction choice in the
+    // extension: every tool added to a prompt multiplies the boundaries the
+    // model has to get right. With one, it faces a single binary question -
+    // is something broken, or does the mechanic just want to know something?
+    // Whether the answer turns out to be a value, a diagram or a procedure is
+    // decided downstream by the chunk's kind, never by Gemini.
+    //
+    // Only `query` is declared. The other search tools also declare
+    // engineCode/brand, but RepairOrchestrator.BuildSearchUrl ignores them
+    // and takes the vehicle from confirmed session state instead (M1 /
+    // Rule 1) - so those parameters are dead weight that invites the model to
+    // invent a vehicle. Not repeating that here.
+    public static GeminiFunctionDeclaration SearchTechnicalInfo { get; } = new()
+    {
+        Name = "SearchTechnicalInfo",
+        Description =
+            "Looks up technical information ABOUT the confirmed vehicle, when nothing is " +
+            "reported as faulty: fuse ratings and what each fuse protects, tightening " +
+            "torques, bulb types, fluid capacities and engine specifications, where a " +
+            "component is located, wiring diagrams, and servicing procedures such as " +
+            "resetting the service indicator. Use it when the mechanic wants to KNOW " +
+            "something. Do NOT use it when the mechanic reports a DEFECT - a blown fuse, a " +
+            "warning light, a leak - even if the message names a component: that is a " +
+            "diagnosis, and it belongs to SearchBySymptom, SearchByFaultCode or " +
+            "SearchBySystem.",
+        Parameters = new JsonObject
+        {
+            ["type"] = "object",
+            ["properties"] = new JsonObject
+            {
+                ["query"] = StringParam(
+                    "What the mechanic wants to know, in their own words, with filler " +
+                    "removed - e.g. 'fusibile centralina ABS', 'coppia di serraggio " +
+                    "coperchio punterie', 'schema elettrico airbag'."),
+            },
+            ["required"] = new JsonArray("query"),
+        },
+    };
+
+    // Declared after the properties above - static field/property
     // initializers run top-to-bottom, so referencing them here before their
     // own initializers had run would silently produce a list of nulls.
     public static List<GeminiFunctionDeclaration> All { get; } =
         [FindCar, SearchByFaultCode, SearchBySymptom, SearchBySystem];
+
+    // What Gemini is actually offered for a turn. With the flag off the new
+    // tool is not merely unused, it is never declared - the model cannot
+    // choose what it cannot see, so its behaviour is identical to before the
+    // extension existed.
+    public static List<GeminiFunctionDeclaration> For(bool technicalInfoEnabled) =>
+        technicalInfoEnabled ? [.. All, SearchTechnicalInfo] : All;
 
     private static JsonObject StringParam(string description) =>
         new() { ["type"] = "string", ["description"] = description };
