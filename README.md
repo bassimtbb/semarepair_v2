@@ -105,9 +105,12 @@ docker exec semarepair_v2-our-postgres-1 \
 
 `Data/demo_fi0396.sql.gz` is a portable `pg_dump` of the dataset the client
 demo is built on: FIAT Ducato 2.8 JTD 8v (`FI0396`, engine 8140.43S) with its
-64 documents in 5 languages. Restoring it is the fastest way back to a working
-demo — no re-ingestion, no Gemini spend, and it creates the `vector` extension
-itself, so the first-boot problem above does not apply.
+64 documents in 5 languages, **and the 1 252 `knowledge_chunks` with their
+embeddings** (the technical-information extension, see
+`docs/Architecture_Extension_v2.md`). Restoring it is the fastest way back to a
+working demo — no re-ingestion, no Gemini spend, no waiting ~11 minutes for the
+two embedding passes, and it creates the `vector` extension itself, so the
+first-boot problem above does not apply.
 
 ```bash
 docker compose up -d our-postgres
