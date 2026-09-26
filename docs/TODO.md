@@ -206,15 +206,24 @@ at every future code change.
 - **Never use -exp / -preview / -experimental model strings.**
   `gemini-2.0-flash-exp` and similar are retired without notice by
   Google. Always pin to stable model names:
-  - Chat / transcription: `gemini-2.5-flash`
+  - Chat / transcription: `gemini-3.6-flash`
   - Embeddings: `gemini-embedding-001`
+
+  Stable models get closed too: `gemini-2.5-flash` started returning 404
+  "no longer available to new users" for newly created keys (2026-09-13).
+  Gemini 3 also changed the wire protocol: it rejects `thinkingBudget: 0`
+  (use `thinkingLevel: "minimal"`), and a `thoughtSignature` on
+  `functionCall` parts must be echoed back in history or the next call 400s.
+  Chat Gemini errors surface to the user only as the generic "servizio
+  temporaneamente non disponibile", so read the error body directly: curl
+  the model with the `.env` key.
   
   Grep before every model change: `grep -rn "gemini-" services/ --include="*.cs" --include="*.py"`
 
-- **`GEMINI_API_KEY` must be an `AIzaSy`-prefix Google AI Studio key.**
-  Keys with an `AQ.` prefix (a different Google credential format) return
-  401 on `generativelanguage.googleapis.com` — Gemini calls silently fail.
-  Get the correct key from `aistudio.google.com/app/apikey`.
+- **`GEMINI_API_KEY` must be a Google AI Studio key** from
+  `aistudio.google.com/app/apikey`. (An earlier note said `AQ.`-prefix keys
+  return 401; as of 2026-09-13 an `AQ.` AI Studio key works fine, so the
+  prefix alone isn't a reliable signal.)
 
 - **Two separate Google API keys are required — they cannot be
   combined.**

@@ -155,11 +155,12 @@ public class SearchController : ControllerBase
             var response = await BuildVectorMatchResponseAsync(tiedIds, lang);
             if (response.Documents.Count > 0)
             {
-                var sharedInfo = await BuildSharedEngineInfoAsync(tiedIds, sharedCarIds, codiceMotore);
+                var sharedVehicles = await BuildSharedEngineVehiclesAsync(tiedIds, sharedCarIds);
                 foreach (var doc in response.Documents)
                 {
                     doc.FoundViaSharedEngine = true;
-                    doc.SharedEngineInfo = sharedInfo;
+                    doc.SharedEngineCodiceMotore = codiceMotore;
+                    doc.SharedEngineVehicles = sharedVehicles;
                 }
             }
             return response;
@@ -264,11 +265,12 @@ public class SearchController : ControllerBase
         if (fallbackDocs.Count == 0) return null;
 
         var response = await BuildDocumentResponseAsync(fallbackDocs, language, queryText);
-        var sharedInfo = await BuildSharedEngineInfoAsync(fallbackDocs, sharedCarIds, codiceMotore);
+        var sharedVehicles = await BuildSharedEngineVehiclesAsync(fallbackDocs, sharedCarIds);
         foreach (var doc in response.Documents)
         {
             doc.FoundViaSharedEngine = true;
-            doc.SharedEngineInfo = sharedInfo;
+            doc.SharedEngineCodiceMotore = codiceMotore;
+            doc.SharedEngineVehicles = sharedVehicles;
         }
         return response;
     }
@@ -282,11 +284,13 @@ public class SearchController : ControllerBase
         return shared.ToList();
     }
 
-    // Builds the "Stesso motore (X): BRAND Model, BRAND Model" message -
-    // only names brands/models that actually produced a matching document,
-    // not every car that merely shares the engine code.
-    private async Task<string> BuildSharedEngineInfoAsync(
-        List<string> matchedDocIds, List<string> sharedCarIds, string codiceMotore)
+    // Collects the brands/models behind a shared-engine result - only those
+    // that actually produced a matching document, not every car that merely
+    // shares the engine code. Returns the raw list; Chat Service turns it
+    // into the mechanic-facing sentence in the conversation's own language
+    // (it used to be formatted into Italian prose right here).
+    private async Task<List<string>> BuildSharedEngineVehiclesAsync(
+        List<string> matchedDocIds, List<string> sharedCarIds)
     {
         var relevantCarIds = new HashSet<string>();
         foreach (var docId in matchedDocIds)
@@ -298,12 +302,11 @@ public class SearchController : ControllerBase
         }
 
         var summaries = await _graphSearch.GetCarSummariesAsync(relevantCarIds);
-        var brandsModels = summaries
+        return summaries
             .Select(c => $"{c.Marca} {c.Modello}")
             .Distinct()
-            .OrderBy(s => s);
-
-        return $"Stesso motore ({codiceMotore}): {string.Join(", ", brandsModels)}";
+            .OrderBy(s => s)
+            .ToList();
     }
 
     // --- Response builders ---

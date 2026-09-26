@@ -22,3 +22,11 @@ build/
 Thumbs.db
 .vscode/
 .idea/
+
+# Sauvegardes locales de la base et des donnees (jamais versionnees)
+# pgdata.backup = copie brute du volume Postgres, ~74 Mo de binaires lies a
+# une version precise du serveur. Le dump portable Data/demo_*.sql.gz le
+# remplace avantageusement et lui EST versionne.
+pgdata.backup/
+Data/resx_samples.original/
+Data/*.original.xlsx

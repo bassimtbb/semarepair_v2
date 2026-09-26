@@ -5,6 +5,7 @@ import { SilenceDetector } from './silence-detector';
 import { SpeechService } from './speech/speech.service';
 import { VoiceCarSelectionService } from './voice-car-selection.service';
 import { t, tCarOption, tCarSelectionPrefix, tCaseOption, tCaseTooMany, tFoundNCases } from './voice-strings';
+import { stripMarkdown } from '../utils/markdown';
 import type { CaseSummary, ChatResponse } from '../models/chat.models';
 
 export type VoiceState = 'idle' | 'listening' | 'transcribing' | 'waiting_response' | 'speaking';
@@ -24,11 +25,19 @@ export type VoiceEngine = 'web' | 'google';
 // BEFORE this function is called, so the §5.6 guard here is a safety net only.
 // The consent gate (including causa/intervento reveal) lives in commitPendingTranscript
 // / speakStoredConsent, not here.
+// r.message is Gemini-written and may carry markdown, which speech engines
+// read aloud ("asterisk asterisk") or stumble over. Applied only to the
+// message field - never to causa/intervento, which is database content the
+// RULE above requires be spoken verbatim.
+function spokenMessage(message: string | null | undefined): string | null {
+  return message ? stripMarkdown(message) : null;
+}
+
 export function buildSpokenText(r: ChatResponse, lang: string): string | null {
   // §5.6 Rule 8 safety net: if a shared-engine response somehow reaches here,
   // speak only the disclosure. The real gate is in handleResponseReady().
   if (r.cases?.[0]?.foundViaSharedEngine === true) {
-    return r.message ?? null;
+    return spokenMessage(r.message);
   }
 
   // §5.4 Car selection
@@ -71,7 +80,7 @@ export function buildSpokenText(r: ChatResponse, lang: string): string | null {
 
   // Rule 8b/8c (low-confidence), Rule 9 (vague), Rule 10 (too many),
   // not_found, redirected — the formatting call always supplies r.message.
-  return r.message ?? null;
+  return spokenMessage(r.message);
 }
 
 // §5.6 Rule 8 consent detection — strict "yes"-equivalent match.
@@ -344,7 +353,7 @@ export class VoiceModeService {
     // instead of being routed to the backend.
     if (response.cases?.[0]?.foundViaSharedEngine === true) {
       this.pendingSharedEngineConsent = response;
-      const disclosure = response.message ?? null;
+      const disclosure = spokenMessage(response.message);
       if (!disclosure) {
         // No disclosure text — stay in consent-pending, listen for "sì".
         this.transitionToListening();

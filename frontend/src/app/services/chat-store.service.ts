@@ -189,14 +189,27 @@ export class ChatStore {
     // is generated frontend-side and is sufficient to key on; the backend
     // needs no turn identifier.
     let assistantMessageId: string | null = null;
+
+    // Falls back to the already-confirmed car so EVERY turn carries it, not
+    // just the turn that confirms it. Backend sessions are in-memory
+    // (SessionStore), so a chat-service restart drops ConfirmedCarId while
+    // this signal (and the pill built from it) survives - the UI then claims
+    // a confirmed vehicle the backend no longer has, and searches go out
+    // unfiltered. RepairOrchestrator's confirmingNewCar compares the
+    // incoming id against session state, so re-sending it re-confirms a lost
+    // session and is a no-op when nothing changed. Not a Rule 1 leak: this
+    // id came from an actual click on a car card, which is what confirmation
+    // means - unlike an engine code the mechanic merely mentioned in passing.
+    const confirmed = carBeingConfirmed ?? this.confirmedCar();
+
     try {
       await this.api.stream(
         {
           sessionId: this.sessionId,
           message: text,
-          confirmedCarId: carBeingConfirmed?.idMacchina,
-          confirmedCodiceMotore: carBeingConfirmed?.codiceMotore,
-          confirmedMarca: carBeingConfirmed?.marca,
+          confirmedCarId: confirmed?.idMacchina,
+          confirmedCodiceMotore: confirmed?.codiceMotore,
+          confirmedMarca: confirmed?.marca,
           language: this.language,
         },
         (event: ChatResponse) => {

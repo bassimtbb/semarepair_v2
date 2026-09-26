@@ -26,6 +26,14 @@ public class GeminiPart
     [JsonPropertyName("functionResponse")] public GeminiFunctionResponse? FunctionResponse { get; set; }
     [JsonPropertyName("inlineData")] public GeminiInlineData? InlineData { get; set; }
 
+    // Opaque token Gemini 3 attaches to model parts (always on functionCall
+    // parts). Not an alternative to the fields above - it rides alongside
+    // them. It must be echoed back verbatim when the model turn is re-sent in
+    // history, otherwise the follow-up call after a tool result fails with
+    // 400 "Function call is missing a thought_signature". RepairOrchestrator
+    // re-sends routingTurn.Content as-is, so round-tripping it here suffices.
+    [JsonPropertyName("thoughtSignature")] public string? ThoughtSignature { get; set; }
+
     public static GeminiPart OfText(string text) => new() { Text = text };
     public static GeminiPart OfFunctionResponse(GeminiFunctionResponse response) => new() { FunctionResponse = response };
     public static GeminiPart OfInlineData(string mimeType, string base64Data) =>

@@ -57,7 +57,7 @@ Then fill in `.env`:
 | Variable | Notes |
 |---|---|
 | `POSTGRES_DB` / `POSTGRES_USER` / `POSTGRES_PASSWORD` | Local defaults in `.env.example` are fine. |
-| `GEMINI_API_KEY` | **Required.** Google AI Studio key (`AIzaSy…` prefix) from aistudio.google.com/app/apikey. Keys starting `AQ.` return 401. Don't restrict it to TTS-only. |
+| `GEMINI_API_KEY` | **Required.** Google AI Studio key from aistudio.google.com/app/apikey. Don't restrict it to TTS-only. |
 | `GOOGLE_CLOUD_TTS_API_KEY` | Optional. A separate Google Cloud key for the ✨ Voice HD button. It can be restricted to the Text-to-Speech API. It stays on the server and never reaches the browser. |
 | `USAGE_DASHBOARD_KEY` | Shared secret for `/usage`. It isn't in `.env.example`, so add it yourself. This only discourages casual access; it isn't real auth. |
 
@@ -90,6 +90,34 @@ there, and runs `docker compose up -d`:
 Both ingestion steps skip work if their tables already have data. To reload,
 `TRUNCATE` `gup_rows` and/or `graph_edges`, `document_embeddings`, and
 `symptom_embeddings`, then run the loaders again.
+
+Note for a *completely* empty database (no `pgdata/` at all): `ingestion-resx`
+calls `register_vector()` before its own `schema.sql` runs, so it fails with
+`vector type not found` on the very first boot. Create the extension once by
+hand first:
+
+```bash
+docker exec semarepair_v2-our-postgres-1 \
+  sh -c 'psql -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "CREATE EXTENSION IF NOT EXISTS vector;"'
+```
+
+### Restoring the demo dataset
+
+`Data/demo_fi0396.sql.gz` is a portable `pg_dump` of the dataset the client
+demo is built on: FIAT Ducato 2.8 JTD 8v (`FI0396`, engine 8140.43S) with its
+64 documents in 5 languages. Restoring it is the fastest way back to a working
+demo — no re-ingestion, no Gemini spend, and it creates the `vector` extension
+itself, so the first-boot problem above does not apply.
+
+```bash
+docker compose up -d our-postgres
+gunzip -c Data/demo_fi0396.sql.gz | docker exec -i semarepair_v2-our-postgres-1 \
+  sh -c 'psql -U "$POSTGRES_USER" -d "$POSTGRES_DB"'
+docker compose up -d
+```
+
+Restore into an empty database: the dump contains `CREATE TABLE` statements and
+will clash with tables that already hold rows.
 
 ## Frontend development
 

@@ -29,7 +29,15 @@ public class DocumentResult
     public string Language { get; set; } = "it";
     public List<FaultCodeInfo> DtcCodes { get; set; } = [];
     public bool FoundViaSharedEngine { get; set; }
-    public string? SharedEngineInfo { get; set; }
+    // Structured, not prose: Chat Service composes the Rule 8 disclosure
+    // itself, as a per-language string, so the transparency notice can never
+    // go missing or come out in the wrong language. These carried a
+    // pre-formatted Italian sentence ("Stesso motore (RHV): FIAT Ducato")
+    // until that moved - which was emitted verbatim whatever lang asked for.
+    // CodiceMotore is the shared engine code; Vehicles holds "MARCA Modello"
+    // for the cars that actually produced a matching document.
+    public string? SharedEngineCodiceMotore { get; set; }
+    public List<string> SharedEngineVehicles { get; set; } = [];
     // Set when the vector search found nothing within MaxRelevantDistance
     // (see SearchController) - this is the nearest document available, not
     // a confirmed match for the symptom described. LowConfidenceReason is

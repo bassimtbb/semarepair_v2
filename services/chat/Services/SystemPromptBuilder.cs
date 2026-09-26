@@ -46,6 +46,18 @@ public static class SystemPromptBuilder
             - A DTC code matches the pattern [P|C|B|U] followed by 4 digits (e.g. P0504,
               C1215, B1024, U1600). If the mechanic's message contains one, call
               SearchByFaultCode - even if a symptom is also described in the same message.
+              That "even if" settles symptom-vs-DTC only. It does NOT outrank vehicle
+              identification: if no car is confirmed yet this session AND the same message
+              also describes a vehicle (brand, model, year, fuel, engine), call FindCar
+              first and remember the code, exactly as the FindCar rule below describes -
+              then repeat the fault-code search once the mechanic confirms which car
+              (Rule 7). Searching a DTC with no confirmed car returns every vehicle in the
+              database whose documents mention it - across brands the mechanic never named -
+              which is why identification comes first when the message gives us the means.
+                "P0380" → SearchByFaultCode (no vehicle described, nothing to identify)
+                "Ho un Citroën Jumper con motore RHV che mi dà il codice P0380"
+                  → FindCar(brand="Citroen", model="Jumper", engineCode="RHV") first,
+                    then replay P0380 after the mechanic confirms
             - If the message names nothing concrete - it only states that something is wrong,
               without saying what or where - do not call any tool. Ask a short clarifying
               question directly, in {languageName}: what system/component is affected, when
@@ -159,7 +171,7 @@ public static class SystemPromptBuilder
     private const string FormattingJsonShape = """{ "message": string | null }""";
 
     // BuildFormatting deliberately receives - and outputs - metadata only
-    // (resultType, count, foundViaSharedEngine/sharedEngineInfo,
+    // (resultType, count, queryText, foundViaSharedEngine,
     // validationMessage, redirectedTo), never the actual repair document
     // body. phase/found/cases/carMatches are all computed deterministically
     // in RepairOrchestrator from the raw tool result instead of being asked
@@ -181,21 +193,35 @@ public static class SystemPromptBuilder
             extra fields, no markdown fences): {FormattingJsonShape}
 
             The metadata you receive may include: resultType ("document" | "car_selection" |
-            "not_found" | "vague" | "redirected"), count, foundViaSharedEngine,
-            sharedEngineInfo, lowConfidenceMatch, lowConfidenceConfirmed, lowConfidenceReason,
+            "not_found" | "vague" | "redirected"), count, queryText (what was searched - the
+            DTC code, the symptom text, or the system name), foundViaSharedEngine,
+            lowConfidenceMatch, lowConfidenceConfirmed, lowConfidenceReason,
             secondarySymptomTried, primarySymptomText, secondarySymptomText, validationMessage,
             redirectedTo - or, for a plain vehicle list (no resultType field at all), just count.
 
             Rules:
             - "message" is null when the result speaks for itself and needs no extra framing:
-              a found document with foundViaSharedEngine false AND lowConfidenceMatch false,
-              or any car/vehicle selection list - UNLESS secondarySymptomTried is true, in
-              which case Rule 8d/9b below always applies instead, even for an otherwise
-              silent result.
-            - Rule 8: if foundViaSharedEngine is true, state plainly, in {languageName}, that
-              no document was found for the mechanic's confirmed vehicle specifically, but one
-              was found for a vehicle sharing the same engine - include the sharedEngineInfo
-              text given to you.
+              a found document with lowConfidenceMatch false, or a PLAIN vehicle list (no
+              resultType field at all - the mechanic just described a vehicle, so a list of
+              matching vehicles needs no explanation) - UNLESS secondarySymptomTried is true,
+              in which case Rule 8d/9b below always applies instead, even for an otherwise
+              silent result. Note this does NOT cover resultType "car_selection", which always
+              gets a message: see Rule 2 below.
+            - Rule 2 (search matched vehicles, not documents): if resultType is
+              "car_selection", the mechanic searched queryText with no vehicle confirmed, so
+              the result is every vehicle whose documentation mentions it - count of them,
+              often across brands the mechanic never named. Without framing this reads as if
+              the assistant changed the subject. State plainly, in {languageName}: what was
+              searched (queryText), that it appears in the documentation of count different
+              vehicles, and ask which one they are working on so the right document can be
+              shown. Do not list the vehicles - the frontend renders them as selectable cards
+              directly below your message.
+            - Rule 8 (shared engine) is NOT your job: when foundViaSharedEngine is true the
+              disclosure is composed deterministically outside this call and prepended to
+              whatever you return, because a mechanic must never see another brand's procedure
+              without being told where it came from. Do not write that disclosure yourself and
+              do not restate it - for a shared-engine document with lowConfidenceMatch false
+              and secondarySymptomTried false, return null and let the disclosure stand alone.
             - Rule 8b: if lowConfidenceMatch is true and lowConfidenceConfirmed is false, do
               NOT describe or reveal any document content - the document is being withheld
               this turn. State plainly, in {languageName}: that no document specifically matches
@@ -224,8 +250,9 @@ public static class SystemPromptBuilder
               name), or when exactly the problem occurs. Do NOT use the same clarifying
               questions as Rule 9 below — that rule is for vague inputs that found nothing;
               this situation is the opposite (found too much). If foundViaSharedEngine is also
-              true, state the shared-engine context from Rule 8 first, then add the
-              too-many-results framing.
+              true, write only the too-many-results framing - the shared-engine disclosure is
+              prepended ahead of it automatically, so restating it would say the same thing
+              twice.
             - Rule 9: if resultType is "vague" and count is 0 (the mechanic's input was too
               vague to search at all), ask the following, translated naturally into
               {languageName} (this is generated clarification text, not extracted mechanic

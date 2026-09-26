@@ -42,9 +42,24 @@
   border-color: var(--color-accent);
 }
 
+/* pre-wrap stays: .text is now [innerHTML]-bound (utils/markdown.ts turns
+   **bold** into real tags), but that renderer deliberately leaves newlines
+   and "- " bullet lines alone, so this is still what lays them out. */
 .text {
   font-size: 14px;
   white-space: pre-wrap;
+}
+
+/* currentColor rather than a fixed value: the assistant bubble inherits
+   --color-foreground while .bubble.user is filled with --color-accent and
+   sets its own --color-accent-foreground, so the same rule reads correctly
+   in both bubbles and both themes without a second selector. */
+.text code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9em;
+  padding: 1px 4px;
+  border-radius: 4px;
+  background: color-mix(in srgb, currentColor 10%, transparent);
 }
 
 /* Car-selection results: responsive grid, 1 column on narrow viewports

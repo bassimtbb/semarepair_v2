@@ -186,7 +186,8 @@ public class RepairOrchestrator
             }
         }
 
-        var resultSummary = BuildResultSummary(rawResult, lowConfidenceConfirmed, secondarySymptomTried, primarySymptomText, secondarySymptomText);
+        var queryText = ExtractQueryText(routingTurn.FunctionCall);
+        var resultSummary = BuildResultSummary(rawResult, lowConfidenceConfirmed, secondarySymptomTried, primarySymptomText, secondarySymptomText, queryText);
         session.History.Add(new GeminiContent
         {
             Role = "user",
@@ -256,7 +257,8 @@ public class RepairOrchestrator
         // ConfirmedCarId alone would wrongly block it. Fires only when NOTHING
         // was confirmed.
         var carConfirmed = session.ConfirmedCarId is not null || session.ConfirmedCodiceMotore is not null;
-        yield return BuildChatResponse(rawResult, message, routingTurn.FunctionCall, request.Language, lowConfidenceConfirmed, carConfirmed);
+        yield return BuildChatResponse(rawResult, message, routingTurn.FunctionCall, request.Language, lowConfidenceConfirmed, carConfirmed,
+            session.ConfirmedCarLabel, queryText);
     }
 
     // phase/found/cases/carMatches are all derived directly from the real
@@ -264,7 +266,8 @@ public class RepairOrchestrator
     // Instance (not static) so the Half B guard can log; carConfirmed is the
     // Rule 1 signal (M1).
     private ChatResponse BuildChatResponse(
-        JsonElement rawResult, string? message, GeminiFunctionCall call, string language, bool lowConfidenceConfirmed, bool carConfirmed)
+        JsonElement rawResult, string? message, GeminiFunctionCall call, string language, bool lowConfidenceConfirmed, bool carConfirmed,
+        string? confirmedCarLabel, string? queryText)
     {
         if (rawResult.ValueKind == JsonValueKind.Object &&
             rawResult.TryGetProperty("cars", out var cars) &&
@@ -351,6 +354,14 @@ public class RepairOrchestrator
             var isLowConfidence = first.ValueKind == JsonValueKind.Object &&
                 first.TryGetProperty("lowConfidenceMatch", out var lc) && lc.ValueKind == JsonValueKind.True;
 
+            // Rule 8 transparency, composed here rather than asked of Gemini:
+            // showing another brand's procedure without saying where it came
+            // from is the one failure this rule exists to prevent, and a
+            // model that silently drops the disclosure once is a mechanic
+            // fitting a FIAT Ducato part to a Citroen. Prepended rather than
+            // substituted so Rule 8c/10's own framing still gets through.
+            message = PrependSharedEngineDisclosure(first, message, confirmedCarLabel, queryText, language);
+
             // Real bug fix (see progress.md section 6.20): a low-confidence
             // match used to be shown immediately, with only the chat text
             // disclaiming it - the document card itself looked just as
@@ -383,12 +394,22 @@ public class RepairOrchestrator
     private static bool IsNotFoundResult(JsonElement rawResult) =>
         GetString(rawResult, "resultType") == "not_found";
 
+    // What the mechanic actually searched for, as it went into the tool call -
+    // the DTC, the cleaned symptom text, or the system name. Needed by the
+    // formatting call's car-selection rule, which has to name the search term
+    // back to the mechanic ("Il codice P0380 compare in N veicoli"); the
+    // metadata blob otherwise carries only counts and flags.
+    private static string? ExtractQueryText(GeminiFunctionCall call) =>
+        GetString(call.Args, "faultCode")
+        ?? GetString(call.Args, "symptom")
+        ?? GetString(call.Args, "systemName");
+
     private static object BuildResultSummary(
         JsonElement rawResult, bool lowConfidenceConfirmed,
-        bool secondarySymptomTried, string? primarySymptomText, string? secondarySymptomText)
+        bool secondarySymptomTried, string? primarySymptomText, string? secondarySymptomText,
+        string? queryText)
     {
         bool foundViaSharedEngine = false;
-        string? sharedEngineInfo = null;
         bool lowConfidenceMatch = false;
         string? lowConfidenceReason = null;
         if (rawResult.ValueKind == JsonValueKind.Object &&
@@ -398,9 +419,13 @@ public class RepairOrchestrator
             var first = docs.EnumerateArray().FirstOrDefault();
             if (first.ValueKind == JsonValueKind.Object)
             {
+                // sharedEngineInfo is deliberately NOT forwarded to Gemini any
+                // more: the Rule 8 disclosure is built deterministically in
+                // BuildSharedEngineDisclosure and prepended in
+                // BuildChatResponse, so the model has nothing to restate. The
+                // flag stays because Rule 10 still needs to know.
                 foundViaSharedEngine = first.TryGetProperty("foundViaSharedEngine", out var f) &&
                     f.ValueKind == JsonValueKind.True;
-                sharedEngineInfo = GetString(first, "sharedEngineInfo");
                 lowConfidenceMatch = first.TryGetProperty("lowConfidenceMatch", out var lc) &&
                     lc.ValueKind == JsonValueKind.True;
                 lowConfidenceReason = GetString(first, "lowConfidenceReason");
@@ -411,8 +436,8 @@ public class RepairOrchestrator
         {
             resultType = GetString(rawResult, "resultType"),
             count = GetInt(rawResult, "count"),
+            queryText,
             foundViaSharedEngine,
-            sharedEngineInfo,
             lowConfidenceMatch,
             lowConfidenceConfirmed,
             lowConfidenceReason,
@@ -685,6 +710,78 @@ public class RepairOrchestrator
             "pt" => $"Não temos um {vehicleLabel} para {requestedYearLabel}, mas temos {yearRangeText}.",
             "es" => $"No tenemos un {vehicleLabel} para {requestedYearLabel}, pero lo tenemos {yearRangeText}.",
             _ => $"Non abbiamo un {vehicleLabel} per il {requestedYearLabel}, ma è disponibile {yearRangeText}.",
+        };
+    }
+
+    // Rule 8 disclosure (docs/SemaRepair_Architecture.md section 5.6). Built
+    // here, deterministically, instead of being left to the formatting call:
+    // the whole point of the rule is that a mechanic is NEVER shown another
+    // brand's procedure without being told, so it can't depend on the model
+    // choosing to mention it. Returns `message` untouched when the document
+    // wasn't found via the shared-engine fallback - a direct hit gets no
+    // disclosure, which is what keeps this quiet on a normal search.
+    //
+    // Reads the structured fields Search Service now sends
+    // (sharedEngineCodiceMotore + sharedEngineVehicles, per DocumentResult);
+    // it used to receive a pre-built Italian sentence and hand it to Gemini
+    // to paraphrase, which was both language-wrong and droppable.
+    private static string? PrependSharedEngineDisclosure(
+        JsonElement firstDoc, string? message, string? confirmedCarLabel, string? queryText, string language)
+    {
+        if (firstDoc.ValueKind != JsonValueKind.Object ||
+            !firstDoc.TryGetProperty("foundViaSharedEngine", out var flag) ||
+            flag.ValueKind != JsonValueKind.True)
+        {
+            return message;
+        }
+
+        var engineCode = GetString(firstDoc, "sharedEngineCodiceMotore");
+        var vehicles = new List<string>();
+        if (firstDoc.TryGetProperty("sharedEngineVehicles", out var v) && v.ValueKind == JsonValueKind.Array)
+            vehicles.AddRange(v.EnumerateArray().Select(e => e.GetString()).Where(s => !string.IsNullOrWhiteSpace(s))!);
+
+        var disclosure = BuildSharedEngineDisclosure(confirmedCarLabel, queryText, engineCode, vehicles, language);
+        return string.IsNullOrWhiteSpace(message) ? disclosure : $"{disclosure}\n\n{message}";
+    }
+
+    // Same shape as BuildVehicleNotFoundMessage above: per-language switch,
+    // Italian as the default arm. Every variable part comes from real data -
+    // the confirmed car's own label, what was searched, and the engine code
+    // Search Service matched on - never a placeholder.
+    private static string BuildSharedEngineDisclosure(
+        string? confirmedCarLabel, string? queryText, string? engineCode, List<string> vehicles, string language)
+    {
+        var vehicleLabel = string.IsNullOrWhiteSpace(confirmedCarLabel)
+            ? BuildVehicleLabel(null, null, language)
+            : confirmedCarLabel;
+
+        // "for your CITROEN Jumper with code P0380" vs. just "for your
+        // CITROEN Jumper" - queryText is null only if the tool was called
+        // with no searchable argument at all, which shouldn't happen but
+        // mustn't produce "with code ".
+        var forQuery = string.IsNullOrWhiteSpace(queryText) ? "" : language switch
+        {
+            "en" => $" with code {queryText}",
+            "fr" => $" avec le code {queryText}",
+            "pt" => $" com o código {queryText}",
+            "es" => $" con el código {queryText}",
+            _ => $" con il codice {queryText}",
+        };
+
+        var engineLabel = string.IsNullOrWhiteSpace(engineCode) ? "" : $" {engineCode}";
+
+        // The vehicles are also rendered as document cards right below, so
+        // naming them here is a summary, not the only place they appear -
+        // and when the list is empty the sentence still stands on its own.
+        var vehicleList = vehicles.Count == 0 ? "" : $" ({string.Join(", ", vehicles)})";
+
+        return language switch
+        {
+            "en" => $"I found no documents for your {vehicleLabel}{forQuery}. I did find documents for other vehicles fitted with the same engine{engineLabel}{vehicleList}:",
+            "fr" => $"Je n'ai trouvé aucun document pour votre {vehicleLabel}{forQuery}. J'ai en revanche trouvé des documents pour d'autres véhicules équipés du même moteur{engineLabel}{vehicleList} :",
+            "pt" => $"Não encontrei documentos para o seu {vehicleLabel}{forQuery}. Encontrei, no entanto, documentos para outros veículos que montam o mesmo motor{engineLabel}{vehicleList}:",
+            "es" => $"No he encontrado documentos para tu {vehicleLabel}{forQuery}. Sí he encontrado documentos para otros vehículos que montan el mismo motor{engineLabel}{vehicleList}:",
+            _ => $"Non ho trovato documenti per il tuo {vehicleLabel}{forQuery}. Ho però trovato documenti per altri veicoli che montano lo stesso motore{engineLabel}{vehicleList}:",
         };
     }
 

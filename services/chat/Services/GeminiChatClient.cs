@@ -14,7 +14,9 @@ namespace ChatService.Services;
 // RepairOrchestrator, not here.
 public class GeminiChatClient
 {
-    private const string Model = "gemini-2.5-flash";
+    // gemini-2.5-flash is closed to new API keys (404 "no longer available to
+    // new users"); gemini-3.6-flash is Google's named replacement.
+    private const string Model = "gemini-3.6-flash";
 
     private static readonly JsonSerializerOptions JsonOptions = new()
     {
@@ -35,13 +37,15 @@ public class GeminiChatClient
     }
 
     // tools is omitted entirely (not sent as an empty array) when null/empty.
-    // temperature=0 + thinkingBudget=0 on the routing call: tool selection and
+    // temperature=0 + minimal thinking on the routing call: tool selection and
     // symptom cleaning require no creativity. temperature=0 alone is not
-    // sufficient for gemini-2.5-flash because the thinking tokens are sampled
-    // independently of the output temperature - the thinking chain can still
-    // vary and sometimes picks "ask for clarification" instead of calling a
-    // tool. Disabling thinking (thinkingBudget=0) removes that source of
-    // non-determinism and makes routing fully greedy. The formatting call
+    // sufficient because the thinking tokens are sampled independently of the
+    // output temperature - the thinking chain can still vary and sometimes
+    // picks "ask for clarification" instead of calling a tool. On 2.5 this was
+    // thinkingBudget=0; Gemini 3 rejects thinkingBudget=0 with a bare 400
+    // INVALID_ARGUMENT, and its equivalent is thinkingLevel="minimal" (thinking
+    // can't be fully turned off on 3.x, so re-check routing determinism after
+    // any model change - RoutingDeterminismTests). The formatting call
     // does NOT get these settings - it generates conversational prose where
     // slight variation is harmless and thinking helps quality.
     // temperature=null / disableThinking=false omits those fields, using the
@@ -74,7 +78,7 @@ public class GeminiChatClient
                     {
                         ResponseMimeType = jsonMode ? "application/json" : null,
                         Temperature = temperature,
-                        ThinkingConfig = disableThinking ? new ThinkingConfig { ThinkingBudget = 0 } : null,
+                        ThinkingConfig = disableThinking ? new ThinkingConfig { ThinkingLevel = "minimal" } : null,
                     }
                 : null,
         };
@@ -163,7 +167,7 @@ public class GeminiChatClient
 
     private class ThinkingConfig
     {
-        [JsonPropertyName("thinkingBudget")] public int ThinkingBudget { get; set; }
+        [JsonPropertyName("thinkingLevel")] public string ThinkingLevel { get; set; } = "";
     }
 
     private class GenerateContentResponse

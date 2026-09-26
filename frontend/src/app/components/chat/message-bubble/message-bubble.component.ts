@@ -2,6 +2,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { CarSelectionListComponent } from '../../cards/car-selection-list/car-selection-list.component';
 import { RepairCaseCardComponent } from '../../cards/repair-case-card/repair-case-card.component';
 import { CaseSummaryCardComponent } from '../../cards/case-summary-card/case-summary-card.component';
+import { renderInlineMarkdown } from '../../../utils/markdown';
 import type { CarOption, CaseSummary, ChatMessage } from '../../../models/chat.models';
 
 const BACK_LABELS: Record<string, string> = {
@@ -20,7 +21,7 @@ const BACK_LABELS: Record<string, string> = {
     <div class="bubble-row" [class.user]="message.role === 'user'">
       <div class="bubble bg-bubble border-border text-foreground" [class.user]="message.role === 'user'">
         @if (message.text) {
-          <div class="text">{{ message.text }}</div>
+          <div class="text" [innerHTML]="renderedText"></div>
         }
 
         @if (message.carMatches && message.carMatches.length > 0) {
@@ -64,6 +65,23 @@ export class MessageBubbleComponent {
   @Output() selectCar = new EventEmitter<CarOption>();
   @Output() selectDoc = new EventEmitter<{ messageId: string; index: number }>();
   @Output() clearDocSelection = new EventEmitter<string>();
+
+  // Memoized on the source text: a getter that rebuilt the string on every
+  // call would hand [innerHTML] a fresh reference each change-detection
+  // cycle, re-running Angular's sanitizer and rewriting the DOM node every
+  // tick. Streaming replaces message.text wholesale (one SSE event = one
+  // full ChatResponse), so a single-entry cache is enough.
+  private renderedSource: string | null = null;
+  private renderedHtml = '';
+
+  get renderedText(): string {
+    const src = this.message.text ?? '';
+    if (src !== this.renderedSource) {
+      this.renderedSource = src;
+      this.renderedHtml = renderInlineMarkdown(src);
+    }
+    return this.renderedHtml;
+  }
 
   get selectedCase(): CaseSummary | null {
     if (this.message.selectedCaseIndex == null || !this.message.cases) return null;
