@@ -238,9 +238,27 @@ public class SearchController : ControllerBase
     private static IEnumerable<TechnicalChunk> CollapseLegends(IEnumerable<TechnicalChunk> chunks)
     {
         var seenLegendDocs = new HashSet<string>();
+        var seenLegendLabels = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         foreach (var c in chunks)
         {
-            if (c.Kind == "legend" && !seenLegendDocs.Add(c.IdDocumento)) continue;
+            if (c.Kind == "legend")
+            {
+                if (!seenLegendDocs.Add(c.IdDocumento)) continue;
+                // Also collapse by component name, not only by document.
+                //
+                // Some legend entries name a part by its rating rather than
+                // its function - "Fusibile 7,5A" appears 16 times across 6
+                // schematics - so they distinguish nothing and repeat as many
+                // times as there are drawings. Asking for "lo schema elettrico
+                // del fusibile F17" returned the correct F17 rating followed
+                // by five identical "Fusibile 7,5A" rows from five unrelated
+                // diagrams, which is noise dressed as five answers.
+                //
+                // When the name is specific ("Centralina Airbag") the closest
+                // diagram is the right one and the rest add nothing either, so
+                // the rule holds in both directions.
+                if (c.Label is { Length: > 0 } label && !seenLegendLabels.Add(label)) continue;
+            }
             yield return c;
         }
     }

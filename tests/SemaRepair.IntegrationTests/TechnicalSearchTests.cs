@@ -126,6 +126,35 @@ public class TechnicalSearchTests
             "A schematic result must carry the id of the PDF that shows it.");
     }
 
+    // Second case from a demo transcript. Some legend entries name a part by
+    // its rating rather than its function - "Fusibile 7,5A" appears 16 times
+    // across 6 schematics - so they distinguish nothing and repeat once per
+    // drawing. Asking for "lo schema elettrico del fusibile F17" returned the
+    // correct rating followed by five identical rows from five unrelated
+    // diagrams: noise dressed as five answers.
+    //
+    // The question is also ill-posed - there is no wiring diagram OF a fuse -
+    // so the bar is not "answer it perfectly" but "do not pad one real answer
+    // with repetition".
+    [Fact]
+    public async Task RepeatedLegendLabels_AreNotReturnedOncePerDiagram()
+    {
+        var root = await QueryAsync("schema elettrico fusibile F17", limit: 10);
+        var chunks = Chunks(root);
+        Assert.NotEmpty(chunks);
+
+        var labels = chunks.Where(c => Str(c, "kind") == "legend")
+                           .Select(c => Str(c, "label"))
+                           .Where(l => !string.IsNullOrEmpty(l))
+                           .ToArray();
+        Assert.Equal(labels.Length, labels.Distinct(StringComparer.OrdinalIgnoreCase).Count());
+
+        // The real answer still leads: F17 is in the fuse table, not on a diagram.
+        var top = chunks.First();
+        Assert.Equal("fact", Str(top, "kind"));
+        Assert.Equal("F17", Str(top, "reference"));
+    }
+
     // Caught by reading an actual demo transcript, not by a test: asking for
     // the airbag diagram returned it at 0.215 AND three unrelated schematics -
     // ABS, ABS+ASR, immobiliser - at 0.292-0.298, all under the 0.30
