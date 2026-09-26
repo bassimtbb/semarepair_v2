@@ -228,6 +228,7 @@ export class ChatStore {
                 text: event.message,
                 carMatches: event.carMatches,
                 cases: event.cases,
+                technicalChunks: event.technicalChunks,
               },
             ]);
           } else {
@@ -240,6 +241,7 @@ export class ChatStore {
                       text: event.message,
                       carMatches: event.carMatches,
                       cases: event.cases,
+                      technicalChunks: event.technicalChunks,
                       // A fresh final result for this turn is not expanded;
                       // drop any stale expansion from an earlier event.
                       selectedCaseIndex: null,

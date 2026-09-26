@@ -50,6 +50,28 @@ export interface FaultCodeInfo {
   description: string | null;
 }
 
+// Extension v2 - an answer to a technical question about the vehicle, as
+// opposed to a repair document. Mirrors ChatService.Models.TechnicalChunk.
+export interface TechnicalChunk {
+  idDocumento: string;
+  language: string;
+  // 'fact'    a value: fuse rating, torque, bulb type, engine spec
+  // 'legend'  a component on a wiring diagram - carries assetId
+  // 'section' a prose procedure
+  // Drives how the card renders; it is also why a single backend tool can
+  // answer three different kinds of question.
+  kind: 'fact' | 'legend' | 'section' | string;
+  heading?: string | null;
+  label?: string | null;
+  value?: string | null;
+  unit?: string | null;
+  reference?: string | null;
+  body?: string | null;
+  // Id of the PDF showing this diagram, served at /assets/pdf/{assetId}.
+  assetId?: string | null;
+  documentTitle?: string | null;
+}
+
 // One SSE "data:" event from POST /api/chat/stream.
 export interface ChatResponse {
   phase: 'identification' | 'chat';
@@ -57,6 +79,7 @@ export interface ChatResponse {
   message?: string | null;
   carMatches: CarOption[];
   cases: CaseSummary[];
+  technicalChunks: TechnicalChunk[];
 }
 
 export type ChatRole = 'user' | 'assistant';
@@ -67,6 +90,7 @@ export interface ChatMessage {
   text?: string | null;
   carMatches?: CarOption[];
   cases?: CaseSummary[];
+  technicalChunks?: TechnicalChunk[];
   isStreaming?: boolean;
   // Index into cases[] of the document currently expanded in the selection
   // list. undefined/null = compact list visible. Set by selectDocument() and

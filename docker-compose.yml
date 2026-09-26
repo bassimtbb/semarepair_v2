@@ -114,6 +114,10 @@ services:
     # the mount target/mechanism changed.
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/templates/default.conf.template:ro
+      # Extension v2: the 7 wiring-diagram PDFs, served straight by nginx.
+      # Read-only, and no service reads them - they are static files, which
+      # is exactly what nginx is for.
+      - ./Data/PDF:/usr/share/semarepair/pdf:ro
     depends_on:
       - chat-service
       - search-service

@@ -1,0 +1,92 @@
+.schema {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--color-background);
+  /* Capped so the frame's shape stays near the page's own. Left wider, the
+     viewer letterboxes a landscape A4 inside a much wider box and the dark
+     backdrop bars end up dominating the bubble - measured in the browser,
+     not guessed. */
+  max-width: 560px;
+}
+
+.schema-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 6px 8px 6px 12px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.schema-title {
+  font-size: 12px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.schema-actions {
+  display: flex;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.schema-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border: none;
+  border-radius: 6px;
+  background: none;
+  cursor: pointer;
+  transition: background-color 0.12s ease;
+}
+
+/* The page's own proportions (841x595, landscape A4), so view=Fit fills the
+   frame instead of letterboxing into it. Combined with the max-width above
+   this lands around 560x396: the whole schematic, recognisable at a glance,
+   without pushing the rest of the conversation off screen. The fullscreen
+   control is there for actually working from it. */
+.schema-frame {
+  width: 100%;
+  aspect-ratio: 841 / 595;
+  border: none;
+  display: block;
+  /* White regardless of theme: these are line drawings on white, and a dark
+     backdrop shows as a grey band around the page rather than blending. */
+  background: #ffffff;
+}
+
+/* Applies both under the real Fullscreen API and as the CSS-only fallback
+   when that API is unavailable or refused. */
+.schema.fullscreen {
+  border-radius: 0;
+  border: none;
+}
+
+.schema.fullscreen {
+  /* The cap above is a chat-bubble concern; fullscreen wants the screen. */
+  max-width: none;
+}
+
+.schema.fullscreen .schema-frame {
+  /* Fills whatever the fullscreen element was given, minus the bar. */
+  aspect-ratio: auto;
+  height: calc(100vh - 39px);
+}
+
+/* The CSS-only fallback: without the API there is no fullscreen element, so
+   the class has to do the positioning itself. :not(:fullscreen) keeps this
+   from fighting the real thing when both are in play. */
+.schema.fullscreen:not(:fullscreen) {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: var(--color-background);
+}

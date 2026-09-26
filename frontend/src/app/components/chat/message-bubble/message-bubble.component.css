@@ -98,3 +98,12 @@
 .back-btn:hover {
   color: var(--color-foreground);
 }
+
+/* Technical answers stack like the document list: several fuses, torques or
+   bulbs can all be correct answers to one question, so they are shown
+   together rather than one being picked. */
+.tech-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

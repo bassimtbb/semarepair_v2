@@ -2,6 +2,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { CarSelectionListComponent } from '../../cards/car-selection-list/car-selection-list.component';
 import { RepairCaseCardComponent } from '../../cards/repair-case-card/repair-case-card.component';
 import { CaseSummaryCardComponent } from '../../cards/case-summary-card/case-summary-card.component';
+import { TechnicalAnswerCardComponent } from '../../cards/technical-answer-card/technical-answer-card.component';
 import { renderInlineMarkdown } from '../../../utils/markdown';
 import type { CarOption, CaseSummary, ChatMessage } from '../../../models/chat.models';
 
@@ -16,12 +17,20 @@ const BACK_LABELS: Record<string, string> = {
 @Component({
   selector: 'app-message-bubble',
   standalone: true,
-  imports: [CarSelectionListComponent, RepairCaseCardComponent, CaseSummaryCardComponent],
+  imports: [CarSelectionListComponent, RepairCaseCardComponent, CaseSummaryCardComponent, TechnicalAnswerCardComponent],
   template: `
     <div class="bubble-row" [class.user]="message.role === 'user'">
       <div class="bubble bg-bubble border-border text-foreground" [class.user]="message.role === 'user'">
         @if (message.text) {
           <div class="text" [innerHTML]="renderedText"></div>
+        }
+
+        @if (message.technicalChunks && message.technicalChunks.length > 0) {
+          <div class="cards tech-list">
+            @for (chunk of message.technicalChunks; track $index) {
+              <app-technical-answer-card [chunk]="chunk" />
+            }
+          </div>
         }
 
         @if (message.carMatches && message.carMatches.length > 0) {
