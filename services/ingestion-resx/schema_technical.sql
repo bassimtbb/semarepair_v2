@@ -50,6 +50,14 @@ CREATE TABLE IF NOT EXISTS knowledge_chunks (
 CREATE INDEX IF NOT EXISTS idx_chunks_doc  ON knowledge_chunks (id_documento, language);
 CREATE INDEX IF NOT EXISTS idx_chunks_kind ON knowledge_chunks (kind, language);
 
+-- Matches idx_doc_emb_hnsw / idx_sym_emb_hnsw in schema.sql - same method,
+-- same operator class, because the search uses the same <=> cosine distance.
+-- At 1 252 rows the planner picks a sequential scan either way and this
+-- changes nothing measurable; it is here so the table does not become the one
+-- embedding table without an index the day a real archive is loaded.
+CREATE INDEX IF NOT EXISTS idx_chunks_hnsw ON knowledge_chunks
+    USING hnsw (embedding vector_cosine_ops);
+
 -- Lets a re-run replace a document's chunks without duplicating them, and
 -- makes the seeder's ON CONFLICT clause possible. reference/label can repeat
 -- within a document (two fuse boxes both list an "F01"), so heading is part

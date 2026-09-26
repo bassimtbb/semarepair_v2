@@ -42,4 +42,43 @@ public class RoutingDeterminismTests
         Assert.True(routedToSymptom == Runs,
             $"Routing was not deterministic: only {routedToSymptom}/{Runs} runs routed to SearchBySymptom. Non-symptom runs: {string.Join("; ", failures)}");
     }
+
+    // Written BEFORE the technical-search tool exists, on purpose.
+    //
+    // That tool (docs/Architecture_Extension_v2.md section 5) adds a fifth
+    // option to a routing prompt that currently has four, and its whole job is
+    // to catch questions containing words like "fusibile", "coppia",
+    // "schema". The failure mode is therefore precise and predictable: a
+    // message that names a component but describes a FAULT gets handed to the
+    // new tool, which answers with a fuse rating instead of a repair sheet -
+    // and the mechanic silently loses the diagnosis.
+    //
+    // These phrases all name something technical and all describe something
+    // broken. They must keep reaching the diagnostic endpoints. Passing today
+    // proves nothing; the value is that they turn red the day the new tool
+    // over-reaches, which is exactly when nobody would be looking.
+    [Theory]
+    [InlineData("il fusibile dell'ABS si brucia sempre")]
+    [InlineData("la spia airbag resta accesa")]
+    [InlineData("perdo liquido di raffreddamento dal radiatore")]
+    public async Task FaultPhrasedWithATechnicalWord_StaysOnTheDiagnosticPath(string message)
+    {
+        var since = TestEnv.NowUnix() - 2;
+        var events = await ChatClient.SendAsync(message, ChatClient.FreshSession("trap"), "it");
+        Assert.NotEmpty(events);
+
+        await Task.Delay(400); // let the search-service request log flush
+        var logs = TestEnv.SearchLogsSince(since);
+
+        var hitDiagnostic = logs.Contains("/api/search/symptom")
+                         || logs.Contains("/api/search/fault-code")
+                         || logs.Contains("/api/search/system");
+        var hitTechnical = logs.Contains("/api/search/technical");
+
+        Assert.True(hitDiagnostic && !hitTechnical,
+            $"\"{message}\" describes a fault but was routed to the technical-information path. " +
+            $"diagnosticEndpoint={hitDiagnostic} technicalEndpoint={hitTechnical}. " +
+            "Tighten the routing rule rather than relaxing this test - it is the guard " +
+            "against the extension eating the product's original job.");
+    }
 }

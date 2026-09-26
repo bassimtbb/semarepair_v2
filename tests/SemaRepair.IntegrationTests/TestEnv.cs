@@ -45,4 +45,41 @@ public static class TestEnv
     }
 
     public static long NowUnix() => DateTimeOffset.UtcNow.ToUnixTimeSeconds();
+
+    public static string PostgresContainer =>
+        Environment.GetEnvironmentVariable("SEMAREPAIR_PG_CONTAINER") ?? "semarepair_v2-our-postgres-1";
+
+    // Runs a scalar query against the seeded database, through docker exec -
+    // same shape as SearchLogsSince above, and for the same reason: the
+    // harness already assumes a running compose stack, so shelling into it is
+    // cheaper and less brittle than adding a database driver and a second
+    // source of connection configuration.
+    //
+    // Exists so a test can state the dataset it needs instead of failing when
+    // that dataset is swapped. The documents behind BoundaryTieTests came from
+    // a multi-vehicle sample; the FI0396 delivery does not contain them.
+    public static string Scalar(string sql)
+    {
+        var psi = new ProcessStartInfo("docker",
+            $"exec {PostgresContainer} sh -c \"psql -U \\$POSTGRES_USER -d \\$POSTGRES_DB -t -A -c '{sql}'\"")
+        {
+            RedirectStandardOutput = true,
+            RedirectStandardError = true,
+            UseShellExecute = false,
+        };
+        using var p = Process.Start(psi)!;
+        var stdout = p.StandardOutput.ReadToEnd();
+        p.WaitForExit(15000);
+        return stdout.Trim();
+    }
+
+    public static bool DocumentsExist(params string[] ids)
+    {
+        // Doubled single quotes: the whole psql -c argument is already inside
+        // single quotes in the docker exec line above. These ids are test
+        // constants, never user input.
+        var literals = string.Join(",", ids.Select(i => $"''{i}''"));
+        var sql = $"SELECT count(DISTINCT id_documento) FROM documents WHERE id_documento IN ({literals})";
+        return int.TryParse(Scalar(sql), out var n) && n == ids.Length;
+    }
 }

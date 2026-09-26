@@ -50,35 +50,71 @@ def main():
             print("No technical chunks parsed - nothing to load.")
             return
 
-        # Replace per (document, language) rather than truncating the table:
-        # a partial folder must never silently wipe chunks it does not cover.
+        # Insert-then-prune, NOT delete-then-insert.
+        #
+        # The obvious version deleted each covered (document, language) pair
+        # and re-inserted it, which also threw away the embedding column: one
+        # re-run destroyed 1 252 vectors, 324 seconds and the money already
+        # spent on them. Since the parser gets tuned repeatedly, that cost
+        # would have been paid over and over.
+        #
+        # So: add what is new, drop only what the folder no longer produces,
+        # and leave unchanged rows - with their vectors - untouched. The
+        # identity index defines "unchanged"; a chunk whose text differs in
+        # any field is a different row and correctly gets re-embedded.
         pairs = sorted({(c["id_documento"], c["language"]) for c in chunks})
-        with conn.cursor() as cur:
-            cur.execute(
-                "DELETE FROM knowledge_chunks WHERE (id_documento, language) IN %s",
-                (tuple(pairs),),
-            )
-            deleted = cur.rowcount
+        values = [tuple(c.get(col) for col in COLUMNS) for c in chunks]
 
-            values = [tuple(c.get(col) for col in COLUMNS) for c in chunks]
+        with conn.cursor() as cur:
+            cur.execute("SELECT count(*) FROM knowledge_chunks "
+                        "WHERE (id_documento, language) IN %s", (tuple(pairs),))
+            before = cur.fetchone()[0]
+
+            cur.execute("""
+                CREATE TEMP TABLE incoming_chunks
+                (LIKE knowledge_chunks INCLUDING DEFAULTS) ON COMMIT DROP
+            """)
             execute_values(
                 cur,
-                f"INSERT INTO knowledge_chunks ({', '.join(COLUMNS)}) VALUES %s "
-                f"ON CONFLICT DO NOTHING",
+                f"INSERT INTO incoming_chunks ({', '.join(COLUMNS)}) VALUES %s",
                 values,
             )
-            # execute_values sends the rows in pages, so cur.rowcount holds
-            # the last page's count, not the total - it read "52 inserted" on
-            # a 1252-row load. Count the rows back instead.
-            cur.execute(
-                "SELECT count(*) FROM knowledge_chunks WHERE (id_documento, language) IN %s",
-                (tuple(pairs),),
-            )
-            inserted = cur.fetchone()[0]
+
+            cur.execute(f"""
+                INSERT INTO knowledge_chunks ({', '.join(COLUMNS)})
+                SELECT {', '.join(COLUMNS)} FROM incoming_chunks
+                ON CONFLICT DO NOTHING
+            """)
+
+            # Anything this folder no longer produces, within the pairs it
+            # covers. Scoped to those pairs so a partial folder can never wipe
+            # documents it says nothing about.
+            cur.execute("""
+                DELETE FROM knowledge_chunks k
+                WHERE (k.id_documento, k.language) IN %s
+                  AND NOT EXISTS (
+                      SELECT 1 FROM incoming_chunks i
+                      WHERE i.id_documento = k.id_documento
+                        AND i.language = k.language
+                        AND i.kind = k.kind
+                        AND COALESCE(i.heading,'')   = COALESCE(k.heading,'')
+                        AND COALESCE(i.reference,'') = COALESCE(k.reference,'')
+                        AND COALESCE(i.label,'')     = COALESCE(k.label,'')
+                        AND COALESCE(i.value,'')     = COALESCE(k.value,'')
+                        AND COALESCE(i.unit,'')      = COALESCE(k.unit,'')
+                        AND COALESCE(i.body,'')      = COALESCE(k.body,'')
+                  )
+            """, (tuple(pairs),))
+            pruned = cur.rowcount
+
+            cur.execute("SELECT count(*), count(embedding) FROM knowledge_chunks "
+                        "WHERE (id_documento, language) IN %s", (tuple(pairs),))
+            after, with_vectors = cur.fetchone()
         conn.commit()
 
-        print(f"Replaced {deleted} existing chunks with {inserted} new ones "
-              f"({len(values)} parsed, {len(values) - inserted} duplicates dropped) "
+        print(f"{len(values)} parsed -> {after} chunks stored "
+              f"({after - before + pruned} added, {pruned} pruned), "
+              f"{with_vectors} keep their embedding, "
               f"across {len(pairs)} document/language pairs.")
 
         with conn.cursor() as cur:

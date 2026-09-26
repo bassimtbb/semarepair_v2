@@ -22,12 +22,30 @@ public class BoundaryTieTests
     // The documented §21 boundary query - positions 199309673/199309676 at
     // ranks 5-6, inside the 0.02 tie window. Contains no system/device name, so
     // the endpoint takes the full-table Type-4 path (not a narrowed search).
+    // The tied pair: identical anomalia text, so any query ranks them equal.
+    private const string TiedDocumentA = "199309673";
+    private const string TiedDocumentB = "199309676";
+
     private const string BoundaryQuery =
         "Notevole calo di prestazioni e potenza con accensione spia avaria motore sul cruscotto";
 
-    [Fact]
+    // The two documents this test is built on came from the earlier
+    // multi-vehicle sample. The FI0396 delivery does not contain them, so on
+    // that dataset there is no straddling tie to detect and the test has no
+    // subject - it was failing for that reason alone, which quietly cost the
+    // suite its meaning: a permanently red run is a run nobody reads, and a
+    // genuine regression would have hidden behind it.
+    //
+    // SkippableFact reports "skipped, and why" instead. The fix itself is
+    // untouched; this only stops asserting it on data that cannot exercise it.
+    [SkippableFact]
     public async Task BoundaryTie_ReQuery_FiresForStraddlingTie()
     {
+        Skip.IfNot(TestEnv.DocumentsExist(TiedDocumentA, TiedDocumentB),
+            $"Dataset does not contain documents {TiedDocumentA}/{TiedDocumentB}, whose " +
+            "byte-identical anomalia text is what produces the straddling tie. " +
+            "Nothing to assert - this is not a regression of the fix.");
+
         var since = TestEnv.NowUnix() - 2;
 
         var url = $"/api/search/symptom?q={Uri.EscapeDataString(BoundaryQuery)}&lang=it";
