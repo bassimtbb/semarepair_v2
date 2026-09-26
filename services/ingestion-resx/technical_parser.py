@@ -31,6 +31,20 @@ from typing import Optional
 import xml.etree.ElementTree as ET
 
 TAG_RE = re.compile(r'<[^>]+>')
+BR_RE = re.compile(r'<\s*BR\s*/?\s*>', re.IGNORECASE)
+LI_RE = re.compile(r'<\s*LI\s*/?\s*>', re.IGNORECASE)
+
+# Built from chr() rather than written as escapes: this file gets edited
+# through shell heredocs, where a literal backslash-n has twice been
+# turned into a real newline before reaching disk.
+NL = chr(10)
+BULLET = chr(8226) + ' '
+HORIZ_WS = '[ ' + chr(9) + ']+'
+PAD_AROUND_NL = ' *' + NL + ' *'
+BLANK_RUN = NL + '{3,}'
+# The source puts a <BR/> after every <LI>, which would leave a blank line
+# between consecutive steps. A numbered procedure reads better tight.
+BLANK_BEFORE_BULLET = NL + NL + chr(8226)
 FILENAME_RE = re.compile(r'^(\d+)_([A-Za-z]{2})\.resx$')
 
 # Mirrors resx_parser.FILENAME_RE's language handling, but as an allow-list:
@@ -47,10 +61,41 @@ EMPTY_VALUES = {'', '- -', '0'}
 def _clean(text: Optional[str]) -> Optional[str]:
     """Strips markup and collapses whitespace. Same contract as
     resx_parser._clean, duplicated rather than imported so a change made for
-    the GUP path can never silently alter this one."""
+    the GUP path can never silently alter this one.
+
+    For short fields - a title, a component name - flattening is right. Prose
+    bodies use _clean_body instead."""
     text = TAG_RE.sub(' ', text or '')
     text = re.sub(r'\s+', ' ', text).strip()
     return text if text and text not in EMPTY_VALUES else None
+
+
+def _clean_body(text: Optional[str]) -> Optional[str]:
+    """Like _clean, but keeps the line structure the source actually carries.
+
+    These chapters are procedures, and their layout is meaning: the service
+    reset is eight ordered steps, not a paragraph. Flattening them the way
+    _clean does produced a wall of text a mechanic cannot follow while
+    standing at a vehicle - "Inserire l'accensione Premere piu volte il
+    pulsante 1 fino a quando nel display 2 appare il chilometraggio totale
+    Premere e mantenere premuto..."
+
+    The markup says exactly where the breaks are: <BR/> ends a line, <LI>
+    starts a step. Everything else is dropped as before. Only horizontal
+    whitespace is collapsed, so a step never loses its own spacing, and runs
+    of blank lines are capped at one so the source's generous <BR/><BR/>
+    padding does not turn into gaps."""
+    if not text:
+        return None
+    s = BR_RE.sub(NL, text)
+    s = LI_RE.sub(NL + BULLET, s)
+    s = TAG_RE.sub('', s)
+    s = re.sub(HORIZ_WS, ' ', s)
+    s = re.sub(PAD_AROUND_NL, NL, s)
+    s = re.sub(BLANK_RUN, NL + NL, s)
+    s = re.sub(BLANK_BEFORE_BULLET, NL + chr(8226), s)
+    s = s.strip()
+    return s if s and s not in EMPTY_VALUES else None
 
 
 def _field(el: ET.Element, name: str) -> Optional[str]:
@@ -151,7 +196,7 @@ def _sections(doc: ET.Element, doc_title: Optional[str], type_label: Optional[st
     to the document's, so the chunk is never anonymous in a result list."""
     chunks = []
     for cap in doc.findall('XCAPITOLO'):
-        body = _clean(cap.findtext('Corpo'))
+        body = _clean_body(cap.findtext('Corpo'))
         if not body:
             continue
         heading = _field(cap, 'Capitolo') or doc_title
@@ -164,7 +209,11 @@ def _sections(doc: ET.Element, doc_title: Optional[str], type_label: Optional[st
             'reference': _field(cap, 'Ordine'),
             'body': body,
             'asset_id': None,
-            'search_text': _search_text(type_label, doc_title, heading, body),
+            # Flattened for the embedding - line breaks help a reader, not a
+            # vector - so improving the body's layout does not force a
+            # re-embedding of text that has not actually changed.
+            'search_text': _search_text(type_label, doc_title, heading,
+                                        re.sub(r'\s+', ' ', body)),
         })
     return chunks
 
