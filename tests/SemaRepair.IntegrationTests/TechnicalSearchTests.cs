@@ -1,4 +1,5 @@
 using System.Net;
+using System.Text.RegularExpressions;
 using System.Text.Json;
 
 namespace SemaRepair.IntegrationTests;
@@ -124,6 +125,34 @@ public class TechnicalSearchTests
         Assert.Contains("Airbag", Str(top, "heading") ?? "", StringComparison.OrdinalIgnoreCase);
         Assert.False(string.IsNullOrEmpty(Str(top, "assetId")),
             "A schematic result must carry the id of the PDF that shows it.");
+    }
+
+    // A legend row that names a part by its rating identifies nothing: every
+    // schematic has a 7.5 A fuse somewhere. Left in, "mostrami lo schema
+    // elettrico del fusibile F17" rendered an entire ABS diagram in the
+    // conversation, pointing at its F03 - on screen far worse than a stray
+    // line of text, because it is a large and confident picture of the wrong
+    // thing.
+    //
+    // Asserts on rendered content rather than on the filter, so the rule can
+    // be re-expressed without rewriting the test.
+    [Theory]
+    [InlineData("schema elettrico fusibile F17")]
+    [InlineData("quale fusibile protegge la centralina ABS")]
+    public async Task NoDiagramIsShownForAFuseRatingAlone(string question)
+    {
+        var root = await QueryAsync(question, limit: 10);
+        var chunks = Chunks(root);
+        Assert.NotEmpty(chunks);
+
+        Assert.All(chunks, c =>
+        {
+            if (Str(c, "kind") != "legend") return;
+            var label = Str(c, "label") ?? "";
+            Assert.False(Regex.IsMatch(label, @"^\s*\D*\d+(?:[.,]\d+)?\s*A\D*\s*$",
+                                       RegexOptions.IgnoreCase),
+                $"A diagram was shown whose only caption is a rating: \"{label}\".");
+        });
     }
 
     // Second case from a demo transcript. Some legend entries name a part by

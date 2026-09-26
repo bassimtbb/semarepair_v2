@@ -1,3 +1,4 @@
+using System.Text.RegularExpressions;
 using Microsoft.AspNetCore.Mvc;
 using SearchService.Models;
 using SearchService.Services;
@@ -210,7 +211,10 @@ public class SearchController : ControllerBase
         // five both sit under 0.30.
         var best = withinThreshold.Min(c => c.Distance);
         var relevant = PreferAnswers(
-                CollapseLegends(withinThreshold.Where(c => c.Distance <= best + TechnicalRelativeWindow)))
+                CollapseLegends(
+                    withinThreshold
+                        .Where(c => c.Distance <= best + TechnicalRelativeWindow)
+                        .Where(IsUsableAnswer)))
             .Take(capped)
             .ToList();
         if (relevant.Count == 0) return new TechnicalResponse();
@@ -222,6 +226,36 @@ public class SearchController : ControllerBase
             Chunks = relevant,
         };
     }
+
+    // Matches a legend entry whose label is nothing but an electrical rating:
+    // "Fusibile 7,5A", "7.5A fuse", "Fusibile 50A". Deliberately keyed off
+    // the rating rather than the noun, so it holds in every language.
+    // Qualified via the using above rather than inline: this controller has
+    // an action called System(), which shadows the namespace of the same name.
+    private static readonly Regex BareRatingLabel =
+        new(@"^\s*\D*\d+(?:[.,]\d+)?\s*A\D*\s*$",
+            RegexOptions.IgnoreCase | RegexOptions.Compiled);
+
+    // A legend row that names a part by its rating identifies nothing: every
+    // schematic has a 7.5 A fuse somewhere, so "Fusibile 7,5A" - which occurs
+    // 16 times across 6 drawings - can never be the answer to a question.
+    //
+    // Found because "mostrami lo schema elettrico del fusibile F17" rendered
+    // an entire ABS diagram in the conversation, pointing at its F03. On
+    // screen that is far worse than a stray line of text: a large, confident
+    // picture of the wrong thing.
+    //
+    // Only legends are filtered. The same rating on a `fact` IS the answer -
+    // "F17 · Centralina Iniezione · 5 (A)" is exactly what was asked for -
+    // and there it lives in `value`, not in the label.
+    //
+    // Checked against the data: these are the only legend labels containing a
+    // digit at all, in either language the schematics exist in, so the rule
+    // has no false positives here.
+    private static bool IsUsableAnswer(TechnicalChunk c) =>
+        c.Kind != "legend"
+        || string.IsNullOrWhiteSpace(c.Label)
+        || !BareRatingLabel.IsMatch(c.Label);
 
     // A wiring diagram's answer is the diagram, not one row of its legend.
     // Without this, "schema elettrico airbag" returns eight near-identical
