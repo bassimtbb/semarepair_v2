@@ -41,4 +41,27 @@ public class Rule1GateTests
         // 'found document' turn.
         Assert.DoesNotContain(events, e => e.Phase == "chat" && e.CaseCount > 0);
     }
+
+    // A technical question with no confirmed vehicle must ask WHICH vehicle.
+    //
+    // It used to fall through to the vague-symptom path and reply "describe
+    // it better - which warning light is on? do you have a fault code?" The
+    // mechanic had not reported a problem; they asked what a fuse is rated
+    // at, so the advice was not merely useless but pointed at a dead end -
+    // while a diagnostic search in the same position offers a vehicle list.
+    [Fact]
+    public async Task TechnicalQuestion_NoConfirmedCar_AsksForTheVehicle()
+    {
+        var events = await ChatClient.SendAsync(
+            "Quale fusibile protegge la centralina ABS?",
+            ChatClient.FreshSession("tech-nocar"), "it");
+        Assert.NotEmpty(events);
+
+        var last = events[^1];
+        Assert.Equal(0, last.CaseCount);
+
+        var message = last.Root.TryGetProperty("message", out var m) ? m.GetString() ?? "" : "";
+        Assert.Contains("veicolo", message, StringComparison.OrdinalIgnoreCase);
+        Assert.DoesNotContain("spia", message, StringComparison.OrdinalIgnoreCase);
+    }
 }

@@ -127,6 +127,21 @@ public class TechnicalSearchTests
             "A schematic result must carry the id of the PDF that shows it.");
     }
 
+    // Naming a reference narrows the answer to it. "Dove si trova il fusibile
+    // F17" returned F17 and then F16, the immobiliser fuse, which sat 0.029
+    // away - inside the relative window by a hair. No threshold fixes that
+    // honestly: F16 is a perfectly good chunk that simply was not asked about.
+    [Fact]
+    public async Task NamingAReference_ExcludesTheOtherOnes()
+    {
+        var root = await QueryAsync("dove si trova il fusibile F17", limit: 10);
+        var refs = Chunks(root).Select(c => Str(c, "reference"))
+                               .Where(r => !string.IsNullOrEmpty(r))
+                               .ToArray();
+        Assert.NotEmpty(refs);
+        Assert.All(refs, r => Assert.Equal("F17", r));
+    }
+
     // A legend row that names a part by its rating identifies nothing: every
     // schematic has a 7.5 A fuse somewhere. Left in, "mostrami lo schema
     // elettrico del fusibile F17" rendered an entire ABS diagram in the

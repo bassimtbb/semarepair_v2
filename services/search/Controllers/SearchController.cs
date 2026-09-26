@@ -212,9 +212,11 @@ public class SearchController : ControllerBase
         var best = withinThreshold.Min(c => c.Distance);
         var relevant = PreferAnswers(
                 CollapseLegends(
-                    withinThreshold
-                        .Where(c => c.Distance <= best + TechnicalRelativeWindow)
-                        .Where(IsUsableAnswer)))
+                    NarrowToNamedReferences(
+                        withinThreshold
+                            .Where(c => c.Distance <= best + TechnicalRelativeWindow)
+                            .Where(IsUsableAnswer),
+                        q)))
             .Take(capped)
             .ToList();
         if (relevant.Count == 0) return new TechnicalResponse();
@@ -225,6 +227,42 @@ public class SearchController : ControllerBase
             Count = relevant.Count,
             Chunks = relevant,
         };
+    }
+
+    // A reference mark as a mechanic writes one: F17, H1, S12, D2. Two
+    // letters at most, so it cannot swallow ordinary words, and it requires
+    // digits, so it cannot match "ABS". Bare numbers are deliberately
+    // excluded - some legends are numbered 1, 9, 12, and a question
+    // mentioning "2.8 JTD" must not be read as naming reference 2.
+    private static readonly Regex NamedReference =
+        new(@"\b([A-Za-z]{1,2}\d{1,3})\b", RegexOptions.Compiled);
+
+    // When the question names a specific reference, results carrying a
+    // different one are answering a different question.
+    //
+    // "Dove si trova il fusibile F17" returned F17 and then F16, the
+    // immobiliser fuse, which sat 0.029 away - inside the relative window by
+    // a hair. No threshold fixes that honestly: F16 is a perfectly good chunk
+    // that simply was not asked about.
+    //
+    // Only applies when the question names a reference AND something matches
+    // it, so a question that names none is untouched, and one whose reference
+    // matches nothing still gets the closest answers rather than silence.
+    // Chunks with no reference at all are kept: a procedure or an engine spec
+    // can still be the answer to a question that mentions a fuse.
+    private static IEnumerable<TechnicalChunk> NarrowToNamedReferences(
+        IEnumerable<TechnicalChunk> chunks, string query)
+    {
+        var named = NamedReference.Matches(query)
+            .Select(m => m.Groups[1].Value)
+            .ToHashSet(StringComparer.OrdinalIgnoreCase);
+        if (named.Count == 0) return chunks;
+
+        var list = chunks.ToList();
+        var matches = list.Where(c => c.Reference is not null && named.Contains(c.Reference)).ToList();
+        if (matches.Count == 0) return list;
+
+        return list.Where(c => c.Reference is null || named.Contains(c.Reference));
     }
 
     // Matches a legend entry whose label is nothing but an electrical rating:

@@ -330,9 +330,31 @@ public class RepairOrchestrator
             };
         }
 
-        // Extension v2: a technical result carries neither cars nor documents,
-        // so without this branch it would fall through to the generic
-        // "nothing found" return below and the chunks would be dropped.
+        // Extension v2: a technical question with no confirmed vehicle has one
+        // right answer - ask which vehicle - and the generic path gives the
+        // wrong one. /api/search/technical requires codiceMotore, so an
+        // unconfirmed turn comes back empty and falls through to the
+        // not_found branch, where Rule 9 tells the mechanic to describe the
+        // problem better and asks which warning light is on. They did not
+        // report a problem; they asked what a fuse is rated at. The advice is
+        // not merely useless, it points at a dead end.
+        //
+        // A diagnostic search in the same position offers a vehicle list, so
+        // this also removes an inconsistency the mechanic would feel before
+        // they could name it.
+        if (call.Name == "SearchTechnicalInfo" && !carConfirmed)
+        {
+            return new ChatResponse
+            {
+                Phase = "identification",
+                Found = false,
+                Message = IdentifyVehicleFirstMessage(language),
+            };
+        }
+
+        // A technical result carries neither cars nor documents, so without
+        // this branch it would fall through to the generic "nothing found"
+        // return below and the chunks would be dropped.
         if (rawResult.ValueKind == JsonValueKind.Object &&
             rawResult.TryGetProperty("chunks", out var chunks) &&
             chunks.ValueKind == JsonValueKind.Array &&
