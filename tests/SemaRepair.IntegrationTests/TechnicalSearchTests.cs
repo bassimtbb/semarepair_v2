@@ -126,6 +126,28 @@ public class TechnicalSearchTests
             "A schematic result must carry the id of the PDF that shows it.");
     }
 
+    // Caught by reading an actual demo transcript, not by a test: asking for
+    // the airbag diagram returned it at 0.215 AND three unrelated schematics -
+    // ABS, ABS+ASR, immobiliser - at 0.292-0.298, all under the 0.30
+    // threshold. They scored close because every schematic's indexed text now
+    // begins with "Schema Elettrico", so the words the question shares with
+    // all of them outweighed the one word that tells them apart.
+    //
+    // A fixed threshold cannot separate "one right answer" from "several";
+    // the relative window can. This asserts the outcome - ask for one
+    // diagram, get one diagram - rather than the window's value, so the
+    // constant can be re-tuned without rewriting the test.
+    [Fact]
+    public async Task AskingForOneDiagram_DoesNotReturnTheOtherSchematics()
+    {
+        var root = await QueryAsync("schema elettrico airbag", limit: 10);
+        var legends = Chunks(root).Where(c => Str(c, "kind") == "legend").ToArray();
+
+        Assert.NotEmpty(legends);
+        Assert.All(legends, c =>
+            Assert.Contains("Airbag", Str(c, "heading") ?? "", StringComparison.OrdinalIgnoreCase));
+    }
+
     // Caught in English, where four content-free "7.5A fuse" legend rows
     // scored 0.268-0.277 and pushed the real answer (0.271) to third place,
     // while the Italian phrasing of the same question ranked it first. A

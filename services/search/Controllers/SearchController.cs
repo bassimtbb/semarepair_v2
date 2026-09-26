@@ -46,6 +46,22 @@ public class SearchController : ControllerBase
     // it upward to rescue a single query.
     private const double MaxTechnicalDistance = 0.30;
 
+    // How far behind the best match a chunk may sit and still be shown.
+    //
+    // Needed because the absolute threshold alone cannot separate "one right
+    // answer" from "several": asking for the airbag wiring diagram returned
+    // the airbag schematic at 0.215 AND three unrelated ones - ABS, ABS+ASR,
+    // immobiliser - at 0.292-0.298, all under 0.30. They scored close because
+    // every schematic's indexed text now begins with "Schema Elettrico", so
+    // the words shared by the question outweighed the one word that
+    // distinguishes them.
+    //
+    // Measured over 8 questions with a known number of right answers,
+    // comparing windows of 0.03 to 0.08: 0.03 tracks the expected counts best
+    // by a clear margin, takes the airbag query from 6 results to 1, and
+    // leaves no question unanswered. Wider windows let the neighbours back in.
+    private const double TechnicalRelativeWindow = 0.03;
+
     // A fuse question has one right answer; a "show me the diagram" question
     // legitimately returns a whole legend. The default is small enough to
     // stay readable and the caller may raise it.
@@ -184,7 +200,17 @@ public class SearchController : ControllerBase
         var chunks = await _technicalSearch.SearchAsync(
             q, codiceMotore, marca, lang, capped * LegendOverFetch);
 
-        var relevant = PreferAnswers(CollapseLegends(chunks.Where(c => c.Distance <= MaxTechnicalDistance)))
+        var withinThreshold = chunks.Where(c => c.Distance <= MaxTechnicalDistance).ToList();
+        if (withinThreshold.Count == 0) return new TechnicalResponse();
+
+        // Relative window, on top of the absolute threshold. The absolute one
+        // answers "is anything here relevant at all"; this one answers "how
+        // much of it belongs to the question that was asked", which a fixed
+        // cutoff cannot: a question with one right answer and a question with
+        // five both sit under 0.30.
+        var best = withinThreshold.Min(c => c.Distance);
+        var relevant = PreferAnswers(
+                CollapseLegends(withinThreshold.Where(c => c.Distance <= best + TechnicalRelativeWindow)))
             .Take(capped)
             .ToList();
         if (relevant.Count == 0) return new TechnicalResponse();
