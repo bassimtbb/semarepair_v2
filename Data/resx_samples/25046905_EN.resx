@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-06T18:04:25">
+  <XDOCUMENTO>
+    <ID>25046905</ID>
+    <DOCNumber>POP25781</DOCNumber>
+    <RifIDTipoRis>46</RifIDTipoRis>
+    <Titolo>IMPORTANT INFORMATION</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>46</ID>
+      <TipoRis>POP</TipoRis>
+      <DscRis>Notice</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>25046905</RifIDDoc>
+      <Ordine>51</Ordine>
+      <Capitolo>Engine Oil Replacement</Capitolo>
+      <Corpo> &lt;BR/&gt; With reference to the replacement prescribed in the mileage of the Official Service or through the warning on the instrument panel &lt;BR/&gt; &lt;BR/&gt; The Engine Oil and Filter must be replaced &lt;B&gt; more frequently &lt;/B&gt; under the following conditions: &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Intense city use (idling) &lt;BR/&gt; &lt;LI&gt; With mileage of less than 10,000 km/year &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25046905</RifIDDoc>
+      <Ordine>56</Ordine>
+      <Capitolo>Periodic checks</Capitolo>
+      <Corpo> &lt;B&gt; Every 1,000 km or before long journeys, check and, if necessary, top up: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; engine coolant level &lt;BR/&gt; &lt;LI&gt; brake fluid level &lt;BR/&gt; &lt;LI&gt; windscreen washer fluid level &lt;BR/&gt;  &lt;LI&gt; tyre pressure and condition &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Every 3,000 km, check and, if necessary, restore: engine oil level. &lt;BR/&gt; &lt;BR/&gt; Every 10,000 km or when the warning light comes on (only for diesel engines): drain the condensation water from the fuel filter. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25046905</RifIDDoc>
+      <Ordine>61</Ordine>
+      <Capitolo>Heavy use of the vehicle</Capitolo>
+      <Corpo> &lt;B&gt; If the car is mainly used in one of the following particularly severe conditions: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; towing a trailer or caravan &lt;BR/&gt; &lt;LI&gt; dusty roads &lt;BR/&gt;  &lt;LI&gt; short (less than 7-8 km) and repeated journeys with outside temperatures below zero &lt;BR/&gt; &lt;LI&gt; engine frequently idling or driving long distances at low speeds, or in the event of prolonged inactivity &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; The following checks must be carried out more frequently than indicated in the official service schedule: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; check the condition and wear of the front disc brake pads &lt;BR/&gt;  &lt;LI&gt; check the cleanliness of the bonnet and boot locks, clean and lubricate the levers &lt;BR/&gt; &lt;LI&gt; visual check of the condition of: engine, gearbox, transmission, rigid and flexible sections of the pipes (exhaust - fuel supply - brakes) rubber elements (caps - sleeves - bushings, etc.) &lt;BR/&gt;  &lt;LI&gt; Check battery charge and fluid level (electrolyte) &lt;BR/&gt; &lt;LI&gt; Visual inspection of accessory drive belts &lt;BR/&gt; &lt;LI&gt; Check and, if necessary, replace engine oil and filter &lt;BR/&gt; &lt;LI&gt; Check and, if necessary, replace pollen filter &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25046905</RifIDDoc>
+      <Ordine>64</Ordine>
+      <Capitolo>SERVICING IN ACCORDANCE WITH BER/2010 REGULATIONS</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; Use original quality spare parts or parts that correspond to the original. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Use lubricants in accordance with the manufacturer&apos;s specifications. &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; Indicate the type of lubricant used (brand, trade name, viscosity and specification) on the compliance sheet and invoice. &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; Indicate the type of spare part used (brand, spare part code) on the compliance sheet and invoice. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

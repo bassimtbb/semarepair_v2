@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T14:38:03">
+  <XDOCUMENTO>
+    <ID>199244103</ID>
+    <DOCNumber>DIS75074</DOCNumber>
+    <RifIDTipoRis>100000012</RifIDTipoRis>
+    <Titolo>GENERAL WARNINGS DISTRIBUTION</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>219</RifIDFileICO>
+    <XFILE>
+      <ID>219</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:219</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>100000012</ID>
+      <TipoRis>DIS</TipoRis>
+      <DscRis>Distribution</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>12</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>GENERAL WARNINGS</Capitolo>
+      <Corpo> &lt;BR/&gt; WARNING! &lt;BR/&gt; -DEACTIVATE ALL ELECTRICALLY CONTROLLED ACCESSORIES, TAKING INTO ACCOUNT THE FOLLOWING WARNINGS: &lt;BR/&gt; MAKE SURE YOU HAVE THE CAR RADIO SECURITY CODE, IF REQUIRED, AND MAKE SURE IT IS DEACTIVATED OR RECORDED IN THE VEHICLE LOG BOOK; &lt;BR/&gt; SOME DATA (E.G. TIME DISPLAY, TEMPERATURE DISPLAY, AND THE OPERATING SETTINGS OF SOME ACCESSORIES) WILL BE RESET; &lt;BR/&gt; SOME ELECTRONIC UNITS (ENGINE ECU, BODY COMPUTER, SRS SYSTEM) REMAIN POWERED FOR A MAXIMUM OF 20 MINUTES. THEREFORE, WAIT AT LEAST 20 MINUTES AFTER PUTTING THE IGNITION SWITCH IN THE &quot;OFF&quot; POSITION BEFORE DISCONNECTING THE BATTERY; &lt;BR/&gt; DISCONNECT THE CAR BATTERY;</Corpo>
+      <RifIDFileIMGANI>299010813</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299010813</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299010813</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> TECHNICAL NOTE: CHECK THE POSITION OF THE AUXILIARY DRIVE BELTS BEFORE DISASSEMBLY.</Corpo>
+      <RifIDFileIMGANI>299009774</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299009774</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009774</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; CAUTION! &lt;BR/&gt; TO FACILITATE THE ROTATION OF THE CRANKSHAFT, IT IS RECOMMENDED TO REMOVE THE SPARK PLUGS (PETROL ENGINE) OR GLOW PLUGS (DIESEL ENGINE) FROM THE ENGINE; &lt;BR/&gt; ROTATE THE DISTRIBUTION SYSTEM BY ACTING EXCLUSIVELY ON THE CRANKSHAFT, UNLESS OTHERWISE SPECIFIED; &lt;BR/&gt; ROTATE THE DISTRIBUTION SYSTEM IN THE NORMAL DIRECTION OF ROTATION, UNLESS OTHERWISE SPECIFIED; &lt;BR/&gt; DO NOT ROTATE ANY COMPONENT OF THE DISTRIBUTION SYSTEM AFTER REMOVING THE DISTRIBUTION BELT/CHAIN, UNLESS OTHERWISE SPECIFIED; &lt;BR/&gt; DO NOT USE ALIGNMENT TOOLS TO LOCK THE ENGINE IN PLACE WHEN UNSCREWING OR TIGHTENING; &lt;BR/&gt; DO NOT PLACE ANY OBJECTS BETWEEN THE BELT AND THE PULLEYS, OR BETWEEN THE CHAIN AND THE TIMING WHEELS OF THE DISTRIBUTION SYSTEM; &lt;BR/&gt; BEFORE STARTING THE ENGINE, MANUALLY ROTATE THE ENGINE CRANKSHAFT TWO TURNS AND CHECK THAT IT IS CORRECTLY PHASED, UNLESS OTHERWISE SPECIFIED; &lt;BR/&gt; OBSERVE THE TIGHTENING TORQUES;</Corpo>
+      <RifIDFileIMGANI>299010813</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299010813</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299010813</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>DISTRIBUTION COMPONENTS</Capitolo>
+      <Corpo> &lt;BR/&gt; Legend &lt;BR/&gt; &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt; &lt;TD&gt; Component &lt;/TD&gt; &lt;TD&gt; DESCRIPTION &lt;/TD&gt; &lt;TR&gt; &lt;TD&gt; 1 &lt;/TD&gt;  &lt;TD&gt; TIMING BELT &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; 2 &lt;/TD&gt; &lt;TD&gt; CRANKSHAFT PULLEY &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; 3 &lt;/TD&gt; &lt;TD&gt; TENSIONER &lt;/TD&gt; &lt;/TR&gt;  &lt;TR&gt; &lt;TD&gt; 4 &lt;/TD&gt; &lt;TD&gt; camshaft pulley &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; 7 &lt;/TD&gt; &lt;TD&gt; INJECTION PUMP PULLEY &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; 8 &lt;/TD&gt; &lt;TD&gt; GUIDE PULLEY &lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt; &lt;BR/&gt; EQUIPMENT &lt;BR/&gt; &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt; &lt;TD&gt; SPECIAL TOOLS &lt;/TD&gt; &lt;TD&gt; TOOL CODE &lt;/TD&gt;  &lt;TR&gt; &lt;TD&gt; TENSIONER LOCKING TOOL &lt;/TD&gt; &lt;TD&gt; &lt;1 860 638 000&gt; &lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt; </Corpo>
+      <RifIDFileIMGANI>299011457</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011457</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011457</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>TUNING PROCEDURE</Capitolo>
+      <Corpo> &lt;BR/&gt; Disconnect the 12 V service battery. &lt;BR/&gt; Remove the front right wheel. &lt;BR/&gt; Remove the front right wheel arch. &lt;BR/&gt; Remove the engine cover. &lt;BR/&gt; Remove the service belt. &lt;BR/&gt; Turn the engine shaft until an 8 mm plug can be inserted into the hole in the flywheel.</Corpo>
+      <RifIDFileIMGANI>299011896</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011896</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011896</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; Remove the timing cover.</Corpo>
+      <RifIDFileIMGANI>299011825</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011825</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011825</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>70</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; Remove the crankshaft pulley. &lt;BR/&gt; Check that the references are correctly aligned.</Corpo>
+      <RifIDFileIMGANI>299011461</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011461</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011461</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>80</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo></Corpo>
+      <RifIDFileIMGANI>299011826</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011826</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011826</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>90</Ordine>
+      <Capitolo>DISASSEMBLY/REASSEMBLY OPERATIONS</Capitolo>
+      <Corpo> &lt;BR/&gt; Lock the tensioner with the tool indicated.</Corpo>
+      <RifIDFileIMGANI>299011462</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011462</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011462</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>100</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; Remove the lower timing cover. &lt;BR/&gt; Remove the timing belt. &lt;BR/&gt; Replace the tensioner. Fit the timing belt. Remove all tools used. Turn the crankshaft two turns and check the correct timing. Fit the components in the reverse order of removal.</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>110</Ordine>
+      <Capitolo>TORQUE TORQUES</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt; &lt;TD&gt; Component &lt;/TD&gt; &lt;TD&gt; SIZE &lt;/TD&gt; &lt;TD&gt; TIGHTENING TORQUE &lt;/TD&gt; &lt;TD&gt; TYPE &lt;/TD&gt;  &lt;TR&gt; &lt;TD&gt; TENSIONER &lt;/TD&gt; &lt;TD&gt; - &lt;/TD&gt; &lt;TD&gt; 36 - 44 N·m &lt;/TD&gt; &lt;TD&gt; NUT &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Crankshaft pulley &lt;/TD&gt;  &lt;TD&gt; - &lt;/TD&gt; &lt;TD&gt; 180 - 220 N·m &lt;/TD&gt; &lt;TD&gt; Screw &lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

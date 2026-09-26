@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T00:22:29">
+  <XDOCUMENTO>
+    <ID>62503109</ID>
+    <DOCNumber>IND62561</DOCNumber>
+    <RifIDTipoRis>36</RifIDTipoRis>
+    <Titolo>Toma de diagnóstico</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>36</ID>
+      <TipoRis>IND</TipoRis>
+      <DscRis>Diagnóstico OBDII</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62503109</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Localización Presa Diagnóstico</Capitolo>
+      <Corpo> &lt;LI&gt; Toma tipo OBD de 16 pines. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Salpicadero - lado inferior izquierdo</Corpo>
+      <RifIDFileIMGANI>62502220</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62502220</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62502220</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62503109</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>PinOut Conector</Capitolo>
+      <Corpo>Pin 1 Libre &lt;BR/&gt; Pin 2 Diagnóstico J1850 PWM o VPW (+) &lt;BR/&gt; Pin 3 Libre &lt;BR/&gt; Pin 4 Masa del chasis &lt;BR/&gt; Pin 5 Masa de la señal &lt;BR/&gt; Pin 6 Diagnóstico J2284 CAN (H) &lt;BR/&gt; Pin 7 Diagnóstico ISo 9141-2 y 14230 (K) &lt;BR/&gt; Pin 8 Libre &lt;BR/&gt; Pin 9 Libre &lt;BR/&gt; Pin 10 Diagnóstico J1850 PWM o VPW (-) &lt;BR/&gt; Pin 11 Libre &lt;BR/&gt; Pin 12 Libre &lt;BR/&gt; Pin 13 Libre &lt;BR/&gt; Pin 14 Diagnóstico J2284 CAN (L) &lt;BR/&gt; Pin 15 Diagnóstico ISo 9141-2 y 14230 (L) &lt;BR/&gt; Pin 16 Alimentación +12 voltios</Corpo>
+      <RifIDFileIMGANI>25003412</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>25003412</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:25003412</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

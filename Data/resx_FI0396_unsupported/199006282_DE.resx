@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T16:11:56">
+  <XDOCUMENTO>
+    <ID>199006282</ID>
+    <DOCNumber>INT76051</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>Fiat Ducato</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Offizielle Rückrufe</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Datenquelle – Verkehrsministerium</Capitolo>
+      <Corpo> &lt;B&gt; Hersteller: &lt;/B&gt; Fiat Auto S.p.a. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; Marke: &lt;/B&gt; Fiat &lt;BR&gt; &lt;BR&gt; Von den Herstellern gemäß D.D. 78/2000 anerkannte Mängel</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Fiat Ducato</Capitolo>
+      <Corpo> &lt;BR&gt; Anzahl der Fahrzeuge: 9 &lt;BR&gt; Produktionszeitraum: November 2006 &lt;BR&gt; Fehlerbeschreibung: Fehlende Seitenmarkierungsleuchten &lt;BR&gt; Abhilfemaßnahmen: Einbau &lt;BR&gt; Referenz: Vertragshändler &lt;BR&gt; Fahrgestellnummernbereich ab: ZFA25000001001791  &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA25000001055902 &lt;BR&gt; &lt;BR&gt; &lt;BR&gt; Anzahl der Fahrzeuge: 16889 &lt;BR&gt; Produktionszeitraum: von Mai 2006 bis Dezember 2006  &lt;BR&gt; Fehlerbeschreibung: Wassereintritt mit Funktionsstörungen des Scheibenwischermotors &lt;BR&gt; Abhilfemaßnahmen: Anbringen einer Abdeckung &lt;BR&gt; Referenz: Vertragshändler &lt;BR&gt; Fahrgestellnummernbereich von: Beginn &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA25000001114798 &lt;BR&gt;  &lt;BR/&gt;&lt;BR/&gt; Anzahl der Fahrzeuge: 24402 &lt;BR/&gt; Produktionszeitraum: von Mai 2006 bis März 2007 &lt;BR/&gt; Fehlerbeschreibung: Unzureichende Schmierung des Lenkgetriebes und schwergängige Lenkung &lt;BR/&gt; Abhilfemaßnahmen: Auftragen von Zahnstangenschmierfett &lt;BR/&gt; Referenz: Vertragshändler  &lt;BR&gt; Fahrgestellnummernbereich von: Beginn &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA25000001173899 &lt;BR&gt;&lt;BR&gt;&lt;BR&gt; Anzahl der Fahrzeuge: 27  &lt;BR&gt; Produktionszeitraum: Mai 2006 bis August 2006 &lt;BR&gt; Fehlerbeschreibung: Nicht konforme Dichtung der Kraftstoffleitung &lt;BR&gt; Abhilfemaßnahmen: Auftragen von Silikondichtmittel &lt;BR&gt; Hinweis: Vertragshändler &lt;BR&gt; Fahrgestellnummernbereich ab: ZFA25000001000322  &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA25000001000595 &lt;BR&gt; &lt;BR&gt; &lt;BR&gt; Anzahl der Fahrzeuge: 996 &lt;BR&gt; Produktionszeitraum: Mai 2006 bis August 2006 &lt;BR&gt; Fehlerbeschreibung: Nicht konforme Schweißnaht an der Halterung des Handbremsseils  &lt;BR&gt; Abhilfemaßnahmen: Vernieten der Halterung &lt;BR&gt; Bezug: Vertragshändler &lt;BR&gt; Fahrgestellnummernbereich von: ZFA25000001000322 &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA25000001006649 &lt;BR&gt;  &lt;BR&gt; &lt;BR&gt; Anzahl der Fahrzeuge: 52 &lt;BR&gt; Produktionszeitraum: Mai 2006 bis August 2006 &lt;BR&gt; Fehlerbeschreibung: Nicht konforme vordere Stoßdämpfer &lt;BR&gt; Abhilfemaßnahmen: Austausch &lt;BR&gt; Hinweis: Vertragshändler &lt;BR&gt; Fahrgestellnummernbereich von: ZFA25000001000322 &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA25000001001516 &lt;BR&gt; &lt;BR&gt; &lt;BR&gt; Anzahl der Fahrzeuge: nicht angegeben &lt;BR&gt; Produktionszeitraum: Mai 2006 bis August 2006  &lt;BR&gt; Fehlerbeschreibung: Nicht konformes Airbag-Steuergerät &lt;BR&gt; Abhilfemaßnahmen: Austausch &lt;BR&gt; Bezug: Vertragshändler &lt;BR&gt; Fahrgestellnummernbereich von: ZFA25000001000368 &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA25000001001793  &lt;BR&gt; &lt;BR&gt; &lt;BR&gt; Anzahl der Fahrzeuge: 75 &lt;BR&gt; Produktionszeitraum: Mai 2006 bis August 2006 &lt;BR&gt; Fehlerbeschreibung: Mögliche Losewerdung der Lenkwelle &lt;BR&gt; Abhilfemaßnahmen: Anbringen einer Sicherungsklammer &lt;BR&gt; Bezug: Vertragshändler &lt;BR&gt; Fahrgestellnummernbereich von: ZFA25000001000322 &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA25000001008392 &lt;BR&gt; &lt;BR&gt; &lt;BR&gt; Anzahl der Fahrzeuge: 36 &lt;BR&gt; Produktionszeitraum: Mai 2006 bis August 2006  &lt;BR&gt; Fehlerbeschreibung: Nicht konforme Schweißnaht an der vorderen Quertraverse &lt;BR&gt; Abhilfemaßnahmen: Überprüfung und gegebenenfalls Austausch der Quertraverse &lt;BR&gt; Bezug: Vertragshändler &lt;BR&gt; Fahrgestellnummernbereich ab: ZFA25000001019071  &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA25000001019756 &lt;BR&gt; &lt;BR&gt; &lt;BR&gt; Anzahl der Fahrzeuge: 882 &lt;BR&gt; Produktionszeitraum: von November 2005 bis Februar 2006  &lt;BR&gt; Fehlerbeschreibung: Nicht konforme Befestigung der Blattfederhalter &lt;BR&gt; Abhilfemaßnahmen: Überprüfung und gegebenenfalls Austausch der Blattfederhalter &lt;BR&gt; Bezug: Vertragshändler &lt;BR&gt; Fahrgestellnummernbereich ab: ZFA24400007761041 &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA24400007777899 &lt;BR/&gt;&lt;BR/&gt; &lt;BR/&gt; Anzahl der Fahrzeuge: 9475 &lt;BR/&gt; Produktionszeitraum: Anfang Januar 2005 &lt;BR/&gt; Fehlerbeschreibung: Wassereintritt am AGR-Ventil &lt;BR/&gt; Abhilfemaßnahmen: Einbau eines Filters  &lt;BR&gt; Bezug: Vertragshändler &lt;BR&gt; Fahrgestellnummernbereich ab: ZFA24400007000022 &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA24400007574579 &lt;BR&gt;  &lt;BR&gt; &lt;BR&gt; Anzahl der Fahrzeuge: 1349 &lt;BR&gt; Produktionszeitraum: von Dezember 2002 bis August 2006 &lt;BR&gt; Fehlerbeschreibung: Fehlende Absicherung der Erdgas-Versorgungskabel &lt;BR&gt; Abhilfemaßnahmen: Einbau einer Sicherung &lt;BR&gt; Referenz: Vertragshändler  &lt;BR&gt; Fahrgestellnummernbereich von: ZFA24400007129380 &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA24400007842448 &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Fiat Ducato 3.0 JTD</Capitolo>
+      <Corpo> &lt;BR&gt; Anzahl der Fahrzeuge: 300 &lt;BR&gt; Produktionszeitraum: Mai 2006 bis August 2006 &lt;BR&gt; Fehlerbeschreibung: Interferenzen bei den Blow-by-Leitungen &lt;BR&gt; Abhilfemaßnahmen: Einbau eines Abstandhalters &lt;BR&gt; Referenz: Vertragshändler  &lt;BR&gt; Fahrgestellnummernbereich von: ZFA25000001002184 &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA25000001019433 &lt;BR&gt;&lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Fiat Ducato Schulbus</Capitolo>
+      <Corpo> &lt;BR&gt; Fahrzeugnummer: 68008 &lt;BR&gt; Produktionszeitraum: von Januar 2002 bis Dezember 2003 &lt;BR&gt; Fehlerbeschreibung: Berührung des vorderen Bremsschlauchs mit der Karosserie &lt;BR&gt; Abhilfemaßnahmen: Überprüfung und gegebenenfalls Austausch der Schläuche  &lt;BR&gt; Referenz: Vertragshändler &lt;BR&gt; Fahrgestellnummernbereich von: ZFA24400007000001 &lt;BR&gt; Fahrgestellnummernbereich bis: ....7358857 &lt;BR&gt;&lt;BR&gt;&lt;BR&gt; Anzahl der Fahrzeuge: 74 &lt;BR&gt; Produktionszeitraum: Dezember 2001 bis Dezember 2003 &lt;BR&gt; Fehlerbeschreibung: Nicht konforme Abdichtung der Verkabelung des Automatikgetriebe-Steuergeräts &lt;BR&gt; Abhilfemaßnahmen: Wiederherstellung der Abdichtung &lt;BR&gt; Referenz: Vertragshändler &lt;BR&gt; Fahrgestellnummernbereich ab: ZFA24400007000007  &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA24400007341167 &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Fiat Ducato mit Pritschenaufbau</Capitolo>
+      <Corpo> &lt;BR&gt; Anzahl der Fahrzeuge: 19 &lt;BR&gt; Produktionszeitraum: Mai 2006 bis Juli 2006 &lt;BR&gt; Fehlerbeschreibung: Bruch der Befestigungsplatten an den Scharnieren &lt;BR&gt; Abhilfemaßnahmen: Austausch &lt;BR&gt; Referenz: Vertragshändler  &lt;BR&gt; Fahrgestellnummernbereich von: ZFA24400007828525 &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA24400007837578 &lt;BR&gt;  &lt;BR&gt; &lt;BR&gt; Anzahl der Fahrzeuge: 6 &lt;BR&gt; Produktionszeitraum: Mai 2006 bis August 2006 &lt;BR&gt; Fehlerbeschreibung: Bruch der Befestigungsplatten der Scharniere &lt;BR&gt; Abhilfemaßnahmen: Austausch &lt;BR&gt; Hinweis: Vertragshändler  &lt;BR&gt; Fahrgestellnummernbereich von: ZFA25000001013150 &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA25000001040052 &lt;BR&gt;&lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>6</Ordine>
+      <Capitolo>Fiat Ducato M1-m2-n1</Capitolo>
+      <Corpo> &lt;BR&gt; Anzahl der Fahrzeuge: 1 &lt;BR&gt; Produktionszeitraum: von Oktober 2001 bis Januar 2002 &lt;BR&gt; Fehlerbeschreibung: Die Handbremse lässt sich nicht betätigen, da das Handbremsseil aus der Befestigungsvorrichtung an den Bremsbacken herausgerutscht ist &lt;BR&gt; Abhilfemaßnahmen: Austausch des Seils  &lt;BR&gt; Referenz: Vertragshändler &lt;BR&gt; Fahrgestellnummernbereich von: ZFA23000006194400 &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA23000006227275 &lt;BR&gt;&lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>8</Ordine>
+      <Capitolo>Fiat Ducato Camper 18 Q, 15 Räder</Capitolo>
+      <Corpo> &lt;BR&gt; Anzahl der Fahrzeuge: 372 &lt;BR&gt; Produktionszeitraum: von Juni 2004 bis Juni 2005 &lt;BR&gt; Fehlerbeschreibung: Nicht konformer Drehzahlsensor &lt;BR&gt; Abhilfemaßnahmen: Austausch &lt;BR&gt; Referenz: Vertragshändler  &lt;BR&gt; Fahrgestellnummernbereich von: ZFA24400007463038 &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA24400007651744 &lt;BR&gt;&lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>90</Ordine>
+      <Capitolo>Fiat Ducato X2/50</Capitolo>
+      <Corpo> &lt;BR&gt; Fahrzeugnummer: 68405 &lt;BR&gt; Produktionszeitraum: Nicht identifiziert &lt;BR&gt; Fehlerbeschreibung: Möglicher Bruch des Hebemechanismus für das Reserverad und Verlust desselben &lt;BR&gt; Abhilfemaßnahmen: Austausch des Hebemechanismus &lt;BR&gt; Referenz: Vertragshändler &lt;BR&gt; Fahrgestellnummernbereich von: ZFA25000001000371 &lt;BR&gt; Fahrgestellnummernbereich bis: ZFA25000001789701 &lt;BR&gt;&lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>91</Ordine>
+      <Capitolo>Fiat Ducato 2.0 JTD</Capitolo>
+      <Corpo></Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

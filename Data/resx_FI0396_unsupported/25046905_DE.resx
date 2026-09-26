@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-19T00:41:39">
+  <XDOCUMENTO>
+    <ID>25046905</ID>
+    <DOCNumber>POP25781</DOCNumber>
+    <RifIDTipoRis>46</RifIDTipoRis>
+    <Titolo>WICHTIGE INFORMATION</Titolo>
+    <InfoDoc>TAG+NOT25060</InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>46</ID>
+      <TipoRis>POP</TipoRis>
+      <DscRis>Hinweis</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>25046905</RifIDDoc>
+      <Ordine>51</Ordine>
+      <Capitolo>Motorölwechsel</Capitolo>
+      <Corpo> &lt;BR/&gt; In Bezug auf den vorgeschriebenen Austausch gemäß der Kilometerleistung des offiziellen Wartungsplans oder gemäß der Anzeige im Armaturenbrett &lt;BR/&gt; &lt;BR/&gt; Motoröl und Filter müssen &lt;B&gt; häufiger &lt;/B&gt; unter den folgenden Bedingungen gewechselt werden: &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Intensiver Stadtverkehr (längeres Leerlaufen) &lt;BR/&gt; &lt;LI&gt; Bei einer Laufleistung von weniger als 10.000 km/Jahr &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25046905</RifIDDoc>
+      <Ordine>56</Ordine>
+      <Capitolo>Regelmäßige Inspektionen</Capitolo>
+      <Corpo> &lt;B&gt; Alle 1.000 km oder vor langen Fahrten prüfen und gegebenenfalls nachfüllen: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Kühlmittelstand &lt;BR/&gt; &lt;LI&gt; Bremsflüssigkeitsstand &lt;BR/&gt; &lt;LI&gt; Scheibenwaschflüssigkeitsstand &lt;BR/&gt;  &lt;LI&gt; Reifendruck und Reifenzustand &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Alle 3.000 km prüfen und gegebenenfalls auffüllen: Motorölstand. &lt;BR/&gt; &lt;BR/&gt; Alle 10.000 km oder beim Aufleuchten der Kontrollleuchte (nur bei Dieselmotoren): Kondenswasser aus dem Kraftstofffilter ablassen. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25046905</RifIDDoc>
+      <Ordine>61</Ordine>
+      <Capitolo>Intensive Nutzung des Fahrzeugs</Capitolo>
+      <Corpo> &lt;B&gt; Falls das Fahrzeug überwiegend unter einer der folgenden besonders anspruchsvollen Bedingungen genutzt wird: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Ziehen eines Anhängers oder Wohnwagens &lt;BR/&gt; &lt;LI&gt; staubige Straßen &lt;BR/&gt;  &lt;LI&gt; kurze (weniger als 7–8 km) und wiederholte Fahrten bei Außentemperaturen unter null &lt;BR/&gt; &lt;LI&gt; häufiger Leerlauf des Motors oder Fahren über lange Strecken bei niedriger Geschwindigkeit sowie bei längerer Stillstandzeit &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; Die folgenden Prüfungen müssen häufiger durchgeführt werden, als im offiziellen Wartungsplan angegeben: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Prüfung des Zustands und des Verschleißes der vorderen Scheibenbremsbeläge &lt;BR/&gt;  &lt;LI&gt; Überprüfung des Zustands und der Sauberkeit der Motorhauben- und Kofferraumverschlüsse sowie Reinigung und Schmierung der Hebelmechanismen &lt;BR/&gt; &lt;LI&gt; Sichtprüfung des Zustands von: Motor, Getriebe, Antriebsstrang, starren und flexiblen Leitungsabschnitten (Abgas – Kraftstoffzufuhr – Bremsen) sowie Gummiteilen (Kappen – Manschetten – Buchsen usw.) &lt;BR/&gt;  &lt;LI&gt; Überprüfung des Ladezustands und des Flüssigkeitsstands der Batterie (Elektrolyt) &lt;BR/&gt; &lt;LI&gt; Sichtprüfung des Zustands der Antriebsriemen für Nebenaggregate &lt;BR/&gt; &lt;LI&gt; Überprüfung und ggf. Austausch von Motoröl und Ölfilter &lt;BR/&gt; &lt;LI&gt; Überprüfung und ggf. Austausch des Pollenfilters &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25046905</RifIDDoc>
+      <Ordine>64</Ordine>
+      <Capitolo>DURCHFÜHRUNG VON WARTUNGEN GEMÄSS DER VERORDNUNG BER/2010</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt; Verwenden Sie Ersatzteile in Originalqualität oder solche, die dem Original entsprechen. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Verwenden Sie Schmierstoffe gemäß den Vorschriften des Herstellers. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Geben Sie auf dem Konformitätsnachweis und auf der Rechnung die Art des verwendeten Schmiermittels an (Marke, Handelsname, Viskosität und Spezifikation). &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Geben Sie auf dem Konformitätsnachweis und auf der Rechnung die Art des verwendeten Ersatzteils an (Marke, Ersatzteilnummer). &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

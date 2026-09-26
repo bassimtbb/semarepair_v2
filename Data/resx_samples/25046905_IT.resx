@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2015-04-02T16:54:51">
+<XDOCUMENTO>
+<ID>25046905</ID>
+<DOCNumber>POP25781</DOCNumber>
+<RifIDTipoRis>46</RifIDTipoRis>
+<Titolo>INFORMAZIONE IMPORTANTE</Titolo>
+<InfoDoc>TAG+NOT25060</InfoDoc>
+<RifIDFileICO>0</RifIDFileICO>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+<XTIPORIS>
+<ID>46</ID>
+<TipoRis>POP</TipoRis>
+<DscRis>Avviso</DscRis>
+<RifIDFileCSS>0</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>25046905</RifIDDoc>
+<Ordine>51</Ordine>
+<Capitolo>Sostituzione Olio Motore</Capitolo>
+<Corpo>&lt;BR/&gt;In riferimento alla sostituzione prescritta nel chilometraggio del Tagliando Ufficiale o tramite l&apos;avviso sulla strumentazione&lt;BR/&gt;&lt;BR/&gt;L&apos;Olio Motore ed il Filtro vanno sostituiti &lt;B&gt;più frequentemente&lt;/B&gt; con le seguenti condizioni:&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;Intenso uso cittadino (permanenze al minimo)&lt;BR/&gt;&lt;LI&gt;Con percorrenza chilometrica inferiore ai 10.000Km / anno&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>25046905</RifIDDoc>
+<Ordine>56</Ordine>
+<Capitolo>Controlli Periodici</Capitolo>
+<Corpo>&lt;B&gt;Ogni 1.000 km o prima di lunghi viaggi controllare ed eventualmente ripristinare:&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; livello liquido di raffreddamento motore&lt;BR/&gt;&lt;LI&gt; livello liquido freni&lt;BR/&gt;&lt;LI&gt; livello liquido lavacristallo&lt;BR/&gt;&lt;LI&gt; pressione e condizione dei pneumatici&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Ogni 3.000 km controllare ed eventualmente ripristinare: livello olio motore.&lt;BR/&gt;&lt;BR/&gt;Ogni 10.000 km o all&apos;accensione della spia (solo per motori diesel): spurgare l&apos;acqua di condensa dal filtro carburante.&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>25046905</RifIDDoc>
+<Ordine>61</Ordine>
+<Capitolo>Utilizzo gravoso del veicolo</Capitolo>
+<Corpo>&lt;B&gt;Nel caso la vettura sia utilizzata prevalentemente in una delle seguenti condizioni particolarmente severe:&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; traino di rimorchio o roulotte&lt;BR/&gt;&lt;LI&gt; strade polverose&lt;BR/&gt;&lt;LI&gt; tragitti brevi (meno di 7-8 km) e ripetuti e con temperatura esterna sotto zero&lt;BR/&gt;&lt;LI&gt; motore che gira frequentemente al minimo o guida su lunghe distanze a bassa velocità, oppure in caso di lunga inattività&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;E&apos; necessario effettuare le seguenti verifiche più frequentemente di quanto indicato nel Tagliando ufficiale:&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; controllo condizioni e usura pattini freni a disco anteriori&lt;BR/&gt;&lt;LI&gt; controllo stato pulizia serrature cofano motore e baule, pulizia e lubrificazione leverismi&lt;BR/&gt;&lt;LI&gt; controllo visivo condizioni: motore, cambio, trasmissione, tratti rigidi e flessibili delle tubazioni (scarico - alimentazione carburante - freni) elementi in gomma (cuffie - manicotti - boccole ecc.)&lt;BR/&gt;&lt;LI&gt; controllo stato di carica e livello liquido batteria (elettrolito)&lt;BR/&gt;&lt;LI&gt; controllo visivo condizioni cinghie comandi accessori&lt;BR/&gt;&lt;LI&gt; controllo ed eventuale sostituzione olio motore e filtro&lt;BR/&gt;&lt;LI&gt; controllo ed eventuale sostituzione filtro antipolline&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>25046905</RifIDDoc>
+<Ordine>64</Ordine>
+<Capitolo>ESECUZIONE TAGLIANDI SECONDO IL REGOLAMENTO BER/2010</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt; Utilizzare ricambi di qualità originale o corrispondenti all&apos;originale.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Utilizzare lubrificanti secondo le prescrizioni del costruttore&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Indicare nella scheda di conformità e in fattura il tipo di lubrificante utilizzato (marca, nome commerciale, viscosità e specifica)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Indicare nella scheda di conformità e in fattura il tipo di ricambio utilizzato (marca, codice ricambio)&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

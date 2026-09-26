@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-23T12:40:08">
+  <XDOCUMENTO>
+    <ID>25019681</ID>
+    <DOCNumber>FLT25022</DOCNumber>
+    <RifIDTipoRis>37</RifIDTipoRis>
+    <Titolo>Lokalisierung und Austausch</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>37</ID>
+      <TipoRis>FLT</TipoRis>
+      <DscRis>Innenraumfilter</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>25019681</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Vorgehensweise</Capitolo>
+      <Corpo> &lt;B&gt; Filterabmessungen: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; L = 435 mm. &lt;BR/&gt; &lt;LI&gt; H = 145 mm. &lt;BR/&gt; &lt;LI&gt; S = 18 mm. &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Einbauort: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Motorraum, oberer Bereich &lt;BR/&gt;  &lt;LI&gt; Linke Seite / Beifahrerseite &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Austausch: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Die Kunststoffverkleidung demontieren, ggf. Schrauben und Halterungen entfernen &lt;BR/&gt;  &lt;LI&gt; Den Filter aus dem Lufteinlassraum herausziehen &lt;BR/&gt; &lt;LI&gt; Auf eventuell herabfallende Fremdkörper / Schmutz achten &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Wiedereinbau: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; In umgekehrter Reihenfolge vorgehen</Corpo>
+      <RifIDFileIMGANI>25003559</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>25003559</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:25003559</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

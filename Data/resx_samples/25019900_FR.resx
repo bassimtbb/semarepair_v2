@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-24T15:48:49">
+  <XDOCUMENTO>
+    <ID>25019900</ID>
+    <DOCNumber>CDD25001</DOCNumber>
+    <RifIDTipoRis>38</RifIDTipoRis>
+    <Titolo>OBDII - Norme réseau</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>38</ID>
+      <TipoRis>CDD</TipoRis>
+      <DscRis>Codes de diagnostic</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XLINKUTILI>
+      <RifIDDoc>25019900</RifIDDoc>
+      <LinkUtili>Liens utiles</LinkUtili>
+      <Ordine>20</Ordine>
+      <RifIDDocLink>25010575</RifIDDocLink>
+      <XLINKDOC>
+        <ID>25010575</ID>
+        <DOCNumber>COD25037</DOCNumber>
+        <Documento>Codes de diagnostic: Activités du réseau électrique</Documento>
+        <URL>LINKDOC:25010575</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>25019900</RifIDDoc>
+      <LinkUtili>Liens utiles</LinkUtili>
+      <Ordine>30</Ordine>
+      <RifIDDocLink>25010576</RifIDDocLink>
+      <XLINKDOC>
+        <ID>25010576</ID>
+        <DOCNumber>COD25038</DOCNumber>
+        <Documento>Codes de diagnostic: Communication du réseau électrique</Documento>
+        <URL>LINKDOC:25010576</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>25019900</RifIDDoc>
+      <LinkUtili>Liens utiles</LinkUtili>
+      <Ordine>40</Ordine>
+      <RifIDDocLink>25010577</RifIDDocLink>
+      <XLINKDOC>
+        <ID>25010577</ID>
+        <DOCNumber>COD25039</DOCNumber>
+        <Documento>Codes de diagnostic: Communication du réseau électrique</Documento>
+        <URL>LINKDOC:25010577</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>25019900</RifIDDoc>
+      <LinkUtili>Liens utiles</LinkUtili>
+      <Ordine>50</Ordine>
+      <RifIDDocLink>25010578</RifIDDocLink>
+      <XLINKDOC>
+        <ID>25010578</ID>
+        <DOCNumber>COD25040</DOCNumber>
+        <Documento>Codes de diagnostic: Activités du logiciel</Documento>
+        <URL>LINKDOC:25010578</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>25019900</RifIDDoc>
+      <LinkUtili>Liens utiles</LinkUtili>
+      <Ordine>60</Ordine>
+      <RifIDDocLink>25010579</RifIDDocLink>
+      <XLINKDOC>
+        <ID>25010579</ID>
+        <DOCNumber>COD25041</DOCNumber>
+        <Documento>Codes de diagnostic: Activités liées aux données</Documento>
+        <URL>LINKDOC:25010579</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

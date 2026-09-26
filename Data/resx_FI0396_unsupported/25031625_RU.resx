@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-16T04:06:35">
+  <XDOCUMENTO>
+    <ID>25031625</ID>
+    <DOCNumber>CIA25534</DOCNumber>
+    <RifIDTipoRis>22</RifIDTipoRis>
+    <Titolo>Układ – Odnośniki</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>301</RifIDFileICO>
+    <XFILE>
+      <ID>301</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:301</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>22</ID>
+      <TipoRis>CIA</TipoRis>
+      <DscRis>Pasy pomocnicze</DscRis>
+      <RifIDFileCSS>300</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>300</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:300</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>25031625</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>LEGENDA</Capitolo>
+      <Corpo> &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt;  &lt;TH width=15% class=&quot;chiaro&quot;&gt; Typ &lt;/TH&gt;  &lt;TH width=34% class=&quot;chiaro&quot;&gt; opis &lt;/TH&gt;  &lt;TR&gt;  &lt;TD&gt; Mot &lt;/TD&gt;  &lt;TD&gt; Wał silnika &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Tns &lt;/TD&gt;  &lt;TD&gt; Napinacz &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Tnd &lt;/TD&gt;  &lt;TD&gt; Napinacz paska / rolka napinająca &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Tsc &lt;/TD&gt;  &lt;TD&gt; Sprężarka wolumetryczna &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Gen &lt;/TD&gt;  &lt;TD&gt; Alternator &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; A/C &lt;/TD&gt;  &lt;TD&gt; Sprężarka klimatyzacji &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Ssv &lt;/TD&gt;  &lt;TD&gt; Wspomaganie hydrauliczne kierownicy &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Cool &lt;/TD&gt;  &lt;TD&gt; Wentylator chłodzący &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; P-w &lt;/TD&gt;  &lt;TD&gt; Pompa wody &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; P-ws &lt;/TD&gt;  &lt;TD&gt; Dodatkowa pompa wody &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; P-oil &lt;/TD&gt;  &lt;TD&gt; Pompa oleju &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; P-air &lt;/TD&gt;  &lt;TD&gt; Pompa powietrza &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; P-inz &lt;/TD&gt;  &lt;TD&gt; Pompa wtryskowa &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; P-aux &lt;/TD&gt;  &lt;TD&gt; Pompa hydrauliczna / pomocnicza &lt;/TD&gt;  &lt;/TR&gt;  &lt;/TABLE&gt; </Corpo>
+      <RifIDFileIMGANI>25010103</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>25010103</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:25010103</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>25031625</RifIDDoc>
+      <LinkUtili>LEGENDA - szczegóły</LinkUtili>
+      <Ordine>10</Ordine>
+      <RifIDDocLink>1582</RifIDDocLink>
+      <XLINKDOC>
+        <ID>1582</ID>
+        <DOCNumber>LNK00005</DOCNumber>
+        <Documento>Przejdź do: Pasy pomocnicze – diagnostyka</Documento>
+        <URL>LINKDOC:1582</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>25031625</RifIDDoc>
+      <LinkUtili>LEGENDA - szczegóły</LinkUtili>
+      <Ordine>20</Ordine>
+      <RifIDDocLink>1583</RifIDDocLink>
+      <XLINKDOC>
+        <ID>1583</ID>
+        <DOCNumber>LNK00006</DOCNumber>
+        <Documento>Przejdź do: Legenda Paski – Szczegóły</Documento>
+        <URL>LINKDOC:1583</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

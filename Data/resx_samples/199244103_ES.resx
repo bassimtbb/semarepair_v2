@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T14:38:04">
+  <XDOCUMENTO>
+    <ID>199244103</ID>
+    <DOCNumber>DIS75074</DOCNumber>
+    <RifIDTipoRis>100000012</RifIDTipoRis>
+    <Titolo>ADVERTENCIAS GENERALES DISTRIBUCIÓN</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>219</RifIDFileICO>
+    <XFILE>
+      <ID>219</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:219</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>100000012</ID>
+      <TipoRis>DIS</TipoRis>
+      <DscRis>Distribución</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>12</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>ADVERTENCIAS GENERALES</Capitolo>
+      <Corpo> &lt;BR/&gt; ¡ATENCIÓN! &lt;BR/&gt; -DESACTIVE TODOS LOS ACCESORIOS ELÉCTRICOS TENIENDO EN CUENTA LAS SIGUIENTES ADVERTENCIAS: &lt;BR/&gt; ASEGÚRESE DE DISPONER DEL CÓDIGO DE SEGURIDAD DE LA RADIO DEL AUTOMÓVIL, SI ESTÁ PREVISTO, Y ASEGÚRESE DE QUE ESTÉ DESACTIVADO O REGISTRADO EN EL LIBRETA DEL VEHÍCULO; &lt;BR/&gt; ALGUNOS DATOS (POR EJEMPLO, LA INDICACIÓN DE LA HORA, LA INDICACIÓN DE LA TEMPERATURA Y LOS AJUSTES DE FUNCIONAMIENTO DE ALGUNOS ACCESORIOS) SE PUEDEN BORRAR; &lt;BR/&gt; ALGUNAS UNIDADES ELECTRÓNICAS (ECU DEL MOTOR, ORDENADOR DE BODI, SISTEMA SRS) PERMANECEN ALIMENTADAS DURANTE UN MÁXIMO DE 20 MINUTOS. POR LO TANTO, ESPERE AL MENOS 20 MINUTOS DESPUÉS DE PONER EL INTERRUPTOR DE ARRANQUE EN LA POSICIÓN DE REPOSO «APAGADO» ANTES DE DESCONECTAR LA BATERÍA. &lt;BR/&gt; DESCONECTE LA BATERÍA DEL VEHÍCULO.</Corpo>
+      <RifIDFileIMGANI>299010813</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299010813</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299010813</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; NOTA TÉCNICA: &lt;BR/&gt; COMPRUEBE LA DISPOSICIÓN DE LAS CORREAS DE TRANSMISIÓN DE LOS ÓRGANOS AUXILIARES ANTES DEL DESMONTAJE.</Corpo>
+      <RifIDFileIMGANI>299009774</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299009774</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009774</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; ¡ATENCIÓN! &lt;BR/&gt; PARA FACILITAR LA OPERACIÓN DE ROTACIÓN DEL ÁRBOL MOTRIZ, SE RECOMIENDA DESMONTAR DEL MOTOR LAS BUJÍAS DE ENCENDIDO (MOTOR DE GASOLINA) O LAS BUJÍAS DE PRECALENTAMIENTO (MOTOR DIESEL); &lt;BR/&gt; GIRAR EL SISTEMA DE DISTRIBUCIÓN ACTUANDO EXCLUSIVAMENTE SOBRE EL ÁRBOL MOTOR, SALVO QUE SE ESPECIFIQUE LO CONTRARIO; &lt;BR/&gt; GIRAR EL SISTEMA DE DISTRIBUCIÓN EN EL SENTIDO NORMAL DE ROTACIÓN, SALVO QUE SE ESPECIFIQUE LO CONTRARIO; &lt;BR/&gt; NO GIRE NINGÚN COMPONENTE DEL SISTEMA DE DISTRIBUCIÓN DESPUÉS DE HABER DESMONTADO LA CORREA/CADENA DE DISTRIBUCIÓN, SALVO QUE SE ESPECIFIQUE LO CONTRARIO; &lt;BR/&gt; PARA BLOQUEAR EL MOTOR PARA DESATORNILLAR O APRIETAR, NO UTILICE LAS HERRAMIENTAS DE ALINEACIÓN; &lt;BR/&gt; NO INTERPONGA NINGÚN OBJETO ENTRE LA CORREA Y LAS POLEAS, NI ENTRE LA CADENA Y LAS RUEDAS DENTADAS DEL SISTEMA DE DISTRIBUCIÓN; &lt;BR/&gt; ANTES DE ARRANCAR EL MOTOR, GIRE MANUALMENTE EL ÁRBOL MOTOR DOS VUELTAS Y COMPRUEBE QUE LA FASE ESTÁ CORRECTA, SALVO QUE SE ESPECIFIQUE LO CONTRARIO; &lt;BR/&gt; RESPETE LOS PARES DE APRETADO;</Corpo>
+      <RifIDFileIMGANI>299010813</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299010813</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299010813</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>COMPONENTES DE DISTRIBUCIÓN</Capitolo>
+      <Corpo> &lt;BR/&gt; Leyenda &lt;BR/&gt; &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt; &lt;TD&gt; Componente &lt;/TD&gt; &lt;TD&gt; DESCRIPCIÓN &lt;/TD&gt; &lt;TR&gt; &lt;TD&gt; 1 &lt;/TD&gt;  &lt;TD&gt; CORREA DE DISTRIBUCIÓN &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; 2 &lt;/TD&gt; &lt;TD&gt; POLEA DEL ÁRBOL DE MANDOS &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; 3 &lt;/TD&gt; &lt;TD&gt; TENSOR &lt;/TD&gt; &lt;/TR&gt;  &lt;TR&gt; &lt;TD&gt; 4 &lt;/TD&gt; &lt;TD&gt; Polea del árbol de levas &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; 7 &lt;/TD&gt; &lt;TD&gt; POLEA DE LA BOMBA DE INYECCIÓN &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; 8 &lt;/TD&gt; &lt;TD&gt; POLEA DE GUÍA &lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt; &lt;BR/&gt; EQUIPO &lt;BR/&gt; &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt; &lt;TD&gt; HERRAMIENTAS ESPECIALES &lt;/TD&gt; &lt;TD&gt; CÓD. HERRAMIENTA &lt;/TD&gt;  &lt;TR&gt; &lt;TD&gt; HERRAMIENTA DE BLOQUEO DEL TENSOR &lt;/TD&gt; &lt;TD&gt; &lt;1 860 638 000&gt; &lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt; </Corpo>
+      <RifIDFileIMGANI>299011457</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011457</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011457</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>PROCEDIMIENTO DE AFINADO</Capitolo>
+      <Corpo> &lt;BR/&gt; Desconecte la batería de servicio de 12 V. &lt;BR/&gt; Desmonte la rueda delantera derecha. &lt;BR/&gt; Desmontar el paso de rueda delantero derecho. &lt;BR/&gt; Retirar la cubierta del motor. &lt;BR/&gt; Desmontar la correa de servicios. &lt;BR/&gt; Girar el cigüeñal hasta que sea posible insertar una clavija de 8 mm en el orificio del volante.</Corpo>
+      <RifIDFileIMGANI>299011896</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011896</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011896</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; Desmontar el cárter de distribución.</Corpo>
+      <RifIDFileIMGANI>299011825</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011825</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011825</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>70</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; Desmontar la polea del árbol motor. &lt;BR/&gt; Comprobar la correcta alineación de las referencias.</Corpo>
+      <RifIDFileIMGANI>299011461</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011461</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011461</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>80</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo></Corpo>
+      <RifIDFileIMGANI>299011826</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011826</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011826</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>90</Ordine>
+      <Capitolo>OPERACIONES DE DESMONTAJE/REMONTAJE</Capitolo>
+      <Corpo> &lt;BR/&gt; Bloquear el tensor con la herramienta indicada.</Corpo>
+      <RifIDFileIMGANI>299011462</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011462</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011462</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>100</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; Desmontar el cárter inferior de la distribución. &lt;BR/&gt; Retirar la correa de distribución. &lt;BR/&gt; Sustituir el tensor. &lt;BR/&gt; Colocar la correa de distribución. &lt;BR/&gt; Retirar todas las herramientas utilizadas. &lt;BR/&gt; Girar el árbol motor dos vueltas y comprobar que la sincronización sea correcta. &lt;BR/&gt; Montar los componentes en el orden inverso al desmontaje.</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>110</Ordine>
+      <Capitolo>PARES DE APRIETE</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt; &lt;TD&gt; Componente &lt;/TD&gt; &lt;TD&gt; DIMENSIÓN &lt;/TD&gt; &lt;TD&gt; PAR DE APRETADO &lt;/TD&gt; &lt;TD&gt; TIPO &lt;/TD&gt;  &lt;TR&gt; &lt;TD&gt; TENSOR &lt;/TD&gt; &lt;TD&gt; - &lt;/TD&gt; &lt;TD&gt; 36 - 44 Nm &lt;/TD&gt; &lt;TD&gt; TUERCA &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Polea del árbol motor &lt;/TD&gt;  &lt;TD&gt; - &lt;/TD&gt; &lt;TD&gt; 180 - 220 Nm &lt;/TD&gt; &lt;TD&gt; Tornillo &lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

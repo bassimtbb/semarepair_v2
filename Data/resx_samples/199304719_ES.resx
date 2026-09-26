@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-22T17:50:44">
+  <XDOCUMENTO>
+    <ID>199304719</ID>
+    <DOCNumber>FUS89268</DOCNumber>
+    <RifIDTipoRis>20</RifIDTipoRis>
+    <Titolo>Referencias y localización</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>265</RifIDFileICO>
+    <XFILE>
+      <ID>265</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:265</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>20</ID>
+      <TipoRis>FUS</TipoRis>
+      <DscRis>Fusibles y relés</DscRis>
+      <RifIDFileCSS>264</RifIDFileCSS>
+      <RifIDTemplate>8</RifIDTemplate>
+      <XFILE>
+        <ID>264</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:264</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLDESCRIZIONE</IDLabel>
+        <Stringa>Descripción</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLNUMERO</IDLabel>
+        <Stringa>Número</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLRIFERIMENTO</IDLabel>
+        <Stringa>Referencia</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XFUSCONN>
+      <RifIDDoc>199304719</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Titolo>Localización de cajas de fusibles</Titolo>
+      <RifIDFileIMGANI>299023734</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87007228</ID>
+      <XFILE>
+        <ID>299023734</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299023734</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87007228</RifIDImmagine>
+        <Numero>1</Numero>
+        <Descrizione>Caja de fusibles / Relés del compartimento del motor</Descrizione>
+        <Riferimento>Compartimento del motor - lado del conductor</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007228</RifIDImmagine>
+        <Numero>2</Numero>
+        <Descrizione>Caja de fusibles / Relé del habitáculo (A)</Descrizione>
+        <Riferimento>Debajo del volante, en la parte inferior izquierda</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007228</RifIDImmagine>
+        <Numero>3</Numero>
+        <Descrizione>Caja de fusibles / Relé del habitáculo (B)</Descrizione>
+        <Riferimento>Debajo del salpicadero - lado derecho</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199304719</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Titolo>Caja de fusibles - Compartimento del motor</Titolo>
+      <RifIDFileIMGANI>299023720</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87007229</ID>
+      <XFILE>
+        <ID>299023720</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299023720</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Caja de fusibles / Relé del habitáculo (A)</Descrizione>
+        <Riferimento>60 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Módulo de control del precalentamiento de las bujías</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Interruptor de encendido</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Módulo de control del ABS</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Ventilador eléctrico del aire acondicionado / calefacción</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Centralita de inyección</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Ventilador eléctrico de refrigeración del motor - velocidad baja</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Centralita de inyección</Descrizione>
+        <Riferimento>40-60 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Interruptor de velocidad máxima del ventilador eléctrico</Descrizione>
+        <Riferimento>40-60 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Ventilador eléctrico de refrigeración del motor - alta velocidad</Descrizione>
+        <Riferimento>40-60 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Motor del limpiaparabrisas</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Bomba del limpiaparabrisas</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Faros antiniebla</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Avisador acústico</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Módulo de control de la dirección</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Centralita de inyección</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F14</Numero>
+        <Descrizione>Faro de cruce derecho</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F15</Numero>
+        <Descrizione>Faro de cruce izquierdo</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Centralita de inyección</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Módulo de inmovilización / Código</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F17</Numero>
+        <Descrizione>Centralita de inyección</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Centralita de inyección</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Módulo de inmovilización / Código</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F19</Numero>
+        <Descrizione>Compresor del aire acondicionado</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>Módulo PTC</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F21</Numero>
+        <Descrizione>Bomba eléctrica de combustible</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F22</Numero>
+        <Descrizione>Centralita de inyección</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F23</Numero>
+        <Descrizione>Módulo de control de la transmisión automática</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Módulo de control de la transmisión automática</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F30</Numero>
+        <Descrizione>Luces de carretera</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Relé del ventilador eléctrico del radiador - 1</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R10</Numero>
+        <Descrizione>Relé principal 1</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R11</Numero>
+        <Descrizione>Relé de transmisión automática</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R12</Numero>
+        <Descrizione>Relé principal 2</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Relé de luces de cruce</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Relé de lavaparabrisas / limpiaparabrisas</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R4</Numero>
+        <Descrizione>Relé de avisador acústico</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R5</Numero>
+        <Descrizione>Relé de luces largas</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R6</Numero>
+        <Descrizione>Relé de faros antiniebla</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R7</Numero>
+        <Descrizione>Relé del embrague del aire acondicionado</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R8</Numero>
+        <Descrizione>Relé del ventilador eléctrico del radiador - 2</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R9</Numero>
+        <Descrizione>Relé de la bomba de combustible</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199304719</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Titolo>Caja de fusibles - Habitáculo (A)</Titolo>
+      <RifIDFileIMGANI>299023711</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87007230</ID>
+      <XFILE>
+        <ID>299023711</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299023711</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Luz de posición trasera derecha</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Luz de posición delantera derecha</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Luz de posición trasera izquierda</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Luz de posición delantera izquierda</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Luz de posición</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Luz de iluminación del cuadro de instrumentos</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Luces de matrícula</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F25</Numero>
+        <Descrizione>Autorradio</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Luces de freno</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F27</Numero>
+        <Descrizione>Control de crucero</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F27</Numero>
+        <Descrizione>Alarma / Antirrobo</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F27</Numero>
+        <Descrizione>Tacógrafo</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F27</Numero>
+        <Descrizione>Teléfono</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F27</Numero>
+        <Descrizione>Retrovisores plegables</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F27</Numero>
+        <Descrizione>Mando a distancia</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F31</Numero>
+        <Descrizione>Interruptor de encendido</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F32</Numero>
+        <Descrizione>Autorradio</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F33</Numero>
+        <Descrizione>Luz antiniebla trasera</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F35</Numero>
+        <Descrizione>Módulo de control de elevalunas</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F35</Numero>
+        <Descrizione>Cierre centralizado</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>No utilizado / No presente</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Sistema de aparcamiento asistido</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Cuadro de instrumentos</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F39</Numero>
+        <Descrizione>Toma de diagnóstico</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F39</Numero>
+        <Descrizione>Luces del habitáculo / luz del compartimento portaobjetos</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F42</Numero>
+        <Descrizione>Módulo de control del ABS</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F43</Numero>
+        <Descrizione>Bomba del limpiaparabrisas</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F44</Numero>
+        <Descrizione>Encendedor</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>No utilizado / No presente</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>Bomba de lavado de faros</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F50</Numero>
+        <Descrizione>Módulo de control del airbag</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F51</Numero>
+        <Descrizione>Equipamientos especiales</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F52</Numero>
+        <Descrizione>Toma de 12 V delantera</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F53</Numero>
+        <Descrizione>Cuadro de instrumentos</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F53</Numero>
+        <Descrizione>Intermitentes</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F53</Numero>
+        <Descrizione>Luces de emergencia</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F55</Numero>
+        <Descrizione>Calentador adicional</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F55</Numero>
+        <Descrizione>Ventilador eléctrico del calefactor</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F55</Numero>
+        <Descrizione>Ventilador eléctrico del aire acondicionado / calefacción</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F62</Numero>
+        <Descrizione>No utilizado / No presente</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Relé de la bomba del lavafaros</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Relé del ventilador eléctrico del aire acondicionado</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Relé de toma auxiliar</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199304719</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Titolo>Caja de fusibles - Habitáculo (B)</Titolo>
+      <RifIDFileIMGANI>299023718</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87007231</ID>
+      <XFILE>
+        <ID>299023718</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299023718</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>No utilizado / No presente</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Alarma / Antirrobo</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Tacógrafo</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Teléfono</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Mando a distancia</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F38</Numero>
+        <Descrizione>Cierre centralizado</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F40</Numero>
+        <Descrizione>Luneta trasera con calefacción, lado derecho</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F41</Numero>
+        <Descrizione>Descongelador de retrovisores</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F45</Numero>
+        <Descrizione>Asiento del conductor calefactado</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F47</Numero>
+        <Descrizione>Elevalunas del lado izquierdo</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F48</Numero>
+        <Descrizione>Elevalunas del lado derecho</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F54</Numero>
+        <Descrizione>Luneta trasera térmica del lado izquierdo</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F56</Numero>
+        <Descrizione>Aire acondicionado adicional</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F57</Numero>
+        <Descrizione>Ventilador eléctrico del calefactor auxiliar</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F58</Numero>
+        <Descrizione>Calentador adicional</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F59</Numero>
+        <Descrizione>Equipamientos especiales</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Luces intermitentes</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F61</Numero>
+        <Descrizione>Calentador adicional</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F63</Numero>
+        <Descrizione>Equipamientos especiales</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F64</Numero>
+        <Descrizione>Toma de 12 V trasera</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F64</Numero>
+        <Descrizione>Equipamientos especiales</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F65</Numero>
+        <Descrizione>Equipamientos especiales</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F66</Numero>
+        <Descrizione>No utilizado / No presente</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F67</Numero>
+        <Descrizione>No utilizado / No presente</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F68</Numero>
+        <Descrizione>No utilizado / No presente</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F69</Numero>
+        <Descrizione>No utilizado / No presente</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F80</Numero>
+        <Descrizione>No utilizado / No presente</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F81</Numero>
+        <Descrizione>No utilizado / No presente</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F82</Numero>
+        <Descrizione>No utilizado / No presente</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Relé del calentador auxiliar</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Relé de toma auxiliar</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Relé de retrovisores calefactados</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Relé de desempañado de la luneta trasera</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>R4</Numero>
+        <Descrizione>Relé de la bomba de refrigerante</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+  </XDOCUMENTO>
+</dataroot>

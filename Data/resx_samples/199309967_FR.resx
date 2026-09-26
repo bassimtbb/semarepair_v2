@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:05">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T16:06:51">
   <XDOCUMENTO>
     <ID>199309967</ID>
     <DOCNumber>GUP97444</DOCNumber>
     <RifIDTipoRis>4</RifIDTipoRis>
     <Titolo>Code d'erreur moteur actif, dysfonctionnement du compteur de vitesse et du compteur kilométrique</Titolo>
-    <InfoDoc>INJECTION | P0148 | P1612 | P0380 | P0382 | P0500 | RÉSISTANCE | TUYAU | PURGE | HUILE | MOTEUR | S'ALLUME | ALLUMÉ | MIL | ROUGE | ROUGE | FONCTIONNENT | INACTIFS | KM | KILOMÈTRES |</InfoDoc>
+    <InfoDoc>INIEZIONE | P0148 | P1612 | P0380 | P0382 | P0500 | RESISTENZA | TUBO | SFIATO | OLIO | MOTORE | ACCENDE | ACCESA | MIL | ROSSO | ROSSA | FUNZIONANO | INATTIVI | KM | CHILOMETRI |</InfoDoc>
     <RifIDFileICO>227</RifIDFileICO>
     <XFILE>
       <ID>227</ID>
@@ -41,8 +41,7 @@
       <RifIDDoc>199309967</RifIDDoc>
       <Ordine>3</Ordine>
       <Capitolo>Identification du système / de la panne</Capitolo>
-      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Résistance du tuyau de purge d&apos;huile moteur &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Allumage du témoin de panne moteur (rouge) ; avec dysfonctionnement du compteur de vitesse et du compteur kilométrique &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt;
-&lt;LI&gt; P0148 (Raccord de carburant - Erreur générique) &lt;BR/&gt; &lt;LI&gt; P1612 (Relais du réchauffeur du filtre à carburant - Anomalie) &lt;BR/&gt;  &lt;LI&gt; P0380 (Commande temporisée des bougies de préchauffage 1 - Dysfonctionnement) &lt;BR/&gt; &lt;LI&gt; P0382 (Commande temporisée des bougies de préchauffage 2 - Dysfonctionnement) &lt;BR/&gt;  &lt;LI&gt; P0500 (Capteur de vitesse du véhicule - Erreur générique) &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Résistance du tuyau de purge d&apos;huile défectueuse &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Résistance du tuyau de purge d&apos;huile moteur &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Allumage du témoin de panne moteur (rouge) ; avec dysfonctionnement du compteur de vitesse et du compteur kilométrique &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; &lt;UL&gt;   &lt;LI&gt; P0148 (Raccord de carburant - Erreur générique) &lt;BR/&gt; &lt;LI&gt; P1612 (Relais du réchauffeur du filtre à carburant - Anomalie) &lt;BR/&gt; &lt;LI&gt; P0380 (Commande temporisée des bougies de préchauffage 1 - Dysfonctionnement) &lt;BR/&gt;  &lt;LI&gt; P0382 (Commande temporisée des bougies de préchauffage 2 - Dysfonctionnement) &lt;BR/&gt;  &lt;LI&gt; P0500 (Capteur de vitesse du véhicule - Erreur générique) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Résistance du tuyau de purge d&apos;huile défectueuse &lt;BR/&gt;&lt;BR/&gt; </Corpo>
       <RifIDFileIMGANI>0</RifIDFileIMGANI>
       <Allineamento>B</Allineamento>
       <XFILE>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:05">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T16:06:52">
   <XDOCUMENTO>
     <ID>199309974</ID>
     <DOCNumber>GUP97446</DOCNumber>
     <RifIDTipoRis>4</RifIDTipoRis>
     <Titolo>Arrêts soudains du moteur accompagnés de l'allumage du voyant rouge de panne moteur</Titolo>
-    <InfoDoc>INJECTION | P1671 | P0191 | P0190 | RÉGULATEUR | PRESSION | CARBURANT | DIESEL | GAZOLE | S'ALLUME | ALLUMÉ | MIL | ROUGE | S'ÉTEINT | S'ARRÊTE | SE BLOQUE | S'ÉTEINT | MOUVEMENT | ROUTE | COURSE |</InfoDoc>
+    <InfoDoc>INIEZIONE | P1671 | P0191 | P0190 | REGOLATORE | PRESSIONE | CARBURANTE | DIESEL | GASOLIO | ACCENDE | ACCESA | MIL | ROSSO | ROSSA | SPEGNE | ARRESTA | BLOCCA | MUORE | MOVIMENTO | STRADA | CORSA |</InfoDoc>
     <RifIDFileICO>227</RifIDFileICO>
     <XFILE>
       <ID>227</ID>
@@ -41,8 +41,7 @@
       <RifIDDoc>199309974</RifIDDoc>
       <Ordine>3</Ordine>
       <Capitolo>Identification du système / de la panne</Capitolo>
-      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Alimentation du moteur &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Régulateur de pression de carburant &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Arrêts soudains du moteur accompagnés de l&apos;allumage du témoin de panne moteur. Après le redémarrage, le moteur s&apos;éteint à nouveau après un court trajet. Par la suite, le moteur a du mal à démarrer et le démarrage n&apos;est possible qu&apos;après plusieurs tentatives ou après un certain temps. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt;
-&lt;LI&gt; P1671 (Régulateur de pression de gazole - Anomalie) &lt;BR/&gt; &lt;LI&gt;  P0191 (Capteur de pression de conduite / carburant - Valeur nominale incorrecte) &lt;BR/&gt; &lt;LI&gt; P0190 (Capteur de pression de conduite / carburant - Erreur générique) &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Régulateur de pression de carburant défectueux &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Alimentation du moteur &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Régulateur de pression de carburant &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Arrêts soudains du moteur accompagnés de l&apos;allumage du témoin de panne moteur. Après le redémarrage, le moteur s&apos;éteint à nouveau après un court trajet. Par la suite, le moteur a du mal à démarrer et le démarrage n&apos;est possible qu&apos;après plusieurs tentatives ou après un certain temps. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Erreurs détectées par l’autodiagnostic : &lt;/B&gt; &lt;UL&gt; &lt;LI&gt; P1671 (Régulateur de pression de gazole - Anomalie) &lt;BR/&gt; &lt;LI&gt; P0191 (Capteur de pression de la conduite de carburant - Valeur nominale incorrecte) &lt;BR/&gt;  &lt;LI&gt; P0190 (Capteur de pression de conduite de carburant – Erreur générique) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Régulateur de pression de carburant défectueux &lt;BR/&gt;&lt;BR/&gt; </Corpo>
       <RifIDFileIMGANI>0</RifIDFileIMGANI>
       <Allineamento>B</Allineamento>
       <XFILE>

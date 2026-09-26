@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T14:38:05">
+  <XDOCUMENTO>
+    <ID>199244103</ID>
+    <DOCNumber>DIS75074</DOCNumber>
+    <RifIDTipoRis>100000012</RifIDTipoRis>
+    <Titolo>OGÓLNE UWAGI DOTYCZĄCE DYSTRYBUCJI</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>219</RifIDFileICO>
+    <XFILE>
+      <ID>219</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:219</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>100000012</ID>
+      <TipoRis>DIS</TipoRis>
+      <DscRis>Dystrybucja</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>12</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>OGÓLNE UWAGI</Capitolo>
+      <Corpo> &lt;BR/&gt; UWAGA! &lt;BR/&gt; – WYŁĄCZYĆ WSZYSTKIE URZĄDZENIA DODATKOWE STEROWANE ELEKTRYCZNIE, PRZESTRZEGAJĄC NASTĘPUJĄCYCH OSTRZEŻEŃ: &lt;BR/&gt; NALEŻY UPEWNIĆ SIĘ, ŻE POSIADA SIĘ KOD BEZPIECZEŃSTWA RADIA SAMOCHODOWEGO, JEŚLI JEST ON WYMAGANY, ORAZ UPEWNIĆ SIĘ, ŻE ZOSTAŁ ON DEAKTYWOWANY LUB ZAPISANY W KSIĄŻECZCE POJAZDU; &lt;BR/&gt; NIEKTÓRE DANE (NP. WSKAZANIE GODZINY, WSKAZANIE TEMPERATURY ORAZ USTAWIENIA PRACY NIEKTÓRYCH AKCESORIÓW) ZOSTANĄ ZRESETOWANE; &lt;BR/&gt; NIEKTÓRE URZĄDZENIA ELEKTRONICZNE (KOMPUTER SILNIKA, KOMPUTER NADWOZIA, SYSTEM SRS) POZOSTAJĄ ZASILANE PRZEZ MAKSYMALNIE 20 MINUT. NALEŻY WIĘC ODczekać CO NAJMNIEJ 20 MINUT PO PRZESUNIĘCIU PRZEŁĄCZNIKA ROZRUCHOWEGO DO POZYCJI SPOCZYNKOWEJ „WYŁĄCZONE”, ZANIM ODŁĄCZY SIĘ AKUMULATOR; &lt;BR/&gt; ODŁĄCZYĆ AKUMULATOR SAMOCHODOWY;</Corpo>
+      <RifIDFileIMGANI>299010813</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299010813</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299010813</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; UWAGA TECHNICZNA: &lt;BR/&gt; PRZED DEMONTAŻEM NALEŻY SPRAWDZIĆ UKŁAD PASÓW NAPĘDOWYCH URZĄDZEŃ POMOCNICZYCH;</Corpo>
+      <RifIDFileIMGANI>299009774</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299009774</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009774</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; UWAGA! &lt;BR/&gt; ABY UŁATWIĆ OBROT WAŁU SILNIKA, ZALECA SIĘ DEMONTAŻ ŚWIEC ZAPŁONOWYCH (SILNIK BENZYNOWY) LUB ŚWIEC PODGRZEWAJĄCYCH (SILNIK WYSOKOPRĘŻNY); &lt;BR/&gt; OBROCIĆ UKŁAD ROZRZĄDU, DZIAŁAJĄC WYŁĄCZNIE NA WAŁ SILNIKA, O ILE NIE OKREŚLONO INACZEJ; &lt;BR/&gt; OBROCIĆ UKŁAD ROZRZĄDU W NORMALNYM KIERUNKU OBROTU, O ILE NIE OKREŚLONO INACZEJ; &lt;BR/&gt; NIE OBRAĆ ŻADNEGO ELEMENTU UKŁADU ROZDZIAŁOWEGO PO DEMONTAŻU PASKA/ŁAŃCUCHA ROZDZIAŁOWEGO, O ILE NIE OKREŚLONO INACZEJ; &lt;BR/&gt; W CELU ZABLOKOWANIA SILNIKA W CELU ODKRĘCENIA LUB DOKRĘCENIA NIE NALEŻY UŻYWAĆ NARZĘDZI WYRÓWNAWCZYCH; &lt;BR/&gt; NIE NALEŻY WKŁADAĆ ŻADNYCH PRZEDMIOTÓW MIĘDZY PAS A KOŁA PASOWE LUB MIĘDZY ŁAŃCUCH A KOŁA ZĘBATE UKŁADU ROZRZĄDU; &lt;BR/&gt; PRZED URUCHOMIENIEM SILNIKA NALEŻY RĘCZNIE OBROCIĆ WAŁ SILNIKA O DWA OBRÓTÓW I SPRAWDZIĆ, CZY FAZA JEST PRAWIDŁOWO USTAWIONA, O ILE NIE OKREŚLONO INACZEJ; &lt;BR/&gt; NALEŻY PRZESTRZEGAĆ MOMENTÓW DOKRĘCANIA;</Corpo>
+      <RifIDFileIMGANI>299010813</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299010813</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299010813</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>ELEMENTY UKŁADU ROZDZIELCZEGO</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda &lt;BR/&gt;  &lt;TABLE class=&apos;contenuto&apos; width=99% border=1 cellpadding=1 cellspacing=0&gt;  &lt;TD&gt; Element &lt;/TD&gt;  &lt;TD&gt; OPIS &lt;/TD&gt;  &lt;TR&gt;  &lt;TD&gt; 1 &lt;/TD&gt;  &lt;TD&gt; PASEK ROZRZĄDU &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; 2 &lt;/TD&gt;  &lt;TD&gt; KOŁO PASOWE WAŁU SILNIKA &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; 3 &lt;/TD&gt;  &lt;TD&gt; Napinacz &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; 4 &lt;/TD&gt;  &lt;TD&gt; koło pasowe wałka rozrządu &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; 7 &lt;/TD&gt;  &lt;TD&gt; KOŁO PASOWE POMPY WTRYSKOWEJ &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; 8 &lt;/TD&gt;  &lt;TD&gt; KOŁO PASOWE PROWADZĄCE &lt;/TD&gt;  &lt;/TR&gt;  &lt;/TABLE&gt;  &lt;BR/&gt; WYPOSAŻENIE &lt;BR/&gt;  &lt;TABLE class=&apos;contenuto&apos; width=99% border=1 cellpadding=1 cellspacing=0&gt;  &lt;TD&gt; NARZĘDZIA SPECJALNE &lt;/TD&gt;  &lt;TD&gt; NR KAT. NARZĘDZIA &lt;/TD&gt;  &lt;TR&gt;  &lt;TD&gt; NARZĘDZIE BLOKUJĄCE NAPINACZ &lt;/TD&gt;  &lt;TD&gt;  &lt;1 860 638 000&gt;  &lt;/TD&gt;  &lt;/TR&gt;  &lt;/TABLE&gt; </Corpo>
+      <RifIDFileIMGANI>299011457</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011457</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011457</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>PROCEDURA REGULACJI FAZOWANIA</Capitolo>
+      <Corpo> &lt;BR/&gt; Odłączyć akumulator pomocniczy 12 V. &lt;BR/&gt; Zdemontować prawe przednie koło. &lt;BR/&gt; Zdemontować prawą przednią osłonę nadkoła. &lt;BR/&gt; Zdjąć osłonę silnika. &lt;BR/&gt; Zdjąć pasek napędowy. &lt;BR/&gt; Obracać wał silnika, aż będzie można włożyć klucz 8 mm do otworu w kole zamachowym.</Corpo>
+      <RifIDFileIMGANI>299011896</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011896</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011896</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; Zdemontować obudowę rozrządu.</Corpo>
+      <RifIDFileIMGANI>299011825</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011825</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011825</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>70</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; Zdemontować koło pasowe wału silnika. &lt;BR/&gt; Sprawdzić prawidłowe wyrównanie punktów odniesienia.</Corpo>
+      <RifIDFileIMGANI>299011461</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011461</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011461</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>80</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo></Corpo>
+      <RifIDFileIMGANI>299011826</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011826</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011826</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>90</Ordine>
+      <Capitolo>CZYNNOŚCI ZWIĄZANE Z DEMONTAŻEM / MONTAŻEM</Capitolo>
+      <Corpo> &lt;BR/&gt; Zablokować napinacz za pomocą wskazanego narzędzia.</Corpo>
+      <RifIDFileIMGANI>299011462</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011462</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011462</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>100</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; Zdemontować dolną osłonę rozrządu. &lt;BR/&gt; Zdjąć pasek rozrządu. &lt;BR/&gt; Wymienić napinacz. &lt;BR/&gt; Założyć pasek rozrządu. &lt;BR/&gt; Usunąć wszystkie używane narzędzia. &lt;BR/&gt; Obrócić wał silnika o dwa obroty i sprawdzić prawidłowe ustawienie faz. &lt;BR/&gt; Zamontować elementy w kolejności odwrotnej do demontażu.</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>110</Ordine>
+      <Capitolo>MOMENTY DOKRĘCANIA</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;TABLE class=&apos;contenuto&apos; width=99% border=1 cellpadding=1 cellspacing=0&gt;  &lt;TD&gt; Element &lt;/TD&gt;  &lt;TD&gt; ROZMIAR &lt;/TD&gt;  &lt;TD&gt; MOMENT DOKRĘCANIA  &lt;/TD&gt;  &lt;TD&gt; TYP &lt;/TD&gt;  &lt;TR&gt;  &lt;TD&gt; NAPINACZ &lt;/TD&gt;  &lt;TD&gt; - &lt;/TD&gt;  &lt;TD&gt; 36–44 Nm &lt;/TD&gt;  &lt;TD&gt; NAKRĘTKA &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Koło pasowe wału silnika &lt;/TD&gt;  &lt;TD&gt; - &lt;/TD&gt;  &lt;TD&gt; 180–220 Nm &lt;/TD&gt;  &lt;TD&gt; śruba &lt;/TD&gt;  &lt;/TR&gt;  &lt;/TABLE&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

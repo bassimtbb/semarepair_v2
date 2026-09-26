@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T16:11:56">
+  <XDOCUMENTO>
+    <ID>199006282</ID>
+    <DOCNumber>INT76051</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>Fiat Ducato</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Recalls Oficiais</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Fonte dos dados - Ministério dos Transportes</Capitolo>
+      <Corpo> &lt;B&gt;  Fabricante: &lt;/B&gt;  Fiat Auto S.p.a.  &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  Marca: &lt;/B&gt;  Fiat  &lt;BR&gt;  &lt;BR&gt; Anomalias reconhecidas pelos fabricantes de automóveis com base no Decreto-Lei n.º 78/2000</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Fiat Ducato</Capitolo>
+      <Corpo> &lt;BR&gt; Número de veículos: 9  &lt;BR&gt; Período de produção: novembro de 2006  &lt;BR&gt; Descrição da avaria: Ausência de luzes de presença laterais  &lt;BR&gt; Medidas corretivas: Montagem  &lt;BR&gt; Referência: Concessionários  &lt;BR&gt; Intervalo de chassis de: ZFA25000001001791  &lt;BR&gt; Intervalo de chassis até: ZFA25000001055902  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Número de veículos: 16889  &lt;BR&gt; Período de produção: de maio de 2006 a dezembro de 2006  &lt;BR&gt; Descrição da avaria: Infiltração de água com anomalias no funcionamento do motor do limpa-para-brisas  &lt;BR&gt; Medidas corretivas: Aplicação de uma proteção  &lt;BR&gt; Referência: Concessionários  &lt;BR&gt; Intervalo de chassis de: início  &lt;BR&gt; Intervalo de chassis a: ZFA25000001114798  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Número de veículos: 24402  &lt;BR&gt; Período de produção: de maio de 2006 a março de 2007  &lt;BR&gt; Descrição da avaria: Lubrificação insuficiente da caixa de direção e endurecimento da direção  &lt;BR&gt; Medidas corretivas: Aplicação de lubrificante na cremalheira  &lt;BR&gt; Referência: Concessionários  &lt;BR&gt; Intervalo de chassis de: início  &lt;BR&gt; Intervalo de chassis até: ZFA25000001173899  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Número de veículos: 27  &lt;BR&gt; Período de produção: de maio de 2006 a agosto de 2006  &lt;BR&gt; Descrição da avaria: Junta da tubagem de combustível não conforme  &lt;BR&gt; Medidas corretivas: Aplicação de vedante de silicone  &lt;BR&gt; Referência: Concessionários  &lt;BR&gt; Intervalo de chassis de: ZFA25000001000322  &lt;BR&gt; Intervalo de chassis até: ZFA25000001000595  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Número de veículos: 996  &lt;BR&gt; Período de produção: de maio de 2006 a agosto de 2006  &lt;BR&gt; Descrição da avaria: Soldadura do suporte do cabo do travão de mão não conforme  &lt;BR&gt; Medidas corretivas: Rebitagem do suporte  &lt;BR&gt; Referência: Concessionários  &lt;BR&gt; Intervalo de chassis de: ZFA25000001000322  &lt;BR&gt; Intervalo de chassis a: ZFA25000001006649  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Número de veículos: 52  &lt;BR&gt; Período de produção: de maio de 2006 a agosto de 2006  &lt;BR&gt; Descrição da avaria: Amortecedores dianteiros não conformes  &lt;BR&gt; Medidas corretivas: Substituição  &lt;BR&gt; Referência: Concessionários  &lt;BR&gt; Intervalo de chassis de: ZFA25000001000322  &lt;BR&gt; Intervalo de chassis a: ZFA25000001001516  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Número de veículos: não indicado  &lt;BR&gt; Período de produção: de maio de 2006 a agosto de 2006  &lt;BR&gt; Descrição da avaria: Unidade de controlo do airbag não conforme  &lt;BR&gt; Medidas corretivas: Substituição  &lt;BR&gt; Referência: Concessionários  &lt;BR&gt; Intervalo de números de chassis de: ZFA25000001000368  &lt;BR&gt; Intervalo de números de chassis até: ZFA25000001001793  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Número de veículos: 75  &lt;BR&gt; Período de produção: de maio de 2006 a agosto de 2006  &lt;BR&gt; Descrição da avaria: Possível deslocamento do eixo de direção  &lt;BR&gt; Medidas corretivas: Aplicação de um grampo de retenção  &lt;BR&gt; Referência: Concessionários  &lt;BR&gt; Intervalo de chassis de: ZFA25000001000322  &lt;BR&gt; Intervalo de chassis até: ZFA25000001008392  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Número de veículos: 36  &lt;BR&gt; Período de produção: de maio de 2006 a agosto de 2006  &lt;BR&gt; Descrição da avaria: Soldadura da travessa da suspensão dianteira não conforme  &lt;BR&gt; Medidas corretivas: Verificação e eventual substituição da travessa  &lt;BR&gt; Referência: Concessionários  &lt;BR&gt; Intervalo de chassis de: ZFA25000001019071  &lt;BR&gt; Intervalo de chassis até: ZFA25000001019756  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Número de veículos: 882  &lt;BR&gt; Período de produção: de novembro de 2005 a fevereiro de 2006  &lt;BR&gt; Descrição da avaria: Não conformidade no aperto dos suportes das molas  &lt;BR&gt; Medidas corretivas: Verificação e eventual substituição dos suportes  &lt;BR&gt; Referência: Concessionários  &lt;BR&gt; Intervalo de chassis de: ZFA24400007761041  &lt;BR&gt; Intervalo de chassis até: ZFA24400007777899 &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Número de veículos: 9475  &lt;BR&gt; Período de produção: início de janeiro de 2005  &lt;BR&gt; Descrição do defeito: Infiltração de água na válvula EGR  &lt;BR&gt; Medidas corretivas: Aplicação de filtro  &lt;BR&gt; Referência: Concessionários  &lt;BR&gt; Intervalo de números de chassis de: ZFA24400007000022  &lt;BR&gt; Intervalo de números de chassis até: ZFA24400007574579 &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Número de veículos: 1349  &lt;BR&gt; Período de produção: de dezembro de 2002 a agosto de 2006  &lt;BR&gt; Descrição da avaria: Ausência de fusível de proteção da cablagem de alimentação a gás natural  &lt;BR&gt; Medidas corretivas: Instalação de fusível  &lt;BR&gt; Referência: Concessionários  &lt;BR&gt; Intervalo de números de chassis de: ZFA24400007129380  &lt;BR&gt; Intervalo de números de chassis até: ZFA24400007842448 &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Fiat Ducato 3.0 JTD</Capitolo>
+      <Corpo> &lt;BR&gt; Número de veículos: 300  &lt;BR&gt; Período de produção: de maio de 2006 a agosto de 2006  &lt;BR&gt; Descrição da avaria: Interferências nas tubagens de blow-by  &lt;BR&gt; Medidas corretivas: Aplicação de um espaçador  &lt;BR&gt; Referência: Concessionários  &lt;BR&gt; Intervalo de números de chassis de: ZFA25000001002184  &lt;BR&gt; Intervalo de números de chassis até: ZFA25000001019433 &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Fiat Ducato Autocarro Escolar</Capitolo>
+      <Corpo> &lt;BR&gt; Número de veículos: 68008  &lt;BR&gt; Período de produção: de janeiro de 2002 a dezembro de 2003  &lt;BR&gt; Descrição da avaria: Interferência da mangueira dos travões dianteiros com a carroçaria  &lt;BR&gt; Medidas corretivas: Verificação e eventual substituição das mangueiras  &lt;BR&gt; Referência: Concessionários &lt;BR&gt; Intervalo de chassis de: ZFA24400007000001  &lt;BR&gt; Intervalo de chassis a: ....7358857  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Número de veículos: 74  &lt;BR&gt; Período de produção: de dezembro de 2001 a dezembro de 2003  &lt;BR&gt; Descrição da avaria: não conformidade da vedação da cablagem da unidade de controlo da caixa de velocidades automática  &lt;BR&gt; Medidas corretivas: restabelecimento da vedação  &lt;BR&gt; Referência: Concessionários &lt;BR&gt; Intervalo de chassis de: ZFA24400007000007  &lt;BR&gt; Intervalo de chassis até: ZFA24400007341167 &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Fiat Ducato com caixote</Capitolo>
+      <Corpo> &lt;BR&gt; Número de veículos: 19  &lt;BR&gt; Período de produção: de maio de 2006 a julho de 2006  &lt;BR&gt; Descrição da avaria: Ruptura das placas de fixação das dobradiças  &lt;BR&gt; Medidas corretivas: Substituição  &lt;BR&gt; Referência: Concessionários  &lt;BR&gt; Intervalo de chassis de: ZFA24400007828525  &lt;BR&gt; Intervalo de chassis a: ZFA24400007837578 &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Número de veículos: 6  &lt;BR&gt; Período de produção: de maio de 2006 a agosto de 2006  &lt;BR&gt; Descrição da avaria: Ruptura das placas de fixação das dobradiças  &lt;BR&gt; Medidas corretivas: Substituição  &lt;BR&gt; Referência: Concessionários  &lt;BR&gt; Intervalo de chassis de: ZFA25000001013150  &lt;BR&gt; Intervalo de chassis até: ZFA25000001040052 &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>6</Ordine>
+      <Capitolo>Fiat Ducato M1-m2-n1</Capitolo>
+      <Corpo> &lt;BR&gt; Número de veículos: 1  &lt;BR&gt; Período de produção: de outubro de 2001 a janeiro de 2002  &lt;BR&gt; Descrição da avaria: impossibilidade de acionar o travão de mão devido à saída do cabo do travão de mão do encaixe nas mordentes  &lt;BR&gt; Medidas corretivas: substituição do cabo  &lt;BR&gt; Referência: concessionários &lt;BR&gt; Intervalo de chassis de: ZFA23000006194400  &lt;BR&gt; Intervalo de chassis a: ZFA23000006227275  &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>8</Ordine>
+      <Capitolo>Fiat Ducato Camper 18 Q Rodas 15</Capitolo>
+      <Corpo> &lt;BR&gt; Número de veículos: 372  &lt;BR&gt; Período de produção: de junho de 2004 a junho de 2005  &lt;BR&gt; Descrição da avaria: Sensor tacométrico não conforme  &lt;BR&gt; Medidas corretivas: Substituição  &lt;BR&gt; Referência: Concessionários  &lt;BR&gt; Intervalo de chassis de: ZFA24400007463038  &lt;BR&gt; Intervalo de chassis a: ZFA24400007651744 &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>90</Ordine>
+      <Capitolo>Fiat Ducato X2/50</Capitolo>
+      <Corpo> &lt;BR&gt; Número de veículos: 68405 &lt;BR&gt; Período de produção: Não identificado &lt;BR&gt; Descrição da avaria: Possível quebra do sistema de elevação da roda sobressalente e perda da mesma &lt;BR&gt; Medidas corretivas: Substituição do mecanismo de elevação &lt;BR&gt; Referência: Concessionários &lt;BR&gt; Intervalo de chassis de: ZFA25000001000371  &lt;BR&gt; Intervalo de chassis a: ZFA25000001789701 &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>91</Ordine>
+      <Capitolo>Fiat Ducato 2.0 JTD</Capitolo>
+      <Corpo></Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

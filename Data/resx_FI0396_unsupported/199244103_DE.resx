@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T14:38:04">
+  <XDOCUMENTO>
+    <ID>199244103</ID>
+    <DOCNumber>DIS75074</DOCNumber>
+    <RifIDTipoRis>100000012</RifIDTipoRis>
+    <Titolo>ALLGEMEINE HINWEISE ZUM VERTRIEB</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>219</RifIDFileICO>
+    <XFILE>
+      <ID>219</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:219</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>100000012</ID>
+      <TipoRis>DIS</TipoRis>
+      <DscRis>Vertrieb</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>12</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>ALLGEMEINE HINWEISE</Capitolo>
+      <Corpo> &lt;BR/&gt; ACHTUNG! &lt;BR/&gt; – SCHALTEN SIE ALLE ELEKTRISCH GESTEUERTEN ZUBEHÖRTEILE AUS UND BEACHTEN SIE DABEI FOLGENDE HINWEISE: &lt;BR/&gt; VERGEWISSERN SIE SICH, DASS SIE ÜBER DEN SICHERHEITSCODE DES AUTORADIOS VERFÜGEN, SOFERN VORGESEHEN, UND STELLEN SIE SICHER, DASS DIESER DEAKTIVIERT ODER IM FAHRZEUGPAß EINGETRAGEN WIRD; &lt;BR/&gt; EINIGE DATEN (Z. B. UHRZEITANZEIGE, TEMPERATURANZEIGE UND DIE BETRIEBSEINSTELLUNGEN EINIGER ZUBEHÖRTEILE) WERDEN AUF DIE STANDARDWERTE ZURÜCKGESETZT; &lt;BR/&gt; EINIGE ELEKTRONISCHE EINHEITEN (MOTOR-ECU, KAROSSERIECOMPUTER, SRS-SYSTEM) BLEIBEN FÜR MAXIMAL 20 MINUTEN MIT STROM VERSORGT. WARTEN SIE DAHER MINDESTENS 20 MINUTEN, NACHDEM SIE DEN ZÜNDSCHLÜSSEL IN DIE RUHESTELLUNG „AUS“ GEBRACHT HABEN, BEVOR SIE DIE BATTERIE ABKLEMMEN; &lt;BR/&gt; KLEMMEN SIE DIE FAHRZEUGBATTERIE AB;</Corpo>
+      <RifIDFileIMGANI>299010813</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299010813</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299010813</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; TECHNISCHER HINWEIS: &lt;BR/&gt; VOR DEM AUSBAU DIE ANORDNUNG DER ANTREIBRIEMEN FÜR DIE HILFSGERÄTE ÜBERPRÜFEN;</Corpo>
+      <RifIDFileIMGANI>299009774</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299009774</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009774</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; ACHTUNG! &lt;BR/&gt; UM DAS DREHEN DER MOTORWELLE ZU ERLEICHTERN, WIRD EMPFOHLEN, DIE ZÜNDKERZEN (BENZINMOTOR) ODER DIE GLÜHKERZEN (DIESELMOTOR) AUS DEM MOTOR ZU DEMONTIEREN; &lt;BR/&gt; DAS VERTEILERSYSTEM DARF, SOFERN NICHT ANDERS ANGEGEBEN, AUSSCHLIESSLICH ÜBER DIE MOTORWELLE GEDREHT WERDEN; &lt;BR/&gt; DAS VERTEILERSYSTEM IST, SOFERN NICHT ANDERS ANGEGEBEN, IN DER NORMALEN DREHRICHTUNG ZU DREHEN; &lt;BR/&gt; KEINE KOMPONENTEN DES VERTEILERSYSTEMS DREHEN, NACHDEM DER VERTEILERRIEMEN/DIE VERTEILERKETTE DEMONTIERT WURDE, SOFERN NICHT ANDERS ANGEGEBEN; &lt;BR/&gt; VERWENDEN SIE ZUM FIXIEREN DES MOTORS BEIM LÖSEN ODER ANZIEHEN KEINE AUSRICHTWERKZEUGE; &lt;BR/&gt; LEGEN SIE KEINE GEGENSTÄNDE ZWISCHEN DEN RIEMEN UND DIE RIEMENSCHEIBEN ODER ZWISCHEN DIE KETTE UND DIE ZAHNRÄDER DES VERTEILERSYSTEMS; &lt;BR/&gt; VOR DEM STARTEN DES MOTORS DIE MOTORWELLE MANUELL UM ZWEI UMDREHUNGEN DREHEN UND DIE KORREKTE PHASENEINSTELLUNG ÜBERPRÜFEN, SOFERN NICHT ANDERS ANGEGEBEN; &lt;BR/&gt; DIE ANZIEHDREHMOMENTE EINHALTEN;</Corpo>
+      <RifIDFileIMGANI>299010813</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299010813</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299010813</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>TEILE DES VERTEILERSYSTEMS</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende &lt;BR/&gt; &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt; &lt;TD&gt; Bauteil &lt;/TD&gt; &lt;TD&gt; BESCHREIBUNG &lt;/TD&gt; &lt;TR&gt; &lt;TD&gt; 1 &lt;/TD&gt;  &lt;TD&gt; Zahnriemen &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; 2 &lt;/TD&gt; &lt;TD&gt; Motorwellenriemenscheibe &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; 3 &lt;/TD&gt; &lt;TD&gt; Spannvorrichtung &lt;/TD&gt; &lt;/TR&gt;  &lt;TR&gt; &lt;TD&gt; 4 &lt;/TD&gt; &lt;TD&gt; Nockenwellenriemenscheibe &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; 7 &lt;/TD&gt; &lt;TD&gt; Einspritzpumpenriemenscheibe &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; 8 &lt;/TD&gt; &lt;TD&gt; Führungsriemenscheibe &lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt; &lt;BR/&gt; AUSRÜSTUNG &lt;BR/&gt; &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt; &lt;TD&gt; SPEZIALWERKZEUGE &lt;/TD&gt; &lt;TD&gt; WERKZEUG-ART.NR. &lt;/TD&gt;  &lt;TR&gt; &lt;TD&gt; SPANNVORRICHTUNG &lt;/TD&gt; &lt;TD&gt; &lt;1 860 638 000&gt; &lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt; </Corpo>
+      <RifIDFileIMGANI>299011457</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011457</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011457</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>SCHLEIFVERFAHREN</Capitolo>
+      <Corpo> &lt;BR/&gt; Die 12-V-Servicebatterie abklemmen. &lt;BR/&gt; Das rechte Vorderrad demontieren. &lt;BR/&gt; Den rechten vorderen Radkasten demontieren. &lt;BR/&gt; Die Motorabdeckung entfernen. &lt;BR/&gt; Den Antriebsriemen demontieren. &lt;BR/&gt; Die Kurbelwelle drehen, bis ein 8-mm-Stift in die Bohrung des Schwungrads eingeführt werden kann.</Corpo>
+      <RifIDFileIMGANI>299011896</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011896</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011896</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; Das Steuergehäuse ausbauen.</Corpo>
+      <RifIDFileIMGANI>299011825</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011825</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011825</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>70</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; Die Riemenscheibe der Kurbelwelle demontieren. &lt;BR/&gt; Die korrekte Ausrichtung der Passmarken überprüfen.</Corpo>
+      <RifIDFileIMGANI>299011461</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011461</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011461</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>80</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo></Corpo>
+      <RifIDFileIMGANI>299011826</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011826</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011826</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>90</Ordine>
+      <Capitolo>DEMONTAGE- UND MONTAGEVORGÄNGE</Capitolo>
+      <Corpo> &lt;BR/&gt; Den Spanner mit dem angegebenen Werkzeug arretieren.</Corpo>
+      <RifIDFileIMGANI>299011462</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011462</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011462</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>100</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo> &lt;BR/&gt; Die untere Steuergehäuseabdeckung demontieren. &lt;BR/&gt; Den Zahnriemen entfernen. &lt;BR/&gt; Die Spannvorrichtung austauschen. &lt;BR/&gt; Den Zahnriemen aufziehen. &lt;BR/&gt; Alle verwendeten Werkzeuge entfernen. &lt;BR/&gt; Die Kurbelwelle um zwei Umdrehungen drehen und die korrekte Phaseneinstellung überprüfen. &lt;BR/&gt; Die Bauteile in umgekehrter Reihenfolge wie beim Ausbau montieren.</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>110</Ordine>
+      <Capitolo>ANZIEHMOMENTE</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt; &lt;TD&gt; Bauteil &lt;/TD&gt; &lt;TD&gt; ABMESSUNG &lt;/TD&gt; &lt;TD&gt; ANZIEHDREHMOMENT &lt;/TD&gt; &lt;TD&gt; TYP &lt;/TD&gt;  &lt;TR&gt; &lt;TD&gt; Spannvorrichtung &lt;/TD&gt; &lt;TD&gt; - &lt;/TD&gt; &lt;TD&gt; 36 – 44 Nm &lt;/TD&gt; &lt;TD&gt; Mutter &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Kurbelwellenriemenscheibe &lt;/TD&gt;  &lt;TD&gt; - &lt;/TD&gt; &lt;TD&gt; 180 – 220 Nm &lt;/TD&gt; &lt;TD&gt; Schraube &lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

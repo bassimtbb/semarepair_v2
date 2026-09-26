@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T14:38:04">
+  <XDOCUMENTO>
+    <ID>199244103</ID>
+    <DOCNumber>DIS75074</DOCNumber>
+    <RifIDTipoRis>100000012</RifIDTipoRis>
+    <Titolo>AVERTISSEMENTS GÉNÉRAUX DISTRIBUTION</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>219</RifIDFileICO>
+    <XFILE>
+      <ID>219</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:219</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>100000012</ID>
+      <TipoRis>DIS</TipoRis>
+      <DscRis>Distribution</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>12</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>AVERTISSEMENTS GÉNÉRAUX</Capitolo>
+      <Corpo>
+ATTENTION !
+-DÉSACTIVEZ TOUS LES ACCESSOIRES À COMMANDE ÉLECTRIQUE EN TENANT COMPTE DES AVERTISSEMENTS SUIVANTS :
+ASSUREZ-VOUS DE DISPOSER DU CODE DE SÉCURITÉ DE L&apos;AUTORADIO, LE CAS ÉCHÉANT, ET ASSUREZ-VOUS QU&apos;IL SOIT DÉSACTIVÉ OU ENREGISTRÉ DANS LE LIVRET DU VÉHICULE ;
+CERTAINES DONNÉES (PAR EXEMPLE, L&apos;INDICATION DE L&apos;HEURE, L&apos;INDICATION DE LA TEMPÉRATURE ET LES RÉGLAGES DE FONCTIONNEMENT DE CERTAINS ACCESSOIRES) SONT REMIS À ZÉRO ;
+CERTAINES UNITÉS ÉLECTRONIQUES (ECU MOTEUR, ORDINATEUR DE BORD, SYSTÈME SRS) RESTENT ALIMENTÉES PENDANT 20 MINUTES MAXIMUM. ATTENDEZ DONC AU MOINS 20 MINUTES APRÈS AVOIR MIS LE CONTACTEUR DE DÉMARRAGE EN POSITION DE REPOS « ARRÊT » AVANT DE DÉBRANCHER LA BATTERIE ;
+DÉBRANCHEZ LA BATTERIE DU VÉHICULE ;</Corpo>
+      <RifIDFileIMGANI>299010813</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299010813</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299010813</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo>
+REMARQUE TECHNIQUE :
+VÉRIFIER LA DISPOSITION DES COURROIES DE COMMANDE DES ORGANES AUXILIAIRES AVANT LE DÉMONTAGE ;</Corpo>
+      <RifIDFileIMGANI>299009774</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299009774</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009774</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo>
+ATTENTION !
+POUR FACILITER LA ROTATION DE L&apos;ARBRE MOTEUR, IL EST RECOMMANDÉ DE DÉMONTER LES BOUGIES D&apos;ALLUMAGE (MOTEUR À ESSENCE) OU LES BOUGIES DE PRÉCHAUFFAGE (MOTEUR DIESEL) DU MOTEUR ;
+TOURNEZ LE SYSTÈME DE DISTRIBUTION EN AGISSANT EXCLUSIVEMENT SUR L&apos;ARBRE MOTEUR, SAUF INDICATION CONTRAIRE ;
+TOURNEZ LE SYSTÈME DE DISTRIBUTION DANS LE SENS NORMAL DE ROTATION, SAUF INDICATION CONTRAIRE ;
+NE TOURNEZ AUCUN COMPOSANT DU SYSTÈME DE DISTRIBUTION APRÈS AVOIR DÉMONTÉ LA COURROIE/CHAÎNE DE DISTRIBUTION, SAUF INDICATION CONTRAIRE ;
+AFIN DE BLOQUER LE MOTEUR POUR DESSERRER OU SERRER, NE PAS UTILISER LES OUTILS D&apos;ALIGNEMENT ;
+NE PAS INTERPOSER D&apos;OBJET ENTRE LA COURROIE ET LES POULIES, OU ENTRE LA CHAÎNE ET LES ROUE DENTÉES DU SYSTÈME DE DISTRIBUTION ;
+AVANT DE DÉMARRER LE MOTEUR, TOURNEZ MANUELLEMENT L&apos;ARBRE MOTEUR DE DEUX TOURS ET VÉRIFIEZ QUE LA PHASE EST CORRECTE, SAUF INDICATION CONTRAIRE ;
+RESPECTEZ LES COUPLES DE SERRAGE ;</Corpo>
+      <RifIDFileIMGANI>299010813</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299010813</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299010813</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>COMPOSANTS DE DISTRIBUTION</Capitolo>
+      <Corpo>
+Légende
+&lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt; &lt;TD&gt; Composant &lt;/TD&gt; &lt;TD&gt; DESCRIPTION &lt;/TD&gt; &lt;TR&gt; &lt;TD&gt; 1 &lt;/TD&gt;  &lt;TD&gt; COURROIE DE DISTRIBUTION &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; 2 &lt;/TD&gt; &lt;TD&gt; POULIE D&apos;ARBRE MOTEUR &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; 3 &lt;/TD&gt; &lt;TD&gt; Tendeur &lt;/TD&gt; &lt;/TR&gt;  &lt;TR&gt; &lt;TD&gt; 4 &lt;/TD&gt; &lt;TD&gt; Poulie d&apos;arbre à cames &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; 7 &lt;/TD&gt; &lt;TD&gt; POULIE DE POMPE D&apos;INJECTION &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; 8 &lt;/TD&gt;  &lt;TD&gt; POULIE DE GUIDAGE &lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt;
+ÉQUIPEMENT
+&lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt; &lt;TD&gt; OUTILS SPÉCIAUX &lt;/TD&gt; &lt;TD&gt; COD. OUTIL &lt;/TD&gt;  &lt;TR&gt; &lt;TD&gt; OUTIL DE BLOCAGE DU TENDREUR &lt;/TD&gt; &lt;TD&gt; &lt;1 860 638 000&gt; &lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt; </Corpo>
+      <RifIDFileIMGANI>299011457</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011457</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011457</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>PROCÉDURE DE CALIBRAGE</Capitolo>
+      <Corpo>
+Débrancher la batterie de service 12 V.
+Démonter la roue avant droite.
+Démontez le passage de roue avant droit.
+Retirez le capot moteur.
+Démontez la courroie de services.
+Tournez le vilebrequin jusqu&apos;à ce qu&apos;il soit possible d&apos;insérer une cheville de 8 mm dans le trou du volant moteur.</Corpo>
+      <RifIDFileIMGANI>299011896</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011896</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011896</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo>
+Démonter le carter de distribution.</Corpo>
+      <RifIDFileIMGANI>299011825</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011825</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011825</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>70</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo>
+Démonter la poulie de l&apos;arbre moteur.
+Vérifier le bon alignement des repères.</Corpo>
+      <RifIDFileIMGANI>299011461</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011461</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011461</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>80</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo></Corpo>
+      <RifIDFileIMGANI>299011826</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011826</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011826</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>90</Ordine>
+      <Capitolo>OPÉRATIONS DE DÉMONTAGE / REMONTAGE</Capitolo>
+      <Corpo>Bloquer le tendeur à l&apos;aide de l&apos;outil indiqué.</Corpo>
+      <RifIDFileIMGANI>299011462</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>299011462</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299011462</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>100</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo>
+Démonter le carter inférieur de la distribution.
+Retirer la courroie de distribution.
+Remplacer le tendeur.
+Installer la courroie de distribution.
+Retirer tous les outils utilisés.
+Tourner le vilebrequin de deux tours et vérifier le calage correct.
+Monter les composants dans l&apos;ordre inverse du démontage.</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199244103</RifIDDoc>
+      <Ordine>110</Ordine>
+      <Capitolo>COUPLES DE SERRAGE</Capitolo>
+      <Corpo>
+&lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt; &lt;TD&gt; Composant &lt;/TD&gt; &lt;TD&gt; DIMENSION &lt;/TD&gt; &lt;TD&gt; COUPLE DE SERRAGE &lt;/TD&gt; &lt;TD&gt; TYPE &lt;/TD&gt;  &lt;TR&gt; &lt;TD&gt; TENDREUR &lt;/TD&gt; &lt;TD&gt; - &lt;/TD&gt; &lt;TD&gt; 36 - 44 Nm &lt;/TD&gt; &lt;TD&gt; ÉCROU &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Poulie d&apos;arbre moteur &lt;/TD&gt;  &lt;TD&gt; - &lt;/TD&gt; &lt;TD&gt; 180 - 220 Nm &lt;/TD&gt; &lt;TD&gt; vis &lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>D</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

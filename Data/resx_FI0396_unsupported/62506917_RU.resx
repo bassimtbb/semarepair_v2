@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:09:16">
+  <XDOCUMENTO>
+    <ID>62506917</ID>
+    <DOCNumber>AZZ62786</DOCNumber>
+    <RifIDTipoRis>7</RifIDTipoRis>
+    <Titolo>Resetowanie wskaźnika serwisu</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>217</RifIDFileICO>
+    <XFILE>
+      <ID>217</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:217</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>7</ID>
+      <TipoRis>AZZ</TipoRis>
+      <DscRis>Usługa zerowania licznika przebiegu</DscRis>
+      <RifIDFileCSS>1</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>1</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:1</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62506917</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Informacje o systemie</Capitolo>
+      <Corpo> &lt;BR/&gt; Samochód jest wyposażony we wskaźnik terminów przeglądów, umieszczony na wyświetlaczu wielofunkcyjnym zestawu wskaźników. &lt;BR/&gt;  &lt;BR/&gt; Gdy zbliża się termin jednego z zabiegów przewidzianych w programie okresowej konserwacji, wskaźnik wyświetla komunikat ostrzegawczy dla kierowcy. &lt;BR/&gt;  &lt;BR/&gt; Po wykonaniu czynności serwisowej można zresetować wskaźnik: &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62506917</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Regulacja - Reset</Capitolo>
+      <Corpo> &lt;BR/&gt; Pojazdy z przebiegiem poniżej 200 km lub przy pierwszym wyzerowaniu wskaźnika serwisowego &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Włączyć zapłon &lt;BR/&gt;  &lt;LI&gt; Nacisnąć kilkakrotnie przycisk  &lt;B&gt; 1 &lt;/B&gt;  do momentu, aż na wyświetlaczu  &lt;B&gt; 2 &lt;/B&gt;  pojawi się całkowity przebieg &lt;BR/&gt;  &lt;LI&gt; Nacisnąć i przytrzymać przycisk  &lt;B&gt; 1 &lt;/B&gt;  przez 5 sekund &lt;BR/&gt;  &lt;LI&gt; Wyłączyć zapłon &lt;BR/&gt;  &lt;BR/&gt; Pojazdy z przebiegiem poniżej 200 km lub przy pierwszym wyzerowaniu wskaźnika serwisowego &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Włączyć zapłon &lt;BR/&gt;  &lt;LI&gt; Nacisnąć kilkakrotnie przycisk  &lt;B&gt; 1 &lt;/B&gt;  aż na wyświetlaczu  &lt;B&gt; 2 &lt;/B&gt;  pojawi się przebieg całkowity &lt;BR/&gt;  &lt;LI&gt; Nacisnąć i przytrzymać przycisk  &lt;B&gt; 1 &lt;/B&gt;  przez 10 sekund &lt;BR/&gt;  &lt;LI&gt; Na wyświetlaczu  &lt;B&gt; 2 &lt;/B&gt;  pojawi się skrót  &lt;B&gt; CFG1 &lt;/B&gt;   &lt;B&gt; CFG2 &lt;/B&gt;  lub  &lt;B&gt; CFG3 &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt; Naciskając kilkakrotnie przycisk  &lt;B&gt; 1 &lt;/B&gt;  wybrać żądany przedział między  &lt;B&gt; CFG1 na 30 000 km &lt;/B&gt; ,  &lt;B&gt; CFG2 na 20 000 km &lt;/B&gt; ,  &lt;B&gt; CFG3 na 15 000 km &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt; Nacisnąć i przytrzymać przez co najmniej 10 sekund przycisk  &lt;B&gt; 1 &lt;/B&gt; , aby potwierdzić wybrany przedział &lt;BR/&gt;  &lt;LI&gt; Wyłączyć zapłon &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504209</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504209</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504209</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

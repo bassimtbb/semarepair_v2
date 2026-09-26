@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T16:11:56">
+  <XDOCUMENTO>
+    <ID>199006282</ID>
+    <DOCNumber>INT76051</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>Fiat Ducato</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Oficjalne komunikaty serwisowe</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Źródło danych – Ministerstwo Transportu</Capitolo>
+      <Corpo> &lt;B&gt;  Producent: &lt;/B&gt;  Fiat Auto S.p.a.  &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  Marka: &lt;/B&gt;  Fiat  &lt;BR&gt;  &lt;BR&gt; Usterki uznane przez producentów zgodnie z dekretem nr 78/2000</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Fiat Ducato</Capitolo>
+      <Corpo> &lt;BR&gt; Liczba pojazdów: 9  &lt;BR&gt; Okres produkcji: listopad 2006 r.  &lt;BR&gt; Opis usterki: Brak bocznych świateł obrysowych  &lt;BR&gt; Działania naprawcze: Montaż  &lt;BR&gt; Odniesienie: Dealerzy  &lt;BR&gt; Zakres numerów podwozia od: ZFA25000001001791  &lt;BR&gt; Zakres numerów podwozia do: ZFA25000001055902  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Liczba pojazdów: 16889  &lt;BR&gt; Okres produkcji: od maja 2006 r. do grudnia 2006 r.  &lt;BR&gt; Opis usterki: Wnikanie wody i nieprawidłowe działanie silnika wycieraczek  &lt;BR&gt; Działania naprawcze: Zamontowanie osłony  &lt;BR&gt; Odniesienie: Dealerzy  &lt;BR&gt; Zakres numerów podwozia od: początek  &lt;BR&gt; Zakres numerów podwozia do: ZFA25000001114798  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Liczba pojazdów: 24402  &lt;BR&gt; Okres produkcji: od maja 2006 r. do marca 2007 r.  &lt;BR&gt; Opis usterki: Niewystarczające smarowanie przekładni kierowniczej i zacinanie się układu kierowniczego  &lt;BR&gt; Działania naprawcze: Nałożenie smaru na zębatkę  &lt;BR&gt; Informacje: Dealerzy  &lt;BR&gt; Zakres numerów podwozia od: początek  &lt;BR&gt; Zakres numerów podwozia do: ZFA25000001173899  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Liczba pojazdów: 27  &lt;BR&gt; Okres produkcji: od maja 2006 r. do sierpnia 2006 r.  &lt;BR&gt; Opis usterki: Niewłaściwa uszczelka przewodu paliwowego  &lt;BR&gt; Działania naprawcze: Nałożenie uszczelniacza silikonowego  &lt;BR&gt; Odniesienie: Dealerzy  &lt;BR&gt; Zakres numerów podwozia od: ZFA25000001000322  &lt;BR&gt; Zakres numerów podwozia do: ZFA25000001000595  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Liczba pojazdów: 996  &lt;BR&gt; Okres produkcji: od maja 2006 r. do sierpnia 2006 r.  &lt;BR&gt; Opis usterki: Niewłaściwe spawanie wspornika linki hamulca ręcznego  &lt;BR&gt; Działania naprawcze: Nitowanie wspornika  &lt;BR&gt; Informacje: Dealerzy  &lt;BR&gt; Zakres numerów podwozia od: ZFA25000001000322  &lt;BR&gt; Zakres numerów podwozia do: ZFA25000001006649  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Liczba pojazdów: 52  &lt;BR&gt; Okres produkcji: od maja 2006 r. do sierpnia 2006 r.  &lt;BR&gt; Opis usterki: Niezgodne przednie amortyzatory  &lt;BR&gt; Działania naprawcze: Wymiana  &lt;BR&gt; Informacje: Dealerzy  &lt;BR&gt; Zakres numerów podwozi od: ZFA25000001000322  &lt;BR&gt; Zakres numerów podwozi do: ZFA25000001001516  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Liczba pojazdów: nie podano  &lt;BR&gt; Okres produkcji: od maja 2006 r. do sierpnia 2006 r.  &lt;BR&gt; Opis usterki: Niezgodny moduł sterujący poduszki powietrznej  &lt;BR&gt; Działania naprawcze: Wymiana  &lt;BR&gt; Odniesienie: Dealerzy  &lt;BR&gt; Zakres numerów podwozia od: ZFA25000001000368  &lt;BR&gt; Zakres numerów podwozia do: ZFA25000001001793  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Liczba pojazdów: 75  &lt;BR&gt; Okres produkcji: od maja 2006 r. do sierpnia 2006 r.  &lt;BR&gt; Opis usterki: Możliwe wysunięcie wału kierownicy  &lt;BR&gt; Działania naprawcze: Zamontowanie zacisku zabezpieczającego  &lt;BR&gt; Informacje: Dealerzy  &lt;BR&gt; Zakres numerów podwozia od: ZFA25000001000322  &lt;BR&gt; Zakres numerów podwozia do: ZFA25000001008392  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Liczba pojazdów: 36  &lt;BR&gt; Okres produkcji: od maja 2006 r. do sierpnia 2006 r.  &lt;BR&gt; Opis usterki: Niezgodne spawanie poprzeczki przedniego zawieszenia  &lt;BR&gt; Działania naprawcze: Sprawdzenie i ewentualna wymiana poprzeczki  &lt;BR&gt; Odniesienie: Dealerzy  &lt;BR&gt; Zakres numerów podwozia od: ZFA25000001019071  &lt;BR&gt; Zakres numerów podwozi do: ZFA25000001019756  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Liczba pojazdów: 882  &lt;BR&gt; Okres produkcji: od listopada 2005 r. do lutego 2006 r.  &lt;BR&gt; Opis usterki: Niezgodność z wymaganiami dotyczącymi dokręcenia uchwytów resorów piórowych  &lt;BR&gt; Działania naprawcze: Sprawdzenie i ewentualna wymiana uchwytów  &lt;BR&gt; Odniesienie: Dealerzy  &lt;BR&gt; Zakres numerów podwozi od: ZFA24400007761041  &lt;BR&gt; Zakres numerów podwozi do: ZFA24400007777899 &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Liczba pojazdów: 9475  &lt;BR&gt; Okres produkcji: początek stycznia 2005 r.  &lt;BR&gt; Opis usterki: Przedostawanie się wody do zaworu EGR  &lt;BR&gt; Działania naprawcze: Zamontowanie filtra  &lt;BR&gt; Odniesienie: Dealerzy  &lt;BR&gt; Zakres numerów podwozia od: ZFA24400007000022  &lt;BR&gt; Zakres numerów podwozia do: ZFA24400007574579 &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Liczba pojazdów: 1349  &lt;BR&gt; Okres produkcji: od grudnia 2002 r. do sierpnia 2006 r.  &lt;BR&gt; Opis usterki: Brak bezpiecznika zabezpieczającego okablowanie układu zasilania metanem  &lt;BR&gt; Działania naprawcze: Zamontowanie bezpiecznika  &lt;BR&gt; Informacje dodatkowe: Autoryzowane serwisy  &lt;BR&gt; Zakres numerów podwozia od: ZFA24400007129380  &lt;BR&gt; Zakres numerów podwozia do: ZFA24400007842448 &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Fiat Ducato 3.0 JTD</Capitolo>
+      <Corpo> &lt;BR&gt; Liczba pojazdów: 300  &lt;BR&gt; Okres produkcji: od maja 2006 r. do sierpnia 2006 r.  &lt;BR&gt; Opis usterki: Zakłócenia w przewodach blow-by  &lt;BR&gt; Działania naprawcze: Zamontowanie podkładki dystansowej  &lt;BR&gt; Odniesienie: Dealerzy  &lt;BR&gt; Zakres numerów podwozia od: ZFA25000001002184  &lt;BR&gt; Zakres numerów podwozia do: ZFA25000001019433 &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Fiat Ducato – autobus szkolny</Capitolo>
+      <Corpo> &lt;BR&gt; Numer pojazdu: 68008  &lt;BR&gt; Okres produkcji: od stycznia 2002 r. do grudnia 2003 r.  &lt;BR&gt; Opis usterki: Kolizja elastycznego przewodu hamulcowego przednich hamulców z karoserią  &lt;BR&gt; Działania naprawcze: Sprawdzenie i ewentualna wymiana przewodów  &lt;BR&gt; Odniesienie: Salony dealerskie &lt;BR&gt; Zakres numerów podwozia od: ZFA24400007000001  &lt;BR&gt; Zakres numerów podwozia do: ....7358857  &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Liczba pojazdów: 74  &lt;BR&gt; Okres produkcji: od grudnia 2001 r. do grudnia 2003 r.  &lt;BR&gt; Opis usterki: niezgodność uszczelnienia okablowania modułu sterującego automatycznej skrzyni biegów  &lt;BR&gt; Działania naprawcze: przywrócenie uszczelnienia  &lt;BR&gt; Odniesienie: Dealerzy &lt;BR&gt; Zakres numerów podwozia od: ZFA24400007000007  &lt;BR&gt; Zakres numerów podwozi do: ZFA24400007341167 &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Fiat Ducato z nadwoziem skrzyniowym</Capitolo>
+      <Corpo> &lt;BR&gt; Liczba pojazdów: 19  &lt;BR&gt; Okres produkcji: od maja 2006 r. do lipca 2006 r.  &lt;BR&gt; Opis usterki: Pęknięcie płyt mocujących zawiasy  &lt;BR&gt; Działania naprawcze: Wymiana  &lt;BR&gt; Odniesienie: Dealerzy  &lt;BR&gt; Zakres numerów podwozia od: ZFA24400007828525  &lt;BR&gt; Zakres numerów podwozia do: ZFA24400007837578 &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt; Liczba pojazdów: 6  &lt;BR&gt; Okres produkcji: od maja 2006 r. do sierpnia 2006 r.  &lt;BR&gt; Opis usterki: Pęknięcie płytek mocujących zawiasy  &lt;BR&gt; Działania naprawcze: Wymiana  &lt;BR&gt; Odniesienie: Dealerzy  &lt;BR&gt; Zakres numerów podwozi od: ZFA25000001013150  &lt;BR&gt; Zakres numerów podwozi do: ZFA25000001040052 &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>6</Ordine>
+      <Capitolo>Fiat Ducato M1-m2-n1</Capitolo>
+      <Corpo> &lt;BR&gt; Liczba pojazdów: 1  &lt;BR&gt; Okres produkcji: od października 2001 r. do stycznia 2002 r.  &lt;BR&gt; Opis usterki: niemożność uruchomienia hamulca ręcznego z powodu wysunięcia się linki hamulca ręcznego z gniazda mocującego na szczękach  &lt;BR&gt; Działania naprawcze: wymiana linki  &lt;BR&gt; Odniesienie: salony dealerskie &lt;BR&gt; Zakres numerów podwozia od: ZFA23000006194400  &lt;BR&gt; Zakres numerów podwozia do: ZFA23000006227275  &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>8</Ordine>
+      <Capitolo>Fiat Ducato Camper 18 Q, 15 kół</Capitolo>
+      <Corpo> &lt;BR&gt; Liczba pojazdów: 372  &lt;BR&gt; Okres produkcji: od czerwca 2004 r. do czerwca 2005 r.  &lt;BR&gt; Opis usterki: Nieprawidłowy czujnik prędkości obrotowej  &lt;BR&gt; Działania naprawcze: Wymiana  &lt;BR&gt; Odniesienie: Dealerzy  &lt;BR&gt; Zakres numerów podwozia od: ZFA24400007463038  &lt;BR&gt; Zakres numerów podwozia do: ZFA24400007651744 &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>90</Ordine>
+      <Capitolo>Fiat Ducato X2/50</Capitolo>
+      <Corpo> &lt;BR&gt; Liczba pojazdów: 68405 &lt;BR&gt; Okres produkcji: Nieokreślony &lt;BR&gt; Opis usterki: Możliwe uszkodzenie mechanizmu podnoszenia koła zapasowego i utrata tego koła &lt;BR&gt; Działania naprawcze: Wymiana mechanizmu podnoszenia &lt;BR&gt; Odniesienie: Salony dealerskie &lt;BR&gt; Zakres numerów podwozia od: ZFA25000001000371  &lt;BR&gt; Zakres numerów podwozia do: ZFA25000001789701 &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199006282</RifIDDoc>
+      <Ordine>91</Ordine>
+      <Capitolo>Fiat Ducato 2.0 JTD</Capitolo>
+      <Corpo></Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

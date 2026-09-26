@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-15T23:51:06">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T16:06:51">
   <XDOCUMENTO>
     <ID>199309967</ID>
     <DOCNumber>GUP97444</DOCNumber>
     <RifIDTipoRis>4</RifIDTipoRis>
-    <Titolo>Unstable idling, erratic engine idling operation with engine failure light on</Titolo>
-    <InfoDoc>INJECTION | P0148 | P1612 | P0380 | P0382 | P0500 | RESISTANCE | PIPE | VENT | OIL | ENGINE | ON | LIT | MIL | RED | RED | WORKING | INACTIVE | KM | KILOMETRES |</InfoDoc>
+    <Titolo>Active engine fault indicator, speedometer and odometer not functioning</Titolo>
+    <InfoDoc>INIEZIONE | P0148 | P1612 | P0380 | P0382 | P0500 | RESISTENZA | TUBO | SFIATO | OLIO | MOTORE | ACCENDE | ACCESA | MIL | ROSSO | ROSSA | FUNZIONANO | INATTIVI | KM | CHILOMETRI |</InfoDoc>
     <RifIDFileICO>227</RifIDFileICO>
     <XFILE>
       <ID>227</ID>
@@ -41,8 +41,7 @@
       <RifIDDoc>199309967</RifIDDoc>
       <Ordine>3</Ordine>
       <Capitolo>System/fault identification</Capitolo>
-      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Component: &lt;/B&gt; Engine oil breather pipe resistance &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; Engine fault warning light (red) illuminated; speedometer and odometer not functioning &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Errors detected by self-diagnosis: &lt;/B&gt;
-&lt;LI&gt; P0148 (Fuel port - Generic error) &lt;BR/&gt; &lt;LI&gt; P1612 (Fuel filter heater relay - Fault) &lt;BR/&gt;  &lt;LI&gt; P0380 (Glow plug timer 1 - Malfunction) &lt;BR/&gt; &lt;LI&gt; P0382 (Glow plug timer 2 - Malfunction) &lt;BR/&gt;  &lt;LI&gt; P0500 (Vehicle speed sensor - Generic fault) &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Defective oil breather pipe resistance &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Component: &lt;/B&gt; Engine oil breather pipe resistance &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; Engine fault warning light illuminated (red); speedometer and odometer not functioning &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errors detected by the on-board diagnostics: &lt;/B&gt; &lt;UL&gt;   &lt;LI&gt; P0148 (Fuel supply – Generic fault) &lt;BR/&gt; &lt;LI&gt; P1612 (Fuel filter heater relay – Fault) &lt;BR/&gt; &lt;LI&gt; P0380 (Glow plug 1 timing control – Malfunction) &lt;BR/&gt;  &lt;LI&gt; P0382 (Glow plug timer control 2 – Malfunction) &lt;BR/&gt;  &lt;LI&gt; P0500 (Vehicle speed sensor – Generic fault) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Faulty oil breather pipe resistance &lt;BR/&gt;&lt;BR/&gt; </Corpo>
       <RifIDFileIMGANI>0</RifIDFileIMGANI>
       <Allineamento>B</Allineamento>
       <XFILE>

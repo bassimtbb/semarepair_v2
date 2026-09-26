@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-17T02:25:00">
+  <XDOCUMENTO>
+    <ID>25046892</ID>
+    <DOCNumber>NOT25060</DOCNumber>
+    <RifIDTipoRis>27</RifIDTipoRis>
+    <Titolo>Informations Programme d'entretien</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>27</ID>
+      <TipoRis>NOT</TipoRis>
+      <DscRis>Note technique</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>25046892</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Remplacement de l&apos;huile moteur</Capitolo>
+      <Corpo> &lt;BR/&gt; En référence au remplacement prescrit dans le kilométrage de la révision officielle ou via l&apos;avertissement sur l&apos;instrumentation &lt;BR/&gt; &lt;BR/&gt; L&apos;huile moteur et le filtre doivent être remplacés &lt;B&gt; plus fréquemment &lt;/B&gt; dans les conditions suivantes : &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Utilisation intensive en ville (fonctionnement au ralenti) &lt;BR/&gt; &lt;LI&gt; Avec un kilométrage inférieur à 10 000 km / an &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25046892</RifIDDoc>
+      <Ordine>55</Ordine>
+      <Capitolo>Contrôles périodiques</Capitolo>
+      <Corpo> &lt;B&gt; Tous les 1 000 km ou avant les longs trajets, vérifier et, si nécessaire, rétablir : &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; niveau du liquide de refroidissement du moteur &lt;BR/&gt; &lt;LI&gt; niveau du liquide de frein &lt;BR/&gt; &lt;LI&gt; niveau du liquide lave-glace &lt;BR/&gt;  &lt;LI&gt; pression et état des pneus &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Tous les 3 000 km, vérifiez et, si nécessaire, rétablissez : le niveau d&apos;huile moteur. &lt;BR/&gt; &lt;BR/&gt; Tous les 10 000 km ou lorsque le voyant s&apos;allume (uniquement pour les moteurs diesel) : purgez l&apos;eau de condensation du filtre à carburant. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25046892</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>Utilisation intensive du véhicule</Capitolo>
+      <Corpo> &lt;B&gt; Si le véhicule est principalement utilisé dans l&apos;une des conditions particulièrement difficiles suivantes : &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; remorquage d&apos;une remorque ou d&apos;une caravane &lt;BR/&gt; &lt;LI&gt; routes poussiéreuses &lt;BR/&gt;  &lt;LI&gt; trajets courts (moins de 7-8 km) et répétés avec une température extérieure inférieure à zéro &lt;BR/&gt; &lt;LI&gt; moteur tournant fréquemment au ralenti ou conduite sur de longues distances à faible vitesse, ou en cas d&apos;inactivité prolongée &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; Il est nécessaire d&apos;effectuer les vérifications suivantes plus fréquemment que ce qui est indiqué dans le carnet d&apos;entretien officiel : &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; contrôle de l&apos;état et de l&apos;usure des plaquettes de frein à disque avant &lt;BR/&gt;  &lt;LI&gt; contrôle de l&apos;état de propreté des serrures du capot moteur et du coffre, nettoyage et lubrification des leviers &lt;BR/&gt; &lt;LI&gt; contrôle visuel de l&apos;état : moteur, boîte de vitesses, transmission, parties rigides et flexibles des tuyaux (échappement - alimentation en carburant - freins) éléments en caoutchouc (capuchons - manchons - douilles, etc.) &lt;BR/&gt;  &lt;LI&gt; contrôle de l&apos;état de charge et du niveau de liquide de la batterie (électrolyte) &lt;BR/&gt; &lt;LI&gt; contrôle visuel de l&apos;état des courroies de commande des accessoires &lt;BR/&gt; &lt;LI&gt; contrôle et remplacement éventuel de l&apos;huile moteur et du filtre &lt;BR/&gt; &lt;LI&gt; contrôle et remplacement éventuel du filtre anti-pollen &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

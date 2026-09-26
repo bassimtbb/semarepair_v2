@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-22T17:50:43">
+  <XDOCUMENTO>
+    <ID>199304719</ID>
+    <DOCNumber>FUS89268</DOCNumber>
+    <RifIDTipoRis>20</RifIDTipoRis>
+    <Titolo>References and Localisation</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>265</RifIDFileICO>
+    <XFILE>
+      <ID>265</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:265</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>20</ID>
+      <TipoRis>FUS</TipoRis>
+      <DscRis>Fuses and Relays</DscRis>
+      <RifIDFileCSS>264</RifIDFileCSS>
+      <RifIDTemplate>8</RifIDTemplate>
+      <XFILE>
+        <ID>264</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:264</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLDESCRIZIONE</IDLabel>
+        <Stringa>Description</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLNUMERO</IDLabel>
+        <Stringa>Number</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLRIFERIMENTO</IDLabel>
+        <Stringa>Reference</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XFUSCONN>
+      <RifIDDoc>199304719</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Titolo>Localisation of Fuse Boxes</Titolo>
+      <RifIDFileIMGANI>299023734</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87007228</ID>
+      <XFILE>
+        <ID>299023734</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299023734</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87007228</RifIDImmagine>
+        <Numero>1</Numero>
+        <Descrizione>Fuse box / Engine compartment relay</Descrizione>
+        <Riferimento>Engine compartment - driver's side</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007228</RifIDImmagine>
+        <Numero>2</Numero>
+        <Descrizione>Fuse box / Cabin relay (A)</Descrizione>
+        <Riferimento>Under the steering wheel at the bottom left</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007228</RifIDImmagine>
+        <Numero>3</Numero>
+        <Descrizione>Fuse box / Cabin relay (B)</Descrizione>
+        <Riferimento>Under the dashboard - right side</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199304719</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Titolo>Fuse Box - Engine Compartment</Titolo>
+      <RifIDFileIMGANI>299023720</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87007229</ID>
+      <XFILE>
+        <ID>299023720</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299023720</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Fuse box / Cabin relay (A)</Descrizione>
+        <Riferimento>60 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Glow plug preheating control unit</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Ignition switch</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>ABS control unit</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Electric fan Air conditioning/Heating</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Injection control unit</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Engine cooling electric fan - low speed</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Injection control unit</Descrizione>
+        <Riferimento>40-60 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Maximum speed switch for electric fan</Descrizione>
+        <Riferimento>40-60 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Engine cooling electric fan - high speed</Descrizione>
+        <Riferimento>40-60 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Windscreen wiper motor</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Windscreen washer pump</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Fog lights</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Acoustic warning device</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Steering control module</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Injection control unit</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F14</Numero>
+        <Descrizione>Right-hand low beam headlight</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F15</Numero>
+        <Descrizione>Left low beam headlight</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Injection control unit</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Immobiliser control unit / Code</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F17</Numero>
+        <Descrizione>Injection control unit</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Injection control unit</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Immobiliser control unit / Code</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F19</Numero>
+        <Descrizione>Air conditioning compressor</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>PTC module</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F21</Numero>
+        <Descrizione>Fuel pump</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F22</Numero>
+        <Descrizione>Injection control unit</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F23</Numero>
+        <Descrizione>Automatic Transmission Control Unit</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Automatic Transmission Control Unit</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>F30</Numero>
+        <Descrizione>High beam headlights</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Radiator electric fan relay - 1</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R10</Numero>
+        <Descrizione>Main relay 1</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R11</Numero>
+        <Descrizione>Automatic transmission relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R12</Numero>
+        <Descrizione>Main relay 2</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Low beam relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Wash/Wipe Relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R4</Numero>
+        <Descrizione>Audible warning relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R5</Numero>
+        <Descrizione>High beam relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R6</Numero>
+        <Descrizione>Fog light relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R7</Numero>
+        <Descrizione>Air conditioning clutch relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R8</Numero>
+        <Descrizione>Radiator electric fan relay - 2</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007229</RifIDImmagine>
+        <Numero>R9</Numero>
+        <Descrizione>Fuel pump relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199304719</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Titolo>Fuse Box - Passenger Compartment (A)</Titolo>
+      <RifIDFileIMGANI>299023711</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87007230</ID>
+      <XFILE>
+        <ID>299023711</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299023711</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Right rear position light</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Right front position light</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Left rear position light</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Front left position light</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Parking lights indicator light</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Instrument lighting</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Number plate lights</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F25</Numero>
+        <Descrizione>Car radio</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Brake lights</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F27</Numero>
+        <Descrizione>Cruise Control</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F27</Numero>
+        <Descrizione>Alarm / Anti-theft device</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F27</Numero>
+        <Descrizione>Tachograph</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F27</Numero>
+        <Descrizione>Telephone</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F27</Numero>
+        <Descrizione>Folding rear-view mirrors</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F27</Numero>
+        <Descrizione>Remote control</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F31</Numero>
+        <Descrizione>Ignition switch</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F32</Numero>
+        <Descrizione>Car radio</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F33</Numero>
+        <Descrizione>Rear fog light</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F35</Numero>
+        <Descrizione>Window regulator control module</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F35</Numero>
+        <Descrizione>Central locking</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Assisted parking system</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Instrument panel</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F39</Numero>
+        <Descrizione>Diagnostic socket</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F39</Numero>
+        <Descrizione>Interior lights / glove compartment light</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F42</Numero>
+        <Descrizione>ABS control unit</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F43</Numero>
+        <Descrizione>Windscreen washer pump</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F44</Numero>
+        <Descrizione>Cigarette lighter</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>Headlight washer pump</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F50</Numero>
+        <Descrizione>Airbag control unit</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F51</Numero>
+        <Descrizione>Special equipment</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F52</Numero>
+        <Descrizione>Front 12 V socket</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F53</Numero>
+        <Descrizione>Instrument panel</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F53</Numero>
+        <Descrizione>Turn signals</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F53</Numero>
+        <Descrizione>Emergency flashing lights</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F55</Numero>
+        <Descrizione>Auxiliary heater</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F55</Numero>
+        <Descrizione>Electric fan heater</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F55</Numero>
+        <Descrizione>Electric fan Air conditioning/Heating</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>F62</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Headlight washer pump relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Air conditioning electric fan relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007230</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Auxiliary socket relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199304719</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Titolo>Fuse Box - Passenger Compartment (B)</Titolo>
+      <RifIDFileIMGANI>299023718</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87007231</ID>
+      <XFILE>
+        <ID>299023718</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299023718</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Alarm / Anti-theft device</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Tachograph</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Telephone</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Remote control</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F38</Numero>
+        <Descrizione>Central locking</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F40</Numero>
+        <Descrizione>Right-hand side heated rear window</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F41</Numero>
+        <Descrizione>Rear-view mirror defroster</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F45</Numero>
+        <Descrizione>Heated driver's seat</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F47</Numero>
+        <Descrizione>Left-hand side window regulator</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F48</Numero>
+        <Descrizione>Right-hand side window regulator</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F54</Numero>
+        <Descrizione>Left-hand side heated rear window</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F56</Numero>
+        <Descrizione>Supplementary air conditioning</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F57</Numero>
+        <Descrizione>Electric fan for auxiliary heater</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F58</Numero>
+        <Descrizione>Auxiliary heater</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F59</Numero>
+        <Descrizione>Special equipment</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Flashing lights</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F61</Numero>
+        <Descrizione>Auxiliary heater</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F63</Numero>
+        <Descrizione>Special equipment</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F64</Numero>
+        <Descrizione>Rear 12 V socket</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F64</Numero>
+        <Descrizione>Special equipment</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F65</Numero>
+        <Descrizione>Special equipment</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F66</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F67</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F68</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F69</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F80</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F81</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>F82</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Auxiliary heater relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Auxiliary socket relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Heated rear-view mirror relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Rear window defroster relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87007231</RifIDImmagine>
+        <Numero>R4</Numero>
+        <Descrizione>Coolant pump relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+  </XDOCUMENTO>
+</dataroot>

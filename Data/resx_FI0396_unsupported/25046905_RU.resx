@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:13:17">
+  <XDOCUMENTO>
+    <ID>25046905</ID>
+    <DOCNumber>POP25781</DOCNumber>
+    <RifIDTipoRis>46</RifIDTipoRis>
+    <Titolo>WAŻNA INFORMACJA</Titolo>
+    <InfoDoc>TAG+NOT25060</InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>46</ID>
+      <TipoRis>POP</TipoRis>
+      <DscRis>Uwaga</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>25046905</RifIDDoc>
+      <Ordine>51</Ordine>
+      <Capitolo>Wymiana oleju silnikowego</Capitolo>
+      <Corpo> &lt;BR/&gt; W odniesieniu do wymiany zalecanej w oparciu o przebieg określony w oficjalnym harmonogramie przeglądów lub na podstawie komunikatu wyświetlanego na desce rozdzielczej &lt;BR/&gt;  &lt;BR/&gt; Olej silnikowy i filtr należy wymieniać  &lt;B&gt; częściej &lt;/B&gt;  w następujących warunkach: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Intensywna jazda miejska (długotrwała praca na biegu jałowym) &lt;BR/&gt;  &lt;LI&gt; Przy przebiegu poniżej 10 000 km rocznie &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25046905</RifIDDoc>
+      <Ordine>56</Ordine>
+      <Capitolo>Okresowe przeglądy</Capitolo>
+      <Corpo> &lt;B&gt; Co 1 000 km lub przed długimi podróżami należy sprawdzić i w razie potrzeby uzupełnić: &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  poziom płynu chłodzącego silnika &lt;BR/&gt;  &lt;LI&gt;  poziom płynu hamulcowego &lt;BR/&gt;  &lt;LI&gt;  poziom płynu do spryskiwaczy &lt;BR/&gt;  &lt;LI&gt;  ciśnienie i stan opon &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Co 3 000 km należy sprawdzić i w razie potrzeby uzupełnić: poziom oleju silnikowego. &lt;BR/&gt;  &lt;BR/&gt; Co 10 000 km lub po zapaleniu się kontrolki (tylko w przypadku silników wysokoprężnych): należy usunąć skroploną wodę z filtra paliwa. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25046905</RifIDDoc>
+      <Ordine>61</Ordine>
+      <Capitolo>Eksploatacja pojazdu w trudnych warunkach</Capitolo>
+      <Corpo> &lt;B&gt; W przypadku, gdy samochód jest użytkowany głównie w jednym z poniższych, szczególnie trudnych warunków: &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  holowanie przyczepy lub przyczepy kempingowej &lt;BR/&gt;  &lt;LI&gt;  pyliste drogi &lt;BR/&gt;  &lt;LI&gt;  krótkie (poniżej 7–8 km) i powtarzające się przejazdy przy temperaturze zewnętrznej poniżej zera &lt;BR/&gt;  &lt;LI&gt;  silnik często pracujący na biegu jałowym lub jazda na długich dystansach z małą prędkością, albo w przypadku długotrwałej bezczynności &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Należy przeprowadzać następujące kontrole częściej niż wskazano w oficjalnym harmonogramie przeglądów: &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  kontrola stanu i zużycia klocków hamulcowych przednich hamulców tarczowych &lt;BR/&gt;  &lt;LI&gt;  kontrola stanu i czystości zamków maski silnika i bagażnika, czyszczenie i smarowanie mechanizmów dźwigni &lt;BR/&gt;  &lt;LI&gt;  kontrola wzrokowa stanu: silnika, skrzyni biegów, układu napędowego, sztywnych i elastycznych odcinków przewodów (układ wydechowy – układ paliwowy – układ hamulcowy) oraz elementów gumowych (osłony – węże – tuleje itp.) &lt;BR/&gt;  &lt;LI&gt;  kontrola stanu naładowania i poziomu płynu w akumulatorze (elektrolitu) &lt;BR/&gt;  &lt;LI&gt;  kontrola wzrokowa stanu pasków napędowych układów pomocniczych &lt;BR/&gt;  &lt;LI&gt;  kontrola i ewentualna wymiana oleju silnikowego oraz filtra &lt;BR/&gt;  &lt;LI&gt;  kontrola i ewentualna wymiana filtra przeciwpyłkowego &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25046905</RifIDDoc>
+      <Ordine>64</Ordine>
+      <Capitolo>PRZEPROWADZANIE PRZEGLĄDÓW ZGODNIE Z ROZPORZĄDZENIEM BER/2010</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt; Używać części zamiennych o oryginalnej jakości lub równoważnych oryginałowi. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Używać smarów zgodnie ze specyfikacjami producenta &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Wskazać na karcie zgodności i na fakturze rodzaj użytego smaru (marka, nazwa handlowa, lepkość i specyfikacja) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Wskazać na karcie zgodności i na fakturze rodzaj użytej części zamiennej (marka, kod części) &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>
