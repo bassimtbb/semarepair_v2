@@ -3,10 +3,10 @@
 Français pour toi. **Italien pour tout ce que tu tapes et tout ce que tu dis.**
 
 Chaque scénario se lit dans l'ordre : je tape → **je dis un paragraphe** → le résultat
-s'affiche → **je dis un deuxième paragraphe**. Les deux paragraphes italiens sont à
-lire tels quels.
+s'affiche → **je dis un deuxième paragraphe**.
 
-Tout a été testé en réel sur la stack avant écriture.
+Tout a été rejoué en réel contre la stack avant écriture. Les sorties décrites sont celles
+observées, pas des suppositions.
 
 ---
 
@@ -16,203 +16,221 @@ Tout a été testé en réel sur la stack avant écriture.
 docker compose up -d
 ```
 
-Ouvrir **`http://localhost/`**, zoom **110–125 %**, thème clair.
+Ouvrir **`http://localhost/`** dans **Chrome**, zoom **110 %**, thème clair.
 
-Débloquer la dashboard maintenant : clic sur le bouton grille en haut à droite, une
-fenêtre demande une clé, coller `USAGE_DASHBOARD_KEY` du fichier `.env`. Si tu ne le
-fais pas maintenant, elle te la demandera devant le client.
+**Chrome obligatoirement.** Le schéma électrique s'affiche dans un cadre PDF que Chrome,
+Edge et Firefox savent rendre — pas Safari sur iPhone, qui montrerait un cadre blanc.
 
-**F5 entre chaque scénario.** Sans ça, le véhicule du scénario précédent reste en
-mémoire et le suivant ne montrera pas ce que tu annonces.
+Vérifier que l'extension est active :
+
+```bash
+docker exec semarepair_v2-chat-service-1 sh -c 'echo $TECHNICAL_INFO_ENABLED'   # doit dire true
+```
+
+Débloquer la dashboard maintenant : clic sur le bouton grille, coller
+`USAGE_DASHBOARD_KEY` du `.env`. Sinon elle te la demandera devant le client.
+
+**F5 entre chaque scénario.** Sans ça, le véhicule du scénario précédent reste en mémoire.
 
 ---
 
-## 1. Recherche par code défaut
+## 1. Le véhicule, puis un code défaut
 
 ### Je tape
 
 ```
-Ho il codice errore P0091
+Sto lavorando su un Fiat Ducato 2.8 JTD del 2004
+```
+
+Puis, après avoir cliqué la carte :
+
+```
+Ho il codice errore P0380
 ```
 
 ### Avant le résultat
 
-> Parto dal caso più semplice. Il meccanico ha collegato lo strumento di diagnosi, ha
-> letto un codice errore e scrive solo quello, senza dirmi su quale veicolo sta
-> lavorando.
+> Il meccanico parte sempre dalla macchina che ha sul ponte. Poi collega la diagnosi e
+> legge un codice errore. Scrive solo quello.
 
 ### Ce qui s'affiche
 
-Un message qui demande le véhicule, et **une seule carte** : `FIAT Ducato · 2.3
-Multijet - 120 16v`. Aucune fiche de réparation.
+Une carte `FIAT Ducato · 2.8 JTD 8v · 8140.43S`, la pastille véhicule en haut, puis
+**4 fiches** en `Iniezione` : raccord de pompe, résistance de reniflard, **fusible F17**,
+bougie de préchauffage.
 
 ### Après le résultat
 
-> Come vedete non mi ha dato nessuna procedura, mi ha chiesto prima il veicolo. È una
-> scelta voluta: lo stesso codice cambia significato da un motore all'altro, quindi
-> finché non sa qual è la macchina non mostra niente. Adesso scelgo il veicolo e mi
-> apre la documentazione.
+> Il veicolo è confermato, lo vedete qui in alto. Da adesso ogni ricerca è filtrata su
+> questo motore. E con un solo codice ho già quattro schede di riparazione, ognuna con il
+> suo grado di attendibilità.
 
-Clique la carte : **4 fiches** numérotées apparaissent. Ouvre la n° 2 pour montrer les
-étoiles de fiabilité et les puces DTC.
+⏱ **2 min 30**
+
+---
+
+## 2. Le symptôme, avec les mots du mécanicien
+
+### Je tape
+
+```
+Il motore non si avvia dopo un arresto in marcia
+```
+
+### Avant le résultat
+
+> Adesso senza codice. Solo quello che il meccanico vede e che il cliente gli racconta,
+> in italiano normale.
+
+### Ce qui s'affiche
+
+**3 fiches.** La première : *Mancato avviamento motore, a seguito di un arresto in marcia*
+— cause : **Fusibile F17 (Protezione centralina iniezione)**.
+
+### Après le résultat
+
+> Ha capito il sintomo senza nessun codice. E guardate la causa della prima scheda: il
+> fusibile F17.
+
+**Ouvre cette fiche** et laisse « Fusibile F17 » à l'écran — le scénario suivant part de là.
 
 ⏱ **2 min**
 
 ---
 
-## 2. Recherche par symptôme
+## 3. ⭐ L'enchaînement — le moment clé
 
 ### Je tape
 
 ```
-La spia motore è accesa e il veicolo perde potenza a tratti
+Dove si trova il fusibile F17 e che amperaggio ha?
 ```
 
 ### Avant le résultat
 
-> Qui non c'è nessun codice. Il meccanico scrive solo quello che vede e quello che il
-> cliente gli racconta, con parole sue, in italiano normale. Nessun termine tecnico,
-> nessun menù da imparare.
+> La scheda mi dice che il colpevole è il fusibile F17. Ma dove si trova? E che
+> amperaggio? La scheda non lo dice — nessuna scheda di riparazione lo dice.
 
 ### Ce qui s'affiche
 
-7 cartes véhicule. Clique `FIAT Ducato 2.3 Multijet - 120 16v` : **9 fiches**.
+**F17 · Centralina Iniezione · 5 (A)**, avec sa source : *Fusibili e Relè · Scatola
+Fusibili - Vano Motore*. Et en dessous les fusibles voisins, F16 et F18.
 
 ### Après le résultat
 
-> Ha capito il sintomo e mi ha chiesto di identificare il veicolo. La cosa importante è
-> che si è tenuto da parte la ricerca: appena ho scelto la macchina l'ha rifatta da
-> solo, e io non ho riscritto niente.
+> Ecco il punto. Fino a un minuto fa vi ho mostrato un assistente che trova schede di
+> guasto. Adesso vi sto mostrando qualcosa d'altro: risponde a una domanda tecnica
+> qualsiasi sul veicolo. Amperaggio, posizione, coppia di serraggio, lampadina.
+> Sono le domande che un meccanico fa dieci volte al giorno, e a cui nessuna scheda di
+> riparazione risponde. Queste informazioni erano già nel vostro archivio. Nessuno le
+> aveva mai rese consultabili.
 
-⚠️ **Le message au-dessus des 9 fiches est instable.** Sur deux essais identiques il a
-une fois annoncé « les 3 plus pertinentes sont affichées » alors que les 9 sont à
-l'écran. Ne le lis pas à voix haute, commente le nombre toi-même. Si le client le
-relève : *« Quel messaggio lo scrive il modello. La lista sotto viene dal database. »*
-
-⏱ **2 min** — c'est le scénario à couper si tu manques de temps.
+⏱ **3 min** — ralentis ici, c'est l'argument qui justifie l'investissement.
 
 ---
 
-## 3. Recherche par véhicule
+## 4. Le schéma électrique, dans la conversation
 
 ### Je tape
 
 ```
-Sto lavorando su un Fiat Ducato 2.3 Multijet da 120 CV
+Mostrami lo schema elettrico dell'airbag
 ```
 
 ### Avant le résultat
 
-> Terzo modo di iniziare, ed è quello più naturale in officina: parto dalla macchina
-> che ho sul ponte, e solo dopo racconto il problema.
+> E quando l'informazione non è un numero ma un disegno?
 
 ### Ce qui s'affiche
 
-Une carte, puis après le clic un message de confirmation et **la pastille véhicule
-apparaît en haut de l'écran**.
+Le **schéma airbag s'affiche directement dans la conversation**, avec sa légende
+`H1 · Centralina Airbag`. En dessous, le fusible `F50 · Centralina Airbag · 7,5 (A)`.
+
+**Clique l'icône plein écran** (en haut à droite du schéma).
 
 ### Après le résultat
 
-> Il veicolo adesso è confermato e lo vedete qui in alto, con anni, alimentazione,
-> potenza e codice motore. Da questo momento ogni ricerca che faccio è già filtrata su
-> questo motore e non devo più ripeterlo. Provo a chiedergli un problema di iniezione.
+> Il disegno è qui, nella conversazione, e con un clic riempie lo schermo. I riferimenti
+> sul disegno — H1, B1, S1 — hanno un nome: H1 è la centralina airbag, S1 il sensore
+> d'impatto laterale sinistro. Il meccanico cerca con parole sue, il sistema gli trova il
+> disegno giusto.
 
-Tape ensuite :
+> Se il PDF resta bianco : tu n'es pas dans Chrome. Utilise le bouton « ouvrir dans un
+> onglet », à gauche du plein écran.
 
-```
-Ha problemi di iniezione
-```
-
-**7 fiches** s'affichent.
-
-⏱ **2 min**
+⏱ **2 min 30**
 
 ---
 
-## 4. ⭐ Moteur partagé — le moment clé
+## 5. Une valeur technique
 
 ### Je tape
 
 ```
-Ho un Citroën Jumper con motore RHV che mi dà il codice P0380
+Che coppia di serraggio per il coperchio delle punterie?
 ```
-
-Puis clique la carte **`2001–2002`**.
-
-> Les cartes sont triées par année décroissante : `2002–2006` s'affiche en premier.
-> Repère-toi sur les années. Les deux marchent pareil, ne te reprends pas si tu te
-> trompes.
 
 ### Avant le résultat
 
-> Adesso arriviamo al punto più importante di tutta la dimostrazione. Un Citroën Jumper
-> con motore RHV, e un codice P0380 che riguarda le candelette di preriscaldamento.
+> Un'ultima domanda di officina, di quelle banali.
 
 ### Ce qui s'affiche
 
-Au-dessus de la fiche :
-
-> Non ho trovato documenti per il tuo CITROEN Jumper 2.0 HDI 8v (RHV) con il codice
-> P0380. Ho però trovato documenti per altri veicoli che montano lo stesso motore RHV
-> (FIAT Ducato):
-
-Puis **une fiche** : *Mancato avviamento motore, a seguito di un arresto in marcia*.
+**Coperchio delle punterie · 10 Nm**, puis *Cappellotti albero a camme · 18 Nm* et
+*Testata 3° fase · 180°*.
 
 ### Après le résultat
 
-> Per questo Citroën, con questo codice, nel nostro archivio non esiste nessuna scheda,
-> e un sistema normale vi risponderebbe che non ha trovato niente. Qui invece il sistema
-> sa che il Citroën Jumper e il Fiat Ducato montano lo stesso identico motore, il RHV,
-> quindi la scheda del Ducato è tecnicamente valida anche per il Citroën. E ve lo dice
-> prima di mostrarvi il documento, non dopo. Questa frase non la scrive l'intelligenza
-> artificiale: la costruisce il sistema partendo dal codice motore, quindi non può
-> cambiare e non può sparire.
-
-⏱ **3 min** — ralentis ici, laisse un silence avant le deuxième paragraphe.
-
----
-
-## 5. Multilingue
-
-⚠️ **En français, pas en espagnol.** Testé : la phrase espagnole n'est pas détectée de
-façon fiable, le système reste en italien et la démo tombe à plat.
-
-### Je tape
-
-```
-J'ai un Citroën Jumper avec le moteur RHV qui me donne le code P0380
-```
-
-Puis clique l'une des deux cartes.
-
-### Avant le résultat
-
-> Rifaccio esattamente lo stesso caso di prima, ma questa volta scrivo in francese.
-
-### Ce qui s'affiche
-
-Le même message, en français, puis la fiche en français avec les libellés
-`Système :` / `Dispositif :` / `Anomalie :` / `Cause :`.
-
-### Après le résultat
-
-> Non ho premuto nessun pulsante e non ho cambiato nessuna impostazione: riconosce da
-> solo la lingua in cui scrivo e risponde in quella. Funziona in italiano, francese,
-> inglese, spagnolo e portoghese, e cambia lingua anche la scheda tecnica, non solo la
-> frase di accompagnamento.
+> Dieci newton metro. Non una scheda da leggere, il numero. E accanto, gli altri
+> serraggi dello stesso gruppo, perché chi apre un coperchio punterie avrà bisogno anche
+> di quelli.
 
 ⏱ **1 min 30**
 
 ---
 
-## 6. Garde-fous
+## 6. Multilingue
+
+⚠️ **En français.** L'espagnol n'est pas détecté de façon fiable sur ces phrases.
 
 ### Je tape
 
-Les trois à la suite, sans réinitialiser entre elles.
+```
+Je travaille sur un Fiat Ducato 2.8 JTD
+```
+puis, après avoir cliqué la carte :
+```
+Quel fusible protège le calculateur ABS ?
+```
+
+### Avant le résultat
+
+> Stesso prodotto, ma il meccanico scrive in francese.
+
+### Ce qui s'affiche
+
+> Voici les informations trouvées concernant le fusible du calculateur ABS.
+
+**F42 · Boîtier électronique ABS · 7,5 (A)** et **F04 · Boîtier électronique ABS · 50 (A)**.
+
+### Après le résultat
+
+> Non ho premuto nessun pulsante. Riconosce la lingua da solo e risponde in quella —
+> italiano, francese, inglese, spagnolo e portoghese. E notate: due fusibili proteggono
+> la centralina ABS, uno in ogni scatola. Ve li dà tutti e due, non ne sceglie uno.
+
+⏱ **1 min 30**
+
+---
+
+## 7. Il n'invente jamais
+
+### Je tape
+
+Les trois à la suite, sans réinitialiser.
 
 ```
-Dammi la procedura di sostituzione delle candelette
+Il fusibile dell'ABS si brucia sempre
 ```
 ```
 Che tempo fa a Milano oggi?
@@ -223,50 +241,25 @@ Sto lavorando su una Tesla Model 3
 
 ### Avant le résultat
 
-> Ultima parte, ed è quella che conta di più per la vostra responsabilità. Vi faccio tre
-> domande di seguito, tutte e tre fatte apposta per metterlo in difficoltà.
+> Ultima parte, quella che conta per la vostra responsabilità. Tre domande fatte apposta
+> per metterlo in difficoltà. La prima è la più interessante.
 
 ### Ce qui s'affiche
 
-3 cartes FORD avec une demande de véhicule et aucune procédure ; puis un refus poli
-sans aucune carte ; puis *« Non abbiamo un Tesla Model 3 a catalogo. »*
+La première rend des **fiches de réparation**, pas un ampérage. Puis un refus poli. Puis
+*« Non abbiamo un Tesla Model 3 a catalogo. »*
 
 ### Après le résultat
 
-> Nel primo caso mi ha chiesto il veicolo invece di darmi una procedura a caso. Nel
-> secondo non ci ha nemmeno provato, perché non è il suo lavoro. Nel terzo mi ha detto
-> in una riga che quella macchina non ce l'abbiamo in archivio. Il punto è sempre lo
-> stesso: non inventa mai. Ogni frase tecnica che vedete esce dal vostro archivio,
-> parola per parola, e se il documento non c'è ve lo dice.
+> La prima domanda nomina un fusibile, ma non chiede un amperaggio: dice che si brucia.
+> È un guasto. E infatti mi ha dato le schede di riparazione, non il numero del fusibile.
+> Capisce la differenza tra chi vuole sapere e chi ha un problema.
+>
+> Poi: se la domanda non c'entra, non ci prova. Se il veicolo non è in archivio, lo dice
+> in una riga. Non inventa mai. Ogni frase tecnica esce dal vostro archivio, parola per
+> parola.
 
 ⏱ **2 min**
-
----
-
-## 7. Dashboard
-
-### Je fais
-
-Clic sur le bouton **grille** en haut à droite.
-
-### Avant le résultat
-
-> Chiudo con la parte che interessa voi più che il meccanico.
-
-### Ce qui s'affiche
-
-Trois indicateurs (dépense totale, jetons, appels), un graphique sur 7 jours, la
-répartition par modèle et par service, et le registre des appels.
-
-### Après le résultat
-
-> Ogni singola chiamata all'intelligenza artificiale è registrata qui: quanto costa,
-> quanti dati, quale servizio l'ha chiesta. Non sono stime commerciali, sono i numeri
-> reali presi dal registro, e li potete guardare quando volete.
-
-Reviens à la chat avec le bouton bulle, puis bascule en **thème sombre** pour finir.
-
-⏱ **1 min 30**
 
 ---
 
@@ -274,47 +267,43 @@ Reviens à la chat avec le bouton bulle, puis bascule en **thème sombre** pour 
 
 | Problème | Je fais | Je dis |
 | --- | --- | --- |
-| Réponse lente | Attendre, ne pas recliquer | *Sta interrogando il modello e poi l'archivio. Sono due passaggi.* |
-| Mauvais véhicule ou résultat bizarre | **F5**, refaire | *Mi porto dietro la conversazione precedente. Riparto pulito.* |
-| Le message du moteur partagé n'apparaît pas | **F5**, retaper, recliquer | *Avevo già un veicolo in memoria. Riparto da zero.* |
-| `**texte**` visible à l'écran | Continuer | *(ne rien dire)* |
-| Service tombé | `docker compose restart chat-service` puis F5 | *Un attimo, riavvio un servizio.* |
-| Plus rien ne répond | Passer aux captures | *Vi mostro il risultato registrato, poi rifacciamo la prova con calma.* |
+| Réponse lente | Attendre, ne pas recliquer | *Sta interrogando il modello e poi l'archivio.* |
+| Mauvais résultat | **F5**, refaire | *Mi porto dietro la conversazione precedente. Riparto pulito.* |
+| Le schéma reste blanc | Bouton « ouvrir dans un onglet » | *Ve lo apro a parte.* |
+| Une question technique ne trouve rien | Reformuler avec le mot du métier | *Provo con il termine tecnico.* |
+| Un service est tombé | `docker compose restart chat-service` puis F5 | *Un attimo, riavvio un servizio.* |
+| L'extension déraille | `TECHNICAL_INFO_ENABLED=false` dans `.env`, `docker compose up -d chat-service` | *(30 secondes, retour au produit de base qui fonctionne)* |
 
-**Fais des captures d'écran de chaque scénario la veille**, dans un onglet ouvert.
+**Fais des captures de chaque scénario la veille**, dans un onglet ouvert.
 
 ---
 
 ## Questions du client
 
 **Quanto costa?**
-> Frazioni di centesimo a domanda, e lo vedete misurato nella dashboard, non stimato.
-> Il modello di prezzo lo definiamo insieme.
+> Frazioni di centesimo a domanda, misurato nella dashboard, non stimato. Indicizzare
+> tutta la documentazione tecnica di un veicolo è costato meno di un centesimo.
+
+**Queste informazioni da dove vengono?**
+> Dal vostro archivio, quello che ci avete già dato. Su questo veicolo: 122 fusibili con
+> la loro funzione e il loro amperaggio, 21 coppie di serraggio, 16 lampadine, 41 dati
+> motore, 7 schemi elettrici e 36 capitoli di procedure. Nessuna di queste informazioni
+> era consultabile prima.
 
 **Funziona con tutto il nostro archivio?**
-> Oggi vedete un campione reale: 157 veicoli, 5 marche, 117 codici motore, 74 codici
-> guasto, 5 lingue. Caricate il vostro archivio completo e funziona allo stesso modo.
-
-**Quante lingue?**
-> Cinque: italiano, francese, inglese, spagnolo e portoghese. Sia la conversazione sia
-> le schede tecniche.
+> Quello che vedete è un veicolo solo, caricato in pochi minuti. Il procedimento è
+> automatico: ci date l'archivio completo e funziona allo stesso modo.
 
 **Le informazioni le inventa?**
-> No. Causa, intervento e procedura escono parola per parola dai vostri documenti.
-> L'intelligenza artificiale capisce la domanda e sceglie dove cercare, ma non scrive
-> mai il contenuto tecnico.
+> No. L'intelligenza artificiale capisce la domanda e sceglie dove cercare. Il contenuto
+> tecnico — il numero, la procedura, il disegno — viene dal database e arriva sullo
+> schermo senza passare dal modello.
 
-**E quando il documento non c'è?**
-> Prima cerca una scheda di un veicolo con lo stesso motore, e ve lo dice chiaramente.
-> Se non c'è nemmeno quella vi chiede di precisare. Se non c'è proprio niente, ve lo
-> dice in una riga.
+**E quando non c'è la risposta?**
+> Ve lo dice. L'avete visto con la Tesla e con la domanda sul meteo.
 
-**I nostri dati escono dall'azienda?**
-> Al modello arriva la domanda e qualche informazione di servizio. Il contenuto delle
-> schede non passa mai dal modello: viene preso dal database e mostrato direttamente.
-
-**Quanto ci mette a rispondere?**
-> Due o tre secondi. E quello che avete visto gira sul mio portatile.
+**Quante lingue?**
+> Cinque: italiano, francese, inglese, spagnolo e portoghese.
 
 ---
 
@@ -322,31 +311,46 @@ Reviens à la chat avec le bouton bulle, puis bascule en **thème sombre** pour 
 
 | # | Scénario | Durée |
 | --- | --- | --- |
-| — | Intro | 1 min 30 |
-| 1 | Code défaut | 2 min |
+| — | Intro | 1 min |
+| 1 | Véhicule + code défaut | 2 min 30 |
 | 2 | Symptôme | 2 min |
-| 3 | Véhicule | 2 min |
-| 4 | **Moteur partagé** | **3 min** |
-| 5 | Multilingue | 1 min 30 |
-| 6 | Garde-fous | 2 min |
-| 7 | Dashboard | 1 min 30 |
+| 3 | **L'enchaînement F17** | **3 min** |
+| 4 | Schéma électrique | 2 min 30 |
+| 5 | Couple de serrage | 1 min 30 |
+| 6 | Multilingue | 1 min 30 |
+| 7 | Garde-fous | 2 min |
 | | **Total** | **≈ 16 min** |
 
-Pour tenir 15 minutes, coupe le scénario 2. Ne coupe jamais le 4 ni le 6.
+Pour tenir 15 minutes, coupe le scénario 5 : le 3 a déjà montré qu'il donne des valeurs.
+**Ne coupe jamais le 3 ni le 7.**
+
+---
+
+## Ce que tu ne dois PAS promettre
+
+Le client demandera « et si je veux X ? ». Ces limites sont réelles :
+
+- **Les schémas n'existent qu'en italien et en anglais.** Les fusibles, couples, ampoules
+  et procédures sont dans les cinq langues, pas les 7 schémas.
+- **Les images manquent.** 55 illustrations sont référencées mais n'ont pas été livrées :
+  photos des boîtiers à fusibles, emplacements de composants. On dit *« F04, 50 A, boîtier
+  compartiment moteur »*, on ne le montre pas.
+- **Un seul véhicule en base.** C'est un choix, pas une limite technique — mais ne laisse
+  pas croire que le catalogue complet est déjà chargé.
+- **Le repli moteur partagé ne fonctionne pas sur ce jeu de données.** Il faut deux
+  véhicules partageant un moteur ; il n'y en a qu'un. Ne le mentionne pas.
 
 ---
 
 ## Si on te demande comment ça marche
 
-À l'import, chaque document est relié à ses véhicules, ses codes défaut et ses
-composants, et les véhicules sont reliés entre eux quand ils montent le même moteur.
-C'est ce lien qui permet de trouver la fiche du Fiat pour le Citroën.
+À l'import, chaque document est relié à ses véhicules, ses codes défaut et ses composants.
+Les fiches de réparation d'un côté, et de l'autre tout ce qui n'en est pas — tables de
+fusibles, couples, schémas, procédures — découpé en réponses consultables.
 
-La recherche se fait par le sens et pas par les mots : « perde potenza a tratti »
-retrouve un document qui dit « prestazioni notevolmente ridotte ».
+La recherche se fait par le sens et pas par les mots : « non si avvia dopo un arresto »
+retrouve un document qui dit autre chose mais parle du même problème.
 
-L'intelligence artificielle comprend la question mais ne rédige pas la réponse. Elle
-lit la phrase, en extrait le véhicule et le symptôme, et décide où chercher. Le contenu
-technique affiché sort du document tel quel. C'est pour cette raison que le message du
-moteur partagé est construit par le système et pas par le modèle : il ne peut pas
-disparaître.
+L'intelligence artificielle comprend la question et décide où chercher — une panne ou une
+information. Elle ne rédige jamais le contenu technique : le numéro, la valeur et le
+schéma sortent du document tel quel.
