@@ -27,24 +27,57 @@ public class SearchController : ControllerBase
     // question - see the real bug this fixed in progress.md.
     private const double MaxRelevantDistance = 0.35;
 
+    // Calibrated separately from MaxRelevantDistance above, because the
+    // corpus differs in kind: a chunk is a short labelled value
+    // ("Centralina ABS · F04"), not a paragraph of symptom prose, so its
+    // distances are not on the same scale.
+    //
+    // Measured over 34 real queries against the FI0396 data:
+    //   22 legitimate questions  - all answered correctly, worst 0.288
+    //     ("quale fusibile per le candelette" -> F02, 50 A)
+    //   12 off-topic or absent   - best 0.305
+    //     ("dove comprare i ricambi" -> a servicing chapter)
+    // At 0.30: 22/22 kept, 0/12 wrongly accepted. At 0.31 the first false
+    // positive appears; at 0.35, five do.
+    //
+    // The gap between the worst true answer and the best false one is only
+    // 0.017, so this threshold is tight by nature rather than by choice -
+    // re-measure it whenever the corpus changes materially, and do not nudge
+    // it upward to rescue a single query.
+    private const double MaxTechnicalDistance = 0.30;
+
+    // A fuse question has one right answer; a "show me the diagram" question
+    // legitimately returns a whole legend. The default is small enough to
+    // stay readable and the caller may raise it.
+    private const int TechnicalResultLimit = 6;
+    private const int TechnicalMaxLimit = 30;
+
+    // How many raw rows to pull per requested result before collapsing
+    // legends. One diagram contributes up to 20 legend rows, so a factor
+    // this size keeps a second document reachable behind the first.
+    private const int LegendOverFetch = 8;
+
     private readonly GraphSearchService _graphSearch;
     private readonly VectorSearchService _vectorSearch;
     private readonly SymptomSearchService _symptomSearch;
     private readonly ValidationService _validation;
     private readonly DocumentContentService _documentContent;
+    private readonly TechnicalSearchService _technicalSearch;
 
     public SearchController(
         GraphSearchService graphSearch,
         VectorSearchService vectorSearch,
         SymptomSearchService symptomSearch,
         ValidationService validation,
-        DocumentContentService documentContent)
+        DocumentContentService documentContent,
+        TechnicalSearchService technicalSearch)
     {
         _graphSearch = graphSearch;
         _vectorSearch = vectorSearch;
         _symptomSearch = symptomSearch;
         _validation = validation;
         _documentContent = documentContent;
+        _technicalSearch = technicalSearch;
     }
 
     // GET /api/search/fault-code?code=P2279&codiceMotore=XUJN&marca=FORD&lang=it
@@ -121,6 +154,104 @@ public class SearchController : ControllerBase
             sharedCarIds => _graphSearch.GetDocumentsForCarsAndKeywordAsync(sharedCarIds, name, lang));
         return fallback ?? NotFoundResponse();
     }
+
+    // GET /api/search/technical?q=quale+fusibile+per+ABS&codiceMotore=8140.43S&marca=FIAT&lang=it
+    //
+    // The extension's endpoint (docs/Architecture_Extension_v2.md). Answers
+    // questions about the vehicle rather than about a fault: fuse ratings,
+    // torque figures, bulb types, component locations, wiring diagrams,
+    // service procedures.
+    //
+    // codiceMotore is REQUIRED, unlike the document endpoints which fall
+    // back to a car-selection list when it is absent. A technical value is
+    // meaningless without a vehicle, and there is no useful "which car did
+    // you mean" answer to "what torque" - so an unconfirmed request is a
+    // not_found, and the caller asks for the vehicle first.
+    [HttpGet("technical")]
+    public async Task<TechnicalResponse> Technical(
+        [FromQuery] string q, [FromQuery] string? codiceMotore,
+        [FromQuery] string? marca, [FromQuery] string lang = "it",
+        [FromQuery] int limit = TechnicalResultLimit)
+    {
+        if (string.IsNullOrWhiteSpace(q) || string.IsNullOrWhiteSpace(codiceMotore))
+            return new TechnicalResponse();
+
+        var capped = Math.Clamp(limit, 1, TechnicalMaxLimit);
+
+        // Over-fetch, then collapse, then cut to the caller's limit -
+        // collapsing after a LIMIT would silently drop documents whose only
+        // surviving rows fell outside the window.
+        var chunks = await _technicalSearch.SearchAsync(
+            q, codiceMotore, marca, lang, capped * LegendOverFetch);
+
+        var relevant = PreferAnswers(CollapseLegends(chunks.Where(c => c.Distance <= MaxTechnicalDistance)))
+            .Take(capped)
+            .ToList();
+        if (relevant.Count == 0) return new TechnicalResponse();
+
+        return new TechnicalResponse
+        {
+            ResultType = "technical",
+            Count = relevant.Count,
+            Chunks = relevant,
+        };
+    }
+
+    // A wiring diagram's answer is the diagram, not one row of its legend.
+    // Without this, "schema elettrico airbag" returns eight near-identical
+    // rows from the same drawing - three of them literally "Fusibile 7,5A" -
+    // and buries every other kind of result behind them. Measured on real
+    // data: the top five hits for that query were all the same document.
+    //
+    // facts and sections are left alone: each one is a distinct answer
+    // ("F04 · 50 A" and "F42 · 7,5 A" are two different fuses for the ABS,
+    // and both are correct).
+    //
+    // Ordering is preserved because the input is already sorted by distance,
+    // so the first legend seen for a document is its closest one.
+    private static IEnumerable<TechnicalChunk> CollapseLegends(IEnumerable<TechnicalChunk> chunks)
+    {
+        var seenLegendDocs = new HashSet<string>();
+        foreach (var c in chunks)
+        {
+            if (c.Kind == "legend" && !seenLegendDocs.Add(c.IdDocumento)) continue;
+            yield return c;
+        }
+    }
+
+    // Within a band of near-equal distances, put the chunks that actually
+    // carry an answer first. A `fact` states a value ("ABS control unit ·
+    // F42 · 7,5 A"); a `legend` only names a mark on a drawing, and several
+    // diagrams carry near-content-free rows like "Fusibile 7,5A" that sit
+    // very close to any fuse question.
+    //
+    // Found in English, where four such rows from four different schemas
+    // scored 0.268-0.277 and pushed the real answer (0.271) to third place.
+    // The Italian phrasing of the same question ranked the fact first, so
+    // the ordering was language-dependent - not acceptable for a product
+    // that answers in five.
+    //
+    // Banding rather than a flat kind priority: a genuinely closer legend
+    // still wins. Same idea as TieThreshold for documents above, and the
+    // same width, so the two search paths treat near-ties alike.
+    private static IEnumerable<TechnicalChunk> PreferAnswers(IEnumerable<TechnicalChunk> chunks) =>
+        chunks
+            .Select((c, index) => (Chunk: c, Index: index))
+            .OrderBy(x => (int)Math.Floor(x.Chunk.Distance / TieThreshold))
+            .ThenBy(x => KindRank(x.Chunk.Kind))
+            .ThenBy(x => x.Index)      // keeps the incoming distance order inside a band
+            .Select(x => x.Chunk);
+
+    // Only `fact` is promoted, and everything else keeps its distance order.
+    // An earlier version also ranked `section` above `legend`, which looked
+    // reasonable and was wrong: "schema elettrico ABS" then put a systems
+    // list (0.258) above the ABS wiring diagram (0.257), demoting a closer
+    // and more apt result. Kind cannot encode query intent - a section
+    // answers "how do I reset the service indicator", a legend answers
+    // "show me the diagram" - so the ordering only asserts the one thing
+    // that holds regardless of the question: a stated value beats a pointer
+    // to a drawing when the two are equally close.
+    private static int KindRank(string kind) => kind == "fact" ? 0 : 1;
 
     // --- Search Type 3: symptom + confirmed car ---
     private async Task<SearchResponse> SymptomWithCarAsync(string symptom, string codiceMotore, string? marca, string lang)

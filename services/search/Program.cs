@@ -13,6 +13,7 @@ builder.Services.AddSingleton<VectorSearchService>();
 builder.Services.AddSingleton<SymptomSearchService>();
 builder.Services.AddSingleton<ValidationService>();
 builder.Services.AddSingleton<DocumentContentService>();
+builder.Services.AddSingleton<TechnicalSearchService>();
 builder.Services.AddSingleton<UsageQueryService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

@@ -11,6 +11,6 @@ COPY resx_parser.py graph_builder.py embedder.py seeder.py schema.sql ./
 # the line above so it stays obvious which files drive the working product
 # and which belong to the extension - the CMD still runs seeder.py, and
 # technical_seeder.py is only ever invoked explicitly.
-COPY technical_parser.py technical_seeder.py schema_technical.sql ./
+COPY technical_parser.py technical_seeder.py technical_embedder.py schema_technical.sql ./
 
 CMD ["python", "seeder.py"]
