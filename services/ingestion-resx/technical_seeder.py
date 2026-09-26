@@ -103,6 +103,7 @@ def main():
                         AND COALESCE(i.value,'')     = COALESCE(k.value,'')
                         AND COALESCE(i.unit,'')      = COALESCE(k.unit,'')
                         AND COALESCE(i.body,'')      = COALESCE(k.body,'')
+                        AND i.search_text = k.search_text
                   )
             """, (tuple(pairs),))
             pruned = cur.rowcount

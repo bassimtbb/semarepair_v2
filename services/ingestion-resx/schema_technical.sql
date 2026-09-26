@@ -69,8 +69,15 @@ CREATE INDEX IF NOT EXISTS idx_chunks_hnsw ON knowledge_chunks
 -- bulb types WY5W and W5W, and 50011102 gives refrigerant quantities of
 -- 650 g and 1500 g under one label for different body variants. Same label,
 -- different answer - collapsing them would hand a mechanic the wrong part.
+--
+-- search_text is in the key too, and for a reason found the hard way: it was
+-- left out at first, so improving what gets embedded changed no row's
+-- identity and the seeder reported "0 added, 0 pruned" while the stale
+-- vectors stayed in place. The identity has to cover the indexed text, or a
+-- retrieval fix silently does nothing.
 CREATE UNIQUE INDEX IF NOT EXISTS idx_chunks_identity
     ON knowledge_chunks (id_documento, language, kind,
                          COALESCE(heading, ''), COALESCE(reference, ''),
                          COALESCE(label, ''), COALESCE(value, ''),
-                         COALESCE(unit, ''), COALESCE(body, ''));
+                         COALESCE(unit, ''), COALESCE(body, ''),
+                         search_text);

@@ -65,7 +65,7 @@ def _search_text(*parts: Optional[str]) -> str:
     return ' · '.join(p for p in parts if p)
 
 
-def _quadruplets(doc: ET.Element) -> list[dict]:
+def _quadruplets(doc: ET.Element, type_label: Optional[str]) -> list[dict]:
     """Gruppo / Dato / Valore / UnitaMis - DTM, COP, FAR."""
     chunks = []
     for tag in ('XDATIMECH', 'XCOPSERR'):
@@ -85,12 +85,12 @@ def _quadruplets(doc: ET.Element) -> list[dict]:
                 'reference': None,
                 'body': None,
                 'asset_id': None,
-                'search_text': _search_text(heading, label),
+                'search_text': _search_text(type_label, heading, label),
             })
     return chunks
 
 
-def _fuses(doc: ET.Element) -> list[dict]:
+def _fuses(doc: ET.Element, type_label: Optional[str]) -> list[dict]:
     """XFUSCONN (a fuse box) > XTABVAL (its rows). The box title is on the
     parent, and it is the useful part: "F04, 50 A" means little without
     "Scatola Fusibili - Vano Motore"."""
@@ -112,12 +112,13 @@ def _fuses(doc: ET.Element) -> list[dict]:
                 'reference': reference,
                 'body': None,
                 'asset_id': None,
-                'search_text': _search_text(box_title, label, reference),
+                'search_text': _search_text(type_label, box_title, label, reference),
             })
     return chunks
 
 
-def _legends(doc: ET.Element, doc_title: Optional[str], pdf_id: Optional[str]) -> list[dict]:
+def _legends(doc: ET.Element, doc_title: Optional[str], pdf_id: Optional[str],
+             type_label: Optional[str]) -> list[dict]:
     """XSCHLEGENDA - the named components behind a diagram's reference marks.
 
     doc_title is prepended to the search text on purpose: the legend entry
@@ -140,12 +141,12 @@ def _legends(doc: ET.Element, doc_title: Optional[str], pdf_id: Optional[str]) -
             'reference': reference,
             'body': detail,
             'asset_id': pdf_id,
-            'search_text': _search_text(doc_title, label, location, reference),
+            'search_text': _search_text(type_label, doc_title, label, location, reference),
         })
     return chunks
 
 
-def _sections(doc: ET.Element, doc_title: Optional[str]) -> list[dict]:
+def _sections(doc: ET.Element, doc_title: Optional[str], type_label: Optional[str]) -> list[dict]:
     """XCAPITOLO at any Ordine. A chapter with no title of its own falls back
     to the document's, so the chunk is never anonymous in a result list."""
     chunks = []
@@ -163,7 +164,7 @@ def _sections(doc: ET.Element, doc_title: Optional[str]) -> list[dict]:
             'reference': _field(cap, 'Ordine'),
             'body': body,
             'asset_id': None,
-            'search_text': _search_text(doc_title, heading, body),
+            'search_text': _search_text(type_label, doc_title, heading, body),
         })
     return chunks
 
@@ -184,11 +185,23 @@ def parse_technical_file(filepath: str) -> list[dict]:
     doc_title = _clean(doc.findtext('Titolo'))
     pdf_id = _field(doc.find('XSCHEMA'), 'RifIDFilePDF') if doc.find('XSCHEMA') is not None else None
 
+    # DscRis is the document type spelled out, and it is localised: the same
+    # SCH document reads "Schema Elettrico" in Italian and "Electrical
+    # Schemes" in English, FUS reads "Fusibili e Relè" / "Fusibles et relais".
+    #
+    # It goes into every chunk's search text because without it those words
+    # appear nowhere: a legend chunk read "Airbag Siemens MY99 · Front left
+    # pretensioner · A1", so "show me the airbag wiring diagram" found
+    # nothing in English while the Italian phrasing happened to land. The
+    # retrieval was working by luck of the embedding rather than because the
+    # text said what the document was.
+    type_label = _clean(doc.findtext('XTIPORIS/DscRis'))
+
     chunks = (
-        _quadruplets(doc)
-        + _fuses(doc)
-        + _legends(doc, doc_title, pdf_id)
-        + _sections(doc, doc_title)
+        _quadruplets(doc, type_label)
+        + _fuses(doc, type_label)
+        + _legends(doc, doc_title, pdf_id, type_label)
+        + _sections(doc, doc_title, type_label)
     )
     for c in chunks:
         c['id_documento'] = id_documento
