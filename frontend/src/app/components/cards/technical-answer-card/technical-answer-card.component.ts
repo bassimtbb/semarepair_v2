@@ -55,6 +55,10 @@ import type { TechnicalChunk } from '../../../models/chat.models';
         @if (chunk.body) {
           <div class="tech-body text-foreground">{{ chunk.body }}</div>
         }
+
+        @if (contextLabel) {
+          <div class="tech-context text-foreground">{{ contextLabel }}</div>
+        }
       }
 
       <div class="tech-source text-muted">{{ sourceLabel }}</div>
@@ -65,14 +69,27 @@ import type { TechnicalChunk } from '../../../models/chat.models';
 export class TechnicalAnswerCardComponent {
   @Input({ required: true }) chunk!: TechnicalChunk;
 
-  // The document, then the section within it when they differ - "Fusibili e
-  // Relè · Scatola Fusibili - Vano Motore" tells the mechanic both which
-  // manual page this is and which box to open. Repeating the heading when it
-  // equals the title would just be noise.
+  // Where the answer sits, promoted out of the grey source line.
+  //
+  // Asked "dove si trova il fusibile F17", the card led with 5 (A) - the
+  // rating - while the actual location, "Scatola Fusibili - Vano Motore",
+  // was buried in small grey type behind the document title. Correct, and
+  // answering a different question than the one asked.
+  //
+  // Kind cannot tell us whether the mechanic wanted the rating or the place,
+  // and guessing from the wording is the mistake this codebase has already
+  // made once. So both are shown, each legible: the value large, the
+  // enclosure under it. For a torque or an engine spec the heading is a group
+  // name that merely repeats the document, and is dropped instead.
+  get contextLabel(): string | null {
+    const heading = this.chunk.heading?.trim();
+    if (!heading) return null;
+    const title = this.chunk.documentTitle?.trim() ?? '';
+    return heading.toLowerCase() === title.toLowerCase() ? null : heading;
+  }
+
+  // Just the document now - the section within it has its own line above.
   get sourceLabel(): string {
-    const parts = [this.chunk.documentTitle, this.chunk.heading]
-      .filter((p): p is string => !!p);
-    const unique = parts.filter((p, i) => parts.indexOf(p) === i);
-    return unique.join(' · ');
+    return this.chunk.documentTitle?.trim() || this.chunk.heading?.trim() || '';
   }
 }

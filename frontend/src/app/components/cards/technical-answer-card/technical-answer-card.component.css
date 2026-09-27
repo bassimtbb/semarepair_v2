@@ -61,3 +61,10 @@
   font-size: 11px;
   padding-top: 2px;
 }
+
+/* Where the answer sits - the fuse box, the lighting group. Readable rather
+   than metadata-grey, because for "where is it?" this IS the answer. */
+.tech-context {
+  font-size: 12px;
+  opacity: 0.85;
+}
