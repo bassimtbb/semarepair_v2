@@ -66,8 +66,14 @@ export function stripMarkdown(text: string): string {
   out = out.replace(BOLD_UNDERSCORE, '$1$2');
   out = out.replace(ITALIC_STAR, '$1');
   out = out.replace(ITALIC_UNDERSCORE, '$1$2');
-  // Leading block markers (#, >) on their own line - the text after them
-  // is still worth speaking, the marker itself isn't.
-  out = out.replace(/^[ \t]*(?:#{1,6}|>)[ \t]+/gm, '');
+  // Leading block markers (#, >, and the bullets a procedure is rendered
+  // with) on their own line - the text after them is still worth speaking,
+  // the marker itself isn't. A speech engine reads "•" aloud as "bullet" or
+  // stumbles on it, and the technical sections are full of them since they
+  // started being laid out as steps.
+  //
+  // The line break is kept: it is what makes a synthesiser pause between
+  // steps, which is the whole reason the layout was preserved.
+  out = out.replace(/^[ \t]*(?:#{1,6}|>|[•▪◦*-])[ \t]+/gm, '');
   return out;
 }

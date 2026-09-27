@@ -23,6 +23,13 @@ interface S {
   no_speech_hint: string;
   voice_unavailable_toast: string;
   hd_voice_unavailable_toast: string;
+
+  // Extension v2 - technical answers. Same rule as everything above: these
+  // wrap raw database values, they never paraphrase one.
+  tech_fact: (reference: string | null, label: string, value: string) => string;
+  tech_more_results: (n: number) => string;
+  tech_schema: (title: string) => string;
+  tech_offer_procedure: (title: string) => string;
 }
 
 const STRINGS: Record<VoiceLang, S> = {
@@ -45,6 +52,10 @@ const STRINGS: Record<VoiceLang, S> = {
     no_speech_hint: 'Non ho sentito nulla. Parla vicino al microfono.',
     voice_unavailable_toast: 'Voce non disponibile su questo browser — prova Voice HD.',
     hd_voice_unavailable_toast: 'Voce HD non disponibile.',
+    tech_fact: (r, l, v) => (r ? `${r}, ${l}: ${v}.` : `${l}: ${v}.`),
+    tech_more_results: n => `Ho trovato altri ${n} risultati sullo schermo.`,
+    tech_schema: title => `Ho trovato lo schema elettrico ${title}. È sullo schermo.`,
+    tech_offer_procedure: title => `Ho trovato la procedura ${title}. Vuoi che te la legga?`,
   },
   en: {
     car_selection_prefix: n => `I found ${n} compatible vehicles:`,
@@ -65,6 +76,10 @@ const STRINGS: Record<VoiceLang, S> = {
     no_speech_hint: 'I did not hear anything. Speak close to the microphone.',
     voice_unavailable_toast: 'Voice not available on this browser — try Voice HD.',
     hd_voice_unavailable_toast: 'Voice HD not available.',
+    tech_fact: (r, l, v) => (r ? `${r}, ${l}: ${v}.` : `${l}: ${v}.`),
+    tech_more_results: n => `I found ${n} more results on the screen.`,
+    tech_schema: title => `I found the ${title} wiring diagram. It is on the screen.`,
+    tech_offer_procedure: title => `I found the ${title} procedure. Shall I read it to you?`,
   },
   fr: {
     car_selection_prefix: n => `J'ai trouvé ${n} véhicules compatibles :`,
@@ -85,6 +100,10 @@ const STRINGS: Record<VoiceLang, S> = {
     no_speech_hint: "Je n'ai rien entendu. Parlez près du microphone.",
     voice_unavailable_toast: 'Voix non disponible sur ce navigateur — essayez Voice HD.',
     hd_voice_unavailable_toast: 'Voice HD non disponible.',
+    tech_fact: (r, l, v) => (r ? `${r}, ${l} : ${v}.` : `${l} : ${v}.`),
+    tech_more_results: n => `J'ai trouvé ${n} autres résultats à l'écran.`,
+    tech_schema: title => `J'ai trouvé le schéma électrique ${title}. Il est à l'écran.`,
+    tech_offer_procedure: title => `J'ai trouvé la procédure ${title}. Voulez-vous que je vous la lise ?`,
   },
   pt: {
     car_selection_prefix: n => `Encontrei ${n} veículos compatíveis:`,
@@ -105,6 +124,10 @@ const STRINGS: Record<VoiceLang, S> = {
     no_speech_hint: 'Não ouvi nada. Fale perto do microfone.',
     voice_unavailable_toast: 'Voz não disponível neste navegador — experimente Voice HD.',
     hd_voice_unavailable_toast: 'Voice HD não disponível.',
+    tech_fact: (r, l, v) => (r ? `${r}, ${l}: ${v}.` : `${l}: ${v}.`),
+    tech_more_results: n => `Encontrei mais ${n} resultados no ecrã.`,
+    tech_schema: title => `Encontrei o esquema elétrico ${title}. Está no ecrã.`,
+    tech_offer_procedure: title => `Encontrei o procedimento ${title}. Quer que lho leia?`,
   },
   es: {
     car_selection_prefix: n => `Encontré ${n} vehículos compatibles:`,
@@ -125,6 +148,10 @@ const STRINGS: Record<VoiceLang, S> = {
     no_speech_hint: 'No escuché nada. Hable cerca del micrófono.',
     voice_unavailable_toast: 'Voz no disponible en este navegador — pruebe Voice HD.',
     hd_voice_unavailable_toast: 'Voice HD no disponible.',
+    tech_fact: (r, l, v) => (r ? `${r}, ${l}: ${v}.` : `${l}: ${v}.`),
+    tech_more_results: n => `Encontré ${n} resultados más en la pantalla.`,
+    tech_schema: title => `Encontré el esquema eléctrico ${title}. Está en la pantalla.`,
+    tech_offer_procedure: title => `Encontré el procedimiento ${title}. ¿Quieres que te lo lea?`,
   },
 };
 
@@ -136,7 +163,8 @@ function lang(l: string): VoiceLang {
 // is used in VoiceModeService when engine==='google' and speak() rejects.
 export type StringKey = Exclude<
   keyof S,
-  'car_selection_prefix' | 'car_option' | 'found_n_cases' | 'case_option' | 'case_too_many'
+  | 'car_selection_prefix' | 'car_option' | 'found_n_cases' | 'case_option' | 'case_too_many'
+  | 'tech_fact' | 'tech_more_results' | 'tech_schema' | 'tech_offer_procedure'
 >;
 
 export function t(l: string, key: StringKey): string {
@@ -161,4 +189,20 @@ export function tCaseOption(l: string, badge: number, label: string): string {
 
 export function tCaseTooMany(l: string, n: number): string {
   return STRINGS[lang(l)].case_too_many(n);
+}
+
+export function tTechFact(l: string, reference: string | null, label: string, value: string): string {
+  return STRINGS[lang(l)].tech_fact(reference, label, value);
+}
+
+export function tTechMoreResults(l: string, n: number): string {
+  return STRINGS[lang(l)].tech_more_results(n);
+}
+
+export function tTechSchema(l: string, title: string): string {
+  return STRINGS[lang(l)].tech_schema(title);
+}
+
+export function tTechOfferProcedure(l: string, title: string): string {
+  return STRINGS[lang(l)].tech_offer_procedure(title);
 }

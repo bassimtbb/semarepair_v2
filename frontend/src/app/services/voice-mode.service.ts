@@ -4,9 +4,10 @@ import { ChatStore } from './chat-store.service';
 import { SilenceDetector } from './silence-detector';
 import { SpeechService } from './speech/speech.service';
 import { VoiceCarSelectionService } from './voice-car-selection.service';
-import { t, tCarOption, tCarSelectionPrefix, tCaseOption, tCaseTooMany, tFoundNCases } from './voice-strings';
+import { t, tCarOption, tCarSelectionPrefix, tCaseOption, tCaseTooMany, tFoundNCases,
+         tTechFact, tTechMoreResults, tTechSchema, tTechOfferProcedure } from './voice-strings';
 import { stripMarkdown } from '../utils/markdown';
-import type { CaseSummary, ChatResponse } from '../models/chat.models';
+import type { CaseSummary, ChatResponse, TechnicalChunk } from '../models/chat.models';
 
 export type VoiceState = 'idle' | 'listening' | 'transcribing' | 'waiting_response' | 'speaking';
 export type VoiceEngine = 'web' | 'google';
@@ -78,9 +79,67 @@ export function buildSpokenText(r: ChatResponse, lang: string): string | null {
     return parts.join(' ');
   }
 
+  // Extension v2: technical answers. Without this branch they fall through
+  // to r.message below and the mechanic hears only "here is the technical
+  // information found" - the framing, never the answer. Which is the worst
+  // place for that gap: he turned the voice on BECAUSE he cannot look at
+  // the screen.
+  if (r.technicalChunks?.length) {
+    return buildSpokenTechnical(r.technicalChunks, lang);
+  }
+
   // Rule 8b/8c (low-confidence), Rule 9 (vague), Rule 10 (too many),
   // not_found, redirected — the formatting call always supplies r.message.
   return spokenMessage(r.message);
+}
+
+// How many short values to read in a row. Two fuses protect the ABS unit and
+// both are correct answers, so reading only the first would hide one; reading
+// six bulb types would be a monologue.
+const SPOKEN_FACT_LIMIT = 3;
+
+// Same rule as everything above: reference, label, value and unit come from
+// the database untouched, only the joining words are ours.
+function speakFact(c: TechnicalChunk, lang: string): string | null {
+  const label = c.label || c.heading;
+  if (!label) return null;
+  const value = [c.value, c.unit].filter(Boolean).join(' ');
+  if (!value) return null;
+  return tTechFact(lang, c.reference ?? null, label, value);
+}
+
+// A procedure is never spoken from here - findProcedure hands it to the
+// consent gate instead, so the mechanic decides before a minute of speech
+// begins. This function only ever produces short answers.
+function buildSpokenTechnical(chunks: TechnicalChunk[], lang: string): string | null {
+  const facts = chunks.filter(c => c.kind === 'fact');
+  if (facts.length > 0) {
+    const spoken = facts.slice(0, SPOKEN_FACT_LIMIT)
+      .map(c => speakFact(c, lang))
+      .filter((s): s is string => s !== null);
+    if (spoken.length > 0) {
+      const remaining = chunks.length - spoken.length;
+      if (remaining > 0) spoken.push(tTechMoreResults(lang, remaining));
+      return spoken.join(' ');
+    }
+  }
+
+  // A drawing cannot be read aloud. Name it and say where it is - honest
+  // about the limit, and he knows what to look at.
+  const schema = chunks.find(c => c.kind === 'legend');
+  if (schema) {
+    const title = schema.heading || schema.documentTitle;
+    if (title) return tTechSchema(lang, title);
+  }
+
+  return null;
+}
+
+// The procedure a technical answer offers to read, if any. Separate from
+// buildSpokenText because it is not spoken immediately - it goes through the
+// consent gate.
+export function findProcedure(r: ChatResponse): TechnicalChunk | null {
+  return r.technicalChunks?.find(c => c.kind === 'section' && !!c.body) ?? null;
 }
 
 // §5.6 Rule 8 consent detection — strict "yes"-equivalent match.
@@ -125,6 +184,14 @@ export class VoiceModeService {
   // Cleared on consent (affirmative → speakStoredConsent), on discard
   // (negative/ambiguous → route as new request), and on stopVoiceMode().
   private pendingSharedEngineConsent: ChatResponse | null = null;
+
+  // The procedure offered but not yet read. Same shape as the gate above,
+  // deliberately a second field rather than a shared one: the shared-engine
+  // gate is a safety contract (never dictate another brand's procedure
+  // unasked) and this one is a courtesy (do not start a minute of speech
+  // unasked). Merging them would let a change to the convenience quietly
+  // weaken the contract.
+  private pendingProcedureConsent: TechnicalChunk | null = null;
 
   // Forwards the SilenceDetector's existing AnalyserNode so ChatInputComponent
   // can drive the visualizer without creating a second AudioContext consumer.
@@ -180,6 +247,7 @@ export class VoiceModeService {
     this.mediaRecorder = undefined;
     this.pendingTranscript.set(null);
     this.pendingSharedEngineConsent = null;
+    this.pendingProcedureConsent = null;
     this.engine.set(null);
     this.state.set('idle');
   }
@@ -205,6 +273,19 @@ export class VoiceModeService {
         return; // no backend call, state goes directly to speaking → listening
       }
       // Negative or ambiguous: fall through and route transcript as new request.
+    }
+
+    // Procedure consent gate. Checked AFTER the shared-engine one on purpose:
+    // that is a safety contract, this is a convenience, and only one of the
+    // two can be pending at a time anyway.
+    if (this.pendingProcedureConsent !== null) {
+      const procedure = this.pendingProcedureConsent;
+      this.pendingProcedureConsent = null;
+      if (isAffirmativeConsent(transcript, this.detLang())) {
+        this.speakProcedure(procedure);
+        return; // no backend call - the text is already in hand
+      }
+      // Anything else: treat it as a new question, not as a refusal to answer.
     }
 
     const locallyHandled = this.routeTranscript(transcript);
@@ -370,6 +451,25 @@ export class VoiceModeService {
       return;
     }
 
+    // A procedure is offered, not read. Eight steps is about a minute of
+    // speech, and starting it unasked is exactly what makes a hands-free
+    // assistant tiring. Short values and diagrams get no such question: it
+    // would cost more than the answer.
+    const procedure = findProcedure(response);
+    if (procedure) {
+      this.pendingProcedureConsent = procedure;
+      const title = procedure.heading || procedure.documentTitle || '';
+      this.state.set('speaking');
+      this.speech.speak(tTechOfferProcedure(this.detLang(), title), this.detLang(), this.engine() ?? 'web')
+        .then(() => this.transitionToListening())
+        .catch(() => {
+          const key = this.engine() === 'google' ? 'hd_voice_unavailable_toast' : 'voice_unavailable_toast';
+          this.showToast(t(this.detLang(), key));
+          this.stopVoiceMode();
+        });
+      return;
+    }
+
     const spokenText = buildSpokenText(response, this.detLang());
     if (!spokenText) {
       this.transitionToListening();
@@ -391,6 +491,29 @@ export class VoiceModeService {
 
   // Speaks causa+intervento from a stored shared-engine response without a
   // backend call. Called by commitPendingTranscript when the mechanic consents.
+  // Reads a procedure the mechanic just accepted. No backend call - the text
+  // was already in the response that offered it.
+  //
+  // stripMarkdown does the work that matters here: the body carries the
+  // bullets added to lay the steps out on screen, and a synthesiser reads
+  // "•" aloud or stumbles on it. The line breaks survive, and they are
+  // what makes it pause between steps.
+  private speakProcedure(procedure: TechnicalChunk): void {
+    const text = stripMarkdown(procedure.body ?? '').trim();
+    if (!text) {
+      this.transitionToListening();
+      return;
+    }
+    this.state.set('speaking');
+    this.speech.speak(text, this.detLang(), this.engine() ?? 'web')
+      .then(() => this.transitionToListening())
+      .catch(() => {
+        const key = this.engine() === 'google' ? 'hd_voice_unavailable_toast' : 'voice_unavailable_toast';
+        this.showToast(t(this.detLang(), key));
+        this.stopVoiceMode();
+      });
+  }
+
   private speakStoredConsent(stored: ChatResponse): void {
     const c = stored.cases[0];
     const parts: string[] = [];
