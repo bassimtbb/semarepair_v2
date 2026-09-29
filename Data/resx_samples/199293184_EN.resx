@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:48:39">
+  <XDOCUMENTO>
+    <ID>199293184</ID>
+    <DOCNumber>GUP93899</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Occasionally, during acceleration, the engine fault warning light flashes.</Titolo>
+    <InfoDoc>INJECTION | SENSOR | REVOLUTIONS | P0302 | P0303 | P0300 | ENGINE | INCREASING | SPEED | ACCELERATING | FLICKERING | INTERMITTENT | YELLOW | YELLOW | LIGHTS UP | LIGHTED | TIMES |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199293184</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degree of reliability (*)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legend of the degree of reliability&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* low level&lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** medium level&lt;/B&gt; : Extensive fault history, found by service technicians and repairers.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** high level&lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199293184</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Engine speed sensor &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; The vehicle’s engine fault light flashes sporadically during acceleration &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errors detected by the on-board diagnostics: &lt;/B&gt; &lt;UL&gt;   &lt;LI&gt; P0300 (Misfire in unspecified cylinders – Fault) &lt;BR/&gt; &lt;LI&gt; P0302 (Misfire in cylinder 2 – Fault) &lt;BR/&gt;  &lt;LI&gt; P0303 (Misfire in cylinder 3 – Fault) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Faulty engine speed sensor &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199293184</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention: &lt;/B&gt; Check that the engine speed sensor is working properly and replace it if necessary. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; The faulty component is accessible from the underside of the vehicle, on the passenger side, located on the crankshaft pulley, near the radiator. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

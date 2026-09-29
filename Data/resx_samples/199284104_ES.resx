@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:45:09">
+  <XDOCUMENTO>
+    <ID>199284104</ID>
+    <DOCNumber>GUP92042</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Fallo de arranque del motor, diversas anomalías de naturaleza eléctrica y encendido de luces indicad</Titolo>
+    <InfoDoc>ILUMINACIÓN | ELECTRÓNICA | CARROCERÍA | ORDENADOR | B1010 | B1011 | B1017 | B1023 | B1028 | B1048 | B1057 | B1058 | P0504 | P181D | U0422 | U0426 | U1700 | LUZES | INTERMITENTES | ENCENDIDO | AVERÍA | MOTOR | MIL | ARRANQUE Y PARADA | AIRBAG | VENTANILLA</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guía de reparación</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199284104</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grado de fiabilidad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Leyenda del grado de fiabilidad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nivel bajo &lt;/B&gt; : Detección del mecánico, caso de avería no detectado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nivel medio &lt;/B&gt;  : Casos frecuentes de avería, detectados por los técnicos de asistencia y los mecánicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nivel alto &lt;/B&gt; : Anomalía confirmada, buen grado de «repetitividad» señalado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284104</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificación del sistema/avería</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Sistema: &lt;/B&gt; Electrónica &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositivo: &lt;/B&gt; Ordenador de a bordo &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalía: &lt;/B&gt; El motor no arranca y se ha apagado repentinamente mientras circulaba, con el consiguiente parpadeo de las cuatro luces de emergencia durante el intento de arranque. No funcionan las ventanillas eléctricas, los intermitentes, el portón trasero ni la luz de freno de mano; se encienden los indicadores de avería del motor, del airbag, de avería general y del sistema Start&amp;Stop. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errores detectados por el autodiagnóstico: &lt;/B&gt; Uno o varios de los siguientes: &lt;UL&gt; &lt;LI&gt; B1010 (Interruptor del pedal de freno - Fallo de funcionamiento) &lt;BR/&gt;  &lt;LI&gt; B1011 (Luz de freno trasera izquierda - Fallo en el cableado) &lt;BR/&gt; &lt;LI&gt; B1017 (Relé de cierre de puertas - Fallo en el cableado) &lt;BR/&gt; &lt;LI&gt; B1023 (Luces de matrícula - Fallo en el cableado) &lt;BR/&gt;  &lt;LI&gt; B1028 (Luz de freno trasera derecha - Fallo en el cableado) &lt;BR/&gt; &lt;LI&gt; B1048 (Interruptor CITY - Fallo de funcionamiento) &lt;BR/&gt; &lt;LI&gt; B1057 (Interruptor del elevalunas del lado del conductor - Fallo) &lt;BR/&gt; &lt;LI&gt;  B1058 (Interruptor del elevalunas del lado del acompañante - Error) &lt;BR/&gt; &lt;LI&gt; P0504 (Relación del interruptor de freno 1-2 - Relación incorrecta) &lt;BR/&gt; &lt;LI&gt; P181D (Sensor de posición de la palanca de cambios - posición de punto muerto: señal incorrecta) &lt;BR/&gt;  &lt;LI&gt; U0422 (Módulo de control de la suspensión activa - Datos recibidos no válidos) &lt;BR/&gt; &lt;LI&gt; U0426 (Módulo de control del calefactor auxiliar - Datos recibidos no válidos) &lt;BR/&gt;  &lt;LI&gt; U1700 (Bus de datos CAN - Ordenador de a bordo - Error, falta de comunicación) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Causa: &lt;/B&gt; Conexiones del ordenador de a bordo oxidadas &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284104</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimiento de reparación</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervención: &lt;/B&gt; Comprobar el estado de las conexiones del ordenador de a bordo y, si es necesario, proceder a su restauración. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedimiento: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Nota: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

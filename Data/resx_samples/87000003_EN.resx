@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T12:12:40">
+  <XDOCUMENTO>
+    <ID>87000003</ID>
+    <DOCNumber>FUS87003</DOCNumber>
+    <RifIDTipoRis>20</RifIDTipoRis>
+    <Titolo>References and Localisation</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>265</RifIDFileICO>
+    <XFILE>
+      <ID>265</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:265</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>20</ID>
+      <TipoRis>FUS</TipoRis>
+      <DscRis>Fuses and Relays</DscRis>
+      <RifIDFileCSS>264</RifIDFileCSS>
+      <RifIDTemplate>8</RifIDTemplate>
+      <XFILE>
+        <ID>264</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:264</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLDESCRIZIONE</IDLabel>
+        <Stringa>Description</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLNUMERO</IDLabel>
+        <Stringa>Number</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLRIFERIMENTO</IDLabel>
+        <Stringa>Reference</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XFUSCONN>
+      <RifIDDoc>87000003</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Titolo>Localisation of fuse boxes</Titolo>
+      <RifIDFileIMGANI>62504825</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>62500349</ID>
+      <XFILE>
+        <ID>62504825</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504825</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>62500349</RifIDImmagine>
+        <Numero>1</Numero>
+        <Descrizione>Cabin Fuse Box</Descrizione>
+        <Riferimento>Under the steering wheel at the bottom left</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>62500349</RifIDImmagine>
+        <Numero>2</Numero>
+        <Descrizione>Engine Compartment Fuse Box</Descrizione>
+        <Riferimento>Engine compartment - side position</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>87000003</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Titolo>Cabin Fuse Box</Titolo>
+      <RifIDFileIMGANI>609</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87000003</ID>
+      <XFILE>
+        <ID>609</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:609</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Right-hand low beam headlight</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Left low beam headlight</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Headlight adjustment module</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F31</Numero>
+        <Descrizione>INT/A contact power supply (ignition switch)</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F32</Numero>
+        <Descrizione>Interior lights / boot lights / puddle lights</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Diagnostic socket</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Air conditioning control unit / radio receiver</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Brake light switch</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Instrument panel</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F38</Numero>
+        <Descrizione>Door Lock Control Unit</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F43</Numero>
+        <Descrizione>Front/rear windscreen washer pump</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F47</Numero>
+        <Descrizione>Front left window regulator</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F48</Numero>
+        <Descrizione>Front right window regulator</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>Rear-view mirrors / instrument panel backlighting</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>Parking sensor control unit</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F50</Numero>
+        <Descrizione>Airbag control unit</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F51</Numero>
+        <Descrizione>Audio system / Air conditioning</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F51</Numero>
+        <Descrizione>Brake light switch / clutch pedal</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F53</Numero>
+        <Descrizione>Instrument panel</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>87000003</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Titolo>Engine Compartment Fuse Box</Titolo>
+      <RifIDFileIMGANI>62502660</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87000004</ID>
+      <XFILE>
+        <ID>62502660</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62502660</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Body Computer</Descrizione>
+        <Riferimento>60 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Car radio amplifier</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Ignition switch</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>ABS control unit</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Electric power steering</Descrizione>
+        <Riferimento>70 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Electric fan 1st speed</Descrizione>
+        <Riferimento>20-30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>2nd speed electric fan</Descrizione>
+        <Riferimento>30-40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Air conditioning radiator electric fan</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Trailer electrical socket (if present)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Acoustic warning device</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Fuel injection components (secondary)</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F14</Numero>
+        <Descrizione>High beam headlights</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F15</Numero>
+        <Descrizione>Sunroof (if fitted)</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Injection control unit / Robotic gearbox control unit</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>T20 relay power supply</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F17</Numero>
+        <Descrizione>Injection control unit</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Injection control unit</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Relay power supply T09</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F19</Numero>
+        <Descrizione>Air conditioning compressor</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>Heated rear window</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>Rear-view mirror defroster</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F21</Numero>
+        <Descrizione>Fuel pump</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F22</Numero>
+        <Descrizione>Ignition coil</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F22</Numero>
+        <Descrizione>Electro-injectors</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F23</Numero>
+        <Descrizione>ABS hydraulic valve unit</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Electric power steering</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>ABS control unit / Yaw sensor</Descrizione>
+        <Riferimento>7.5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F30</Numero>
+        <Descrizione>Fog lights</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F81</Numero>
+        <Descrizione>Glow plug preheating control unit (if present)</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F82</Numero>
+        <Descrizione>Fuse/auxiliary provision</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F83</Numero>
+        <Descrizione>Dualogic gearbox pump (if fitted)</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F84</Numero>
+        <Descrizione>Solenoid valves for robotised gearboxes</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F85</Numero>
+        <Descrizione>12 V socket</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F87</Numero>
+        <Descrizione>Injection control unit</Descrizione>
+        <Riferimento>5-7.5-15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F87</Numero>
+        <Descrizione>Air conditioning compressor relay</Descrizione>
+        <Riferimento>5-7.5-15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F87</Numero>
+        <Descrizione>Fog light relay</Descrizione>
+        <Riferimento>5-7.5-15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F87</Numero>
+        <Descrizione>Rear window heating relay</Descrizione>
+        <Riferimento>5-7.5-15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F87</Numero>
+        <Descrizione>High beam relay</Descrizione>
+        <Riferimento>5-7.5-15 (A)</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>87000003</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Titolo>Engine Compartment Fuse Box (relay)</Titolo>
+      <RifIDFileIMGANI>62502661</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87000006</ID>
+      <XFILE>
+        <ID>62502661</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62502661</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T02</Numero>
+        <Descrizione>High beam relay</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T03</Numero>
+        <Descrizione>Acoustic warning relay / horn</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T05</Numero>
+        <Descrizione>Air conditioning compressor relay</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T06</Numero>
+        <Descrizione>Engine cooling electric fan relay, 1st and 2nd speed</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T07</Numero>
+        <Descrizione>Engine cooling electric fan relay, 1st speed</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T08</Numero>
+        <Descrizione>Air conditioning electric fan relay</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T09</Numero>
+        <Descrizione>Main relay</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T10</Numero>
+        <Descrizione>Relay/auxiliary setup</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T14</Numero>
+        <Descrizione>Fog light relay</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T17</Numero>
+        <Descrizione>Fuel pump relay</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T19</Numero>
+        <Descrizione>Rear window heating relay</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T20</Numero>
+        <Descrizione>Immobiliser control unit relay</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T30</Numero>
+        <Descrizione>Dualogic gearbox pump relay (if fitted)</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T31</Numero>
+        <Descrizione>Front 12 V socket</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+  </XDOCUMENTO>
+</dataroot>

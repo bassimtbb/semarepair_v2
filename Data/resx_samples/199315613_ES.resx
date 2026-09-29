@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-10T23:52:57">
+  <XDOCUMENTO>
+    <ID>199315613</ID>
+    <DOCNumber>GUP99288</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>La luneta trasera y los retrovisores calefactados no funcionan; S&amp;S no disponible</Titolo>
+    <InfoDoc>ELETTRONICA | RAFFREDDAMENTO | TUBO REFRIGERANTE | PERDITA REFRIGERANTE | PERDE | LIQUIDO REFRIGERANTE | INVERTER | SURRISCALDA | DANNI MOTORE | DANNI CAMBIO | ACQUA | PERDITA | GOCCE | GOCCIA | TRACCIA | TERRA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guía de reparación</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199315613</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Nivel de fiabilidad (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Leyenda del grado de fiabilidad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nivel bajo &lt;/B&gt; : Detección del mecánico, caso de avería no detectado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nivel medio &lt;/B&gt;  : Casos frecuentes de avería, detectados por los técnicos de asistencia y los mecánicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nivel alto &lt;/B&gt; : Anomalía confirmada, buen grado de «repetitividad» señalado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199315613</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificación del sistema / avería</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Aplicabilidad: &lt;/B&gt; Todos los vehículos equipados con un sensor de batería inteligente (IBS) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Sistema: &lt;/B&gt; Sistema eléctrico / gestión de la batería &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Dispositivo: &lt;/B&gt; Sensor de batería inteligente (IBS) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalía: &lt;/B&gt;  El vehículo puede presentar valores bajos o incorrectos del estado de carga (SOC) y del estado de salud (SOH) de la batería, detectados por el sensor IBS, lo que provoca que la luneta trasera y los retrovisores calefactados no funcionen y que se desactive la función Start&amp;Stop. Esta situación se produce, en particular, tras la desconexión del sensor IBS del polo negativo de la batería o del conector de señal, lo que provoca su reinicio. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errores detectados por el autodiagnóstico: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Causa: &lt;/B&gt; El reinicio del componente IBS, provocado por la desconexión del polo negativo de la batería o del conector de señal, conlleva la pérdida de los parámetros de calibración. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199315613</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimiento de reparación</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervención: &lt;/B&gt; Proceder a la recalibración del sensor IBS. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedimiento: &lt;/B&gt;  &lt;LI&gt; Restablecer correctamente las conexiones del sensor IBS (polo negativo de la batería y conector de señal). &lt;BR/&gt; &lt;LI&gt; Realizar 3 ciclos completos de encendido en la siguiente secuencia: encendido OFF – encendido ON – arranque del motor – encendido OFF. &lt;BR/&gt;  &lt;LI&gt; Cierra el vehículo con el mando a distancia y espera al menos 4 horas en modo de suspensión profunda, para permitir que el componente IBS complete la recalibración. &lt;BR/&gt;  &lt;LI&gt; Una vez transcurrido el tiempo de espera, comprueba que el conector de señal y el conector de potencia estén bien apretados. &lt;BR/&gt; &lt;LI&gt; Si, tras las 4 horas en modo de reposo, persisten valores bajos de SOC o SOH, comprueba en profundidad el estado de la batería y procede a recargarla con un cargador. &lt;BR/&gt;  &lt;LI&gt; Durante la recarga, conecta el terminal positivo del cargador al polo positivo de la batería (o a la CBA) y el terminal negativo al pin Radsok, evitando puentear el sensor IBS. &lt;LI&gt; &lt;B&gt; Nota: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025983</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025983</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025983</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

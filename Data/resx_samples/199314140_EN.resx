@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T23:42:50">
+  <XDOCUMENTO>
+    <ID>199314140</ID>
+    <DOCNumber>GUP98961</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Warning light and message: ‘Park Sensor System unavailable’ / ‘Sensor Lockout’</Titolo>
+    <InfoDoc>ADAS |  C1001-29 | C1002-29 | C1003-29 | C1004-29 | C1005-29 | C1006-29 | C1007-29 | C1008-29 | C100B-29 | C100C-29 | C100D-29 | C100E-29 | C1013-29 | C1014-29 | C1015-29 | C1016-29 | SENSORI | PARCHEGGIO | PARK | ASSIST |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199314140</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Reliability rating (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legend of the degree of reliability &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * low level &lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Extensive fault history, found by service technicians and repairers. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** high level &lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199314140</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System / fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Applicability: &lt;/B&gt; All vehicles fitted with 4-, 8- or 12-channel ultrasonic parking sensors: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Park Assist. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Device: &lt;/B&gt; Ultrasonic parking sensors &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; Warning light illuminated and corresponding message on the instrument cluster display: “Park Sensor system unavailable” or “Sensors blocked”, or similar messages for the Active ParkAssist system. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errors detected by the self-diagnostic system: &lt;/B&gt; One or more of the following errors:
+&lt;LI&gt; C1001-29 — Left front external sensor, invalid signal &lt;BR/&gt;  &lt;LI&gt; C1002-29 — Left front inner sensor, invalid signal &lt;BR/&gt; &lt;LI&gt; C1003-29 — Right front inner sensor, invalid signal &lt;BR/&gt; &lt;LI&gt; C1004-29 — Right front outer sensor, invalid signal &lt;BR/&gt;  &lt;LI&gt; C1005-29 — Left front side sensor, invalid signal &lt;BR/&gt; &lt;LI&gt; C1006-29 — Left rear side sensor, invalid signal &lt;BR/&gt; &lt;LI&gt; C1007-29 — Right rear side sensor, invalid signal &lt;BR/&gt;  &lt;LI&gt; C1008-29 — Front right side sensor, invalid signal &lt;BR/&gt; &lt;LI&gt; C100B-29 — Rear left outer sensor, invalid signal &lt;BR/&gt; &lt;LI&gt; C100C-29 — Rear left inner sensor, invalid signal &lt;BR/&gt;  &lt;LI&gt; C100D-29 — Rear right inner sensor (centre on Tipo), invalid signal &lt;BR/&gt; &lt;LI&gt; C100E-29 — Rear right outer sensor, invalid signal &lt;BR/&gt; &lt;LI&gt; C1013-29 — Front left Parkfit sensor, invalid signal &lt;BR/&gt;  &lt;LI&gt; C1014-29 — Front right Parkfit sensor, invalid signal &lt;BR/&gt; &lt;LI&gt; C1015-29 — Rear left Parkfit sensor, invalid signal &lt;BR/&gt;  &lt;LI&gt; C1016-29 — Rear right Parkfit sensor, invalid signal &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; The triggering of DTC C10xx-29 (invalid signal), where ‘x’ identifies the sensor’s position on the bumper, may be due to four possible causes:  &lt;LI&gt; Incorrect sensor fitting &lt;BR/&gt; &lt;LI&gt; Dirt or ice on the sensor surface &lt;BR/&gt; &lt;LI&gt; Damage to the O-ring or the sensor surface itself &lt;BR/&gt; &lt;LI&gt; Malfunction of the parking sensor. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199314140</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Carry out a systematic check of possible causes before considering replacement of the sensor. &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt;  &lt;LI&gt; Use the diagnostic tool to check for the presence of active DTC C10xx-29, identifying the location of the affected sensor. &lt;BR/&gt;  &lt;LI&gt; Check for dirt or ice on the sensor’s surface; if present, clean the surface and repeat the check. &lt;BR/&gt; &lt;LI&gt; Check that the sensor is correctly fitted, that the sealing ring is present and intact, and that it is properly seated against the bumper; re-fit if necessary. &lt;BR/&gt;  &lt;LI&gt; Inspect the outer surface of the sensor and the surrounding area for defects, scratches, dents or signs of impact with other vehicles or objects. &lt;BR/&gt; &lt;LI&gt;  If none of the above conditions apply, clear the faults using the diagnostic tool and check whether the DTC reappears as active. If the fault becomes active again without any external causes being found, replace the sensor. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

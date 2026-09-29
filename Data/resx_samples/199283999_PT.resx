@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:45:06">
+  <XDOCUMENTO>
+    <ID>199283999</ID>
+    <DOCNumber>GUP92014</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Consumo anormal da bateria e odómetro a piscar</Titolo>
+    <InfoDoc>ELETTRONICA | B1000 | B1009 | B1021 | B1090 | B1091 | B10AA | U0019 | U0426 | U1411 | U1733 | CENTRALINA | BLUETOOTH | BATTERIA | SCARICA | CONTACHILOMETRI | CHILOMETRI | KM | VELOCEMENTE | ALLINEAMENTO | RETE | PROXY | LAMPEGGIA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199283999</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda do grau de fiabilidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nível baixo &lt;/B&gt; : Detecção pelo mecânico, caso de avaria não constatado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nível médio &lt;/B&gt; : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nível alto &lt;/B&gt; : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283999</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Validade: &lt;/B&gt;  Veículos equipados com sistema Bluetooth  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sistema: &lt;/B&gt;  Eletrónica &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt;  Unidade de controlo Bluetooth &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Anomalia: &lt;/B&gt;  Consumo anómalo da bateria e odómetro no painel de instrumentos a piscar &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Erros detetados pelo autodiagnóstico: &lt;/B&gt;  Um ou mais dos seguintes: &lt;UL&gt;   &lt;LI&gt;  B1000 (Módulo de controlo do painel de instrumentos  , painel de instrumentos - Anomalia) &lt;BR/&gt;  &lt;LI&gt;  B1009 (Tensão da bateria -   Alternador / bateria) &lt;BR/&gt;  &lt;LI&gt;  B1021 (Luzes de presença traseiras / lado direito - Erro na cablagem) &lt;BR/&gt;  &lt;LI&gt;  B1090 (Ligação dos faróis dianteiros - Erro) &lt;BR/&gt;  &lt;LI&gt;  B1091 (Luz de cortesia - Erro) &lt;BR/&gt;  &lt;LI&gt;  B10AA (Verificação do alinhamento do proxy) &lt;BR/&gt;  &lt;LI&gt;  U0019 (Barramento de dados CAN, baixa velocidade -   Erro de comunicação) &lt;BR/&gt;  &lt;LI&gt;  U0426 (Módulo de comando do aquecedor auxiliar   - Dados recebidos - inválidos) &lt;BR/&gt;  &lt;LI&gt;  U1411 (IBS - Sensor de bateria inteligente) &lt;BR/&gt;  &lt;LI&gt;  U1733 (Falta de comunicação com a unidade de controlo de áudio/Bluetooth)  &lt;/UL&gt;  &lt;LI&gt;  &lt;B&gt; Causa: &lt;/B&gt;  Unidade de controlo Bluetooth com avaria &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283999</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Intervenção: &lt;/B&gt;  Verificar o funcionamento correto da central Bluetooth e, se necessário, proceder à sua reinicialização e/ou substituição. Em seguida, executar o alinhamento proxy/de rede através de uma ferramenta de diagnóstico. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Nota: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

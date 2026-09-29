@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2025-04-24T05:30:46">
+<XDOCUMENTO>
+<ID>199284104</ID>
+<DOCNumber>GUP92042</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Mancato avviamento motore, varie anomalie di natura elettrica e accensione spie di diversi sistemi</Titolo>
+<InfoDoc>ILLUMINAZIONE | ELETTRONICA | BODY | COMPUTER | B1010 | B1011 | B1017 | B1023 | B1028 | B1048 | B1057 | B1058 | P0504 | P181D | U0422 | U0426 | U1700 | LUCI | FRECCE | ACCESE | AVARIA | MOTORE | MIL | START&amp;STOP | AIRBAG | VETRI | BAULE | PORTELLONE |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199284104</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (*)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199284104</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Elettronica &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Body computer&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Il motore non si avvia e si è spento improvvisamente in marcia, con successivo lampeggio delle quattro frecce durante il tentativo di avviamento. Mancato funzionamento di vetri elettrici, indicatori di direzione, portellone posteriore e spia freno a mano; accensione delle spie avaria motore, airbag, avaria generica e Start&amp;Stop.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; Uno o più dei seguenti: &lt;UL&gt;&lt;LI&gt; B1010 (Interruttore pedale freno - Malfunzionamento)&lt;BR/&gt;&lt;LI&gt; B1011 (Luce freni posteriore sinistra	 - Errore cablaggio)&lt;BR/&gt;&lt;LI&gt; B1017 (Relè chiusura porte	 - Errore cablaggio)&lt;BR/&gt;&lt;LI&gt; B1023 (Luci targa	 - Errore cablaggio) &lt;BR/&gt;&lt;LI&gt; B1028 (Luce freni posteriore destra - Errore cablaggio)&lt;BR/&gt;&lt;LI&gt; B1048 (Interruttore CITY	 - Malfunzionamento)&lt;BR/&gt;&lt;LI&gt; B1057 (Interruttore alzacristallo lato guida - Errore)&lt;BR/&gt;&lt;LI&gt; B1058 (Interruttore alzacristallo lato passeggero - Errore)&lt;BR/&gt;&lt;LI&gt; P0504 (Relazione interruttore freno 1-2 - Rapporto errato)&lt;BR/&gt;&lt;LI&gt; P181D (Sensore posizione leva cambio - posizione neutro: segnale errato)&lt;BR/&gt;&lt;LI&gt; U0422 (Centralina sospensioni attive - 	Dati ricevuti, non validi)&lt;BR/&gt;&lt;LI&gt; U0426 (Modulo comando riscaldatore ausiliario	 - Dati ricevuti, non validi)&lt;BR/&gt;&lt;LI&gt; U1700 (Bus dati CAN - Body computer - 	Errore, assenza di comunicazione)&lt;/UL&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Connessioni body computer ossidate&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199284104</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Verificare lo stato delle connessioni del body computer e se necessario procedere al loro ripristino&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; - - &lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

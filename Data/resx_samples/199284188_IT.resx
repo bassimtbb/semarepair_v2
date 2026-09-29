@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-28T07:51:44">
+<XDOCUMENTO>
+<ID>199284188</ID>
+<DOCNumber>GUP92079</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Accensione spia avaria motore con veicolo correttamente funzionante</Titolo>
+<InfoDoc>INIEZIONE | ACCESA | ACCENDE | ACCESO | GIALLA | GIALLO | VARIATORE | FASE | ELETTROVALVOLA | VALVOLA | ELETTRICA | COMANDO | GESTIONE | PESCANTE | FILTRO | OLIO | FUNZIONA | BENE | CORRETTAMENTE | P0012 | P0009 | P0011 | VELOCITà | ESAUSTO | DENSO | MIL</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199284188</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (*)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199284188</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Iniezione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Spia avaria motore accesa in modo permanente, ma veicolo funzionante correttamente.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; Uno o più dei seguenti:&lt;UL&gt;&lt;LI&gt; P0012 (Posizione/fase albero a camme 1, bancata 1 - Regolazione ritardata)&lt;BR/&gt;&lt;LI&gt; P0009 (Sistema fasatura/controllo motore, bancata 2 - Errore)&lt;BR/&gt;&lt;LI&gt; P0011 (Posizione/fase albero a camme 1, bancata 1 - Regolazione anticipata)&lt;/UL&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Olio motore esausto che, a causa dell’elevata densità, ha compromesso il funzionamento del variatore di fase.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199284188</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Verificare lo stato dell&apos;olio motore e il corretto funzionamento del variatore di fase e dell’elettrovalvola comando, e se necessario procedere alla loro sostituzione/ripristino&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; In presenza di un’elevata densità dell’olio motore, procedere nel seguente modo:&lt;UL&gt;&lt;LI&gt; Effettuare una pulizia accurata del pescante olio motore&lt;BR/&gt;&lt;LI&gt; Sostituire il filtro olio&lt;BR/&gt;&lt;LI&gt; Effettuare il rinnovo completo dell’olio motore&lt;BR/&gt;&lt;LI&gt; Sostituire/ripristinare il variatore di fase&lt;BR/&gt;&lt;LI&gt; Sostituire/ripristinare l&apos;elettrovalvola di comando del variatore di fase&lt;/UL&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; Nel caso in esame, inizialmente sono stati rimossi il coperchio punterie e la coppa olio motore, riscontrando olio motore esausto e denso, responsabile dell’anomalia rilevata. Successivamente, tramite attrezzatura diagnostica, è stato necessario eseguire l’azzeramento &quot;fronti di camma&quot;. Tali interventi hanno consentito di eliminare l’anomalia e di ripristinare il corretto funzionamento del sistema.&lt;BR/&gt;Per quanto riguarda il posizionamento dei componenti, il variatore di fase è situato sulla parte superiore del motore, lato passeggero, agganciato in testa all’albero a camme e accessibile smontando la distribuzione; per la corretta messa in fase è necessario utilizzare le apposite dime. L’elettrovalvola del variatore di fase è invece collocata sopra il coperchio punterie, verso l’abitacolo, sempre lato passeggero.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

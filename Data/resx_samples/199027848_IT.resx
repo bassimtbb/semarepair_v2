@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2018-10-11T13:07:11">
+<XDOCUMENTO>
+<ID>199027848</ID>
+<DOCNumber>SCH76153</DOCNumber>
+<RifIDTipoRis>9</RifIDTipoRis>
+<Titolo>Airbag Continental - Versione High</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>232</RifIDFileICO>
+<XFILE>
+<ID>232</ID>
+<Type>IMG</Type>
+<URL>GETFILE:232</URL>
+</XFILE>
+<XTIPORIS>
+<ID>9</ID>
+<TipoRis>SCH</TipoRis>
+<DscRis>Schemi Elettrici</DscRis>
+<RifIDFileCSS>5</RifIDFileCSS>
+<RifIDTemplate>2</RifIDTemplate>
+<XFILE>
+<ID>5</ID>
+<Type>CSS</Type>
+<URL>GETFILE:5</URL>
+</XFILE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLCOMPONENTE</IDLabel>
+<Stringa>Componente</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLDESCRIZIONE</IDLabel>
+<Stringa>Descrizione Componente</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLDETTAGLIO</IDLabel>
+<Stringa>Dettaglio</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG1</IDLabel>
+<Stringa>Parte1</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG2</IDLabel>
+<Stringa>Parte2</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG3</IDLabel>
+<Stringa>Parte3</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG4</IDLabel>
+<Stringa>Parte 4</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG5</IDLabel>
+<Stringa>Parte 5</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG6</IDLabel>
+<Stringa>Parte 6</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKLEGENDA</IDLabel>
+<Stringa>Legenda</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLLOCALIZZAZIONE</IDLabel>
+<Stringa>Localizzazione</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLNUMERO</IDLabel>
+<Stringa>N.</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKPDF</IDLabel>
+<Stringa>PDF</Stringa>
+</XRISORSE>
+</XTIPORIS>
+<XSCHEMA>
+<RifIDDoc>199027848</RifIDDoc>
+<RifIDFileIMGANIa>299001468</RifIDFileIMGANIa>
+<RifIDFileIMGANIb>0</RifIDFileIMGANIb>
+<RifIDFileIMGANIc>0</RifIDFileIMGANIc>
+<RifIDFileIMGANId>0</RifIDFileIMGANId>
+<RifIDFileIMGANIe>0</RifIDFileIMGANIe>
+<RifIDFileIMGANIf>0</RifIDFileIMGANIf>
+<RifIDFilePDF>25010506</RifIDFilePDF>
+<FlagTooltips>0</FlagTooltips>
+<XFILEIMG1>
+<ID>299001468</ID>
+<Type>ANI</Type>
+<URL>GETFILE:299001468</URL>
+</XFILEIMG1>
+<XFILEIMG2>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG2>
+<XFILEIMG3>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG3>
+<XFILEIMG4>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG4>
+<XFILEIMG5>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG5>
+<XFILEIMG6>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG6>
+<XFILEPDF>
+<ID>25010506</ID>
+<Type>PDF</Type>
+<URL>GETFILE:25010506</URL>
+</XFILEPDF>
+</XSCHEMA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>A1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Pretensionatore anteriore sinistro</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>1000</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>A2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Pretensionatore addominale anteriore sinistro</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>1100</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>A3</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Pretensionatore anteriore destro</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>1200</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>A4</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Pretensionatore addominale anteriore destro</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>1300</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>B1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Airbag frontale conducente</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>3800</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>B2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Airbag frontale passeggero</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>3900</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>B3</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Airbag ginocchia lato guida</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>4000</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>B4</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Airbag laterale anteriore sinistro</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>4100</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>B5</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Airbag laterale anteriore destro</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>4200</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>B6</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Airbag tendina sinistro</NomeComp>
+<DettComp>(Windowbag)</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>4300</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>B7</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Airbag tendina destro</NomeComp>
+<DettComp>(Windowbag)</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>4400</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>D1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Centralina Strumentazione</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>7500</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>H1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Centralina Airbag</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>29800</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>H2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Centralina Body Computer</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>29900</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>I1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Contatto chiusura cintura sicurezza conducente</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>32000</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>I2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Contatto chiusura cintura sicurezza passeggero</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>32100</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>J1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Contatto rotante Airbag</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>33800</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>L1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Spia disabilitazione airbag passeggero</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>37800</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>S1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Sensore Impatto laterale anteriore sinistro</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>55500</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>S2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Sensore Impatto laterale anteriore destro</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>55600</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027848</RifIDDoc>
+<Numero>S3</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Sensore presenza passeggero</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>55700</Ordine>
+</XSCHLEGENDA>
+</XDOCUMENTO>
+</dataroot>

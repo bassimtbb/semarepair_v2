@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2025-04-19T05:31:10">
+<XDOCUMENTO>
+<ID>199283996</ID>
+<DOCNumber>GUP92013</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Apertura portellone posteriore inattiva, mancato funzionamento automatismo capote elettrica</Titolo>
+<InfoDoc>ELETTRONICA | SISTEMA | CAPOTE | ELETTRICA | AUTOMATISMO | PORTELLONE | BAULE | PULSANTE | TELECOMANDO | TASTO | APRE | MANCATA |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199283996</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (*)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199283996</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Validità:&lt;/B&gt; Veicoli equipaggiati con capote elettrica&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Elettronica&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Sistema capote elettrica&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Apertura del baule posteriore tramite telecomando e pulsante sul portellone inattiva. L’automatismo della capote elettrica risulta inattivo, ma utilizzando il tasto dedicato la capote si apre e si chiude regolarmente.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; - - &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Errato apprendimento automatismo della capote elettrica&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199283996</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Eseguire apprendimento della capote elettrica&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; Per effettuare l&apos;apprendimento della capote elettrica, seguire i seguenti passaggi:&lt;UL&gt;&lt;LI&gt; Entrare nella vettura e chiudere correttamente baule, porte e cofano&lt;BR/&gt;&lt;LI&gt; Individuare tasti di apertura e chiusura della capote elettrica, situati rispettivamente lato destro e lato sinistro, vicino allo specchietto retrovisore e alla plafoniera.&lt;BR/&gt;&lt;LI&gt; Avviare il quadro strumenti&lt;BR/&gt;&lt;LI&gt; Premere il tasto di apertura capote, attendere la sua completa apertura e mantenere la pressione per altri 5 secondi&lt;BR/&gt;&lt;LI&gt; Premere il tasto di chiusura capote, attendere la sua completa chiusura e mantenere la pressione per altri 5 secondi&lt;BR/&gt;&lt;LI&gt; Procedura terminata&lt;BR/&gt;&lt;LI&gt; Al termine, la capote si aprirà autonomamente fino a metà corsa&lt;/UL&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:45:28">
+  <XDOCUMENTO>
+    <ID>199284504</ID>
+    <DOCNumber>GUP92237</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>A alta velocidade, queda de desempenho, falta de resposta do acelerador e luz de avaria do motor ace</Titolo>
+    <InfoDoc>INIEZIONE | ELETTROVALVOLA | VALVOLA | CANISTER | GAS | SCARICO | VAPORI | POTENZA | P0101 | C1221 | ACCENDE | ACCESA | ACCESO | GIALLA | GIALLO | RENDE | PIANO | MIL | RISPONDE | SALE | GIRI | REGIME | MINIMO | ACCELERANDO | RIMANE | MANCA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199284504</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda do grau de fiabilidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nível baixo &lt;/B&gt; : Detecção pelo mecânico, caso de avaria não constatado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nível médio &lt;/B&gt; : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nível alto &lt;/B&gt; : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284504</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sistema: &lt;/B&gt;  Injeção &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt;  Eletroválvula do canister &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Anomalia: &lt;/B&gt;  Durante a condução a velocidade elevada, o veículo apresenta uma queda significativa no desempenho, seguida de perda de resposta do pedal do acelerador. Simultaneamente, acende-se a luz de avaria do motor e o motor permanece em rotações mínimas. O problema resolve-se momentaneamente com o reinício do veículo. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Erros detetados pelo autodiagnóstico: &lt;/B&gt;  &lt;UL&gt;   &lt;LI&gt;  P0101 (Sensor de massa de ar – Valor nominal incorreto) &lt;BR/&gt;  &lt;LI&gt;  C1221 (Sensor do pedal do acelerador, controlo NCM - Sinal inválido) &lt;/UL&gt;  &lt;LI&gt;  &lt;B&gt; Causa: &lt;/B&gt;  Eletroválvula do canister defeituosa &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284504</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Intervenção: &lt;/B&gt;  Verificar o funcionamento correto da eletroválvula do canister; se necessário, proceder à sua substituição &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Nota: &lt;/B&gt;  A eletroválvula está ligada ao coletor de admissão, do lado do condutor, entre o motor e o habitáculo. No caso em apreço, foi inicialmente substituído o sensor de pressão do coletor de admissão, sem resolver a anomalia. A solução definitiva surgiu apenas com a substituição da eletroválvula do canister. O componente defeituoso não apresentava anomalias visuais e, após a sua substituição, não foi necessário efetuar qualquer regulação através de equipamento de diagnóstico. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

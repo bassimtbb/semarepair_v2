@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-31T23:43:14">
+  <XDOCUMENTO>
+    <ID>199284188</ID>
+    <DOCNumber>GUP92079</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Allumage du voyant de panne moteur alors que le véhicule fonctionne correctement</Titolo>
+    <InfoDoc>INJECTION | ALLUMÉE | S'ALLUME | ALLUMÉE | JAUNE | VARIATEUR | PHASE | ÉLECTROVANNE | VANNE | ÉLECTRIQUE | COMMANDE | GESTION | PESCANTE | FILTRE | HUILE | FONCTIONNE | BIEN | CORRECTEMENT | P0012 | P0009 | P0011 | VELOCITÀ | ESAUSTO | DENSO | MIL</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199284188</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284188</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / du défaut</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Témoin de panne moteur allumé en permanence, mais véhicule fonctionnant correctement. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; Une ou plusieurs des erreurs suivantes : &lt;LI&gt; P0012 (Position/phase de l&apos;arbre à cames 1, rangée 1 - Réglage retardé) &lt;BR/&gt; &lt;LI&gt; P0009 (Système de calage/commande du moteur, rangée 2 - Erreur) &lt;BR/&gt;  &lt;LI&gt; P0011 (Position/phase de l&apos;arbre à cames 1, rangée 1 - Réglage en avance) &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Huile moteur usagée qui, en raison de sa densité élevée, a compromis le fonctionnement du variateur de phase. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284188</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier l&apos;état de l&apos;huile moteur ainsi que le bon fonctionnement du variateur de phase et de l&apos;électrovanne de commande, et procéder, si nécessaire, à leur remplacement ou à leur remise en état &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Procédure : &lt;/B&gt; En cas de densité élevée de l’huile moteur, procéder comme suit :
+&lt;LI&gt; Nettoyer soigneusement le tuyau de prélèvement d’huile moteur &lt;BR/&gt; &lt;LI&gt; Remplacer le filtre à huile &lt;BR/&gt; &lt;LI&gt; Effectuer une vidange complète de l’huile moteur &lt;BR/&gt;  &lt;LI&gt; Remplacer/remettre en état le variateur de phase &lt;BR/&gt; &lt;LI&gt; Remplacer/remettre en état l&apos;électrovanne de commande du variateur de phase &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt;  Dans le cas présent, le couvercle de poussoirs et le carter d’huile ont d’abord été retirés, révélant une huile moteur usée et visqueuse, à l’origine de l’anomalie constatée. Par la suite, à l’aide d’un équipement de diagnostic, il a été nécessaire de procéder à la remise à zéro des « fronts de came ». Ces interventions ont permis d’éliminer l’anomalie et de rétablir le bon fonctionnement du système. &lt;BR/&gt; En ce qui concerne l’emplacement des composants, le variateur de phase est situé sur la partie supérieure du moteur, côté passager, fixé à l’extrémité de l’arbre à cames et accessible après démontage de la distribution ; pour un réglage correct de la phase, il est nécessaire d’utiliser les gabarits prévus à cet effet. L’électrovanne du variateur de phase est quant à elle placée au-dessus du couvercle des poussoirs, vers l’habitacle, toujours côté passager. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

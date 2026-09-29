@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T00:26:19">
+  <XDOCUMENTO>
+    <ID>199258801</ID>
+    <DOCNumber>GUP86673</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Problèmes de débit du liquide lave-glace et d'humidité le long des tuyaux</Titolo>
+    <InfoDoc>CARROSSERIE | 50.001.19 | ESSUIE-GLACE | BALAIS | SORT | EAU | PEU | CONDENSATION | PARE-BRISE | VITRE | AVANT | ARRIÈRE | AVANT | ARRIÈRE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199258801</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199258801</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / du défaut</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Carrosserie &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Essuie-glace &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Faible quantité ou absence de liquide lave-glace à la sortie et présence possible d&apos;humidité à proximité des tuyaux correspondants &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Fuite de liquide au niveau de la conduite qui alimente le lave-glace avant et/ou arrière &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199258801</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Réparation d&apos;un tuyau endommagé &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; Pour pouvoir procéder à la réparation du tuyau endommagé, il est tout d&apos;abord nécessaire d&apos;identifier le type de tuyau présent à l&apos;intérieur du véhicule concerné : &lt;BR/&gt;  &lt;OL&gt; &lt;LI&gt; Tuyau de type &lt;B&gt; AEC &lt;/B&gt; : Effectuer la réparation à l’aide du kit n° 51922436, composé de tuyaux ondulés, de colliers de raccordement et de raccords. &lt;BR/&gt; &lt;BR/&gt; &lt;UL&gt;    &lt;LI&gt; Si la fuite se situe au niveau du raccord du tuyau de refoulement, remplacer le tronçon endommagé comme suit : couper le tuyau endommagé, raccorder le nouveau tronçon fourni dans le kit à l’aide du raccord et du collier de raccordement, en veillant à bien positionner les joints en caoutchouc. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Si la fuite se situe le long de la conduite de refoulement : couper et raccorder les tronçons à l’aide des deux raccords inclus dans le kit, remettre en place le ruban isolant sur le câblage si nécessaire et remonter les composants. &lt;/UL&gt; &lt;BR/&gt; &lt;LI&gt; Conduite de type &lt;B&gt; FRANKISCHE &lt;/B&gt; : Effectuer la réparation à l’aide du kit n° 50527045. Si la fuite se situe au niveau du raccord de la conduite de refoulement, remplacer le tronçon endommagé comme suit : couper la conduite endommagée et la raccorder au nouveau tronçon du kit, en appliquant les joints toriques et le silicone fournis. Insérer les extrémités des conduites dans le raccord et mettre en place les clips de serrage. Serrer les clips jusqu’à ce que les languettes d’ancrage s’enclenchent correctement. Vérifier l’absence de fuites et procéder au remontage des composants. &lt;/OL&gt; &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Attention ! Les kits s’appliquent exclusivement aux tuyaux de type ondulé. &lt;BR/&gt; &lt;BR/&gt; Référence du kit de réparation pour tuyau de type AEC : n° 51922436. &lt;BR/&gt; &lt;BR/&gt; Référence du kit de réparation pour tuyau de type FRANKISCHE : n° 50527045. &lt;BR/&gt; &lt;BR/&gt; Durée estimée de l&apos;opération : 6 minutes. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

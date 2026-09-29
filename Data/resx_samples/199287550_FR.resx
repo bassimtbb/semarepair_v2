@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:46:12">
+  <XDOCUMENTO>
+    <ID>199287550</ID>
+    <DOCNumber>GUP92576</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Allumage du voyant de panne moteur alors que le véhicule fonctionne correctement</Titolo>
+    <InfoDoc>INJECTION | ÉLECTROVANNE | VARIATEUR | PHASE | SOUPAPE | ÉLECTRIQUE | ÉLECTRONIQUE | P0009 | P0011 | S'ALLUME | ALLUMÉE | MIL | JAUNE | FONCTIONNE | NORMALEMENT | NORMAL | PHASAGE | VARIABLE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199287550</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199287550</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / du défaut</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Électrovanne de variation de phase &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Le véhicule présente l&apos;allumage du témoin de panne moteur, tout en conservant un fonctionnement régulier &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; &lt;UL&gt;   &lt;LI&gt; P0011 (Position/phase de l&apos;arbre à cames 1, rangée 1 - Réglage de l&apos;avance) &lt;BR/&gt;  &lt;LI&gt; P0009 (Système de calage/commande du moteur, banc 2 - Erreur) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Électrovanne du variateur de phase défectueuse &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199287550</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier le bon fonctionnement de l&apos;électrovanne et, si nécessaire, la remplacer &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; L&apos;électrovanne du variateur de phase a une partie immergée dans l&apos;huile ; elle est accessible par le haut du compartiment moteur, au-dessus du couvercle des poussoirs, côté passager. Dans le cas présent, celle-ci a d&apos;abord été nettoyée sans que cela ne résolve le problème. La solution définitive a été trouvée en la remplaçant. &lt;BR/&gt; Le composant défectueux ne présentait aucune anomalie visuelle. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

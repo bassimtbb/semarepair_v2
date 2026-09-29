@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-09T01:32:49">
+<XDOCUMENTO>
+<ID>199315613</ID>
+<DOCNumber>GUP99288</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Lunotto e specchietti riscaldati non funzionanti, S&amp;S non disponibile</Titolo>
+<InfoDoc>ELETTRONICA | RAFFREDDAMENTO | TUBO REFRIGERANTE | PERDITA REFRIGERANTE | PERDE | LIQUIDO REFRIGERANTE | INVERTER | SURRISCALDA | DANNI MOTORE | DANNI CAMBIO | ACQUA | PERDITA | GOCCE | GOCCIA | TRACCIA | TERRA |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199315613</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (***)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199315613</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Validità:&lt;/B&gt; Tutti i veicoli equipaggiati con Sensore Batteria Intelligente (IBS)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Impianto elettrico / gestione batteria&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Sensore Batteria Intelligente (IBS)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Il veicolo può presentare valori di stato di carica (SOC) e stato di salute (SOH) della batteria bassi o non corretti, rilevati dal sensore IBS, con conseguente mancato funzionamento del lunotto e degli specchietti riscaldati e disattivazione della funzione Start&amp;Stop. Tale condizione si verifica in particolare a seguito dello scollegamento del sensore IBS dal polo negativo della batteria o del connettore di segnale, che ne determina il reset.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Il reset del componente IBS, provocato dallo scollegamento dal polo negativo della batteria o dallo scollegamento del connettore di segnale, comporta la perdita dei parametri di calibrazione.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199315613</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Procedere alla ricalibrazione del sensore IBS.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt;&lt;OL&gt; &lt;LI&gt; Ripristinare correttamente i collegamenti del sensore IBS (polo negativo della batteria e connettore di segnale).&lt;BR/&gt;&lt;LI&gt; Eseguire 3 cicli di accensione completi nella sequenza: accensione OFF – accensione ON – avvio motore – accensione OFF.&lt;BR/&gt;&lt;LI&gt; Chiudere il veicolo con il telecomando e attendere almeno 4 ore in modalità deep sleep, per consentire al componente IBS di completare la ricalibrazione.&lt;BR/&gt;&lt;LI&gt; Al termine dell&apos;attesa, verificare il serraggio del connettore di segnale e del connettore di potenza.&lt;BR/&gt;&lt;LI&gt; Qualora, dopo le 4 ore in modalità sleep, permangano valori di SOC o SOH bassi, approfondire lo stato della batteria e procedere con una ricarica tramite caricabatteria.&lt;BR/&gt;&lt;LI&gt; Durante la ricarica, collegare il terminale positivo del caricabatteria al polo positivo della batteria (o alla CBA) e il terminale negativo al perno Radsok, evitando di bypassare il sensore IBS.&lt;/OL&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025983</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025983</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025983</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

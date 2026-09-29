@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-06T18:38:37">
+  <XDOCUMENTO>
+    <ID>199279619</ID>
+    <DOCNumber>GUP91285</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Sporadic engine misfiring and engine fault warning light</Titolo>
+    <InfoDoc>INJECTION | P0011 | PHASE | TIMING | DISTRIBUTION | CAMS | P0012 | MIL | VARIABLE | VARIATOR | IRREGULAR |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199279619</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degree of reliability (*)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legend of the degree of reliability&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* low level&lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** medium level&lt;/B&gt; : Extensive fault history, found by service technicians and repairers.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** high level&lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199279619</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Phase variator solenoid valve &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; Sporadic engine misfiring, with engine fault warning light illuminated &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errors detected by self-diagnosis: &lt;/B&gt;  P0011 (Camshaft phase advance adjustment 1), P0012 (Camshaft phase delay adjustment 1) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Phase variator solenoid valve blocked &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199279619</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Clean the solenoid valve of camshaft phase variator no. 1 &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; After cleaning the phase variator solenoid valve, it is also recommended to replace the engine oil and oil filter &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Notes: &lt;/B&gt; In this case, the solenoid valve of the phase variator was found to be clogged with dirt and cleaning it solved the problem. &lt;BR/&gt; If cleaning the solenoid valve alone does not solve the problems described, replace the solenoid valve itself. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

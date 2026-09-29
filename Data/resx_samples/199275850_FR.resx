@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-24T17:22:59">
+  <XDOCUMENTO>
+    <ID>199275850</ID>
+    <DOCNumber>GUP90425</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Fonctionnement intermittent des feux arrière</Titolo>
+    <InfoDoc>ÉLECTRONIQUE | CÂBLAGE | HAYON ARRIÈRE | FEUX CLIGNOTANTS | ÉLECTRONIQUE | GAINE EN CAOUTCHOUC | FILS EN SILICONE | ISOLATION ENDOMMAGÉE | FAUSSE ALARME | ESSUIE-GLACE ARRIÈRE | COFFRE | CÂBLES | PHARES | FEUX |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199275850</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (**)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199275850</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / du défaut</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Validité : &lt;/B&gt; Ce bulletin ne s&apos;applique pas aux voitures cabriolets &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Électronique &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Câblage &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt;  Les feux du hayon arrière ne fonctionnent pas correctement et le problème peut s&apos;étendre à d&apos;autres composants électriques du hayon, tels que l&apos;essuie-glace ou le capteur de fermeture du coffre &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Le câblage entre la carrosserie et le hayon arrière s&apos;est fragilisé en raison du vieillissement et des ouvertures/fermetures fréquentes du hayon &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199275850</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier et, si nécessaire, remplacer/réparer le câblage &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; L&apos;endommagement du câblage du hayon est une panne assez fréquente sur ce véhicule &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299021397</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299021397</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299021397</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

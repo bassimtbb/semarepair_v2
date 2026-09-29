@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:45:05">
+  <XDOCUMENTO>
+    <ID>199283856</ID>
+    <DOCNumber>GUP92011</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Failure to engage gears when vehicle is running, gearbox fault warning light comes on</Titolo>
+    <InfoDoc>STEERING COLUMN | STEERING | WARNING LIGHT | FAULT | ENGINE | RED | RED | IGNITION | ON | C0051 | P0856 | GEAR | ENGAGE | ENGAGE | D | R | N | REVERSE | SYMBOL | LEVER | DASHBOARD | ON | GEARBOX | ROBOTISED |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199283856</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Level of reliability (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Reliability level key &lt;BR&gt; &lt;BR&gt; &lt;B&gt; * low level &lt;/B&gt; : Reported by a garage mechanic; fault case not recorded by the manufacturer. &lt;BR&gt; &lt;BR&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Widespread occurrence of the fault, confirmed by service technicians and independent repairers. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** high level &lt;/B&gt; : Confirmed fault, with a high degree of ‘recurrence’ reported by the manufacturer. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283856</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System / fault identification</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Applicability: &lt;/B&gt; Cars fitted with a robotised gearbox &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Steering &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Component: &lt;/B&gt; Steering column &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; With the engine running, the gearbox does not engage the gears when the lever is moved to D or R, nor when the steering wheel paddles are used.
+With the engine off but the instrument cluster illuminated, the gearbox engages gears correctly both when the lever is moved to D or R and when using the steering wheel paddles. Furthermore, the gearbox fault warning light comes on in the instrument cluster. &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Faults detected by the self-diagnostic system: &lt;/B&gt; One or more of the following: &lt;UL&gt; &lt;LI&gt; P0856 (Traction control input signal – Generic fault) &lt;BR&gt;  &lt;LI&gt; C0051 (Steering position sensor – Fault) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Faulty steering column &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283856</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check the condition and correct operation of the steering column, including the electric motor and control unit, and replace it if necessary &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; In this case, as the vehicle is fitted with an automated manual gearbox, gear selection is also monitored by the steering column, which was found to have an internal fault. Replacing the steering column, including the electric motor and control unit, resolved the fault. &lt;BR&gt; The defective component showed no visible signs of fault. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

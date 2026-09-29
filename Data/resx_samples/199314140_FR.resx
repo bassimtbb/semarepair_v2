@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T23:42:50">
+  <XDOCUMENTO>
+    <ID>199314140</ID>
+    <DOCNumber>GUP98961</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Témoin lumineux et message « Système de capteurs de stationnement indisponible » / « Blocage des cap</Titolo>
+    <InfoDoc>ADAS |  C1001-29 | C1002-29 | C1003-29 | C1004-29 | C1005-29 | C1006-29 | C1007-29 | C1008-29 | C100B-29 | C100C-29 | C100D-29 | C100E-29 | C1013-29 | C1014-29 | C1015-29 | C1016-29 | SENSORI | PARCHEGGIO | PARK | ASSIST |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199314140</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Niveau de fiabilité (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199314140</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Validité : &lt;/B&gt; Tous les véhicules équipés de capteurs de stationnement à ultrasons à 4, 8 ou 12 canaux : &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Park Assist. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Dispositif : &lt;/B&gt; Capteurs de stationnement à ultrasons &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Allumage du témoin et message correspondant sur l’écran du tableau de bord : « Système Park Sensor indisponible » ou « Blocage des capteurs », ou messages similaires pour le système Active ParkAssist. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; Une ou plusieurs des erreurs suivantes :
+&lt;LI&gt; C1001-29 — Capteur avant extérieur gauche, signal non valide &lt;BR/&gt;  &lt;LI&gt; C1002-29 — Capteur avant intérieur gauche, signal non valide &lt;BR/&gt; &lt;LI&gt; C1003-29 — Capteur avant intérieur droit, signal non valide &lt;BR/&gt; &lt;LI&gt; C1004-29 — Capteur avant extérieur droit, signal non valide &lt;BR/&gt;  &lt;LI&gt; C1005-29 — Capteur latéral avant gauche, signal invalide &lt;BR/&gt; &lt;LI&gt; C1006-29 — Capteur latéral arrière gauche, signal invalide &lt;BR/&gt; &lt;LI&gt; C1007-29 — Capteur latéral arrière droit, signal invalide &lt;BR/&gt;  &lt;LI&gt; C1008-29 — Capteur latéral avant droit, signal invalide &lt;BR/&gt; &lt;LI&gt; C100B-29 — Capteur arrière extérieur gauche, signal invalide &lt;BR/&gt; &lt;LI&gt; C100C-29 — Capteur arrière intérieur gauche, signal invalide &lt;BR/&gt;  &lt;LI&gt; C100D-29 — Capteur arrière intérieur droit (central sur la Tipo), signal invalide &lt;BR/&gt; &lt;LI&gt; C100E-29 — Capteur arrière extérieur droit, signal invalide &lt;BR/&gt; &lt;LI&gt; C1013-29 — Capteur Parkfit avant gauche, signal invalide &lt;BR/&gt;  &lt;LI&gt; C1014-29 — Capteur Parkfit avant droit, signal invalide &lt;BR/&gt; &lt;LI&gt; C1015-29 — Capteur Parkfit arrière gauche, signal invalide &lt;BR/&gt;  &lt;LI&gt; C1016-29 — Capteur Parkfit arrière droit, signal invalide &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Le déclenchement du code d&apos;erreur C10xx-29 (signal invalide), où « x » identifie la position du capteur sur le pare-chocs, peut avoir quatre causes possibles :  &lt;LI&gt; Montage incorrect du capteur &lt;BR/&gt; &lt;LI&gt; Présence de saleté ou de glace sur la surface du capteur &lt;BR/&gt; &lt;LI&gt; Endommagement du joint torique ou de la surface du capteur lui-même &lt;BR/&gt; &lt;LI&gt; Fonctionnement incorrect du capteur de stationnement. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199314140</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Procéder à une vérification systématique des causes possibles avant d&apos;envisager le remplacement du capteur. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt;  &lt;LI&gt; Vérifier à l&apos;aide de l&apos;outil de diagnostic la présence du code d&apos;erreur DTC C10xx-29 actif, en identifiant l&apos;emplacement du capteur concerné. &lt;BR/&gt;  &lt;LI&gt; Vérifier la présence de salissures ou de glace sur la surface du capteur ; le cas échéant, nettoyer la surface et répéter la vérification. &lt;BR/&gt; &lt;LI&gt; Vérifier le bon montage du capteur, la présence et l&apos;intégrité de la bague d&apos;étanchéité ainsi que l&apos;ajustement avec le pare-chocs ; remettre en place le montage si nécessaire. &lt;BR/&gt;  &lt;LI&gt; Inspecter la surface extérieure du capteur et la zone environnante afin de détecter d&apos;éventuels défauts, rayures, bosses ou traces de choc avec d&apos;autres véhicules ou objets. &lt;BR/&gt; &lt;LI&gt;  Si aucune des conditions précédentes n’est vérifiée, effacer les erreurs à l’aide de l’outil de diagnostic et vérifier si le code d’erreur (DTC) réapparaît en état actif. Si l’erreur réapparaît sans qu’aucune cause externe n’ait été détectée, remplacer le capteur. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

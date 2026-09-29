@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-10T23:52:57">
+  <XDOCUMENTO>
+    <ID>199315613</ID>
+    <DOCNumber>GUP99288</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Lunette arrière et rétroviseurs chauffants défectueux, S&amp;S indisponible</Titolo>
+    <InfoDoc>ELETTRONICA | RAFFREDDAMENTO | TUBO REFRIGERANTE | PERDITA REFRIGERANTE | PERDE | LIQUIDO REFRIGERANTE | INVERTER | SURRISCALDA | DANNI MOTORE | DANNI CAMBIO | ACQUA | PERDITA | GOCCE | GOCCIA | TRACCIA | TERRA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199315613</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Niveau de fiabilité (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199315613</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Validité : &lt;/B&gt; Tous les véhicules équipés d&apos;un capteur de batterie intelligent (IBS) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Système électrique / gestion de la batterie &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Capteur de batterie intelligent (IBS) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt;  Le véhicule peut présenter des valeurs de niveau de charge (SOC) et d’état de santé (SOH) de la batterie faibles ou incorrectes, détectées par le capteur IBS, entraînant un dysfonctionnement de la lunette arrière et des rétroviseurs chauffants, ainsi que la désactivation de la fonction Start&amp;Stop. Cette situation se produit notamment à la suite du débranchement du capteur IBS de la borne négative de la batterie ou du connecteur de signal, ce qui entraîne sa réinitialisation. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; La réinitialisation du composant IBS, provoquée par le débranchement de la borne négative de la batterie ou par le débranchement du connecteur de signal, entraîne la perte des paramètres d&apos;étalonnage. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199315613</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Procéder au recalibrage du capteur IBS. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt;  &lt;LI&gt; Rétablir correctement les connexions du capteur IBS (pôle négatif de la batterie et connecteur de signal). &lt;BR/&gt; &lt;LI&gt; Effectuer 3 cycles complets de mise en marche dans l&apos;ordre suivant : contact coupé – contact mis – démarrage du moteur – contact coupé. &lt;BR/&gt;  &lt;LI&gt; Verrouiller le véhicule à l&apos;aide de la télécommande et attendre au moins 4 heures en mode veille profonde, afin de permettre au composant IBS de terminer son recalibrage. &lt;BR/&gt;  &lt;LI&gt; Une fois le délai écoulé, vérifier le serrage du connecteur de signal et du connecteur d’alimentation. &lt;BR/&gt; &lt;LI&gt; Si, après les 4 heures en mode veille, des valeurs SOC ou SOH faibles persistent, examiner l’état de la batterie de manière plus approfondie et procéder à une recharge à l’aide d’un chargeur. &lt;BR/&gt;  &lt;LI&gt; Pendant la recharge, relier la borne positive du chargeur au pôle positif de la batterie (ou au CBA) et la borne négative à la broche Radsok, en évitant de contourner le capteur IBS. &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025983</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025983</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025983</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

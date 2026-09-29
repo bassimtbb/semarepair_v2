@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T01:06:59">
+  <XDOCUMENTO>
+    <ID>199221343</ID>
+    <DOCNumber>DRA76373</DOCNumber>
+    <RifIDTipoRis>45</RifIDTipoRis>
+    <Titolo>Caixa de velocidades robotizada Fiat-GM C514-5 (5 velocidades)</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>45</ID>
+      <TipoRis>DRV</TipoRis>
+      <DscRis>Câmbio Automático</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Dados técnicos - Lubrificantes</Capitolo>
+      <Corpo> &lt;B&gt; Fabricante: &lt;/B&gt;  Fiat-GM Powertrain &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Designação: &lt;/B&gt;  C514-5 &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Designação comercial: &lt;/B&gt;  Dualogic / Selespeed &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Substituição do óleo da caixa de velocidades robotizada: &lt;/B&gt;   &lt;BR/&gt; De acordo com o plano de manutenção ou quando o indicador acender &lt;BR/&gt;  &lt;BR/&gt;  &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt;  &lt;TH width=60% class=&quot;chiaro&quot;&gt; Descrição &lt;/TH&gt;  &lt;TH width=25% class=&quot;chiaro&quot;&gt; Unidade de medida &lt;/TH&gt;  &lt;TH width=15% class=&quot;chiaro&quot;&gt; Dados &lt;/TH&gt;  &lt;TR&gt;  &lt;TD&gt; Número de relações: &lt;/TD&gt;  &lt;TD&gt; N.º &lt;/TD&gt;  &lt;TD&gt; 5 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Óleo de caixa de velocidades robotizada - Especificação do fabricante: &lt;/TD&gt;  &lt;TD&gt; N.º de referência &lt;/TD&gt;  &lt;TD&gt; FIAT 9.55550-MZ6 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Óleo de caixa de velocidades robotizada - Densidade: &lt;/TD&gt;  &lt;TD&gt; N.º de referência &lt;/TD&gt;  &lt;TD&gt; SAE 75W API GL 4 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Óleo para caixa de velocidades robotizada - Quantidade: &lt;/TD&gt;  &lt;TD&gt; Litros &lt;/TD&gt;  &lt;TD&gt; 1,65 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Óleo do atuador da caixa de velocidades robotizada - Especificação do fabricante: &lt;/TD&gt;  &lt;TD&gt; N.º de referência &lt;/TD&gt;  &lt;TD&gt; FIAT 9.55550-SAI &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Óleo do atuador da caixa de velocidades robotizada - Quantidade: &lt;/TD&gt;  &lt;TD&gt; Litros &lt;/TD&gt;  &lt;TD&gt; 0,7 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Temperatura de controlo do nível de óleo da caixa de velocidades automática: &lt;/TD&gt;  &lt;TD&gt; °C &lt;/TD&gt;  &lt;TD&gt; - - &lt;/TD&gt;  &lt;/TR&gt;  &lt;/TABLE&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504107</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504107</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504107</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>11</Ordine>
+      <Capitolo>Localização da central de controlo da transmissão automática</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  A central de controlo da transmissão automática está localizada sob o painel de instrumentos, do lado do passageiro, atrás do revestimento &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504109</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504109</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504109</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>12</Ordine>
+      <Capitolo>Procedimento de drenagem e enchimento de óleo da caixa de velocidades robotizada</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  Coloque o veículo numa superfície plana &lt;BR/&gt;  &lt;LI&gt;  Desligue o motor &lt;BR/&gt;  &lt;LI&gt;  Retire a cobertura insonorizante inferior &lt;BR/&gt;  &lt;LI&gt;  Coloque o recipiente de recolha de óleo usado debaixo do veículo &lt;BR/&gt;  &lt;LI&gt;  Retire a tampa de enchimento do óleo da caixa de velocidades robotizada  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Retire a tampa de drenagem  &lt;B&gt; B &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Aguarde até que todo o óleo da caixa de velocidades tenha saído &lt;BR/&gt;  &lt;LI&gt;  Colocar a tampa de drenagem  &lt;B&gt; B &lt;/B&gt; , apertando a  &lt;B&gt; 16~20 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ATENÇÃO:  &lt;/B&gt; Não ligar o motor sem óleo na caixa de velocidades &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Proceda ao reabastecimento com  &lt;B&gt; 1,65 litros &lt;/B&gt;  de óleo da caixa de velocidades através do orifício de enchimento  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Prossiga com o procedimento de verificação do nível de óleo da caixa de velocidades robotizada &lt;BR/&gt;  &lt;LI&gt;  Coloque a tampa de enchimento  &lt;B&gt; A &lt;/B&gt; , apertando a  &lt;B&gt; 23~28 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007896</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007896</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007896</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>13</Ordine>
+      <Capitolo>Procedimento de verificação do nível de óleo da caixa de velocidades robotizada</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  Coloque o veículo numa superfície plana &lt;BR/&gt;  &lt;LI&gt;  Retire a cobertura insonorizante inferior &lt;BR/&gt;  &lt;LI&gt;  Coloque o recipiente de recolha de óleo usado debaixo do veículo &lt;BR/&gt;  &lt;LI&gt;  Retire a tampa de enchimento  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Certifique-se de que o nível de óleo na caixa de velocidades atinge a borda inferior do orifício de enchimento  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Se necessário, reabasteça com óleo da caixa de velocidades através do orifício de enchimento  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Coloque a tampa de enchimento  &lt;B&gt; A &lt;/B&gt; , apertando a  &lt;B&gt; 23~28 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007897</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007897</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007897</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Verificação do nível de óleo do atuador da caixa de velocidades robotizada</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  A verificação do nível de óleo da transmissão automática deve ser efetuada com o óleo à temperatura ambiente e o motor frio &lt;BR/&gt;  &lt;LI&gt;  Coloque a alavanca da transmissão automática na posição  &lt;B&gt; (N) &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Através de equipamento de diagnóstico, despressurize o circuito hidráulico de acionamento &lt;BR/&gt;  &lt;LI&gt;  Retire o fusível  &lt;B&gt; F83 &lt;/B&gt;  (30 A) durante toda a operação &lt;BR/&gt;  &lt;LI&gt;  Verifique se o nível de óleo no reservatório do atuador corresponde à marca MAX indicada no reservatório &lt;BR/&gt;  &lt;LI&gt;  Se necessário, proceda ao reabastecimento &lt;BR/&gt;  &lt;LI&gt;  O consumo de óleo da caixa de velocidades robotizada é muito reduzido. Caso o nível de óleo esteja abaixo do nível mínimo, verificar se existem fugas &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007898</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007898</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007898</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

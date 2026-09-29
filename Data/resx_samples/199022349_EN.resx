@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2020-05-31T02:50:09">
+<XDOCUMENTO>
+<ID>199022349</ID>
+<DOCNumber>SCH76062</DOCNumber>
+<RifIDTipoRis>9</RifIDTipoRis>
+<Titolo>Injection Marelli IAW 5SF8-MR</Titolo>
+<InfoDoc>^</InfoDoc>
+<RifIDFileICO>232</RifIDFileICO>
+<XFILE>
+<ID>232</ID>
+<Type>IMG</Type>
+<URL>GETFILE:232</URL>
+</XFILE>
+<XTIPORIS>
+<ID>9</ID>
+<TipoRis>SCH</TipoRis>
+<DscRis>Electrical Schemes</DscRis>
+<RifIDFileCSS>5</RifIDFileCSS>
+<RifIDTemplate>2</RifIDTemplate>
+<XFILE>
+<ID>5</ID>
+<Type>CSS</Type>
+<URL>GETFILE:5</URL>
+</XFILE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLCOMPONENTE</IDLabel>
+<Stringa>^Componente</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLDESCRIZIONE</IDLabel>
+<Stringa>^Descrizione Componente</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLDETTAGLIO</IDLabel>
+<Stringa>^Dettaglio</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG1</IDLabel>
+<Stringa>^Parte1</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG2</IDLabel>
+<Stringa>^Parte2</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG3</IDLabel>
+<Stringa>^Parte3</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG4</IDLabel>
+<Stringa>^Parte 4</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG5</IDLabel>
+<Stringa>^Parte 5</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG6</IDLabel>
+<Stringa>^Parte 6</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKLEGENDA</IDLabel>
+<Stringa>^Legenda</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLLOCALIZZAZIONE</IDLabel>
+<Stringa>^Localizzazione</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLNUMERO</IDLabel>
+<Stringa>^N.</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKPDF</IDLabel>
+<Stringa>^PDF</Stringa>
+</XRISORSE>
+</XTIPORIS>
+<XSCHEMA>
+<RifIDDoc>199022349</RifIDDoc>
+<RifIDFileIMGANIa>299001259</RifIDFileIMGANIa>
+<RifIDFileIMGANIb>299001260</RifIDFileIMGANIb>
+<RifIDFileIMGANIc>0</RifIDFileIMGANIc>
+<RifIDFileIMGANId>0</RifIDFileIMGANId>
+<RifIDFileIMGANIe>0</RifIDFileIMGANIe>
+<RifIDFileIMGANIf>0</RifIDFileIMGANIf>
+<RifIDFilePDF>25008348</RifIDFilePDF>
+<FlagTooltips>0</FlagTooltips>
+<XFILEIMG1>
+<ID>299001259</ID>
+<Type>ANI</Type>
+<URL>GETFILE:299001259</URL>
+</XFILEIMG1>
+<XFILEIMG2>
+<ID>299001260</ID>
+<Type>ANI</Type>
+<URL>GETFILE:299001260</URL>
+</XFILEIMG2>
+<XFILEIMG3>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG3>
+<XFILEIMG4>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG4>
+<XFILEIMG5>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG5>
+<XFILEIMG6>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG6>
+<XFILEPDF>
+<ID>25008348</ID>
+<Type>PDF</Type>
+<URL>GETFILE:25008348</URL>
+</XFILEPDF>
+</XSCHEMA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>A1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Electroinjector</NomeComp>
+<DettComp>nÂ° 1</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>62502545</RifIDDocCMP>
+<URL>LINKDOC:62502545</URL>
+<Parte>a</Parte>
+<Ordine>1000</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>A2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Electroinjector</NomeComp>
+<DettComp>nÂ° 2</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>62502545</RifIDDocCMP>
+<URL>LINKDOC:62502545</URL>
+<Parte>a</Parte>
+<Ordine>1100</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>A3</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Electroinjector</NomeComp>
+<DettComp>nÂ° 3</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>62502545</RifIDDocCMP>
+<URL>LINKDOC:62502545</URL>
+<Parte>a</Parte>
+<Ordine>1200</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>A4</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Electroinjector</NomeComp>
+<DettComp>nÂ° 4</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>62502545</RifIDDocCMP>
+<URL>LINKDOC:62502545</URL>
+<Parte>a</Parte>
+<Ordine>1300</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>A5</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Variable timing control solenoid valve</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>62502535</RifIDDocCMP>
+<URL>LINKDOC:62502535</URL>
+<Parte>a</Parte>
+<Ordine>1400</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>A6</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Gasoline vapour recovery solenoid valve</NomeComp>
+<DettComp>canister</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>1500</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>D1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Body Computer Control Unit</NomeComp>
+<DettComp>Link</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>7500</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>F01</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>15A fuse</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>87000003</RifIDDocCMP>
+<URL>LINKDOC:87000003</URL>
+<Parte>a</Parte>
+<Ordine>16900</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>F02</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>7.5A fuse</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>87000003</RifIDDocCMP>
+<URL>LINKDOC:87000003</URL>
+<Parte>a</Parte>
+<Ordine>17000</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>F03</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>10A fuse</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>87000003</RifIDDocCMP>
+<URL>LINKDOC:87000003</URL>
+<Parte>a</Parte>
+<Ordine>17100</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>F04</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>15A fuse</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>87000003</RifIDDocCMP>
+<URL>LINKDOC:87000003</URL>
+<Parte>a</Parte>
+<Ordine>17200</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>F05</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>10A fuse</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>87000003</RifIDDocCMP>
+<URL>LINKDOC:87000003</URL>
+<Parte>a</Parte>
+<Ordine>17300</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>H1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Injection Control Unit</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>29800</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>I1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Brake pedal switch</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>62502546</RifIDDocCMP>
+<URL>LINKDOC:62502546</URL>
+<Parte>a</Parte>
+<Ordine>32000</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>I2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Clutch pedal switch</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>62502547</RifIDDocCMP>
+<URL>LINKDOC:62502547</URL>
+<Parte>a</Parte>
+<Ordine>32100</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>M1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Electric fuel pump</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>41000</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>Q1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Connection to the control unit Instrumentation</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>47500</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>Q2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Connection to the CAN network</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>47600</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>Q3</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Connection to brake lights</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>47700</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>Q4</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Connection to the control unit Instrumentation</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>47800</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>R1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Fuel pump relay</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>52000</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>R2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Rel蠰rincipale</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>52100</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>S1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Lambda sensor downstream of the catalyst</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>62502536</RifIDDocCMP>
+<URL>LINKDOC:62502536</URL>
+<Parte>a</Parte>
+<Ordine>55500</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>S2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Lambda sensor upstream of the catalyst</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>62502536</RifIDDocCMP>
+<URL>LINKDOC:62502536</URL>
+<Parte>a</Parte>
+<Ordine>55600</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>Z1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Ignition coil</NomeComp>
+<DettComp>nÂ° 1</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>62502543</RifIDDocCMP>
+<URL>LINKDOC:62502543</URL>
+<Parte>a</Parte>
+<Ordine>62500</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>Z2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Ignition coil</NomeComp>
+<DettComp>nÂ° 2</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>62600</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>Z3</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Ignition coil</NomeComp>
+<DettComp>nÂ° 3</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>62700</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>Z4</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Ignition coil</NomeComp>
+<DettComp>nÂ° 4</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>62800</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>A7</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Throttle body actuator motor</NomeComp>
+<DettComp>with Integrated Potentiometer</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>62502544</RifIDDocCMP>
+<URL>LINKDOC:62502544</URL>
+<Parte>b</Parte>
+<Ordine>1600</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>F06</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>7.5A fuse</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>87000003</RifIDDocCMP>
+<URL>LINKDOC:87000003</URL>
+<Parte>b</Parte>
+<Ordine>17400</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>F07</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>7.5A fuse</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>87000003</RifIDDocCMP>
+<URL>LINKDOC:87000003</URL>
+<Parte>b</Parte>
+<Ordine>17500</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>I3</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Reverse engagement switch</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>b</Parte>
+<Ordine>32200</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>I4</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Engine oil pressure switch</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>b</Parte>
+<Ordine>32300</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>Q5</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Connection to the CAN network</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>b</Parte>
+<Ordine>47900</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>Q6</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Connection to the reversing light</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>b</Parte>
+<Ordine>48000</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>Q7</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Connection to the radiator fan relay</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>b</Parte>
+<Ordine>48100</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>Q8</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Connection to the air conditioning control unit</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>b</Parte>
+<Ordine>48200</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>S3</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Coolant temperature sensor</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>62502537</RifIDDocCMP>
+<URL>LINKDOC:62502537</URL>
+<Parte>b</Parte>
+<Ordine>55700</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>S4</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Motor phase sensor</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>62502540</RifIDDocCMP>
+<URL>LINKDOC:62502540</URL>
+<Parte>b</Parte>
+<Ordine>55800</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>S5</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Intake air temperature/pressure sensor</NomeComp>
+<DettComp>Suction Collector</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>62502538</RifIDDocCMP>
+<URL>LINKDOC:62502538</URL>
+<Parte>b</Parte>
+<Ordine>55900</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>S6</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Engine speed sensor</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>62502539</RifIDDocCMP>
+<URL>LINKDOC:62502539</URL>
+<Parte>b</Parte>
+<Ordine>56000</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>S7</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Beat sensor</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>62502541</RifIDDocCMP>
+<URL>LINKDOC:62502541</URL>
+<Parte>b</Parte>
+<Ordine>56100</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022349</RifIDDoc>
+<Numero>S8</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Accelerator pedal sensor</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>62502542</RifIDDocCMP>
+<URL>LINKDOC:62502542</URL>
+<Parte>b</Parte>
+<Ordine>56200</Ordine>
+</XSCHLEGENDA>
+</XDOCUMENTO>
+</dataroot>

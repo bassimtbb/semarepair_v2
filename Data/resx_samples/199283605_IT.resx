@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2025-04-19T05:30:44">
+<XDOCUMENTO>
+<ID>199283605</ID>
+<DOCNumber>GUP92000</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Mancato avviamento motore, accensione spie avaria motore, ESC, freni e pressione pneumatici.</Titolo>
+<InfoDoc>INIEZIONE | MOTORE | CENTRALINA | B1053 | B1901 | P0069 | P0230 | P0606 | P2227 | U0426 | U0431 | U1071 | U1700 | U1701 | GIRA | PARTE | DISPONIBILE | HILL | HOLDER | BLOCCO | CARBURANTE | PRESSIONE | IMPIANTO | FRENANTE | ACCENDONO | ACCESE | ACCENDE |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199283605</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (*)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199283605</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; iniezione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; centralina iniezione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Il motore non si avvia e si accendono le spie di avaria motore, ESC, pressione pneumatici e impianto frenante. Sul quadro strumenti compaiono diversi messaggi di avviso: “Hill Holder non disponibile”, “Pressione pneumatici non disponibile”, “Blocco carburante non disponibile” e “ESC non disponibile”.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; Uno o più dei seguenti: &lt;UL&gt;&lt;LI&gt; B1053 (Centralina iniezione: segnale di comando interruttore inerziale di sicurezza	 - Effettuare autodiagnosi)&lt;BR/&gt;&lt;LI&gt; B1901 (Segnale di ritorno motorino distribuzione aria abitacolo	 - Cablaggio)&lt;BR/&gt;&lt;LI&gt; P0069 (Sensore pressione assoluta, sensore pressione atmosferica - Rapporto errato)&lt;BR/&gt;&lt;LI&gt; P0230 (Tensione di alimentazione pompa carburante - Errore)&lt;BR/&gt;&lt;LI&gt; P0606 (Centralina iniezione motore - modulo prestazioni - Errore interno)&lt;BR/&gt;&lt;LI&gt; P2227 (Sensore pressione atmosferica - Prestazione, funzionalità errata)&lt;BR/&gt;&lt;LI&gt; U0426 (Chiave elettronica - errore)&lt;BR/&gt;&lt;LI&gt; U0431 (Centralina elettronica centrale 1 (Body computer) - 	Dati ricevuti, non validi)&lt;BR/&gt;&lt;LI&gt; U1071 (Dati non validi o mancanti di SCP per sensori motore)&lt;BR/&gt;&lt;LI&gt; U1700 (Bus dati CAN - Body computer	Errore / assenza di comunicazione)&lt;BR/&gt;&lt;LI&gt; U1701 (Controllo motore NCM, trasmissione CAN)&lt;/UL&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Centralina iniezione difettosa&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199283605</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Verificare lo stato e il corretto funzionamento della centralina iniezione, se necessario procedere alla sostituzione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; Nel caso in esame, il componente difettoso non presentava anomalie visive&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

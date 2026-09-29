@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-03-11T17:02:05">
+  <XDOCUMENTO>
+    <ID>199059508</ID>
+    <DOCNumber>GUP79807</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Automatismo de capota eléctrica inactivo, portón trasero bloqueado.</Titolo>
+    <InfoDoc>ACCESORIOS | FALLO | APERTURA | MALETERO | CAPOTA | ELÉCTRICA | LUNETA | TÉRMICA | INACTIVA</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guía de reparación</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199059508</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grado de fiabilidad (**)</Capitolo>
+      <Corpo> &lt;BR/&gt; Leyenda del grado de fiabilidad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nivel bajo &lt;/B&gt; : Detección del mecánico, caso de avería no detectado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nivel medio &lt;/B&gt;  : Casos frecuentes de avería, detectados por los técnicos de asistencia y los mecánicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nivel alto &lt;/B&gt; : Anomalía confirmada, buen grado de «repetitividad» señalado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199059508</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificación del sistema/avería</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Validez: &lt;/B&gt; todas &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Instalación: &lt;/B&gt; accesorios &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt; capota eléctrica &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalía: &lt;/B&gt; no se abre la cerradura eléctrica del maletero, no funciona la luneta térmica, no funciona el automatismo de la capota eléctrica al abrirse y cerrarse (hay que mantener pulsado el botón) &lt;BR/&gt;  &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errores detectados por el autodiagnóstico: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Causa: &lt;/B&gt; capota eléctrica por calibrar &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199059508</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimiento de reparación</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervención: &lt;/B&gt; procedimiento manual de calibración de la capota eléctrica &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedimiento: &lt;/B&gt;   &lt;BR/&gt; (1) encender el cuadro &lt;BR/&gt; (2) pulsar y mantener pulsado el botón de control de la capota hasta que se abra completamente &lt;BR/&gt; (3) mantener pulsado el botón durante otros 4/5 segundos &lt;BR/&gt; (4) pulsar y mantener pulsado el botón hasta que se cierre completamente &lt;BR/&gt; (5) Mantenga pulsado el botón de cierre durante otros 4/5 segundos &lt;BR/&gt; (6) Procedimiento finalizado &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Nota: &lt;/B&gt; - - &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

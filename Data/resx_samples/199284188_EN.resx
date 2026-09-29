@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-31T23:43:13">
+  <XDOCUMENTO>
+    <ID>199284188</ID>
+    <DOCNumber>GUP92079</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Engine fault light comes on with vehicle functioning correctly</Titolo>
+    <InfoDoc>INJECTION | ON | LIGHTS UP | LIGHTED | YELLOW | YELLOW | VARIATOR | PHASE | SOLENOID VALVE | VALVE | ELECTRIC | CONTROL | MANAGEMENT | PESCANTE | FILTER | OIL | WORKS | WELL | CORRECTLY | P0012 | P0009 | P0011 | VELOCITY | EXHAUSTED | DENSE | MIL</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199284188</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degree of reliability (*)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legend of the degree of reliability&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* low level&lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** medium level&lt;/B&gt; : Extensive fault history, found by service technicians and repairers.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** high level&lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284188</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; Engine fault light illuminated continuously, but vehicle operating correctly. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errors detected by the self-diagnostic system: &lt;/B&gt; One or more of the following: &lt;LI&gt; P0012 (Camshaft position/timing, bank 1 – Retard) &lt;BR/&gt; &lt;LI&gt; P0009 (Engine timing/control system, bank 2 – Fault) &lt;BR/&gt;  &lt;LI&gt; P0011 (Camshaft 1 position/phase, bank 1 – Advance) &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Stale engine oil which, due to its high density, has impaired the operation of the variable valve timing system. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284188</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check the condition of the engine oil and the correct operation of the variable valve timing system and the control solenoid valve, and replace or repair them if necessary &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Procedure: &lt;/B&gt; If the engine oil is highly viscous, proceed as follows:
+&lt;LI&gt; Thoroughly clean the engine oil dipstick &lt;BR/&gt; &lt;LI&gt; Replace the oil filter &lt;BR/&gt; &lt;LI&gt; Carry out a complete engine oil change &lt;BR/&gt;  &lt;LI&gt; Replace/reset the variable valve timing mechanism &lt;BR/&gt; &lt;LI&gt; Replace/reset the solenoid valve controlling the variable valve timing mechanism &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt;  In this case, the valve cover and oil sump were first removed, revealing used and thickened engine oil, which was responsible for the fault detected. Subsequently, using diagnostic equipment, it was necessary to reset the ‘camshaft lobes’. These procedures eliminated the fault and restored the system to correct operation. &lt;BR/&gt; As regards the positioning of the components, the variable valve timing unit is located on the upper part of the engine, on the passenger side, attached to the top of the camshaft and accessible by removing the timing cover; special jigs must be used to ensure correct timing. The variable valve timing solenoid valve, on the other hand, is situated above the rocker cover, towards the passenger compartment, again on the passenger side. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

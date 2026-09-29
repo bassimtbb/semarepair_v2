@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2025-03-25T05:30:53">
+<XDOCUMENTO>
+<ID>199282108</ID>
+<DOCNumber>TGE88985</DOCNumber>
+<RifIDTipoRis>16</RifIDTipoRis>
+<Titolo>Da Dicembre 2014 - In condizioni gravose</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>234</RifIDFileICO>
+<XFILE>
+<ID>234</ID>
+<Type>IMG</Type>
+<URL>GETFILE:234</URL>
+</XFILE>
+<XTIPORIS>
+<ID>16</ID>
+<TipoRis>TGE</TipoRis>
+<DscRis>Controlli Supplementari e Cinghie</DscRis>
+<RifIDFileCSS>3</RifIDFileCSS>
+<RifIDTemplate>7</RifIDTemplate>
+<XFILE>
+<ID>3</ID>
+<Type>CSS</Type>
+<URL>GETFILE:3</URL>
+</XFILE>
+<XRISORSE>
+<RifIDTemplate>7</RifIDTemplate>
+<IDLabel>TITOLETTO</IDLabel>
+<Stringa>Lista Dati</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>7</RifIDTemplate>
+<IDLabel>SINO</IDLabel>
+<Stringa>Si-No</Stringa>
+</XRISORSE>
+</XTIPORIS>
+<XPROGTAGL_COMPLETO>
+<RifIDDoc>199282108</RifIDDoc>
+<Tagliando>Ogni 60.000 Km o 4 anni</Tagliando>
+<TipoCtrl>COMANDO DISTRIBUZIONE</TipoCtrl>
+<Controllo>Cinghia Distribuzione</Controllo>
+<Verifica>Sostituzione</Verifica>
+</XPROGTAGL_COMPLETO>
+<XPROGTAGL_COMPLETO>
+<RifIDDoc>199282108</RifIDDoc>
+<Tagliando>Ogni 60.000 Km o 4 anni</Tagliando>
+<TipoCtrl>CINGHIE E AGGREGATI</TipoCtrl>
+<Controllo>Cinghia Ausiliaria / Servizi</Controllo>
+<Verifica>Sostituzione</Verifica>
+</XPROGTAGL_COMPLETO>
+<XPROGTAGL_COMPLETO>
+<RifIDDoc>199282108</RifIDDoc>
+<Tagliando>A 60.000 Km o 4 anni, di seguito ogni 120.000 Km o 6 anni</Tagliando>
+<TipoCtrl>COMANDO DISTRIBUZIONE</TipoCtrl>
+<Controllo>Cinghia Distribuzione</Controllo>
+<Verifica>Verifica / Controllo</Verifica>
+</XPROGTAGL_COMPLETO>
+</XDOCUMENTO>
+</dataroot>

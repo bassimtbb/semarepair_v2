@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-06T18:36:48">
+  <XDOCUMENTO>
+    <ID>199288126</ID>
+    <DOCNumber>GUP92745</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Engine fault light comes on following alternator replacement</Titolo>
+    <InfoDoc>INJECTION | ELECTRONICS | ALTERNATOR | GENERATOR | CODING | PROGRAMMING | DIAGNOSIS | U0413 |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199288126</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degree of reliability (*)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legend of the degree of reliability&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* low level&lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** medium level&lt;/B&gt; : Extensive fault history, found by service technicians and repairers.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** high level&lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199288126</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Electronics &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Alternator &lt;BR/&gt;&lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; Engine fault warning light comes on after replacing the alternator &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Errors detected by self-diagnosis: &lt;/B&gt; U0413 (Invalid data received from battery power control unit B) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; New alternator coding required &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199288126</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention: &lt;/B&gt; When replacing the alternator, use diagnostic equipment to reset the cumulative counter for overheating on the alternator. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; This procedure is not necessary when replacing the voltage regulator or simply disconnecting/reconnecting the alternator itself. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

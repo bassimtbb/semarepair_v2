@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:13:36">
+  <XDOCUMENTO>
+    <ID>62507592</ID>
+    <DOCNumber>GUR62681</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Sistema Start&amp;Stop - Versão com ecrã a cores</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Guia de Ajuste</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Informações sobre o sistema</Capitolo>
+      <Corpo> &lt;BR/&gt; O Start&amp;Stop é um dispositivo que desliga automaticamente o motor sempre que o veículo pára e o liga novamente assim que o condutor pretende retomar a marcha. Desta forma, obtém-se uma redução do consumo e das emissões poluentes. &lt;BR/&gt;  &lt;BR/&gt; Este sistema requer  &lt;B&gt; baterias com tecnologia e características técnicas específicas &lt;/B&gt; , pelo que é necessário prestar a devida atenção durante as operações de substituição e manutenção da bateria. A bateria deve, de facto, ter as mesmas características da bateria que está a ser substituída. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Simbologia</Capitolo>
+      <Corpo> &lt;BR/&gt; Indicadores do sistema Start&amp;Stop: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; A &lt;/B&gt;  - Sistema Start&amp;Stop  &lt;B&gt; Ativo &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; B &lt;/B&gt;  - Sistema Start&amp;Stop  &lt;B&gt; Ativo &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; C &lt;/B&gt;  - Sistema Start&amp;Stop  &lt;B&gt; Desativado &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; D &lt;/B&gt;  - Sinalização  &lt;B&gt; Avaria Genérica &lt;/B&gt;   (sensor de pressão do óleo do motor, interruptor inercial, luzes exteriores, sensores de estacionamento, sistema Start&amp;Stop) &lt;BR/&gt;  &lt;BR/&gt; É também possível  &lt;B&gt; desativar manualmente o sistema &lt;/B&gt;  pressionando o botão específico  &lt;B&gt; (E) &lt;/B&gt;  presente no painel de instrumentos. A confirmação da desativação é dada pelo acendimento da luz de aviso ou pelo símbolo  &lt;B&gt; (C) &lt;/B&gt;  presente no ecrã multifunções &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504340</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504340</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504340</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>21</Ordine>
+      <Capitolo>Ativação Start&amp;Stop - Desligamento do motor</Capitolo>
+      <Corpo> &lt;BR/&gt; A ativação do sistema Start&amp;Stop  &lt;B&gt; ocorre apenas após ultrapassar a velocidade de 10 km/h &lt;/B&gt;  e quando se verificam as seguintes condições: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Caixa de velocidades manual &lt;/B&gt;  &lt;BR/&gt; - Veículo parado &lt;BR/&gt; - Caixa de velocidades em ponto morto &lt;BR/&gt; - Pedal da embraiagem solto &lt;BR/&gt; - Motor à temperatura de funcionamento &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Caixa de velocidades automática &lt;/B&gt;  &lt;BR/&gt; - Veículo parado &lt;BR/&gt; - Pedal do travão pressionado / Alavanca das mudanças na posição N &lt;BR/&gt;  &lt;BR/&gt; A confirmação da ativação do sistema Start&amp;Stop é indicada pelo acendimento da luz  &lt;B&gt; (A) &lt;/B&gt;  ou  &lt;B&gt; (B) &lt;/B&gt;  no painel de instrumentos &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>22</Ordine>
+      <Capitolo>Rearranque do motor</Capitolo>
+      <Corpo> &lt;BR/&gt; Após a intervenção do Start&amp;Stop para reiniciar o motor, é necessário: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Caixa de velocidades manual &lt;/B&gt;  &lt;BR/&gt; - Carregar no pedal da embraiagem &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Caixa de velocidades automática &lt;/B&gt;  &lt;BR/&gt; - Soltar o pedal do travão / Mover a alavanca das mudanças da posição N para qualquer posição de marcha &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Falha no funcionamento do Start&amp;Stop</Capitolo>
+      <Corpo> &lt;BR/&gt; O mau funcionamento do sistema Start&amp;Stop deve-se a uma das seguintes causas: &lt;BR/&gt;  &lt;BR/&gt; - Motor ainda não atingiu a temperatura ideal &lt;BR/&gt; - Bateria com carga insuficiente &lt;BR/&gt; - Vidro traseiro aquecido ativado &lt;BR/&gt; - Limpador de para-brisas ativado na velocidade máxima &lt;BR/&gt; - Regeneração do filtro de partículas em curso &lt;BR/&gt; - Porta do condutor aberta &lt;BR/&gt; - Cinto de segurança do condutor não apertado &lt;BR/&gt; - Marcha-atrás engatada &lt;BR/&gt; - Caso o ar condicionado automático ainda não tenha atingido a temperatura desejada no interior do habitáculo &lt;BR/&gt; - Estrada em declive &lt;BR/&gt; - Temperatura exterior muito baixa ou muito alta &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Reinício automático do motor</Capitolo>
+      <Corpo> &lt;BR/&gt; O sistema prevê a reativação automática do motor, independentemente da escolha do condutor, caso se verifique uma das seguintes condições: &lt;BR/&gt;  &lt;BR/&gt; - Ativação dos limpa-vidros à velocidade máxima &lt;BR/&gt; - Bateria descarregada &lt;BR/&gt; - Veículo em movimento (estradas em declive) &lt;BR/&gt; - Motor desligado há mais de 3 minutos &lt;BR/&gt; - Baixa pressão no sistema de travagem &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Desligamento da bateria - Versões com polo negativo falso</Capitolo>
+      <Corpo> &lt;BR/&gt; Caso seja necessário desligar a bateria, proceda desligando o dispositivo  &lt;B&gt; (1) &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Não desligue o sensor de monitorização da bateria (2). O desligamento do sensor só deve ser efetuado em caso de substituição da bateria. &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; Quando a bateria for reconectada, gire a chave de ignição para a posição &quot;STOP&quot; com a porta do condutor fechada e  &lt;B&gt; aguarde pelo menos 1 minuto para que o sistema conclua a inicialização &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504342</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504342</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504342</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>55</Ordine>
+      <Capitolo>Desligamento da bateria - Versões sem polo negativo falso</Capitolo>
+      <Corpo> &lt;BR/&gt; Caso seja necessário desligar a bateria, pressione o botão presente no conector  &lt;B&gt; (B) &lt;/B&gt;  para desligar o conector &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Não desligue o sensor de monitorização da bateria (A). O desligamento do sensor deve ser efetuado apenas em caso de substituição da bateria. &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; Quando a bateria for reconectada, gire a chave de ignição para a posição &quot;STOP&quot; com a porta do condutor fechada e  &lt;B&gt; aguarde pelo menos 1 minuto para que o sistema conclua a inicialização &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504345</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504345</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504345</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>80</Ordine>
+      <Capitolo>Arranque de emergência</Capitolo>
+      <Corpo> &lt;BR/&gt; Caso seja necessário ligar uma bateria em paralelo para efetuar um arranque de emergência, ligue  &lt;B&gt; o terminal positivo da bateria auxiliar ao terminal positivo da bateria do veículo  &lt;/B&gt; e o  &lt;B&gt; terminal negativo a qualquer ponto de massa presente no motor &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Nunca ligue o cabo negativo da bateria auxiliar ao pólo negativo da bateria do veículo. &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>90</Ordine>
+      <Capitolo>Recarga da bateria - Versões com polo negativo falso</Capitolo>
+      <Corpo> &lt;BR/&gt; Para recarregar a bateria, proceda da seguinte forma: &lt;BR/&gt;  &lt;BR/&gt; - Desligue o terminal negativo através do sistema de desligamento rápido &lt;BR/&gt; - Ligue o cabo positivo do carregador ao polo positivo da bateria do veículo &lt;BR/&gt; - Ligue o cabo negativo do carregador ao falso polo negativo da bateria &lt;BR/&gt; - Ligue o carregador &lt;BR/&gt; - Quando o procedimento estiver concluído, retire o carregador &lt;BR/&gt; - Volte a ligar o terminal negativo &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>95</Ordine>
+      <Capitolo>Recarga da bateria  - Versões sem polo negativo falso</Capitolo>
+      <Corpo> &lt;BR/&gt; Para carregar a bateria, proceda da seguinte forma: &lt;BR/&gt;  &lt;BR/&gt; - Desligue o conector do sensor de monitorização da bateria &lt;BR/&gt; - Ligue o cabo positivo do carregador ao pólo positivo da bateria do veículo &lt;BR/&gt; - Ligue o cabo negativo do carregador ao pólo negativo da bateria do veículo &lt;BR/&gt; - Ligue o carregador &lt;BR/&gt; - Quando o procedimento estiver concluído, retire o carregador &lt;BR/&gt; - Volte a ligar o conector &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2025-05-01T05:30:53">
+<XDOCUMENTO>
+<ID>199283999</ID>
+<DOCNumber>GUP92014</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Assorbimento anomalo batteria e odometro lampeggiante</Titolo>
+<InfoDoc>ELETTRONICA | B1000 | B1009 | B1021 | B1090 | B1091 | B10AA | U0019 | U0426 | U1411 | U1733 | CENTRALINA | BLUETOOTH | BATTERIA | SCARICA | CONTACHILOMETRI | CHILOMETRI | KM | VELOCEMENTE | ALLINEAMENTO | RETE | PROXY | LAMPEGGIA |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199283999</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (*)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199283999</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Validità:&lt;/B&gt; Vetture dotate di impianto Bluetooth &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Elettronica&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Centralina Bluetooth&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Assorbimento anomalo della batteria e odometro su quadro strumenti lampeggiante&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; Uno o più dei seguenti:&lt;UL&gt;&lt;LI&gt; B1000 (Centralina strumentazione	, quadro strumenti - Anomalia)&lt;BR/&gt;&lt;LI&gt; B1009 (Tensione batteria - 	Alternatore / batteria)&lt;BR/&gt;&lt;LI&gt; B1021 (Luci posizione posteriori / lato destro - Errore su cablaggio)&lt;BR/&gt;&lt;LI&gt; B1090 (Collegamento fari anteriori - Errore)&lt;BR/&gt;&lt;LI&gt; B1091 (Luce di cortesia - Errore)&lt;BR/&gt;&lt;LI&gt; B10AA (Verifica allineamento proxy)&lt;BR/&gt;&lt;LI&gt; U0019 (Bus dati CAN, bassa velocità - 	Errore di comunicazione)&lt;BR/&gt;&lt;LI&gt; U0426 (Modulo comando riscaldatore ausiliario	 - Dati ricevuti - non validi)&lt;BR/&gt;&lt;LI&gt; U1411 (IBS - Sensore batteria intelligente)&lt;BR/&gt;&lt;LI&gt; U1733 (Mancata comunicazione con centralina Audio/Bluetooth) &lt;/UL&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Centralina Bluetooth malfunzionante&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199283999</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Verificare il corretto funzionamento della centralina Bluetooth e se necessario procedere al suo ripristino e/o sostituzione. Successivamente eseguire l&apos;allineamento proxy/di rete tramite strumento di diagnosi.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

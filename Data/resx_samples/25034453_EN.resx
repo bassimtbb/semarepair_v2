@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-06T18:08:51">
+  <XDOCUMENTO>
+    <ID>25034453</ID>
+    <DOCNumber>GUP25281</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Sporadic ignition of the injection warning light, poor acceleration</Titolo>
+    <InfoDoc>engine management | injection | B1003 | injection warning light | fault warning light | low performance | poor acceleration</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>25034453</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degree of reliability (**)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legend of the degree of reliability &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * low level &lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Extensive fault history, found by service technicians and repairers. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** high level &lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25034453</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Vehicle identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Make: &lt;/B&gt; Fiat &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Model: &lt;/B&gt; 500 (150) &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Engine: &lt;/B&gt; 1.2i 8V &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Year: &lt;/B&gt; 2007 &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Engine code / VIN: &lt;/B&gt; 169 A 4000 &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System &lt;/B&gt; Marelli IAW 5SF8 CF5 injection</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25034453</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification of faults/malfunctions</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; Intermittent illumination of the injection warning light, poor acceleration &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Fault code DTC: &lt;/B&gt; B1003, Phase variator &lt;BR/&gt;&lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Phase variator failure</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25034453</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair/inspection procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention: &lt;/B&gt; Replacement of the phase variator &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; PHASE VARIATOR: to check the phase variator, disconnect the control solenoid valve, start the engine, connect a power supply (battery) to the terminals of the phase variator solenoid valve; you should hear a noticeable change in the idle speed. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; After resolving the fault, you must communicate with the control unit and clear the faults using special diagnostic equipment in the &quot;ERRORS&quot; environment. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

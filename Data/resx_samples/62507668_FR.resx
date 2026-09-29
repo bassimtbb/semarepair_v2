@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:14:42">
+  <XDOCUMENTO>
+    <ID>62507668</ID>
+    <DOCNumber>GUR62742</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Réinitialisation du système après déconnexion de la batterie</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Guide Réglage</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Localisation Batterie</Capitolo>
+      <Corpo> &lt;BR/&gt; La batterie se trouve dans le compartiment moteur, côté conducteur, près du passage de roue. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>199000376</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>199000376</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:199000376</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Procédure de déconnexion de la batterie</Capitolo>
+      <Corpo> &lt;BR/&gt; Si vous devez débrancher la batterie, il est nécessaire de : &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Vérifier que tous les &lt;B&gt; dispositifs électriques &lt;/B&gt; de la voiture, tels que l&apos;autoradio, le navigateur, etc., &lt;B&gt; sont éteints &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; Vérifier que le &lt;B&gt; contact est coupé &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Avoir à disposition le &lt;B&gt; code de l&apos;autoradio &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; Coupez le contact et attendez 5 minutes &lt;BR/&gt; &lt;BR/&gt; Vous pouvez ensuite débrancher la batterie, &lt;B&gt; en retirant d&apos;abord la borne négative, puis la borne positive &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Après avoir débranché la batterie, attendez quelques minutes avant d&apos;intervenir sur le système Airbag</Corpo>
+      <RifIDFileIMGANI>62503878</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503878</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503878</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procédure de raccordement de la batterie</Capitolo>
+      <Corpo> &lt;BR/&gt; Pour reconnecter la batterie, procédez comme suit : &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Connectez d&apos;abord le pôle positif &lt;/B&gt;, puis le pôle négatif de la batterie &lt;BR/&gt;  &lt;LI&gt; Réinitialisez le code radio (si nécessaire) &lt;BR/&gt; &lt;LI&gt; Effacez toutes les &lt;B&gt; erreurs présentes dans la mémoire &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Mettez le contact et attendez 40 secondes &lt;BR/&gt; &lt;LI&gt; Coupez le contact &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503879</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>62503879</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503879</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Remise en état du toit ouvrant électrique</Capitolo>
+      <Corpo> &lt;BR/&gt; Procédure d&apos;initialisation du toit électrique : &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Mettre le contact &lt;BR/&gt; &lt;LI&gt; Appuyer sur le bouton de fermeture du toit et le maintenir enfoncé &lt;BR/&gt; &lt;LI&gt; Attendre que le toit électrique se ferme complètement &lt;BR/&gt;  &lt;LI&gt; Une fois le toit complètement fermé, attendre que le moteur électrique s&apos;arrête &lt;BR/&gt; &lt;LI&gt; Relâcher le bouton de fermeture du toit ouvrant électrique &lt;BR/&gt; &lt;BR/&gt; Le système est maintenant initialisé. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>Réparation d&apos;autoradios</Capitolo>
+      <Corpo> &lt;BR/&gt; Après avoir déconnecté la batterie, le message &lt;B&gt; « Radio Code » &lt;/B&gt; suivi de &lt;B&gt; « - - - - » &lt;/B&gt; peut s&apos;afficher sur l&apos;écran de l&apos;autoradio. &lt;BR/&gt; Il est alors nécessaire de saisir le code radio. &lt;BR/&gt; Utilisez les touches des stations de radio présélectionnées (de 1 à 6) &lt;BR/&gt; Si les 4 chiffres ne sont pas saisis dans les 20 secondes, le message &lt;B&gt; « Enter Code - - - - » &lt;/B&gt; s&apos;affichera à l&apos;écran. &lt;BR/&gt; Après avoir saisi les 4 chiffres, il faudra peut-être attendre jusqu&apos;à 20 secondes avant que l&apos;autoradio ne commence à fonctionner. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

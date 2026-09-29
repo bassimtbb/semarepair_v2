@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-23T04:33:08">
+  <XDOCUMENTO>
+    <ID>25001938</ID>
+    <DOCNumber>INT25057</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>Fiat 500</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Rappels officiels</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Source des données - Ministère des Transports</Capitolo>
+      <Corpo> &lt;B&gt; Constructeur : &lt;/B&gt; Fiat Auto S.p.a. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Marque : &lt;/B&gt; Fiat &lt;BR/&gt; &lt;BR/&gt; Anomalies reconnues par les constructeurs sur la base du décret 78/2000</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Fiat 500</Capitolo>
+      <Corpo> &lt;BR/&gt; Nombre de véhicules : 108 &lt;BR/&gt; Période de production : JUIN 2020 &lt;BR/&gt; Description du défaut : POSSIBLE DYSFONCTIONNEMENT DU SYSTÈME START-STOP &lt;BR/&gt; Mesures correctives : MISE À JOUR PROXIMALE &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques - &lt;BR/&gt; Intervalle de châssis de : ZFA3120000JD77396 &lt;BR/&gt; Intervalle de châssis à : ZFA3120000JD80992 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 298 &lt;BR/&gt; Période de production : NOV 2018 DÉC 2018 &lt;BR/&gt; Description du défaut : RUPTURE POSSIBLE DU SEMI-ARBRE AVANT DROIT &lt;BR/&gt; Mesures correctives : REMPLACEMENT &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques - &lt;BR/&gt; Intervalle de châssis de : ZFA3120000JB11886 &lt;BR/&gt; Intervalle de châssis à : ...25994 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 22356 &lt;BR/&gt; Période de production : OCT 2017 AVR 2019 &lt;BR/&gt; Description du défaut : DYSFONCTIONNEMENT POSSIBLE DE L&apos;AIRBAG &lt;BR/&gt; Mesures correctives : MISE À JOUR DU LOGICIEL DU BOÎTIER ÉLECTRONIQUE &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques - &lt;BR/&gt; Intervalle de châssis de : ZFA3340000P622051 &lt;BR/&gt; Intervalle de châssis à : ...787333 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 11543 &lt;BR/&gt; Période de production : JUILLET 2017 AOÛT 2017 &lt;BR/&gt; Description du défaut : BLOCAGE POSSIBLE DE L&apos;INDICATEUR DE VITESSE &lt;BR/&gt; Mesures correctives : REMPLACEMENT DU TABLEAU DE BORD &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques - &lt;BR/&gt; Intervalle de châssis de : ZFA3120000J843082 &lt;BR/&gt; Intervalle de châssis à : ZFA3100000J858977 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 26 &lt;BR/&gt; Période de production : MARS 2017 &lt;BR/&gt; Description du défaut : NON-CONFORMITÉ DU BOÎTIER DE DIRECTION &lt;BR/&gt; Mesures correctives : REMPLACEMENT ÉVENTUEL &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques - &lt;BR/&gt; Intervalle de châssis de : ZFA3120000J762210 &lt;BR/&gt; Intervalle de châssis à : ZFA3120000J7653319 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 321 &lt;BR/&gt; Période de production : SEPT 2016 &lt;BR/&gt; Description du défaut : MÂCHOIRES DE FREINS ARRIÈRE NON CONFORMES &lt;BR/&gt; Mesures correctives : REMPLACEMENT ÉVENTUEL &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques - &lt;BR/&gt; Intervalle de châssis de : ZFA3120000J658682 &lt;BR/&gt; Intervalle de châssis à : ….664976 &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 2176 &lt;BR/&gt; Période de production : DÉC 2015 JAN 2016 &lt;BR/&gt; Description du défaut : GUIDE DU SIÈGE AVANT DROIT NON CONFORME &lt;BR/&gt; Mesures correctives : REMPLACEMENT ÉVENTUEL DE LA STRUCTURE &lt;BR/&gt; Référence 80034280000 &lt;BR/&gt; Remarques - &lt;BR/&gt; Intervalle de châssis de : ZFA3120000J516840 &lt;BR/&gt; Intervalle de châssis à : ZFA3120000J527059 &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 20 &lt;BR/&gt; Période de production : SEPT 2014 OCT 2014 &lt;BR/&gt; Description du défaut : TIRANTS D&apos;ANCRAGE DES CEINTURES DE SÉCURITÉ AVANT NON CONFORMES &lt;BR/&gt; Mesures correctives : REMPLACEMENT &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques - &lt;BR/&gt; Intervalle de châssis de : ZFA3120000J281982 &lt;BR/&gt; Intervalle de châssis à : ZFA3120000J286237 &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 198 &lt;BR/&gt; Période de production : de juin 2012 à septembre 2012 &lt;BR/&gt; Description du défaut : non-conformité du tuyau du dépresseur du servofrein &lt;BR/&gt; Mesures correctives : vérification et remplacement éventuel &lt;BR/&gt; Référence : concessionnaires &lt;BR/&gt; Intervalle de châssis de : ZFA31200000878086 &lt;BR/&gt; Intervalle de châssis à : ZFA31200000890578 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 319 &lt;BR/&gt; Période de production : juin 2010 &lt;BR/&gt; Description du défaut : vis de fixation du cardan à l&apos;arbre de direction non conforme &lt;BR/&gt; Mesures correctives : remplacement éventuel &lt;BR/&gt; Référence : concessionnaires &lt;BR/&gt; Intervalle de châssis : ZFA31200000549070 &lt;BR/&gt; Intervalle de châssis à : ZFA31200000550399 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 910 &lt;BR/&gt; Période de production : de septembre 2009 à décembre 2009 &lt;BR/&gt; Description du défaut : non-conformité de l&apos;arbre intermédiaire de direction &lt;BR/&gt; Mesures correctives : vérification et remplacement éventuel &lt;BR/&gt; Référence : concessionnaires &lt;BR/&gt; Intervalle de châssis de : ZFA31200000396248 &lt;BR/&gt; Intervalle de châssis à : ZFA31200000438371 &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 24579 &lt;BR/&gt; Période de production : de septembre 2008 à février 2009 &lt;BR/&gt; Description du défaut : Desserrage possible des vis de fixation de la plaque porte-mâchoires de frein arrière &lt;BR/&gt; Mesures correctives : Contrôle et serrage éventuel &lt;BR/&gt; Référence : Concessionnaire &lt;BR/&gt; Intervalle de châssis de : ZFA31200000206893 &lt;BR/&gt; Intervalle de châssis à : ZFA31200000279954 &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 20799 &lt;BR/&gt; Période de production : d&apos;octobre 2007 à novembre 2007 &lt;BR/&gt; Description du défaut : Anomalie possible du processus de vulcanisation du tuyau en caoutchouc du système de freinage &lt;BR/&gt; Mesures correctives : Vérification et remplacement éventuel &lt;BR/&gt; Référence : Concessionnaire &lt;BR/&gt; Remarques Châssis non consécutifs, consulter les concessionnaires &lt;BR/&gt; Intervalle de châssis de : 500 : zfa31200000032289 &lt;BR/&gt; Intervalle de châssis à : zfa31200000039463 &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Fiat 500 1.3 Multijet</Capitolo>
+      <Corpo> &lt;BR/&gt; Nombre de véhicules : 899 &lt;BR/&gt; Période de production : de février 2010 à avril 2010 &lt;BR/&gt; Description du défaut : non-conformité possible des vis de fixation de la pompe hydraulique de commande d&apos;embrayage et impossibilité consécutive d&apos;enclencher les vitesses &lt;BR/&gt; Mesures correctives : remplacement des vis de fixation &lt;BR/&gt; Intervalle de châssis de : ZFA31200000454835 &lt;BR/&gt; Intervalle de châssis à : ZFA31200000508162 &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Fiat 500 1.2 et 1.4 8v</Capitolo>
+      <Corpo> &lt;BR/&gt; Nombre de véhicules : 2547 &lt;BR/&gt; Période de production : de juillet 2008 à octobre 2008 &lt;BR/&gt; Description du défaut : non-conformité possible du collecteur d&apos;essence du moteur &lt;BR/&gt; Mesures correctives : vérification et remplacement éventuel &lt;BR/&gt; Référence : concessionnaire &lt;BR/&gt; Intervalle de châssis de : ZFA31200000202179 &lt;BR/&gt; Intervalle de châssis à : ZFA31200000223226 &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Fiat 500 électrique</Capitolo>
+      <Corpo> &lt;BR/&gt; Nombre de véhicules : 9 &lt;BR/&gt; Période de production : OCT 2012 AVR 2014 &lt;BR/&gt; Description du défaut : MODULE ONDULEUR D&apos;ALIMENTATION NON CONFORME &lt;BR/&gt; Actions correctives : REMPLACEMENT &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques CHÂSSIS NON INDIQUÉ &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 14 &lt;BR/&gt; Période de production : OCT 2012 NOV 2014 &lt;BR/&gt; Description du défaut : PERTE DE PUISSANCE DU MOTEUR DUE À UN DYSFONCTIONNEMENT DU SYSTÈME ÉLECTRIQUE A.T. &lt;BR/&gt; Mesures correctives : MISE À JOUR DU LOGICIEL &lt;BR/&gt; Référence 80034280000 &lt;BR/&gt; Remarques CHÂSSIS CONSULTER LES CONCESSIONNAIRES &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 19 &lt;BR/&gt; Période de production : OCT 2012 JAN 2016 &lt;BR/&gt; Description du défaut : MODULE ONDULEUR D&apos;ALIMENTATION (PIM) NON PROGRAMMÉ CONFORMÉMENT À LA NORME, ENTRAÎNANT UNE PERTE DE PUISSANCE MOTRICE &lt;BR/&gt; Actions correctives : REPROGRAMMATION &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques - &lt;BR/&gt; Intervalle de châssis de : 3C3CFFGE0DT500186 &lt;BR/&gt; Intervalle de châssis à : 3C3CFFGEXGT205326 &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>25001938</RifIDDoc>
+      <LinkUtili>Lien Ministère des Infrastructures et des Transports</LinkUtili>
+      <Ordine>1</Ordine>
+      <RifIDDocLink>15000122</RifIDDocLink>
+      <XLINKDOC>
+        <ID>15000122</ID>
+        <DOCNumber>LNK00008</DOCNumber>
+        <Documento>Aller à: Rappels - Ministère des Transports</Documento>
+        <URL>LINKDOC:15000122</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

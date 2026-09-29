@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2014-10-24T16:29:25">
+<XDOCUMENTO>
+<ID>25030538</ID>
+<DOCNumber>GUP25130</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Comando di ricircolo aria invertito</Titolo>
+<InfoDoc>climatizzatore | ricircolo | aria abitacolo | ventilazione</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>25030538</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (*)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>25030538</RifIDDoc>
+<Ordine>2</Ordine>
+<Capitolo>Identificazione del veicolo</Capitolo>
+<Corpo>&lt;LI&gt;&lt;B&gt;Marca:&lt;/B&gt; Fiat&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Modello:&lt;/B&gt; 500&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Motorizzazione:&lt;/B&gt; - -&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Periodo:&lt;/B&gt; dal 2007&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Codice Motore:&lt;/B&gt; - -&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Codice Telaio:&lt;/B&gt; - -&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Altri riferimenti:&lt;/B&gt; esemplari con climatizzatore automatico&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>25030538</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Ventilazione abitacolo &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Motorino ricircolo aria &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Attivando la funzione di ricircolo, il ricircolo dell’aria viene escluso (e viceversa)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; - -&lt;BR/&gt; &lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Polarità del comando invertita&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>25030538</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Intervento</Capitolo>
+<Corpo>&lt;LI&gt; Ripristino delle connessioni corrette (cavo marrone-nero su pin 6 e cavo grigio-rosso su pin 5 del connettore)</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>25030538</RifIDDoc>
+<Ordine>5</Ordine>
+<Capitolo>Dettaglio</Capitolo>
+<Corpo>Il connettore elettrico del motorino di ricircolo è situato sotto al vano portaoggetti</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

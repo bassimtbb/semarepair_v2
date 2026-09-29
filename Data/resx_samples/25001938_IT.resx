@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2021-05-11T05:30:26">
+<XDOCUMENTO>
+<ID>25001938</ID>
+<DOCNumber>INT25057</DOCNumber>
+<RifIDTipoRis>21</RifIDTipoRis>
+<Titolo>Fiat 500</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>294</RifIDFileICO>
+<XFILE>
+<ID>294</ID>
+<Type>IMG</Type>
+<URL>GETFILE:294</URL>
+</XFILE>
+<XTIPORIS>
+<ID>21</ID>
+<TipoRis>INT</TipoRis>
+<DscRis>Richiami Ufficiali</DscRis>
+<RifIDFileCSS>293</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>293</ID>
+<Type>CSS</Type>
+<URL>GETFILE:293</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>25001938</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Fonte dati - Ministero dei Trasporti</Capitolo>
+<Corpo>&lt;B&gt;Costruttore:&lt;/B&gt; Fiat Auto S.p.a. &lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Marca:&lt;/B&gt; Fiat &lt;BR/&gt;&lt;BR/&gt;Anomalie riconosciute dalle case costruttrici in base al D.D. 78/2000</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>25001938</RifIDDoc>
+<Ordine>20</Ordine>
+<Capitolo>Fiat 500</Capitolo>
+<Corpo>&lt;BR/&gt;Numero Veicoli: 108&lt;BR/&gt;Periodo di produzione: GIU 2020&lt;BR/&gt;Descrizione Difetto: POSSIBILE MALFUNZIONAMENTO START STOP&lt;BR/&gt;Azioni correttive: AGGIORNAMENTO PROXI&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note -&lt;BR/&gt;Intervallo telai da: ZFA3120000JD77396 &lt;BR/&gt;Intervallo telai a: ZFA3120000JD80992&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 298&lt;BR/&gt;Periodo di produzione: NOV 2018 DIC 2018&lt;BR/&gt;Descrizione Difetto: POSSIBILE ROTTURA SEMIALBERO ANTERIORE DESTRO&lt;BR/&gt;Azioni correttive: SOSTITUZIONE&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note -&lt;BR/&gt;Intervallo telai da: ZFA3120000JB11886 &lt;BR/&gt;Intervallo telai a: ...25994&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 22356&lt;BR/&gt;Periodo di produzione: OTT 2017 APR 2019&lt;BR/&gt;Descrizione Difetto: POSSIBILE MALFUNZIONAMENTO AIR BAG&lt;BR/&gt;Azioni correttive: AGGIORNAMENTOP SOFTWARE CENTRALINA&lt;BR/&gt;Riferimento CVONCESSIONARI&lt;BR/&gt;Note -&lt;BR/&gt;Intervallo telai da: ZFA3340000P622051 &lt;BR/&gt;Intervallo telai a: ...787333&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 11543&lt;BR/&gt;Periodo di produzione: LUG 2017 AGO 2017&lt;BR/&gt;Descrizione Difetto: POSSIBILE BLOCCO INDICATORE VELLOCITà&lt;BR/&gt;Azioni correttive: SOSTITUZIONE QUADRO STRUMENTI&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note -&lt;BR/&gt;Intervallo telai da: ZFA3120000J843082 &lt;BR/&gt;Intervallo telai a: ZFA3100000J858977&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 26&lt;BR/&gt;Periodo di produzione: MAR 2017&lt;BR/&gt;Descrizione Difetto: MANCATA CONFORMITA\&apos; SCATOLA STERZO&lt;BR/&gt;Azioni correttive: EVENTUALE SOSTITUZIONE&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note -&lt;BR/&gt;Intervallo telai da: ZFA3120000J762210 &lt;BR/&gt;Intervallo telai a: ZFA3120000J7653319&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 321&lt;BR/&gt;Periodo di produzione: SET 2016&lt;BR/&gt;Descrizione Difetto: GANASCE FRENI POSTERIORI NON A NORMA&lt;BR/&gt;Azioni correttive: EVENTUALE SOSTITUZIONE&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note -&lt;BR/&gt;Intervallo telai da: ZFA3120000J658682 &lt;BR/&gt;Intervallo telai a: ….664976&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 2176&lt;BR/&gt;Periodo di produzione: DIC 2015 GEN 2016&lt;BR/&gt;Descrizione Difetto: GUIDA SEDILE ANTERIORE DESTRO NON CONFORME&lt;BR/&gt;Azioni correttive: EVENTUALE SOSTITUZIONE STRUTTURA&lt;BR/&gt;Riferimento 80034280000&lt;BR/&gt;Note -&lt;BR/&gt;Intervallo telai da: ZFA3120000J516840 &lt;BR/&gt;Intervallo telai a: ZFA3120000J527059&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 20&lt;BR/&gt;Periodo di produzione: SET 2014 OTT 2014&lt;BR/&gt;Descrizione Difetto: TIRANTI ANCORAGGIO CINTURE SICUREZZA ANTERIORI NON CONFORMI&lt;BR/&gt;Azioni correttive: SOSTITUZIONE&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note -&lt;BR/&gt;Intervallo telai da: ZFA3120000J281982 &lt;BR/&gt;Intervallo telai a: ZFA3120000J286237&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 198&lt;BR/&gt;Periodo di produzione: da giugno 2012 a settembre 2012&lt;BR/&gt;Descrizione Difetto: Mancata conformità tubazione depressore servofreno&lt;BR/&gt;Azioni correttive: Verifica ed eventuale sostituzione&lt;BR/&gt;Riferimento: Concessionari&lt;BR/&gt;Intervallo telai da: ZFA31200000878086 &lt;BR/&gt;Intervallo telai a: ZFA31200000890578&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 319&lt;BR/&gt;Periodo di produzione: Giugno 2010&lt;BR/&gt;Descrizione Difetto: Vite fissaggio cardano albero sterzo non conforme&lt;BR/&gt;Azioni correttive: Eventuale sostituzione&lt;BR/&gt;Riferimento: Concessionarie&lt;BR/&gt;Intervallo telai da: ZFA31200000549070 &lt;BR/&gt;Intervallo telai a: ZFA31200000550399&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 910 &lt;BR/&gt;Periodo di produzione: da settembre 2009 a dicembre 2009&lt;BR/&gt;Descrizione Difetto: Mancata conformità albero intermedio sterzo &lt;BR/&gt;Azioni correttive: Verifica ed eventuale sostituzione&lt;BR/&gt;Riferimento: Concessionarie &lt;BR/&gt;Intervallo telai da: ZFA31200000396248 &lt;BR/&gt;Intervallo telai a: ZFA31200000438371&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 24579 &lt;BR/&gt;Periodo di produzione: da settembre 2008 a febbraio 2009&lt;BR/&gt;Descrizione Difetto: Possibile allentamento viti fissaggio piatto porta ganasce freni posteriori &lt;BR/&gt;Azioni correttive: Controllo ed eventuale serraggio&lt;BR/&gt;Riferimento: Concessionaria&lt;BR/&gt;Intervallo telai da: ZFA31200000206893 &lt;BR/&gt;Intervallo telai a: ZFA31200000279954&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 20799 &lt;BR/&gt;Periodo di produzione: da ottobre 2007 a novembre 2007 &lt;BR/&gt;Descrizione Difetto: Possibile anomalia processo vulcanizzazione tubo gomma sistema frenante &lt;BR/&gt;Azioni correttive: Verifica ed eventuale sostituzione &lt;BR/&gt;Riferimento: Concessionaria&lt;BR/&gt;Note Telai non consecutivi consultare concessionari &lt;BR/&gt;Intervallo telai da: 500: zfa31200000032289 &lt;BR/&gt;Intervallo telai a: zfa31200000039463&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>25001938</RifIDDoc>
+<Ordine>30</Ordine>
+<Capitolo>Fiat 500 1.3 Multijet</Capitolo>
+<Corpo>&lt;BR/&gt;Numero Veicoli: 899 &lt;BR/&gt;Periodo di produzione: da febbraio 2010 ad aprile 2010&lt;BR/&gt;Descrizione Difetto: Possibile non conformità viti fissaggio pompa idraulica comando frizione e conseguente impossibilità inserimento marce &lt;BR/&gt;Azioni correttive: Sostituzione viti di fissaggio&lt;BR/&gt;Intervallo telai da: ZFA31200000454835 &lt;BR/&gt;Intervallo telai a: ZFA31200000508162&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>25001938</RifIDDoc>
+<Ordine>40</Ordine>
+<Capitolo>Fiat 500 1.2 e 1.4 8v</Capitolo>
+<Corpo>&lt;BR/&gt;Numero Veicoli: 2547 &lt;BR/&gt;Periodo di produzione: da luglio 2008 a ottobre 2008&lt;BR/&gt;Descrizione Difetto: Possibile mancata conformità collettore benzina motore&lt;BR/&gt;Azioni correttive: Verifica ed eventuale sostituzione&lt;BR/&gt;Riferimento: Concessionaria &lt;BR/&gt;Intervallo telai da: ZFA31200000202179 &lt;BR/&gt;Intervallo telai a: ZFA31200000223226&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>25001938</RifIDDoc>
+<Ordine>50</Ordine>
+<Capitolo>Fiat 500 Elettrica</Capitolo>
+<Corpo>&lt;BR/&gt;Numero Veicoli: 9&lt;BR/&gt;Periodo di produzione: OTT 2012 APR 2014&lt;BR/&gt;Descrizione Difetto: MODULO INVERTER ALIMENTAZIONE NON CONFORME&lt;BR/&gt;Azioni correttive: SOSTITUZIONE&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note TELAIO NON INDICATO&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 14&lt;BR/&gt;Periodo di produzione: OTT 2012 NOV 2014&lt;BR/&gt;Descrizione Difetto: PERDITA POTENZA MOTORE CAUSA MALFUNZIONAMENTO IMPIANTO ELETTRICO A.T.&lt;BR/&gt;Azioni correttive: AGGIORNAMENTO SOFTWARE&lt;BR/&gt;Riferimento 80034280000&lt;BR/&gt;Note TELAI CONSULTARE CONCESSIONARI&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 19&lt;BR/&gt;Periodo di produzione: OTT 2012 GEN 2016&lt;BR/&gt;Descrizione Difetto: MODULO INVERTER ALIMENTAZIONE (PIM) NON PROGRAMMATO A NORMA, CON CONSEGUENTE PERDITA DI FORZA MOTRICE&lt;BR/&gt;Azioni correttive: RIPROGRAMMAZIONE&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note -&lt;BR/&gt;Intervallo telai da: 3C3CFFGE0DT500186 &lt;BR/&gt;Intervallo telai a: 3C3CFFGEXGT205326&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XLINKUTILI>
+<RifIDDoc>25001938</RifIDDoc>
+<LinkUtili>Link Ministero delle Infrastrutture e dei Trasporti</LinkUtili>
+<Ordine>1</Ordine>
+<RifIDDocLink>15000122</RifIDDocLink>
+<XLINKDOC>
+<ID>15000122</ID>
+<DOCNumber>LNK00008</DOCNumber>
+<Documento>Vai a: Richiami - Ministero dei Trasporti</Documento>
+<URL>LINKDOC:15000122</URL>
+</XLINKDOC>
+</XLINKUTILI>
+</XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T03:23:02">
+  <XDOCUMENTO>
+    <ID>199225163</ID>
+    <DOCNumber>FAR76157</DOCNumber>
+    <RifIDTipoRis>30</RifIDTipoRis>
+    <Titolo>Substitution List</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>30</ID>
+      <TipoRis>FAR</TipoRis>
+      <DscRis>Bulbs</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>4</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLDATO</IDLabel>
+        <Stringa>Description</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLUM</IDLabel>
+        <Stringa>Unit of measurement</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLVALORE</IDLabel>
+        <Stringa>Data</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>LINK</IDLabel>
+        <Stringa>Link</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Data List</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XDATIMECH>
+      <RifIDDoc>199225163</RifIDDoc>
+      <Gruppo>OUTDOOR LIGHTING</Gruppo>
+      <Dato>Low beam headlight bulb</Dato>
+      <Valore>12 / 55 - H7</Valore>
+      <UnitaMis>Volt/Watt - Type</UnitaMis>
+      <RifIDFileIMG>15000050</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>15000050</ID>
+        <DOCNumber>CMP00028</DOCNumber>
+        <Documento>CMP: Bulb - H7</Documento>
+        <URL>LINKDOC:15000050</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199225163</RifIDDoc>
+      <Gruppo>OUTDOOR LIGHTING</Gruppo>
+      <Dato>Low beam with Xenon headlight - Xenon bulb</Dato>
+      <Valore>12 / 35 - D1S</Valore>
+      <UnitaMis>Volt/Watt - Type</UnitaMis>
+      <RifIDFileIMG>62500789</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500789</ID>
+        <DOCNumber>CMP62512</DOCNumber>
+        <Documento>CMP: Bulb - D1S</Documento>
+        <URL>LINKDOC:62500789</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199225163</RifIDDoc>
+      <Gruppo>OUTDOOR LIGHTING</Gruppo>
+      <Dato>High beam - Bulb</Dato>
+      <Valore>12 / 55 - H7</Valore>
+      <UnitaMis>Volt/Watt - Type</UnitaMis>
+      <RifIDFileIMG>15000050</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>15000050</ID>
+        <DOCNumber>CMP00028</DOCNumber>
+        <Documento>CMP: Bulb - H7</Documento>
+        <URL>LINKDOC:15000050</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199225163</RifIDDoc>
+      <Gruppo>OUTDOOR LIGHTING</Gruppo>
+      <Dato>Fog light - Bulb</Dato>
+      <Valore>12 / 55 - H1</Valore>
+      <UnitaMis>Volt/Watt - Type</UnitaMis>
+      <RifIDFileIMG>62500786</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500786</ID>
+        <DOCNumber>CMP62509</DOCNumber>
+        <Documento>CMP: Bulb - H1</Documento>
+        <URL>LINKDOC:62500786</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199225163</RifIDDoc>
+      <Gruppo>OUTDOOR LIGHTING</Gruppo>
+      <Dato>Daytime running lights - Bulb</Dato>
+      <Valore>12/5/21 - W21W/LL</Valore>
+      <UnitaMis>Volt/Watt - Type</UnitaMis>
+      <RifIDFileIMG>62500804</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500804</ID>
+        <DOCNumber>CMP62527</DOCNumber>
+        <Documento>CMP: Bulb - W21W</Documento>
+        <URL>LINKDOC:62500804</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199225163</RifIDDoc>
+      <Gruppo>OUTDOOR LIGHTING</Gruppo>
+      <Dato>Rear position light - Bulb</Dato>
+      <Valore>12/10 - P21/5W</Valore>
+      <UnitaMis>Volt/Watt - Type</UnitaMis>
+      <RifIDFileIMG>62500788</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500788</ID>
+        <DOCNumber>CMP62511</DOCNumber>
+        <Documento>CMP: Bulb - P21/5W</Documento>
+        <URL>LINKDOC:62500788</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199225163</RifIDDoc>
+      <Gruppo>OUTDOOR LIGHTING</Gruppo>
+      <Dato>Central brake light - Bulb</Dato>
+      <Valore>12/5 - W5W</Valore>
+      <UnitaMis>Volt/Watt - Type</UnitaMis>
+      <RifIDFileIMG>62500885</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500885</ID>
+        <DOCNumber>CMP62549</DOCNumber>
+        <Documento>CMP: Bulb - W5W</Documento>
+        <URL>LINKDOC:62500885</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199225163</RifIDDoc>
+      <Gruppo>OUTDOOR LIGHTING</Gruppo>
+      <Dato>Reversing light - Bulb</Dato>
+      <Valore>12 / 21 - W16W</Valore>
+      <UnitaMis>Volt/Watt - Type</UnitaMis>
+      <RifIDFileIMG>62500783</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500783</ID>
+        <DOCNumber>CMP62506</DOCNumber>
+        <Documento>CMP: Bulb - W16W</Documento>
+        <URL>LINKDOC:62500783</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199225163</RifIDDoc>
+      <Gruppo>OUTDOOR LIGHTING</Gruppo>
+      <Dato>Rear fog light - Bulb</Dato>
+      <Valore>12 / 21 - W16W</Valore>
+      <UnitaMis>Volt/Watt - Type</UnitaMis>
+      <RifIDFileIMG>62500783</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500783</ID>
+        <DOCNumber>CMP62506</DOCNumber>
+        <Documento>CMP: Bulb - W16W</Documento>
+        <URL>LINKDOC:62500783</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199225163</RifIDDoc>
+      <Gruppo>OUTDOOR LIGHTING</Gruppo>
+      <Dato>Number plate light - Bulb</Dato>
+      <Valore>12 / 5 - C5W</Valore>
+      <UnitaMis>Volt/Watt - Type</UnitaMis>
+      <RifIDFileIMG>62500883</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500883</ID>
+        <DOCNumber>CMP62547</DOCNumber>
+        <Documento>CMP: Bulb - C5W</Documento>
+        <URL>LINKDOC:62500883</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199225163</RifIDDoc>
+      <Gruppo>OUTDOOR LIGHTING</Gruppo>
+      <Dato>Front indicator with Xenon headlight - Bulb</Dato>
+      <Valore>12/24 - PY24W</Valore>
+      <UnitaMis>Volt/Watt - Type</UnitaMis>
+      <RifIDFileIMG>62508591</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62508591</ID>
+        <DOCNumber>CMP63372</DOCNumber>
+        <Documento>CMP: Bulb - PY24W</Documento>
+        <URL>LINKDOC:62508591</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199225163</RifIDDoc>
+      <Gruppo>OUTDOOR LIGHTING</Gruppo>
+      <Dato>Front direction indicator version 1 - Bulb</Dato>
+      <Valore>12 / 21 - WY21W</Valore>
+      <UnitaMis>Volt/Watt - Type</UnitaMis>
+      <RifIDFileIMG>62500803</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500803</ID>
+        <DOCNumber>CMP62526</DOCNumber>
+        <Documento>CMP: Bulb - WY21W - Yellow</Documento>
+        <URL>LINKDOC:62500803</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199225163</RifIDDoc>
+      <Gruppo>OUTDOOR LIGHTING</Gruppo>
+      <Dato>Front direction indicator version 2 - Bulb</Dato>
+      <Valore>12 / 21 - PY24W</Valore>
+      <UnitaMis>Volt/Watt - Type</UnitaMis>
+      <RifIDFileIMG>62508591</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62508591</ID>
+        <DOCNumber>CMP63372</DOCNumber>
+        <Documento>CMP: Bulb - PY24W</Documento>
+        <URL>LINKDOC:62508591</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199225163</RifIDDoc>
+      <Gruppo>OUTDOOR LIGHTING</Gruppo>
+      <Dato>Side direction indicator - Bulb</Dato>
+      <Valore>12/5 - W5W</Valore>
+      <UnitaMis>Volt/Watt - Type</UnitaMis>
+      <RifIDFileIMG>62500885</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500885</ID>
+        <DOCNumber>CMP62549</DOCNumber>
+        <Documento>CMP: Bulb - W5W</Documento>
+        <URL>LINKDOC:62500885</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199225163</RifIDDoc>
+      <Gruppo>OUTDOOR LIGHTING</Gruppo>
+      <Dato>Rear indicator - Bulb</Dato>
+      <Valore>12 / 21 - PY21W</Valore>
+      <UnitaMis>Volt/Watt - Type</UnitaMis>
+      <RifIDFileIMG>62500781</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500781</ID>
+        <DOCNumber>CMP62504</DOCNumber>
+        <Documento>CMP: Bulb - PY21W - Yellow</Documento>
+        <URL>LINKDOC:62500781</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199225163</RifIDDoc>
+      <Gruppo>INTERIOR LIGHTING</Gruppo>
+      <Dato>Front ceiling light - Light bulb</Dato>
+      <Valore>12 / 5 - C5W</Valore>
+      <UnitaMis>Volt/Watt - Type</UnitaMis>
+      <RifIDFileIMG>62500883</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500883</ID>
+        <DOCNumber>CMP62547</DOCNumber>
+        <Documento>CMP: Bulb - C5W</Documento>
+        <URL>LINKDOC:62500883</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199225163</RifIDDoc>
+      <Gruppo>INTERIOR LIGHTING</Gruppo>
+      <Dato>Boot light - Light bulb</Dato>
+      <Valore>12/5 - W5W</Valore>
+      <UnitaMis>Volt/Watt - Type</UnitaMis>
+      <RifIDFileIMG>62500885</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500885</ID>
+        <DOCNumber>CMP62549</DOCNumber>
+        <Documento>CMP: Bulb - W5W</Documento>
+        <URL>LINKDOC:62500885</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+  </XDOCUMENTO>
+</dataroot>

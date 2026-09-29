@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2012-07-05T08:08:09">
+<XDOCUMENTO>
+<ID>75000520</ID>
+<DOCNumber>DES75007</DOCNumber>
+<RifIDTipoRis>2</RifIDTipoRis>
+<Titolo>Iniezione Marelli IAW 5SF8 - Euro 4</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>224</RifIDFileICO>
+<XFILE>
+<ID>224</ID>
+<Type>IMG</Type>
+<URL>GETFILE:224</URL>
+</XFILE>
+<XTIPORIS>
+<ID>2</ID>
+<TipoRis>DES</TipoRis>
+<DscRis>Descrizione Impianto</DscRis>
+<RifIDFileCSS>7</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>7</ID>
+<Type>CSS</Type>
+<URL>GETFILE:7</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>75000520</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Descrizione</Capitolo>
+<Corpo>La centralina elettronica è posizionata nel vano motore. &lt;BR/&gt;&lt;BR/&gt;La presa di diagnosi è di tipo unificata a 16 pin (EOBD), ed è posizionata nell’abitacolo sotto la plancia lato guida.&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>75000520</RifIDDoc>
+<Ordine>2</Ordine>
+<Capitolo>Parametri ingegneristici</Capitolo>
+<Corpo>La centralina gestisce tutti i parametri caratteristici delle iniezioni benzina, quali i seguenti:&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;Giri motore&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;Temperatura motore&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;Tensione batteria&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;………………… &lt;BR/&gt;&lt;BR/&gt;In particolare, si evidenziano anche i seguenti parametri:&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Anticipo calcolato&lt;/B&gt;&lt;BR/&gt;Indica il valore di anticipo calcolato dalla centralina per soddisfare le condizioni di funzionamento del motore.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Integratore Lambda&lt;/B&gt;&lt;BR/&gt;È la correzione effettuata dalla centralina sulla quantità di carburante per raggiungere il corretto rapporto aria/carburante.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Velocità obiettivo Cruise Control&lt;/B&gt;&lt;BR/&gt;Indica la velocità al quale il “CRUISE CONTROL” fa riferimento per la velocità di crociera della vettura. Il valore è attendibile solo a velocità veicolo superiore ai 30 km/h.&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>75000520</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Errori</Capitolo>
+<Corpo>La centralina è dotata di memoria permanente degli errori e memorizza i parametri ambientali nel momento in cui si presenta l’errore.&lt;BR/&gt;&lt;BR/&gt;Essi sono segnalati  con l’annessa comunicazione del loro stato:&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Errore attivo&lt;/B&gt;&lt;BR/&gt;Errore è attualmente rilevato&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Errore memorizzato&lt;/B&gt;&lt;BR/&gt;Errore che è già stato registrato in memoria, ed il guasto non è attualmente presente.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Cancellazione errore/i&lt;/B&gt;&lt;BR/&gt;Avviene solo tramite il consenso dell’operatore a cancellare l’errore attraverso il tasto di cancellazione&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>75000520</RifIDDoc>
+<Ordine>5</Ordine>
+<Capitolo>Diagnosi Attive</Capitolo>
+<Corpo>In ambiente Diagnosi Attive sono pilotati i seguenti dispositivi:&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Compressore Climatizzatore&lt;/B&gt;&lt;BR/&gt;Viene attivato il relè del condizionatore per una decina di secondi.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Bobina 1-2-3-4&lt;/B&gt;&lt;BR/&gt;Vengono comandate separatamente le bobine AT.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Relè pompa carburante&lt;/B&gt;&lt;BR/&gt;Viene attivato il relè pompa benzina.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Iniettore 1-2-3-4&lt;/B&gt; &lt;BR/&gt;Vengono azionati singolarmente gli Iniettori&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Ventola 1°-2° Velocità&lt;/B&gt;&lt;BR/&gt;Vengono azionate singolarmente le ventole &lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Resistenza riscald. sonda lambda 1 a monte e 1 a valle&lt;/B&gt;&lt;BR/&gt;Viene pilotato l&apos;elemento riscaldatore all&apos;interno della sonda lambda.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Elettrovalvola canister&lt;/B&gt;&lt;BR/&gt;Viene azionata per una decina di secondi.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Comando spia avaria&lt;/B&gt;&lt;BR/&gt;Viene azionata per una decina di secondi.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;VVT (variatore di fase)&lt;/B&gt;&lt;BR/&gt;All’attivazione si deve udire il componente ticchettare.</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>75000520</RifIDDoc>
+<Ordine>6</Ordine>
+<Capitolo>Regolazioni</Capitolo>
+<Corpo>Le regolazioni effettuabili sono le seguenti:&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Avviamento con code card&lt;/B&gt;&lt;BR/&gt;Utilizzando la Code Card della vettura, permette di effettuare l&apos;avviamento motore in caso di guasto della Chiave o della Centralina Chiave Elettronica/Body computer (se presente).&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Memorizzazione apprendimento farfalla&lt;/B&gt;&lt;BR/&gt;Viene effettuata la memorizzazione dell&apos;autoapprendimento della farfalla motorizzata .&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Azzeramento apprendimento ruota fonica&lt;/B&gt;&lt;BR/&gt;Da eseguire ogni volta che si interviene sulla ruota fonica o sensore di giri &lt;BR/&gt;N.B.: Eseguire prima l&apos;azzeramento dei parametri autoadattativi.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Azzeramento parametri autoadattativi&lt;/B&gt;&lt;BR/&gt;Vengono ripristinati, nelle mappe della centralina, i valori impostati in fabbrica&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Cancellazione configurazione veicolo&lt;/B&gt;&lt;BR/&gt;Cancella la configurazione:&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;Tipo di cambio&lt;BR/&gt;&lt;LI&gt;Tipo di Climatizzatore&lt;BR/&gt;&lt;LI&gt;Cruise control&lt;BR/&gt;&lt;LI&gt;ABS&lt;BR/&gt;&lt;LI&gt;Guida elettrica&lt;BR/&gt;&lt;BR/&gt;in modo da fare riapprendere alla centralina la nuova configurazione. &lt;BR/&gt;N.B.: Da eseguire solo in caso di errori nella configurazione o nel caso di montaggio di centraline non vergini.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Azzeramento fronti di camma(VVT)&lt;/B&gt;&lt;BR/&gt;Vengono  azzerati i dati, in centralina, inerenti i fronti di camma del variatore di fase. &lt;BR/&gt;Durante il primo avviamento del motore, dopo tale azzeramento, sono appresi automaticamente i nuovi valori.&lt;BR/&gt;&lt;BR/&gt;N.B.: Da eseguire quando si interviene sul componente o si sostituisce la centralina.&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:14:57">
+  <XDOCUMENTO>
+    <ID>62507691</ID>
+    <DOCNumber>GUR62765</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Sistema Start&amp;Stop</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Guía de ajuste</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Información sobre el sistema</Capitolo>
+      <Corpo> &lt;BR/&gt; El Start&amp;Stop es un dispositivo que apaga automáticamente el motor cada vez que el vehículo se detiene y lo vuelve a encender automáticamente tan pronto como el conductor desea reanudar la marcha. De esta manera se reduce el consumo y las emisiones contaminantes. &lt;BR/&gt; &lt;BR/&gt; Este sistema requiere &lt;B&gt; baterías con una tecnología y características técnicas especiales &lt;/B&gt; , por lo que es necesario prestar la debida atención durante las operaciones de sustitución y mantenimiento de la batería. De hecho, la batería debe tener las mismas características que la batería que se sustituye. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Simbología</Capitolo>
+      <Corpo> &lt;BR/&gt; Indicadores del sistema Start&amp;Stop: &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; A &lt;/B&gt; - Sistema Start&amp;Stop &lt;B&gt; Activo &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; B &lt;/B&gt; - &lt;B&gt; Avería &lt;/B&gt; del sistema Start&amp;Stop &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; C &lt;/B&gt; - Sistema Start&amp;Stop &lt;B&gt; Desactivado &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; D &lt;/B&gt; - Señalización &lt;B&gt; Avería genérica &lt;/B&gt; (sensor de presión del aceite del motor, interruptor inercial, luces exteriores, sensores de aparcamiento, sistema Start&amp;Stop) &lt;BR/&gt; &lt;BR/&gt; También es posible &lt;B&gt; desactivar manualmente el sistema &lt;/B&gt; pulsando el botón correspondiente &lt;B&gt; (E) &lt;/B&gt; situado en el cuadro de instrumentos. La confirmación de la desactivación se indica mediante el encendido de la luz indicadora o del símbolo &lt;B&gt; (C) &lt;/B&gt; presente en la pantalla multifunción &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504340</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504340</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504340</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>21</Ordine>
+      <Capitolo>Activación Start&amp;Stop - Apagado del motor</Capitolo>
+      <Corpo> &lt;BR/&gt; El sistema Start&amp;Stop &lt;B&gt; solo se activa después de superar los 10 km/h &lt;/B&gt; y cuando se dan las siguientes condiciones: &lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; Cambio manual &lt;/B&gt; &lt;BR/&gt; - Vehículo parado &lt;BR/&gt; - Cambio en punto muerto &lt;BR/&gt; - Pedal del embrague soltado &lt;BR/&gt; - Motor a temperatura de funcionamiento &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Cambio automático &lt;/B&gt; &lt;BR/&gt; - Vehículo parado &lt;BR/&gt; - Pedal de freno pisado / Palanca de cambios en posición N &lt;BR/&gt; &lt;BR/&gt; La activación del sistema Start&amp;Stop se confirma mediante el encendido del testigo &lt;B&gt; (A) &lt;/B&gt; o &lt;B&gt; (B) &lt;/B&gt; en el cuadro de instrumentos &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>22</Ordine>
+      <Capitolo>Reinicio del motor</Capitolo>
+      <Corpo> &lt;BR/&gt; Tras la intervención del sistema Start&amp;Stop para volver a arrancar el motor, es necesario: &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Cambio manual &lt;/B&gt; &lt;BR/&gt; - Pisar el pedal del embrague &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Cambio automático &lt;/B&gt; &lt;BR/&gt; - Soltar el pedal del freno / Mover la palanca de cambios de la posición N a cualquier posición de marcha &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Fallo del sistema Start&amp;Stop</Capitolo>
+      <Corpo> &lt;BR/&gt; El mal funcionamiento del sistema Start&amp;Stop se debe a una de estas causas: &lt;BR/&gt;&lt;BR/&gt; - El motor aún no ha alcanzado la temperatura adecuada &lt;BR/&gt; - La batería no está suficientemente cargada &lt;BR/&gt; - La luneta térmica está activada &lt;BR/&gt; - El limpiaparabrisas está activado a la máxima velocidad &lt;BR/&gt; - Se está regenerando el filtro de partículas &lt;BR/&gt; - La puerta del conductor está abierta &lt;BR/&gt; - Cinturón de seguridad del conductor desabrochado &lt;BR/&gt; - Marcha atrás activada &lt;BR/&gt; - Si el climatizador automático aún no ha alcanzado la temperatura deseada en el interior del habitáculo &lt;BR/&gt; - Carretera en pendiente &lt;BR/&gt; - Temperatura exterior muy baja o muy alta &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Arranque automático del motor</Capitolo>
+      <Corpo> &lt;BR/&gt; El sistema prevé la reactivación automática del motor, independientemente de la elección del conductor, cuando se da una de las siguientes condiciones: &lt;BR/&gt;&lt;BR/&gt; - Activación del limpiaparabrisas a máxima velocidad &lt;BR/&gt; - Batería descargada &lt;BR/&gt; - Vehículo en movimiento (carreteras en pendiente) &lt;BR/&gt; - Motor apagado durante más de 3 minutos &lt;BR/&gt; - Baja presión del sistema de frenos &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Desconexión de la batería: versiones con polo negativo falso.</Capitolo>
+      <Corpo> &lt;BR/&gt; Si es necesario desconectar la batería, proceda a desconectar el dispositivo &lt;B&gt; (1) &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; No desconecte el sensor de control de la batería (2). La desconexión del sensor solo debe realizarse en caso de sustitución de la batería. &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Cuando se vuelva a conectar la batería, gire la llave de contacto a la posición «STOP» con la puerta del conductor cerrada y &lt;B&gt; espere al menos 1 minuto para que el sistema complete la inicialización &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504342</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504342</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504342</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>55</Ordine>
+      <Capitolo>Desconexión de la batería: versiones sin polo negativo falso.</Capitolo>
+      <Corpo> &lt;BR/&gt; Si es necesario desconectar la batería, pulse el botón situado en el conector &lt;B&gt; (B) &lt;/B&gt; para desconectar el conector &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; No desconecte el sensor de control de la batería (A). La desconexión del sensor solo debe realizarse en caso de sustitución de la batería. &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Cuando vuelva a conectar la batería, gire la llave de contacto a la posición «STOP» con la puerta del conductor cerrada y &lt;B&gt; espere al menos 1 minuto para que el sistema complete la inicialización &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504345</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504345</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504345</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>80</Ordine>
+      <Capitolo>Arranque de emergencia</Capitolo>
+      <Corpo> &lt;BR/&gt; Si es necesario conectar una batería en paralelo para realizar un arranque de emergencia, conecte &lt;B&gt; el terminal positivo de la batería auxiliar con el terminal positivo de la batería del vehículo &lt;/B&gt; y el &lt;B&gt; terminal negativo a cualquier punto de masa presente en el motor &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Nunca conecte el cable negativo de la batería auxiliar al polo negativo de la batería del vehículo. &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>90</Ordine>
+      <Capitolo>Recarga de batería - Versiones con polo negativo falso</Capitolo>
+      <Corpo> &lt;BR/&gt; Para recargar la batería, proceda de la siguiente manera: &lt;BR/&gt;&lt;BR/&gt; - Desconecte la pinza negativa mediante el desenganche rápido &lt;BR/&gt; - Conecte el cable positivo del cargador de batería al polo positivo de la batería del vehículo &lt;BR/&gt; - Conecte el cable negativo del cargador de batería al polo negativo de la batería &lt;BR/&gt; - Encienda el cargador de batería &lt;BR/&gt; - Una vez finalizado el procedimiento, retire el cargador de batería &lt;BR/&gt; - Vuelva a conectar la pinza negativa &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>95</Ordine>
+      <Capitolo>Recarga de batería - Versiones sin polo negativo falso</Capitolo>
+      <Corpo> &lt;BR/&gt; Para recargar la batería, proceda de la siguiente manera: &lt;BR/&gt;&lt;BR/&gt; - Desconecte el conector del sensor de control de la batería &lt;BR/&gt; - Conecte el cable positivo del cargador de batería al polo positivo de la batería del vehículo &lt;BR/&gt; - Conecte el cable negativo del cargador de batería al polo negativo de la batería del vehículo &lt;BR/&gt; - Encienda el cargador de batería. &lt;BR/&gt; - Una vez finalizado el procedimiento, retire el cargador de batería. &lt;BR/&gt; - Vuelva a conectar el conector. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:26:18">
+  <XDOCUMENTO>
+    <ID>75000518</ID>
+    <DOCNumber>DES75005</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Painel de instrumentos Marelli 2</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Descrição do Sistema</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Descrição</Capitolo>
+      <Corpo>A central de controlo está integrada no painel de instrumentos, localizado no tablier do veículo, acima do volante.  &lt;BR/&gt;  &lt;BR/&gt; A tomada de diagnóstico é do tipo unificado de 16 pinos (EOBD) e está localizada no habitáculo, sob o painel de instrumentos do lado do condutor. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Parâmetros de engenharia</Capitolo>
+      <Corpo>A central de controlo gere vários parâmetros:  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Rotações do motor &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Temperatura do motor &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Nível de combustível,  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Leitura do valor em km (contador de quilómetros)   &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Todos os parâmetros relativos à manutenção (revisão) &lt;BR/&gt;  &lt;BR/&gt; Os parâmetros relativos à manutenção indicam:  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Quilometragem até à próxima revisão &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Quilometragem em que  foi efetuada a revisão  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Número de revisões efetuadas &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Distância em quilómetros até à próxima revisão  &lt;BR/&gt;  &lt;BR/&gt; Outros parâmetros importantes são: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Alarme dos cintos de segurança: Indica o estado (ativado/desativado) do alarme sonoro, dependendo de o cinto ter sido colocado ou não &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Modo de alimentação: indica a condição em que o veículo é configurado no momento do envio (da fábrica para o concessionário). Este modo é também designado por «Logistic Mode» e prevê a desativação de algumas cargas elétricas para minimizar o consumo de corrente da bateria. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Erros</Capitolo>
+      <Corpo>A central de controlo está equipada com uma memória permanente de erros e armazena os parâmetros ambientais no momento em que o erro ocorre. &lt;BR/&gt;  &lt;BR/&gt; Estes são sinalizados  com a comunicação anexa do seu estado: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Erro ativo &lt;/B&gt;  &lt;BR/&gt; Erro atualmente detetado &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Erro memorizado &lt;/B&gt;  &lt;BR/&gt; Erro que já foi registado na memória, e a avaria não está atualmente presente. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Apagamento do(s) erro(s) &lt;/B&gt;  &lt;BR/&gt; Só ocorre mediante o consentimento do operador para apagar o erro através da tecla de apagamento &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Diagnósticos ativos</Capitolo>
+      <Corpo>No ambiente Diagnóstico Ativo são controlados: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Indicador de temperatura da água &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Indicador de nível de combustível &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Indicador de rotações &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Indicador de velocidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Luz de aviso de temperatura máxima da água &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Luz de aviso de reserva de combustível &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Luz de aviso do ABS &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Outras luzes de aviso diversas.  &lt;BR/&gt;  &lt;BR/&gt; Está também presente a ativação de: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Alarme sonoro &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Iluminação dos índices do painel &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Iluminação do LCD.  &lt;BR/&gt;  &lt;BR/&gt; N.B.: Na versão ABARTH, está presente a ativação do indicador de pressão do turbo e a ativação do ecrã. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>6</Ordine>
+      <Capitolo>Ajustes</Capitolo>
+      <Corpo> &lt;B&gt; Teste do corretor de alinhamento dos faróis &lt;/B&gt;  &lt;BR/&gt; para ajustar o ângulo dos faróis de cruzamento &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Reinicialização do conta-quilómetros &lt;/B&gt;  &lt;BR/&gt; Para zerar o conta-quilómetros apenas se o valor for inferior a 200 km e se o símbolo &quot;H&quot; estiver presente à frente do número de quilómetros.  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Apagamento das informações de manutenção &lt;/B&gt;  &lt;BR/&gt; onde todos os parâmetros relativos à revisão são reiniciados para uma distância de 30 000 km (ou seja, até à próxima revisão). Nota: Deve ser efetuado em cada revisão.  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Desativação do alarme dos cintos de segurança/Ativação do alarme dos cintos de segurança  &lt;/B&gt;  &lt;BR/&gt; Permitem ativar ou desativar o alarme sonoro em caso de não utilização dos cintos de segurança pelo condutor. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Substituição do painel de instrumentos &lt;/B&gt;  &lt;BR/&gt; Este procedimento lê as características do painel antigo, que são: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Valor dos km &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Distância desde a última revisão &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Número da revisão &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Data da última revisão  &lt;BR/&gt;  &lt;BR/&gt; e as transfere para o novo painel.  &lt;BR/&gt;  &lt;BR/&gt; N.B.: a realizar apenas em caso de substituição da central. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

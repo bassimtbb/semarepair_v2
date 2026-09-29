@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-06T18:27:34">
+  <XDOCUMENTO>
+    <ID>199059511</ID>
+    <DOCNumber>GUP79810</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Instrumentation malfunction</Titolo>
+    <InfoDoc>ACCESSORIES | SPEEDOMETERS | OFF | WARNING LIGHTS | DASHBOARD | INSTRUMENTS | INACTIVE | INDICATORS | ANALOGUE | RESET</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199059511</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degree of reliability (**)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legend of the degree of reliability&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* low level&lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** medium level&lt;/B&gt; : Extensive fault history, found by service technicians and repairers.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** high level&lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199059511</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Validity: &lt;/B&gt; all &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; accessories &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; control unit body computer &lt;BR/&gt;  &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; the speedometer display remains off, no warning lights come on on the dashboard, the analogue instruments remain at zero, opening the driver&apos;s door causes the speedometer display to start working again &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Errors detected by self-diagnosis: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; faulty body computer control unit &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199059511</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention: &lt;/B&gt; replacement of the body computer control unit &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; after replacement, programming via self-diagnostic tester is not necessary &lt;BR/&gt;&lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Notes: &lt;/B&gt; &lt;BR/&gt; (1) replacement code 0051931819 &lt;BR/&gt; (2) intervention time approximately 1 hour &lt;BR/&gt; (3) the control unit must be ordered based on the chassis number &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

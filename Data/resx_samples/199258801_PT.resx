@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T00:26:19">
+  <XDOCUMENTO>
+    <ID>199258801</ID>
+    <DOCNumber>GUP86673</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Problemas de vazão do líquido de limpeza de pára-brisas e humidade ao longo das tubagens</Titolo>
+    <InfoDoc>CARROZZERIA | 50.001.19 | TERGICRISTALLO | SPAZZOLE | ESCE | ACQUA | POCA | CONDENSA | PARABREZZA | VETRO | DAVANTI | DIETRO | ANTERIORE | POSTERIORE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199258801</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Nível de fiabilidade   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda do grau de fiabilidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nível baixo &lt;/B&gt; : Detecção pelo mecânico, caso de avaria não constatado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nível médio &lt;/B&gt; : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nível alto &lt;/B&gt; : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199258801</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sistema: &lt;/B&gt;  Carroçaria &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt;  Limpador de pára-brisas &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Anomalia: &lt;/B&gt;  Quantidade baixa ou ausente de líquido de limpeza de pára-brisas na saída e possível presença de humidade nas proximidades das tubagens correspondentes &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Erros detetados pelo autodiagnóstico: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Causa: &lt;/B&gt;  Fuga de líquido da conduta que alimenta o lava-vidros dianteiro e/ou traseiro &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199258801</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Intervenção: &lt;/B&gt;  Reparação de tubagem danificada &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  Para poder proceder à reparação da tubagem danificada, é necessário, em primeiro lugar, identificar o tipo de tubagem presente no veículo em questão: &lt;BR/&gt;  &lt;OL&gt;    &lt;LI&gt;  Tubagem do tipo  &lt;B&gt; AEC &lt;/B&gt; : Efetue a reparação utilizando o Kit n.º 51922436, composto por tubos ondulados, colares de junção e racores. &lt;BR/&gt;  &lt;BR/&gt;  &lt;UL&gt;    &lt;LI&gt;  Se a fuga se encontrar na ligação da tubagem de alimentação, substitua o troço danificado da seguinte forma: corte a tubagem danificada, una-a ao novo troço do kit, utilizando o racor e o colar de junção, certificando-se de que as juntas de borracha estão corretamente posicionadas. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Se a fuga se encontrar ao longo da tubagem de pressão: corte e una os troços com ambos os racores incluídos no kit, restabeleça, se necessário, a fita isolante na cablagem e volte a montar os componentes.  &lt;/UL&gt;  &lt;BR/&gt;  &lt;LI&gt;  Tubagem do tipo  &lt;B&gt; FRANKISCHE &lt;/B&gt; : Efetue a reparação utilizando o Kit n.º 50527045. Se a fuga ocorrer na junção da tubagem de pressão, substitua o troço danificado da seguinte forma: corte a tubagem danificada e una-a ao novo troço do kit, aplicando as juntas O-Ring e o silicone fornecidos. Insira as extremidades das tubagens no racor e aplique os clipes de vedação. Aperte as presilhas até que as molas de fixação encaixem corretamente. Verifique se não há fugas e proceda à remontagem dos componentes. &lt;/OL&gt;  &lt;LI&gt;  &lt;B&gt; Nota: &lt;/B&gt;  Atenção! Os kits são aplicáveis exclusivamente em tubagens do tipo ondulado. &lt;BR/&gt;  &lt;BR/&gt; Código do KIT de reparação de tubagem tipo AEC n.º 51922436. &lt;BR/&gt;  &lt;BR/&gt; Código do KIT de reparação de tubagem tipo FRANKISCHE n.º 50527045. &lt;BR/&gt;  &lt;BR/&gt; Tempo previsto para a execução da operação: 6 minutos. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

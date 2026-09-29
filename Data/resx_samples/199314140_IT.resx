@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T01:32:07">
+<XDOCUMENTO>
+<ID>199314140</ID>
+<DOCNumber>GUP98961</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Spia e messaggio &quot;Sistema Park Sensor non disponibile&quot; / &quot;Blocco Sensori&quot;</Titolo>
+<InfoDoc>ADAS |  C1001-29 | C1002-29 | C1003-29 | C1004-29 | C1005-29 | C1006-29 | C1007-29 | C1008-29 | C100B-29 | C100C-29 | C100D-29 | C100E-29 | C1013-29 | C1014-29 | C1015-29 | C1016-29 | SENSORI | PARCHEGGIO | PARK | ASSIST |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199314140</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (***)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199314140</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Validità:&lt;/B&gt; Tutti i veicoli provvisti di sensori di parcheggio ad ultrasuoni a 4, 8 o 12 canali:&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Park Assist.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Sensori di parcheggio ad ultrasuoni &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Accensione di spia e relativo messaggio sul display del quadro strumenti: &quot;Sistema Park Sensor non disponibile&quot; oppure &quot;Blocco Sensori&quot;, o analoghe segnalazioni per il sistema Active ParkAssist.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt;Uno o più dei seguenti errori:&lt;UL&gt;&lt;LI&gt; C1001-29 — Sensore anteriore esterno sinistro, segnale non valido&lt;BR/&gt;&lt;LI&gt; C1002-29 — Sensore anteriore interno sinistro, segnale non valido&lt;BR/&gt;&lt;LI&gt; C1003-29 — Sensore anteriore interno destro, segnale non valido&lt;BR/&gt;&lt;LI&gt; C1004-29 — Sensore anteriore esterno destro, segnale non valido&lt;BR/&gt;&lt;LI&gt; C1005-29 — Sensore anteriore laterale sinistro, segnale non valido&lt;BR/&gt;&lt;LI&gt; C1006-29 — Sensore posteriore laterale sinistro, segnale non valido&lt;BR/&gt;&lt;LI&gt; C1007-29 — Sensore posteriore laterale destro, segnale non valido&lt;BR/&gt;&lt;LI&gt; C1008-29 — Sensore anteriore laterale destro, segnale non valido&lt;BR/&gt;&lt;LI&gt; C100B-29 — Sensore posteriore esterno sinistro, segnale non valido&lt;BR/&gt;&lt;LI&gt; C100C-29 — Sensore posteriore interno sinistro, segnale non valido&lt;BR/&gt;&lt;LI&gt; C100D-29 — Sensore posteriore interno destro (centrale su Tipo), segnale non valido&lt;BR/&gt;&lt;LI&gt; C100E-29 — Sensore posteriore esterno destro, segnale non valido&lt;BR/&gt;&lt;LI&gt; C1013-29 — Sensore Parkfit anteriore sinistro, segnale non valido&lt;BR/&gt;&lt;LI&gt; C1014-29 — Sensore Parkfit anteriore destro, segnale non valido&lt;BR/&gt;&lt;LI&gt; C1015-29 — Sensore Parkfit posteriore sinistro, segnale non valido&lt;BR/&gt;&lt;LI&gt; C1016-29 — Sensore Parkfit posteriore destro, segnale non valido&lt;/UL&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; L&apos;attivazione del DTC C10xx-29 (segnale non valido), dove &quot;x&quot; identifica la posizione del sensore sul paraurti, può dipendere da quattro possibili origini: &lt;UL&gt; &lt;LI&gt; Montaggio non corretto del sensore&lt;BR/&gt;&lt;LI&gt; Presenza di sporco o ghiaccio sulla superficie del sensore&lt;BR/&gt;&lt;LI&gt; Danneggiamento dell&apos;anello O-ring o della superficie del sensore stesso&lt;BR/&gt;&lt;LI&gt; Funzionamento non corretto del sensore di parcheggio.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199314140</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Procedere con la verifica sistematica delle possibili cause prima di considerare la sostituzione del sensore. &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt;&lt;OL&gt; &lt;LI&gt; Verificare con lo strumento di diagnosi la presenza del DTC C10xx-29 attivo, identificando la posizione del sensore interessato.&lt;BR/&gt;&lt;LI&gt; Controllare la presenza di sporcizia o ghiaccio sulla superficie del sensore; in tal caso, pulire la superficie e ripetere la verifica.&lt;BR/&gt;&lt;LI&gt;Controllare il corretto montaggio del sensore, la presenza e l&apos;integrità dell&apos;anello di tenuta e l&apos;accoppiamento con il paraurti; ripristinare il montaggio se necessario.&lt;BR/&gt;&lt;LI&gt; Ispezionare la superficie esterna del sensore e la zona circostante per individuare difetti, graffi, ammaccature o segni di urto con altri veicoli od oggetti.&lt;BR/&gt;&lt;LI&gt; Se nessuna delle condizioni precedenti risulta verificata, cancellare gli errori con lo strumento di diagnosi e controllare se il DTC ricompare in stato attivo.&lt;/OL&gt;In caso di errore nuovamente attivo senza cause esterne riscontrate, sostituire il sensore.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

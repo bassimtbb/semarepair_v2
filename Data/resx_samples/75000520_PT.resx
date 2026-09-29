@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:26:20">
+  <XDOCUMENTO>
+    <ID>75000520</ID>
+    <DOCNumber>DES75007</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Injeção Marelli IAW 5SF8 - Euro 4</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Descrição do Sistema</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Descrição</Capitolo>
+      <Corpo>A central de controlo eletrónica está localizada no compartimento do motor.  &lt;BR/&gt;  &lt;BR/&gt; A tomada de diagnóstico é do tipo unificado de 16 pinos (EOBD) e está localizada no habitáculo, sob o painel de instrumentos do lado do condutor. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Parâmetros de engenharia</Capitolo>
+      <Corpo>A central de controlo gere todos os parâmetros característicos das injeções de gasolina, tais como os seguintes: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Rotações do motor &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Temperatura do motor &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Tensão da bateria &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; …………………  &lt;BR/&gt;  &lt;BR/&gt; Em particular, destacam-se também os seguintes parâmetros: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Antecipação calculada &lt;/B&gt;  &lt;BR/&gt; Indica o valor de antecipação calculado pela central para satisfazer as condições de funcionamento do motor. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Integrador Lambda &lt;/B&gt;  &lt;BR/&gt; É a correção efetuada pela central de controlo na quantidade de combustível para atingir a correta relação ar/combustível. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Velocidade alvo do Cruise Control &lt;/B&gt;  &lt;BR/&gt; Indica a velocidade à qual o “CRUISE CONTROL” se refere para a velocidade de cruzeiro do veículo. O valor só é fiável a velocidades superiores a 30 km/h. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Erros</Capitolo>
+      <Corpo>A central de controlo está equipada com uma memória permanente de erros e armazena os parâmetros ambientais no momento em que o erro ocorre. &lt;BR/&gt;  &lt;BR/&gt; Estes são sinalizados  com a comunicação anexa do seu estado: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Erro ativo &lt;/B&gt;  &lt;BR/&gt; Erro atualmente detetado &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Erro memorizado &lt;/B&gt;  &lt;BR/&gt; Erro que já foi registado na memória, e a avaria não está atualmente presente. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Apagamento do(s) erro(s) &lt;/B&gt;  &lt;BR/&gt; Só ocorre mediante o consentimento do operador para apagar o erro através da tecla de apagamento &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Diagnósticos ativos</Capitolo>
+      <Corpo>No ambiente Diagnóstico Ativo, são controlados os seguintes dispositivos: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Compressor do ar condicionado &lt;/B&gt;  &lt;BR/&gt; O relé do ar condicionado é ativado durante cerca de dez segundos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Bobina 1-2-3-4 &lt;/B&gt;  &lt;BR/&gt; As bobinas AT são controladas separadamente. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Relé da bomba de combustível &lt;/B&gt;  &lt;BR/&gt; O relé da bomba de combustível é ativado. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Injetor 1-2-3-4 &lt;/B&gt;   &lt;BR/&gt; Os injetores são acionados individualmente &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Ventilador 1.ª-2.ª velocidade &lt;/B&gt;  &lt;BR/&gt; Os ventiladores são acionados individualmente  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Resistência de aquecimento da sonda lambda 1 a montante e 1 a jusante &lt;/B&gt;  &lt;BR/&gt; O elemento de aquecimento no interior da sonda lambda é acionado. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Eletroválvula do canister &lt;/B&gt;  &lt;BR/&gt; É acionada durante cerca de dez segundos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Comando da luz de avaria &lt;/B&gt;  &lt;BR/&gt; É acionado durante cerca de dez segundos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; VVT (variador de fase) &lt;/B&gt;  &lt;BR/&gt; Ao ativar, deve ouvir-se o componente a fazer um tique-taque.</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>6</Ordine>
+      <Capitolo>Ajustes</Capitolo>
+      <Corpo>Os ajustes que podem ser efetuados são os seguintes: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Arranque com cartão de código &lt;/B&gt;  &lt;BR/&gt; Utilizando o cartão de código do veículo, permite efetuar o arranque do motor em caso de avaria da chave ou da central de controlo eletrónica da chave/computador de bordo (se presente). &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Memorização da aprendizagem da válvula de mariposa &lt;/B&gt;  &lt;BR/&gt; É efetuada a memorização da autoaprendizagem da válvula de mariposa motorizada. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Reinicialização da aprendizagem da roda fonica &lt;/B&gt;  &lt;BR/&gt; A realizar sempre que se intervir na roda fonica ou no sensor de rotações  &lt;BR/&gt; N.B.: Efetue primeiro a reinicialização dos parâmetros autoadaptativos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Reinicialização dos parâmetros autoadaptativos &lt;/B&gt;  &lt;BR/&gt; Os valores definidos de fábrica são restaurados nos mapas da central de controlo &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Apagamento da configuração do veículo &lt;/B&gt;  &lt;BR/&gt; Apaga a configuração: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Tipo de caixa de velocidades &lt;BR/&gt;  &lt;LI&gt; Tipo de ar condicionado &lt;BR/&gt;  &lt;LI&gt; Controlo de velocidade de cruzeiro &lt;BR/&gt;  &lt;LI&gt; ABS &lt;BR/&gt;  &lt;LI&gt; Direção elétrica &lt;BR/&gt;  &lt;BR/&gt; para que a central de controlo reaprenda a nova configuração.  &lt;BR/&gt; N.B.: A executar apenas em caso de erros na configuração ou na montagem de centrais de controlo não originais. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Reinicialização dos ângulos de came (VVT) &lt;/B&gt;  &lt;BR/&gt; São  zerados os dados, na central, relativos às frentes de came do variador de fase.  &lt;BR/&gt; Durante o primeiro arranque do motor, após esse zeramento, os novos valores são aprendidos automaticamente. &lt;BR/&gt;  &lt;BR/&gt; Nota: A executar quando se intervém no componente ou se substitui a central. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

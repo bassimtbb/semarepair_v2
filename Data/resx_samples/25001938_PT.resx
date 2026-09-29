@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-23T04:33:08">
+  <XDOCUMENTO>
+    <ID>25001938</ID>
+    <DOCNumber>INT25057</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>Fiat 500</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Recalls Oficiais</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Fonte dos dados - Ministério dos Transportes</Capitolo>
+      <Corpo> &lt;B&gt; Fabricante: &lt;/B&gt;  Fiat Auto S.p.a.  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Marca: &lt;/B&gt;  Fiat  &lt;BR/&gt;  &lt;BR/&gt; Anomalias reconhecidas pelos fabricantes com base no D.D. 78/2000</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Fiat 500</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de veículos: 108 &lt;BR/&gt; Período de produção: JUN 2020 &lt;BR/&gt; Descrição da avaria: POSSÍVEL AVARIA NO SISTEMA START-STOP &lt;BR/&gt; Ações corretivas: ATUALIZAÇÃO PROXI &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas - &lt;BR/&gt; Intervalo de chassis de: ZFA3120000JD77396  &lt;BR/&gt; Intervalo de chassis a: ZFA3120000JD80992 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 298 &lt;BR/&gt; Período de produção: NOV 2018 DEZ 2018 &lt;BR/&gt; Descrição da avaria: POSSÍVEL RUPTURA DO SEMIEIXE DIREITO ANTERIOR &lt;BR/&gt; Medidas corretivas: SUBSTITUIÇÃO &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas - &lt;BR/&gt; Intervalo de chassis de: ZFA3120000JB11886  &lt;BR/&gt; Intervalo de chassis a: ...25994 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 22356 &lt;BR/&gt; Período de produção: OUT 2017 ABR 2019 &lt;BR/&gt; Descrição da avaria: POSSÍVEL AVARIA NO AIRBAG &lt;BR/&gt; Medidas corretivas: ATUALIZAÇÃO DO SOFTWARE DA UNIDADE DE CONTROLO &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas - &lt;BR/&gt; Intervalo de chassis de: ZFA3340000P622051  &lt;BR/&gt; Intervalo de chassis a: ...787333 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 11543 &lt;BR/&gt; Período de produção: JUL 2017 AGO 2017 &lt;BR/&gt; Descrição da avaria: POSSÍVEL BLOQUEIO DO INDICADOR DE VELOCIDADE &lt;BR/&gt; Ações corretivas: SUBSTITUIÇÃO DO PAINEL DE INSTRUMENTOS &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas - &lt;BR/&gt; Intervalo de chassis de: ZFA3120000J843082  &lt;BR/&gt; Intervalo de chassis a: ZFA3100000J858977 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 26 &lt;BR/&gt; Período de produção: MAR 2017 &lt;BR/&gt; Descrição da avaria: NÃO CONFORMIDADE DA CAIXA DE DIREÇÃO &lt;BR/&gt; Medidas corretivas: EVENTUAL SUBSTITUIÇÃO &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas - &lt;BR/&gt; Intervalo de chassis de: ZFA3120000J762210  &lt;BR/&gt; Intervalo de chassis até: ZFA3120000J7653319 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 321 &lt;BR/&gt; Período de produção: SET 2016 &lt;BR/&gt; Descrição da falha: LÂMINAS DOS TRAVÕES TRASEIROS FORA DE NORMA &lt;BR/&gt; Medidas corretivas: EVENTUAL SUBSTITUIÇÃO &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas - &lt;BR/&gt; Intervalo de chassis de: ZFA3120000J658682  &lt;BR/&gt; Intervalo de chassis a: ….664976 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 2176 &lt;BR/&gt; Período de produção: DEZ 2015 JAN 2016 &lt;BR/&gt; Descrição da avaria: GUIA DO BANCO DA FRENTE DIREITO NÃO CONFORME &lt;BR/&gt; Medidas corretivas: EVENTUAL SUBSTITUIÇÃO DA ESTRUTURA &lt;BR/&gt; Referência 80034280000 &lt;BR/&gt; Notas - &lt;BR/&gt; Intervalo de chassis de: ZFA3120000J516840  &lt;BR/&gt; Intervalo de chassis a: ZFA3120000J527059 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 20 &lt;BR/&gt; Período de produção: SET 2014 OUT 2014 &lt;BR/&gt; Descrição da falha: BARRAS DE FIXAÇÃO DOS CINTOS DE SEGURANÇA DIANTEIROS NÃO CONFORMES &lt;BR/&gt; Medidas corretivas: SUBSTITUIÇÃO &lt;BR/&gt; Referência dos CONCESSIONÁRIOS &lt;BR/&gt; Notas - &lt;BR/&gt; Intervalo de chassis de: ZFA3120000J281982  &lt;BR/&gt; Intervalo de chassis a: ZFA3120000J286237 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 198 &lt;BR/&gt; Período de produção: de junho de 2012 a setembro de 2012 &lt;BR/&gt; Descrição da falha: Não conformidade da tubagem do depressor do servofreio &lt;BR/&gt; Ações corretivas: Verificação e eventual substituição &lt;BR/&gt; Referência: Concessionários &lt;BR/&gt; Intervalo de chassis de: ZFA31200000878086  &lt;BR/&gt; Intervalo de chassis a: ZFA31200000890578 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 319 &lt;BR/&gt; Período de produção: Junho de 2010 &lt;BR/&gt; Descrição da falha: Parafuso de fixação do cardã da coluna de direção não conforme &lt;BR/&gt; Medidas corretivas: Eventual substituição &lt;BR/&gt; Referência: Concessionárias &lt;BR/&gt; Intervalo de chassis de: ZFA31200000549070  &lt;BR/&gt; Intervalo de chassis até: ZFA31200000550399 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 910  &lt;BR/&gt; Período de produção: de setembro de 2009 a dezembro de 2009 &lt;BR/&gt; Descrição da falha: Não conformidade do eixo intermediário da direção  &lt;BR/&gt; Medidas corretivas: Verificação e eventual substituição &lt;BR/&gt; Referência: Concessionárias  &lt;BR/&gt; Intervalo de chassis de: ZFA31200000396248  &lt;BR/&gt; Intervalo de chassis a: ZFA31200000438371 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 24579  &lt;BR/&gt; Período de produção: de setembro de 2008 a fevereiro de 2009 &lt;BR/&gt; Descrição da falha: Possível afrouxamento dos parafusos de fixação da placa de fixação das pastilhas de travão traseiras  &lt;BR/&gt; Ações corretivas: Verificação e eventual aperto &lt;BR/&gt; Referência: Concessionário &lt;BR/&gt; Intervalo de chassis de: ZFA31200000206893  &lt;BR/&gt; Intervalo de chassis a: ZFA31200000279954 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 20799  &lt;BR/&gt; Período de produção: de outubro de 2007 a novembro de 2007  &lt;BR/&gt; Descrição da avaria: Possível anomalia no processo de vulcanização do tubo de borracha do sistema de travagem  &lt;BR/&gt; Ações corretivas: Verificação e eventual substituição  &lt;BR/&gt; Referência: Concessionário &lt;BR/&gt; Notas: Para chassis não consecutivos, consulte os concessionários  &lt;BR/&gt; Intervalo de chassis de: 500: zfa31200000032289  &lt;BR/&gt; Intervalo de chassis a: zfa31200000039463 &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Fiat 500 1.3 Multijet</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de veículos: 899  &lt;BR/&gt; Período de produção: de fevereiro de 2010 a abril de 2010 &lt;BR/&gt; Descrição da avaria: Possível não conformidade dos parafusos de fixação da bomba hidráulica do comando da embraiagem e consequente impossibilidade de engatar as mudanças  &lt;BR/&gt; Ações corretivas: Substituição dos parafusos de fixação &lt;BR/&gt; Intervalo de chassis de: ZFA31200000454835  &lt;BR/&gt; Intervalo de chassis a: ZFA31200000508162 &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Fiat 500 1.2 e 1.4 8v</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de veículos: 2547  &lt;BR/&gt; Período de produção: de julho de 2008 a outubro de 2008 &lt;BR/&gt; Descrição da avaria: Possível não conformidade do coletor de combustível do motor &lt;BR/&gt; Ações corretivas: Verificação e eventual substituição &lt;BR/&gt; Referência: Concessionária  &lt;BR/&gt; Intervalo de chassis de: ZFA31200000202179  &lt;BR/&gt; Intervalo de chassis a: ZFA31200000223226 &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Fiat 500 Elétrico</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de veículos: 9 &lt;BR/&gt; Período de produção: OUT 2012 ABR 2014 &lt;BR/&gt; Descrição da avaria: MÓDULO INVERSOR DE ALIMENTAÇÃO NÃO CONFORME &lt;BR/&gt; Ações corretivas: SUBSTITUIÇÃO &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas CHASSIS NÃO INDICADO &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 14 &lt;BR/&gt; Período de produção: OUT 2012 NOV 2014 &lt;BR/&gt; Descrição do defeito: PERDA DE POTÊNCIA DO MOTOR CAUSADA POR AVARIA NO SISTEMA ELÉTRICO DE ALTA TENSÃO &lt;BR/&gt; Ações corretivas: ATUALIZAÇÃO DE SOFTWARE &lt;BR/&gt; Referência 80034280000 &lt;BR/&gt; Notas CHASSIS: CONSULTAR CONCESSIONÁRIOS &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 19 &lt;BR/&gt; Período de produção: OUT 2012 JAN 2016 &lt;BR/&gt; Descrição da falha: MÓDULO INVERSOR DE ALIMENTAÇÃO (PIM) NÃO PROGRAMADO DE ACORDO COM AS NORMAS, COM CONSEGUENTE PERDA DE POTÊNCIA MOTORA &lt;BR/&gt; Ações corretivas: REPROGRAMAÇÃO &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas - &lt;BR/&gt; Intervalo de chassis de: 3C3CFFGE0DT500186  &lt;BR/&gt; Intervalo de chassis a: 3C3CFFGEXGT205326 &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>25001938</RifIDDoc>
+      <LinkUtili>Link Ministério das Infraestruturas e dos Transportes</LinkUtili>
+      <Ordine>1</Ordine>
+      <RifIDDocLink>15000122</RifIDDocLink>
+      <XLINKDOC>
+        <ID>15000122</ID>
+        <DOCNumber>LNK00008</DOCNumber>
+        <Documento>Ir para: Recalls - Ministério dos Transportes</Documento>
+        <URL>LINKDOC:15000122</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T00:26:17">
+  <XDOCUMENTO>
+    <ID>199258801</ID>
+    <DOCNumber>GUP86673</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Problems with windscreen washer fluid flow and moisture along the pipes</Titolo>
+    <InfoDoc>BODYWORK | 50.001.19 | WINDSCREEN WIPER | BRUSHES | COMES OUT | WATER | LITTLE | CONDENSATION | WINDSCREEN | GLASS | FRONT | REAR | FRONT | REAR |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199258801</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degree of reliability (***)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legend of the degree of reliability&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* low level&lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** medium level&lt;/B&gt; : Extensive fault history, found by service technicians and repairers.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** high level&lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199258801</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Bodywork &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Windscreen wiper &lt;BR/&gt;&lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; Low or no windscreen washer fluid output and possible presence of moisture near the relevant pipes &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Errors detected by self-diagnosis: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Fluid leak from the pipe supplying the front and/or rear windscreen washer &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199258801</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Task: &lt;/B&gt; Repair of damaged hose &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; In order to proceed with the repair of the damaged hose, it is first necessary to identify the type present in the vehicle in question: &lt;BR/&gt;  &lt;OL&gt; &lt;LI&gt; Hose type &lt;B&gt; AEC &lt;/B&gt; : Carry out the repair using Kit No. 51922436, comprising corrugated hoses, hose clamps and fittings. &lt;BR/&gt; &lt;BR/&gt; &lt;UL&gt;    &lt;LI&gt; If the leak is at the supply pipe joint, replace the damaged section as follows: cut the damaged pipe, join it to the new section from the kit using the fitting and the coupling, ensuring that the rubber seals are positioned correctly. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; If the leak is along the supply pipe: cut and join the sections using both fittings included in the kit, reapply tape to the wiring if necessary, and refit the components. &lt;/UL&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt;FRANKISCHE&lt;/B&gt; type pipe : Carry out the repair using Kit No. 50527045. If the leak is at the supply pipe joint, replace the damaged section as follows: cut the damaged pipe and join it to the new section from the kit, fitting the O-rings and silicone sealant supplied. Insert the pipe ends into the fitting and fit the sealing clips. Tighten the clips until the locking tabs are properly engaged. Check for leaks and reassemble the components. &lt;/OL&gt; &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; Warning! The kits are only suitable for use on corrugated pipes. &lt;BR/&gt;&lt;BR/&gt; AEC-type pipe repair kit code no. 51922436. &lt;BR/&gt; &lt;BR/&gt; FRANKISCHE-type pipe repair kit code no. 50527045. &lt;BR/&gt; &lt;BR/&gt; Estimated time required for the operation: 6 minutes. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

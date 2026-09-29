@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2020-07-09T03:20:59">
+<XDOCUMENTO>
+<ID>62502124</ID>
+<DOCNumber>LCZ62680</DOCNumber>
+<RifIDTipoRis>23</RifIDTipoRis>
+<Titolo>Control units and components - Cabriolet</Titolo>
+<InfoDoc>^</InfoDoc>
+<RifIDFileICO>413</RifIDFileICO>
+<XFILE>
+<ID>413</ID>
+<Type>IMG</Type>
+<URL>GETFILE:413</URL>
+</XFILE>
+<XTIPORIS>
+<ID>23</ID>
+<TipoRis>LCZ</TipoRis>
+<DscRis>Components Localization</DscRis>
+<RifIDFileCSS>5</RifIDFileCSS>
+<RifIDTemplate>2</RifIDTemplate>
+<XFILE>
+<ID>5</ID>
+<Type>CSS</Type>
+<URL>GETFILE:5</URL>
+</XFILE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLCOMPONENTE</IDLabel>
+<Stringa>Component</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLDESCRIZIONE</IDLabel>
+<Stringa>Component Description</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLDETTAGLIO</IDLabel>
+<Stringa>Detail</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG1</IDLabel>
+<Stringa>Part1</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG2</IDLabel>
+<Stringa>Part 2</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG3</IDLabel>
+<Stringa>Part3</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG4</IDLabel>
+<Stringa>Part 4</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG5</IDLabel>
+<Stringa>Part 5</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG6</IDLabel>
+<Stringa>Part 6</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKLEGENDA</IDLabel>
+<Stringa>Legend</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLLOCALIZZAZIONE</IDLabel>
+<Stringa>Localization</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLNUMERO</IDLabel>
+<Stringa>N.</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKPDF</IDLabel>
+<Stringa>PDF</Stringa>
+</XRISORSE>
+</XTIPORIS>
+<XSCHEMA>
+<RifIDDoc>62502124</RifIDDoc>
+<RifIDFileIMGANIa>62502991</RifIDFileIMGANIa>
+<RifIDFileIMGANIb>0</RifIDFileIMGANIb>
+<RifIDFileIMGANIc>0</RifIDFileIMGANIc>
+<RifIDFileIMGANId>0</RifIDFileIMGANId>
+<RifIDFileIMGANIe>0</RifIDFileIMGANIe>
+<RifIDFileIMGANIf>0</RifIDFileIMGANIf>
+<RifIDFilePDF>0</RifIDFilePDF>
+<FlagTooltips>1</FlagTooltips>
+<XFILEIMG1>
+<ID>62502991</ID>
+<Type>ANI</Type>
+<URL>GETFILE:62502991</URL>
+</XFILEIMG1>
+<XFILEIMG2>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG2>
+<XFILEIMG3>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG3>
+<XFILEIMG4>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG4>
+<XFILEIMG5>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG5>
+<XFILEIMG6>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG6>
+<XFILEPDF>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEPDF>
+</XSCHEMA>
+<XSCHLEGENDA>
+<RifIDDoc>62502124</RifIDDoc>
+<Numero>1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Electric roof control unit</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>Cockpit under the roof cladding</Localizzazione>
+<RifIDDocCMP>62502120</RifIDDocCMP>
+<URL>LINKDOC:62502120</URL>
+<Parte>a</Parte>
+<Ordine>100</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>62502124</RifIDDoc>
+<Numero>2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Air conditioning control unit</NomeComp>
+<DettComp>M070</DettComp>
+<Localizzazione>Cockpit behind the centre console</Localizzazione>
+<RifIDDocCMP>62502123</RifIDDocCMP>
+<URL>LINKDOC:62502123</URL>
+<Parte>a</Parte>
+<Ordine>200</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>62502124</RifIDDoc>
+<Numero>3</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Injection Control Unit</NomeComp>
+<DettComp>M010</DettComp>
+<Localizzazione>Engine compartment engine housing in the middle</Localizzazione>
+<RifIDDocCMP>62502120</RifIDDocCMP>
+<URL>LINKDOC:62502120</URL>
+<Parte>a</Parte>
+<Ordine>300</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>62502124</RifIDDoc>
+<Numero>4</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Automatic Gearbox Control Unit</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>Cockpit under the passenger side dashboard</Localizzazione>
+<RifIDDocCMP>62506714</RifIDDocCMP>
+<URL>LINKDOC:62506714</URL>
+<Parte>a</Parte>
+<Ordine>400</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>62502124</RifIDDoc>
+<Numero>5</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Cabin filter / pollen filter</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>Cockpit under the Central Tunnel</Localizzazione>
+<RifIDDocCMP>25019694</RifIDDocCMP>
+<URL>LINKDOC:25019694</URL>
+<Parte>a</Parte>
+<Ordine>500</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>62502124</RifIDDoc>
+<Numero>6</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Airbag control unit</NomeComp>
+<DettComp>M060</DettComp>
+<Localizzazione>Cockpit behind the central tunnel at the bottom</Localizzazione>
+<RifIDDocCMP>1555</RifIDDocCMP>
+<URL>LINKDOC:1555</URL>
+<Parte>a</Parte>
+<Ordine>600</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>62502124</RifIDDoc>
+<Numero>7</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>ABS control unit</NomeComp>
+<DettComp>M051</DettComp>
+<Localizzazione>Engine compartment near the starter battery</Localizzazione>
+<RifIDDocCMP>1554</RifIDDocCMP>
+<URL>LINKDOC:1554</URL>
+<Parte>a</Parte>
+<Ordine>700</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>62502124</RifIDDoc>
+<Numero>8</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Branch control unit / fuses</NomeComp>
+<DettComp>B001</DettComp>
+<Localizzazione>Engine compartment near the starter battery</Localizzazione>
+<RifIDDocCMP>87000003</RifIDDocCMP>
+<URL>LINKDOC:87000003</URL>
+<Parte>a</Parte>
+<Ordine>800</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>62502124</RifIDDoc>
+<Numero>9</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Power Steering Unit</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>Cockpit on the steering column</Localizzazione>
+<RifIDDocCMP>62502120</RifIDDocCMP>
+<URL>LINKDOC:62502120</URL>
+<Parte>a</Parte>
+<Ordine>900</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>62502124</RifIDDoc>
+<Numero>10</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Body Computer Control Unit</NomeComp>
+<DettComp>M001</DettComp>
+<Localizzazione>Cockpit under the steering wheel on the left side</Localizzazione>
+<RifIDDocCMP>62502120</RifIDDocCMP>
+<URL>LINKDOC:62502120</URL>
+<Parte>a</Parte>
+<Ordine>1000</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>62502124</RifIDDoc>
+<Numero>11</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Fuse Box Cockpit</NomeComp>
+<DettComp>B002</DettComp>
+<Localizzazione>Cockpit under the steering wheel on the left side</Localizzazione>
+<RifIDDocCMP>87000003</RifIDDocCMP>
+<URL>LINKDOC:87000003</URL>
+<Parte>a</Parte>
+<Ordine>1100</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>62502124</RifIDDoc>
+<Numero>12</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Diagnosis socket</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>Cockpit under the steering wheel on the left side</Localizzazione>
+<RifIDDocCMP>62503105</RifIDDocCMP>
+<URL>LINKDOC:62503105</URL>
+<Parte>a</Parte>
+<Ordine>1200</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>62502124</RifIDDoc>
+<Numero>13</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Parking sensors control unit</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>Luggage compartment under the left rear cover</Localizzazione>
+<RifIDDocCMP>62502120</RifIDDocCMP>
+<URL>LINKDOC:62502120</URL>
+<Parte>a</Parte>
+<Ordine>1300</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>62502124</RifIDDoc>
+<Numero>14</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Vehicle identification plate (VIN)</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>Left side luggage compartment on the suspension pillar</Localizzazione>
+<RifIDDocCMP>25019463</RifIDDocCMP>
+<URL>LINKDOC:25019463</URL>
+<Parte>a</Parte>
+<Ordine>1400</Ordine>
+</XSCHLEGENDA>
+</XDOCUMENTO>
+</dataroot>

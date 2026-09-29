@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:45:05">
+  <XDOCUMENTO>
+    <ID>199283856</ID>
+    <DOCNumber>GUP92011</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Impossible d'enclencher les vitesses lorsque le véhicule est en marche, allumage du voyant de panne </Titolo>
+    <InfoDoc>COLONNE | VOLANT | TÉMOIN | PANNE | MOTEUR | ROUGE | ALLUMÉ | ALLUMÉE | C0051 | P0856 | MARCHE | ENTRER | ENTRENT | D | R | N | MARCHE ARRIÈRE | SYMBOLE | LEVIER | TABLEAU | ALLUMÉ | BOÎTE DE VITESSES | ROBOTISÉE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199283856</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Niveau de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Légende des niveaux de fiabilité &lt;BR&gt; &lt;BR&gt; &lt;B&gt; * niveau faible &lt;/B&gt; : Constat du réparateur indépendant, cas de panne non répertorié par le constructeur. &lt;BR&gt; &lt;BR&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt; : Cas de panne fréquents, constatés par les techniciens d&apos;assistance et les réparateurs indépendants. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** niveau élevé &lt;/B&gt; : Certitude de l&apos;anomalie, bon degré de « récurrence » signalé par le constructeur. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283856</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Validité : &lt;/B&gt; Véhicules équipés d&apos;une boîte de vitesses robotisée &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Direction &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Colonne de direction &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Lorsque le moteur tourne, la boîte de vitesses n&apos;enclenche pas les rapports lorsque l&apos;on place le levier en position D ou R, ni lorsque l&apos;on utilise les palettes au volant.
+Lorsque le moteur est à l&apos;arrêt, mais que le tableau de bord est allumé, la boîte de vitesses s&apos;enclenche correctement, que ce soit en plaçant le levier en position D ou R, ou en utilisant les palettes au volant. De plus, le témoin de panne de boîte de vitesses s&apos;allume sur le tableau de bord. &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; Une ou plusieurs des erreurs suivantes : &lt;UL&gt; &lt;LI&gt; P0856 (Signal d&apos;entrée du contrôle de traction - Erreur générique) &lt;BR&gt;  &lt;LI&gt; C0051 (Capteur de position de direction - Erreur) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Colonne de direction défectueuse &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283856</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier l&apos;état et le bon fonctionnement de la colonne de direction, y compris le moteur électrique et le boîtier électronique, et procéder à son remplacement si nécessaire &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Dans le cas présent, le véhicule étant équipé d’une boîte de vitesses robotisée, la gestion des rapports est également contrôlée par la colonne de direction, qui présentait un dysfonctionnement interne. Le remplacement de la colonne de direction, y compris le moteur électrique et le boîtier électronique, a permis de résoudre le problème. &lt;BR&gt; À première vue, le composant défectueux ne présentait aucune anomalie. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

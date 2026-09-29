@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-23T04:33:08">
+  <XDOCUMENTO>
+    <ID>25001938</ID>
+    <DOCNumber>INT25057</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>Fiat 500</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Referencias oficiales</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Fuente de datos: Ministerio de Transportes.</Capitolo>
+      <Corpo> &lt;B&gt; Fabricante: &lt;/B&gt; Fiat Auto S.p.a. &lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; Marca: &lt;/B&gt; Fiat &lt;BR/&gt;&lt;BR/&gt; Anomalías reconocidas por los fabricantes según el D.D. 78/2000</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Fiat 500</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de vehículos: 108 &lt;BR/&gt; Periodo de producción: JUNIO DE 2020 &lt;BR/&gt; Descripción del defecto: POSIBLE MAL FUNCIONAMIENTO DEL SISTEMA START STOP &lt;BR/&gt; Medidas correctivas: PRÓXIMA ACTUALIZACIÓN &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas - &lt;BR/&gt; Intervalo de chasis desde: ZFA3120000JD77396 &lt;BR/&gt; Intervalo de chasis hasta: ZFA3120000JD80992 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 298 &lt;BR/&gt; Periodo de producción: NOV 2018 DIC 2018 &lt;BR/&gt; Descripción del defecto: POSIBLE ROTURA DEL SEMIAJE DE LA RUEDA DELANTERA DERECHA &lt;BR/&gt; Medidas correctivas: SUSTITUCIÓN &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas - &lt;BR/&gt; Intervalo de chasis desde: ZFA3120000JB11886 &lt;BR/&gt; Intervalo de chasis hasta: ...25994 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 22356 &lt;BR/&gt; Periodo de producción: OCT 2017 ABR 2019 &lt;BR/&gt; Descripción del defecto: POSIBLE MAL FUNCIONAMIENTO DEL AIRBAG &lt;BR/&gt; Acciones correctivas: ACTUALIZACIÓN DEL SOFTWARE DE LA UNIDAD DE CONTROL &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas - &lt;BR/&gt; Intervalo de chasis desde: ZFA3340000P622051 &lt;BR/&gt; Intervalo de chasis hasta: ...787333 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 11543 &lt;BR/&gt; Periodo de producción: JUL 2017 AGO 2017 &lt;BR/&gt; Descripción del defecto: POSIBLE BLOQUEO DEL INDICADOR DE VELOCIDAD &lt;BR/&gt; Medidas correctivas: SUSTITUCIÓN DEL CUADRO DE INSTRUMENTOS &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas - &lt;BR/&gt; Intervalo de chasis desde: ZFA3120000J843082 &lt;BR/&gt; Intervalo de chasis hasta: ZFA3100000J858977 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 26 &lt;BR/&gt; Periodo de producción: MAR 2017 &lt;BR/&gt; Descripción del defecto: NO CONFORMIDAD DE LA CAJA DE DIRECCIÓN &lt;BR/&gt; Medidas correctivas: POSIBLE SUSTITUCIÓN &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas - &lt;BR/&gt; Intervalo de chasis desde: ZFA3120000J762210 &lt;BR/&gt; Intervalo de chasis hasta: ZFA3120000J7653319 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 321 &lt;BR/&gt; Periodo de producción: SEP 2016 &lt;BR/&gt; Descripción del defecto: PINZAS DE FRENO TRASERAS NO CONFORMES &lt;BR/&gt; Medidas correctivas: POSIBLE SUSTITUCIÓN &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas - &lt;BR/&gt; Intervalo de chasis desde: ZFA3120000J658682 &lt;BR/&gt; Intervalo de chasis hasta: ….664976 &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 2176 &lt;BR/&gt; Periodo de producción: DIC 2015 ENE 2016 &lt;BR/&gt; Descripción del defecto: GUÍA DEL ASIENTO DELANTERO DERECHO NO CONFORME &lt;BR/&gt; Medidas correctivas: POSIBLE SUSTITUCIÓN DE LA ESTRUCTURA &lt;BR/&gt; Referencia 80034280000 &lt;BR/&gt; Notas - &lt;BR/&gt; Intervalo de chasis desde: ZFA3120000J516840 &lt;BR/&gt; Intervalo de chasis hasta: ZFA3120000J527059 &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 20 &lt;BR/&gt; Periodo de producción: SEP 2014 OCT 2014 &lt;BR/&gt; Descripción del defecto: TIRANTES DE FIJACIÓN DE LOS CINTURONES DE SEGURIDAD DELANTEROS NO CONFORMES &lt;BR/&gt; Medidas correctivas: SUSTITUCIÓN &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas - &lt;BR/&gt; Intervalo de chasis desde: ZFA3120000J281982 &lt;BR/&gt; Intervalo de chasis hasta: ZFA3120000J286237 &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 198 &lt;BR/&gt; Periodo de producción: de junio de 2012 a septiembre de 2012 &lt;BR/&gt; Descripción del defecto: No conformidad del tubo del servofreno &lt;BR/&gt; Medidas correctivas: Verificación y posible sustitución &lt;BR/&gt; Referencia: Concesionarios &lt;BR/&gt; Intervalo de chasis desde: ZFA31200000878086 &lt;BR/&gt; Intervalo de chasis hasta: ZFA31200000890578 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 319 &lt;BR/&gt; Periodo de producción: junio de 2010 &lt;BR/&gt; Descripción del defecto: Tornillo de fijación del cardán al eje de dirección no conforme &lt;BR/&gt; Medidas correctivas: Sustitución si es necesario &lt;BR/&gt; Referencia: Concesionarios &lt;BR/&gt; Intervalo de chasis desde: ZFA31200000549070 &lt;BR/&gt; Intervalo de chasis hasta: ZFA31200000550399 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 910 &lt;BR/&gt; Periodo de producción: de septiembre de 2009 a diciembre de 2009 &lt;BR/&gt; Descripción del defecto: Eje intermedio de dirección no conforme &lt;BR/&gt; Medidas correctivas: Verificación y posible sustitución &lt;BR/&gt; Referencia: Concesionarios &lt;BR/&gt; Intervalo de chasis desde: ZFA31200000396248 &lt;BR/&gt; Intervalo de chasis hasta: ZFA31200000438371 &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 24579 &lt;BR/&gt; Periodo de producción: de septiembre de 2008 a febrero de 2009 &lt;BR/&gt; Descripción del defecto: Posible aflojamiento de los tornillos de fijación de la placa de las zapatas de freno traseras &lt;BR/&gt; Medidas correctivas: Comprobación y, en su caso, apriete &lt;BR/&gt; Referencia: Concesionario &lt;BR/&gt; Intervalo de chasis desde: ZFA31200000206893 &lt;BR/&gt; Intervalo de chasis hasta: ZFA31200000279954 &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 20799 &lt;BR/&gt; Periodo de producción: de octubre de 2007 a noviembre de 2007 &lt;BR/&gt; Descripción del defecto: Posible anomalía en el proceso de vulcanización del tubo de goma del sistema de frenos &lt;BR/&gt; Medidas correctivas: Comprobación y sustitución si fuera necesario &lt;BR/&gt; Referencia: Concesionario &lt;BR/&gt; Notas: Chasis no consecutivos, consultar con los concesionarios &lt;BR/&gt; Intervalo de chasis desde: 500: zfa31200000032289 &lt;BR/&gt; Intervalo de chasis hasta: zfa31200000039463 &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Fiat 500 1.3 Multijet</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de vehículos: 899 &lt;BR/&gt; Periodo de producción: de febrero de 2010 a abril de 2010 &lt;BR/&gt; Descripción del defecto: Posible incumplimiento de las especificaciones de los tornillos de fijación de la bomba hidráulica de control del embrague y consiguiente imposibilidad de cambiar de marcha &lt;BR/&gt; Acciones correctivas: Sustitución de los tornillos de fijación &lt;BR/&gt; Intervalo de chasis desde: ZFA31200000454835 &lt;BR/&gt; Intervalo de chasis hasta: ZFA31200000508162 &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Fiat 500 1.2 y 1.4 8v</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de vehículos: 2547 &lt;BR/&gt; Periodo de producción: de julio de 2008 a octubre de 2008 &lt;BR/&gt; Descripción del defecto: Posible incumplimiento de la normativa del colector de gasolina del motor &lt;BR/&gt; Medidas correctivas: Verificación y posible sustitución &lt;BR/&gt; Referencia: Concesionario &lt;BR/&gt; Intervalo de chasis desde: ZFA31200000202179 &lt;BR/&gt; Intervalo de chasis hasta: ZFA31200000223226 &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Fiat 500 Elettrica</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de vehículos: 9 &lt;BR/&gt; Periodo de producción: OCT 2012 ABR 2014 &lt;BR/&gt; Descripción del defecto: MÓDULO INVERTER DE ALIMENTACIÓN NO CONFORME &lt;BR/&gt; Acciones correctivas: SUSTITUCIÓN &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas CHASIS NO INDICADO &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 14 &lt;BR/&gt; Periodo de producción: OCT 2012 NOV 2014 &lt;BR/&gt; Descripción del defecto: PÉRDIDA DE POTENCIA DEL MOTOR CAUSA DE MAL FUNCIONAMIENTO DEL SISTEMA ELÉCTRICO A.T. &lt;BR/&gt; Acciones correctivas: ACTUALIZACIÓN DE SOFTWARE &lt;BR/&gt; Referencia 80034280000 &lt;BR/&gt; Notas CHASIS CONSULTAR A LOS CONCESIONARIOS &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 19 &lt;BR/&gt; Periodo de producción: OCT 2012 ENE 2016 &lt;BR/&gt; Descripción del defecto: MÓDULO INVERTER DE ALIMENTACIÓN (PIM) NO PROGRAMADO SEGÚN LA NORMATIVA, CON LA CONSECUENTE PÉRDIDA DE POTENCIA MOTRIZ &lt;BR/&gt; Acciones correctivas: REPROGRAMACIÓN &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas - &lt;BR/&gt; Intervalo de chasis desde: 3C3CFFGE0DT500186 &lt;BR/&gt; Intervalo de chasis hasta: 3C3CFFGEXGT205326 &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>25001938</RifIDDoc>
+      <LinkUtili>Enlace al Ministerio de Infraestructuras y Transportes</LinkUtili>
+      <Ordine>1</Ordine>
+      <RifIDDocLink>15000122</RifIDDocLink>
+      <XLINKDOC>
+        <ID>15000122</ID>
+        <DOCNumber>LNK00008</DOCNumber>
+        <Documento>Ir a: Reclamaciones - Ministerio de Transportes</Documento>
+        <URL>LINKDOC:15000122</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

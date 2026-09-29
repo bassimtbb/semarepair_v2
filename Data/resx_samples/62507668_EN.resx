@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:14:42">
+  <XDOCUMENTO>
+    <ID>62507668</ID>
+    <DOCNumber>GUR62742</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>System reset after disconnecting the battery</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Adjustment Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Battery Localisation</Capitolo>
+      <Corpo> &lt;BR/&gt; The battery is located in the engine compartment, on the driver&apos;s side, near the wheel arch. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>199000376</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>199000376</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:199000376</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Procedure for disconnecting the battery</Capitolo>
+      <Corpo> &lt;BR/&gt; If the battery needs to be disconnected, it is necessary to: &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; Check that all &lt;B&gt; electrical devices &lt;/B&gt; in the car, such as the car radio, sat nav, etc., &lt;B&gt; are switched off &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; Check that the &lt;B&gt; ignition is switched off &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Have the &lt;B&gt; radio code &lt;/B&gt; to hand &lt;BR/&gt;  &lt;LI&gt; Switch off the ignition and wait 5 minutes &lt;BR/&gt; &lt;BR/&gt; You can then disconnect the battery, &lt;B&gt; removing the negative terminal first and then the positive terminal &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; After disconnecting the battery, wait a few minutes before working on the airbag system</Corpo>
+      <RifIDFileIMGANI>62503878</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503878</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503878</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procedure for connecting the battery</Capitolo>
+      <Corpo> &lt;BR/&gt; To reconnect the battery, proceed as follows: &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; First connect the positive terminal &lt;/B&gt; and then the negative terminal of the battery &lt;BR/&gt;  &lt;LI&gt; Reset the radio code (if necessary) &lt;BR/&gt; &lt;LI&gt; Clear any &lt;B&gt; errors in the memory &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Turn on the ignition and wait 40 seconds &lt;BR/&gt; &lt;LI&gt; Turn off the ignition &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503879</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>62503879</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503879</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Electric roof restoration</Capitolo>
+      <Corpo> &lt;BR/&gt; Electric roof initialisation procedure: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Turn on the ignition &lt;BR/&gt; &lt;LI&gt; Press and hold the roof closure button &lt;BR/&gt; &lt;LI&gt; Wait for the electric roof to close completely &lt;BR/&gt;  &lt;LI&gt; After the roof is completely closed, wait for the electric motor to stop &lt;BR/&gt; &lt;LI&gt; Release the electric roof close button &lt;BR/&gt; &lt;BR/&gt; The system is now initialised. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>Car radio restoration</Capitolo>
+      <Corpo> &lt;BR/&gt; After disconnecting the battery, &lt;B&gt; &quot;Radio Code&quot; &lt;/B&gt; may appear on the car radio monitor, followed by &lt;B&gt; &quot; - - - -&quot; &lt;/B&gt; &lt;BR/&gt; You must then enter the radio code. &lt;BR/&gt; Use the preset radio station buttons (1 to 6). &lt;BR/&gt; If the 4 digits are not entered within 20 seconds, the message &lt;B&gt; &quot;Enter Code - - - -&quot; &lt;/B&gt; will appear on the display. &lt;BR/&gt; After entering the 4 digits, it may take up to 20 seconds before the car radio starts working. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

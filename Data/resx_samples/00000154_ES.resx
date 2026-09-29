@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-23T03:13:58">
+  <XDOCUMENTO>
+    <ID>154</ID>
+    <DOCNumber>INF00004</DOCNumber>
+    <RifIDTipoRis>1</RifIDTipoRis>
+    <Titolo>Norma europea EOBD</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>229</RifIDFileICO>
+    <XFILE>
+      <ID>229</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:229</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>1</ID>
+      <TipoRis>INF</TipoRis>
+      <DscRis>Información general</DscRis>
+      <RifIDFileCSS>12</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>12</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:12</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Introducción</Capitolo>
+      <Corpo>La norma europea EOBD tiene su origen en la más conocida OBDII estadounidense. La promulgación de las primeras directivas contra la contaminación destinadas a los vehículos de motor se remonta a 1988, obra de la entidad californiana CARB (Californian Air Resources Board), y coincide con la publicación de la primera norma OBD. &lt;BR/&gt; &lt;BR/&gt; El acrónimo OBD (On Board Diagnose) denota un sistema electrónico, integrado en la gestión del motor del vehículo, que tiene la tarea de supervisar en tiempo real todos los componentes críticos para las emisiones de gases de escape, registrando y señalando cualquier anomalía. &lt;BR/&gt; &lt;BR/&gt; Posteriormente, con la llegada de restricciones cada vez más severas en materia de contaminación atmosférica, en 1996 la antigua norma OBD fue sustituida por la más moderna OBDII. Basándose en las nuevas directivas de la CARB, el consorcio SAE publicó una recopilación de normas técnicas para la aplicación de los objetivos fijados. Estas normas describen detalladamente las prestaciones que deben cumplir los sistemas OBDII.</Corpo>
+      <RifIDFileIMGANI>193</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>193</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:193</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Funciones principales</Capitolo>
+      <Corpo>Las funciones principales del sistema OBDII son las siguientes: &lt;BR/&gt; &lt;BR/&gt; A) Supervisión en tiempo real de todos los dispositivos del vehículo que pueden afectar negativamente al nivel de emisiones de escape. &lt;BR/&gt; &lt;BR/&gt; B) Supervisión más detallada de los componentes más críticos, como el catalizador y la sonda lambda. &lt;BR/&gt; &lt;BR/&gt; C) Señalización de los fallos más graves y consolidados mediante el encendido de un indicador luminoso específico (MIL) en el cuadro de instrumentos. &lt;BR/&gt; &lt;BR/&gt; D) Almacenamiento de los fallos junto con los parámetros principales en el momento en que se han producido («congelados»). &lt;BR/&gt; &lt;BR/&gt; E) Posibilidad de conexión con una unidad externa (tester para autodiagnóstico OBD «SCANTOOL») para visualizar los códigos de avería almacenados y los parámetros en tiempo real. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Detalles técnicos</Capitolo>
+      <Corpo>La comunidad europea, inspirándose en el OBDII, adoptó la norma EOBD, que pasó a ser obligatoria para todos los vehículos nuevos a partir del año 2000, junto con los estrictos límites de emisiones previstos por la normativa Euro3. &lt;BR/&gt; La combinación EOBD - Euro3 ha aportado varios beneficios, entre ellos el de uniformizar el acceso al autodiagnóstico del vehículo por parte del taller de reparación. De hecho, el EOBD es, a todos los efectos, una norma a la que todos los fabricantes de automóviles han tenido que adaptarse, tanto en lo que se refiere a los códigos de avería como a la propia interfaz de autodiagnóstico, desde los protocolos de comunicación hasta el conector de 16 polos para la conexión del comprobador.</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Controles y diagnósticos</Capitolo>
+      <Corpo>Pin 1 Libre &lt;BR/&gt; Pin 2 Diagnóstico J1850 PWM o VPW (+) &lt;BR/&gt; Pin 3 Libre &lt;BR/&gt; Pin 4 Masa del chasis &lt;BR/&gt; Pin 5 Masa de la señal &lt;BR/&gt; Pin 6 Diagnóstico J2284 CAN (H) &lt;BR/&gt; Pin 7 Diagnóstico ISo 9141-2 y 14230 (K) &lt;BR/&gt; Pin 8 Libre &lt;BR/&gt; Pin 9 Libre &lt;BR/&gt; Pin 10 Diagnóstico J1850 PWM o VPW (-) &lt;BR/&gt; Pin 11 Libre &lt;BR/&gt; Pin 12 Libre &lt;BR/&gt; Pin 13 Libre &lt;BR/&gt; Pin 14 Diagnóstico J2284 CAN (L) &lt;BR/&gt; Pin 15 Diagnóstico ISo 9141-2 y 14230 (L) &lt;BR/&gt; Pin 16 Alimentación +12 voltios</Corpo>
+      <RifIDFileIMGANI>196</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>196</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:196</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo>En particular, el EOBD europeo prevé el control de todos los sensores y actuadores del grupo de gestión del motor, además, por supuesto, de los siguientes sistemas: catalizador con sonda lambda, detección de fallos de encendido, EGR, aire secundario (si lo hay), etc. Las especificaciones del EOBD prevén que la unidad de control detecte los fallos de funcionamiento de los componentes del motor y los guarde en la memoria junto con el contexto del momento en que se producen («parámetros congelados»). Además, si el error se repite durante un determinado número de ciclos de conducción (de un mínimo de 2 a un máximo de 10), el sistema EOBD debe encender la luz MIL (Malfunction Indication Lamp) en el salpicadero, para indicar un fallo en el motor. &lt;BR/&gt; &lt;BR/&gt; Los códigos de avería (DTC: Diagnostic Trouble Codes) están estandarizados en lo que respecta a los problemas relacionados con el motor y las emisiones, mientras que el resto se deja deliberadamente a discreción del fabricante del vehículo. &lt;BR/&gt; También se prevén funciones de software específicas para la lectura en tiempo real de los parámetros fundamentales del vehículo (régimen del motor, presión y temperatura del aire aspirado, tensiones de la sonda lambda, etc.) y para el inicio de funciones especiales para la activación de procedimientos de diagnóstico en los actuadores. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>514</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>514</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:514</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

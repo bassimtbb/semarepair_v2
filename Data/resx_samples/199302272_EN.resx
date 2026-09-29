@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-22T16:01:08">
+  <XDOCUMENTO>
+    <ID>199302272</ID>
+    <DOCNumber>IND77125</DOCNumber>
+    <RifIDTipoRis>36</RifIDTipoRis>
+    <Titolo>Taking Diagnosis</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>36</ID>
+      <TipoRis>IND</TipoRis>
+      <DscRis>OBDII Diagnosis Socket</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199302272</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Diagnostic Port Localisation - Version A</Capitolo>
+      <Corpo> &lt;LI&gt; 16-pin OBD socket. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Remove the cover under the dashboard on the driver&apos;s side. The diagnostic socket is located on the left-hand side.</Corpo>
+      <RifIDFileIMGANI>299023042</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299023042</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299023042</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199302272</RifIDDoc>
+      <Ordine>15</Ordine>
+      <Capitolo>Diagnostic Socket Localisation - Version B</Capitolo>
+      <Corpo> &lt;LI&gt; 16-pin OBD socket. &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; Driver&apos;s footwell, under the dashboard on the left-hand side.</Corpo>
+      <RifIDFileIMGANI>299023046</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299023046</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299023046</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199302272</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>PinOut Connector</Capitolo>
+      <Corpo>Pin 1 Free &lt;BR/&gt; Pin 2 J1850 PWM or VPW (+) diagnostics &lt;BR/&gt; Pin 3 Free &lt;BR/&gt; Pin 4 Chassis ground &lt;BR/&gt; Pin 5 Signal ground &lt;BR/&gt; Pin 6 J2284 CAN (H) diagnostics &lt;BR/&gt; Pin 7 ISo 9141-2 and 14230 diagnostics (K) &lt;BR/&gt; Pin 8 Free &lt;BR/&gt; Pin 9 Free &lt;BR/&gt; Pin 10 J1850 PWM or VPW diagnostics (-) &lt;BR/&gt; Pin 11 Free &lt;BR/&gt; Pin 12 Free &lt;BR/&gt; Pin 13 Free &lt;BR/&gt; Pin 14 J2284 CAN (L) diagnostics &lt;BR/&gt; Pin 15 ISo 9141-2 and 14230 (L) diagnostics &lt;BR/&gt; Pin 16 +12 Volt power supply</Corpo>
+      <RifIDFileIMGANI>532</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>532</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:532</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

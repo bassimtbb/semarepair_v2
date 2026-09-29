@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:45:04">
+  <XDOCUMENTO>
+    <ID>199283576</ID>
+    <DOCNumber>GUP91997</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Dysfonctionnement du verrouillage centralisé, voyants d'airbag, de direction assistée et de panne gé</Titolo>
+    <InfoDoc>ÉLECTRONIQUE | CARROSSERIE | ORDINATEUR | B1003 | B1053 | C1003 | C1212 | C1215 | U0001 | U0019 | U0426 | U1700 | U1702 | U1706 | U1715 | FONCTIONNE | FONCTIONNEMENT | PORTES | OUVRE | FERME | GÉNÉRIQUE | TABLEAU | INSTRUMENTS | AFFICHAGE | ÉCRAN | AIRBAG</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199283576</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Niveau de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Légende des niveaux de fiabilité &lt;BR&gt; &lt;BR&gt; &lt;B&gt; * niveau faible &lt;/B&gt; : Constat du réparateur indépendant, cas de panne non répertorié par le constructeur. &lt;BR&gt; &lt;BR&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt; : Cas de panne fréquents, constatés par les techniciens d&apos;assistance et les réparateurs indépendants. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** niveau élevé &lt;/B&gt; : Certitude de l&apos;anomalie, bon degré de « récurrence » signalé par le constructeur. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283576</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Électronique &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Ordinateur de bord &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Allumage du témoin de panne générique, de l’airbag et du témoin de panne de la direction. Dysfonctionnement du verrouillage centralisé des portes &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l’autodiagnostic : &lt;/B&gt; &lt;UL&gt;   &lt;LI&gt; B1003 (Module récepteur de la télécommande - Récepteur, télécommande) &lt;BR&gt; &lt;LI&gt; C1003 (Signal de vitesse - Câblage / calculateur) &lt;BR&gt; &lt;LI&gt; C1212 (Signal de couple moteur incorrect - Calculateur) &lt;BR&gt;    &lt;LI&gt; C1215 (Interrupteur de la pédale de frein - Câblage / interrupteur) &lt;BR&gt; &lt;LI&gt; U0001 (BUS C CAN) &lt;BR&gt; &lt;LI&gt; U0019 (BUS B CAN - anomalie électrique générique) &lt;BR&gt;    &lt;LI&gt; U0426 (Clé électronique - erreur) &lt;BR&gt; &lt;LI&gt; U1700 (Bus de données CAN - Calculateur de carrosserie - Erreur) &lt;BR&gt; &lt;LI&gt; U1702 (Bus de données CAN - Calculateur de direction assistée - Erreur) &lt;BR&gt;    &lt;LI&gt; U1706 (Bus de données CAN - Calculateur ABS Erreur ) &lt;BR&gt; &lt;LI&gt; U1715 (Nœud de dérapage/accélération latérale - erreur) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Calculateur de bord défectueux &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283576</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier le bon fonctionnement et l&apos;état de l&apos;unité centrale de bord et, si nécessaire, procéder à son remplacement &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Dans le cas présent, aucune reprogrammation à l&apos;aide d&apos;un outil de diagnostic n&apos;a été nécessaire après le remplacement. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>299022411</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299022411</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299022411</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

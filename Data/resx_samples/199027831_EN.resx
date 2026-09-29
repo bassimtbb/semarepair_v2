@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2020-05-31T02:51:51">
+<XDOCUMENTO>
+<ID>199027831</ID>
+<DOCNumber>SCH76136</DOCNumber>
+<RifIDTipoRis>9</RifIDTipoRis>
+<Titolo>ESP Bosch 8.0 - As of 2014</Titolo>
+<InfoDoc>^</InfoDoc>
+<RifIDFileICO>232</RifIDFileICO>
+<XFILE>
+<ID>232</ID>
+<Type>IMG</Type>
+<URL>GETFILE:232</URL>
+</XFILE>
+<XTIPORIS>
+<ID>9</ID>
+<TipoRis>SCH</TipoRis>
+<DscRis>Electrical Schemes</DscRis>
+<RifIDFileCSS>5</RifIDFileCSS>
+<RifIDTemplate>2</RifIDTemplate>
+<XFILE>
+<ID>5</ID>
+<Type>CSS</Type>
+<URL>GETFILE:5</URL>
+</XFILE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLCOMPONENTE</IDLabel>
+<Stringa>^Componente</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLDESCRIZIONE</IDLabel>
+<Stringa>^Descrizione Componente</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLDETTAGLIO</IDLabel>
+<Stringa>^Dettaglio</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG1</IDLabel>
+<Stringa>^Parte1</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG2</IDLabel>
+<Stringa>^Parte2</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG3</IDLabel>
+<Stringa>^Parte3</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG4</IDLabel>
+<Stringa>^Parte 4</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG5</IDLabel>
+<Stringa>^Parte 5</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG6</IDLabel>
+<Stringa>^Parte 6</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKLEGENDA</IDLabel>
+<Stringa>^Legenda</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLLOCALIZZAZIONE</IDLabel>
+<Stringa>^Localizzazione</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLNUMERO</IDLabel>
+<Stringa>^N.</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKPDF</IDLabel>
+<Stringa>^PDF</Stringa>
+</XRISORSE>
+</XTIPORIS>
+<XSCHEMA>
+<RifIDDoc>199027831</RifIDDoc>
+<RifIDFileIMGANIa>299001418</RifIDFileIMGANIa>
+<RifIDFileIMGANIb>0</RifIDFileIMGANIb>
+<RifIDFileIMGANIc>0</RifIDFileIMGANIc>
+<RifIDFileIMGANId>0</RifIDFileIMGANId>
+<RifIDFileIMGANIe>0</RifIDFileIMGANIe>
+<RifIDFileIMGANIf>0</RifIDFileIMGANIf>
+<RifIDFilePDF>25010508</RifIDFilePDF>
+<FlagTooltips>0</FlagTooltips>
+<XFILEIMG1>
+<ID>299001418</ID>
+<Type>ANI</Type>
+<URL>GETFILE:299001418</URL>
+</XFILEIMG1>
+<XFILEIMG2>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG2>
+<XFILEIMG3>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG3>
+<XFILEIMG4>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG4>
+<XFILEIMG5>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG5>
+<XFILEIMG6>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG6>
+<XFILEPDF>
+<ID>25010508</ID>
+<Type>PDF</Type>
+<URL>GETFILE:25010508</URL>
+</XFILEPDF>
+</XSCHEMA>
+<XSCHLEGENDA>
+<RifIDDoc>199027831</RifIDDoc>
+<Numero>D1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Automatic Gearbox Control Unit</NomeComp>
+<DettComp>if any</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>7500</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027831</RifIDDoc>
+<Numero>D2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Control unit Instrumentation</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>7600</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027831</RifIDDoc>
+<Numero>H1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>ESP control unit</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>29800</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027831</RifIDDoc>
+<Numero>H2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Body Computer Control Unit</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>29900</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027831</RifIDDoc>
+<Numero>I1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Brake pedal switch</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>32000</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027831</RifIDDoc>
+<Numero>I2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>ESP Disable Switch</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>32100</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027831</RifIDDoc>
+<Numero>Q1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Connection to the control unit Electric power steering</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>47500</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027831</RifIDDoc>
+<Numero>Q2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Connection to the injection control unit</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>47600</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027831</RifIDDoc>
+<Numero>Q3</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Connection to brake lights</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>47700</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027831</RifIDDoc>
+<Numero>Q4</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Connection to the control unit Automatic gearbox</NomeComp>
+<DettComp>if any</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>47800</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027831</RifIDDoc>
+<Numero>Q5</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Connection to the Airbag control unit</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>47900</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027831</RifIDDoc>
+<Numero>Q6</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Connection to the CAN network</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>48000</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027831</RifIDDoc>
+<Numero>S1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Yaw sensor</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>55500</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027831</RifIDDoc>
+<Numero>S2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Steering angle sensor</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>55600</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027831</RifIDDoc>
+<Numero>S3</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>ABS sensor front left wheel</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>55700</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027831</RifIDDoc>
+<Numero>S4</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>ABS sensor front right wheel</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>55800</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027831</RifIDDoc>
+<Numero>S5</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>ABS sensor rear left wheel</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>55900</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199027831</RifIDDoc>
+<Numero>S6</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>ABS sensor rear right wheel</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>56000</Ordine>
+</XSCHLEGENDA>
+</XDOCUMENTO>
+</dataroot>

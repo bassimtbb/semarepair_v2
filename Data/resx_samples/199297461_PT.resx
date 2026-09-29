@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:52:05">
+  <XDOCUMENTO>
+    <ID>199297461</ID>
+    <DOCNumber>GUP94742</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Esporadicamente: acendimento da luz de avaria do motor e perda de potência</Titolo>
+    <InfoDoc>INIEZIONE | MOTORE | P0300 | P0301 | BOBINA | ACCENSIONE | ACCENDE | ACCENSIONE | GIALLA | GIALLO | MIL | ACCESA | GIRA | MALE | CILINDRI | CILINDRO | CAVI | CANDELA | PERDE | COLPI | STRAPPI |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199297461</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Legenda do grau de fiabilidade &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  * nível baixo &lt;/B&gt;  : Detecção pelo técnico de reparação, caso de avaria não registado pelo fabricante. &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  ** nível médio &lt;/B&gt;  : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos independentes. &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  *** nível elevado &lt;/B&gt;  : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199297461</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Sistema: &lt;/B&gt;  Injeção &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Dispositivo: &lt;/B&gt;  Bobina de ignição &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Anomalia: &lt;/B&gt;  O motor apresenta, de forma esporádica, falhas de ignição e o acendimento da luz de avaria do motor &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Erros detetados pelo autodiagnóstico: &lt;/B&gt;  &lt;UL&gt;   &lt;LI&gt;   P0300 (Falta de ignição em cilindros não definidos - Erro genérico) &lt;BR&gt;  &lt;LI&gt;   P0301 (Falta de ignição no cilindro 1 - Erro genérico) &lt;/UL&gt;  &lt;LI&gt;   &lt;B&gt;  Causa: &lt;/B&gt;  Bobina de ignição defeituosa &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199297461</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Intervenção: &lt;/B&gt;  Verificar o funcionamento correto da bobina de ignição e, se necessário, proceder à sua substituição  &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Procedimento: &lt;/B&gt;  - - &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Nota: &lt;/B&gt;  O veículo está equipado com uma bobina que controla a ignição nos quatro cilindros. &lt;BR&gt; No caso em apreço, foi substituída a bobina de ignição, incluindo os cabos das velas, resolvendo definitivamente a avaria. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>299022644</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299022644</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299022644</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

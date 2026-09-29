@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:52:01">
+  <XDOCUMENTO>
+    <ID>199297444</ID>
+    <DOCNumber>GUP94735</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Mises à feu sporadiques</Titolo>
+    <InfoDoc>INJECTION | GPL | INJECTEURS | P0300 | P0304 | ALLUME | TOURNE | MAL | CYLINDRES | CYLINDRE | S'ALLUMENT | REDÉMARRAGE | TOURNE | REPREND | BIEN |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199297444</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Niveau de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Légende des niveaux de fiabilité &lt;BR&gt; &lt;BR&gt; &lt;B&gt; * niveau faible &lt;/B&gt; : Constat du réparateur indépendant, cas de panne non répertorié par le constructeur. &lt;BR&gt; &lt;BR&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt; : Cas de panne fréquents, constatés par les techniciens d&apos;assistance et les réparateurs indépendants. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** niveau élevé &lt;/B&gt; : Certitude de l&apos;anomalie, bon degré de « récurrence » signalé par le constructeur. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199297444</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Injection &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Injecteurs &lt;BR&gt; &lt;BR&gt;  &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Le moteur présente, de manière sporadique, des ratés d’allumage. Parfois, le problème se résout temporairement au redémarrage du moteur. &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l’autodiagnostic : &lt;/B&gt; &lt;UL&gt;   &lt;LI&gt; P0300 (Manque d&apos;allumage dans des cylindres non définis - Erreur) &lt;BR&gt; &lt;LI&gt; P0304 (Manque d&apos;allumage dans le cylindre 4 - Erreur) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Injecteurs défectueux &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199297444</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier l&apos;état et le bon fonctionnement des injecteurs et, si nécessaire, procéder à leur remplacement &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Dans le cas présent, afin de résoudre définitivement le problème, tous les injecteurs ont été remplacés à titre préventif, bien que celui qui était effectivement défectueux fût le quatrième à partir du côté de la distribution. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

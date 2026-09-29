@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T00:58:05">
+  <XDOCUMENTO>
+    <ID>62505988</ID>
+    <DOCNumber>GUR62509</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Reparación del arranque del motor tras un choque.</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Guía de ajuste</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62505988</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Información sobre el sistema</Capitolo>
+      <Corpo> &lt;BR/&gt; El vehículo está equipado con un sistema de prevención de incendios denominado &lt;B&gt; FPS (Fire Prevention System) &lt;/B&gt; . &lt;BR/&gt;&lt;BR/&gt; Tras un choque de poca intensidad, el sistema FPS interviene de la siguiente manera: &lt;BR/&gt;&lt;BR/&gt; - Interrupción del suministro de combustible desde la unidad de control de inyección &lt;BR/&gt; - Desbloqueo de las puertas &lt;BR/&gt; - Encendido de la luz del techo &lt;BR/&gt; - Encendido de las luces de emergencia &lt;BR/&gt; - En el cuadro de instrumentos aparece el mensaje &lt;B&gt; «FPS ON» &lt;/B&gt; o &lt;B&gt; «Bloqueo de combustible activado» &lt;/B&gt; &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503867</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503867</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503867</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62505988</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Restablecimiento del arranque del motor</Capitolo>
+      <Corpo> &lt;BR/&gt; Procedimiento de restablecimiento del arranque del motor: &lt;BR/&gt; &lt;BR/&gt; 1- Encender el contacto &lt;BR/&gt; 2- Mediante el desplazamiento de la palanca &lt;B&gt;, encender &lt;/B&gt; el indicador de dirección &lt;B&gt; derecho &lt;/B&gt;  &lt;BR/&gt; 3- Moviendo la palanca &lt;B&gt;, apagar &lt;/B&gt; el intermitente &lt;B&gt; derecho &lt;/B&gt; &lt;BR/&gt; 4- Moviendo la palanca &lt;B&gt;, encender &lt;/B&gt; el intermitente &lt;B&gt; izquierdo &lt;/B&gt;  &lt;BR/&gt; 5- Desactivar &lt;/B&gt; el intermitente &lt;B&gt; izquierdo &lt;/B&gt; moviendo la palanca &lt;B&gt;. &lt;BR/&gt; 6- Activar &lt;/B&gt; el intermitente &lt;B&gt; derecho &lt;/B&gt; moviendo la palanca &lt;B&gt;.  &lt;BR/&gt; 7- Desactivar &lt;/B&gt; el intermitente &lt;B&gt; derecho &lt;/B&gt; moviendo la palanca &lt;B&gt;. &lt;BR/&gt; 8- Activar &lt;/B&gt; el intermitente &lt;B&gt; izquierdo &lt;/B&gt; moviendo la palanca &lt;B&gt;. &lt;BR/&gt; 9- Desactivar &lt;/B&gt; el intermitente izquierdo &lt;B&gt; moviendo la palanca &lt;B&gt; &lt;BR/&gt; 10- Apagar el contacto &lt;BR/&gt; &lt;BR/&gt; Ahora el sistema FPS está desactivado y es posible arrancar el motor &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62505988</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Advertencias</Capitolo>
+      <Corpo> &lt;BR/&gt; En algunos vehículos, es posible que el procedimiento manual no sea viable. En tal caso, proceda con el equipo de diagnóstico &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

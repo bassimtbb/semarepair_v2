@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-24T16:37:22">
+  <XDOCUMENTO>
+    <ID>62508248</ID>
+    <DOCNumber>GUP63796</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Démarrage impossible du moteur, message relatif au blocage du carburant (FPS) sur l'écran</Titolo>
+    <InfoDoc>INJECTION | gestion du moteur | U0427 | FPS |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62508248</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (**)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62508248</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / du défaut</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Validité : &lt;/B&gt; Tous les véhicules &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Interrupteur à inertie &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Démarrage du moteur impossible, message relatif au blocage du carburant (FPS) sur l&apos;écran multifonction &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; U0427 &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Activation du commutateur à inertie &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62508248</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Procéder à la désactivation du commutateur à inertie &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; 1- Mettre le contact &lt;BR/&gt; 2- En déplaçant le levier de commande &lt;B&gt;, allumer &lt;/B&gt; le clignotant &lt;B&gt; droit &lt;/B&gt; &lt;BR/&gt; 3- En déplaçant le levier de commande &lt;B&gt;, éteindre &lt;/B&gt; le clignotant &lt;B&gt; droit &lt;/B&gt;  &lt;BR/&gt; 4- En déplaçant le levier de commande &lt;B&gt;, allumez &lt;/B&gt; le clignotant gauche &lt;B&gt; &lt;/B&gt; &lt;BR/&gt; 5- En déplaçant le levier de commande &lt;B&gt;, éteignez &lt;/B&gt; le clignotant gauche &lt;B&gt; &lt;/B&gt;  &lt;BR/&gt; 6- En déplaçant le levier de commande &lt;B&gt;, allumer &lt;/B&gt; le clignotant &lt;B&gt; droit &lt;/B&gt; &lt;BR/&gt; 7- En déplaçant le levier de commande &lt;B&gt;, éteindre &lt;/B&gt; le clignotant &lt;B&gt; droit &lt;/B&gt;  &lt;BR/&gt; 8- En déplaçant le levier de commande &lt;B&gt;, allumer &lt;/B&gt; le clignotant gauche &lt;/B&gt; &lt;BR/&gt; 9- En déplaçant le levier de commande &lt;B&gt;, éteindre &lt;/B&gt; le clignotant gauche &lt;/B&gt;  &lt;BR/&gt; 10- Coupez le contact &lt;BR/&gt; &lt;BR/&gt; Le système FPS est désormais désactivé et vous pouvez démarrer le moteur &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

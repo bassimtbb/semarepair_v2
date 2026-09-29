@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-23T04:42:56">
+  <XDOCUMENTO>
+    <ID>25002717</ID>
+    <DOCNumber>INF25035</DOCNumber>
+    <RifIDTipoRis>1</RifIDTipoRis>
+    <Titolo>Liste des installations</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>229</RifIDFileICO>
+    <XFILE>
+      <ID>229</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:229</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>1</ID>
+      <TipoRis>INF</TipoRis>
+      <DscRis>Informations générales</DscRis>
+      <RifIDFileCSS>12</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>12</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:12</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>25002717</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Groupe principal</Capitolo>
+      <Corpo> &lt;LI&gt; ABS Bosch 8 ESP (EP) &lt;BR/&gt; &lt;LI&gt; Airbag SIEMENS (EP-Proxi) &lt;BR/&gt; &lt;LI&gt; Boîte de vitesses automatique Marelli SELESPEED CFC328 2 &lt;BR/&gt; &lt;LI&gt; Calculateur de stationnement VALEO (EP) 2 &lt;BR/&gt;  &lt;LI&gt; Climatisation DENSO Monozone (EP) &lt;BR/&gt; &lt;LI&gt; Convergence Marelli/Microsoft (EP) &lt;BR/&gt; &lt;LI&gt; Convergence Marelli/Microsoft C3 (EP) &lt;BR/&gt;  &lt;LI&gt; Diagnostic du véhicule &lt;BR/&gt; &lt;LI&gt; Direction électrique DELPHI (EP) 2 &lt;BR/&gt; &lt;LI&gt; Tableau de bord MARELLI (EP) 2</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25002717</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Système de réseau CAN</Capitolo>
+      <Corpo> &lt;B&gt; Ordinateur de bord DELPHI (EP) 2 &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Fonctions possibles : &lt;BR/&gt; &lt;LI&gt; Informations sur le réseau CAN &lt;BR/&gt; &lt;LI&gt; Moniteur réseau CAN &lt;BR/&gt; &lt;LI&gt; Procédure d&apos;alignement Proxi</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25002717</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Système d&apos;injection</Capitolo>
+      <Corpo> &lt;B&gt; Injection Marelli IAW 5SF8 &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Diagnostic EOBD &lt;BR/&gt; &lt;LI&gt; Euro 4</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

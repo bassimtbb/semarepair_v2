@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:26:18">
+  <XDOCUMENTO>
+    <ID>75000518</ID>
+    <DOCNumber>DES75005</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Cuadro de instrumentos Marelli 2</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Descripción del sistema</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Descripción</Capitolo>
+      <Corpo>La unidad de control está integrada en el cuadro de instrumentos, situado en el salpicadero del coche, encima del volante. &lt;BR/&gt; &lt;BR/&gt; La toma de diagnóstico es de tipo unificado de 16 pines (EOBD) y está situada en el habitáculo, debajo del salpicadero del lado del conductor. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Parámetros de ingeniería</Capitolo>
+      <Corpo>La unidad de control gestiona varios parámetros: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Revoluciones del motor &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Temperatura del motor &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Nivel de combustible, &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Lectura del valor en km (cuentakilómetros) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Todos los parámetros relacionados con el servicio (revisión) &lt;BR/&gt; &lt;BR/&gt; Los parámetros relacionados con el servicio de revisión indican: &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Kilometraje hasta la próxima revisión &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Kilometraje en el que se realizó la revisión &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Número de revisiones realizadas &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Distancia en kilómetros hasta la próxima revisión &lt;BR/&gt; &lt;BR/&gt; Otros parámetros importantes son: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Alarma de cinturones de seguridad: indica el estado (activado/desactivado) de la alarma sonora si el cinturón se ha abrochado o no &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Modo de alimentación: indica la condición en la que se encuentra el vehículo en el momento del envío (de fábrica al concesionario). Este modo también se denomina «modo logístico» y consiste en desactivar algunas cargas eléctricas para reducir al mínimo el consumo de corriente de la batería. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Errores</Capitolo>
+      <Corpo>La unidad de control está equipada con una memoria permanente de errores y almacena los parámetros ambientales en el momento en que se produce el error. &lt;BR/&gt; &lt;BR/&gt; Se señalan con la comunicación adjunta de su estado: &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Error activo &lt;/B&gt; &lt;BR/&gt; Error detectado actualmente &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Error memorizado &lt;/B&gt; &lt;BR/&gt; Error que ya se ha registrado en la memoria y la avería no está presente actualmente. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Borrado de error(es) &lt;/B&gt; &lt;BR/&gt; Solo se produce con el consentimiento del operador para borrar el error mediante la tecla de borrado &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Diagnósticos activos</Capitolo>
+      <Corpo>En el entorno Diagnósticos activos se controlan: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Indicador de temperatura del agua &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Indicador de nivel de combustible &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Indicador de revoluciones &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Indicador de velocidad &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Luz de temperatura máxima del agua &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Luz de reserva de combustible &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Luz ABS &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Otras luces diversas.  &lt;BR/&gt; &lt;BR/&gt; También se activa: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Zumbador &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Iluminación de los índices del cuadro &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Iluminación LCD.  &lt;BR/&gt; &lt;BR/&gt; Nota: En la versión ABARTH se activa el indicador de presión del turbo y la pantalla. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>6</Ordine>
+      <Capitolo>Ajustes</Capitolo>
+      <Corpo> &lt;B&gt; Prueba del corrector de alineación de faros &lt;/B&gt; &lt;BR/&gt; para ajustar el ángulo de los faros de cruce &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Reinicio del cuentakilómetros &lt;/B&gt; &lt;BR/&gt; Para poner a cero el cuentakilómetros solo si el valor es inferior a 200 km y si delante del número de kilómetros aparece el símbolo «H».  &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Borrado de información de servicio &lt;/B&gt; &lt;BR/&gt; donde todos los parámetros relativos a la revisión se restablecen a una distancia de 30 000 km (es decir, hasta la próxima revisión). Nota: Debe realizarse en cada revisión.  &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Exclusión de la alarma de cinturones de seguridad/Activación de la alarma de cinturones de seguridad &lt;/B&gt; &lt;BR/&gt; Permiten activar o desactivar la alarma sonora por no abrocharse los cinturones de seguridad por parte del conductor. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Sustitución del cuadro de instrumentos &lt;/B&gt; &lt;BR/&gt; Este procedimiento lee las características del cuadro antiguo, que son: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Valor de los km &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Distancia desde la última revisión &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Número de servicio (revisión) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Fecha del último servicio &lt;BR/&gt; &lt;BR/&gt; y las reescribe en el nuevo cuadro. &lt;BR/&gt; &lt;BR/&gt; Nota: realizar solo en caso de sustitución de la centralita. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

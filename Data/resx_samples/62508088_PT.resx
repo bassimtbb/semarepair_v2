@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:18:01">
+  <XDOCUMENTO>
+    <ID>62508088</ID>
+    <DOCNumber>GUR62781</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Chave de ignição</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Guia de Ajuste</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62508088</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Programação de chaves</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;B&gt; Esta operação é necessária nos seguintes casos: &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;    Substituição/adição de uma chave. &lt;BR/&gt;  &lt;LI&gt;  O sistema de fecho centralizado/alarme não funciona corretamente &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  É   possível efetuar a programação das chaves apenas através do equipamento de diagnóstico específico &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Notas sobre a programação: &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  É possível programar até um máximo de  &lt;B&gt; 8 chaves &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  É necessário ter o cartão de segurança para poder proceder à programação das chaves (versões e mercados onde previsto) &lt;BR/&gt;  &lt;LI&gt;  É necessário estar na posse de todas as chaves antes de executar o procedimento de programação &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

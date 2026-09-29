@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-04-28T23:40:56">
+  <XDOCUMENTO>
+    <ID>199307820</ID>
+    <DOCNumber>GUP96868</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Failure of front windshield wiper with regular windshield washer operation</Titolo>
+    <InfoDoc>ELECTRONICS | BODYWORK | BODY | COMPUTER | KM | KILOMETRES | TOTAL | PARTIAL | REMAINING | OFF | ON | DASHBOARD | INSTRUMENTS | WARNING LIGHTS | REMAINING | ZERO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199307820</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Reliability rating (**)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legend of the degree of reliability &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * low level &lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Extensive fault history, found by service technicians and repairers. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** high level &lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199307820</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Electronics &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Body computer &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt;  The odometer is inactive and no warning lights come on in the instrument cluster. The analogue gauges remain at zero. When the driver’s door is opened, the display activates, but switches off again when the ignition is switched on or the engine is started. The fault occurs when the ignition is on and the engine is running. Despite this, the vehicle starts normally and operates normally whilst driving. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Faults detected by the self-diagnostic system: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Faulty body computer &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199307820</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check the condition and correct operation of the body computer and, if necessary, replace it. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; The component is located in the passenger compartment, beneath the steering wheel on the left-hand side. Following the replacement of the body computer, no reprogramming via diagnostic equipment was required, thereby permanently resolving the fault. &lt;BR/&gt; &lt;BR/&gt; The estimated time for the repair is approximately 1.3 hours. &lt;BR/&gt; Problems with this component are quite common on this model. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299024476</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299024476</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299024476</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

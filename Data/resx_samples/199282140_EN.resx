@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-06T18:36:59">
+  <XDOCUMENTO>
+    <ID>199282140</ID>
+    <DOCNumber>POP84662</DOCNumber>
+    <RifIDTipoRis>46</RifIDTipoRis>
+    <Titolo>IMPORTANT INFORMATION</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>46</ID>
+      <TipoRis>POP</TipoRis>
+      <DscRis>Notice</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199282140</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>MAINTENANCE: BELTS AND AGGREGATES Since December 2014 - Under normal use</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; Important Replacement Operations: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Every 120,000 km or 6 years - Timing Belt - Replacement &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Every 120,000 km or 6 years - Auxiliary Belt / Services - Replacement &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Important checks: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; At 60,000 km or 4 years, then every 120,000 km or 6 years - Timing belt - Check / Inspection &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199282140</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>MAINTENANCE: BELTS AND AGGREGATES Since December 2014 - Under severe conditions</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; Important Replacement Operations: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Every 60,000 km or 4 years - Timing Belt - Replacement &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Every 60,000 km or 4 years - Auxiliary Belt / Services - Replacement &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Important inspections: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; At 60,000 km or 4 years, then every 120,000 km or 6 years - Timing belt - Check/inspection &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199282140</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>MAINTENANCE: BELTS AND AGGREGATES Until November 2014 - </Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; Important Replacement Operations: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Every 120,000 km or 4 years (heavy use) - Timing belt - Replacement &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Every 120,000 km or 4 years (heavy use) - Auxiliary/service belt - Replacement &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Every 120,000 km or 5 years - Timing belt - Replacement &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Every 120,000 km or 5 years - Auxiliary belt / Services - Replacement &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Important checks: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; At 60,000 km or 4 years, then every 120,000 km or 5 years - Timing belt - Check / Inspection &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199282140</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>MAINTENANCE: BELTS AND AGGREGATES Until November 2014 - Annual mileage less than 10,000 km</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; Important Replacement Operations: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Every 120,000 km or 4 years (heavy use) - Timing belt - Replacement &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Every 120,000 km or 4 years (heavy use) - Auxiliary/service belt - Replacement &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Every 120,000 km or 5 years - Timing belt - Replacement &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Every 120,000 km or 5 years - Auxiliary/service belt - Replacement &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Important checks: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; At 60,000 km or 4 years, then every 120,000 km or 5 years - Timing belt - Check / Inspection &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199282140</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>SERVICING IN ACCORDANCE WITH BER/2010 REGULATIONS</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; Use original quality spare parts or parts that correspond to the original. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Use lubricants in accordance with the manufacturer&apos;s specifications. &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; Indicate the type of lubricant used (brand, trade name, viscosity and specification) on the compliance sheet and invoice. &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; Indicate the type of spare part used (brand, spare part code) on the compliance sheet and invoice. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

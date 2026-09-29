@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-03T01:32:46">
+<XDOCUMENTO>
+<ID>199302328</ID>
+<DOCNumber>DIS75414</DOCNumber>
+<RifIDTipoRis>100000012</RifIDTipoRis>
+<Titolo>Disposizione Montaggio - Smontaggio</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>219</RifIDFileICO>
+<XFILE>
+<ID>219</ID>
+<Type>IMG</Type>
+<URL>GETFILE:219</URL>
+</XFILE>
+<XTIPORIS>
+<ID>100000012</ID>
+<TipoRis>DIS</TipoRis>
+<DscRis>Distribuzione</DscRis>
+<RifIDFileCSS>3</RifIDFileCSS>
+<RifIDTemplate>12</RifIDTemplate>
+<XFILE>
+<ID>3</ID>
+<Type>CSS</Type>
+<URL>GETFILE:3</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199302328</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Avvertenze Generali</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;ATTENZIONE&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;Salvo diversa indicazione specifica del costruttore del veicolo o del motore, attenersi scrupolosamente alle seguenti avvertenze e raccomandazioni durante le operazioni di sostituzione della cinghia di distribuzione.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Avvertenze generali di sicurezza&lt;/B&gt;&lt;UL&gt;	&lt;LI&gt; 	Scollegare la batteria prima di iniziare qualsiasi intervento.&lt;BR/&gt;	&lt;LI&gt; 	Non ruotare mai l’albero motore o l’albero a camme con la cinghia di distribuzione smontata.&lt;BR/&gt;	&lt;LI&gt; 	Non ruotare il motore agendo su alberi a camme, pulegge o altri pignoni.&lt;BR/&gt;	&lt;LI&gt; 	Ruotare il motore esclusivamente nel senso normale di rotazione, salvo diversa indicazione del costruttore.&lt;BR/&gt;	&lt;LI&gt; 	Rispettare sempre le coppie di serraggio prescritte per tutti i componenti interessati. &lt;/UL&gt;&lt;BR/&gt;&lt;B&gt;Raccomandazioni operative&lt;/B&gt;&lt;UL&gt;	&lt;LI&gt; 	Dopo lo smontaggio, non rimontare mai una cinghia di distribuzione usata: installare sempre una cinghia nuova.&lt;BR/&gt;	&lt;LI&gt; 	In occasione della sostituzione della cinghia di distribuzione, è fortemente raccomandata la sostituzione dei tenditori e delle pulegge.&lt;BR/&gt;	&lt;LI&gt; 	Si consiglia la sostituzione della pompa dell’acqua qualora sia azionata dalla cinghia di distribuzione.&lt;/UL&gt;&lt;BR/&gt;&lt;B&gt;Prescrizioni di montaggio&lt;/B&gt;&lt;UL&gt;	&lt;LI&gt; 	Il motore deve essere freddo prima di eseguire la regolazione e la tensionatura della cinghia di distribuzione.&lt;BR/&gt;	&lt;LI&gt; 	Evitare di piegare, torcere o sottoporre a trazione la cinghia di distribuzione.&lt;BR/&gt;	&lt;LI&gt; 	Durante il montaggio, assicurarsi che i riferimenti di fase siano correttamente allineati prima della tensionatura finale.&lt;BR/&gt;	&lt;LI&gt; 	Se previsto, rimuovere candele o candelette per facilitare la rotazione manuale del motore durante le verifiche. &lt;/UL&gt;&lt;BR/&gt;&lt;B&gt;Controlli finali&lt;/B&gt;&lt;UL&gt;&lt;LI&gt; 	Dopo il montaggio, ruotare manualmente il motore e verificare nuovamente la corretta fasatura.&lt;BR/&gt;&lt;LI&gt; Verificare che durante la rotazione manuale il motore non presenti blocchi o resistenza anomale.&lt;BR/&gt;	&lt;LI&gt; 	Applicare un’etichetta nel vano motore riportante chilometraggio e data della sostituzione della cinghia di distribuzione.&lt;BR/&gt;&lt;LI&gt; L’eventuale omissione di questi controlli solleva WDB da qualsiasi responsabilità in merito a danni o malfunzionamenti successivi.&lt;/UL&gt;</Corpo>
+<RifIDFileIMGANI>299022700</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299022700</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299022700</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199302328</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Cinghia Distribuzione - Dati Tecnici</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;BR/&gt;
+&lt;B&gt;Legenda&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;
+&lt;table class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt;
+&lt;th width=15% class=&quot;chiaro&quot;&gt;Tipo&lt;/th&gt;
+&lt;th width=34% class=&quot;chiaro&quot;&gt;Descrizione&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;Mot&lt;/td&gt;&lt;td&gt;Albero Motore&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Cam&lt;/td&gt;&lt;td&gt;Albero Camme&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Cam-A&lt;/td&gt;&lt;td&gt;Albero Camme Aspirazione&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Cam-S&lt;/td&gt;&lt;td&gt;Albero Camme Scarico&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Tns&lt;/td&gt;&lt;td&gt;Tensionatore&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Tnd&lt;/td&gt;&lt;td&gt;Tendicinghia / Galoppino&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;P-aux&lt;/td&gt;&lt;td&gt;Pompa idraulica / ausiliaria&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;P-w&lt;/td&gt;&lt;td&gt;Pompa acqua&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;P-oil&lt;/td&gt;&lt;td&gt;Pompa olio&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;P-inz&lt;/td&gt;&lt;td&gt;Pompa iniezione&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;C-Tens&lt;/td&gt;&lt;td&gt;Controllo Tensionamento&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Notch&lt;/td&gt;&lt;td&gt;Tacca di riferimento&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Hole&lt;/td&gt;&lt;td&gt;Foro / Allineamento&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;BR/&gt;
+&lt;BR/&gt;&lt;BR/&gt;
+&lt;B&gt;Coppie di Serraggio&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;
+&lt;table class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt;
+&lt;th width=35% class=&quot;chiaro&quot;&gt;Descrizione&lt;/th&gt;
+&lt;th width=15% class=&quot;chiaro&quot;&gt;Unità di misura&lt;/th&gt;
+&lt;th width=15% class=&quot;chiaro&quot;&gt;Dati&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;Dado tensionatore&lt;/td&gt;&lt;td&gt;Nm&lt;/td&gt;&lt;td&gt;25-31&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Bullone puleggia albero a camme&lt;/td&gt;&lt;td&gt;Nm&lt;/td&gt;&lt;td&gt;63-77&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Dado puleggia albero motore 1° fase - Serraggio&lt;/td&gt;&lt;td&gt;Nm&lt;/td&gt;&lt;td&gt;19-21&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Dado puleggia albero motore 2° fase - Serraggio&lt;/td&gt;&lt;td&gt;Gradi&lt;/td&gt;&lt;td&gt;90°&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;BR/&gt;&lt;BR/&gt;
+&lt;B&gt;Tempo previsto per la sostituzione della cinghia di distribuzione:&lt;/B&gt; 2,3 ore
+&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299023060</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299023060</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299023060</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199302328</RifIDDoc>
+<Ordine>12</Ordine>
+<Capitolo>Attrezzature e strumenti utilizzati</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt; Dima di bloccaggio fasatura albero a camme &lt;B&gt;2.000.004.400&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Dima di bloccaggio fasatura albero motore &lt;B&gt;2.000.004.500&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Chiave per dado tensionatore &lt;B&gt;1.860.987.000&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299023075</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299023075</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299023075</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199302328</RifIDDoc>
+<Ordine>20</Ordine>
+<Capitolo>Operazioni preliminari</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt; Posizionare la vettura su un piano&lt;BR/&gt;&lt;LI&gt; Rimuovere il coperchio della distribuzione parte superiore&lt;BR/&gt;&lt;LI&gt; Rimuovere la ruota anteriore destra&lt;BR/&gt;&lt;LI&gt; Rimuovere la staffa di fissaggio della traversa della sospensione anteriore alla scocca&lt;BR/&gt;&lt;LI&gt; Rimuovere la copertura antipolvere del vano motore installata nel passaruota anteriore destro&lt;BR/&gt;&lt;LI&gt; Rimuovere la cinghia ausiliaria&lt;BR/&gt;&lt;LI&gt; Rimuovere la puleggia dell&apos;albero motore&lt;BR/&gt;&lt;LI&gt; Rimuovere il coperchio della distribuzione parte inferiore&lt;BR/&gt;&lt;LI&gt; Sostenere correttamente il motore utilizzando gli attrezzi di supporto &lt;B&gt;1.870.595.000, 1.870.650.000, 1.860.851.003, 1.871.001.300&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Rimuovere il coperchio punterire (sostituire anche la relativa guarnizione)&lt;BR/&gt;&lt;LI&gt; Rimuovere il tassello elastico nel lato della distribuzione del supporto anteriore del motore&lt;BR/&gt;&lt;LI&gt; Rimuovere il supporto rigido nel lato della distribuzione del motore&lt;BR/&gt;&lt;LI&gt; Tramite una staffa ancorare correttamente il motore agli attrezzi di supporto&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199302328</RifIDDoc>
+<Ordine>30</Ordine>
+<Capitolo>Stacco cinghia di distribuzione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;BLOCCAGGIO DELL&apos;ALBERO A CAMME&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Ruotare l&apos;albero motore fino a posizionare il segno di riferimento &lt;B&gt;A&lt;/B&gt; presente sull&apos;albero a camme come indicato in figura&lt;BR/&gt;&lt;LI&gt; Applicare lo strumento dima &lt;B&gt;2.000.004.400&lt;/B&gt; per bloccare l&apos;albero a camme in posizione&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299023065</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299023065</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299023065</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199302328</RifIDDoc>
+<Ordine>31</Ordine>
+<Capitolo></Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt; BLOCCAGGIO DELL&apos;ALBERO MOTORE&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Applicare lo strumento dima &lt;B&gt;2.000.004.500&lt;/B&gt; per bloccare l&apos;albero motore in posizione&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;NOTA:&lt;/B&gt; La dima &lt;B&gt;2.000.004.500&lt;/B&gt; può essere applicata solo in una unica posizione. Questo garantisce che i pistoni siano in posizione corretta, con il primo pistone in salita&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299023310</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299023310</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299023310</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199302328</RifIDDoc>
+<Ordine>32</Ordine>
+<Capitolo></Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;RIMOZIONE DELLA CINGHIA DI DISTRIBUZIONE&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Allentare il dado &lt;B&gt;B&lt;/B&gt; del tensionatore&lt;BR/&gt;&lt;LI&gt; Rimuovere la cinghia di distribuzione&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299023068</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299023068</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299023068</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199302328</RifIDDoc>
+<Ordine>50</Ordine>
+<Capitolo>Riattacco cinghia di distribuzione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;APPLICAZIONE CINGHIA DISTRIBUZIONE&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Posizionare la cinghia di distribuzione in sede&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299023069</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299023069</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299023069</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199302328</RifIDDoc>
+<Ordine>90</Ordine>
+<Capitolo></Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;MESSA IN TENSIONE DELLA CINGHIA DI DISTRIBUZIONE&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Tramite lo strumento chiave &lt;B&gt;1.860.987.000&lt;/B&gt;, portare la forcella &lt;B&gt;C&lt;/B&gt; del tensionatore in battuta al finecorsa &lt;B&gt;D&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Serrare il dado &lt;B&gt;B&lt;/B&gt; del tensionatore a &lt;B&gt;25 - 31 Nm&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Questo assicura che la cinghia di distribuzione è al massimo tensionamento&lt;BR/&gt;&lt;LI&gt; Rimuovere gli attrezzi di fasatura &lt;B&gt;2.000.004.400&lt;/B&gt; e &lt;B&gt;2.000.004.500&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Agendo sull’albero motore, eseguire due rotazioni complete dell&apos;albero motore stesso per consentire l’assestamento della cinghia di distribuzione&lt;BR/&gt;&lt;LI&gt; Proseguire alla procedura di messa in fase cinghia di distribuzione&lt;BR/&gt;&lt;LI&gt; Allentare il dado &lt;B&gt;B&lt;/B&gt; del tensionatore&lt;BR/&gt;&lt;LI&gt; Agendo sulla forcella anteriore del tensionatore, portarla a coincidere con la forcella posteriore&lt;BR/&gt;&lt;LI&gt; Serrare il dado &lt;B&gt;B&lt;/B&gt; del tensionatore a &lt;B&gt;25 - 31 Nm&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299023071</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299023071</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299023071</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199302328</RifIDDoc>
+<Ordine>91</Ordine>
+<Capitolo>Messa in fase cinghia di distribuzione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;FASATURA DELL&apos;ALBERO A CAMME&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Ruotare l&apos;albero motore fino a posizionare il segno di riferimento &lt;B&gt;A&lt;/B&gt; presente sull&apos;albero a camme come indicato in figura&lt;BR/&gt;&lt;LI&gt; Applicare lo strumento dima &lt;B&gt;2.000.004.400&lt;/B&gt; per bloccare l&apos;albero a camme in posizione&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299023065</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299023065</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299023065</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199302328</RifIDDoc>
+<Ordine>92</Ordine>
+<Capitolo></Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt; FASATURA DELL&apos;ALBERO MOTORE&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Applicare lo strumento dima &lt;B&gt;2.000.004.500&lt;/B&gt; per bloccare l&apos;albero motore in posizione&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;NOTA:&lt;/B&gt; La dima &lt;B&gt;2.000.004.500&lt;/B&gt; può essere applicata solo in una unica posizione. Questo garantisce che i pistoni siano in posizione corretta, con il primo pistone in salita&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299023310</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299023310</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299023310</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199302328</RifIDDoc>
+<Ordine>94</Ordine>
+<Capitolo>Operazioni conclusive dopo l&apos;esecuzione di lavori sulla cinghia di distribuzione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt; Eseguire le operazioni preliminari allo stacco - riattacco della cinghia di distribuzione in ordine inverso&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

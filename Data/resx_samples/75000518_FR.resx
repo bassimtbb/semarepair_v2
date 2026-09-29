@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:26:18">
+  <XDOCUMENTO>
+    <ID>75000518</ID>
+    <DOCNumber>DES75005</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Tableau de bord Marelli 2</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Description de l'installation</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Description</Capitolo>
+      <Corpo>L&apos;unité de commande est intégrée au tableau de bord, situé dans le tableau de bord de la voiture, au-dessus du volant. &lt;BR/&gt; &lt;BR/&gt; La prise de diagnostic est de type unifié à 16 broches (EOBD) et est située dans l&apos;habitacle sous le tableau de bord côté conducteur. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Paramètres techniques</Capitolo>
+      <Corpo>L&apos;unité de commande gère différents paramètres : &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Régime moteur &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Température du moteur &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Niveau de carburant, &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Lecture de la valeur km (compteur kilométrique) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Tous les paramètres relatifs à l&apos;entretien (révision) &lt;BR/&gt; &lt;BR/&gt; Les paramètres relatifs à l&apos;entretien indiquent : &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Kilométrage jusqu&apos;au prochain entretien &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Kilométrage auquel l&apos;entretien a été effectué &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Nombre d&apos;entretiens effectués &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Distance kilométrique jusqu&apos;au prochain entretien &lt;BR/&gt; &lt;BR/&gt; Autres paramètres importants : &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Avertisseur de ceinture de sécurité : indique l&apos;état (activé/désactivé) de l&apos;avertisseur sonore si la ceinture a été bouclée ou non &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Mode d&apos;alimentation : indique l&apos;état dans lequel le véhicule est réglé au moment de l&apos;expédition (de l&apos;usine au concessionnaire). Ce mode est également appelé « mode logistique » et prévoit la désactivation de certaines charges électriques afin de réduire au minimum la consommation de courant de la batterie. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Erreurs</Capitolo>
+      <Corpo>L&apos;unité de commande est équipée d&apos;une mémoire permanente des erreurs et enregistre les paramètres environnementaux au moment où l&apos;erreur se produit. &lt;BR/&gt; &lt;BR/&gt; Ils sont signalés avec la communication jointe de leur état : &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Erreur active &lt;/B&gt; &lt;BR/&gt; Erreur actuellement détectée &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Erreur mémorisée &lt;/B&gt; &lt;BR/&gt; Erreur déjà enregistrée dans la mémoire, la panne n&apos;est actuellement pas présente. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Suppression des erreurs &lt;/B&gt; &lt;BR/&gt; Elle ne peut être effectuée qu&apos;avec l&apos;accord de l&apos;opérateur, qui doit appuyer sur la touche de suppression &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Diagnostics actifs</Capitolo>
+      <Corpo>Dans l&apos;environnement Diagnostic actif, les éléments suivants sont pilotés : &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Indicateur de température de l&apos;eau &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Indicateur de niveau de carburant &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Indicateur de régime &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Indicateur de vitesse &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Témoin de température maximale de l&apos;eau &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Témoin de réserve de carburant &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Témoin ABS &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Autres témoins divers.  &lt;BR/&gt; &lt;BR/&gt; Sont également activés : &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Buzzer &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Éclairage des index du tableau de bord &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Éclairage LCD.  &lt;BR/&gt; &lt;BR/&gt; N.B. : pour la version ABARTH, l&apos;indicateur de pression turbo et l&apos;affichage sont activés. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>6</Ordine>
+      <Capitolo>Réglages</Capitolo>
+      <Corpo> &lt;B&gt; Test Correcteur d&apos;alignement des phares &lt;/B&gt; &lt;BR/&gt; pour régler l&apos;angle des phares de croisement &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Remise à zéro du compteur kilométrique &lt;/B&gt; &lt;BR/&gt; Pour remettre à zéro le compteur kilométrique uniquement si la valeur est inférieure à 200 km et si le symbole « H » apparaît devant le nombre de kilomètres.  &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Effacement des informations de service &lt;/B&gt; &lt;BR/&gt; où tous les paramètres concernant la révision sont reportés à une distance de 30 000 km (c&apos;est-à-dire à la prochaine révision). Remarque : à effectuer à chaque révision.  &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Désactivation de l&apos;alarme des ceintures de sécurité/Activation de l&apos;alarme des ceintures de sécurité &lt;/B&gt; &lt;BR/&gt; Permet d&apos;activer ou de désactiver l&apos;alarme sonore qui retentit lorsque le conducteur n&apos;a pas bouclé sa ceinture de sécurité. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Remplacement du tableau de bord &lt;/B&gt; &lt;BR/&gt; Cette procédure lit les caractéristiques de l&apos;ancien tableau, qui sont : &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Valeur en km &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Distance depuis le dernier entretien &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Nombre de services (coupons) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Date du dernier service &lt;BR/&gt; &lt;BR/&gt; et les réécrit sur le nouveau tableau. &lt;BR/&gt; &lt;BR/&gt; N.B. : à effectuer uniquement en cas de remplacement du boîtier électronique. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

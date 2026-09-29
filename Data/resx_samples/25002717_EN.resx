@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-23T04:42:56">
+  <XDOCUMENTO>
+    <ID>25002717</ID>
+    <DOCNumber>INF25035</DOCNumber>
+    <RifIDTipoRis>1</RifIDTipoRis>
+    <Titolo>List of Systems</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>229</RifIDFileICO>
+    <XFILE>
+      <ID>229</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:229</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>1</ID>
+      <TipoRis>INF</TipoRis>
+      <DscRis>General Information</DscRis>
+      <RifIDFileCSS>12</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>12</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:12</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>25002717</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Main Group</Capitolo>
+      <Corpo> &lt;LI&gt; ABS Bosch 8 ESP (EP) &lt;BR/&gt; &lt;LI&gt; Air bag SIEMENS (EP-Proxi) &lt;BR/&gt; &lt;LI&gt; Automatic gearbox Marelli SELESPEED CFC328 2 &lt;BR/&gt; &lt;LI&gt; Parking control unit VALEO (EP) 2 &lt;BR/&gt;  &lt;LI&gt; DENSO Single Zone Air Conditioning (EP) &lt;BR/&gt; &lt;LI&gt; Marelli/Microsoft Convergence (EP) &lt;BR/&gt; &lt;LI&gt; Marelli/Microsoft C3 Convergence (EP) &lt;BR/&gt;  &lt;LI&gt; Vehicle diagnostics &lt;BR/&gt; &lt;LI&gt; DELPHI electric drive (EP) 2 &lt;BR/&gt; &lt;LI&gt; MARELLI instrument panel (EP) 2</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25002717</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>CAN network system</Capitolo>
+      <Corpo> &lt;B&gt; DELPHI Body Computer (EP) 2 &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Possible functions: &lt;BR/&gt; &lt;LI&gt; CAN network information &lt;BR/&gt; &lt;LI&gt; CAN network monitor &lt;BR/&gt; &lt;LI&gt; Proxy alignment procedure</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25002717</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Injection system</Capitolo>
+      <Corpo> &lt;B&gt; Marelli IAW 5SF8 injection &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; EOBD diagnosis &lt;BR/&gt; &lt;LI&gt; Euro 4</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

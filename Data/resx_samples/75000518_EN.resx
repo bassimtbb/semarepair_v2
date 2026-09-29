@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:26:18">
+  <XDOCUMENTO>
+    <ID>75000518</ID>
+    <DOCNumber>DES75005</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Marelli Instrument Panel 2</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Plant Description</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Description</Capitolo>
+      <Corpo>The control unit is integrated into the instrument panel, located in the car&apos;s dashboard, above the steering wheel. &lt;BR/&gt; &lt;BR/&gt; The diagnostic socket is a standard 16-pin (EOBD) type and is located in the passenger compartment under the driver&apos;s side dashboard. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Engineering parameters</Capitolo>
+      <Corpo>The control unit manages various parameters: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Engine speed &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Engine temperature &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Fuel level, &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Mileage reading (odometer) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; All service-related parameters &lt;BR/&gt; &lt;BR/&gt; The service-related parameters indicate: &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Mileage until next service &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Mileage at which service was performed &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Number of services performed &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Distance in kilometres to next service &lt;BR/&gt; &lt;BR/&gt; Other important parameters are: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Seat belt alarm: Indicates the status (activated/deactivated) of the audible alarm if the seat belt has been worn or not &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Power mode: indicates the condition in which the car is set at the time of shipment (from factory to dealer). This mode is also called (Logistic Mode) and involves disabling certain electrical loads to minimise battery power consumption. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Errors</Capitolo>
+      <Corpo>The control unit is equipped with permanent error memory and stores the environmental parameters at the moment the error occurs. &lt;BR/&gt; &lt;BR/&gt; They are reported with the attached communication of their status: &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Active error &lt;/B&gt; &lt;BR/&gt; Error is currently detected &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Stored error &lt;/B&gt; &lt;BR/&gt; Error that has already been recorded in memory, and the fault is not currently present. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Error deletion &lt;/B&gt; &lt;BR/&gt; This only occurs with the operator&apos;s consent to delete the error using the delete key &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Active Diagnostics</Capitolo>
+      <Corpo>In the Active Diagnostics environment, the following are controlled: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Water temperature indicator &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Fuel level indicator &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Rev counter &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Speed indicator &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Maximum water temperature warning light &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Low fuel warning light &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; ABS warning light &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Other various warning lights.  &lt;BR/&gt; &lt;BR/&gt; The following are also activated: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Buzzer &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Instrument panel lighting &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; LCD lighting.  &lt;BR/&gt; &lt;BR/&gt; N.B.: For the ABARTH version, the turbo pressure indicator and display are also activated. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>6</Ordine>
+      <Capitolo>Adjustments</Capitolo>
+      <Corpo> &lt;B&gt; Headlight alignment test &lt;/B&gt; &lt;BR/&gt; to adjust the angle of the low beam headlights &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Odometer reset &lt;/B&gt; &lt;BR/&gt; To reset the odometer only if the value is less than 200 km and if the symbol &quot;H&quot; is present in front of the kilometre number.  &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Service information deletion &lt;/B&gt; &lt;BR/&gt; where all parameters relating to servicing are reset to 30,000 km (i.e. the next service). Note: This must be done at every service.  &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Seat belt alarm exclusion/Seat belt alarm activation &lt;/B&gt; &lt;BR/&gt; These allow you to enable or disable the audible alarm for failure to fasten the seat belts by the driver. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Instrument panel replacement &lt;/B&gt; &lt;BR/&gt; This procedure reads the characteristics of the old panel, which are: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Mileage &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Distance since last service &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Service number (service record) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Date of last service &lt;BR/&gt; &lt;BR/&gt; and rewrites them to the new panel. &lt;BR/&gt; &lt;BR/&gt; N.B.: to be carried out only when replacing the control unit. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>
