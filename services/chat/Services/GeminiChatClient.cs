@@ -23,17 +23,34 @@ public class GeminiChatClient
         DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
     };
 
+    // docs/SemaRepair_Architecture.md section 9.1: three retries, 1s/2s/4s,
+    // before the caller is told the service is unavailable.
+    private static readonly int[] RetryDelaysMs = [1000, 2000, 4000];
+
+    // Statuses worth a second attempt. 429 is quota, the rest are Google's
+    // own capacity. Everything else - 400 INVALID_ARGUMENT above all - is a
+    // fault in the request we just built, and repeating it would only waste
+    // the mechanic's time before failing identically.
+    private static readonly HashSet<int> TransientStatuses = [429, 500, 502, 503, 504];
+
     private readonly HttpClient _httpClient;
     private readonly string _apiKey;
     private readonly GeminiPricing _pricing;
     private readonly UsageLogger _usageLogger;
+    private readonly ILogger<GeminiChatClient> _logger;
 
-    public GeminiChatClient(HttpClient httpClient, IConfiguration configuration, GeminiPricing pricing, UsageLogger usageLogger)
+    public GeminiChatClient(
+        HttpClient httpClient,
+        IConfiguration configuration,
+        GeminiPricing pricing,
+        UsageLogger usageLogger,
+        ILogger<GeminiChatClient> logger)
     {
         _httpClient = httpClient;
         _apiKey = configuration["GEMINI_API_KEY"] ?? "";
         _pricing = pricing;
         _usageLogger = usageLogger;
+        _logger = logger;
     }
 
     // tools is omitted entirely (not sent as an empty array) when null/empty.
@@ -61,11 +78,6 @@ public class GeminiChatClient
         float? temperature = null,
         bool disableThinking = false)
     {
-        using var request = new HttpRequestMessage(
-            HttpMethod.Post,
-            $"https://generativelanguage.googleapis.com/v1beta/models/{Model}:generateContent");
-        request.Headers.Add("x-goog-api-key", _apiKey);
-
         var body = new GenerateContentRequest
         {
             Contents = contents,
@@ -82,12 +94,7 @@ public class GeminiChatClient
                     }
                 : null,
         };
-        request.Content = JsonContent.Create(body, options: JsonOptions);
-
-        using var response = await _httpClient.SendAsync(request);
-        var raw = await response.Content.ReadAsStringAsync();
-        if (!response.IsSuccessStatusCode)
-            throw new HttpRequestException($"Gemini API error {(int)response.StatusCode}: {raw}");
+        var raw = await SendWithRetryAsync(body, operation);
 
         var parsed = JsonSerializer.Deserialize<GenerateContentResponse>(raw, JsonOptions);
         var content = parsed?.Candidates?.FirstOrDefault()?.Content
@@ -126,6 +133,74 @@ public class GeminiChatClient
         }
 
         return new GeminiTurn(content);
+    }
+
+    // One generateContent call, retried while Gemini is the reason it failed.
+    //
+    // Measured on the deployed stack: Gemini answers 503 UNAVAILABLE - its
+    // "model is overloaded" - in 300 to 900ms, in bursts, while the same
+    // request succeeds moments later. A rejected call returns no
+    // usageMetadata and is not billed, so an attempt that fails this way
+    // costs a third of a second and nothing else. Without this loop a single
+    // 503 on the routing call surfaced to the mechanic as "the service is
+    // temporarily unavailable" and lost the question he had just typed.
+    //
+    // Worst case adds 7 seconds of waiting before the same failure he would
+    // have had immediately - which is the right trade when the alternative
+    // is retyping, and when most bursts clear on the first retry.
+    //
+    // A fresh HttpRequestMessage per attempt because one cannot be sent
+    // twice; the body is built once by the caller and reserialized.
+    private async Task<string> SendWithRetryAsync(GenerateContentRequest body, string operation)
+    {
+        for (var attempt = 0; ; attempt++)
+        {
+            using var request = new HttpRequestMessage(
+                HttpMethod.Post,
+                $"https://generativelanguage.googleapis.com/v1beta/models/{Model}:generateContent");
+            request.Headers.Add("x-goog-api-key", _apiKey);
+            request.Content = JsonContent.Create(body, options: JsonOptions);
+
+            int status;
+            string raw;
+
+            try
+            {
+                using var response = await _httpClient.SendAsync(request);
+                raw = await response.Content.ReadAsStringAsync();
+
+                if (response.IsSuccessStatusCode)
+                {
+                    if (attempt > 0)
+                        _logger.LogInformation(
+                            "Gemini {Operation} succeeded on attempt {Attempt}", operation, attempt + 1);
+                    return raw;
+                }
+
+                status = (int)response.StatusCode;
+            }
+            catch (Exception ex) when (
+                (ex is HttpRequestException or TaskCanceledException) && attempt < RetryDelaysMs.Length)
+            {
+                // The connection itself failed - DNS, TLS, a dropped socket.
+                // Same treatment as a 503: it is not the request's fault.
+                _logger.LogWarning(ex,
+                    "Gemini {Operation} could not be reached; retrying in {DelayMs}ms ({Attempt}/{Max})",
+                    operation, RetryDelaysMs[attempt], attempt + 1, RetryDelaysMs.Length);
+
+                await Task.Delay(RetryDelaysMs[attempt]);
+                continue;
+            }
+
+            if (!TransientStatuses.Contains(status) || attempt >= RetryDelaysMs.Length)
+                throw new HttpRequestException($"Gemini API error {status}: {raw}");
+
+            _logger.LogWarning(
+                "Gemini {Operation} returned {Status}; retrying in {DelayMs}ms ({Attempt}/{Max})",
+                operation, status, RetryDelaysMs[attempt], attempt + 1, RetryDelaysMs.Length);
+
+            await Task.Delay(RetryDelaysMs[attempt]);
+        }
     }
 
     // /api/chat/transcribe - a one-off, history-free call (no tools, no

@@ -97,8 +97,16 @@ public partial class RepairOrchestrator
                 temperature: 0,
                 disableThinking: true);
         }
-        catch (Exception)
+        catch (Exception ex)
         {
+            // Logged, not swallowed. This is the one path that ends in
+            // "the service is temporarily unavailable" with nothing else
+            // on screen, and for a long time it was also the one path that
+            // recorded no reason anywhere - leaving the only way to find
+            // out what Gemini had said to be guesswork.
+            _logger.LogError(ex,
+                "Routing call failed for session {SessionId} after retries; answering service-unavailable",
+                request.SessionId);
             routingTurn = null;
         }
 
@@ -164,8 +172,14 @@ public partial class RepairOrchestrator
         {
             toolResult = await ExecuteToolAsync(routingTurn.FunctionCall, session, request.Language);
         }
-        catch (Exception)
+        catch (Exception ex)
         {
+            // Same reasoning as the routing catch above: name the tool, so
+            // the log says which of Search or Vehicle Service was the one
+            // that could not be reached.
+            _logger.LogError(ex,
+                "Tool {Tool} failed for session {SessionId}; answering service-unavailable",
+                routingTurn.FunctionCall.Name, request.SessionId);
             toolResult = null;
         }
 
