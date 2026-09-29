@@ -4,6 +4,7 @@ import { detectLanguage } from './language-detector';
 import { parseCarSelection } from './selection-parser';
 import { parseScreenCommand } from './screen-commands';
 import { SchemaFocusService } from './schema-focus.service';
+import { UiLanguageService } from './ui-language.service';
 import { t, tScreenEnlarged } from './voice-strings';
 import { sortCarsForDisplay } from '../utils/car-sort';
 import type { CarOption, CaseSummary, ChatMessage, ChatResponse } from '../models/chat.models';
@@ -56,11 +57,18 @@ function newSessionId(): string {
 export class ChatStore {
   private readonly sessionId = newSessionId();
 
-  // No manual switcher - detected from what the mechanic types, per
-  // message. Short/ambiguous text (a bare DTC code, "si") often can't be
-  // detected at all, so it falls back to whatever was last detected this
-  // session rather than flapping back to the default.
-  private language = 'it';
+  // Detected from what the mechanic types, per message. Short/ambiguous
+  // text (a bare DTC code, "si") often can't be detected at all, so it
+  // falls back to whatever was last detected this session rather than
+  // flapping back to the default.
+  //
+  // The language menu in the help drawer sets that DEFAULT - the value
+  // this starts at, for the messages detection cannot read - and nothing
+  // more. Detection still wins whenever it is confident, so typing in
+  // Italian is answered in Italian whatever the menu says. What the menu
+  // removed is the hardcoded 'it' that used to sit here, which was a
+  // guess about the reader that the reader himself can now make.
+  private language: string;
 
   readonly messages = signal<ChatMessage[]>([]);
   readonly confirmedCar = signal<CarOption | null>(null);
@@ -92,7 +100,11 @@ export class ChatStore {
   constructor(
     private readonly api: ChatApiService,
     private readonly schemaFocus: SchemaFocusService,
-  ) {}
+    uiLanguage: UiLanguageService,
+  ) {
+    this.language = uiLanguage.lang();
+    this.detectedLanguage.set(this.language);
+  }
 
   async sendMessage(text: string): Promise<void> {
     if (!text.trim() || this.isStreaming()) return;

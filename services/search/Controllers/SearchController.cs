@@ -105,6 +105,7 @@ public class SearchController : ControllerBase
     private readonly DocumentContentService _documentContent;
     private readonly TechnicalSearchService _technicalSearch;
     private readonly UncoveredSystemService _uncoveredSystems;
+    private readonly CoverageService _coverage;
 
     public SearchController(
         GraphSearchService graphSearch,
@@ -113,7 +114,8 @@ public class SearchController : ControllerBase
         ValidationService validation,
         DocumentContentService documentContent,
         TechnicalSearchService technicalSearch,
-        UncoveredSystemService uncoveredSystems)
+        UncoveredSystemService uncoveredSystems,
+        CoverageService coverage)
     {
         _graphSearch = graphSearch;
         _vectorSearch = vectorSearch;
@@ -122,7 +124,17 @@ public class SearchController : ControllerBase
         _documentContent = documentContent;
         _technicalSearch = technicalSearch;
         _uncoveredSystems = uncoveredSystems;
+        _coverage = coverage;
     }
+
+    // GET /api/search/coverage
+    // What the archive holds, for the help panel and the language menu.
+    // No vehicle parameter on purpose: this answers "what can I ask about
+    // at all", which is the question a mechanic has before he has named a
+    // vehicle - and, on this deployment, the first thing the client will
+    // want to know.
+    [HttpGet("coverage")]
+    public Task<CoverageResponse> Coverage() => _coverage.GetAsync();
 
     // GET /api/search/fault-code?code=P2279&codiceMotore=XUJN&marca=FORD&lang=it
     // Italian query params (codiceMotore/marca) - a deliberate deviation

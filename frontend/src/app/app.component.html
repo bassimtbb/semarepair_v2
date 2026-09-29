@@ -35,6 +35,20 @@
         <svg lucideMessageCircle [size]="18"></svg>
       </a>
 
+      <!-- Brings the help drawer back after the first visit opened it once
+           by itself. The drawer lives on the chat page; this only flips the
+           shared signal, so the header needs to know nothing about it. -->
+      <button
+        type="button"
+        class="theme-toggle border-border text-foreground hover:bg-foreground/8"
+        (click)="help.toggle()"
+        [title]="helpStrings().title"
+        [attr.aria-label]="helpStrings().title"
+        [attr.aria-expanded]="help.isOpen()"
+      >
+        <svg lucideCircleHelp [size]="18"></svg>
+      </button>
+
       <button
         type="button"
         class="theme-toggle border-border text-foreground hover:bg-foreground/8"

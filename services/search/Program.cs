@@ -16,6 +16,7 @@ builder.Services.AddSingleton<DocumentContentService>();
 builder.Services.AddSingleton<TechnicalSearchService>();
 builder.Services.AddSingleton<UncoveredSystemService>();
 builder.Services.AddSingleton<UsageQueryService>();
+builder.Services.AddSingleton<CoverageService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

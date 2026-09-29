@@ -118,8 +118,21 @@ services:
   nginx:
     image: nginx:alpine
     restart: unless-stopped
+    # 9080 on the host, 80 inside the container.
+    #
+    # The host port is 9080 because forj-dkr-dev-01 is shared: port 80 is a
+    # single resource on that machine, and taking it would deny it to every
+    # other container for good. Their infrastructure team keeps 8084-9100 open
+    # and asked us to pick one. 9080 sits mid-range - away from the crowded
+    # 808x band where the next container is likeliest to land - and is not the
+    # default of any common service (8080 Tomcat, 8086 InfluxDB, 8090
+    # Confluence, 9000 Portainer, 9090 Prometheus).
+    #
+    # Nothing inside the stack moves: nginx still listens on 80 in its own
+    # network namespace, and the service-to-service URLs are unchanged. Only
+    # the published port differs, so IIS proxies to 172.16.40.151:9080.
     ports:
-      - "80:80"
+      - "9080:80"
     environment:
       USAGE_DASHBOARD_KEY: ${USAGE_DASHBOARD_KEY}
     # Mounted into /templates (not /conf.d) so the official nginx image's

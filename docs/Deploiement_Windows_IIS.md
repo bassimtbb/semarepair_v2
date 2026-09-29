@@ -59,37 +59,18 @@ EOF
 Sans `TECHNICAL_INFO_ENABLED=true`, toute l'extension technique est éteinte : plus de
 fusibles, plus de schémas, plus de procédures.
 
-## 3. Vérifier que le port 80 est libre
+## 3. Vérifier que le port 8880 est libre
+
+La machine est partagée. Leur équipe infra garde **8084-9100** ouverts et nous a demandé
+d'en choisir un : le `docker-compose.yml` publie donc nginx sur **8880**.
 
 ```bash
-ss -tlnp | grep ':80 ' || echo "port 80 libre"
+ss -tlnp | grep ':8880 ' || echo "port 8880 libre"
 ```
 
-S'il l'est, **ne touche pas au `docker-compose.yml`** : IIS relaiera vers
-`http://172.16.40.151/`. La bascule sur 8080 n'était nécessaire que dans l'hypothèse
-abandonnée où tout tournait sur le serveur IIS.
-
-> ### ⚠️ Neutraliser `docker-compose.override.yml`
->
-> Compose charge ce fichier **automatiquement**, sans qu'on le nomme. Il est écrit pour
-> le développement et publie quatre ports sur `0.0.0.0` : PostgreSQL 5432, search 5001,
-> vehicle 5002, chat 5000.
->
-> Deux conséquences sur une machine partagée, rencontrées toutes les deux le 29/09 : la
-> base devient joignable depuis tout le réseau avec le mot de passe du `.env`, et le 5000
-> entre en collision avec un autre projet déjà hébergé sur la machine (`jtruck-api`), ce
-> qui empêche `chat-service` de démarrer — donc aussi nginx, qui en dépend.
->
-> Une ligne dans le `.env` du serveur règle les deux, définitivement :
->
-> ```bash
-> echo 'COMPOSE_FILE=docker-compose.yml' >> .env
-> ```
->
-> Compose ne charge plus alors que le fichier de base, pour **toutes** les commandes
-> (`up`, `ps`, `logs`, `down`). `.env` n'étant pas versionné, le poste de développement
-> garde ses ports. Contrôle : `docker compose ps` ne doit montrer qu'une seule
-> publication, `0.0.0.0:80->80/tcp` sur nginx.
+S'il est pris, change la seule ligne `ports:` du service `nginx` et prends un autre numéro
+de la plage. Rien d'autre ne bouge : nginx écoute toujours sur 80 dans son propre espace
+réseau, et les URL entre services sont inchangées.
 
 ## 4. Charger les données
 
@@ -193,7 +174,7 @@ Binding : **https**, 443, le nom d'hôte, avec le certificat.
              le dupliquer ici serait deux endroits a tenir a jour. -->
         <rule name="SemaRepair" stopProcessing="true">
           <match url="(.*)" />
-          <action type="Rewrite" url="http://172.16.40.151/{R:1}" />
+          <action type="Rewrite" url="http://172.16.40.151:8880/{R:1}" />
         </rule>
       </rules>
     </rewrite>
@@ -209,7 +190,7 @@ Binding : **https**, 443, le nom d'hôte, avec le certificat.
 | # | Test | Attendu |
 | --- | --- | --- |
 | 1 | `docker compose ps` | tout `Up`, postgres `healthy` |
-| 2 | `curl http://localhost/` depuis la VM Linux | du HTML |
+| 2 | `curl http://localhost:8880/` depuis la VM Linux | du HTML |
 | 3 | `https://<hôte>/` depuis ton poste | l'interface |
 | 4 | Le cadenas Chrome | **valide** — sinon pas de micro |
 | 5 | Identifier le véhicule, cliquer la carte | la pastille apparaît |

@@ -1,19 +1,31 @@
-import { Component } from '@angular/core';
+import { Component, computed } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
-import { LucideX, LucideSun, LucideMoon, LucideMessageCircle } from '@lucide/angular';
+import { LucideX, LucideSun, LucideMoon, LucideMessageCircle, LucideCircleHelp } from '@lucide/angular';
 import { ChatStore } from './services/chat-store.service';
 import { ThemeService } from './services/theme.service';
+import { HelpPanelService } from './services/help-panel.service';
+import { UiLanguageService } from './services/ui-language.service';
+import { h } from './services/help-strings';
 import type { CarOption } from './models/chat.models';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterLink, RouterOutlet, LucideX, LucideSun, LucideMoon, LucideMessageCircle],
+  imports: [RouterLink, RouterOutlet, LucideX, LucideSun, LucideMoon, LucideMessageCircle, LucideCircleHelp],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  constructor(readonly chat: ChatStore, readonly theme: ThemeService) {}
+  constructor(
+    readonly chat: ChatStore,
+    readonly theme: ThemeService,
+    readonly help: HelpPanelService,
+    private readonly ui: UiLanguageService,
+  ) {}
+
+  // Only the "?" tooltip needs translating up here; the drawer carries the
+  // rest of its own text.
+  readonly helpStrings = computed(() => h(this.ui.lang()));
 
   // Secondary line of the centered confirmed-car badge - everything
   // CarOption carries beyond marca+modello (shown on the primary line).

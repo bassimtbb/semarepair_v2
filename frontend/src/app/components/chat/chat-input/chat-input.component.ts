@@ -7,11 +7,13 @@
 // with Gemini remaining authoritative for the final commit. Documented here
 // as a future option; not implemented because it's Chrome-only and adds a
 // second STT consumer.
-import { Component, ElementRef, EventEmitter, Input, OnDestroy, Output, ViewChild, effect, signal, untracked } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Input, OnDestroy, Output, ViewChild, computed, effect, signal, untracked } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { LucideAudioLines, LucideSparkles, LucideSend } from '@lucide/angular';
 import { SpeechService } from '../../../services/speech/speech.service';
 import { VoiceModeService } from '../../../services/voice-mode.service';
+import { UiLanguageService } from '../../../services/ui-language.service';
+import { h } from '../../../services/help-strings';
 import type { VoiceEngine } from '../../../services/voice-mode.service';
 
 @Component({
@@ -61,13 +63,14 @@ import type { VoiceEngine } from '../../../services/voice-mode.service';
         <!-- Input + visualizer: canvas always in DOM, opacity driven by CSS -->
         <div class="input-area">
           <input
+            #textInput
             type="text"
             class="viz-input text-foreground"
             [class.viz-input--hidden]="voiceMode.state() === 'listening'"
             [ngModel]="textSig()"
             (ngModelChange)="textSig.set($event)"
             [disabled]="disabled"
-            placeholder="Descrivi il problema o inserisci un codice guasto..."
+            [placeholder]="strings().placeholder"
             (keydown.enter)="submit()"
             (input)="onTextInput()"
           />
@@ -94,11 +97,14 @@ import type { VoiceEngine } from '../../../services/voice-mode.service';
 })
 export class ChatInputComponent implements OnDestroy {
   @ViewChild('vizCanvas') private vizCanvas?: ElementRef<HTMLCanvasElement>;
+  @ViewChild('textInput') private textInput?: ElementRef<HTMLInputElement>;
 
   @Input() disabled = false;
   @Output() send = new EventEmitter<string>();
 
   readonly textSig = signal('');
+
+  readonly strings = computed(() => h(this.uiLanguage.lang()));
 
   private vizRaf: number | null = null;
   private animHandle: ReturnType<typeof setTimeout> | null = null;
@@ -106,6 +112,7 @@ export class ChatInputComponent implements OnDestroy {
   constructor(
     readonly voiceMode: VoiceModeService,
     private readonly speech: SpeechService,
+    private readonly uiLanguage: UiLanguageService,
   ) {
     // Start typing animation whenever a transcript arrives from the service
     effect(() => {
@@ -134,6 +141,20 @@ export class ChatInputComponent implements OnDestroy {
     if (!this.textSig().trim() || this.disabled) return;
     this.send.emit(this.textSig());
     this.textSig.set('');
+  }
+
+  // A question picked in the help drawer. It lands in the box UNSENT, and
+  // the caret goes with it: the reader watches the sentence appear exactly
+  // where his own will go, and can edit it before committing. Sending it
+  // for him would have been one gesture fewer and taught him nothing about
+  // where he is supposed to type.
+  //
+  // Any transcript still typing itself out is cancelled first, so the two
+  // writers never interleave in the same field.
+  setText(text: string): void {
+    this.cancelTypeAnimation(false);
+    this.textSig.set(text);
+    this.textInput?.nativeElement.focus();
   }
 
   toggleVoiceMode(type: VoiceEngine): void {
