@@ -183,6 +183,59 @@
   margin: 8px 0 0;
 }
 
+/* The fault-code list. Collapsed by default - 139 codes expanded would push
+   everything below them off the drawer - and <details> gives the toggle,
+   the keyboard behaviour and the screen-reader state for free. */
+.help-codes > summary {
+  cursor: pointer;
+  margin-bottom: 0;
+  list-style-position: outside;
+}
+
+.help-codes[open] > summary {
+  margin-bottom: 10px;
+}
+
+.help-codes-count {
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  margin-left: auto;
+  padding-left: 8px;
+}
+
+.help-codes-group + .help-codes-group {
+  margin-top: 10px;
+}
+
+.help-codes-label {
+  font-size: 11px;
+  margin-bottom: 4px;
+}
+
+/* auto-fill rather than a fixed column count: the codes are all the same
+   width, so the row packs itself and the drawer can narrow on a phone
+   without the grid overflowing. */
+.help-codes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(62px, 1fr));
+  gap: 4px;
+}
+
+/* Monospaced, like the reference badge on a fact card: a DTC is an
+   identifier the mechanic reads off and types, not prose. */
+.help-code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 11px;
+  line-height: 1.2;
+  padding: 5px 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+}
+
 .help-legend {
   list-style: none;
   margin: 8px 0 0;

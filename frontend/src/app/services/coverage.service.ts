@@ -1,4 +1,4 @@
-import { Injectable, signal } from '@angular/core';
+import { Injectable, computed, signal } from '@angular/core';
 import type { HelpLanguage } from './help-strings';
 
 // Same relative-path convention as ChatApiService: nginx proxies
@@ -30,7 +30,14 @@ export interface Coverage {
   vehicles: CoverageVehicle[];
   repairDocuments: number;
   languages: CoverageLanguage[];
+  faultCodes: string[];
 }
+
+// The four DTC families, in the order SAE J2012 defines them. The prefix is
+// the only part of a code that carries meaning without a lookup, so the list
+// is grouped by it rather than left as one run of 139 - a mechanic looking
+// for an ABS fault reads the C block and ignores the rest.
+export type FaultCodeGroup = { prefix: string; codes: string[] };
 
 // What the archive holds, fetched once per page load and cached in a signal.
 //
@@ -85,4 +92,26 @@ export class CoverageService {
   vehicleQuery(v: CoverageVehicle): string {
     return [v.marca, v.modello, v.motorizzazione].filter(Boolean).join(' ');
   }
+
+  // Grouped by first letter, families in SAE order, anything unexpected kept
+  // at the end rather than dropped - a code the archive holds must appear in
+  // this list whatever it looks like, or the list stops being the answer to
+  // "what can I ask".
+  readonly faultCodeGroups = computed<FaultCodeGroup[]>(() => {
+    const codes = this.coverage()?.faultCodes ?? [];
+    if (codes.length === 0) return [];
+
+    const order = ['P', 'B', 'C', 'U'];
+    const buckets = new Map<string, string[]>();
+
+    for (const code of codes) {
+      const prefix = code.charAt(0).toUpperCase();
+      const key = order.includes(prefix) ? prefix : '?';
+      (buckets.get(key) ?? buckets.set(key, []).get(key)!).push(code);
+    }
+
+    return [...order, '?']
+      .filter(p => buckets.has(p))
+      .map(prefix => ({ prefix, codes: buckets.get(prefix)! }));
+  });
 }

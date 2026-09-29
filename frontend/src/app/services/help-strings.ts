@@ -40,6 +40,18 @@ export interface HelpCopy {
   try_title: string;
   try_hint: string;
 
+  // The fault codes the archive can answer. A tester who types a code at
+  // random gets a correct "not found" and concludes the product is broken -
+  // which is exactly what happened the first time a client tried it.
+  codes_title: string;
+  codes_count: (n: number) => string;
+  codes_hint: string;
+  codes_group_p: string;
+  codes_group_b: string;
+  codes_group_c: string;
+  codes_group_u: string;
+  codes_group_other: string;
+
   voice_title: string;
   voice_body: string;
   voice_hd: string;
@@ -88,6 +100,15 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     try_title: 'Prova queste domande',
     try_hint: 'Tocca una domanda per scriverla nel campo, senza inviarla.',
 
+    codes_title: 'Codici guasto disponibili',
+    codes_count: n => `${n} codici nell’archivio`,
+    codes_hint: 'Tocca un codice per scriverlo nel campo.',
+    codes_group_p: 'Motore e cambio',
+    codes_group_b: 'Carrozzeria',
+    codes_group_c: 'Telaio, ABS e ESP',
+    codes_group_u: 'Rete di bordo',
+    codes_group_other: 'Altri',
+
     voice_title: 'Rispondere a voce',
     voice_body: 'Parla: la domanda viene trascritta e la risposta letta ad alta voce.',
     voice_hd: 'Voice HD — voce di qualità alta',
@@ -131,6 +152,15 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
 
     try_title: 'Try these questions',
     try_hint: 'Tap a question to put it in the box, without sending it.',
+
+    codes_title: 'Fault codes available',
+    codes_count: n => `${n} codes in the archive`,
+    codes_hint: 'Tap a code to put it in the box.',
+    codes_group_p: 'Powertrain',
+    codes_group_b: 'Body',
+    codes_group_c: 'Chassis, ABS and ESP',
+    codes_group_u: 'Network',
+    codes_group_other: 'Other',
 
     voice_title: 'Answering out loud',
     voice_body: 'Speak: your question is transcribed and the answer read aloud.',
@@ -176,6 +206,15 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     try_title: 'Essayez ces questions',
     try_hint: 'Touchez une question pour l’écrire dans le champ, sans l’envoyer.',
 
+    codes_title: 'Codes défaut disponibles',
+    codes_count: n => `${n} codes dans l’archive`,
+    codes_hint: 'Touchez un code pour l’écrire dans le champ.',
+    codes_group_p: 'Moteur et boîte',
+    codes_group_b: 'Carrosserie',
+    codes_group_c: 'Châssis, ABS et ESP',
+    codes_group_u: 'Réseau de bord',
+    codes_group_other: 'Autres',
+
     voice_title: 'Répondre à voix haute',
     voice_body: 'Parlez : la question est transcrite et la réponse lue à voix haute.',
     voice_hd: 'Voice HD — voix de haute qualité',
@@ -220,6 +259,15 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     try_title: 'Prueba estas preguntas',
     try_hint: 'Toca una pregunta para escribirla en el campo, sin enviarla.',
 
+    codes_title: 'Códigos de avería disponibles',
+    codes_count: n => `${n} códigos en el archivo`,
+    codes_hint: 'Toca un código para escribirlo en el campo.',
+    codes_group_p: 'Motor y cambio',
+    codes_group_b: 'Carrocería',
+    codes_group_c: 'Chasis, ABS y ESP',
+    codes_group_u: 'Red de a bordo',
+    codes_group_other: 'Otros',
+
     voice_title: 'Responder en voz alta',
     voice_body: 'Habla: la pregunta se transcribe y la respuesta se lee en voz alta.',
     voice_hd: 'Voice HD — voz de alta calidad',
@@ -263,6 +311,15 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
 
     try_title: 'Experimente estas perguntas',
     try_hint: 'Toque numa pergunta para a escrever no campo, sem a enviar.',
+
+    codes_title: 'Códigos de avaria disponíveis',
+    codes_count: n => `${n} códigos no arquivo`,
+    codes_hint: 'Toque num código para o escrever no campo.',
+    codes_group_p: 'Motor e caixa',
+    codes_group_b: 'Carroçaria',
+    codes_group_c: 'Chassis, ABS e ESP',
+    codes_group_u: 'Rede de bordo',
+    codes_group_other: 'Outros',
 
     voice_title: 'Responder em voz alta',
     voice_body: 'Fale: a pergunta é transcrita e a resposta lida em voz alta.',

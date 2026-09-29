@@ -99,6 +99,23 @@ public class CoverageService
             }
         }
 
+        // The same edge the fault-code search walks (CONTAINS_FAULT), so the
+        // list offered and the list that can be answered are the same one by
+        // construction, not by two definitions kept in step by hand.
+        await using (var cmd = new NpgsqlCommand("""
+            SELECT DISTINCT to_id
+            FROM graph_edges
+            WHERE relation = 'CONTAINS_FAULT' AND to_type = 'faultcode'
+            ORDER BY to_id
+            """, conn))
+        await using (var reader = await cmd.ExecuteReaderAsync())
+        {
+            while (await reader.ReadAsync())
+            {
+                if (!reader.IsDBNull(0)) response.FaultCodes.Add(reader.GetString(0));
+            }
+        }
+
         return response;
     }
 }

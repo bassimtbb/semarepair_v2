@@ -2,7 +2,7 @@ import { Component, EventEmitter, HostListener, OnInit, Output, computed } from 
 import {
   LucideX, LucideStar, LucideMessageCircle, LucideChevronRight,
   LucideSparkles, LucideAudioLines, LucideMaximize, LucideShieldCheck,
-  LucideLanguages,
+  LucideLanguages, LucideListTree,
 } from '@lucide/angular';
 import { HelpPanelService } from '../../services/help-panel.service';
 import { UiLanguageService } from '../../services/ui-language.service';
@@ -26,7 +26,7 @@ import type { HelpLanguage } from '../../services/help-strings';
   imports: [
     LucideX, LucideStar, LucideMessageCircle, LucideChevronRight,
     LucideSparkles, LucideAudioLines, LucideMaximize, LucideShieldCheck,
-    LucideLanguages,
+    LucideLanguages, LucideListTree,
   ],
   template: `
     <aside
@@ -107,6 +107,41 @@ import type { HelpLanguage } from '../../services/help-strings';
           <p class="help-hint text-muted">{{ t().try_hint }}</p>
         </section>
 
+        <!-- Replie par defaut : 139 codes deplies pousseraient tout le reste
+             du tiroir hors de l'ecran. <details> plutot qu'un signal, parce
+             que le navigateur sait deja le faire, au clavier comme au
+             lecteur d'ecran. -->
+        @if (coverage.faultCodeGroups(); as groups) {
+          @if (groups.length) {
+            <section class="help-section">
+              <details class="help-codes">
+                <summary class="help-section-head text-accent">
+                  <svg lucideListTree [size]="15"></svg>
+                  <span>{{ t().codes_title }}</span>
+                  <span class="help-codes-count text-muted">{{ t().codes_count(totalCodes()) }}</span>
+                </summary>
+
+                @for (group of groups; track group.prefix) {
+                  <div class="help-codes-group">
+                    <div class="help-codes-label text-muted">{{ groupLabel(group.prefix) }}</div>
+                    <div class="help-codes-grid">
+                      @for (code of group.codes; track code) {
+                        <button
+                          type="button"
+                          class="help-code bg-surface border-border text-foreground hover:bg-foreground/8"
+                          (click)="suggest.emit(code)"
+                        >{{ code }}</button>
+                      }
+                    </div>
+                  </div>
+                }
+
+                <p class="help-hint text-muted">{{ t().codes_hint }}</p>
+              </details>
+            </section>
+          }
+        }
+
         <section class="help-section">
           <div class="help-section-head text-accent">
             <svg lucideSparkles [size]="15"></svg>
@@ -176,12 +211,12 @@ export class HelpDrawerComponent implements OnInit {
   constructor(
     readonly help: HelpPanelService,
     readonly ui: UiLanguageService,
-    private readonly coverageService: CoverageService,
+    readonly coverage: CoverageService,
     private readonly chat: ChatStore,
   ) {}
 
   ngOnInit(): void {
-    this.coverageService.load();
+    this.coverage.load();
   }
 
   @HostListener('document:keydown.escape')
@@ -190,12 +225,12 @@ export class HelpDrawerComponent implements OnInit {
   }
 
   readonly vehicleLabel = computed(() => {
-    const first = this.coverageService.coverage()?.vehicles[0];
-    return first ? this.coverageService.vehicleLabel(first) : null;
+    const first = this.coverage.coverage()?.vehicles[0];
+    return first ? this.coverage.vehicleLabel(first) : null;
   });
 
   readonly countsLine = computed(() => {
-    const c = this.coverageService.forLanguage(this.ui.lang());
+    const c = this.coverage.forLanguage(this.ui.lang());
     if (!c) return null;
 
     const s = this.t();
@@ -205,7 +240,7 @@ export class HelpDrawerComponent implements OnInit {
   });
 
   readonly repairLine = computed(() => {
-    const n = this.coverageService.coverage()?.repairDocuments;
+    const n = this.coverage.coverage()?.repairDocuments;
     return n ? this.t().demo_repairs(n) : null;
   });
 
@@ -221,22 +256,37 @@ export class HelpDrawerComponent implements OnInit {
     const s = this.t();
 
     if (!this.chat.confirmedCar()) {
-      const first = this.coverageService.coverage()?.vehicles[0];
-      return first ? [this.coverageService.vehicleQuery(first)] : [];
+      const first = this.coverage.coverage()?.vehicles[0];
+      return first ? [this.coverage.vehicleQuery(first)] : [];
     }
 
     const out = [s.q_fuse, s.q_fusebox];
-    const c = this.coverageService.forLanguage(this.ui.lang());
+    const c = this.coverage.forLanguage(this.ui.lang());
     if (c && c.diagrams > 0) out.push(s.q_diagram, s.q_airbag);
     return out;
   });
+
+  readonly totalCodes = computed(() => this.coverage.coverage()?.faultCodes.length ?? 0);
+
+  // The prefix is the only part of a DTC that means something without a
+  // lookup table, so it is what the groups are labelled with.
+  groupLabel(prefix: string): string {
+    const s = this.t();
+    switch (prefix) {
+      case 'P': return s.codes_group_p;
+      case 'B': return s.codes_group_b;
+      case 'C': return s.codes_group_c;
+      case 'U': return s.codes_group_u;
+      default:  return s.codes_group_other;
+    }
+  }
 
   languageName(code: HelpLanguage): string {
     return LANGUAGE_NAMES[code];
   }
 
   coverageSuffix(code: HelpLanguage): string {
-    const c = this.coverageService.forLanguage(code);
+    const c = this.coverage.forLanguage(code);
     if (!c) return '';
 
     const s = this.t();

@@ -20,6 +20,14 @@ public class CoverageResponse
     public long RepairDocuments { get; set; }
 
     public List<CoverageLanguage> Languages { get; set; } = [];
+
+    // Every DTC the archive can answer, sorted. Listed rather than
+    // summarised because the failure it prevents is specific: a tester who
+    // types a code at random gets a correct "not found" and concludes the
+    // product is broken. The first client to try it did exactly that, with
+    // P1200 - a code this archive does not carry - and reported back that
+    // it was not working well.
+    public List<string> FaultCodes { get; set; } = [];
 }
 
 public class CoverageVehicle
