@@ -182,7 +182,6 @@ export class HelpDrawerComponent implements OnInit {
 
   ngOnInit(): void {
     this.coverageService.load();
-    this.help.openOnFirstVisit();
   }
 
   @HostListener('document:keydown.escape')
