@@ -340,7 +340,20 @@ public partial class RepairOrchestrator
             _logger.LogWarning(ex,
                 "Formatting call failed for session {SessionId}; returning structured result with fallback message",
                 request.SessionId);
-            message = FormattingFallbackMessage(request.Language);
+
+            // Which fallback depends on whether there is anything to show.
+            //
+            // Observed with a client testing over chat.semarepair.com: a
+            // fault code absent from the archive, on a turn where the
+            // formatting call also hit one of Gemini's 503 bursts, produced
+            // "Ecco i risultati trovati." above an empty screen. The line is
+            // written for the case its name describes - results in hand,
+            // only the prose missing - and asserting it over nothing is the
+            // product claiming to have found something it did not, which is
+            // the one thing the rest of this build refuses to do.
+            message = HasResultsToShow(rawResult)
+                ? FormattingFallbackMessage(request.Language)
+                : NothingFoundFallbackMessage(request.Language);
         }
 
         // Rule 1 signal (M1, Half B): a car is confirmed this session if either
@@ -1148,6 +1161,40 @@ public partial class RepairOrchestrator
         "es" => "Aquí están los resultados encontrados.",
         _ => "Ecco i risultati trovati.",
     };
+
+    // The same fallback for the opposite case: the formatting call failed on
+    // a turn that found nothing. Generic on purpose - it cannot name the
+    // fault code or the symptom, because the sentence that normally does
+    // ("Nessun documento trovato per il codice P1200") is written by the
+    // call that just failed. Saying less is the only honest option left.
+    private static string NothingFoundFallbackMessage(string language) => language switch
+    {
+        "en" => "I found nothing in the archive for this request.",
+        "fr" => "Je n'ai rien trouvé dans l'archive pour cette demande.",
+        "pt" => "Não encontrei nada no arquivo para este pedido.",
+        "es" => "No he encontrado nada en el archivo para esta consulta.",
+        _ => "Non ho trovato nulla nell'archivio per questa richiesta.",
+    };
+
+    // True when BuildChatResponse will actually render something. These are
+    // exactly the three arrays it reads - keep in step with it, or a fallback
+    // line will one day describe a screen that does not match.
+    private static bool HasResultsToShow(JsonElement rawResult)
+    {
+        if (rawResult.ValueKind != JsonValueKind.Object) return false;
+
+        foreach (var name in (ReadOnlySpan<string>)["cars", "chunks", "documents"])
+        {
+            if (rawResult.TryGetProperty(name, out var array) &&
+                array.ValueKind == JsonValueKind.Array &&
+                array.GetArrayLength() > 0)
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
 
     private static ChatResponse ServiceUnavailableResponse(string language) => new()
     {
