@@ -3,6 +3,14 @@ using SearchService.Models;
 
 namespace SearchService.Services;
 
+// Reads what the archive holds, so the interface can state it instead of
+// claiming it. Three aggregates, no embedding, no Gemini call - this runs
+// on every first page load and must stay cheap.
+//
+// Deliberately NOT filtered by vehicle: the help drawer opens before any
+// vehicle is confirmed, and its first job is to say which vehicles exist
+// at all. Once one is chosen the ordinary search paths take over, and they
+// filter by engine code as strictly as ever.
 public class CoverageService
 {
     private readonly string _connectionString;
@@ -14,36 +22,83 @@ public class CoverageService
 
     public async Task<CoverageResponse> GetAsync()
     {
-        await using var connection = new NpgsqlConnection(_connectionString);
-        await connection.OpenAsync();
-        await using var command = new NpgsqlCommand("""
-            SELECT
-                (SELECT COUNT(DISTINCT from_id)
-                 FROM graph_edges
-                 WHERE from_type = 'car' AND relation = 'DOCUMENTED_IN') AS vehicles,
-                (SELECT COUNT(DISTINCT (id_documento, language))
-                 FROM documents
-                 WHERE anomalia IS NOT NULL OR causa IS NOT NULL OR intervento IS NOT NULL) AS repair_documents,
-                (SELECT COUNT(DISTINCT (id_documento, language))
-                 FROM knowledge_chunks) AS technical_documents,
-                (SELECT COUNT(*) FROM knowledge_chunks) AS technical_entries,
-                (SELECT COALESCE(array_agg(DISTINCT language ORDER BY language), ARRAY[]::text[])
-                 FROM (
-                     SELECT language FROM documents
-                     UNION
-                     SELECT language FROM knowledge_chunks
-                 ) archive_languages) AS languages
-            """, connection);
+        var response = new CoverageResponse();
 
-        await using var reader = await command.ExecuteReaderAsync();
-        if (!await reader.ReadAsync()) return new CoverageResponse();
-        return new CoverageResponse
+        await using var conn = new NpgsqlConnection(_connectionString);
+        await conn.OpenAsync();
+
+        // One row per distinct vehicle. gup_rows holds one row per
+        // (vehicle, document) pair, so the same car repeats once per
+        // document it owns - DISTINCT collapses that back to the car.
+        await using (var cmd = new NpgsqlCommand("""
+            SELECT DISTINCT
+                   marca_macchina, modello_macchina, motorizzazione_macchina,
+                   anno_inizio_macchina, anno_fine_macchina,
+                   alimentazione_macchina, kw_macchina, cavalli_macchina,
+                   codice_motore_macchina
+            FROM gup_rows
+            ORDER BY marca_macchina, modello_macchina, motorizzazione_macchina
+            """, conn))
+        await using (var reader = await cmd.ExecuteReaderAsync())
         {
-            Vehicles = reader.GetInt64(0),
-            RepairDocuments = reader.GetInt64(1),
-            TechnicalDocuments = reader.GetInt64(2),
-            TechnicalEntries = reader.GetInt64(3),
-            Languages = reader.GetFieldValue<string[]>(4).ToList(),
-        };
+            while (await reader.ReadAsync())
+            {
+                response.Vehicles.Add(new CoverageVehicle
+                {
+                    Marca          = reader.IsDBNull(0) ? null : reader.GetString(0),
+                    Modello        = reader.IsDBNull(1) ? null : reader.GetString(1),
+                    Motorizzazione = reader.IsDBNull(2) ? null : reader.GetString(2),
+                    AnnoInizio     = reader.IsDBNull(3) ? null : reader.GetInt32(3),
+                    AnnoFine       = reader.IsDBNull(4) ? null : reader.GetInt32(4),
+                    Alimentazione  = reader.IsDBNull(5) ? null : reader.GetString(5),
+                    Kw             = reader.IsDBNull(6) ? null : reader.GetInt32(6),
+                    Cavalli        = reader.IsDBNull(7) ? null : reader.GetInt32(7),
+                    CodiceMotore   = reader.IsDBNull(8) ? null : reader.GetString(8),
+                });
+            }
+        }
+
+        // Repair sheets only. The same filter GraphSearchService applies in
+        // GetFaultDocumentsForCarsAsync, so the figure shown to the client
+        // and the figure the search can actually reach are the same one.
+        await using (var cmd = new NpgsqlCommand("""
+            SELECT count(*) FROM documents
+            WHERE anomalia IS NOT NULL OR causa IS NOT NULL OR intervento IS NOT NULL
+            """, conn))
+        {
+            response.RepairDocuments = (long)(await cmd.ExecuteScalarAsync() ?? 0L);
+        }
+
+        // FILTER rather than four separate queries: one pass over a table
+        // this size, and the four numbers are guaranteed to describe the
+        // same instant.
+        await using (var cmd = new NpgsqlCommand("""
+            SELECT language,
+                   count(*) FILTER (WHERE kind = 'fact')    AS facts,
+                   count(*) FILTER (WHERE kind = 'section') AS procedures,
+                   count(*) FILTER (WHERE kind = 'manual')  AS manual_pages,
+                   count(DISTINCT asset_id)
+                       FILTER (WHERE kind = 'legend' AND asset_id IS NOT NULL)
+                       AS diagrams
+            FROM knowledge_chunks
+            GROUP BY language
+            ORDER BY language
+            """, conn))
+        await using (var reader = await cmd.ExecuteReaderAsync())
+        {
+            while (await reader.ReadAsync())
+            {
+                response.Languages.Add(new CoverageLanguage
+                {
+                    Code        = reader.GetString(0),
+                    Facts       = reader.GetInt64(1),
+                    Procedures  = reader.GetInt64(2),
+                    ManualPages = reader.GetInt64(3),
+                    Diagrams    = reader.GetInt64(4),
+                });
+            }
+        }
+
+        return response;
     }
 }
