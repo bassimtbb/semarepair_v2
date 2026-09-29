@@ -69,6 +69,28 @@ S'il l'est, **ne touche pas au `docker-compose.yml`** : IIS relaiera vers
 `http://172.16.40.151/`. La bascule sur 8080 n'était nécessaire que dans l'hypothèse
 abandonnée où tout tournait sur le serveur IIS.
 
+> ### ⚠️ Neutraliser `docker-compose.override.yml`
+>
+> Compose charge ce fichier **automatiquement**, sans qu'on le nomme. Il est écrit pour
+> le développement et publie quatre ports sur `0.0.0.0` : PostgreSQL 5432, search 5001,
+> vehicle 5002, chat 5000.
+>
+> Deux conséquences sur une machine partagée, rencontrées toutes les deux le 29/09 : la
+> base devient joignable depuis tout le réseau avec le mot de passe du `.env`, et le 5000
+> entre en collision avec un autre projet déjà hébergé sur la machine (`jtruck-api`), ce
+> qui empêche `chat-service` de démarrer — donc aussi nginx, qui en dépend.
+>
+> Une ligne dans le `.env` du serveur règle les deux, définitivement :
+>
+> ```bash
+> echo 'COMPOSE_FILE=docker-compose.yml' >> .env
+> ```
+>
+> Compose ne charge plus alors que le fichier de base, pour **toutes** les commandes
+> (`up`, `ps`, `logs`, `down`). `.env` n'étant pas versionné, le poste de développement
+> garde ses ports. Contrôle : `docker compose ps` ne doit montrer qu'une seule
+> publication, `0.0.0.0:80->80/tcp` sur nginx.
+
 ## 4. Charger les données
 
 Deux voies. **La restauration est préférable** : plus rapide, et gratuite.
@@ -201,5 +223,8 @@ retour au §6.2. Le **8** échoue si `Data/PDF/` n'a pas été transféré.
 
 ## 8. Garde le repli
 
-**Ne démonte pas la stack de ton poste** tant que les neuf tests ne sont pas verts. Le
-dump du Ducato (`Data/demo_fi0396.sql.gz`) reste une démo qui fonctionne.
+**Ne démonte pas la stack de ton poste** tant que les neuf tests ne sont pas verts.
+
+Deux dumps sont versionnés : `Data/demo_fi2524.sql.gz` (Fiat 500) est le jeu courant,
+celui qui est déployé et vérifié ; `Data/demo_fi0396.sql.gz` (Ducato) est le jeu
+précédent, gardé parce qu'il fonctionne toujours.

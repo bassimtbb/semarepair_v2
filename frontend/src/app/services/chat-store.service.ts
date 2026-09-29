@@ -12,6 +12,41 @@ function generateId(): string {
   return `${Date.now()}-${Math.random().toString(36).slice(2)}`;
 }
 
+// crypto.randomUUID() exists only in a SECURE context. Served over plain
+// http:// to a remote address - which is how the deployed stack is reached
+// until the HTTPS front end exists - it is undefined, and calling it threw
+// while Angular was constructing this service. The injector never finished,
+// so nothing rendered: a blank page under a correct <title>, with no hint
+// on screen that the cause was the scheme in the address bar.
+//
+// This id is a server-side dictionary key (ChatService.Models.Session),
+// never a secret, so cryptographic strength was never the point - one
+// distinct value per browser tab is. crypto.getRandomValues is NOT
+// secure-context gated and is used whenever it exists; Math.random closes
+// the last gap. HTTPS is still required for the microphone (getUserMedia
+// is genuinely gated), but the mechanic now gets a working screen either
+// way instead of a white one.
+function newSessionId(): string {
+  if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') {
+    return crypto.randomUUID();
+  }
+
+  const bytes = new Uint8Array(16);
+  if (typeof crypto !== 'undefined' && typeof crypto.getRandomValues === 'function') {
+    crypto.getRandomValues(bytes);
+  } else {
+    for (let i = 0; i < bytes.length; i++) bytes[i] = Math.floor(Math.random() * 256);
+  }
+
+  // RFC 4122 version and variant bits, so the value is a well-formed v4
+  // UUID whichever source produced the bytes.
+  bytes[6] = (bytes[6] & 0x0f) | 0x40;
+  bytes[8] = (bytes[8] & 0x3f) | 0x80;
+
+  const hex = Array.from(bytes, b => b.toString(16).padStart(2, '0')).join('');
+  return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20)}`;
+}
+
 // Session state lives entirely server-side (ChatService.Models.Session),
 // keyed by sessionId - this store only needs to hold one for the lifetime
 // of the browser tab and replay it on every request, plus mirror the
@@ -19,7 +54,7 @@ function generateId(): string {
 // confirmedCarId (+ codiceMotore/marca as a fallback) to the next request.
 @Injectable({ providedIn: 'root' })
 export class ChatStore {
-  private readonly sessionId = crypto.randomUUID();
+  private readonly sessionId = newSessionId();
 
   // No manual switcher - detected from what the mechanic types, per
   // message. Short/ambiguous text (a bare DTC code, "si") often can't be
