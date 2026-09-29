@@ -1,0 +1,11 @@
+:host { display: contents; }
+.help-backdrop { position: fixed; inset: 0; z-index: 20; display: flex; justify-content: flex-end; background: rgb(0 0 0 / 35%); }
+.help-drawer { width: min(390px, 100vw); height: 100%; padding: 24px; box-sizing: border-box; border-left: 1px solid; box-shadow: -8px 0 32px rgb(0 0 0 / 16%); overflow-y: auto; }
+header { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
+h2 { margin: 0; font-size: 20px; } p { margin: 8px 0 20px; color: rgb(var(--muted-foreground)); font-size: 14px; }
+header button { border: 0; background: transparent; color: inherit; font-size: 26px; cursor: pointer; }
+.language-row { display: flex; flex-direction: column; gap: 8px; margin: 12px 0 24px; font-size: 14px; }
+select { padding: 10px; border: 1px solid rgb(var(--border)); border-radius: 8px; background: rgb(var(--background)); color: inherit; font: inherit; }
+.suggestions { display: grid; gap: 10px; }
+.suggestions button { display: flex; justify-content: space-between; gap: 12px; padding: 14px; border: 1px solid rgb(var(--border)); border-radius: 10px; background: transparent; color: inherit; text-align: left; font: inherit; cursor: pointer; }
+.suggestions button:hover { background: rgb(var(--foreground) / 6%); }
