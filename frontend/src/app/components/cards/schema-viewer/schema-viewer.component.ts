@@ -1,6 +1,7 @@
-import { Component, ElementRef, Input, ViewChild, signal } from '@angular/core';
+import { Component, ElementRef, Input, OnDestroy, OnInit, ViewChild, signal } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { LucideMaximize2, LucideMinimize2, LucideExternalLink } from '@lucide/angular';
+import { SchemaFocusService, SchemaFocusTarget } from '../../../services/schema-focus.service';
 
 // Shows a wiring diagram inline in the conversation, with a fullscreen
 // control. Extension v2 (docs/Architecture_Extension_v2.md).
@@ -61,7 +62,7 @@ import { LucideMaximize2, LucideMinimize2, LucideExternalLink } from '@lucide/an
   `,
   styleUrl: './schema-viewer.component.css',
 })
-export class SchemaViewerComponent {
+export class SchemaViewerComponent implements SchemaFocusTarget, OnInit, OnDestroy {
   @Input({ required: true }) assetId!: string;
   @Input() title = '';
 
@@ -69,7 +70,21 @@ export class SchemaViewerComponent {
 
   @ViewChild('container') private container?: ElementRef<HTMLDivElement>;
 
-  constructor(private readonly sanitizer: DomSanitizer) {}
+  constructor(
+    private readonly sanitizer: DomSanitizer,
+    private readonly schemaFocus: SchemaFocusService,
+  ) {}
+
+  // Registered so "ingrandisci questo schema", spoken or typed, can reach
+  // this instance without the voice service or the store knowing where the
+  // component sits. See SchemaFocusService.
+  ngOnInit(): void { this.schemaFocus.register(this); }
+  ngOnDestroy(): void { this.schemaFocus.unregister(this); }
+
+  // What the command path reads back to the mechanic ("Ho ingrandito lo
+  // schema Airbag Siemens MY99"), so he knows WHICH diagram grew when the
+  // conversation holds several.
+  get schemaTitle(): string { return this.title; }
 
   get rawUrl(): string {
     return `/assets/pdf/${encodeURIComponent(this.assetId)}`;
@@ -100,17 +115,26 @@ export class SchemaViewerComponent {
   // Falls back to the CSS class alone when the API is unavailable or
   // refused, so the control never does nothing.
   toggleFullscreen(): void {
+    if (this.isFullscreen() || document.fullscreenElement) this.exitFullscreen();
+    else this.enterFullscreen();
+  }
+
+  // Split out of toggleFullscreen so a command can be explicit. "Ingrandisci"
+  // said twice must not shrink the diagram, which a toggle would do - the
+  // mechanic cannot see whether the first one worked.
+  //
+  // This is also the path a voice command takes, and the reason the catch
+  // below matters more than it looks: the Fullscreen API requires a recent
+  // user gesture, and a speech-recognition result is not one, so Chrome
+  // rejects the promise. The CSS class then does the work on its own. The
+  // visible difference is the browser's own tab bar staying put; pressing F11
+  // beforehand removes even that.
+  enterFullscreen(): void {
     const el = this.container?.nativeElement;
     if (!el) return;
 
-    if (document.fullscreenElement) {
-      void document.exitFullscreen().catch(() => {});
-      this.isFullscreen.set(false);
-      return;
-    }
-
     if (typeof el.requestFullscreen !== 'function') {
-      this.isFullscreen.update(v => !v);
+      this.isFullscreen.set(true);
       return;
     }
 
@@ -119,7 +143,7 @@ export class SchemaViewerComponent {
       .catch(() => this.isFullscreen.set(true)); // CSS-only fallback
 
     // Covers Escape and the browser's own exit control, which never call
-    // toggleFullscreen() - without this the class would stay applied and
+    // exitFullscreen() - without this the class would stay applied and
     // leave the viewer stuck at overlay size.
     const onChange = () => {
       if (!document.fullscreenElement) {
@@ -128,5 +152,14 @@ export class SchemaViewerComponent {
       }
     };
     document.addEventListener('fullscreenchange', onChange);
+  }
+
+  exitFullscreen(): void {
+    // Only the real API needs unwinding; the fallback is the class alone, and
+    // exitFullscreen() throws when nothing is actually fullscreen.
+    if (document.fullscreenElement) {
+      void document.exitFullscreen().catch(() => {});
+    }
+    this.isFullscreen.set(false);
   }
 }

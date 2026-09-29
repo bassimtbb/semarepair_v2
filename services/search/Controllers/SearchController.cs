@@ -47,6 +47,30 @@ public class SearchController : ControllerBase
     // it upward to rescue a single query.
     private const double MaxTechnicalDistance = 0.30;
 
+    // A scanned manual page has to be closer than a structured chunk to count,
+    // and the reason is its shape rather than its trustworthiness.
+    //
+    // A fact is one labelled line - "Centralina Iniezione, F17, 10 (A)". A
+    // manual page is 1270 characters covering photographs, a wiring diagram,
+    // a fuse list and two paragraphs of prose. Its vector sits at a middling
+    // distance from a great many questions, so it wins by spreading rather
+    // than by answering. Under the 0.30 line calibrated for short chunks,
+    // "mostrami lo schema elettrico della lavatrice" returned the fuse-box
+    // page at 0.276 - a washing machine, answered by a Fiat 500 manual.
+    //
+    // Measured over 20 queries against this corpus:
+    //   10 legitimate  - the page appeared for 9, the furthest at 0.261
+    //     ("valvola a farfalla motorizzata")
+    //   10 with no answer here - it appeared for 3, the closest at 0.276
+    //     (washing machine), then 0.294 (tractor), 0.295 (dishwasher)
+    // At 0.27: all 9 kept, all 3 rejected.
+    //
+    // The gap is 0.016, as tight as the 0.017 recorded above for
+    // MaxTechnicalDistance, and tight for the same reason rather than by
+    // choice. Re-measure it whenever a manual is added or replaced - a
+    // different scan, a different publisher, different page density.
+    private const double MaxManualDistance = 0.27;
+
     // How far behind the best match a chunk may sit and still be shown.
     //
     // Needed because the absolute threshold alone cannot separate "one right
@@ -80,6 +104,7 @@ public class SearchController : ControllerBase
     private readonly ValidationService _validation;
     private readonly DocumentContentService _documentContent;
     private readonly TechnicalSearchService _technicalSearch;
+    private readonly UncoveredSystemService _uncoveredSystems;
 
     public SearchController(
         GraphSearchService graphSearch,
@@ -87,7 +112,8 @@ public class SearchController : ControllerBase
         SymptomSearchService symptomSearch,
         ValidationService validation,
         DocumentContentService documentContent,
-        TechnicalSearchService technicalSearch)
+        TechnicalSearchService technicalSearch,
+        UncoveredSystemService uncoveredSystems)
     {
         _graphSearch = graphSearch;
         _vectorSearch = vectorSearch;
@@ -95,6 +121,7 @@ public class SearchController : ControllerBase
         _validation = validation;
         _documentContent = documentContent;
         _technicalSearch = technicalSearch;
+        _uncoveredSystems = uncoveredSystems;
     }
 
     // GET /api/search/fault-code?code=P2279&codiceMotore=XUJN&marca=FORD&lang=it
@@ -201,7 +228,9 @@ public class SearchController : ControllerBase
         var chunks = await _technicalSearch.SearchAsync(
             q, codiceMotore, marca, lang, capped * LegendOverFetch);
 
-        var withinThreshold = chunks.Where(c => c.Distance <= MaxTechnicalDistance).ToList();
+        var withinThreshold = chunks
+            .Where(c => c.Distance <= (c.Kind == "manual" ? MaxManualDistance : MaxTechnicalDistance))
+            .ToList();
         if (withinThreshold.Count == 0) return new TechnicalResponse();
 
         // Relative window, on top of the absolute threshold. The absolute one
@@ -375,7 +404,7 @@ public class SearchController : ControllerBase
         var carIds = await _graphSearch.ResolveCarIdsAsync(codiceMotore, marca);
         if (carIds.Count == 0) return NotFoundResponse();
 
-        var candidateDocs = await _graphSearch.GetDocumentsForCarsAsync(carIds);
+        var candidateDocs = await _graphSearch.GetFaultDocumentsForCarsAsync(carIds);
 
         if (candidateDocs.Count == 0)
         {
@@ -389,7 +418,7 @@ public class SearchController : ControllerBase
             var sharedCarIds = await GetSharedEngineCarIdsAsync(carIds);
             if (sharedCarIds.Count == 0) return NotFoundResponse();
 
-            var sharedDocs = await _graphSearch.GetDocumentsForCarsAsync(sharedCarIds);
+            var sharedDocs = await _graphSearch.GetFaultDocumentsForCarsAsync(sharedCarIds);
             if (sharedDocs.Count == 0) return NotFoundResponse();
 
             var ranked = await _vectorSearch.RankWithinSetAsync(symptom, sharedDocs, lang);
@@ -412,6 +441,15 @@ public class SearchController : ControllerBase
             }
             return response;
         }
+
+        // Checked before ranking, and not with distance: if the symptom names
+        // a system this vehicle has but none of its sheets covers, no sheet
+        // here is the answer and there is no reason to pay for an embedding to
+        // find that out. See UncoveredSystemService for why a tighter
+        // MaxRelevantDistance cannot do this job.
+        var uncovered = await _uncoveredSystems.FindUncoveredSystemAsync(
+            symptom, carIds, candidateDocs, lang);
+        if (uncovered is not null) return NotFoundResponse();
 
         // Search Type 3 returns its closest vector match(es) - see decision A
         // and its revision above (TieThreshold): unlike fault-code/system,

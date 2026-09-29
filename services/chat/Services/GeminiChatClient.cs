@@ -140,11 +140,52 @@ public class GeminiChatClient
             Role = "user",
             Parts =
             [
-                GeminiPart.OfText("Transcribe this audio exactly as spoken. Return ONLY the transcribed text, with no commentary, translation, or formatting."),
+                GeminiPart.OfText(TranscriptionPrompt),
                 GeminiPart.OfInlineData(mimeType, base64Audio),
             ],
-        }], operation: "transcription");
-        return turn.Text ?? "";
+        }], jsonMode: true, operation: "transcription", temperature: 0);
+
+        return ExtractTranscript(turn.Text);
+    }
+
+    // The answer must be a JSON object, not prose, and that is the whole fix.
+    //
+    // Asked for "only the transcribed text", Gemini mostly complies - but on
+    // silence or noise it writes an apology instead, in English, and the old
+    // code returned it verbatim as what the mechanic had said. Observed live:
+    // "An error occurred during transcription. Please ensure the audio
+    // contains clear speech and try again." appeared as his own message, and
+    // the assistant then answered it.
+    //
+    // A refusal can no longer be mistaken for speech: it either parses as a
+    // transcript or it does not, and anything that does not becomes empty.
+    // The frontend already treats an empty transcript properly - onNothingHeard
+    // prompts once and exits on the second - so the failure lands in the path
+    // built for it instead of in the conversation.
+    private const string TranscriptionPrompt =
+        "Transcribe this audio exactly as spoken. Reply with JSON only: "
+        + "{\"transcript\": \"<the words spoken>\"}. "
+        + "Do not translate, correct, summarise or comment. "
+        + "If the audio contains no intelligible speech, reply {\"transcript\": \"\"} "
+        + "- never explain, never apologise, never describe the audio.";
+
+    private static string ExtractTranscript(string? json)
+    {
+        if (string.IsNullOrWhiteSpace(json)) return "";
+        try
+        {
+            using var doc = JsonDocument.Parse(json);
+            return doc.RootElement.TryGetProperty("transcript", out var t)
+                && t.ValueKind == JsonValueKind.String
+                    ? t.GetString() ?? ""
+                    : "";
+        }
+        catch (JsonException)
+        {
+            // Not JSON at all: the model ignored the contract. Whatever it
+            // wrote, it is not what the mechanic said.
+            return "";
+        }
     }
 
     private class GenerateContentRequest

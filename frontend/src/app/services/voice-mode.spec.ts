@@ -1,4 +1,4 @@
-import { buildSpokenText, findProcedure } from './voice-mode.service';
+import { asSpokenSentences, buildSpokenText, findProcedure } from './voice-mode.service';
 import { stripMarkdown } from '../utils/markdown';
 import type { ChatResponse, TechnicalChunk } from '../models/chat.models';
 
@@ -104,6 +104,38 @@ describe('findProcedure', () => {
     expect(findProcedure(response({ technicalChunks: [procedure] }))).toBe(procedure);
   });
 
+  // The real response to "come azzero l'indicatore": a preamble that explains
+  // the vehicle HAS a service indicator, then the eight steps that answer the
+  // question. Taking the first section offered the preamble by name and read
+  // it out on "si", and the steps were never offered - unnoticeable to a
+  // mechanic who cannot see the screen.
+  it('offers the steps, not the paragraph that introduces them', () => {
+    const preamble = chunk({
+      kind: 'section', heading: 'Informazioni sul Sistema',
+      body: 'La vettura e dotata di un indicatore relativo agli intervalli di assistenza.',
+    });
+    const procedure = chunk({
+      kind: 'section', heading: 'Regolazione - Reset',
+      body: "Veicoli con meno di 200 Km\n• Inserire l'accensione\n• Premere il pulsante 1",
+    });
+
+    expect(findProcedure(response({ technicalChunks: [preamble, procedure] }))).toBe(procedure);
+  });
+
+  // Order must not decide it either way.
+  it('finds the steps even when they come first', () => {
+    const procedure = chunk({ kind: 'section', heading: 'Reset', body: '• Inserire' });
+    const preamble = chunk({ kind: 'section', heading: 'Info', body: 'Prosa senza passaggi.' });
+
+    expect(findProcedure(response({ technicalChunks: [procedure, preamble] }))).toBe(procedure);
+  });
+
+  // A procedure written as prose is still worth offering rather than dropping.
+  it('falls back to the only section when none carries bullets', () => {
+    const prose = chunk({ kind: 'section', heading: 'Reset', body: "Inserire l'accensione." });
+    expect(findProcedure(response({ technicalChunks: [prose] }))).toBe(prose);
+  });
+
   it('ignores a section with no body to read', () => {
     expect(findProcedure(response({
       technicalChunks: [chunk({ kind: 'section', heading: 'Vuota' })],
@@ -136,5 +168,88 @@ describe('stripMarkdown — procedure bullets', () => {
 
   it('leaves a mid-sentence bullet character alone', () => {
     expect(stripMarkdown('coppia 2 • 3 Nm')).toBe('coppia 2 • 3 Nm');
+  });
+});
+
+describe('asSpokenSentences', () => {
+  // A procedure in the archive separates its steps with line breaks and no
+  // punctuation at all. To a Chirp3-HD voice that is one sentence hundreds of
+  // bytes long, and it refuses the entire request - "Sentence starting with
+  // 'Veico' is too long". The 502 reached the mechanic as voice mode simply
+  // stopping, mid-answer, with the procedure never spoken.
+  it('ends each step so the synthesiser accepts the request', () => {
+    const spoken = asSpokenSentences("Inserire l'accensione\nPremere il pulsante 1");
+
+    expect(spoken).toBe("Inserire l'accensione.\nPremere il pulsante 1.");
+  });
+
+  it('does not double the punctuation a step already has', () => {
+    expect(asSpokenSentences('Veicoli con meno di 200 Km.')).toBe('Veicoli con meno di 200 Km.');
+    expect(asSpokenSentences('Quale intervallo?')).toBe('Quale intervallo?');
+  });
+
+  // The line break is what makes a synthesiser pause between steps; the full
+  // stop is added on top of it, never instead of it.
+  it('keeps the break that makes it pause between steps', () => {
+    expect(asSpokenSentences('Primo\nSecondo').split('\n').length).toBe(2);
+  });
+
+  it('drops the blank lines between blocks rather than speaking them', () => {
+    expect(asSpokenSentences('Primo\n\n\nSecondo')).toBe('Primo.\nSecondo.');
+  });
+
+  // Only the punctuation is ours: not one word added, removed or reordered,
+  // which is the line §7 draws everywhere else in this file.
+  it('changes nothing but the punctuation', () => {
+    const steps = "Premere piu volte il pulsante 1\nDisinserire l'accensione";
+    const words = (s: string) => s.replace(/[.\n]/g, ' ').split(/\s+/).filter(Boolean);
+
+    expect(words(asSpokenSentences(steps))).toEqual(words(steps));
+  });
+});
+
+describe('buildSpokenText — pagina di manuale scansionato', () => {
+  // The safety rule of the whole OCR feature, pinned rather than left to a
+  // comment. The page text was guessed at by a machine from a 150 DPI scan;
+  // every other value this service speaks was written by the client's archive.
+  // Reading a guessed amperage aloud, to a mechanic who turned the voice on
+  // because he cannot look at the screen, is the one failure this product must
+  // never produce.
+  it('names the page and never speaks a word of its text', () => {
+    const spoken = buildSpokenText(response({
+      technicalChunks: [chunk({
+        kind: 'manual',
+        heading: 'SCATOLA DERIVAZIONE FUSIBILI-RELÈ ALIMENTAZIONE',
+        body: 'F01 Fusibile 60 A per Body Computer\nF16 Fusibile 7,5 A alimentazione centralina',
+        assetId: '122021',
+      })],
+    }), 'it') ?? '';
+
+    expect(spoken).toContain('SCATOLA DERIVAZIONE FUSIBILI');
+    expect(spoken).not.toContain('60 A');
+    expect(spoken).not.toContain('7,5');
+    expect(spoken).not.toContain('F01');
+  });
+
+  it('points at the screen, since the page cannot be read out', () => {
+    const spoken = buildSpokenText(response({
+      technicalChunks: [chunk({ kind: 'manual', heading: 'GLOSSARIO', assetId: '122005' })],
+    }), 'it') ?? '';
+
+    expect(spoken.toLowerCase()).toContain('schermo');
+  });
+
+  // A structured value from the archive still wins: it is trustworthy and it
+  // answers directly, where the page only shows where to look.
+  it('prefers an archive value over a scanned page', () => {
+    const spoken = buildSpokenText(response({
+      technicalChunks: [
+        chunk({ kind: 'manual', heading: 'SCATOLA FUSIBILI', assetId: '122021' }),
+        chunk({ reference: 'F17', label: 'Centralina Iniezione', value: '10 (A)' }),
+      ],
+    }), 'it') ?? '';
+
+    expect(spoken).toContain('F17');
+    expect(spoken).toContain('10 (A)');
   });
 });

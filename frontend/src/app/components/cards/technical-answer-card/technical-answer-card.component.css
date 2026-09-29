@@ -68,3 +68,19 @@
   font-size: 12px;
   opacity: 0.85;
 }
+
+/* A component photograph, under the value it belongs to. Bounded in height so
+   a tall drawing cannot push the next answer off the screen - the mechanic is
+   reading a list of results, not one picture. */
+.tech-photo {
+  display: block;
+  width: 100%;
+  max-height: 380px;
+  object-fit: contain;
+  object-position: left;
+  margin-top: 8px;
+  border-radius: 6px;
+  /* White regardless of theme: these are line drawings and photographs on
+     white, and a dark surface frames them in grey instead of blending. */
+  background: #ffffff;
+}

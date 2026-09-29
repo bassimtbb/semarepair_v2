@@ -5,7 +5,11 @@ import { SilenceDetector } from './silence-detector';
 import { SpeechService } from './speech/speech.service';
 import { VoiceCarSelectionService } from './voice-car-selection.service';
 import { t, tCarOption, tCarSelectionPrefix, tCaseOption, tCaseTooMany, tFoundNCases,
-         tTechFact, tTechMoreResults, tTechSchema, tTechOfferProcedure } from './voice-strings';
+         tTechFact, tTechMoreResults, tTechSchema, tTechOfferProcedure,
+         tScreenEnlarged, tTechManual } from './voice-strings';
+import { parseScreenCommand, type ScreenCommand } from './screen-commands';
+import { isFarewell } from './voice-farewell';
+import { SchemaFocusService } from './schema-focus.service';
 import { stripMarkdown } from '../utils/markdown';
 import type { CaseSummary, ChatResponse, TechnicalChunk } from '../models/chat.models';
 
@@ -132,14 +136,68 @@ function buildSpokenTechnical(chunks: TechnicalChunk[], lang: string): string | 
     if (title) return tTechSchema(lang, title);
   }
 
+  // A manual page is named and pointed at, never read - and this is a safety
+  // rule, not a convenience like the diagram above.
+  //
+  // Its text came from OCR of a 150 DPI scan. Every other value this service
+  // speaks was written by the client's archive; these were guessed at by a
+  // machine. Speaking "sette virgola cinque ampere" from a guessed character,
+  // to a mechanic who chose voice mode precisely because he cannot look at the
+  // screen, would be the one failure this product must never produce. The page
+  // is on screen, printed exactly as it was published; he reads it himself.
+  const manual = chunks.find(c => c.kind === 'manual');
+  if (manual) {
+    return tTechManual(lang, manual.heading || manual.documentTitle || '');
+  }
+
   return null;
+}
+
+// Steps are laid out as bullets by the resx parser, which turns each <LI>
+// into one - so the bullets are what separates a procedure from the prose
+// that introduces it. Nothing else in a section's shape does.
+const STEP_MARKER = /^[ 	]*[•▪◦]/m;
+
+// Ends each step with a full stop before it goes to the synthesiser.
+//
+// A procedure in the archive separates its steps with line breaks and no
+// punctuation at all - "Inserire l'accensione", "Premere il pulsante 1". To a
+// Chirp3-HD voice that is one sentence 838 bytes long, and it refuses the
+// whole request: *"This request contains sentences that are too long...
+// Sentence starting with 'Veico' is too long."* The 502 reaches the frontend
+// as an unavailable-voice toast and stops voice mode, which is what a
+// mechanic experiences as the answer never arriving.
+//
+// Only the punctuation is ours; not one word is added, removed or reordered,
+// which is the same line §7 draws everywhere else. The line breaks are kept
+// on top of the full stops because they are what makes a synthesiser pause
+// between steps.
+export function asSpokenSentences(text: string): string {
+  return text
+    .split('\n')
+    .map(line => line.trim())
+    .filter(line => line.length > 0)
+    .map(line => (/[.!?:;]$/.test(line) ? line : line + '.'))
+    .join('\n');
 }
 
 // The procedure a technical answer offers to read, if any. Separate from
 // buildSpokenText because it is not spoken immediately - it goes through the
 // consent gate.
+//
+// Picking the first section was wrong, and wrong in the way that matters.
+// Asking "come azzero l'indicatore" returns two: "Informazioni sul Sistema",
+// three paragraphs explaining that the vehicle HAS a service indicator, and
+// "Regolazione - Reset", the eight steps that answer the question. The first
+// one came back, so the offer named the preamble and a "sì" read it out -
+// while the steps, the only part the mechanic asked for, were never offered
+// at all. He is under the vehicle and cannot see that anything was missed.
+//
+// Falls back to the first section when none carries bullets: a procedure
+// written as prose is still better offered than dropped.
 export function findProcedure(r: ChatResponse): TechnicalChunk | null {
-  return r.technicalChunks?.find(c => c.kind === 'section' && !!c.body) ?? null;
+  const sections = (r.technicalChunks ?? []).filter(c => c.kind === 'section' && !!c.body);
+  return sections.find(c => STEP_MARKER.test(c.body!)) ?? sections[0] ?? null;
 }
 
 // §5.6 Rule 8 consent detection — strict "yes"-equivalent match.
@@ -209,6 +267,7 @@ export class VoiceModeService {
     private readonly speech: SpeechService,
     private readonly api: ChatApiService,
     private readonly voiceCarSelection: VoiceCarSelectionService,
+    private readonly schemaFocus: SchemaFocusService,
   ) {
     // React to isStreaming going false when we're in waiting_response.
     // untracked() on state read prevents the effect from re-running on state
@@ -259,6 +318,18 @@ export class VoiceModeService {
     const transcript = this.pendingTranscript();
     this.pendingTranscript.set(null);
     if (transcript === null || this.engine() === null) return;
+
+    // Checked before every gate below, including the Rule 8 one. A sign-off is
+    // not a refusal of the pending offer and not a new question: it ends the
+    // session, and whatever was waiting for consent goes with it (stopVoiceMode
+    // clears both). Observed live - "Niente, grazie." was routed to the backend,
+    // answered politely, and listening resumed on an empty room until a
+    // transcription failure broke the loop. Under a vehicle there is no other
+    // way out.
+    if (isFarewell(transcript, this.detLang())) {
+      this.speakGoodbyeAndStop();
+      return;
+    }
 
     // §5.6 Rule 8 consent gate — mirrors the §4.1 car-selection interception.
     // If a shared-engine disclosure was just spoken and we're waiting for the
@@ -418,8 +489,40 @@ export class VoiceModeService {
       }
     }
 
+    // Screen command (§4.1 again: never send a transcript as plain text when
+    // it can be acted on here). "Ingrandisci questo schema" is an instruction
+    // to the interface, not a question for the archive - sent to the model it
+    // came back as a confident apology about not being able to zoom, with
+    // advice to press Ctrl + "+", while the control sat in the diagram's own
+    // title bar.
+    //
+    // Gated on a diagram actually being on screen. Without one the same words
+    // mean nothing here, so they fall through to the backend rather than being
+    // answered with a refusal about a diagram that does not exist.
+    const screenCommand = parseScreenCommand(transcript, this.detLang());
+    if (screenCommand !== null && this.schemaFocus.hasSchema()) {
+      this.applyScreenCommand(screenCommand);
+      return true; // locally handled, no backend call
+    }
+
     void this.chatStore.sendMessage(transcript);
     return false;
+  }
+
+  // Confirms out loud, because the mechanic asked for this precisely when he
+  // cannot look at the screen - silence would leave him unsure whether the
+  // command was heard at all.
+  private applyScreenCommand(command: ScreenCommand): void {
+    const lang = this.detLang();
+    const title = command === 'enlarge' ? this.schemaFocus.enlarge() : this.schemaFocus.shrink();
+    const text = command === 'enlarge'
+      ? tScreenEnlarged(lang, title ?? '')
+      : t(lang, 'screen_reduced');
+
+    this.state.set('speaking');
+    this.speech.speak(text, lang, this.engine() ?? 'web')
+      .then(() => this.transitionToListening())
+      .catch(() => this.transitionToListening());
   }
 
   private handleResponseReady(): void {
@@ -499,7 +602,7 @@ export class VoiceModeService {
   // "•" aloud or stumbles on it. The line breaks survive, and they are
   // what makes it pause between steps.
   private speakProcedure(procedure: TechnicalChunk): void {
-    const text = stripMarkdown(procedure.body ?? '').trim();
+    const text = asSpokenSentences(stripMarkdown(procedure.body ?? ''));
     if (!text) {
       this.transitionToListening();
       return;
@@ -512,6 +615,17 @@ export class VoiceModeService {
         this.showToast(t(this.detLang(), key));
         this.stopVoiceMode();
       });
+  }
+
+  // Speaks, then stops - in that order, because stopVoiceMode() cancels any
+  // speech in progress. A failed or unsupported voice still stops: the point
+  // is to end the session, and the farewell is only a courtesy.
+  private speakGoodbyeAndStop(): void {
+    const lang = this.detLang();
+    this.state.set('speaking');
+    this.speech.speak(t(lang, 'goodbye'), lang, this.engine() ?? 'web')
+      .then(() => this.stopVoiceMode())
+      .catch(() => this.stopVoiceMode());
   }
 
   private speakStoredConsent(stored: ChatResponse): void {

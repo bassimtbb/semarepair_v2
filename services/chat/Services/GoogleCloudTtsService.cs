@@ -7,14 +7,30 @@ namespace ChatService.Services;
 public class GoogleCloudTtsService
 {
     // §6.4 voice mapping — one named constant so gender choices are changed here only.
+    //
+    // Full voice names, exactly as /v1/voices lists them. "Algieba" on its own
+    // is the character, not the voice: the family goes in the middle, so the
+    // name is {locale}-Chirp3-HD-{character}. A shortened name is rejected
+    // upstream, surfaces as 502 tts_upstream_failed, and the frontend drops
+    // out of HD voice with the hd_voice_unavailable_toast - which reads as
+    // "the voice stopped working" rather than "that voice does not exist",
+    // so check the name here first.
+    //
+    // (The en-US catalogue also lists a bare "Algieba" alias alongside the
+    // real entry. Do not use it: langCode below takes the first five
+    // characters of the name, which would give "Algie".)
+    //
+    // Chirp3-HD, the current generation. Note it ignores speakingRate and
+    // pitch in audioConfig - nothing here sets them, but a future attempt to
+    // slow a procedure down would need a Neural2 or WaveNet voice instead.
     private static readonly Dictionary<string, string> VoiceMap =
         new(StringComparer.OrdinalIgnoreCase)
         {
-            ["it"] = "it-IT-Neural2-A",
-            ["en"] = "en-US-Neural2-F",
-            ["fr"] = "fr-FR-Neural2-A",
-            ["pt"] = "pt-BR-Neural2-A",
-            ["es"] = "es-ES-Neural2-A",
+            ["it"] = "it-IT-Chirp3-HD-Algieba",
+            ["en"] = "en-US-Chirp3-HD-Algieba",
+            ["fr"] = "fr-FR-Chirp3-HD-Algieba",
+            ["pt"] = "pt-BR-Chirp3-HD-Algieba",
+            ["es"] = "es-ES-Chirp3-HD-Algieba",
         };
 
     private static readonly JsonSerializerOptions JsonOpts =
@@ -44,7 +60,7 @@ public class GoogleCloudTtsService
         string text, string language, CancellationToken ct)
     {
         var voice = VoiceMap[language];
-        var langCode = voice[..5]; // "it-IT" from "it-IT-Neural2-A"
+        var langCode = voice[..5]; // "it-IT" from "it-IT-Chirp3-HD-Algieba"
 
         var payload = JsonSerializer.Serialize(new
         {

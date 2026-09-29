@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
-import { LucideX, LucideSun, LucideMoon, LucideLayoutDashboard, LucideMessageCircle } from '@lucide/angular';
+import { LucideX, LucideSun, LucideMoon, LucideMessageCircle } from '@lucide/angular';
 import { ChatStore } from './services/chat-store.service';
 import { ThemeService } from './services/theme.service';
 import type { CarOption } from './models/chat.models';
@@ -8,7 +8,7 @@ import type { CarOption } from './models/chat.models';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterLink, RouterOutlet, LucideX, LucideSun, LucideMoon, LucideLayoutDashboard, LucideMessageCircle],
+  imports: [RouterLink, RouterOutlet, LucideX, LucideSun, LucideMoon, LucideMessageCircle],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Text.RegularExpressions;
 using ChatService.Models;
 
 namespace ChatService.Services;
@@ -9,7 +10,7 @@ namespace ChatService.Services;
 // 5.10 (Rules 1-13). One HandleMessageAsync call = one /api/chat/stream
 // request; multi-turn state (confirmed car, history) lives in Session,
 // fetched/updated via SessionStore.
-public class RepairOrchestrator
+public partial class RepairOrchestrator
 {
     private static readonly JsonSerializerOptions JsonOptions = new() { PropertyNameCaseInsensitive = true };
 
@@ -114,11 +115,47 @@ public class RepairOrchestrator
 
         if (routingTurn.FunctionCall is null)
         {
-            // No tool needed (e.g. a greeting, or Gemini already has enough
-            // context to just ask a clarifying question itself) - the
-            // routing call's own text is the whole response, no formatting
-            // call needed since there's no tool result to shape.
-            yield return new ChatResponse { Phase = "chat", Found = false, Message = routingTurn.Text };
+            // No tool ran, so no archive content exists for this turn - and
+            // BuildRouting allows exactly one thing here: "do not call any
+            // tool. Ask a short clarifying question directly". The prompt says
+            // it; nothing used to enforce it, and the gap was not theoretical.
+            //
+            // Observed live, twice, on a confirmed Ducato. "Continua a
+            // leggere." produced a complete reset procedure (trip-odometer
+            // button, key to MAR, 10-15 seconds) that is nowhere in the
+            // database - the real one is "premere il pulsante 1 per 5
+            // secondi", with CFG1/CFG2/CFG3 intervals. A bare "go" produced
+            // two entire fabricated repair sheets, announced as "Ho trovato 2
+            // documenti di riparazione pertinenti", carrying invented fault
+            // codes (P0190, P0335), invented pressures (200-250 bar) and an
+            // invented ECU (EDC15C7).
+            //
+            // The mechanism is exact, and it is the price of a safety measure
+            // taken elsewhere: BuildResultSummary deliberately keeps document
+            // text out of History, so on a follow-up the model knows a
+            // procedure was shown but holds not one word of it. Asked to
+            // continue a text it cannot see, a language model writes one. The
+            // measure that keeps the archive away from the model is what
+            // creates the vacuum the model fills.
+            //
+            // So the shape is checked here rather than asked for in the
+            // prompt, for the same reason BuildSharedEngineDisclosure is built
+            // in C#: a guarantee the mechanic's safety rests on cannot be left
+            // to the model's good behaviour. What survives is a short question;
+            // anything else is replaced, and the mechanic is asked to say what
+            // he needs. Losing a good answer to this test costs one rephrase.
+            // Keeping a bad one costs a wrong repair.
+            var routingText = routingTurn.Text;
+            if (!IsClarifyingQuestion(routingText))
+            {
+                _logger.LogWarning(
+                    "Routing returned no tool call and prose that is not a clarifying question "
+                    + "({Length} chars) - replaced with the deterministic prompt. Text: {Text}",
+                    routingText?.Length ?? 0, Truncate(routingText, 400));
+                routingText = ClarifyRequestMessage(request.Language);
+            }
+
+            yield return new ChatResponse { Phase = "chat", Found = false, Message = routingText };
             yield break;
         }
 
@@ -222,7 +259,43 @@ public class RepairOrchestrator
         // NEVER re-generated through a fallback LLM call - only the prose
         // "message" is replaced, so document fidelity holds.
         string? message = null;
-        try
+
+        // A technical answer that found something does not need a paid sentence.
+        //
+        // This call exists to write the line above the cards. For a technical
+        // result the cards already carry the whole answer - the reference, the
+        // rating, the enclosure - and what the model actually writes is the
+        // template it was given, reordered: "Ecco le informazioni trovate
+        // relativamente a: fusibile centralina iniezione" against
+        // TechnicalFallbackMessage's "Ecco le informazioni tecniche trovate
+        // 'fusibile centralina iniezione':". Same sentence, one of them free.
+        //
+        // Measured over the usage log, formatting is 39% of this service's
+        // Gemini bill (88 calls, 1922 input tokens each) and a second of
+        // latency on every question. It also remains one more place the model
+        // can write something nobody checked - the same argument that put the
+        // shared-engine disclosure and the not-found messages in C#.
+        //
+        // Gated on chunks being present, not merely on the tool having run:
+        // with no chunks the technical branch in BuildChatResponse never
+        // fires, the turn falls through to the generic not-found path, and
+        // there the model's sentence earns its price by saying what was
+        // missing. Only the "found it" case is templated.
+        var technicalChunkCount =
+            routingTurn.FunctionCall.Name == "SearchTechnicalInfo"
+            && rawResult.ValueKind == JsonValueKind.Object
+            && rawResult.TryGetProperty("chunks", out var formattingChunks)
+            && formattingChunks.ValueKind == JsonValueKind.Array
+                ? formattingChunks.GetArrayLength()
+                : 0;
+
+        if (technicalChunkCount > 0)
+        {
+            _logger.LogInformation(
+                "Skipped the formatting call for a technical answer with {Count} chunk(s)",
+                technicalChunkCount);
+        }
+        else try
         {
             var formattingTurn = await _gemini.GenerateAsync(
                 session.History,
@@ -587,6 +660,99 @@ public class RepairOrchestrator
     // BuildVehicleNotFoundMessage. Names what was looked up and stops there:
     // the values themselves are rendered from the database below, and
     // restating them here would mean inventing them.
+    // True only for the one thing BuildRouting permits when no tool runs: a
+    // short question. Every test below is a property of the ANSWER's shape or
+    // of what it CLAIMS, never of its subject - deciding whether prose is
+    // "technical" is exactly the judgement that cannot be made reliably, and
+    // does not need to be.
+    //
+    // This is a shape test, not a truth test. It catches the observed failure
+    // mode and raises the bar a fabrication has to clear; it is not a proof
+    // that what survives is true. What makes that acceptable is the corollary:
+    // anything the mechanic is SHOWN as archive content - documents, chunks,
+    // values - is spliced from the tool result in BuildChatResponse and never
+    // passes through the model at all. This path carries framing text only.
+    private static bool IsClarifyingQuestion(string? text)
+    {
+        if (string.IsNullOrWhiteSpace(text)) return false;
+
+        // A question asks. An answer asserts. This is the test that carries
+        // the rule. The second mark is the full-width question mark, which
+        // Gemini emits in CJK contexts - cheap to accept, and its absence
+        // would be a silent hole.
+        if (!text.Contains('?') && !text.Contains('\uff1f')) return false;
+
+        // Not a heuristic but an impossibility: no tool ran, so nothing was
+        // retrieved, so any claim of having found something is false by
+        // construction. The worst observed fabrication opened with exactly
+        // this - "Ho trovato 2 documenti di riparazione pertinenti" - before
+        // inventing both of them, with fault codes and rail pressures.
+        if (ClaimsAFinding().IsMatch(text)) return false;
+
+        // Headings, horizontal rules and numbered steps are how findings get
+        // presented, and there are no findings here. Bullets are NOT rejected:
+        // a legitimate clarifying question lists what would make the question
+        // searchable, and rejecting those replaced a perfectly good greeting
+        // in testing.
+        foreach (var line in text.Split('\n'))
+        {
+            var trimmed = line.TrimStart();
+            if (trimmed.StartsWith('#')) return false;
+            if (trimmed.StartsWith("---") || trimmed.StartsWith("***")) return false;
+            if (NumberedStep().IsMatch(trimmed)) return false;
+        }
+
+        // The weakest of the tests and deliberately generous: a backstop for a
+        // fabrication written as flowing prose that happens to end in a
+        // question mark. Calibrated against a real greeting that runs to 380
+        // characters over six lines, so the cap has to clear that comfortably.
+        return text.Length <= 700 && text.Split('\n').Length <= 12;
+    }
+
+    // "I found", "here are the documents", in the five languages, at the start
+    // of a line or a sentence. Kept narrow on purpose: it must fire on a claim
+    // of retrieval and stay silent on "what did you find?" or "I can look for
+    // that", which are ordinary things to say in a clarifying question.
+    [GeneratedRegex(
+        @"(?im)^\W*(ho\s+trovato|abbiamo\s+trovato|ecco\s+(i|le|la|il)\s+"
+        + @"(document|schede|scheda|procedur)|i\s+found|i\s+have\s+found|here\s+are\s+the\s+"
+        + @"(document|repair|procedur)|j'?ai\s+trouv|voici\s+les\s+(document|fiches|proc)|"
+        + @"he\s+encontrado|encontr(e|é)\s+|aqui\s+est(a|á)n\s+los\s+document|"
+        + @"encontrei\s+|aqui\s+est(a|ã)o\s+os\s+document)")]
+    private static partial Regex ClaimsAFinding();
+
+    [GeneratedRegex(@"^\d{1,2}[.)]\s")]
+    private static partial Regex NumberedStep();
+
+    private static string? Truncate(string? text, int max) =>
+        text is null || text.Length <= max ? text : text[..max] + "...";
+
+    // What the mechanic is asked instead. Deterministic, like
+    // BuildVehicleNotFoundMessage: this fires precisely when the model was
+    // about to answer from nothing, so it cannot be written by the model.
+    //
+    // It names what would make the question searchable, which is the same list
+    // BuildRouting gives the model for its own clarifying questions - so the
+    // replacement asks for exactly what the real one would have asked for.
+    private static string ClarifyRequestMessage(string language) => language switch
+    {
+        "en" => "I can only answer from the documentation in your archive, and I have nothing "
+              + "to search on yet. Which system or component is affected, when does the problem "
+              + "happen, or is there a warning light or a fault code (DTC)?",
+        "fr" => "Je ne peux répondre qu'à partir de la documentation de votre archive, et je n'ai "
+              + "pas encore de quoi chercher. Quel système ou composant est concerné, quand le "
+              + "problème se produit-il, ou y a-t-il un voyant allumé ou un code défaut (DTC) ?",
+        "pt" => "Só posso responder a partir da documentação do seu arquivo, e ainda não tenho "
+              + "nada para pesquisar. Que sistema ou componente está em causa, quando ocorre o "
+              + "problema, ou há alguma luz de aviso ou código de avaria (DTC)?",
+        "es" => "Solo puedo responder a partir de la documentación de su archivo, y todavía no "
+              + "tengo nada que buscar. ¿Qué sistema o componente está afectado, cuándo se "
+              + "produce el problema, o hay algún testigo encendido o código de avería (DTC)?",
+        _ => "Posso rispondere solo con la documentazione del vostro archivio, e non ho ancora "
+           + "nulla su cui cercare. Quale sistema o componente è coinvolto, quando si presenta "
+           + "il problema, oppure c'è una spia accesa o un codice guasto (DTC)?",
+    };
+
     private static string TechnicalFallbackMessage(string? queryText, string language)
     {
         var subject = string.IsNullOrWhiteSpace(queryText) ? null : $" \"{queryText}\"";

@@ -43,6 +43,22 @@ services:
       ingestion:
         condition: service_completed_successfully
 
+  # OCR du manuel scanne. Sous un profil : ne demarre jamais avec la stack,
+  # se lance a la demande par
+  #     docker compose --profile ocr run --rm ocr-manual
+  # C'est un travail ponctuel qui ecrit Data/MANUAL/ocr.json, pas un service.
+  ocr-manual:
+    build: ./services/ocr-manual
+    restart: "no"
+    profiles: ["ocr"]
+    environment:
+      MANUAL_PATH: /app/Data/MANUAL
+      OCR_LANG: ita
+    # En ecriture, contrairement aux autres montages de Data : ce conteneur
+    # produit ocr.json.
+    volumes:
+      - ./Data:/app/Data
+
   vehicle-service:
     build: ./services/vehicle
     restart: unless-stopped
@@ -118,6 +134,10 @@ services:
       # Read-only, and no service reads them - they are static files, which
       # is exactly what nginx is for.
       - ./Data/PDF:/usr/share/semarepair/pdf:ro
+      # Les 89 pages du manuel scanne, servies telles quelles.
+      - ./Data/MANUAL:/usr/share/semarepair/manual:ro
+      # Les photos de composants citees par les documents.
+      - ./Data/photos:/usr/share/semarepair/photos:ro
     depends_on:
       - chat-service
       - search-service

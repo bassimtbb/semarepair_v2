@@ -13,4 +13,10 @@ COPY resx_parser.py graph_builder.py embedder.py seeder.py schema.sql ./
 # technical_seeder.py is only ever invoked explicitly.
 COPY technical_parser.py technical_seeder.py technical_embedder.py schema_technical.sql ./
 
+# The scanned workshop manual. Separate again, and for a sharper reason than
+# tidiness: this one indexes text produced by OCR, not text the client wrote,
+# and it is the only loader here whose output is never displayed as an answer.
+# Invoked explicitly, after services/ocr-manual has produced ocr.json.
+COPY manual_seeder.py ./
+
 CMD ["python", "seeder.py"]

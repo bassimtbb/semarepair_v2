@@ -58,16 +58,40 @@ public static class TestEnv
     // Exists so a test can state the dataset it needs instead of failing when
     // that dataset is swapped. The documents behind BoundaryTieTests came from
     // a multi-vehicle sample; the FI0396 delivery does not contain them.
+    // The statement goes in on stdin, and no SQL appears on the command line.
+    //
+    // It used to be interpolated into a -c argument inside a `sh -c` string,
+    // and any SQL containing a quote came out mangled: `sh` reads '' as "close
+    // the quote and reopen it", not as an escaped quote, so IN (''199310118'')
+    // reached psql as IN (199310118) and failed on `text = integer`. Scalar
+    // returned that error text, DocumentsExist parsed no integer from it and
+    // answered false - so every test that declared this dataset skipped,
+    // reporting the documents as absent while they were in the database. A
+    // test that always skips reads as green and guards nothing.
+    //
+    // Feeding the statement through stdin removes the quoting layers instead
+    // of adding another one, so a query may now contain quotes, regexes and
+    // newlines like any other SQL.
     public static string Scalar(string sql)
     {
+        // The $ is deliberately not backslash-escaped. There is no shell
+        // between this string and docker: Process.Start hands the arguments
+        // straight over, so a \$ would arrive at `sh` as an escaped dollar and
+        // POSTGRES_USER would be passed to psql as the literal text
+        // "$POSTGRES_USER". Escaping it is the habit one brings from typing
+        // the same line into bash, where the outer shell strips the backslash
+        // first.
         var psi = new ProcessStartInfo("docker",
-            $"exec {PostgresContainer} sh -c \"psql -U \\$POSTGRES_USER -d \\$POSTGRES_DB -t -A -c '{sql}'\"")
+            $"exec -i {PostgresContainer} sh -c \"psql -U $POSTGRES_USER -d $POSTGRES_DB -t -A -f -\"")
         {
+            RedirectStandardInput = true,
             RedirectStandardOutput = true,
             RedirectStandardError = true,
             UseShellExecute = false,
         };
         using var p = Process.Start(psi)!;
+        p.StandardInput.Write(sql);
+        p.StandardInput.Close();
         var stdout = p.StandardOutput.ReadToEnd();
         p.WaitForExit(15000);
         return stdout.Trim();
@@ -75,10 +99,9 @@ public static class TestEnv
 
     public static bool DocumentsExist(params string[] ids)
     {
-        // Doubled single quotes: the whole psql -c argument is already inside
-        // single quotes in the docker exec line above. These ids are test
-        // constants, never user input.
-        var literals = string.Join(",", ids.Select(i => $"''{i}''"));
+        // Ordinary SQL quoting, now that Scalar no longer routes the statement
+        // through a shell. These ids are test constants, never user input.
+        var literals = string.Join(",", ids.Select(i => $"'{i}'"));
         var sql = $"SELECT count(DISTINCT id_documento) FROM documents WHERE id_documento IN ({literals})";
         return int.TryParse(Scalar(sql), out var n) && n == ids.Length;
     }

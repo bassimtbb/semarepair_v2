@@ -52,14 +52,39 @@ public class GraphSearchService
     // Search Type 3 prefilter: every document linked to any of these cars
     // (DOCUMENTED_IN has no language column - caller filters by language
     // against document_embeddings/documents afterward).
-    public async Task<List<string>> GetDocumentsForCarsAsync(IReadOnlyCollection<string> carIds)
+    // Symptom search candidates: the car's documents that can actually answer
+    // a symptom, which is not all of them.
+    //
+    // The resx ingestion inserts every document type it finds into
+    // `documents` - repair sheets (GUP) alongside wiring diagrams, fuse
+    // tables, torque tables and reset procedures - and embeds all of them.
+    // Only the repair sheets carry an anomalia/causa/intervento; the rest
+    // have a title and nothing else. Ranking them together let a document
+    // with no fault content win a symptom query and render as a card with
+    // empty fields: "Perdita di liquido refrigerante dal radiatore" returned
+    // the LGR "Guide di Riparazione" entry at 0.3463, under
+    // MaxRelevantDistance, purely on its title.
+    //
+    // Invisible while the corpus was large - 29 such documents among
+    // thousands of sheets rarely win - and unmissable once the database held
+    // one vehicle, where they are 45% of it.
+    //
+    // Tested structurally rather than on tipo_ris = 'GUP': the type codes are
+    // the client's and we have seen 21 of them, so "has fault content" states
+    // the requirement and stays true for a code we have not met. The
+    // technical documents excluded here are not lost - the extension indexes
+    // them into knowledge_chunks, which is where a technical question goes.
+    public async Task<List<string>> GetFaultDocumentsForCarsAsync(IReadOnlyCollection<string> carIds)
     {
         if (carIds.Count == 0) return [];
         await using var conn = Connect();
         await conn.OpenAsync();
         await using var cmd = new NpgsqlCommand("""
-            SELECT DISTINCT to_id FROM graph_edges
-            WHERE from_type = 'car' AND from_id = ANY(@carIds) AND relation = 'DOCUMENTED_IN'
+            SELECT DISTINCT ge.to_id FROM graph_edges ge
+            JOIN documents d ON d.id_documento = ge.to_id
+            WHERE ge.from_type = 'car' AND ge.from_id = ANY(@carIds)
+              AND ge.relation = 'DOCUMENTED_IN'
+              AND (d.anomalia IS NOT NULL OR d.causa IS NOT NULL OR d.intervento IS NOT NULL)
             """, conn);
         cmd.Parameters.AddWithValue("carIds", carIds.ToArray());
         return await ReadStringColumnAsync(cmd);

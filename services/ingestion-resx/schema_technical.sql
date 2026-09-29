@@ -75,9 +75,29 @@ CREATE INDEX IF NOT EXISTS idx_chunks_hnsw ON knowledge_chunks
 -- identity and the seeder reported "0 added, 0 pruned" while the stale
 -- vectors stayed in place. The identity has to cover the indexed text, or a
 -- retrieval fix silently does nothing.
+--- The identity above is hashed rather than indexed column by column, and it
+--- has to be. A btree index row cannot exceed 2704 bytes, and listing these
+--- columns directly put the whole chunk text inside the key: the Ducato's
+--- short entries fitted, the Fiat 500's manual sections did not, and the
+--- seeder died with "index row size 2840 exceeds btree version 4 maximum".
+--- The failure scales with content length, so it was always going to arrive
+--- with the first richer vehicle.
+---
+--- md5 of the concatenation keeps exactly the identity described above while
+--- making every key 16 bytes. CHR(31), the ASCII unit separator, delimits the
+--- fields so that concatenation cannot blur two different splits into one key
+--- (label='ab', value='' must not collide with label='a', value='b'); it
+--- cannot appear in the source text, which is XML-derived prose.
+---
+--- Nothing else depends on the index shape: the seeder's upsert is a bare
+--- ON CONFLICT DO NOTHING, which catches any unique violation, and its prune
+--- step compares the columns explicitly in SQL rather than through the index.
 CREATE UNIQUE INDEX IF NOT EXISTS idx_chunks_identity
     ON knowledge_chunks (id_documento, language, kind,
-                         COALESCE(heading, ''), COALESCE(reference, ''),
-                         COALESCE(label, ''), COALESCE(value, ''),
-                         COALESCE(unit, ''), COALESCE(body, ''),
-                         search_text);
+                         md5(COALESCE(heading, '')   || CHR(31) ||
+                             COALESCE(reference, '') || CHR(31) ||
+                             COALESCE(label, '')     || CHR(31) ||
+                             COALESCE(value, '')     || CHR(31) ||
+                             COALESCE(unit, '')      || CHR(31) ||
+                             COALESCE(body, '')      || CHR(31) ||
+                             search_text));

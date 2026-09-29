@@ -60,7 +60,9 @@ export interface TechnicalChunk {
   // 'section' a prose procedure
   // Drives how the card renders; it is also why a single backend tool can
   // answer three different kinds of question.
-  kind: 'fact' | 'legend' | 'section' | string;
+  // 'manual' est une page du manuel d'atelier scanne : son texte a ete
+  // produit par OCR, il sert a trouver la page et n'est jamais affiche.
+  kind: 'fact' | 'legend' | 'section' | 'manual' | string;
   heading?: string | null;
   label?: string | null;
   value?: string | null;

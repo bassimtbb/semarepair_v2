@@ -1,0 +1,119 @@
+.manual {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.manual-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+/* Says what this is before the mechanic reads a single figure off it. Every
+   other card carries the archive's own words; this one carries a photograph
+   of a printed page, read by a machine. The badge is the honest label. */
+.manual-badge {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: color-mix(in srgb, currentColor 14%, transparent);
+  flex-shrink: 0;
+}
+
+.manual-title {
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.manual-actions {
+  display: flex;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.manual-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border: none;
+  background: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* White backdrop regardless of theme: these are scans of white paper, and a
+   dark surface shows as a grey frame around the sheet rather than blending. */
+.manual-img {
+  display: block;
+  width: 100%;
+  background: #ffffff;
+  cursor: zoom-in;
+
+  /* An A4 page at full width is 1755px tall: it filled the whole viewport and
+     pushed the fuse ratings under it off the screen. Capped here, and cropped
+     rather than shrunk - the top of the page carries the section title and the
+     first photographs at a legible size, where the whole sheet scaled down to
+     340px would be a thumbnail of nothing.
+
+     Same division of labour as the wiring diagrams: the inline view is for
+     recognising the right page, fullscreen is for working from it. */
+  max-height: 340px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.manual.fullscreen .manual-img {
+  cursor: zoom-out;
+}
+
+.manual.fullscreen {
+  border-radius: 0;
+  border: none;
+}
+
+/* The CSS-only fallback, for when the Fullscreen API refuses - which is always
+   the case for a spoken command, since speech recognition grants no user
+   gesture. :not(:fullscreen) keeps it from fighting the real thing. */
+.manual.fullscreen:not(:fullscreen) {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: var(--color-background);
+}
+
+/* Fill the height and letterbox rather than crop: a page cut off at the
+   bottom is a page whose last fuse is missing.
+
+   max-height has to be lifted explicitly. The inline cap above is what keeps
+   the card small, but it clamps the computed height here too - with it left
+   in place the page stayed 340px tall in fullscreen and the control looked
+   broken. */
+.manual.fullscreen .manual-img {
+  height: calc(100vh - 39px);
+  max-height: none;
+  object-fit: contain;
+}
+
+/* Small and monospaced, like the reference badge on a fact card: it is an
+   identifier a mechanic reads off and writes down, not prose. */
+.manual-page-no {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 11px;
+  opacity: 0.75;
+  flex-shrink: 0;
+}

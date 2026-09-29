@@ -103,6 +103,18 @@ def _field(el: ET.Element, name: str) -> Optional[str]:
     return value if value not in EMPTY_VALUES else None
 
 
+# An image reference, or None.
+#
+# "0" is how this format spells "there is no image", the same way XSCHEMA
+# writes RifIDFilePDF=0 for a diagram that was never drawn. Treating it as an
+# id would point every such chunk at a file named 0 that does not exist.
+def _asset(el: Optional[ET.Element], name: str) -> Optional[str]:
+    if el is None:
+        return None
+    value = _field(el, name)
+    return None if value in (None, '0') else value
+
+
 def _search_text(*parts: Optional[str]) -> str:
     """The text that gets embedded. Joined with a separator rather than
     spaces so the embedding sees field boundaries instead of one run-on
@@ -129,7 +141,9 @@ def _quadruplets(doc: ET.Element, type_label: Optional[str]) -> list[dict]:
                 'unit': unit,
                 'reference': None,
                 'body': None,
-                'asset_id': None,
+                # The drawing that goes with a torque or a clearance - a
+                # tightening sequence is unusable as a number alone.
+                'asset_id': _asset(el, 'RifIDFileIMG'),
                 'search_text': _search_text(type_label, heading, label),
             })
     return chunks
@@ -156,7 +170,10 @@ def _fuses(doc: ET.Element, type_label: Optional[str]) -> list[dict]:
                 'unit': None,
                 'reference': reference,
                 'body': None,
-                'asset_id': None,
+                # The row's own photo when it has one, otherwise the box's:
+                # "F16, 7,5 A" answers what, a picture of the box answers
+                # where, and where is half of what a mechanic asked.
+                'asset_id': _asset(row, 'RifIDImmagine') or _asset(box, 'RifIDFileIMGANI'),
                 'search_text': _search_text(type_label, box_title, label, reference),
             })
     return chunks
@@ -208,7 +225,7 @@ def _sections(doc: ET.Element, doc_title: Optional[str], type_label: Optional[st
             'unit': None,
             'reference': _field(cap, 'Ordine'),
             'body': body,
-            'asset_id': None,
+            'asset_id': _asset(cap, 'RifIDFileIMGANI'),
             # Flattened for the embedding - line breaks help a reader, not a
             # vector - so improving the body's layout does not force a
             # re-embedding of text that has not actually changed.

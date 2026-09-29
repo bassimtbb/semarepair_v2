@@ -3934,3 +3934,195 @@ Added `tests/SemaRepair.IntegrationTests/SystemDeviceMatchTests.cs`, guarding **
 |---|---|
 | `services/search/Services/GraphSearchService.cs` | `MatchSystemOrDeviceAsync` narrows only on a device SUBJECT (Italian locative-preposition guard + whole-word tokens); other languages unchanged. Added `ILogger` + narrowing-decision log line. |
 | `tests/SemaRepair.IntegrationTests/SystemDeviceMatchTests.cs` | New both-direction regression test (incidental doesn't narrow / subject still narrows), red-proved. |
+
+## 29. Symptom search — a named system with no repair sheet, and non-fault documents in the corpus (2026-09-27)
+
+From one real transcript. With the FI0396 Ducato confirmed, `Il fusibile dell'ABS si brucia sempre` returned two **injection** repair sheets — *Fusibile F17 (Protezione centralina iniezione)* and *Resistenza tubo sfiato olio motore* — both unflagged, presented as confirmed matches. Neither concerns the ABS. Routing was correct (the query went to the diagnostic path, as `FaultPhrasedWithATechnicalWord_StaysOnTheDiagnosticPath` requires); the results were not.
+
+Two independent defects, found in that order. The second is not the cause of the first.
+
+### 29.1 Defect A — distance cannot reject a wrong answer whose wording is right
+
+Measured against real embeddings (`RETRIEVAL_QUERY`, 768d, `document_embeddings`, lang=it):
+
+| Query | Distance | vs `MaxRelevantDistance` = 0.35 |
+|---|---|---|
+| `Il fusibile dell'ABS si brucia sempre` | **0.3443** | passes by 0.0057 |
+| ↳ second sheet (reniflard) | 0.3500 | admitted by `TieThreshold` = 0.02 |
+| `La spia ABS resta accesa` | **0.3215** | passes comfortably |
+| `L'ASR interviene continuamente` | **0.3301** | passes comfortably |
+| `Il motore non si avvia dopo un arresto in marcia` (correct) | 0.2293 | passes |
+| `I freni stridono quando frenano` | 0.3961 | correctly rejected |
+
+Five of the failing query's six words describe the F17 sheet exactly; the one word that makes it wrong — ABS — is diluted across 768 dimensions.
+
+**Threshold tuning is definitively the wrong instrument here, and this is now settled.** The calibration comment above `MaxRelevantDistance` records a *correct* Freni/ABS match at **0.337** — seven thousandths *below* this wrong one at 0.3443. No cutoff separates them. The band 0.337–0.398 was left open on purpose to admit a real brake document that the FI0396 reduction removed from the database; it will be needed again when the full archive returns, so lowering the line would trade this false positive for a false negative later.
+
+**Fix: a categorical check that does not use distance.** `services/search/Services/UncoveredSystemService.cs` — the vehicle's technical archive names its own systems (a fuse labelled `Centralina ABS`, a legend `Centralina ABS+ASR`). If the symptom names one of those and **not one of this vehicle's repair sheets mentions it**, no sheet is the answer, however close it scored. Checked *before* ranking, so a doomed query costs no embedding call.
+
+Both sides are read from the data, per vehicle, so there is no list to maintain: a new vehicle arrives with its own acronyms and its own sheet coverage.
+
+### 29.2 Why the guard is restricted to acronyms — measured, not assumed
+
+First attempt used every token of every `knowledge_chunks.label`. The vocabulary came out at **178 tokens** including `sistema`, `vano`, `tipo`, `spessore`, `tensione`. Over 16 queries it fixed the ABS cases and introduced one false negative: `Fumo nero dallo scarico in accelerazione` tripped on **`scarico`** and refused a correct answer (0.3157, *Sensore pressione turbocompressore*). Turning a right answer into a refusal is the wrong trade for a product whose pitch is that it answers.
+
+Narrowing the source to **uppercase runs of 3–6 letters in component labels only** gives **6 tokens on the current data: `ABS ASR CAN LED PTC VIN`**. Acronyms are this domain's system names, they are never ordinary Italian words, and they are exactly where one token flips a sentence the embedding otherwise reads as a match.
+
+Two source choices matter and were both found the hard way:
+- **Labels only, not `heading` or `body`.** Including them pulled in ordinary Italian shouted in capitals — `AGENDO`, `ALMENO`, `PRIMA`, `QUINDI`, `TUTTI`, `RUOTE`, `GIRI` — which would make the guard fire on almost anything.
+- **Length ≥ 3.** At 2, `DI` and `IL` appear capitalised in the archive and are just Italian words.
+
+Final calibration over **19 real queries: 4 wrong answers rejected, 0 right answers lost.** The two ABS phrasings and the ASR one join `Perdita di liquido refrigerante dal radiatore` (fixed by 29.3).
+
+### 29.3 Defect B — documents that cannot answer a symptom were ranked as if they could
+
+`seeder.py`/`resx_parser.py` insert **every** document type found in the resx delivery into `documents` and embed all of them. For FI0396 that is **65 documents, of which only 36 are GUP repair sheets**; the other 29 are wiring diagrams, fuse tables, torque tables, engine data and reset procedures. They carry a `titolo` and **no `anomalia`/`causa`/`intervento`**, yet all 21 `tipo_ris` values are reachable as symptom candidates through `DOCUMENTED_IN`.
+
+Consequences, both confirmed live:
+- `Perdita di liquido refrigerante dal radiatore` returned the LGR *Guide di Riparazione* entry (`15000158`) at **0.3463** — under the cutoff, therefore **unflagged** — purely on its title.
+- A mechanic sees a card with empty Anomalia/Causa/Intervento rows (the `None / None` rows).
+
+This predates the extension and was invisible while the corpus was large — 29 such documents among thousands rarely win. It became unmissable once the database held one vehicle, where they are **45% of it**.
+
+**Fix:** `GetDocumentsForCarsAsync` → `GetFaultDocumentsForCarsAsync`, requiring `anomalia IS NOT NULL OR causa IS NOT NULL OR intervento IS NOT NULL`. Tested **structurally rather than on `tipo_ris = 'GUP'`**: the type codes are the client's and we have already met 21 of them, so "has fault content" states the requirement and stays true for a code we have not seen. The excluded documents are not lost — the extension indexes them into `knowledge_chunks`, which is where a technical question goes (pinned by a test).
+
+After the fix the radiator query returns the closest *sheet* at 0.3559, **above** the cutoff, so it arrives correctly flagged `lowConfidenceMatch` instead of as a confident non-answer.
+
+### 29.4 Rejected: swapping the corpus for `symptom_embeddings`
+
+Tempting, because the **no-car** symptom path already ranks against `symptom_embeddings` (anomalia text alone, GUP-only by construction) while the **car-confirmed** path ranks against `document_embeddings` (title+anomalia+causa+intervento, all 65 documents) — an inconsistency between two paths answering the same kind of question.
+
+Measured over 15 queries: the swap **fixed 2 and broke 4**. Anomalia-only text is shorter and more symptom-like, so every distance compresses downward and false positives slide under the 0.35 line (`La frizione slitta in salita` 0.3691 → 0.3434; `Il cambio non ingrana la seconda` 0.3675 → 0.3479; `Il fusibile si brucia sempre` 0.3314 → 0.3568, losing a *correct* answer). The threshold is calibrated for `document_embeddings`. The corpus filter in 29.3 removes the non-fault documents without moving any GUP distance at all — zero recalibration risk, which is why it was chosen over the swap.
+
+### 29.5 Test-harness bug found en route: tests that always skipped
+
+`TestEnv.Scalar` interpolated SQL into a `-c` argument inside a `sh -c` string, doubling single quotes as SQL escaping. `sh` reads `''` as *close the quote and reopen it*, not as an escaped quote, so `IN (''199310118'')` reached psql as `IN (199310118)` and failed on `text = integer`. `Scalar` returned the error text, `DocumentsExist` parsed no integer and answered `false` — **so every test declaring its dataset skipped, reporting documents as absent while they were in the database.** A test that always skips reads as green and guards nothing.
+
+Fixed by feeding the statement on **stdin** (`psql -f -`), removing the quoting layers instead of adding one. A second trap in the same line: the `$` in `$POSTGRES_USER` must **not** be backslash-escaped, because `Process.Start` hands arguments to docker with no shell in between — `\$` arrives at `sh` as an escaped dollar and psql receives the literal text `$POSTGRES_USER`. The habit comes from typing the same line into bash, where the outer shell strips the backslash first.
+
+Suite went from **36 passed / 1 skipped** to **47 passed / 1 skipped**. The remaining skip is now honest and verified: `BoundaryTieTests` needs documents `199309673`/`199309676` from the multi-vehicle sample, and `SELECT count(*)` for them returns 0 on the FI0396 delivery.
+
+### 29.6 Red→green proof (mandatory)
+
+Reverted both fixes together (`if (false && uncovered is not null)`, and the fault-content predicate removed), rebuilt and restarted the search service.
+
+**4 failed, 7 passed** — each for its own defect, not a crash:
+- the three `SymptomNamingASystemWithNoRepairSheet_IsRefused` cases failed on `not_found` vs `document`;
+- `EveryDocumentReturnedForASymptom_CarriesFaultContent` failed naming the exact document: *"returned a document with no fault content for 'Perdita di liquido refrigerante dal radiatore': 15000158 ('Guide di Riparazione')"*.
+
+The 7 `SymptomAboutACoveredSystem_StillAnswers` cases stayed **green** under the revert — correct, they guard the opposite direction, which the revert does not touch. Restored → 47 passed. No `TEMP-REDPROOF` marker remains (grepped).
+
+### 29.7 Demo script — act 6 rewritten around the defect
+
+The script's act 6 used `Il fusibile dell'ABS si brucia sempre` as a guard-rail demonstration, in the act whose whole point is *it never invents*. It would have shown two injection sheets for an ABS question, in front of the client.
+
+Rewritten as **two nearly identical sentences, one word apart** — which is only a demonstration now that the fix exists:
+
+| Typed | Shown |
+|---|---|
+| `Il fusibile della centralina iniezione si brucia sempre` | 3 repair sheets (routing: a named fuse, but a fault described) |
+| `Il fusibile dell'ABS si brucia sempre` | *« Nessun documento trovato … su questo veicolo. »* |
+
+Verified end-to-end through `/api/chat/stream` with `confirmedCarId=FI0396`, not only at the search endpoint.
+
+Added to *"ne promets pas"*: the clean refusal holds for a system the archive **names** (ABS, ASR). For an organ the archive never mentions (clutch, gearbox) the confirmed-car path returns the least-distant sheet **flagged uncertain**, not nothing — so the claim to make is *"it never presents an approximation as a certainty"*, not *"it refuses everything it doesn't know"*.
+
+### 29.8 Files
+
+| File | Change |
+|---|---|
+| `services/search/Services/UncoveredSystemService.cs` | **New.** Categorical rejection when the symptom names a system the vehicle has but no candidate sheet covers. Acronym vocabulary read per vehicle from `knowledge_chunks.label`; coverage tested whole-word against the candidate sheets. |
+| `services/search/Controllers/SearchController.cs` | Guard called before ranking in `SymptomWithCarAsync`; both call sites renamed to `GetFaultDocumentsForCarsAsync`. |
+| `services/search/Services/GraphSearchService.cs` | `GetDocumentsForCarsAsync` → `GetFaultDocumentsForCarsAsync`, restricted to documents carrying fault content. |
+| `services/search/Program.cs` | Registered `UncoveredSystemService`. |
+| `tests/SemaRepair.IntegrationTests/UncoveredSystemTests.cs` | **New.** 11 tests: 3 refusals, 6 non-regressions (incl. the `scarico` false positive), 1 fault-content invariant over 5 symptoms, 1 proving the excluded documents are still reachable technically. Red-proved. |
+| `tests/SemaRepair.IntegrationTests/TestEnv.cs` | `Scalar` feeds SQL on stdin; `$POSTGRES_USER` no longer backslash-escaped; `DocumentsExist` uses ordinary SQL quoting. Un-skipped 11 tests. |
+| `docs/Demo_Script_Client.md` | Act 6 rewritten around the one-word contrast; low-confidence caveat added to *"ne promets pas"*. |
+
+### 29.9 Not done
+
+- **A richer refusal.** The vehicle *has* an ABS and the archive knows it — two fuses (F04 50 A, F42 7,5 A) and the control-unit position (*Vano motore all'interno del passaruota*), plus two wiring diagrams (*ABS Bosch 5.3*). The honest answer could be *"no repair sheet covers the ABS on this vehicle; here is what is known about it"* instead of a bare not-found. Needs a response-model field and a chat-service formatting branch — deliberately out of scope before the demo.
+- **Recalibrating `MaxRelevantDistance` for the full archive.** The 0.35 line still carries the multi-vehicle calibration. Re-measure when the client's full delivery lands; 29.1 is the argument for *not* touching it before then.
+
+## 30. "Ingrandisci questo schema" — a command about the screen, not a question for the archive (2026-09-27)
+
+From a real transcript. With the airbag diagram on screen, *"Poi ingrandisci questo schema"* reached Gemini, which answered:
+
+> *"Purtroppo non ho la capacità grafica di ingrandire o modificare le immagini… Ti consiglio di utilizzare i comandi di zoom del tuo browser (Ctrl + "+")."*
+
+A confident, well-written apology for missing a feature the product has. The enlarge control was sitting in the diagram's own title bar, four inches from where the answer appeared. The model cannot know the interface exists — so the interface has to answer for itself.
+
+### 30.1 Where it is intercepted, and why in two places
+
+Deterministic string matching in the five languages, in `frontend/src/app/services/screen-commands.ts`. Same reasoning as building the shared-engine disclosure in C# rather than trusting the model to echo it: a control operated with dirty hands must work every time, not most times. Nothing here reaches the network.
+
+Two entry points, one parser:
+
+| Path | Site | Why not shared |
+|---|---|---|
+| Voice | `VoiceModeService.routeTranscript` | §4.1's designated router — *"NEVER unconditionally send transcript as plain text"*. Returns `true` (locally handled) so the state machine never enters `waiting_response`, which would hang waiting for a stream that never starts. |
+| Typed | `ChatStore.sendMessage` | Alongside the existing car-selection interception, for the same reason it is there: the text must not become a `/api/chat/stream` body. |
+
+Intercepting once inside `sendMessage` was considered and rejected — voice would then set `waiting_response` and wait forever on a request that was never made.
+
+**Gated on a diagram actually being displayed.** Without one the same words mean nothing locally, so they fall through to the backend rather than being answered with a refusal about a diagram that does not exist.
+
+### 30.2 The Fullscreen API constraint, and why the feature works anyway
+
+`requestFullscreen()` requires a recent user gesture, and a speech-recognition result is not one — Chrome rejects the promise. This was already handled: `.catch(() => this.isFullscreen.set(true))` falls back to the CSS class, and `.schema.fullscreen:not(:fullscreen) { position: fixed; inset: 0; z-index: 1000 }` does the positioning. So the voice path always lands on the CSS overlay; the typed path (Enter is a gesture) gets real fullscreen.
+
+The only visible difference is the browser's own tab bar staying put. F11 before the demo removes even that.
+
+`toggleFullscreen()` split into `enterFullscreen()` / `exitFullscreen()`. A toggle is wrong for a spoken command: *"ingrandisci"* said twice would shrink the diagram, and the mechanic — who asked precisely because he cannot look at the screen — has no way to know the first one worked. Pinned by a test.
+
+### 30.3 Reaching the component
+
+`SchemaFocusService` — a registry. `SchemaViewerComponent` registers in `ngOnInit`, unregisters in `ngOnDestroy`, and the service acts on the **last registered**, which is the diagram furthest down the conversation: what *"questo schema"* means. A mechanic who has scrolled back to an older one is not addressed by this; he has the button.
+
+The target is an interface (`SchemaFocusTarget`), not the component type, so the service stays free of `DomSanitizer` and Lucide and the command paths can be tested without rendering a PDF.
+
+### 30.4 Ordering trap: shrink is tested before enlarge
+
+`"esci da schermo intero"` contains `"schermo intero"`. Testing enlarge first reads an exit as an enter — and hands the mechanic the opposite of what he asked for, in the one mode where he cannot see that it went wrong. Pinned in three languages.
+
+### 30.5 Verification
+
+**Unit (`screen-commands.spec.ts`, 10 tests):** the transcript's own phrasing with its filler, mid-sentence matching without punctuation, the shrink/enlarge ordering in it/en/fr, all five languages, non-interference with real questions (`Dove si trova il fusibile F17?`, `Mostrami lo schema elettrico`, `sì`, `due`), the most-recent-diagram rule, idempotent enlarge, and fallback to the previous diagram after one is destroyed.
+
+Frontend suite **24 → 34 passing**, proved by removing the new spec and re-running. The 2 `AppComponent` failures (`No provider for ActivatedRoute`) are **pre-existing and unrelated**: identical counts with this work stashed.
+
+**End-to-end, real stack, Playwright against `http://localhost/`:** vehicle confirmed → airbag diagram shown → `Poi ingrandisci questo schema` typed.
+
+| Check | Result |
+|---|---|
+| `.schema` carries `fullscreen` after the command | yes (`false` → `true`) |
+| Local confirmation in the transcript | *"Ho ingrandito lo schema Airbag Siemens MY99."* |
+| The model's apology (`capacità grafica` / `Ctrl`) | absent |
+| Command repeated | still enlarged, not toggled off |
+| `riduci lo schema` | back to inline, *"Ho ridotto lo schema."* |
+| `mettilo a tutto schermo` | enlarged again |
+| `Dove si trova il fusibile F17?` | still answered by the backend — the interception does not swallow questions |
+
+Run a second time with `requestFullscreen` forced to reject, reproducing the **voice** condition exactly; that is the run the table above reports, since it is the path a spoken command always takes.
+
+**One genuine limit, found while testing rather than assumed.** Under *real* fullscreen (typed path, gesture present) the chat input is not reachable, so a typed follow-up command cannot be submitted at all — the first driver run showed `riduci` apparently failing, which was the command never arriving, not the code. This is browser behaviour and identical to clicking the button; Escape exits, and the existing `fullscreenchange` listener clears the class. The voice path is unaffected because it never gets real fullscreen.
+
+**Not verifiable here:** that the spoken confirmation is actually heard. The mic chain cannot be automated; `applyScreenCommand` mirrors the four existing `speak(...)` helpers in the same file.
+
+### 30.6 Files
+
+| File | Change |
+|---|---|
+| `frontend/src/app/services/screen-commands.ts` | **New.** `parseScreenCommand` — enlarge/shrink in 5 languages, shrink tested first. |
+| `frontend/src/app/services/schema-focus.service.ts` | **New.** Registry of displayed diagrams; acts on the most recent. |
+| `frontend/src/app/components/cards/schema-viewer/schema-viewer.component.ts` | `toggleFullscreen` split into `enterFullscreen`/`exitFullscreen`; registers/unregisters; exposes `schemaTitle`. |
+| `frontend/src/app/services/voice-mode.service.ts` | Screen-command branch in `routeTranscript`; `applyScreenCommand` speaks the confirmation. |
+| `frontend/src/app/services/chat-store.service.ts` | Screen-command branch at the top of `sendMessage`; `appendLocalExchange` writes both turns into the transcript. |
+| `frontend/src/app/services/voice-strings.ts` | `screen_enlarged` / `screen_reduced`, 5 languages. |
+| `frontend/src/app/services/screen-commands.spec.ts` | **New.** 10 tests. |
+| `docs/Demo_Script_Client.md` | Act 5 gains the spoken diagram command; act 5 now 4 min, total ≈ 16 min. |
+
+### 30.7 Not done
+
+- **Pan and zoom inside the diagram by voice** ("sposta a destra", "zoom sul connettore H1"). The native PDF viewer owns that surface and exposes no API across an iframe boundary. It would need pdf.js, which was rejected for good reasons recorded on the component.
+- **Telling the model the interface exists.** The routing prompt still says nothing about a fullscreen control, so a phrasing the parser misses will still produce the Ctrl + "+" apology. The parser is the guarantee; a prompt line would be a second, weaker net.

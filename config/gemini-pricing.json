@@ -1,20 +1,25 @@
 {
   "_disclaimer": "Prices below are last confirmed against https://ai.google.dev/gemini-api/docs/pricing on prices_verified_at. Google changes pricing without notice - re-verify against the live pricing page before trusting cost_usd as an authoritative dollar figure, and update prices_verified_at when you do. Never edit cost_usd on existing rows when prices change - only new rows use the new price, same as a real invoice.",
-  "prices_verified_at": "2026-06-24",
+  "prices_verified_at": "2026-09-29",
   "estimation": {
     "characters_per_token": 4,
     "_note": "Used only for embedContent calls (search-service's QueryEmbedder, ingestion-resx's embedder.py) - Gemini's embedContent response never returns real token usage, unlike generateContent. Rows using this estimate must be written with is_estimated = true."
   },
   "models": {
+    "gemini-3.6-flash": {
+      "input_price_per_million_tokens_usd": 0.75,
+      "output_price_per_million_tokens_usd": 3.75,
+      "_note": "The model GeminiChatClient actually calls - routing, formatting and audio transcription. It was missing from this file, so every one of those calls logged cost_usd = NULL: GeminiPricing returns null rather than guessing, which is the right behaviour but left 98% of the spend unpriced on the dashboard while the bill grew. PRICES DOUBLE ON 2027-01-01 to 1.50 / 7.50 - add a new entry then rather than editing this one, so historical rows keep the price they were billed at."
+    },
     "gemini-2.5-flash": {
       "input_price_per_million_tokens_usd": 0.30,
       "output_price_per_million_tokens_usd": 2.50,
-      "_note": "Output price covers both regular and thinking output tokens at the same published rate."
+      "_note": "Output price covers both regular and thinking output tokens at the same published rate. Kept for historical rows only - the code moved to gemini-3.6-flash because 2.5-flash is closed to new API keys."
     },
     "gemini-embedding-001": {
       "input_price_per_million_tokens_usd": 0.15,
       "output_price_per_million_tokens_usd": 0.0,
-      "_note": "Embedding models have no output tokens - kept at 0.0 only so every model entry has the same shape and reader code never needs a special case."
+      "_note": "Embedding models have no output tokens - kept at 0.0 only so every model entry has the same shape and reader code never needs a special case. NOT RE-VERIFIED on 2026-09-29: this model no longer appears on the public pricing page, which now lists only gemini-embedding-2 at 0.20 per million. The API still answers, so 0.15 is carried forward from 2026-06-24 rather than replaced by a guess - but a model dropped from the price list is usually one on its way out, and retirement here would mean re-embedding the whole corpus, possibly at a different vector width."
     }
   }
 }

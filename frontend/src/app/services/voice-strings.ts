@@ -30,6 +30,21 @@ interface S {
   tech_more_results: (n: number) => string;
   tech_schema: (title: string) => string;
   tech_offer_procedure: (title: string) => string;
+
+  // Screen commands. The only strings in this file that describe something
+  // the interface did rather than something the archive says - so they carry
+  // the diagram's own title and nothing else.
+  screen_enlarged: (title: string) => string;
+  screen_reduced: string;
+
+  // Spoken once, on the way out. Short on purpose: the mechanic has already
+  // said he is done, so anything longer is talking over him.
+  goodbye: string;
+
+  // Une page de manuel scanne. La seule chaine de ce fichier qui entoure
+  // du texte que personne n'a ecrit : l'OCR l'a devine. On nomme la page
+  // et on renvoie a l'ecran, on n'en lit jamais le contenu.
+  tech_manual: (title: string) => string;
 }
 
 const STRINGS: Record<VoiceLang, S> = {
@@ -56,6 +71,10 @@ const STRINGS: Record<VoiceLang, S> = {
     tech_more_results: n => `Ho trovato altri ${n} risultati sullo schermo.`,
     tech_schema: title => `Ho trovato lo schema elettrico ${title}. È sullo schermo.`,
     tech_offer_procedure: title => `Ho trovato la procedura ${title}. Vuoi che te la legga?`,
+    screen_enlarged: title => title ? `Ho ingrandito lo schema ${title}.` : 'Ho ingrandito lo schema.',
+    screen_reduced: 'Ho ridotto lo schema.',
+    goodbye: 'A presto. Buon lavoro.',
+    tech_manual: title => title ? `Ho trovato una pagina del manuale: ${title}. È sullo schermo.` : 'Ho trovato una pagina del manuale. È sullo schermo.',
   },
   en: {
     car_selection_prefix: n => `I found ${n} compatible vehicles:`,
@@ -80,6 +99,10 @@ const STRINGS: Record<VoiceLang, S> = {
     tech_more_results: n => `I found ${n} more results on the screen.`,
     tech_schema: title => `I found the ${title} wiring diagram. It is on the screen.`,
     tech_offer_procedure: title => `I found the ${title} procedure. Shall I read it to you?`,
+    screen_enlarged: title => title ? `I have enlarged the ${title} diagram.` : 'I have enlarged the diagram.',
+    screen_reduced: 'I have made the diagram smaller again.',
+    goodbye: 'Goodbye. Good luck with the job.',
+    tech_manual: title => title ? `I found a page of the manual: ${title}. It is on the screen.` : 'I found a page of the manual. It is on the screen.',
   },
   fr: {
     car_selection_prefix: n => `J'ai trouvé ${n} véhicules compatibles :`,
@@ -104,6 +127,10 @@ const STRINGS: Record<VoiceLang, S> = {
     tech_more_results: n => `J'ai trouvé ${n} autres résultats à l'écran.`,
     tech_schema: title => `J'ai trouvé le schéma électrique ${title}. Il est à l'écran.`,
     tech_offer_procedure: title => `J'ai trouvé la procédure ${title}. Voulez-vous que je vous la lise ?`,
+    screen_enlarged: title => title ? `J'ai agrandi le schéma ${title}.` : "J'ai agrandi le schéma.",
+    screen_reduced: "J'ai réduit le schéma.",
+    goodbye: "À bientôt. Bon travail.",
+    tech_manual: title => title ? `J'ai trouvé une page du manuel : ${title}. Elle est à l'écran.` : "J'ai trouvé une page du manuel. Elle est à l'écran.",
   },
   pt: {
     car_selection_prefix: n => `Encontrei ${n} veículos compatíveis:`,
@@ -128,6 +155,10 @@ const STRINGS: Record<VoiceLang, S> = {
     tech_more_results: n => `Encontrei mais ${n} resultados no ecrã.`,
     tech_schema: title => `Encontrei o esquema elétrico ${title}. Está no ecrã.`,
     tech_offer_procedure: title => `Encontrei o procedimento ${title}. Quer que lho leia?`,
+    screen_enlarged: title => title ? `Ampliei o esquema ${title}.` : 'Ampliei o esquema.',
+    screen_reduced: 'Reduzi o esquema.',
+    goodbye: 'Até breve. Bom trabalho.',
+    tech_manual: title => title ? `Encontrei uma página do manual: ${title}. Está no ecrã.` : 'Encontrei uma página do manual. Está no ecrã.',
   },
   es: {
     car_selection_prefix: n => `Encontré ${n} vehículos compatibles:`,
@@ -152,6 +183,10 @@ const STRINGS: Record<VoiceLang, S> = {
     tech_more_results: n => `Encontré ${n} resultados más en la pantalla.`,
     tech_schema: title => `Encontré el esquema eléctrico ${title}. Está en la pantalla.`,
     tech_offer_procedure: title => `Encontré el procedimiento ${title}. ¿Quieres que te lo lea?`,
+    screen_enlarged: title => title ? `He ampliado el esquema ${title}.` : 'He ampliado el esquema.',
+    screen_reduced: 'He reducido el esquema.',
+    goodbye: 'Hasta pronto. Buen trabajo.',
+    tech_manual: title => title ? `Encontré una página del manual: ${title}. Está en la pantalla.` : 'Encontré una página del manual. Está en la pantalla.',
   },
 };
 
@@ -165,6 +200,7 @@ export type StringKey = Exclude<
   keyof S,
   | 'car_selection_prefix' | 'car_option' | 'found_n_cases' | 'case_option' | 'case_too_many'
   | 'tech_fact' | 'tech_more_results' | 'tech_schema' | 'tech_offer_procedure'
+  | 'screen_enlarged' | 'tech_manual'
 >;
 
 export function t(l: string, key: StringKey): string {
@@ -205,4 +241,12 @@ export function tTechSchema(l: string, title: string): string {
 
 export function tTechOfferProcedure(l: string, title: string): string {
   return STRINGS[lang(l)].tech_offer_procedure(title);
+}
+
+export function tScreenEnlarged(l: string, title: string): string {
+  return STRINGS[lang(l)].screen_enlarged(title);
+}
+
+export function tTechManual(l: string, title: string): string {
+  return STRINGS[lang(l)].tech_manual(title);
 }

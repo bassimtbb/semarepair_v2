@@ -2,6 +2,9 @@ import { Injectable, computed, signal } from '@angular/core';
 import { ChatApiService } from './chat-api.service';
 import { detectLanguage } from './language-detector';
 import { parseCarSelection } from './selection-parser';
+import { parseScreenCommand } from './screen-commands';
+import { SchemaFocusService } from './schema-focus.service';
+import { t, tScreenEnlarged } from './voice-strings';
 import { sortCarsForDisplay } from '../utils/car-sort';
 import type { CarOption, CaseSummary, ChatMessage, ChatResponse } from '../models/chat.models';
 
@@ -51,10 +54,34 @@ export class ChatStore {
     return null;
   });
 
-  constructor(private readonly api: ChatApiService) {}
+  constructor(
+    private readonly api: ChatApiService,
+    private readonly schemaFocus: SchemaFocusService,
+  ) {}
 
   async sendMessage(text: string): Promise<void> {
     if (!text.trim() || this.isStreaming()) return;
+
+    // A command about the screen, handled here for the same reason the car
+    // selection below is: it must not become a /api/chat/stream call with that
+    // literal text as the body. Observed live - "Poi ingrandisci questo
+    // schema" produced a confident apology about having no graphical ability,
+    // and advice to press Ctrl + "+", while the enlarge control sat in the
+    // diagram's own title bar. The model cannot know the interface has it; this
+    // does.
+    //
+    // Only when a diagram is actually displayed. Otherwise the words mean
+    // nothing here and belong to the model, which at least answers in context.
+    const screenCommand = parseScreenCommand(text, this.language);
+    if (screenCommand !== null && this.schemaFocus.hasSchema()) {
+      const title = screenCommand === 'enlarge'
+        ? this.schemaFocus.enlarge()
+        : this.schemaFocus.shrink();
+      this.appendLocalExchange(text, screenCommand === 'enlarge'
+        ? tScreenEnlarged(this.language, title ?? '')
+        : t(this.language, 'screen_reduced'));
+      return;
+    }
 
     // If a car-selection list is currently visible, try to parse the typed
     // text as a number reference before sending to the backend. A bare "8",
@@ -113,6 +140,18 @@ export class ChatStore {
   // Finds the most recent assistant message with ≥2 cases and no expanded
   // selection, then expands the case at `index`. Returns the CaseSummary or
   // null if no such message exists or index is out of range.
+  // Both turns of an exchange that never left the browser. Written into the
+  // transcript rather than applied silently so the conversation still reads
+  // back correctly - a mechanic scrolling up sees what he asked and what
+  // happened, exactly as for any other turn.
+  private appendLocalExchange(userText: string, assistantText: string): void {
+    this.messages.update(msgs => [
+      ...msgs,
+      { id: generateId(), role: 'user', text: userText },
+      { id: generateId(), role: 'assistant', text: assistantText },
+    ]);
+  }
+
   selectDocumentInLastResponse(index: number): CaseSummary | null {
     const msgs = this.messages();
     for (let i = msgs.length - 1; i >= 0; i--) {

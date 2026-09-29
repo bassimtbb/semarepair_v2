@@ -26,6 +26,20 @@ public class TechnicalSearchTests
     private const string EngineCode = "8140.43S";
     private const string Brand = "FIAT";
 
+    // Every case below names a vehicle AND the answer that vehicle gives, so
+    // the whole file is only meaningful against the dataset it was calibrated
+    // on. Loading another vehicle turned 22 of these red at once - not
+    // regressions, just questions asked of a car that is no longer there.
+    //
+    // A red suite for the wrong reason is worse than no suite: it trains the
+    // eye to ignore red. So the dataset is stated as a precondition, the way
+    // UncoveredSystemTests and BoundaryTieTests already state theirs, and
+    // these skip rather than fail when it is absent.
+    //
+    // The document is one of FI0396's fuse tables; its presence means the
+    // Ducato technical corpus is loaded.
+    private static bool DucatoLoaded => TestEnv.DocumentsExist("199310118");
+
     private static async Task<JsonElement> QueryAsync(
         string q, string lang = "it", string? engineCode = EngineCode, int limit = 5)
     {
@@ -59,10 +73,11 @@ public class TechnicalSearchTests
         { "ogni quanti km sostituire la cinghia",      "CINGHIE" },
     };
 
-    [Theory]
+    [SkippableTheory]
     [MemberData(nameof(AnswerableQuestions))]
     public async Task TechnicalQuestion_IsAnswered(string question, string expectedInTopAnswer)
     {
+        Skip.IfNot(DucatoLoaded, "Ducato technical corpus not loaded.");
         var root = await QueryAsync(question);
         Assert.Equal("technical", root.GetProperty("resultType").GetString());
 
@@ -75,7 +90,7 @@ public class TechnicalSearchTests
 
     // The other half of the threshold. Without these, raising
     // MaxTechnicalDistance to rescue one stubborn query would look free.
-    [Theory]
+    [SkippableTheory]
     [InlineData("che tempo fa a Milano")]
     [InlineData("come si chiama il presidente della repubblica")]
     [InlineData("qual e la ricetta della carbonara")]
@@ -83,6 +98,7 @@ public class TechnicalSearchTests
     [InlineData("codice PIN dell'autoradio")]        // plausible, simply absent
     public async Task OffTopicOrAbsent_ReturnsNothing(string question)
     {
+        Skip.IfNot(DucatoLoaded, "Ducato technical corpus not loaded.");
         var root = await QueryAsync(question);
         Assert.Equal("not_found", root.GetProperty("resultType").GetString());
         Assert.Empty(Chunks(root));
@@ -90,16 +106,18 @@ public class TechnicalSearchTests
 
     // Same rule the document endpoints enforce (M1 / Rule 1). A torque figure
     // for the wrong engine is worse than no answer at all.
-    [Fact]
+    [SkippableFact]
     public async Task NoConfirmedVehicle_ReturnsNothing()
     {
+        Skip.IfNot(DucatoLoaded, "Ducato technical corpus not loaded.");
         var root = await QueryAsync("quale fusibile protegge la centralina ABS", engineCode: null);
         Assert.Equal("not_found", root.GetProperty("resultType").GetString());
     }
 
-    [Fact]
+    [SkippableFact]
     public async Task UnknownVehicle_ReturnsNothing()
     {
+        Skip.IfNot(DucatoLoaded, "Ducato technical corpus not loaded.");
         var root = await QueryAsync("quale fusibile protegge la centralina ABS", engineCode: "NO_SUCH_ENGINE");
         Assert.Equal("not_found", root.GetProperty("resultType").GetString());
     }
@@ -108,9 +126,10 @@ public class TechnicalSearchTests
     // Before collapsing, "schema elettrico airbag" returned eight rows from
     // the same drawing - three of them literally "Fusibile 7,5A" - burying
     // every other result.
-    [Fact]
+    [SkippableFact]
     public async Task SchematicQuery_ReturnsOneEntryPerDiagram_WithItsPdf()
     {
+        Skip.IfNot(DucatoLoaded, "Ducato technical corpus not loaded.");
         var root = await QueryAsync("schema elettrico airbag", limit: 6);
         var chunks = Chunks(root);
         Assert.NotEmpty(chunks);
@@ -131,9 +150,10 @@ public class TechnicalSearchTests
     // F17" returned F17 and then F16, the immobiliser fuse, which sat 0.029
     // away - inside the relative window by a hair. No threshold fixes that
     // honestly: F16 is a perfectly good chunk that simply was not asked about.
-    [Fact]
+    [SkippableFact]
     public async Task NamingAReference_ExcludesTheOtherOnes()
     {
+        Skip.IfNot(DucatoLoaded, "Ducato technical corpus not loaded.");
         var root = await QueryAsync("dove si trova il fusibile F17", limit: 10);
         var refs = Chunks(root).Select(c => Str(c, "reference"))
                                .Where(r => !string.IsNullOrEmpty(r))
@@ -151,11 +171,12 @@ public class TechnicalSearchTests
     //
     // Asserts on rendered content rather than on the filter, so the rule can
     // be re-expressed without rewriting the test.
-    [Theory]
+    [SkippableTheory]
     [InlineData("schema elettrico fusibile F17")]
     [InlineData("quale fusibile protegge la centralina ABS")]
     public async Task NoDiagramIsShownForAFuseRatingAlone(string question)
     {
+        Skip.IfNot(DucatoLoaded, "Ducato technical corpus not loaded.");
         var root = await QueryAsync(question, limit: 10);
         var chunks = Chunks(root);
         Assert.NotEmpty(chunks);
@@ -180,9 +201,10 @@ public class TechnicalSearchTests
     // The question is also ill-posed - there is no wiring diagram OF a fuse -
     // so the bar is not "answer it perfectly" but "do not pad one real answer
     // with repetition".
-    [Fact]
+    [SkippableFact]
     public async Task RepeatedLegendLabels_AreNotReturnedOncePerDiagram()
     {
+        Skip.IfNot(DucatoLoaded, "Ducato technical corpus not loaded.");
         var root = await QueryAsync("schema elettrico fusibile F17", limit: 10);
         var chunks = Chunks(root);
         Assert.NotEmpty(chunks);
@@ -210,9 +232,10 @@ public class TechnicalSearchTests
     // the relative window can. This asserts the outcome - ask for one
     // diagram, get one diagram - rather than the window's value, so the
     // constant can be re-tuned without rewriting the test.
-    [Fact]
+    [SkippableFact]
     public async Task AskingForOneDiagram_DoesNotReturnTheOtherSchematics()
     {
+        Skip.IfNot(DucatoLoaded, "Ducato technical corpus not loaded.");
         var root = await QueryAsync("schema elettrico airbag", limit: 10);
         var legends = Chunks(root).Where(c => Str(c, "kind") == "legend").ToArray();
 
@@ -227,7 +250,7 @@ public class TechnicalSearchTests
     // language-dependent ranking is not acceptable in a product that answers
     // in five, so within a tie band a stated value outranks a pointer to a
     // drawing.
-    [Theory]
+    [SkippableTheory]
     [InlineData("it", "quale fusibile protegge la centralina ABS")]
     [InlineData("fr", "quel fusible protege le calculateur ABS")]
     [InlineData("en", "which fuse protects the ABS control unit")]
@@ -235,6 +258,7 @@ public class TechnicalSearchTests
     [InlineData("pt", "que fusivel protege a centralina ABS")]
     public async Task SameFuseQuestion_AnswersWithAFact_InEveryLanguage(string lang, string question)
     {
+        Skip.IfNot(DucatoLoaded, "Ducato technical corpus not loaded.");
         var root = await QueryAsync(question, lang);
         Assert.Equal("technical", root.GetProperty("resultType").GetString());
 

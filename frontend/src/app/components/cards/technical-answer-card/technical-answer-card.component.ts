@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { SchemaViewerComponent } from '../schema-viewer/schema-viewer.component';
+import { ManualPageComponent } from '../manual-page/manual-page.component';
 import type { TechnicalChunk } from '../../../models/chat.models';
 
 // Renders one answer to a technical question. Extension v2.
@@ -20,10 +21,16 @@ import type { TechnicalChunk } from '../../../models/chat.models';
 @Component({
   selector: 'app-technical-answer-card',
   standalone: true,
-  imports: [SchemaViewerComponent],
+  imports: [SchemaViewerComponent, ManualPageComponent],
   template: `
     <div class="tech-card bg-surface border-border">
-      @if (chunk.kind === 'legend' && chunk.assetId) {
+      @if (chunk.kind === 'manual' && chunk.assetId) {
+        <app-manual-page
+          [assetId]="chunk.assetId"
+          [heading]="chunk.heading || chunk.documentTitle || ''"
+          [page]="chunk.reference || ''"
+        />
+      } @else if (chunk.kind === 'legend' && chunk.assetId) {
         <app-schema-viewer
           [assetId]="chunk.assetId"
           [title]="chunk.heading || chunk.documentTitle || ''"
@@ -56,6 +63,16 @@ import type { TechnicalChunk } from '../../../models/chat.models';
           <div class="tech-body text-foreground">{{ chunk.body }}</div>
         }
 
+        @if (chunk.assetId && !photoFailed) {
+          <img
+            class="tech-photo"
+            [src]="'/assets/photo/' + chunk.assetId"
+            [alt]="chunk.label || chunk.heading || ''"
+            loading="lazy"
+            (error)="photoFailed = true"
+          />
+        }
+
         @if (contextLabel) {
           <div class="tech-context text-foreground">{{ contextLabel }}</div>
         }
@@ -68,6 +85,17 @@ import type { TechnicalChunk } from '../../../models/chat.models';
 })
 export class TechnicalAnswerCardComponent {
   @Input({ required: true }) chunk!: TechnicalChunk;
+
+  // Most referenced photographs were never delivered: the documents cite 151,
+  // and 109 of them - every fuse and every mechanical-data drawing - have no
+  // file. The reference is still recorded, because the archive says it exists
+  // and one day the file may arrive.
+  //
+  // So the card asks for it and gives up quietly. Hiding on error rather than
+  // checking first keeps the database honest about what the document claims,
+  // while the mechanic never sees a broken-image icon where a photo of his
+  // fuse box should be.
+  protected photoFailed = false;
 
   // Where the answer sits, promoted out of the grey source line.
   //
@@ -84,6 +112,13 @@ export class TechnicalAnswerCardComponent {
   get contextLabel(): string | null {
     const heading = this.chunk.heading?.trim();
     if (!heading) return null;
+
+    // A section has no label of its own, so the line above already shows the
+    // heading - repeating it here printed "ATTENZIONE" twice on the card that
+    // answers "come azzero il service". Only a chunk that HAS a label needs
+    // the heading as context underneath it.
+    if (!this.chunk.label?.trim()) return null;
+
     const title = this.chunk.documentTitle?.trim() ?? '';
     return heading.toLowerCase() === title.toLowerCase() ? null : heading;
   }

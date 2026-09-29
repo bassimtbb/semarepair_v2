@@ -45,8 +45,22 @@ public class SystemDeviceMatchTests
             logs.Contains($"narrowed to system/device 'Quadro strumenti' (query: '{IncidentalQuery}')"),
             $"L3 regression: an incidental locative mention narrowed the search to the instrument cluster.\n{Tail(logs)}");
 
-        // Positive confirmation it took the broad path for THIS query.
-        Assert.Contains($"not narrowed - no system/device subject in '{IncidentalQuery}'", logs);
+        // Non-vacuity, without assuming what else the corpus contains.
+        //
+        // This used to assert "not narrowed - no system/device subject",
+        // i.e. that NOTHING matched. That held only because the Ducato's graph
+        // happened to contain no other device named in this sentence. The Fiat
+        // 500's contains "Spia avaria", so the query now narrows to it - a
+        // correct subject match, on a device the mechanic did name, and
+        // nothing to do with the locative mention this test guards.
+        //
+        // What must be true is narrower and corpus-independent: the decision
+        // was reached for THIS query, and it was not the instrument cluster.
+        // The assertion above carries the rule; this one only proves the code
+        // path ran, so a silent no-op cannot pass as success.
+        Assert.Contains($"(query: '{IncidentalQuery}')", logs.Replace(
+            $"not narrowed - no system/device subject in '{IncidentalQuery}'",
+            $"(query: '{IncidentalQuery}')"));
     }
 
     [Fact]

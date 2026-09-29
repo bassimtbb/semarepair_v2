@@ -14,6 +14,7 @@ builder.Services.AddSingleton<SymptomSearchService>();
 builder.Services.AddSingleton<ValidationService>();
 builder.Services.AddSingleton<DocumentContentService>();
 builder.Services.AddSingleton<TechnicalSearchService>();
+builder.Services.AddSingleton<UncoveredSystemService>();
 builder.Services.AddSingleton<UsageQueryService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

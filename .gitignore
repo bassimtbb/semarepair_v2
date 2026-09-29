@@ -30,3 +30,14 @@ Thumbs.db
 pgdata.backup/
 Data/resx_samples.original/
 Data/*.original.xlsx
+
+# Configuration locale de l assistant, propre a chaque poste.
+.claude/
+
+# Livraisons brutes du client et archives : meme regle que
+# resx_samples.original ci-dessus. Le depot porte le JEU DE TRAVAIL (ce qui
+# est ingere et servi), pas les sources dont il est tire - sinon les memes
+# contenus y figurent deux fois, en .resx et en images extraites.
+Data/the new car fiat 500/
+Data/PDF.original/
+Data/resx_FI0396_unsupported/

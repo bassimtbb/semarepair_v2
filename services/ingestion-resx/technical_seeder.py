@@ -86,6 +86,37 @@ def main():
                 ON CONFLICT DO NOTHING
             """)
 
+            # asset_id is carried onto rows that already exist, and it needs
+            # its own statement to get there.
+            #
+            # A chunk's identity is its text - heading, label, value, unit,
+            # body, search_text - and asset_id is deliberately not part of it:
+            # which photograph illustrates a fuse is not what makes that fuse
+            # a different fuse. That is the right definition, but it means the
+            # INSERT above sees an unchanged identity and does nothing, so a
+            # newly delivered image would never reach the row.
+            #
+            # The alternative was to put asset_id in the key. It would have
+            # worked, and it would have thrown away and re-embedded 1971
+            # chunks whose text had not changed, for a picture.
+            cur.execute("""
+                UPDATE knowledge_chunks k
+                SET asset_id = i.asset_id
+                FROM incoming_chunks i
+                WHERE k.id_documento = i.id_documento
+                  AND k.language = i.language
+                  AND k.kind = i.kind
+                  AND COALESCE(k.heading,'')   = COALESCE(i.heading,'')
+                  AND COALESCE(k.reference,'') = COALESCE(i.reference,'')
+                  AND COALESCE(k.label,'')     = COALESCE(i.label,'')
+                  AND COALESCE(k.value,'')     = COALESCE(i.value,'')
+                  AND COALESCE(k.unit,'')      = COALESCE(i.unit,'')
+                  AND COALESCE(k.body,'')      = COALESCE(i.body,'')
+                  AND k.search_text = i.search_text
+                  AND k.asset_id IS DISTINCT FROM i.asset_id
+            """)
+            relinked = cur.rowcount
+
             # Anything this folder no longer produces, within the pairs it
             # covers. Scoped to those pairs so a partial folder can never wipe
             # documents it says nothing about.
@@ -116,6 +147,7 @@ def main():
         print(f"{len(values)} parsed -> {after} chunks stored "
               f"({after - before + pruned} added, {pruned} pruned), "
               f"{with_vectors} keep their embedding, "
+              f"{relinked} re-linked to an image, "
               f"across {len(pairs)} document/language pairs.")
 
         with conn.cursor() as cur:

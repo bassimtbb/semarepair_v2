@@ -9,8 +9,7 @@
 // second STT consumer.
 import { Component, ElementRef, EventEmitter, Input, OnDestroy, Output, ViewChild, effect, signal, untracked } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { LucideAudioLines, LucideMic, LucideSparkles, LucideSquare, LucideSend } from '@lucide/angular';
-import { ChatApiService } from '../../../services/chat-api.service';
+import { LucideAudioLines, LucideSparkles, LucideSend } from '@lucide/angular';
 import { SpeechService } from '../../../services/speech/speech.service';
 import { VoiceModeService } from '../../../services/voice-mode.service';
 import type { VoiceEngine } from '../../../services/voice-mode.service';
@@ -18,7 +17,7 @@ import type { VoiceEngine } from '../../../services/voice-mode.service';
 @Component({
   selector: 'app-chat-input',
   standalone: true,
-  imports: [FormsModule, LucideAudioLines, LucideMic, LucideSparkles, LucideSquare, LucideSend],
+  imports: [FormsModule, LucideAudioLines, LucideSparkles, LucideSend],
   template: `
     @if (voiceMode.toastMessage()) {
       <div class="voice-toast">{{ voiceMode.toastMessage() }}</div>
@@ -28,21 +27,12 @@ import type { VoiceEngine } from '../../../services/voice-mode.service';
           [class.input-bar--active]="voiceMode.isActive() && voiceMode.state() !== 'speaking'"
           [class.input-bar--speaking]="voiceMode.state() === 'speaking'">
 
-        <!-- 🎤 Mic: frozen per §6.6 -->
-        <button
-          type="button"
-          class="mic-button border-border text-foreground hover:bg-foreground/8"
-          [class.recording]="isRecording()"
-          [disabled]="disabled || isTranscribing() || voiceMode.isActive()"
-          (click)="toggleRecording()"
-          [title]="isRecording() ? 'Interrompi registrazione' : 'Registra messaggio vocale'"
-        >
-          @if (isRecording()) {
-            <svg lucideSquare [size]="18"></svg>
-          } @else {
-            <svg lucideMic [size]="18"></svg>
-          }
-        </button>
+        <!-- The record-then-transcribe mic button was removed from the bar.
+             It dictated into the text field, which the two hands-free voice
+             modes beside it already do end to end - three microphone-looking
+             controls asked the mechanic to choose between things he had no
+             way to tell apart. /api/chat/transcribe is untouched and still
+             serves voice mode; only this entry point is gone. -->
 
         <!-- 🔊 Voice button (Web Speech API) -->
         <button
@@ -109,16 +99,11 @@ export class ChatInputComponent implements OnDestroy {
   @Output() send = new EventEmitter<string>();
 
   readonly textSig = signal('');
-  readonly isRecording = signal(false);
-  readonly isTranscribing = signal(false);
 
-  private mediaRecorder?: MediaRecorder;
-  private audioChunks: Blob[] = [];
   private vizRaf: number | null = null;
   private animHandle: ReturnType<typeof setTimeout> | null = null;
 
   constructor(
-    private readonly api: ChatApiService,
     readonly voiceMode: VoiceModeService,
     private readonly speech: SpeechService,
   ) {
@@ -293,35 +278,4 @@ export class ChatInputComponent implements OnDestroy {
     }
   }
 
-  // ---- Mic button — DO NOT MODIFY (frozen per §6.6) ----
-
-  async toggleRecording(): Promise<void> {
-    if (this.isRecording()) {
-      this.mediaRecorder?.stop();
-      return;
-    }
-
-    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-    this.audioChunks = [];
-    this.mediaRecorder = new MediaRecorder(stream);
-
-    this.mediaRecorder.ondataavailable = (e) => this.audioChunks.push(e.data);
-    this.mediaRecorder.onstop = async () => {
-      stream.getTracks().forEach(track => track.stop());
-      this.isRecording.set(false);
-      this.isTranscribing.set(true);
-      try {
-        const blob = new Blob(this.audioChunks, { type: 'audio/webm' });
-        const transcript = await this.api.transcribe(blob);
-        this.textSig.set(transcript);
-      } catch {
-        // Non-fatal — mechanic can type instead.
-      } finally {
-        this.isTranscribing.set(false);
-      }
-    };
-
-    this.mediaRecorder.start();
-    this.isRecording.set(true);
-  }
 }
