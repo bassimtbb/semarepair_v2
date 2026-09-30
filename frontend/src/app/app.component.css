@@ -3,7 +3,22 @@
   display: flex;
   flex-direction: column;
   font-family: Inter, system-ui, -apple-system, sans-serif;
-  transition: background-color 0.15s ease;
+  transition: background-color 0.15s ease, padding-right 0.22s ease;
+}
+
+/* The help drawer pushes the chat aside instead of covering it.
+   Padding on the shell rather than a margin on the message list, because
+   chat-page is display:contents - the list and the input bar are direct
+   flex children of .app-shell, and AppComponent's scoped styles cannot
+   reach them anyway. Padding here moves the header, the messages and the
+   input bar together, so nothing ends up underneath the panel.
+
+   Same duration as the drawer's own slide, so the two edges travel
+   together rather than one chasing the other. */
+@media (min-width: 481px) {
+  .app-shell--drawer-open {
+    padding-right: var(--help-drawer-w);
+  }
 }
 
 /* border-bottom-width/-style only, never the shorthand "border-bottom: 1px

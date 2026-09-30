@@ -89,6 +89,14 @@
 @layer base {
   :root {
     --shadow-color: 15 23 42 / 0.08;
+
+    /* Width of the help drawer. Lives here, outside @theme, for the same
+       reason as --shadow-color above - it is a plain custom property, not a
+       Tailwind utility key. Two components read it and they must agree: the
+       drawer sizes itself with it, and .app-shell pads itself by exactly the
+       same amount so the chat is pushed aside rather than covered. Two
+       hardcoded 380px would drift the day one of them changed. */
+    --help-drawer-w: 380px;
   }
 }
 

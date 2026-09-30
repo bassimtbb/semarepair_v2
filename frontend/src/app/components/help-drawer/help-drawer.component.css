@@ -6,23 +6,25 @@
   display: contents;
 }
 
-/* Height of .app-header: 12px padding + 32px logo + 12px padding + 1px
-   border. The drawer starts below it so the "?" that opened it stays
-   visible and can close it again - a panel that hides its own switch makes
-   the reader hunt for the way out.
+/* Full height, and the chat is PUSHED aside rather than covered:
+   .app-shell pads itself by --help-drawer-w while this is open, so the
+   header, the messages and the input bar all narrow together. It used to
+   start below the header and float over the conversation, which hid the
+   input bar the reader was meant to type into.
+
+   The width is the shared token, not a literal - .app-shell pads itself by
+   exactly the same value, and two hardcoded 380px would drift apart.
 
    Note what is NOT here: a backdrop. The first version had one, bound to
    close(), and it made the drawer a dialog - reaching for the input bar to
    try what you had just read dismissed the panel. The chat stays fully
    usable while this is open. */
 .help-drawer {
-  --header-h: 57px;
-
   position: fixed;
-  top: var(--header-h);
+  top: 0;
   right: 0;
   bottom: 0;
-  width: 380px;
+  width: var(--help-drawer-w);
   max-width: 100%;
   z-index: 900;
 
@@ -52,7 +54,9 @@
 }
 
 /* Narrow screens: full width, because 380px of a 360px phone is not a
-   drawer, it is a page. */
+   drawer, it is a page. The push is disabled below this width too (see
+   .app-shell--drawer-open) - pushing the chat aside by the whole viewport
+   would leave nothing to push it into, so on a phone it overlays. */
 @media (max-width: 480px) {
   .help-drawer {
     width: 100%;
