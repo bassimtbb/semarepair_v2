@@ -192,12 +192,12 @@ import type { HelpLanguage } from '../../services/help-strings';
                 <summary class="help-section-head text-accent">
                   <svg lucideHash [size]="15"></svg>
                   <span>{{ t().codes_all_title }}</span>
-                  <span class="help-codes-count text-muted">{{ t().codes_all_count(codeTotal(), carsWithCodes().length) }}</span>
+                  <span class="help-codes-count text-muted">{{ t().codes_all_count(codeTotal()) }}</span>
                 </summary>
 
-                @for (v of carsWithCodes(); track v.idMacchina) {
+                @for (v of coverage.vehicles(); track v.idMacchina) {
                   <div class="help-codes-group">
-                    <div class="help-codes-label text-foreground">{{ v.marca }} {{ v.modello }} — {{ v.sections.faultCodes.total }}</div>
+                    <div class="help-codes-label text-foreground">{{ v.marca }} {{ v.modello }} — {{ v.sections.faultCodes.total || t().codes_none }}</div>
                     @for (group of coverage.groupFaultCodes(v.sections.faultCodes.examples); track group.prefix) {
                       <div class="help-codes-label text-muted">{{ groupLabel(group.prefix) }}</div>
                       <div class="help-codes-grid">
@@ -378,14 +378,11 @@ export class HelpDrawerComponent implements OnInit {
   // They appear in full once a car is chosen, which is the flow the whole
   // interface is built on: say the symptom, read which cars carry it, pick
   // the one in the workshop.
-  // Only the vehicles that carry any. The BMW has none, and leaving it out
-  // says so better than a heading over an empty grid.
-  readonly carsWithCodes = computed(() =>
-    this.coverage.vehicles().filter(v => v.sections.faultCodes.total > 0),
-  );
-
+  // Every vehicle is listed, including the one with none - its row says so
+  // in words. Leaving it out was the first attempt, and an absence has to be
+  // noticed before it says anything.
   readonly codeTotal = computed(() =>
-    this.carsWithCodes().reduce((n, v) => n + v.sections.faultCodes.total, 0),
+    this.coverage.vehicles().reduce((n, v) => n + v.sections.faultCodes.total, 0),
   );
 
   readonly pooled = computed(() => {

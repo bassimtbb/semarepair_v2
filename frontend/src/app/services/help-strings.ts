@@ -75,7 +75,12 @@ export interface HelpCopy {
   // random gets a correct "not found" and concludes the product is broken -
   // which is what happened the first time a client tried it, with P1030.
   codes_all_title: string;
-  codes_all_count: (codes: number, vehicles: number) => string;
+  codes_all_count: (codes: number) => string;
+
+  // Said out loud for a vehicle that carries none. Leaving it off the list
+  // was the first attempt, and an absence has to be NOTICED before it says
+  // anything; a line that states it cannot be missed.
+  codes_none: string;
 
   codes_group_p: string;
   codes_group_b: string;
@@ -140,7 +145,8 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     try_hint: 'Tocca una domanda per scriverla nel campo, senza inviarla.',
     codes_hint: 'Tocca un codice per scriverlo nel campo.',
     codes_all_title: 'Tutti i codici, per veicolo',
-    codes_all_count: (c, v) => `${c} codici su ${v} veicoli`,
+    codes_all_count: c => `${c} codici`,
+    codes_none: 'Nessun codice guasto per questo veicolo',
 
     codes_group_p: 'Motore e cambio',
     codes_group_b: 'Carrozzeria',
@@ -204,7 +210,8 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     try_hint: 'Tap a question to put it in the box, without sending it.',
     codes_hint: 'Tap a code to put it in the box.',
     codes_all_title: 'All codes, by vehicle',
-    codes_all_count: (c, v) => `${c} codes across ${v} vehicles`,
+    codes_all_count: c => `${c} codes`,
+    codes_none: 'No fault code for this vehicle',
 
     codes_group_p: 'Powertrain',
     codes_group_b: 'Body',
@@ -268,7 +275,8 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     try_hint: 'Touchez une question pour l’écrire dans le champ, sans l’envoyer.',
     codes_hint: 'Touchez un code pour l’écrire dans le champ.',
     codes_all_title: 'Tous les codes, par véhicule',
-    codes_all_count: (c, v) => `${c} codes sur ${v} véhicules`,
+    codes_all_count: c => `${c} codes`,
+    codes_none: 'Aucun code défaut pour ce véhicule',
 
     codes_group_p: 'Moteur et boîte',
     codes_group_b: 'Carrosserie',
@@ -332,7 +340,8 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     try_hint: 'Toca una pregunta para escribirla en el campo, sin enviarla.',
     codes_hint: 'Toca un código para escribirlo en el campo.',
     codes_all_title: 'Todos los códigos, por vehículo',
-    codes_all_count: (c, v) => `${c} códigos en ${v} vehículos`,
+    codes_all_count: c => `${c} códigos`,
+    codes_none: 'Ningún código de avería para este vehículo',
 
     codes_group_p: 'Motor y cambio',
     codes_group_b: 'Carrocería',
@@ -396,7 +405,8 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     try_hint: 'Toque numa pergunta para a escrever no campo, sem a enviar.',
     codes_hint: 'Toque num código para o escrever no campo.',
     codes_all_title: 'Todos os códigos, por veículo',
-    codes_all_count: (c, v) => `${c} códigos em ${v} veículos`,
+    codes_all_count: c => `${c} códigos`,
+    codes_none: 'Nenhum código de avaria para este veículo',
 
     codes_group_p: 'Motor e caixa',
     codes_group_b: 'Carroçaria',
