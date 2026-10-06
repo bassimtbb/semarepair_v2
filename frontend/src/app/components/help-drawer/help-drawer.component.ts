@@ -120,7 +120,7 @@ import type { HelpLanguage } from '../../services/help-strings';
                     @for (q of s.section.examples; track q) {
                       <button type="button"
                               class="help-chip bg-surface border-border text-foreground hover:bg-foreground/8"
-                              (click)="suggest.emit(q)">{{ q }}</button>
+                              (click)="suggest.emit(s.phrase(q))">{{ s.phrase(q) }}</button>
                     }
                   </div>
                   <p class="help-hint text-muted">{{ t().try_hint }}</p>
@@ -260,16 +260,36 @@ export class HelpDrawerComponent implements OnInit {
   // Fault cases first, pictures second. The client is evaluating a
   // diagnostic tool, not a gallery: the first thing it should show is what
   // it is FOR. A photo impresses, but it illustrates - it does not prove.
-  sections(car: CoverageVehicle): { key: string; title: string; unit: string; section: CoverageSection }[] {
+  // phrase() turns what the archive stores into what a mechanic types.
+  //
+  // An anomalia is already a full sentence - the mechanic's own words,
+  // written down by whoever filed the repair - so it goes through
+  // untouched. A chunk heading is a label: "CLIMATIZZAZIONE" typed on its
+  // own returns nothing at all, measured, because one upper-case word sits
+  // too far from the chunk for the vector and reads as a system name to the
+  // router. Those get a stem.
+  sections(car: CoverageVehicle): {
+    key: string; title: string; unit: string;
+    section: CoverageSection; phrase: (s: string) => string;
+  }[] {
     const s = this.t();
     const c = car.sections;
+    const asIs = (x: string) => x;
+
+    // Lower-cased on the way in. A heading stored as "CLIMATIZZAZIONE" reads
+    // to the router as a SYSTEM name, and it routed to the system search,
+    // which correctly found no repair sheet and asked for clarification -
+    // measured, through the chat, with the stem already in place. The word
+    // "tecnici" in the stem and a lower-case subject both point at the
+    // technical search instead; together they held on every heading tried.
+    const data = (x: string) => s.ask_data(x.toLocaleLowerCase());
     return [
-      { key: 'cases',     title: s.sec_cases,     unit: s.unit_cases,     section: c.cases },
-      { key: 'photos',    title: s.sec_photos,    unit: s.unit_photos,    section: c.photos },
-      { key: 'codes',     title: s.sec_codes,     unit: s.unit_codes,     section: c.faultCodes },
-      { key: 'diagrams',  title: s.sec_diagrams,  unit: s.unit_diagrams,  section: c.diagrams },
-      { key: 'manual',    title: s.sec_manual,    unit: s.unit_manual,    section: c.manual },
-      { key: 'technical', title: s.sec_technical, unit: s.unit_technical, section: c.technical },
+      { key: 'cases',     title: s.sec_cases,     unit: s.unit_cases,     section: c.cases,      phrase: asIs },
+      { key: 'photos',    title: s.sec_photos,    unit: s.unit_photos,    section: c.photos,     phrase: data },
+      { key: 'codes',     title: s.sec_codes,     unit: s.unit_codes,     section: c.faultCodes, phrase: asIs },
+      { key: 'diagrams',  title: s.sec_diagrams,  unit: s.unit_diagrams,  section: c.diagrams,   phrase: s.ask_diagram },
+      { key: 'manual',    title: s.sec_manual,    unit: s.unit_manual,    section: c.manual,     phrase: data },
+      { key: 'technical', title: s.sec_technical, unit: s.unit_technical, section: c.technical,  phrase: data },
     ];
   }
 

@@ -10,6 +10,10 @@ public class CoverageService
 {
     private const int ExamplesPerSection = 4;
 
+    // Fetched wider than shown, so the choice of WHICH to show can be made
+    // on something better than the arbitrary order Postgres returns.
+    private const int ExamplesFetched = 16;
+
     private readonly string _connectionString;
     private readonly string _assetsPath;
     private readonly ILogger<CoverageService> _logger;
@@ -187,7 +191,7 @@ public class CoverageService
                    END AS bucket,
                    count(*),
                    count(DISTINCT k.asset_id),
-                   (array_agg(DISTINCT coalesce(nullif(k.heading, ''), k.label)))[1:{ExamplesPerSection}]
+                   (array_agg(DISTINCT coalesce(nullif(k.heading, ''), k.label)))[1:{ExamplesFetched}]
             FROM gup_rows g
             JOIN knowledge_chunks k ON k.id_documento = g.id_documento AND k.language = @lang
             GROUP BY 1, 2
@@ -219,7 +223,7 @@ public class CoverageService
             // mechanic will see on screen.
             var byAsset = reader.GetString(1) is "photo" or "diagram";
             section.Total = byAsset ? reader.GetInt64(3) : reader.GetInt64(2);
-            section.Examples = reader.IsDBNull(4) ? [] : Clean(reader.GetFieldValue<string?[]>(4));
+            section.Examples = reader.IsDBNull(4) ? [] : MostSpecific(reader.GetFieldValue<string?[]>(4));
         }
     }
 
@@ -259,4 +263,24 @@ public class CoverageService
         values.Where(s => !string.IsNullOrWhiteSpace(s))
               .Select(s => s!.Trim())
               .ToList();
+
+    // Same cleaning, then the most specific first.
+    //
+    // A heading of one word is the one that fails. The router rewrites the
+    // suggested question before searching, and it sometimes strips the stem
+    // down to the subject alone - measured: "Mostrami i dati tecnici di
+    // climatizzazione" reached the search as "climatizzazione" on one car
+    // and as "dati tecnici climatizzazione" on three others. A single word
+    // sits too far from any chunk to retrieve it, so a one-word heading
+    // makes a suggestion that works or not depending on the model's mood.
+    //
+    // Word count, not character length: "COPPIE DI SERRAGGIO" survives that
+    // rewrite and "CLIMATIZZAZIONE" does not, though they are nearly the
+    // same size.
+    private static List<string> MostSpecific(IEnumerable<string?> values) =>
+        Clean(values)
+            .OrderByDescending(s => s.Split(' ', StringSplitOptions.RemoveEmptyEntries).Length)
+            .ThenBy(s => s, StringComparer.Ordinal)
+            .Take(ExamplesPerSection)
+            .ToList();
 }

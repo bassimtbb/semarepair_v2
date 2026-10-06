@@ -58,6 +58,16 @@ export interface HelpCopy {
   unit_manual: string;
   unit_technical: string;
 
+  // The archive gives labels, not questions: a chunk is headed
+  // "CLIMATIZZAZIONE", and typing that alone returns NOTHING - measured. A
+  // single upper-case word sits too far from the chunk for the vector, and
+  // the router reads it as a system name and asks for clarification. These
+  // stems turn a label into something a mechanic would actually type, and
+  // they live here rather than in the API because they are interface
+  // wording - the endpoint keeps returning the archive's own words.
+  ask_data: (subject: string) => string;
+  ask_diagram: (subject: string) => string;
+
   try_hint: string;
   codes_hint: string;
 
@@ -118,6 +128,9 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     unit_manual: 'pagine',
     unit_technical: 'dati',
 
+    ask_data: subject => `Mostrami i dati tecnici di ${subject}`,
+    ask_diagram: subject => `Mostrami lo schema elettrico ${subject}`,
+
     try_hint: 'Tocca una domanda per scriverla nel campo, senza inviarla.',
     codes_hint: 'Tocca un codice per scriverlo nel campo.',
 
@@ -176,6 +189,9 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     unit_diagrams: 'diagrams',
     unit_manual: 'pages',
     unit_technical: 'figures',
+
+    ask_data: subject => `Show me the technical data for ${subject}`,
+    ask_diagram: subject => `Show me the ${subject} wiring diagram`,
 
     try_hint: 'Tap a question to put it in the box, without sending it.',
     codes_hint: 'Tap a code to put it in the box.',
@@ -236,6 +252,9 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     unit_manual: 'pages',
     unit_technical: 'données',
 
+    ask_data: subject => `Montre-moi les données techniques de ${subject}`,
+    ask_diagram: subject => `Montre-moi le schéma électrique ${subject}`,
+
     try_hint: 'Touchez une question pour l’écrire dans le champ, sans l’envoyer.',
     codes_hint: 'Touchez un code pour l’écrire dans le champ.',
 
@@ -295,6 +314,9 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     unit_manual: 'páginas',
     unit_technical: 'datos',
 
+    ask_data: subject => `Muéstrame los datos técnicos de ${subject}`,
+    ask_diagram: subject => `Muéstrame el esquema eléctrico ${subject}`,
+
     try_hint: 'Toca una pregunta para escribirla en el campo, sin enviarla.',
     codes_hint: 'Toca un código para escribirlo en el campo.',
 
@@ -353,6 +375,9 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     unit_diagrams: 'esquemas',
     unit_manual: 'páginas',
     unit_technical: 'dados',
+
+    ask_data: subject => `Mostra-me os dados técnicos de ${subject}`,
+    ask_diagram: subject => `Mostra-me o esquema elétrico ${subject}`,
 
     try_hint: 'Toque numa pergunta para a escrever no campo, sem a enviar.',
     codes_hint: 'Toque num código para o escrever no campo.',
