@@ -1,7 +1,7 @@
 import { Component, EventEmitter, HostListener, OnInit, Output, computed, effect } from '@angular/core';
 import {
   LucideX, LucideStar, LucideMessageCircle, LucideCar, LucideWrench, LucideImage,
-  LucideHash, LucideZap, LucideBookOpen, LucideGauge, LucideSparkles,
+  LucideHash, LucideZap, LucideBookOpen, LucideGauge, LucideSparkles, LucideSearch,
   LucideAudioLines, LucideMaximize, LucideShieldCheck, LucideLanguages,
 } from '@lucide/angular';
 import { HelpPanelService } from '../../services/help-panel.service';
@@ -32,7 +32,7 @@ import type { HelpLanguage } from '../../services/help-strings';
   standalone: true,
   imports: [
     LucideX, LucideStar, LucideMessageCircle, LucideCar, LucideWrench, LucideImage,
-    LucideHash, LucideZap, LucideBookOpen, LucideGauge, LucideSparkles,
+    LucideHash, LucideZap, LucideBookOpen, LucideGauge, LucideSparkles, LucideSearch, LucideSearch,
     LucideAudioLines, LucideMaximize, LucideShieldCheck, LucideLanguages,
   ],
   template: `
@@ -217,6 +217,25 @@ import type { HelpLanguage } from '../../services/help-strings';
           }
         }
 
+        <!-- Comment la recherche travaille. Dit parce que le comportement
+             n'est pas celui d'une recherche par mots-cles, et qu'un
+             mecanicien qui croit taper des mots-cles tape autrement - et
+             prend un "non trouve" parfaitement correct pour une panne. -->
+        <section class="help-section">
+          <div class="help-section-head text-accent">
+            <svg lucideSearch [size]="15"></svg>
+            <span>{{ t().how_title }}</span>
+          </div>
+          <ul class="help-how text-foreground">
+            <li>{{ t().how_meaning }}</li>
+            @if (sharedCodeCount() > 0) {
+              <li>{{ t().how_shared(sharedCodeCount(), coverage.vehicles().length) }}</li>
+            }
+            <li>{{ t().how_verbatim }}</li>
+            <li>{{ t().how_refuses }}</li>
+          </ul>
+        </section>
+
         <section class="help-section">
           <div class="help-section-head text-accent">
             <svg lucideMessageCircle [size]="15"></svg>
@@ -381,6 +400,13 @@ export class HelpDrawerComponent implements OnInit {
   // Every vehicle is listed, including the one with none - its row says so
   // in words. Leaving it out was the first attempt, and an absence has to be
   // noticed before it says anything.
+  // Codes carried by more than one vehicle. The number is the point of the
+  // sentence it feeds - "the same code can appear on several cars" means
+  // nothing without saying how many actually do here.
+  readonly sharedCodeCount = computed(() =>
+    this.coverage.coverage()?.shared?.faultCodes?.examples?.length ?? 0,
+  );
+
   readonly codeTotal = computed(() =>
     this.coverage.vehicles().reduce((n, v) => n + v.sections.faultCodes.total, 0),
   );

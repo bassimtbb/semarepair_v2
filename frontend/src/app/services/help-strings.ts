@@ -33,6 +33,16 @@ export interface HelpCopy {
   choose_vehicle: string;
   choose_vehicle_hint: string;
 
+  // How the retrieval actually works, in four lines. Worth saying because
+  // the behaviour is not what a keyword search would do, and a mechanic who
+  // assumes keywords types differently - and judges a correct "not found"
+  // as a failure. The numbers come from the archive, never from here.
+  how_title: string;
+  how_meaning: string;
+  how_shared: (codes: number, vehicles: number) => string;
+  how_verbatim: string;
+  how_refuses: string;
+
   howto_title: string;
   howto_1: string;
   howto_2: string;
@@ -120,6 +130,12 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     choose_vehicle: 'Scegli il veicolo',
     choose_vehicle_hint: 'Tocca un veicolo per cercarlo.',
 
+    how_title: 'Come funziona la ricerca',
+    how_meaning: 'Descrivi il guasto con parole tue: la ricerca confronta il significato della frase con l’archivio, non le parole esatte.',
+    how_shared: (c, v) => `Uno stesso codice può comparire su più veicoli: ne trovi ${c} così fra i ${v} caricati. Il sistema ti mostra quali, e scegli tu.`,
+    how_verbatim: 'Valori, procedure e schemi sono presi dall’archivio così come sono. Il modello scrive solo la frase che li accompagna.',
+    how_refuses: 'Se nulla è abbastanza vicino, lo dice. Non approssima e non inventa: un « non trovato » è una risposta, non un errore.',
+
     howto_title: 'Come si usa',
     howto_1: 'Scegli il veicolo qui sopra, o scrivilo nel campo',
     howto_2: 'Conferma la scheda che compare',
@@ -184,6 +200,12 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
 
     choose_vehicle: 'Choose the vehicle',
     choose_vehicle_hint: 'Tap a vehicle to look it up.',
+
+    how_title: 'How the search works',
+    how_meaning: 'Describe the fault in your own words: the search compares the meaning of the sentence with the archive, not the exact words.',
+    how_shared: (c, v) => `One code can appear on several vehicles: ${c} do so among the ${v} loaded. The system shows you which, and you choose.`,
+    how_verbatim: 'Figures, procedures and diagrams are taken from the archive as they are. The model only writes the sentence around them.',
+    how_refuses: 'If nothing is close enough, it says so. It does not approximate and does not invent: “not found” is an answer, not a failure.',
 
     howto_title: 'How to use it',
     howto_1: 'Pick the vehicle above, or type it in the box',
@@ -250,6 +272,12 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     choose_vehicle: 'Choisissez le véhicule',
     choose_vehicle_hint: 'Touchez un véhicule pour le rechercher.',
 
+    how_title: 'Comment fonctionne la recherche',
+    how_meaning: 'Décrivez la panne avec vos mots : la recherche compare le sens de la phrase à l’archive, pas les mots exacts.',
+    how_shared: (c, v) => `Un même code peut apparaître sur plusieurs véhicules : ${c} sont dans ce cas parmi les ${v} chargés. Le système vous montre lesquels, et vous choisissez.`,
+    how_verbatim: 'Valeurs, procédures et schémas sortent de l’archive tels quels. Le modèle n’écrit que la phrase qui les accompagne.',
+    how_refuses: 'Si rien n’est assez proche, il le dit. Il n’approxime pas et n’invente pas : un « non trouvé » est une réponse, pas une panne.',
+
     howto_title: 'Comment l’utiliser',
     howto_1: 'Choisissez le véhicule ci-dessus, ou écrivez-le dans le champ',
     howto_2: 'Confirmez la fiche qui apparaît',
@@ -315,6 +343,12 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     choose_vehicle: 'Elige el vehículo',
     choose_vehicle_hint: 'Toca un vehículo para buscarlo.',
 
+    how_title: 'Cómo funciona la búsqueda',
+    how_meaning: 'Describe la avería con tus palabras: la búsqueda compara el significado de la frase con el archivo, no las palabras exactas.',
+    how_shared: (c, v) => `Un mismo código puede aparecer en varios vehículos: ${c} lo hacen entre los ${v} cargados. El sistema te muestra cuáles y eliges tú.`,
+    how_verbatim: 'Valores, procedimientos y esquemas salen del archivo tal cual. El modelo solo escribe la frase que los acompaña.',
+    how_refuses: 'Si nada está lo bastante cerca, lo dice. No aproxima ni inventa: un « no encontrado » es una respuesta, no un fallo.',
+
     howto_title: 'Cómo se usa',
     howto_1: 'Elige el vehículo arriba, o escríbelo en el campo',
     howto_2: 'Confirma la ficha que aparece',
@@ -379,6 +413,12 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
 
     choose_vehicle: 'Escolha o veículo',
     choose_vehicle_hint: 'Toque num veículo para o procurar.',
+
+    how_title: 'Como funciona a pesquisa',
+    how_meaning: 'Descreva a avaria com as suas palavras: a pesquisa compara o significado da frase com o arquivo, não as palavras exactas.',
+    how_shared: (c, v) => `Um mesmo código pode aparecer em vários veículos: ${c} estão nesse caso entre os ${v} carregados. O sistema mostra quais e você escolhe.`,
+    how_verbatim: 'Valores, procedimentos e esquemas saem do arquivo tal como estão. O modelo apenas escreve a frase que os acompanha.',
+    how_refuses: 'Se nada estiver suficientemente próximo, di-lo. Não aproxima nem inventa: um « não encontrado » é uma resposta, não uma falha.',
 
     howto_title: 'Como se usa',
     howto_1: 'Escolha o veículo acima, ou escreva-o no campo',
