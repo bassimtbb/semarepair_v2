@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-24T16:12:52">
+  <XDOCUMENTO>
+    <ID>199273456</ID>
+    <DOCNumber>GUP89218</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Dysfonctionnement ou performances insuffisantes de la climatisation</Titolo>
+    <InfoDoc>60793 | CLIMATISATION | CLIMAT | AIR CONDITIONNÉ | FROID | TEMPÉRATURE | NE FONCTIONNE PAS | PAS D'AIR | ARRÊT | ÉTEINT | LONG TERME | SANDEN | COMPRESSEUR | PRESSION | RÉFRIGÉRANT | REFROIDISSEMENT |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199273456</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273456</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / du défaut</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Validité : &lt;/B&gt; Véhicules produits entre le 01/01/19 et le 01/06/20 et équipés d&apos;un compresseur de climatisation SANDEN &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Climatisation &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Joint sphérique du piston du compresseur &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Dysfonctionnement ou performances insuffisantes du système de climatisation &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Résistance élevée au joint à rotule du piston du compresseur, qui empêche le compresseur de faire varier sa capacité de minimale à maximale, limitant ainsi le débit de réfrigérant dans le système de climatisation et réduisant l&apos;efficacité du refroidissement. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273456</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Effectuer la procédure de déblocage du piston du compresseur de la climatisation &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; Vérifier la pression du circuit du fluide frigorigène. Démarrer le moteur en le maintenant au ralenti avec le véhicule à l&apos;arrêt. Allumez la climatisation en réglant la température au minimum. Si le véhicule est équipé d&apos;une climatisation manuelle, réglez la vitesse du ventilateur sur 2/4 ; s&apos;il est équipé d&apos;une climatisation automatique, réglez la vitesse sur 4/8. Si le compresseur ne démarre pas dans les trois minutes, accélérez le moteur jusqu&apos;à 2 000 tr/min et maintenez cette vitesse pendant une minute après le démarrage du compresseur. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

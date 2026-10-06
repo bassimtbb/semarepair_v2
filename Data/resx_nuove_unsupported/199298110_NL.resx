@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T12:51:25">
+  <XDOCUMENTO>
+    <ID>199298110</ID>
+    <DOCNumber>GUP94856</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Motor start niet, motorstoringslampjes en gloeikabel branden, versnellingsbak zit vast in een versne</Titolo>
+    <InfoDoc>CAMBIO | ELETTRONICA | CENTRALINA | MECCATRONICA | CAMBIO | AUTOMATICO | P0850 | P0607 | ACCENDONO | ACCESE | ACCESA | MIL | GIALLO | GIALLA | BLOCCA | SECONDA | RAPPORTO | MARCE | LAMPEGGIA | INTERMITTENTE | LAMPEGGIO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparatiehandleiding</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199298110</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Betrouwbaarheidsgraad   (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Legenda van de betrouwbaarheidsgraad &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  * laag niveau &lt;/B&gt;  : Waarneming door de autoreparateur, storingsgeval niet vastgesteld door de fabrikant. &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  ** gemiddeld niveau &lt;/B&gt;  : Uitgebreide casusgeschiedenis van de storing, vastgesteld door servicetechnici en autoherstellers. &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  *** hoog niveau &lt;/B&gt;  : Zekerheid over de storing, hoge mate van „herhaalbaarheid“ gemeld door de autofabrikant. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199298110</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificatie van het systeem/de storing</Capitolo>
+      <Corpo> &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Toepassingsgebied: &lt;/B&gt;  Voertuigen uitgerust met een DSG7-versnellingsbak met 7 versnellingen (Volkswagen 0CW-versnellingsbak met dubbele koppeling) &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Systeem: &lt;/B&gt;  Versnellingsbak &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Apparaat: &lt;/B&gt;  Meccatronische regeleenheid van de automatische versnellingsbak &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Storing: &lt;/B&gt;  Het voertuig start niet, waarbij de startmotor niet draait; tegelijkertijd blijft de versnellingsbak permanent in een versnelling (tweede versnelling) geblokkeerd, waarbij het motorstoringslampje brandt en het storingslampje van de gloeibougies knippert. &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Door de zelfdiagnose gedetecteerde fouten: &lt;/B&gt;  &lt;UL&gt;   &lt;LI&gt;   P0850 (Ingangscircuit versnellingsschakelaar, stand P-N – Algemene fout) &lt;BR&gt;  &lt;LI&gt;   P0607 (Motorinjectiecontrolecentrale, prestatiemodule – Interne fout) &lt;/UL&gt;  &lt;LI&gt;   &lt;B&gt;  Oorzaak: &lt;/B&gt;  De mechatronische regeleenheid van de automatische versnellingsbak is defect &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199298110</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparatieprocedure</Capitolo>
+      <Corpo> &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Ingreep: &lt;/B&gt;  Controleer de werking van de mechatronische regeleenheid van de automatische versnellingsbak en voer indien nodig een reparatie uit &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Procedure: &lt;/B&gt;  - - &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Opmerking: &lt;/B&gt;  In het onderhavige geval werd een olielek geconstateerd aan de mechatronische regeleenheid van de automatische versnellingsbak; na vervanging ervan is de storing definitief verholpen. &lt;BR&gt; Het onderdeel is toegankelijk vanaf de onderkant van de motor; het bevindt zich in de motorruimte tussen de motor en de radiator, aan de bestuurderszijde, en is aan de buitenzijde aan de radiatorzijde verbonden met de versnellingsbak; de regeleenheid is toegankelijk na het verwijderen van een koelvloeistofslang van de radiator. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

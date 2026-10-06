@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T03:00:59">
+  <XDOCUMENTO>
+    <ID>199224274</ID>
+    <DOCNumber>AZZ76306</DOCNumber>
+    <RifIDTipoRis>7</RifIDTipoRis>
+    <Titolo>Resetting Service Indicator</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>217</RifIDFileICO>
+    <XFILE>
+      <ID>217</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:217</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>7</ID>
+      <TipoRis>AZZ</TipoRis>
+      <DscRis>Service Reset</DscRis>
+      <RifIDFileCSS>1</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>1</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:1</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199224274</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>System Information</Capitolo>
+      <Corpo> &lt;BR/&gt; The vehicle is equipped with a service interval indicator located in the multifunction display of the instrument panel. &lt;BR/&gt;&lt;BR/&gt; The indicator provides the driver with a series of warnings regarding scheduled maintenance that the vehicle must undergo periodically. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199224274</RifIDDoc>
+      <Ordine>25</Ordine>
+      <Capitolo>Reset service interval indicator</Capitolo>
+      <Corpo> &lt;BR/&gt; Once maintenance work has been carried out, the indicator can be reset manually as follows: &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; Switch on the ignition. &lt;BR/&gt;  &lt;LI&gt; Press button &lt;B&gt; 1 &lt;/B&gt; several times until the vehicle icon is highlighted. &lt;BR/&gt; &lt;LI&gt; Use buttons &lt;B&gt; 2 &lt;/B&gt; to select the &quot;Maintenance Interval&quot; menu. &lt;BR/&gt;  &lt;LI&gt; Press the &lt;B&gt; 3 &lt;/B&gt; button to confirm &lt;BR/&gt;  &lt;LI&gt; Use the &lt;B&gt; 2 &lt;/B&gt; buttons to select the &quot;Maintenance Limit&quot; item &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; If the range is less than 1,500 km or one month &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; The message &lt;B&gt; &quot;Schedule maintenance by&quot; &lt;/B&gt; appears together with the nearest due date (distance or time) &lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; With range equal to 0 km or maintenance date reached &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; The message  &lt;B&gt; &quot;Perform maintenance&quot; &lt;/B&gt; appears, accompanied by the symbol &lt;B&gt; 4 &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; To reset the maintenance limit, press the &lt;B&gt; 3 &lt;/B&gt; button for approximately 10 seconds without interruption until the maintenance limit indicator appears steadily.</Corpo>
+      <RifIDFileIMGANI>299007974</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007974</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007974</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199224274</RifIDDoc>
+      <Ordine>26</Ordine>
+      <Capitolo>Reset engine oil change indicator</Capitolo>
+      <Corpo> &lt;BR/&gt; Once maintenance work has been carried out, the indicator can be reset manually as follows: &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; Switch on the ignition. &lt;BR/&gt;  &lt;LI&gt; Press button &lt;B&gt; 1 &lt;/B&gt; several times until the vehicle icon is highlighted. &lt;BR/&gt; &lt;LI&gt; Use buttons &lt;B&gt; 2 &lt;/B&gt; to select the &quot;Maintenance Interval&quot; menu. &lt;BR/&gt;  &lt;LI&gt; Press the &lt;B&gt; 3 &lt;/B&gt; button to confirm &lt;BR/&gt;  &lt;LI&gt; Use the &lt;B&gt; 2 &lt;/B&gt; buttons to select the &quot;Oil Change Limit&quot; item &lt;BR/&gt;&lt;BR/&gt; To reset the maintenance limit, press and hold the &lt;B&gt; 3 &lt;/B&gt; button for about 10 seconds until the oil change limit indicator appears.</Corpo>
+      <RifIDFileIMGANI>299007974</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007974</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007974</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199224274</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>WARNINGS</Capitolo>
+      <Corpo> &lt;BR/&gt; If maintenance is carried out without changing the engine oil, only the maintenance limit needs to be reset. If the engine oil is changed, both the maintenance limit and the oil change limit must be reset. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

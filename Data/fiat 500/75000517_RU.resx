@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:26:18">
+  <XDOCUMENTO>
+    <ID>75000517</ID>
+    <DOCNumber>DES75004</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Klimatyzacja jednostrefowa Denso</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Opis układu</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Opis</Capitolo>
+      <Corpo>Moduł sterujący znajduje się w środkowej części deski rozdzielczej, wbudowany w klimatyzację.  &lt;BR/&gt; System jest typu jedno strefowego, a moduł sterujący kontroluje tylko jedną temperaturę, rozprowadzając ją w kabinie.  &lt;BR/&gt;  &lt;BR/&gt; Gniazdo diagnostyczne jest typu ujednoliconego, 16-pinowego (EOBD) i znajduje się w kabinie pod deską rozdzielczą po stronie kierowcy. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Parametry techniczne</Capitolo>
+      <Corpo>Moduł sterujący zarządza różnymi parametrami, które wyświetlają wszystkie sygnały pochodzące z różnych czujników rozmieszczonych wewnątrz i na zewnątrz kabiny pasażerskiej w celu sterowania siłownikami układu klimatyzacji oraz włączaniem/wyłączaniem sprzęgła sprężarki.  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Wyświetlana jest pozycja wszystkich klapek &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Wyświetlany jest stan przycisków i odpowiadających im diod LED &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Sposób zasilania</Capitolo>
+      <Corpo>Określa stan, w jakim pojazd jest ustawiony w momencie wysyłki (z fabryki lub salonu dealerskiego). W trybie „niskiego zużycia” (zwanym również trybem logistycznym) obciążenia elektryczne są wyłączone w celu zminimalizowania poboru prądu z akumulatora.</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Błędy</Capitolo>
+      <Corpo>Moduł sterujący jest wyposażony w trwałą pamięć błędów i zapisuje parametry środowiskowe w momencie wystąpienia błędu. &lt;BR/&gt;  &lt;BR/&gt; Są one sygnalizowane wraz z informacją o ich stanie: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Błąd aktywny &lt;/B&gt;  &lt;BR/&gt; Błąd jest obecnie wykryty &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Błąd zapisany &lt;/B&gt;  &lt;BR/&gt; Błąd, który został już zapisany w pamięci, a usterka nie występuje obecnie. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Kasowanie błędu/błędów &lt;/B&gt;  &lt;BR/&gt; Odbywa się wyłącznie za zgodą operatora, który kasuje błąd za pomocą przycisku kasowania &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Diagnozy aktywne</Capitolo>
+      <Corpo>W trybie „Diagnosi Attive” sterowane są: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Klapki klimatyzacji &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Diody LED na klawiaturze modułu sterującego &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Wyświetlacz  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Wentylator elektryczny. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>6</Ordine>
+      <Capitolo>Regulacje</Capitolo>
+      <Corpo> &lt;B&gt; Test sprawdzający działanie siłowników klapek: &lt;/B&gt;  Należy wykonać przy pierwszej instalacji lub w przypadku wymiany modułu sterującego. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

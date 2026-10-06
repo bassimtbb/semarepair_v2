@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:46:21">
+  <XDOCUMENTO>
+    <ID>199287948</ID>
+    <DOCNumber>GUP92645</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Failure of horn and steering wheel controls, with airbag warning light illuminated.</Titolo>
+    <InfoDoc>STEERING | STEERING WHEEL | SPIRAL | CONTACT | ROTATING | SPIRAL | B1000 | U0212 | B1162 | KEYS | BUTTONS | STEERING WHEEL | WARNING | ACOUSTIC | WORKS | ON | LIGHTS UP | YELLOW | FAULT | CENTRE | BUTTONS | AIRBAG |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199287948</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degree of reliability (*)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legend of the degree of reliability&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* low level&lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** medium level&lt;/B&gt; : Extensive fault history, found by service technicians and repairers.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** high level&lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199287948</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Steering &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Rotary switch &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Fault: &lt;/B&gt; The vehicle’s horn and all steering wheel controls are not functioning, and the airbag warning light on the instrument panel has come on suddenly &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errors detected by the self-diagnostic system: &lt;/B&gt; One or more of the following: &lt;UL&gt;   &lt;LI&gt; B1000 (Airbag actuator – Resistance too high) &lt;BR/&gt; &lt;LI&gt; B1162 (Gear selector lock switch – Implausible signal) &lt;BR/&gt;  &lt;LI&gt; U0212 (CAN data bus, steering column control unit – Loss of communication) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Faulty rotary contact &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199287948</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check the condition and correct operation of the rotary contact and replace it if necessary. &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt;&lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; In the case in question, after replacing the rotary contact, the warning &quot;Driver assistance system button defective&quot; appeared on the instrument panel display when the engine was started. The fault was therefore permanently resolved by reprogramming using diagnostic equipment. &lt;BR/&gt; The faulty component showed no visual faults and is accessible from the passenger compartment under the steering wheel, after removing the airbag module. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

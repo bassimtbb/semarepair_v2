@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:14:42">
+  <XDOCUMENTO>
+    <ID>62507668</ID>
+    <DOCNumber>GUR62742</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Wiederherstellung des Systems nach dem Abklemmen der Batterie</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Einstellungsanleitung</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Lokalisierung „Batterie“</Capitolo>
+      <Corpo> &lt;BR/&gt; Die Batterie befindet sich im Motorraum auf der Fahrerseite in der Nähe des Radkastens. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>199000376</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>199000376</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:199000376</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Vorgehensweise zum Abklemmen der Batterie</Capitolo>
+      <Corpo> &lt;BR/&gt; Wenn die Batterie abgeklemmt werden muss, ist Folgendes erforderlich: &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; Vergewissern Sie sich, dass alle &lt;B&gt; elektrischen Geräte &lt;/B&gt; des Fahrzeugs, wie z. B. Autoradio, Navigationsgerät usw., &lt;B&gt; ausgeschaltet sind &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; sicherstellen, dass die &lt;B&gt; Zündung ausgeschaltet ist &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; den &lt;B&gt; Code des Radios &lt;/B&gt; bereithalten &lt;BR/&gt;  &lt;LI&gt; Schalten Sie die Zündung aus und warten Sie 5 Minuten &lt;BR/&gt; &lt;BR/&gt; Anschließend können Sie die Batterie abklemmen, &lt;B&gt; indem Sie zuerst den Minuspol und dann den Pluspol abklemmen &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Warten Sie nach dem Abklemmen der Batterie einige Minuten, bevor Sie Arbeiten an der Airbag-Anlage vornehmen</Corpo>
+      <RifIDFileIMGANI>62503878</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503878</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503878</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Vorgehensweise zum Anschließen der Batterie</Capitolo>
+      <Corpo> &lt;BR/&gt; Um die Batterie wieder anzuschließen, gehen Sie wie folgt vor: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Schließen Sie zuerst den Pluspol &lt;/B&gt; und anschließend den Minuspol der Batterie an &lt;BR/&gt;  &lt;LI&gt; Den Radiocode zurücksetzen (falls erforderlich) &lt;BR/&gt; &lt;LI&gt; Eventuelle &lt;B&gt; im Speicher vorhandene Fehler löschen &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Die Zündung einschalten und 40 Sekunden warten &lt;BR/&gt; &lt;LI&gt; Die Zündung ausschalten &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503879</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>62503879</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503879</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Reparatur eines elektrischen Verdeckes</Capitolo>
+      <Corpo> &lt;BR/&gt; Vorgehensweise zur Initialisierung des elektrischen Schiebedachs: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Zündung einschalten &lt;BR/&gt; &lt;LI&gt; Die Schiebedach-Schließ-Taste drücken und gedrückt halten &lt;BR/&gt; &lt;LI&gt; Warten, bis sich das elektrische Schiebedach vollständig geschlossen hat &lt;BR/&gt;  &lt;LI&gt; Nach dem vollständigen Schließen des Schiebedachs abwarten, bis der Elektromotor zum Stillstand gekommen ist &lt;BR/&gt; &lt;LI&gt; Die Schaltfläche zum Schließen des elektrischen Schiebedachs loslassen &lt;BR/&gt; &lt;BR/&gt; Das System ist nun initialisiert. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>Wiederherstellung des Autoradios</Capitolo>
+      <Corpo> &lt;BR/&gt; Nach dem Abklemmen der Batterie erscheint auf dem Display des Autoradios möglicherweise &lt;B&gt; „Radio Code“ &lt;/B&gt; , gefolgt von &lt;B&gt; „ - - - -“ &lt;/B&gt; &lt;BR/&gt; Anschließend muss der Radiocode eingegeben werden. &lt;BR/&gt; Verwenden Sie dazu die Tasten für die voreingestellten Radiosender (1 bis 6) &lt;BR/&gt; Wenn die 4 Ziffern nicht innerhalb von 20 Sekunden eingegeben werden, erscheint im Display die Meldung &lt;B&gt; „Enter Code - - - -“ &lt;/B&gt; &lt;BR/&gt; Nach der Eingabe der 4 Ziffern kann es bis zu 20 Sekunden dauern, bis das Autoradio wieder funktioniert. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

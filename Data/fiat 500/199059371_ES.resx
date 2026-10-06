@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-19T19:25:56">
+  <XDOCUMENTO>
+    <ID>199059371</ID>
+    <DOCNumber>FLT76030</DOCNumber>
+    <RifIDTipoRis>37</RifIDTipoRis>
+    <Titolo>Localización y sustitución - Desde 2011</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>37</ID>
+      <TipoRis>FLT</TipoRis>
+      <DscRis>Filtro de habitáculo</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199059371</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Procedimiento</Capitolo>
+      <Corpo> &lt;B&gt; Dimensiones del filtro: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; L = 194 mm. &lt;BR/&gt; &lt;LI&gt; H = 188 mm. &lt;BR/&gt; &lt;LI&gt; S = 30 mm. &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Tiempo estimado para la sustitución: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; 10 minutos &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Ubicación: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; En el interior del habitáculo &lt;BR/&gt; &lt;LI&gt; Lado del acompañante &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Sustitución: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Retirar el panel de plástico situado en el lateral del túnel central &lt;BR/&gt;  &lt;LI&gt; Deslizar el filtro a lo largo de las guías del soporte (de izquierda a derecha) &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Montaje: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Seguir el procedimiento inverso &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025045</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025045</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025045</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

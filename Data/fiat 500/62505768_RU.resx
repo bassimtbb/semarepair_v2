@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T00:55:11">
+  <XDOCUMENTO>
+    <ID>62505768</ID>
+    <DOCNumber>CAR63404</DOCNumber>
+    <RifIDTipoRis>17</RifIDTipoRis>
+    <Titolo>Fiat 500 C</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>218</RifIDFileICO>
+    <XFILE>
+      <ID>218</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:218</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>17</ID>
+      <TipoRis>CAR</TipoRis>
+      <DscRis>Cechy charakterystyczne</DscRis>
+      <RifIDFileCSS>138</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>138</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:138</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62505768</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Wersja - Wymiary</Capitolo>
+      <Corpo> &lt;B&gt; WERSJA &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; Napęd: benzynowy  &lt;BR/&gt; Nadwozie: kabriolet &lt;BR/&gt; Napęd na przednie koła  &lt;BR/&gt; Produkcja od: 2012 r. &lt;BR/&gt;   &lt;BR/&gt;   &lt;BR/&gt;  &lt;B&gt; WYMIARY &lt;/B&gt;  &lt;BR/&gt;   &lt;BR/&gt; Długość: 3550 mm  &lt;BR/&gt; Szerokość: 1630 mm  &lt;BR/&gt; Wysokość: 1490 mm  &lt;BR/&gt; Rozstaw osi: 2300 mm &lt;BR/&gt; Masa: 905 kg &lt;BR/&gt; Zbiornik paliwa: 35 l</Corpo>
+      <RifIDFileIMGANI>62503730</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>62503730</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503730</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62505768</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Silnik – parametry eksploatacyjne</Capitolo>
+      <Corpo> &lt;B&gt; SILNIK &lt;/B&gt;  &lt;BR/&gt;   &lt;BR/&gt; Pojemność skokowa: 1242 cm³  &lt;BR/&gt; Liczba cylindrów: 4 &lt;BR/&gt; Moc: 68 CV – 5500 obr./min   &lt;BR/&gt; Moment obrotowy: 102 Nm – 3000 obr./min &lt;BR/&gt; Zawory: 8 &lt;BR/&gt; Średnica cylindra: 70,8 mm &lt;BR/&gt; Skok tłoka: 78,86 mm &lt;BR/&gt; EURO 4 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; OSIĄGI &lt;/B&gt;  &lt;BR/&gt;   &lt;BR/&gt; Prędkość maksymalna: 160 km/h  &lt;BR/&gt; Przyspieszenie 0–100 km/h: 13,5 s &lt;BR/&gt; Średnie zużycie paliwa w cyklu miejskim: 17,5 km/l (5,7 l/100 km) &lt;BR/&gt; Średnie zużycie paliwa poza miastem: 23,2 km/l (4,3 l/100 km) &lt;BR/&gt; Średnie zużycie paliwa w cyklu mieszanym: 19,6 km/l (5,1 l/100 km)</Corpo>
+      <RifIDFileIMGANI>62503731</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>62503731</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503731</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

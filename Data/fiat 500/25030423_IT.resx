@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2012-01-05T11:08:14">
+<XDOCUMENTO>
+<ID>25030423</ID>
+<DOCNumber>CAR26209</DOCNumber>
+<RifIDTipoRis>17</RifIDTipoRis>
+<Titolo>Fiat 500</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>218</RifIDFileICO>
+<XFILE>
+<ID>218</ID>
+<Type>IMG</Type>
+<URL>GETFILE:218</URL>
+</XFILE>
+<XTIPORIS>
+<ID>17</ID>
+<TipoRis>CAR</TipoRis>
+<DscRis>Caratteristiche</DscRis>
+<RifIDFileCSS>138</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>138</ID>
+<Type>CSS</Type>
+<URL>GETFILE:138</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>25030423</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Versione - Dimensioni</Capitolo>
+<Corpo>&lt;B&gt;VERSIONE&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;Alimentazione: Benzina &lt;BR/&gt;Carrozzeria: Compatta&lt;BR/&gt;Trazione: Anteriore &lt;BR/&gt;Produzione dal: 2007&lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt;&lt;B&gt;DIMENSIONI&lt;/B&gt;&lt;BR/&gt; &lt;BR/&gt;Lunghezza: 3546 mm &lt;BR/&gt;Larghezza: 1627 mm &lt;BR/&gt;Altezza: 1488 mm &lt;BR/&gt;Interasse: 2300 mm&lt;BR/&gt;Peso: 865 kg&lt;BR/&gt;Serbatoio: 35 L</Corpo>
+<RifIDFileIMGANI>25004470</RifIDFileIMGANI>
+<Allineamento>L</Allineamento>
+<XFILE>
+<ID>25004470</ID>
+<Type>IMG</Type>
+<URL>GETFILE:25004470</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>25030423</RifIDDoc>
+<Ordine>2</Ordine>
+<Capitolo>Motore - Prestazioni</Capitolo>
+<Corpo>&lt;B&gt;MOTORE&lt;/B&gt;&lt;BR/&gt; &lt;BR/&gt;Cilindrata: 1242 cm³ &lt;BR/&gt;Cilindri: 4&lt;BR/&gt;Potenza: 68 CV - 5500 giri  &lt;BR/&gt;Coppia: 102 Nm - 3000 giri&lt;BR/&gt;Valvole: 8&lt;BR/&gt;Alesaggio: 70.8 mm&lt;BR/&gt;Corsa: 78.86 mm&lt;BR/&gt;EURO 4&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;PRESTAZIONI&lt;/B&gt;&lt;BR/&gt; &lt;BR/&gt;Velocità massima: 160 km/h &lt;BR/&gt;Accelerazione 0-100 km/h: 12.9 s&lt;BR/&gt;Consumo medio: 19.61 km/l (5.1 l/100km)</Corpo>
+<RifIDFileIMGANI>25004471</RifIDFileIMGANI>
+<Allineamento>L</Allineamento>
+<XFILE>
+<ID>25004471</ID>
+<Type>IMG</Type>
+<URL>GETFILE:25004471</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

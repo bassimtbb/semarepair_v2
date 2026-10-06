@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-19T16:39:59">
+  <XDOCUMENTO>
+    <ID>199053123</ID>
+    <DOCNumber>DES76007</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Guide to reading electrical diagrams</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Plant Description</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199053123</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Legend</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; (1) &lt;/B&gt; - &lt;B&gt; Relay position number &lt;/B&gt; : Marks the position of the relay on the relay board. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (2) &lt;/B&gt; - &lt;B&gt; Continuation of diagram &lt;/B&gt; : The arrow indicates the continuation of the component on the next page of the wiring diagram. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (3) &lt;/B&gt; - &lt;B&gt; Connection designation &lt;/B&gt; : Indicates the individual contact in a multiple connector. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (4) &lt;/B&gt; - &lt;B&gt; Non-fixed connection &lt;/B&gt;: Representation of a threaded pin located in the relay plate. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (5) &lt;/B&gt; - &lt;B&gt; Wiring continuation indication &lt;/B&gt;: Indicates which current path the cable is to be connected to. E.g. if the number is 23, to understand where the cable continues, you need to find the number 23 in the line at the bottom of the diagram. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (6) &lt;/B&gt;  - &lt;B&gt; Cable section and colour &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (7) &lt;/B&gt; - &lt;B&gt; Drawings with open side &lt;/B&gt; : The open side of the graphic symbol indicates the continuation of the component in another wiring diagram. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (8) &lt;/B&gt; - &lt;B&gt; Internal connection (thin dash) &lt;/B&gt; : This connection is not present as a cable. Internal connections are still conductive electrical connections. They allow the propagation of current within components and wiring to be followed. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (9) &lt;/B&gt; - &lt;B&gt; Indication of cable continuation to a component &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (10) &lt;/B&gt; - &lt;B&gt; Continuation of connection &lt;/B&gt; : The letter indicates the point where the connection continues in the next section of the circuit diagram.</Corpo>
+      <RifIDFileIMGANI>299002868</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>299002868</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299002868</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199053123</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Wiring colour code</Capitolo>
+      <Corpo> &lt;B&gt; Colour Code &lt;/B&gt; : &lt;BR/&gt;  &lt;BR/&gt; SW = Black &lt;BR/&gt; BR = Brown &lt;BR/&gt; GN = Green &lt;BR/&gt; BL = Blue &lt;BR/&gt; GR = Grey &lt;BR/&gt; LI = Lilac &lt;BR/&gt; VI = Lilac &lt;BR/&gt; GE = Yellow &lt;BR/&gt; OR = Orange &lt;BR/&gt; RS = Pink &lt;BR/&gt; RO = Red &lt;BR/&gt; RT = Red &lt;BR/&gt; WS = White &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299002869</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>299002869</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299002869</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

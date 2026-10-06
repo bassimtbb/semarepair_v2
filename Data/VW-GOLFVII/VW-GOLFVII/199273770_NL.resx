@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T10:55:44">
+  <XDOCUMENTO>
+    <ID>199273770</ID>
+    <DOCNumber>GUP89532</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Het branden van het batterijwaarschuwingslampje, melding „Storing in het laadsysteem“</Titolo>
+    <InfoDoc>ELETTRONICA | U0065 | P1B00 | P1B01 | ALTERNATORE | RICARICA | CARICA | 11 VOLT | CARICAMENTO | ROSSA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparatiehandleiding</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199273770</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Betrouwbaarheidsgraad   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda van de betrouwbaarheidsgraad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * laag niveau &lt;/B&gt; : Vastgesteld door de autoreparateur, storingsgeval niet bevestigd door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** gemiddeld niveau &lt;/B&gt; : Veelvoorkomende storingsgevallen, vastgesteld door servicetechnici en reparateurs. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** hoog niveau &lt;/B&gt; : Bevestigde storing, hoge mate van &quot;herhaalbaarheid&quot; gemeld door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273770</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificatie van het systeem/de storing</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Systeem: &lt;/B&gt;  Elektronica &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Apparaat: &lt;/B&gt;  Dynamo &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Storing: &lt;/B&gt;  Het waarschuwingslampje voor een permanente accustoring brandt, melding „Storing in het laadsysteem“ &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Door de zelfdiagnose gedetecteerde fouten: &lt;/B&gt;  U0065, P1B00, P1B01 &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Oorzaak: &lt;/B&gt;  Defecte dynamo &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273770</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparatieprocedure</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Werkzaamheid: &lt;/B&gt;  De dynamo vervangen &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Werkwijze: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Opmerking: &lt;/B&gt;  De dynamo bevindt zich in de motorruimte aan de passagierszijde. &lt;BR/&gt; De defecte dynamo vertoonde geen zichtbare afwijkingen. &lt;BR/&gt; Na vervanging van de dynamo is het niet nodig om via de diagnose aanpassingen uit te voeren. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

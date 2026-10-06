@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T16:36:36">
+  <XDOCUMENTO>
+    <ID>199007077</ID>
+    <DOCNumber>INT76338</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>Volkswagen Golf VII</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Referencias oficiales</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Fuente de datos: Ministerio de Transportes</Capitolo>
+      <Corpo> &lt;B&gt; Fabricante: &lt;/B&gt; Grupo Volkswagen &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Marca: &lt;/B&gt; Volkswagen &lt;BR/&gt; &lt;BR/&gt; Anomalías reconocidas por los fabricantes según el D.D. 78/2000</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Volkswagen Golf VII</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de vehículos: 462 &lt;BR/&gt; Periodo de producción: no declarado &lt;BR/&gt; Descripción del defecto: posible mal funcionamiento de los inyectores en cuanto a emisiones &lt;BR/&gt; Medidas correctivas: sustitución &lt;BR/&gt; Referencia: consultar con los concesionarios &lt;BR/&gt; Notas: código 24FO chasis, consultar con los concesionarios &lt;BR/&gt;&lt;BR/&gt;  &lt;BR/&gt; Número de vehículos: 716 &lt;BR/&gt; Periodo de producción: NO INDICADO &lt;BR/&gt; Descripción del defecto: POSIBLE MAL FUNCIONAMIENTO DEL BLOQUEO DE LOS REPOSACABEZAS DELANTEROS &lt;BR/&gt; Medidas correctivas: SUSTITUCIÓN DE LAS GUÍAS DE LOS REPOSACABEZAS &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas CÓDIGO 72H5 CHASIS CONSULTAR A LOS CONCESIONARIOS &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 11206 &lt;BR/&gt; Periodo de producción: NO INDICADO &lt;BR/&gt; Descripción del defecto: POSIBLE ROTURA DE LA PALANCA DEL SEGURO MANUAL PARA NIÑOS Y SU DESACTIVACIÓN SÚBITA DEBIDO A FUERTES VIBRACIONES &lt;BR/&gt; Medidas correctivas: COMPROBACIÓN DEL FUNCIONAMIENTO DEL BLOQUEO DE SEGURIDAD &lt;BR/&gt; Referencia 800865579 &lt;BR/&gt; Notas COD 58C9 CHASIS CONCESIONARIOS &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 54 &lt;BR/&gt; Periodo de producción: NO INDICADO &lt;BR/&gt; Descripción del defecto: POSIBLE MAL FUNCIONAMIENTO DEL COJINETE DE LAS RUEDAS DELANTERAS &lt;BR/&gt; Acciones correctivas: SUSTITUCIÓN &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas COD 40L2 CHASIS CONSULTAR CON CONCESIONARIOS &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 286 &lt;BR/&gt; Periodo de producción: NO INDICADO &lt;BR/&gt; Descripción del defecto: SOPORTE DEL COJINETE DE LAS RUEDAS TRASERAS NO CONFORME &lt;BR/&gt; Medidas correctivas: SUSTITUCIÓN DEL SOPORTE DE LOS COJINETES &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas COD 42I2 CHASIS CONSULTAR A LOS CONCESIONARIOS &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt; Número de vehículos: 3802 &lt;BR/&gt; Periodo de producción: no indicado &lt;BR/&gt; Descripción del defecto: Si con cambio secuencial directo de seis marchas, posible mal funcionamiento del embrague &lt;BR/&gt; Acciones correctivas: Modificación del software de la centralita del cambio &lt;BR/&gt; Referencia concesionarios &lt;BR/&gt; Notas Cod 37E8 Intervalo de chasis consultar concesionarios &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 5759 &lt;BR/&gt; Periodo de producción: MAY 2018 AGO 2018 &lt;BR/&gt; Descripción del defecto: POSIBLE SOLDADURA INCOMPLETA DE LAS GUÍAS DE LOS REPOSACABEZAS TRASEROS &lt;BR/&gt; Medidas correctivas: POSIBLE SUSTITUCIÓN DEL CHASIS DEL RESPALDO &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas CÓDIGO 72H8 CHASIS CONSULTAR CON LOS CONCESIONARIOS &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt; Número de vehículos: 339 &lt;BR/&gt; Periodo de producción: AÑOS 2016/2017 &lt;BR/&gt; Descripción del defecto: POSIBLE NO ACTIVACIÓN DEL AIRBAG Y/O DEL PRETENSIONADOR DEL CONDUCTOR Y DEL PASAJERO &lt;BR/&gt; Acciones correctivas: SUSTITUCIÓN DE LOS COMPONENTES DEFECTUOSOS &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas COD 69P4 CHASIS CONSULTAR CON CONCESIONARIOS &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt; Número de vehículos: 10989 &lt;BR/&gt; Periodo de producción: AÑOS 2016/2017 &lt;BR/&gt; Descripción del defecto: POSIBLE MAL FUNCIONAMIENTO DEL SEGURO MANUAL PARA NIÑOS &lt;BR/&gt; Medidas correctivas: COMPROBAR CERRADURAS DE LAS PUERTAS TRASERAS &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas COD 58C9 CHASIS CONSULTAR CON LOS CONCESIONARIOS &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Volkswagen Golf VII Variant</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de vehículos: 10989 &lt;BR/&gt; Periodo de producción: AÑOS 2016/2017 &lt;BR/&gt; Descripción del defecto: POSIBLE MAL FUNCIONAMIENTO DEL SEGURO MANUAL PARA NIÑOS &lt;BR/&gt; Acciones correctivas: COMPROBAR LAS CERRADURAS DE LAS PUERTAS TRASERAS &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas COD 58C9 CHASIS CONSULTAR CON CONCESIONARIOS &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Número de vehículos: 11206 &lt;BR/&gt; Periodo de producción: NO INDICADO &lt;BR/&gt; Descripción del defecto: POSIBLE ROTURA DE LA PALANCA DEL SEGURO MANUAL PARA NIÑOS Y SU DESACTIVACIÓN SÚBITA DEBIDO A FUERTES VIBRACIONES &lt;BR/&gt; Medidas correctivas: COMPROBAR EL FUNCIONAMIENTO DEL BLOQUEO DE SEGURIDAD &lt;BR/&gt; Referencia 800865579 &lt;BR/&gt; Notas COD 58C9 CHASIS DE CONCESIONARIOS &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Volkswagen Golf/Golf Variant VII con unidad de control ABS/ESP (mk60)</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de vehículos: 51621 &lt;BR/&gt; Periodo de producción: AÑOS 2002/2013 &lt;BR/&gt; Descripción del defecto: POSIBLE INTERRUPCIÓN DE LA CONEXIÓN A MASA DE LA UNIDAD DE CONTROL POR SOBRECARGA TERMOMECÁNICA &lt;BR/&gt; Medidas correctivas: INSTALACIÓN DE NUEVO SOFTWARE &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas COD 45F2 CHASIS CONSULTAR CON CONCESIONARIOS &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Volkswagen Golf VII Rendimiento</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de vehículos: 37 &lt;BR/&gt; Periodo de producción: AÑO MODELO 2017 &lt;BR/&gt; Descripción del defecto: PLACAS DE PRESIÓN DE NEUMÁTICOS INCORRECTAS Y POSIBLE EXPLOSIÓN DE NEUMÁTICOS &lt;BR/&gt; Medidas correctivas: INSTALACIÓN DE ETIQUETA CON INDICACIONES EXACTAS &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas COD 09A5 CHASIS CONSULTAR CON CONCESIONARIOS &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>Volkswagen Golf VII con motor diésel Start/Stop</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de vehículos: 4976 &lt;BR/&gt; Periodo de producción: NO INDICADO &lt;BR/&gt; Descripción del defecto: POSIBLE MAL FUNCIONAMIENTO DEL MOTOR DE ARRANQUE Y RIESGO DE INCENDIO &lt;BR/&gt; Acciones correctivas: SUSTITUCIÓN DE INTERRUPTORES ELECTROMAGNÉTICOS &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas COD 27F9 CHASIS CONSULTAR CON CONCESIONARIOS &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>70</Ordine>
+      <Capitolo>Volkswagen Golf VII con motor 1.2 l/1.6 l</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de vehículos: 271 &lt;BR/&gt; Periodo de producción: NO INDICADO &lt;BR/&gt; Descripción del defecto: POSIBLE DESPRENDIMIENTO DE LOS TORNILLOS DE LA CAJA DEL VARIADOR DE FASE Y FUGA DE ACEITE DEL MOTOR &lt;BR/&gt; Acciones correctivas: SUSTITUCIÓN DEL VARIADOR &lt;BR/&gt; Referencia CONCESIONARIOS &lt;BR/&gt; Notas COD 15H2 CHASIS CONSULTAR CON CONCESIONARIOS &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>199007077</RifIDDoc>
+      <LinkUtili>Enlace al Ministerio de Infraestructuras y Transportes</LinkUtili>
+      <Ordine>1</Ordine>
+      <RifIDDocLink>15000122</RifIDDocLink>
+      <XLINKDOC>
+        <ID>15000122</ID>
+        <DOCNumber>LNK00008</DOCNumber>
+        <Documento>Ir a: Reclamaciones - Ministerio de Transportes</Documento>
+        <URL>LINKDOC:15000122</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

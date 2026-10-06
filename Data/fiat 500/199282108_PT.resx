@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-22T05:24:17">
+  <XDOCUMENTO>
+    <ID>199282108</ID>
+    <DOCNumber>TGE88985</DOCNumber>
+    <RifIDTipoRis>16</RifIDTipoRis>
+    <Titolo>Desde dezembro de 2014 - Em condições adversas</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>234</RifIDFileICO>
+    <XFILE>
+      <ID>234</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:234</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>16</ID>
+      <TipoRis>TGE</TipoRis>
+      <DscRis>Controles Adicionais e Correias</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>7</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>SINO</IDLabel>
+        <Stringa>Sim-Não</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Lista de dados</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199282108</RifIDDoc>
+      <Tagliando>A cada 60 000 km ou 4 anos</Tagliando>
+      <TipoCtrl>COMANDO DE DISTRIBUIÇÃO</TipoCtrl>
+      <Controllo>Correia de distribuição</Controllo>
+      <Verifica>Substituição</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199282108</RifIDDoc>
+      <Tagliando>A cada 60 000 km ou 4 anos</Tagliando>
+      <TipoCtrl>CORREIAS E COMPONENTES</TipoCtrl>
+      <Controllo>Correia auxiliar / Serviços</Controllo>
+      <Verifica>Substituição</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199282108</RifIDDoc>
+      <Tagliando>Aos 60 000 km ou 4 anos, e posteriormente a cada 120 000 km ou 6 anos</Tagliando>
+      <TipoCtrl>COMANDO DE DISTRIBUIÇÃO</TipoCtrl>
+      <Controllo>Correia de distribuição</Controllo>
+      <Verifica>Verificação / Controlo</Verifica>
+    </XPROGTAGL_COMPLETO>
+  </XDOCUMENTO>
+</dataroot>

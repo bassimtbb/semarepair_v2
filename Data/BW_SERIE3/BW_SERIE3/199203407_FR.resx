@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T14:58:06">
+  <XDOCUMENTO>
+    <ID>199203407</ID>
+    <DOCNumber>INT76499</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>BMW Série 3</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Rappels officiels</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199203407</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Source des données - Ministère des Transports</Capitolo>
+      <Corpo> &lt;B&gt; Constructeur : &lt;/B&gt; BMW &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Marque : &lt;/B&gt; BMW &lt;BR/&gt; &lt;BR/&gt; Anomalies reconnues par les constructeurs conformément au décret 78/2000</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199203407</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>BMW Série 3</Capitolo>
+      <Corpo> &lt;BR/&gt; Nombre de véhicules : 42059 &lt;BR/&gt; Période de production : NON INDIQUÉE &lt;BR/&gt; Description du défaut : FUITES POSSIBLES DE LIQUIDE DE REFROIDISSEMENT AGR ET SURCHAUFFE DU MOTEUR &lt;BR/&gt; Mesures correctives : VÉRIFICATION DU MODULE AGR ET REMPLACEMENT ÉVENTUEL DES COMPOSANTS &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques COD 0011970400 CHÂSSIS CONSULTER LES CONCESSIONNAIRES &lt;BR/&gt;&lt;BR/&gt;  &lt;BR/&gt; Nombre de véhicules : 484 &lt;BR/&gt; Période de production : 03/2020 - 08/2020 &lt;BR/&gt; Description du défaut : Il a été constaté que les cellules composant la batterie haute tension pourraient présenter la présence de corps étrangers (poussière). Dans certains cas, notamment lors d&apos;une opération de charge de la batterie haute tension, un court-circuit pourrait se produire à l&apos;intérieur de la batterie elle-même. Dans cette situation, la possibilité d&apos;un événement thermique ne peut être exclue &lt;BR/&gt; Mesures correctives : En cours d&apos;étude par la maison mère &lt;BR/&gt; Référence : consulter les concessionnaires &lt;BR/&gt; Remarques : Code - 0061670500 pour les châssis, consulter les concessionnaires &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>199203407</RifIDDoc>
+      <LinkUtili>Lien Ministère des Infrastructures et des Transports</LinkUtili>
+      <Ordine>1</Ordine>
+      <RifIDDocLink>15000122</RifIDDocLink>
+      <XLINKDOC>
+        <ID>15000122</ID>
+        <DOCNumber>LNK00008</DOCNumber>
+        <Documento>Aller à: Rappels - Ministère des Transports</Documento>
+        <URL>LINKDOC:15000122</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

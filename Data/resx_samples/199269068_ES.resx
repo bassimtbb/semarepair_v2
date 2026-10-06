@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-22T00:49:57">
+  <XDOCUMENTO>
+    <ID>199269068</ID>
+    <DOCNumber>TGE88342</DOCNumber>
+    <RifIDTipoRis>16</RifIDTipoRis>
+    <Titolo>Mantenimiento a intervalos fijos</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>234</RifIDFileICO>
+    <XFILE>
+      <ID>234</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:234</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>16</ID>
+      <TipoRis>TGE</TipoRis>
+      <DscRis>Controles adicionales y correas</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>7</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>SINO</IDLabel>
+        <Stringa>Sí-No</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Lista de datos</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>A los 3 años, y después cada 2 años (independientemente del kilometraje)</Tagliando>
+      <TipoCtrl>FLUIDOS PARA SISTEMAS AUXILIARES</TipoCtrl>
+      <Controllo>Líquido de frenos</Controllo>
+      <Verifica>Sustitución</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>A los 3 años, y después cada 2 años (independientemente del kilometraje)</Tagliando>
+      <TipoCtrl>FLUIDOS PARA SISTEMAS AUXILIARES</TipoCtrl>
+      <Controllo>Aceite / Fluido de embrague</Controllo>
+      <Verifica>Sustitución</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 60 000 km o cada 2 años</Tagliando>
+      <TipoCtrl>FILTROS AUXILIARES</TipoCtrl>
+      <Controllo>Filtro de habitáculo/antipolen (si está previsto)</Controllo>
+      <Verifica>Sustitución</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 90 000 km </Tagliando>
+      <TipoCtrl>FILTROS AUXILIARES</TipoCtrl>
+      <Controllo>Filtro de combustible</Controllo>
+      <Verifica>Sustitución</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 90 000 km o cada 6 años</Tagliando>
+      <TipoCtrl>FILTROS AUXILIARES</TipoCtrl>
+      <Controllo>Filtro de aire</Controllo>
+      <Verifica>Sustitución</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 90 000 km o cada 6 años</Tagliando>
+      <TipoCtrl>FILTROS AUXILIARES</TipoCtrl>
+      <Controllo>Condiciones del filtro de aire</Controllo>
+      <Verifica>Limpieza / Control</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 120 000 km </Tagliando>
+      <TipoCtrl>FLUIDOS PARA SISTEMAS AUXILIARES</TipoCtrl>
+      <Controllo>Aceite para transmisión automática (doble embrague)</Controllo>
+      <Verifica>Descarga / Llenado</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>A los 210 000 km, y posteriormente cada 30 000 km</Tagliando>
+      <TipoCtrl>ELEMENTOS EXTERNOS / CARROCERÍA</TipoCtrl>
+      <Controllo>Estado/condiciones del catalizador y del filtro antipartículas/FAP</Controllo>
+      <Verifica>Comprobar: sustituir si es necesario.</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 210 000 km</Tagliando>
+      <TipoCtrl>COMANDO DE DISTRIBUCIÓN</TipoCtrl>
+      <Controllo>Correa de distribución</Controllo>
+      <Verifica>Sustitución</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 210 000 km</Tagliando>
+      <TipoCtrl>COMANDO DE DISTRIBUCIÓN</TipoCtrl>
+      <Controllo>Tensor de correa de distribución</Controllo>
+      <Verifica>Sustitución</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 60 000 km o cada 3 años, y posteriormente cada 2 años</Tagliando>
+      <TipoCtrl>PIEZAS ELÉCTRICAS/ELECTRÓNICAS</TipoCtrl>
+      <Controllo>Instrumentación: luces de aviso e iluminación.</Controllo>
+      <Verifica>Verificación / Control</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 60 000 km o cada 3 años, y posteriormente cada 2 años</Tagliando>
+      <TipoCtrl>ELEMENTOS EXTERNOS / CARROCERÍA</TipoCtrl>
+      <Controllo>Carrocería / pintura</Controllo>
+      <Verifica>Verificación / Control</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 60 000 km o cada 3 años, y posteriormente cada 2 años</Tagliando>
+      <TipoCtrl>ELEMENTOS EXTERNOS / CARROCERÍA</TipoCtrl>
+      <Controllo>Estado del parabrisas y la luneta trasera</Controllo>
+      <Verifica>Verificación / Control</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 60 000 km o cada 3 años, y posteriormente cada 2 años</Tagliando>
+      <TipoCtrl>ELEMENTOS EXTERNOS / CARROCERÍA</TipoCtrl>
+      <Controllo>Funcionamiento del techo solar</Controllo>
+      <Verifica>Verificación / Control</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 60 000 km o cada 3 años, y posteriormente cada 2 años</Tagliando>
+      <TipoCtrl>ELEMENTOS EXTERNOS / CARROCERÍA</TipoCtrl>
+      <Controllo>Condiciones de palancas y guías de deslizamiento del techo</Controllo>
+      <Verifica>Control / Limpieza / Lubricación</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 60 000 km o cada 3 años, y posteriormente cada 2 años</Tagliando>
+      <TipoCtrl>PIEZAS MECÁNICAS</TipoCtrl>
+      <Controllo>Juntas esféricas de la dirección</Controllo>
+      <Verifica>Verificación / Control</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 60 000 km o cada 3 años, y posteriormente cada 2 años</Tagliando>
+      <TipoCtrl>PIEZAS MECÁNICAS</TipoCtrl>
+      <Controllo>Condiciones de la caja de dirección</Controllo>
+      <Verifica>Verificación / Control</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 60 000 km o cada 3 años, y posteriormente cada 2 años</Tagliando>
+      <TipoCtrl>PIEZAS MECÁNICAS</TipoCtrl>
+      <Controllo>Condiciones / Acoplamiento de elementos mecánicos de la columna de dirección</Controllo>
+      <Verifica>Verificación / Control</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 60 000 km o cada 3 años, y posteriormente cada 2 años</Tagliando>
+      <TipoCtrl>PIEZAS MECÁNICAS</TipoCtrl>
+      <Controllo>Suspensiones y elementos relacionados</Controllo>
+      <Verifica>Verificación / Control</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 60 000 km o cada 3 años, y posteriormente cada 2 años</Tagliando>
+      <TipoCtrl>PIEZAS MECÁNICAS</TipoCtrl>
+      <Controllo>Condiciones/funcionamiento de los resortes de suspensión</Controllo>
+      <Verifica>Verificación / Control</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 60 000 km o cada 3 años, y posteriormente cada 2 años</Tagliando>
+      <TipoCtrl>ELEMENTOS EXTERNOS / CARROCERÍA</TipoCtrl>
+      <Controllo>Condiciones / Corrosión de los tubos de escape y elementos de soporte</Controllo>
+      <Verifica>Verificación / Control</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 60 000 km o cada 3 años, y posteriormente cada 2 años</Tagliando>
+      <TipoCtrl>ELEMENTOS EXTERNOS / CARROCERÍA</TipoCtrl>
+      <Controllo>Condiciones / sellado del bajos</Controllo>
+      <Verifica>Verificación / Control</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 60 000 km o cada 3 años, y posteriormente cada 2 años</Tagliando>
+      <TipoCtrl>ELEMENTOS EXTERNOS / CARROCERÍA</TipoCtrl>
+      <Controllo>Ruedas / Cojinetes delanteros</Controllo>
+      <Verifica>Verificación / Control</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 60 000 km o cada 3 años, y posteriormente cada 2 años</Tagliando>
+      <TipoCtrl>ELEMENTOS EXTERNOS / CARROCERÍA</TipoCtrl>
+      <Controllo>Ruedas / Cojinetes traseros</Controllo>
+      <Verifica>Verificación / Control</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 60 000 km o cada 3 años, y posteriormente cada 2 años</Tagliando>
+      <TipoCtrl>CORREAS Y AGREGADOS</TipoCtrl>
+      <Controllo>Correa auxiliar / Servicios</Controllo>
+      <Verifica>Verificación / Ajuste</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Cada 3 años (independientemente del kilometraje)</Tagliando>
+      <TipoCtrl>FLUIDOS PARA SISTEMAS AUXILIARES</TipoCtrl>
+      <Controllo>Aceite Haldex</Controllo>
+      <Verifica>Descarga / Llenado</Verifica>
+    </XPROGTAGL_COMPLETO>
+  </XDOCUMENTO>
+</dataroot>

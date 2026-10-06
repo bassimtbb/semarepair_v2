@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T05:10:08">
+  <XDOCUMENTO>
+    <ID>199294278</ID>
+    <DOCNumber>GUP94225</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Meldung „SOS-Meldung: Bitte überprüfen“ im Armaturenbrett</Titolo>
+    <InfoDoc>ELETTRONICA | TELEMATICA | CHIAMA | TELEFONA | EMERGENZA | AIUTO | B2E1B | BATTERIA | TAMPONE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199294278</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199294278</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Gerät: &lt;/B&gt; Telematik-Steuergerät &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Im Kombiinstrument erscheint die Meldung „SOS-Ruf: zu überprüfen“. Der SOS-Ruf funktioniert jedoch einwandfrei. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose erkannte Fehler: &lt;/B&gt; B2E1B &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Pufferbatterie der Telematik-Steuereinheit muss ausgetauscht werden &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299022377</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299022377</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299022377</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199294278</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Die Pufferbatterie des Telematikmoduls austauschen &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Das Telematik-Steuergerät befindet sich oben hinter der Instrumententafel. Um Zugang zu erhalten, muss die Instrumententafel ausgebaut werden. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299022378</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299022378</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299022378</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

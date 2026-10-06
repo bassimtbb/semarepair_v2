@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:25:32">
+  <XDOCUMENTO>
+    <ID>62508877</ID>
+    <DOCNumber>GUR63116</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Klucz zapłonowy</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Instrukcja regulacji</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62508877</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Synchronizacja klucza</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;B&gt; Czynność tę należy wykonać w następujących przypadkach: &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  System centralnego zamykania/alarmu nie działa prawidłowo &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Procedura: &lt;/B&gt;  &lt;BR/&gt; Procedurę należy wykonać przy użyciu kluczyka, który ma zostać zsynchronizowany &lt;BR/&gt;  &lt;LI&gt;  Zamknąć wszystkie drzwi pojazdu &lt;BR/&gt;  &lt;LI&gt;  Nacisnąć przycisk  &lt;B&gt; (1) &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Ręcznie odblokować pojazd &lt;BR/&gt;  &lt;LI&gt;  Synchronizacja zakończona &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504797</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504797</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504797</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62508877</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Programowanie klucza</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;B&gt; Czynność ta jest konieczna w następujących przypadkach: &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;    Wymiana/dodanie kluczyka. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Procedura: &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Kluczyki są dostarczane już zaprogramowane, dlatego nie ma potrzeby przeprowadzania żadnej procedury programowania &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

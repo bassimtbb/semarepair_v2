@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T23:42:21">
+  <XDOCUMENTO>
+    <ID>199082245</ID>
+    <DOCNumber>DTM88828</DOCNumber>
+    <RifIDTipoRis>13</RifIDTipoRis>
+    <Titolo>MECHANICAL DATABASE - DIESEL</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>226</RifIDFileICO>
+    <XFILE>
+      <ID>226</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:226</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>13</ID>
+      <TipoRis>DTM</TipoRis>
+      <DscRis>Mechanical and Lubricant Data</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>4</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLDATO</IDLabel>
+        <Stringa>Description</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLUM</IDLabel>
+        <Stringa>Unit of measurement</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLVALORE</IDLabel>
+        <Stringa>Data</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>LINK</IDLabel>
+        <Stringa>Link</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Data List</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE DATA</Gruppo>
+      <Dato>Displacement</Dato>
+      <Valore>1995</Valore>
+      <UnitaMis>cm³</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE DATA</Gruppo>
+      <Dato>Cylinders</Dato>
+      <Valore>4</Valore>
+      <UnitaMis>No.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE DATA</Gruppo>
+      <Dato>Valve arrangement</Dato>
+      <Valore>DOHC</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE DATA</Gruppo>
+      <Dato>Intake/exhaust valves</Dato>
+      <Valore>Hydraulics</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE DATA</Gruppo>
+      <Dato>Injection order</Dato>
+      <Valore>1-3-4-2</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE DATA</Gruppo>
+      <Dato>Compression ratio</Dato>
+      <Valore>16.5</Valore>
+      <UnitaMis>:1</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE DATA</Gruppo>
+      <Dato>Compression pressure</Dato>
+      <Valore>16.0</Valore>
+      <UnitaMis>bar</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>IGNITION DATA</Gruppo>
+      <Dato>Battery Voltage</Dato>
+      <Valore>12</Valore>
+      <UnitaMis>Volt</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>EXHAUST GAS DATA</Gruppo>
+      <Dato>Minimum speed</Dato>
+      <Valore>680-900</Valore>
+      <UnitaMis>Revolutions per minute</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>EXHAUST GAS DATA</Gruppo>
+      <Dato>Minimum Speed - Smoke Test</Dato>
+      <Valore>680-900</Valore>
+      <UnitaMis>Revolutions per minute</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>EXHAUST GAS DATA</Gruppo>
+      <Dato>Accelerated Regime - Smoke Test</Dato>
+      <Valore>3700-4100</Valore>
+      <UnitaMis>Revolutions per minute</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>EXHAUST GAS DATA</Gruppo>
+      <Dato>Maximum Accelerated Speed</Dato>
+      <Valore>0.5</Valore>
+      <UnitaMis>s</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>EXHAUST GAS DATA</Gruppo>
+      <Dato>Test method</Dato>
+      <Valore>B</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>EXHAUST GAS DATA</Gruppo>
+      <Dato>Smoke Opacity - European Limit</Dato>
+      <Valore>1.50</Valore>
+      <UnitaMis>m-1</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>EXHAUST GAS DATA</Gruppo>
+      <Dato>Smoke opacity</Dato>
+      <Valore>0.09</Valore>
+      <UnitaMis>m-1</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato> Engine Oil - Viscosity</Dato>
+      <Valore>See link</Valore>
+      <UnitaMis>SAE</UnitaMis>
+      <RifIDFileIMG>199323858</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199323858</ID>
+        <DOCNumber>NOT77058</DOCNumber>
+        <Documento>NOT: Engine Oil</Documento>
+        <URL>LINKDOC:199323858</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato> Engine Oil - Manufacturer Specification</Dato>
+      <Valore>See link</Valore>
+      <UnitaMis>Ref. No.</UnitaMis>
+      <RifIDFileIMG>199323858</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199323858</ID>
+        <DOCNumber>NOT77058</DOCNumber>
+        <Documento>NOT: Engine Oil</Documento>
+        <URL>LINKDOC:199323858</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato> Engine Oil - Alternative (with DPF)</Dato>
+      <Valore>C3</Valore>
+      <UnitaMis>ACEA</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Engine Oil and Filter - Quantity</Dato>
+      <Valore>See link</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>199323858</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199323858</ID>
+        <DOCNumber>NOT77058</DOCNumber>
+        <Documento>NOT: Engine Oil</Documento>
+        <URL>LINKDOC:199323858</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Manual Transmission Oil</Dato>
+      <Valore>BMW MTF-3</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Manual Transmission Oil - Quantity</Dato>
+      <Valore>1.2</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Automatic Transmission Oil</Dato>
+      <Valore>ATF-3+</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Automatic Transmission Oil - Unloaded Quantity</Dato>
+      <Valore>9.3</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Rear Differential Oil - Manufacturer Specification</Dato>
+      <Valore>Consult link</Valore>
+      <UnitaMis>Ref. No.</UnitaMis>
+      <RifIDFileIMG>199097261</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199097261</ID>
+        <DOCNumber>NOT76165</DOCNumber>
+        <Documento>NOT: Rear Differential Oil - Manufacturer Specification</Documento>
+        <URL>LINKDOC:199097261</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Rear Differential Oil - Quantity</Dato>
+      <Valore>0.7-1.2</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Transfer box oil - Viscosity</Dato>
+      <Valore>BMW DTF-1 Synthetic</Valore>
+      <UnitaMis>SAE</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Transfer box oil</Dato>
+      <Valore>GL4</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Transfer box oil - Quantity</Dato>
+      <Valore>0.7</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>AUXILIARY FLUID DATA</Gruppo>
+      <Dato>Liquid Radiator</Dato>
+      <Valore>Consult link</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>199097766</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199097766</ID>
+        <DOCNumber>NOT76168</DOCNumber>
+        <Documento>NOT: Radiator fluid</Documento>
+        <URL>LINKDOC:199097766</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>AUXILIARY FLUID DATA</Gruppo>
+      <Dato>Liquid Radiator - Quantity</Dato>
+      <Valore>7.0</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>AUXILIARY FLUID DATA</Gruppo>
+      <Dato>Brake fluid</Dato>
+      <Valore>DOT 4 LV</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>AUXILIARY FLUID DATA</Gruppo>
+      <Dato>Pressure Liquid Cap Radiator</Dato>
+      <Valore>1.40</Valore>
+      <UnitaMis>bar</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MECHANICAL DATA BRAKES</Gruppo>
+      <Dato>Minimum thickness of front discs (ventilated)</Dato>
+      <Valore>Consult link</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>199070397</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199070397</ID>
+        <DOCNumber>NOT76088</DOCNumber>
+        <Documento>NOT: Minimum thickness of front discs (ventilated)</Documento>
+        <URL>LINKDOC:199070397</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MECHANICAL DATA BRAKES</Gruppo>
+      <Dato>Minimum thickness of front brake pads</Dato>
+      <Valore>3.7</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MECHANICAL DATA BRAKES</Gruppo>
+      <Dato>Minimum thickness of rear discs (ventilated)</Dato>
+      <Valore>Consult link</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>199070398</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199070398</ID>
+        <DOCNumber>NOT76089</DOCNumber>
+        <Documento>NOT: Minimum Thickness Rear Discs (ventilated)</Documento>
+        <URL>LINKDOC:199070398</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MECHANICAL DATA BRAKES</Gruppo>
+      <Dato>Minimum thickness of rear brake pads</Dato>
+      <Valore>3.7</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>AIR CONDITIONING</Gruppo>
+      <Dato>Refrigerant gas</Dato>
+      <Valore>Consult link</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>75008087</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>75008087</ID>
+        <DOCNumber>NOT75102</DOCNumber>
+        <Documento>NOT: Refrigerant gas</Documento>
+        <URL>LINKDOC:75008087</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>AIR CONDITIONING</Gruppo>
+      <Dato>Refrigerant Gas - Quantity</Dato>
+      <Valore>535-565 - (check label)</Valore>
+      <UnitaMis>grams</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>AIR CONDITIONING</Gruppo>
+      <Dato>Oil Compressor</Dato>
+      <Valore>SP-A2 - (check compressor label)</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>AIR CONDITIONING</Gruppo>
+      <Dato> Compressor Oil - Quantity</Dato>
+      <Valore>Check compressor label.</Valore>
+      <UnitaMis>cm³</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+  </XDOCUMENTO>
+</dataroot>

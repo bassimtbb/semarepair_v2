@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2025-07-05T05:31:10">
+<XDOCUMENTO>
+<ID>199288609</ID>
+<DOCNumber>GUP93001</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Bassa portata dell’aria dalle bocchette di ventilazione e scarse prestazioni del sistema A/C</Titolo>
+<InfoDoc>CLIMATIZZATORE | ABITACOLO | RIDOTTA | POTENZA | RAFFREDDAMENTO | SCHIACCIATA | APERTURA | CHIUSURA | REGOLARE | BOCCHETTA | SPORTELLO | SPORTELLINO | ALETTA | RICIRCOLO | FRESCA | BLOCCA | BLOCCATA | ANTERIORE | MICROFILTRO |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199288609</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (***)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199288609</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Climatizzatore&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Aletta aria di ricircolo anteriore&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Dopo aver sostituito il microfiltro, il flusso d’aria in abitacolo e la potenza di raffreddamento si riducono significativamente&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Il cambio del microfiltro può causare lo schiacciamento dell’aletta dell’aria di ricircolo anteriore, compromettendo la sua apertura e chiusura&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199288609</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Disattivare il pulsante per il ricircolo dell&apos;aria sul modulo di comando dell&apos;impianto di climatizzazione, smontare il microfiltro e il motore del ventilatore. Se l&apos;aletta aria di ricircolo si trova in una posizione diversa da quella indicata nell&apos;immagine, correggerne la posizione manualmente.&lt;BR/&gt;&lt;BR/&gt;Nel caso in cui l&apos;anomalia persistesse, procedere con la sostituzione dell&apos;aletta stessa&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; Per evitare l&apos;anomalia descritta nel seguente bollettino, durante l&apos;inserimento del microfiltro è importante assicurarsi che la funzione ricircolo d&apos;aria sull&apos;elemento di comando dell&apos;impianto di climatizzazione sia attivata, cioè che l&apos;aletta aria di ricircolo sia chiusa&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299022000</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299022000</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299022000</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T10:57:54">
+  <XDOCUMENTO>
+    <ID>199274467</ID>
+    <DOCNumber>GUP90129</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Incidentele schommelingen in de multifunctionele display op de middenconsole</Titolo>
+    <InfoDoc>ELETTRONICA | SEL-SEL-P-65-20001015780861-01 | TREMOLIO | VIBRAZIONE | REGOLARE | INFORMATIVO | SPORADICAMENTE | VOLTE | SECONDI | SOFTWARE | CENTRALINA | CONTROLLO | SISTEMA | MULTIMEDIALE | HU | HU-H5 | HU-H6 | HEAD | UNIT | UNITA' | CENTRALE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparatiehandleiding</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199274467</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Betrouwbaarheidsgraad   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda van de betrouwbaarheidsgraad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * laag niveau &lt;/B&gt; : Vastgesteld door de autoreparateur, storingsgeval niet bevestigd door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** gemiddeld niveau &lt;/B&gt; : Veelvoorkomende storingsgevallen, vastgesteld door servicetechnici en reparateurs. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** hoog niveau &lt;/B&gt; : Bevestigde storing, hoge mate van &quot;herhaalbaarheid&quot; gemeld door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199274467</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificatie van het systeem/de storing</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Systeem: &lt;/B&gt;  Elektronica &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Apparaat: &lt;/B&gt;  Regeleenheid voor het multimediasysteem &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Afwijking: &lt;/B&gt;  Sporadische schommelingen van het multifunctionele display op de middenconsole &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Door de zelfdiagnose gedetecteerde fouten: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Oorzaak: &lt;/B&gt;  Onvoldoende software in de besturingsmodule van het multimediasysteem &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199274467</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparatieprocedure</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Maatregel: &lt;/B&gt;  Voer een herprogrammering uit van de regeleenheid van het multimediasysteem. Mocht het probleem aanhouden, vervang dan de betreffende regeleenheid &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedure: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Opmerking: &lt;/B&gt;   &lt;I&gt; LET OP &lt;/I&gt; : Als er DTC&apos;s of symptomatische omstandigheden aanwezig zijn die afwijken van de hier genoemde, los deze dan eerst op voordat u verdergaat met dit bulletin &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

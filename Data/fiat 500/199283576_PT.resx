@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:45:04">
+  <XDOCUMENTO>
+    <ID>199283576</ID>
+    <DOCNumber>GUP91997</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Avaria no fecho centralizado, luzes de avaria do airbag, da direção assistida e de avaria geral aces</Titolo>
+    <InfoDoc>ELETTRONICA | BODY | COMPUTER | B1003 | B1053 | C1003 | C1212 | C1215 | U0001 | U0019 | U0426 | U1700 | U1702 | U1706 | U1715 | FUNZIONA | FUNZIONAMENTO | PORTE | APRE | CHIUDE | GENERICA | QUADRO | STRUMENTI | DISPLAY | SCHERMO | AIRBAG | STERZO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199283576</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Legenda do grau de fiabilidade &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  * nível baixo &lt;/B&gt;  : Detecção pelo técnico de reparação, caso de avaria não registado pelo fabricante. &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  ** nível médio &lt;/B&gt;  : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos independentes. &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  *** nível elevado &lt;/B&gt;  : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283576</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Sistema: &lt;/B&gt;  Eletrónica  &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Dispositivo: &lt;/B&gt;  Computador da carroçaria &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Anomalia: &lt;/B&gt;  Acendimento da luz de avaria genérica, do airbag e da luz de avaria da direção. Falha no funcionamento do fecho centralizado das portas &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Erros detetados pelo autodiagnóstico: &lt;/B&gt;  &lt;UL&gt;   &lt;LI&gt;  B1003 (Módulo recetor do comando à distância -   Recetor, comando à distância) &lt;BR&gt;    &lt;LI&gt;  C1003 (Sinal de velocidade   - Cablagem / unidade de controlo) &lt;BR&gt;    &lt;LI&gt;  C1212 (Sinal de binário do motor incorreto   - Unidade de controlo) &lt;BR&gt;    &lt;LI&gt;  C1215 (Interruptor do pedal do travão -   Cablagem / interruptor) &lt;BR&gt;    &lt;LI&gt;  U0001 (BUS C CAN) &lt;BR&gt;    &lt;LI&gt;  U0019 (BUS B CAN - anomalia elétrica genérica) &lt;BR&gt;    &lt;LI&gt;  U0426 (Chave eletrónica - erro) &lt;BR&gt;    &lt;LI&gt;  U1700 (Barramento de dados CAN - Computador da carroçaria -   Erro) &lt;BR&gt;    &lt;LI&gt;  U1702 (Barramento de dados CAN - Unidade de controlo da direção assistida - Erro) &lt;BR&gt;    &lt;LI&gt;  U1706 (Barramento de dados CAN - Unidade de controlo do ABS   Erro ) &lt;BR&gt;    &lt;LI&gt;  U1715 (Nó de derrapagem/aceleração lateral - erro) &lt;/UL&gt;  &lt;LI&gt;   &lt;B&gt;  Causa: &lt;/B&gt;  Computador da carroçaria com defeito &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283576</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Intervenção: &lt;/B&gt;  Verificar o funcionamento correto e o estado do computador de bordo e, se necessário, proceder à sua substituição &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Procedimento: &lt;/B&gt;  - - &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Nota: &lt;/B&gt;  No caso em apreço, após a substituição, não foi necessária qualquer reprogramação através de equipamento de diagnóstico. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>299022411</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299022411</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299022411</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

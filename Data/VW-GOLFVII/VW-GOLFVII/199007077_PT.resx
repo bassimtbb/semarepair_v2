@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T16:36:36">
+  <XDOCUMENTO>
+    <ID>199007077</ID>
+    <DOCNumber>INT76338</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>Volkswagen Golf VII</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Recalls Oficiais</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Fonte dos dados - Ministério dos Transportes</Capitolo>
+      <Corpo> &lt;B&gt; Fabricante: &lt;/B&gt;  Grupo Volkswagen  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Marca: &lt;/B&gt;  Volkswagen  &lt;BR/&gt;  &lt;BR/&gt; Anomalias reconhecidas pelos fabricantes de acordo com o Decreto 78/2000</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Volkswagen Golf VII</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de veículos: 462 &lt;BR/&gt; Período de produção: não declarado &lt;BR/&gt; Descrição da avaria: possível mau funcionamento dos injetores ao nível das emissões &lt;BR/&gt; Ações corretivas: substituição &lt;BR/&gt; Referência: consultar concessionários &lt;BR/&gt; Notas: Cod. 24FO chassis, consultar concessionários &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 716 &lt;BR/&gt; Período de produção: NÃO INDICADO &lt;BR/&gt; Descrição da avaria: POSSÍVEL AVARIA NO BLOQUEIO DOS APOIOS DE CABEÇA DIANTEIROS &lt;BR/&gt; Medidas corretivas: SUBSTITUIÇÃO DAS GUIAS DOS APOIOS DE CABEÇA &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas CÓD 72H5 CHASSIS CONSULTAR CONCESSIONÁRIOS &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 11206 &lt;BR/&gt; Período de produção: NÃO INDICADO &lt;BR/&gt; Descrição da avaria: POSSÍVEL QUEBRA DA ALAVA DO BLOQUEIO DE SEGURANÇA MANUAL PARA CRIANÇAS E SUA DESATIVação IMPROVISADA CAUSADA POR FORTES VIBRAÇÕES &lt;BR/&gt; Medidas corretivas: VERIFICAÇÃO DO FUNCIONAMENTO DO BLOQUEIO DE SEGURANÇA &lt;BR/&gt; Referência 800865579 &lt;BR/&gt; Notas COD 58C9 CHASSIS CONCESSIONÁRIOS &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 54 &lt;BR/&gt; Período de produção: NÃO INDICADO &lt;BR/&gt; Descrição da falha: POSSÍVEL AVARIA NO ROLAMENTO DAS RODAS DIANTEIRAS &lt;BR/&gt; Ações corretivas: SUBSTITUIÇÃO &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas COD 40L2 CHASSIS CONSULTAR CONCESSIONÁRIOS &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 286 &lt;BR/&gt; Período de produção: NÃO INDICADO &lt;BR/&gt; Descrição da avaria: SUPORTE DO ROLAMENTO DAS RODAS TRASEIRAS NÃO CONFORME &lt;BR/&gt; Medidas corretivas: SUBSTITUIÇÃO DO SUPORTE DOS ROLAMENTOS &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas CÓD 42I2 CHASSIS CONSULTAR CONCESSIONÁRIOS &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 3802 &lt;BR/&gt; Período de produção: não indicado &lt;BR/&gt; Descrição do defeito: Se com caixa de velocidades sequencial direta de seis velocidades, possível mau funcionamento da embraiagem &lt;BR/&gt; Ações corretivas: Modificação do software da central de controlo da caixa de velocidades &lt;BR/&gt; Referência Concessionários &lt;BR/&gt; Notas Cod 37E8 Intervalo de chassis consultar Concessionários &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 5759 &lt;BR/&gt; Período de produção: MAIO 2018 AGOSTO 2018 &lt;BR/&gt; Descrição da avaria: POSSÍVEL SOLDAGEM INCOMPLETA DAS GUIAS DOS APOIOS DE CABEÇA TRASEIROS &lt;BR/&gt; Medidas corretivas: EVENTUAL SUBSTITUIÇÃO DA ESTRUTURA DO ENCOSTO &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas CÓD 72H8 ESTRUTURAS CONSULTAR CONCESSIONÁRIOS &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 339 &lt;BR/&gt; Período de produção: ANOS 2016/2017 &lt;BR/&gt; Descrição da falha: POSSÍVEL NÃO ATIVAÇÃO DO AIRBAG E/OU DO PRÉ-TENSOR DO CONDUTOR E DO PASSAGEIRO &lt;BR/&gt; Medidas corretivas: SUBSTITUIÇÃO DE COMPONENTES DEFEITUOSOS &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas COD 69P4 CHASSIS CONSULTAR CONCESSIONÁRIOS &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 10989 &lt;BR/&gt; Período de produção: ANOS 2016/2017 &lt;BR/&gt; Descrição da avaria: POSSÍVEL AVARIA NA SEGURANÇA MANUAL PARA CRIANÇAS &lt;BR/&gt; Medidas corretivas: VERIFICAÇÃO DAS FECHADURAS DAS PORTAS TRASEIRAS &lt;BR/&gt; Referência dos CONCESSIONÁRIOS &lt;BR/&gt; Notas COD 58C9 CHASSIS CONSULTAR CONCESSIONÁRIOS &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Volkswagen Golf VII Variant</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de veículos: 10989 &lt;BR/&gt; Período de produção: ANOS 2016/2017 &lt;BR/&gt; Descrição da avaria: POSSÍVEL AVARIA NA SEGURANÇA MANUAL PARA CRIANÇAS &lt;BR/&gt; Medidas corretivas: VERIFICAÇÃO DAS FECHADURAS DAS PORTAS TRASEIRAS &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas COD 58C9 CHASSIS CONSULTAR CONCESSIONÁRIOS &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 11206 &lt;BR/&gt; Período de produção: NÃO INDICADO &lt;BR/&gt; Descrição da avaria: POSSÍVEL QUEBRA DA ALAVA DA TRAVA DE SEGURANÇA MANUAL PARA CRIANÇAS E SUA DESATIVação IMPROVISADA CAUSADA POR FORTES VIBRAÇÕES &lt;BR/&gt; Medidas corretivas: VERIFICAÇÃO DO FUNCIONAMENTO DA TRAVA DE SEGURANÇA &lt;BR/&gt; Referência 800865579 &lt;BR/&gt; Notas COD 58C9 CHASSIS CONCESSIONÁRIOS &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Volkswagen Golf/Golf Variant VII com central de controlo ABS/ESP (mk60)</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de veículos: 51621 &lt;BR/&gt; Período de produção: ANOS 2002/2013 &lt;BR/&gt; Descrição da avaria: POSSÍVEL INTERRUPÇÃO DA LIGAÇÃO À MASSA DA UNIDADE DE CONTROLO DEVIDO A SOBRECARGA TERMOMECÂNICA &lt;BR/&gt; Ações corretivas: INSTALAÇÃO DE NOVO SOFTWARE &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas COD 45F2 CHASSIS CONSULTAR CONCESSIONÁRIOS &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Volkswagen Golf VII Performance</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de veículos: 37 &lt;BR/&gt; Período de produção: ANO MODELO 2017 &lt;BR/&gt; Descrição da avaria: PLACAS DE PRESSÃO DOS PNEUS INCORRETAS E EVENTUAL RACHADURA DOS PNEUS &lt;BR/&gt; Ações corretivas: INSTALAÇÃO DE PLACA COM INFORMAÇÕES EXATAS &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas COD 09A5 CHASSIS CONSULTAR CONCESSIONÁRIOS &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>Volkswagen Golf VII com motor diesel Start/Stop</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de veículos: 4976 &lt;BR/&gt; Período de produção: NÃO INDICADO &lt;BR/&gt; Descrição da avaria: POSSÍVEL AVARIA NO MOTOR DE ARRANQUE E RISCO DE INCÊNDIO &lt;BR/&gt; Medidas corretivas: SUBSTITUIÇÃO DOS INTERRUPTORES ELETROMAGNÉTICOS &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas COD 27F9 CHASSIS CONSULTAR CONCESSIONÁRIOS &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>70</Ordine>
+      <Capitolo>Volkswagen Golf VII com motor 1.2 l/1.6 l</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de veículos: 271 &lt;BR/&gt; Período de produção: NÃO INDICADO &lt;BR/&gt; Descrição da avaria: POSSÍVEL SOLTURA DE PARAFUSOS DA CAIXA DO VARIADOR DE FASE E FUGA DE ÓLEO DO MOTOR &lt;BR/&gt; Medidas corretivas: SUBSTITUIÇÃO DO VARIADOR &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas COD 15H2 CHASSIS CONSULTAR CONCESSIONÁRIOS &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>199007077</RifIDDoc>
+      <LinkUtili>Link Ministério das Infraestruturas e dos Transportes</LinkUtili>
+      <Ordine>1</Ordine>
+      <RifIDDocLink>15000122</RifIDDocLink>
+      <XLINKDOC>
+        <ID>15000122</ID>
+        <DOCNumber>LNK00008</DOCNumber>
+        <Documento>Ir para: Recalls - Ministério dos Transportes</Documento>
+        <URL>LINKDOC:15000122</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

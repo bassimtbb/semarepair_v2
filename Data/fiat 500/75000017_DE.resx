@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-19T01:25:14">
+  <XDOCUMENTO>
+    <ID>75000017</ID>
+    <DOCNumber>GUP75015</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Das Connect-Gerät kann USB-Speichermedien nicht lesen</Titolo>
+    <InfoDoc>strumentazione | connect | USB | presa | non legge | multimedia</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>75000017</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000017</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Fahrzeugidentifikation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Marke: &lt;/B&gt; Fiat &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Modell: &lt;/B&gt; Nuova 500 &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Motorisierung: &lt;/B&gt; 1.2 8V &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Baujahr: &lt;/B&gt; 2008 &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Motorcode / Fahrgestellnummer: &lt;/B&gt; - - &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Baureihe: &lt;/B&gt; - - &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Weitere Angaben &lt;/B&gt; - -</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000017</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Instrumentierung &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Gerät: &lt;/B&gt; Connect – USB-Anschluss &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Das Connect-System liest keine Multimedia-Datenträger vom USB-Anschluss &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Software des elektronischen Bluetooth-Steuergeräts</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000017</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Maßnahme</Capitolo>
+      <Corpo> &lt;BR/&gt; – Aktualisierung der Software des Bluetooth-Steuergeräts durchführen &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

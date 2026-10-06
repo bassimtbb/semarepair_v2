@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T10:34:23">
+  <XDOCUMENTO>
+    <ID>199269068</ID>
+    <DOCNumber>TGE88342</DOCNumber>
+    <RifIDTipoRis>16</RifIDTipoRis>
+    <Titolo>Onderhoud volgens vaste intervallen</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>234</RifIDFileICO>
+    <XFILE>
+      <ID>234</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:234</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>16</ID>
+      <TipoRis>TGE</TipoRis>
+      <DscRis>Extra controles en riemen</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>7</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>SINO</IDLabel>
+        <Stringa>Ja-Nee</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Gegevenslijst</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Na 3 jaar, daarna om de 2 jaar (ongeacht het aantal gereden kilometers)</Tagliando>
+      <TipoCtrl>VLOEISTOFFEN VOOR HULPSYSTEMEN</TipoCtrl>
+      <Controllo>Remvloeistof</Controllo>
+      <Verifica>Vervanging</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Na 3 jaar, daarna om de 2 jaar (ongeacht het aantal gereden kilometers)</Tagliando>
+      <TipoCtrl>VLOEISTOFFEN VOOR HULPSYSTEMEN</TipoCtrl>
+      <Controllo>Olie / Koppelingsvloeistof</Controllo>
+      <Verifica>Vervanging</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 60.000 km of om de 2 jaar</Tagliando>
+      <TipoCtrl>HULPFILTERS</TipoCtrl>
+      <Controllo>Interieurfilter / pollenfilter (indien aanwezig)</Controllo>
+      <Verifica>Vervanging</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Elke 90.000 km </Tagliando>
+      <TipoCtrl>HULPFILTERS</TipoCtrl>
+      <Controllo>Brandstoffilter</Controllo>
+      <Verifica>Vervanging</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 90.000 km of om de 6 jaar</Tagliando>
+      <TipoCtrl>HULPFILTERS</TipoCtrl>
+      <Controllo>Luchtfilter</Controllo>
+      <Verifica>Vervanging</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 90.000 km of om de 6 jaar</Tagliando>
+      <TipoCtrl>HULPFILTERS</TipoCtrl>
+      <Controllo>Toestand van het luchtfilterhuis</Controllo>
+      <Verifica>Reiniging / Controle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 120.000 km </Tagliando>
+      <TipoCtrl>VLOEISTOFFEN VOOR HULPSYSTEMEN</TipoCtrl>
+      <Controllo>Olie voor automatische versnellingsbak (dubbele koppeling)</Controllo>
+      <Verifica>Aftappen / Vullen</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Bij 210.000 km, daarna om de 30.000 km</Tagliando>
+      <TipoCtrl>EXTERNE ONDERDELEN / CARROSSERIE</TipoCtrl>
+      <Controllo>Toestand / Conditie van de katalysator en het roetfilter / FAP</Controllo>
+      <Verifica>Controleren: indien nodig vervangen</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 210.000 km</Tagliando>
+      <TipoCtrl>VERDELINGSSYSTEEM</TipoCtrl>
+      <Controllo>Distributieriem</Controllo>
+      <Verifica>Vervanging</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 210.000 km</Tagliando>
+      <TipoCtrl>VERDELINGSSYSTEEM</TipoCtrl>
+      <Controllo>Spanner van de distributieriem</Controllo>
+      <Verifica>Vervanging</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 60.000 km of om de 3 jaar, daarna om de 2 jaar</Tagliando>
+      <TipoCtrl>ELEKTRISCHE / ELEKTRONISCHE ONDERDELEN</TipoCtrl>
+      <Controllo>Instrumenten: Waarschuwingslampjes en verlichting</Controllo>
+      <Verifica>Controle / Keuring</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 60.000 km of om de 3 jaar, daarna om de 2 jaar</Tagliando>
+      <TipoCtrl>EXTERNE ONDERDELEN / CARROSSERIE</TipoCtrl>
+      <Controllo>Carrosserie / lak</Controllo>
+      <Verifica>Controle / Keuring</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 60.000 km of om de 3 jaar, daarna om de 2 jaar</Tagliando>
+      <TipoCtrl>EXTERNE ONDERDELEN / CARROSSERIE</TipoCtrl>
+      <Controllo>Toestand van de voorruit en achterruit</Controllo>
+      <Verifica>Controle / Keuring</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 60.000 km of om de 3 jaar, daarna om de 2 jaar</Tagliando>
+      <TipoCtrl>EXTERNE ONDERDELEN / CARROSSERIE</TipoCtrl>
+      <Controllo>Werking van het schuifdak</Controllo>
+      <Verifica>Controle / Keuring</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 60.000 km of om de 3 jaar, daarna om de 2 jaar</Tagliando>
+      <TipoCtrl>EXTERNE ONDERDELEN / CARROSSERIE</TipoCtrl>
+      <Controllo>Condities van hefmechanismen en geleiders van het schuifdak</Controllo>
+      <Verifica>Controle / Reiniging / Smering</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 60.000 km of om de 3 jaar, daarna om de 2 jaar</Tagliando>
+      <TipoCtrl>MECHANISCHE ONDERDELEN</TipoCtrl>
+      <Controllo>Kogelgewrichten van de stuurinrichting</Controllo>
+      <Verifica>Controle / Keuring</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 60.000 km of om de 3 jaar, daarna om de 2 jaar</Tagliando>
+      <TipoCtrl>MECHANISCHE ONDERDELEN</TipoCtrl>
+      <Controllo>Toestand van de stuurinrichting</Controllo>
+      <Verifica>Controle / Keuring</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 60.000 km of om de 3 jaar, daarna om de 2 jaar</Tagliando>
+      <TipoCtrl>MECHANISCHE ONDERDELEN</TipoCtrl>
+      <Controllo>Voorwaarden / Koppeling van mechanische onderdelen van de stuurkolom</Controllo>
+      <Verifica>Controle / Keuring</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 60.000 km of om de 3 jaar, daarna om de 2 jaar</Tagliando>
+      <TipoCtrl>MECHANISCHE ONDERDELEN</TipoCtrl>
+      <Controllo>Wielophanging en aanverwante onderdelen</Controllo>
+      <Verifica>Controle / Keuring</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 60.000 km of om de 3 jaar, daarna om de 2 jaar</Tagliando>
+      <TipoCtrl>MECHANISCHE ONDERDELEN</TipoCtrl>
+      <Controllo>Conditie / werking van veerelementen</Controllo>
+      <Verifica>Controle / Keuring</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 60.000 km of om de 3 jaar, daarna om de 2 jaar</Tagliando>
+      <TipoCtrl>EXTERNE ONDERDELEN / CARROSSERIE</TipoCtrl>
+      <Controllo>Condities / Corrosie van uitlaatpijpen en bevestigingselementen</Controllo>
+      <Verifica>Controle / Keuring</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 60.000 km of om de 3 jaar, daarna om de 2 jaar</Tagliando>
+      <TipoCtrl>EXTERNE ONDERDELEN / CARROSSERIE</TipoCtrl>
+      <Controllo>Condities / afdichting van de bodemplaat</Controllo>
+      <Verifica>Controle / Keuring</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 60.000 km of om de 3 jaar, daarna om de 2 jaar</Tagliando>
+      <TipoCtrl>EXTERNE ONDERDELEN / CARROSSERIE</TipoCtrl>
+      <Controllo>Wielen / Voorlagers</Controllo>
+      <Verifica>Controle / Keuring</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 60.000 km of om de 3 jaar, daarna om de 2 jaar</Tagliando>
+      <TipoCtrl>EXTERNE ONDERDELEN / CARROSSERIE</TipoCtrl>
+      <Controllo>Wielen / Achterlagers</Controllo>
+      <Verifica>Controle / Keuring</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 60.000 km of om de 3 jaar, daarna om de 2 jaar</Tagliando>
+      <TipoCtrl>RIEMEN EN HULPSYSTEMEN</TipoCtrl>
+      <Controllo>Hulpriem / Diensten</Controllo>
+      <Verifica>Controle / Afstelling</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Om de 3 jaar (ongeacht het aantal gereden kilometers)</Tagliando>
+      <TipoCtrl>VLOEISTOFFEN VOOR HULPSYSTEMEN</TipoCtrl>
+      <Controllo>Haldex-koppelingsolie</Controllo>
+      <Verifica>Aftappen / Vullen</Verifica>
+    </XPROGTAGL_COMPLETO>
+  </XDOCUMENTO>
+</dataroot>

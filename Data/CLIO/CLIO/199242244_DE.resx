@@ -1,0 +1,1568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T13:36:32">
+  <XDOCUMENTO>
+    <ID>199242244</ID>
+    <DOCNumber>FUS88928</DOCNumber>
+    <RifIDTipoRis>20</RifIDTipoRis>
+    <Titolo>Referenzen und Lokalisierung – Oktober 2019 bis September 2020 – Dieselmotoren</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>265</RifIDFileICO>
+    <XFILE>
+      <ID>265</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:265</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>20</ID>
+      <TipoRis>FUS</TipoRis>
+      <DscRis>Sicherungen und Relais</DscRis>
+      <RifIDFileCSS>264</RifIDFileCSS>
+      <RifIDTemplate>8</RifIDTemplate>
+      <XFILE>
+        <ID>264</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:264</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLDESCRIZIONE</IDLabel>
+        <Stringa>Beschreibung</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLNUMERO</IDLabel>
+        <Stringa>Anzahl</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLRIFERIMENTO</IDLabel>
+        <Stringa>Referenz</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XFUSCONN>
+      <RifIDDoc>199242244</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Titolo>Lokalisierung von Sicherungskästen</Titolo>
+      <RifIDFileIMGANI>299009382</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005453</ID>
+      <XFILE>
+        <ID>299009382</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009382</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005453</RifIDImmagine>
+        <Numero>1</Numero>
+        <Descrizione>Sicherungskasten / Relais im Motorraum (A)</Descrizione>
+        <Riferimento>Motorraum – neben der Batterie</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005453</RifIDImmagine>
+        <Numero>2</Numero>
+        <Descrizione>Sicherungskasten / Relais im Motorraum (B)</Descrizione>
+        <Riferimento>Motorraum – neben der Batterie</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005453</RifIDImmagine>
+        <Numero>3</Numero>
+        <Descrizione>Sicherungskasten / Relais im Motorraum (C)</Descrizione>
+        <Riferimento>Motorraum – neben der Batterie</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005453</RifIDImmagine>
+        <Numero>4</Numero>
+        <Descrizione>Sicherungskasten / Relais im Motorraum (D)</Descrizione>
+        <Riferimento>Motorraum – neben der Batterie</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005453</RifIDImmagine>
+        <Numero>5</Numero>
+        <Descrizione>Sicherungskasten / Innenraumrelais (A)</Descrizione>
+        <Riferimento>Unter dem Armaturenbrett – linke Seite</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005453</RifIDImmagine>
+        <Numero>6</Numero>
+        <Descrizione>Sicherungskasten / Relais im Fahrgastraum (B)</Descrizione>
+        <Riferimento>In den Sicherungskasten integriert</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242244</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Titolo>Sicherungskasten – Motorraum (A)</Titolo>
+      <RifIDFileIMGANI>299009374</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005456</ID>
+      <XFILE>
+        <ID>299009374</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009374</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>ABS+ESP-Steuergerät</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Kraftstofftemperatursensor</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Elektrische Kraftstoffpumpe mit Füllstandssensor</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Vakuum-/Unterdruckpumpenrelais</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Elektrischer Motorlüfter</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Elektrische Kühlmittelpumpe für Turbolader</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Umschaltmagnetventil</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Kraftstoffzusatz-Relais</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Einspritzkomponenten</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Einspritzsteuergerät</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Einstellung der Nockenwellenverstellung</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Einspritzsteuergerät</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Motorvorwärmventil</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Scheibenwischer</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Steuergerät für Automatikgetriebe</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Getriebedrehzahlsensor</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>APC-Relais</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Steuerung des Automatikgetriebes</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Heizrelais für den Kraftstofffilter</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Rückfahrlichtrelais</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherungskasten / Relais im Motorraum (A)</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Anhänger-Steuergerät</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Kofferraumbeleuchtung</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Stellantrieb für variablen Zylinder</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F14</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F15</Numero>
+        <Descrizione>Einspritzsteuergerät</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242244</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Titolo>Sicherungskasten – Motorraum (B)</Titolo>
+      <RifIDFileIMGANI>299009367</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005457</ID>
+      <XFILE>
+        <ID>299009367</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009367</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005457</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005457</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005457</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Netzstabilisator</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005457</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005457</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005457</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005457</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Sicherung 07 – Sicherungskasten im Fahrgastraum (B)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005457</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Akustisches Warnrelais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242244</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Titolo>Sicherungskasten – Motorraum (C)</Titolo>
+      <RifIDFileIMGANI>299009376</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005458</ID>
+      <XFILE>
+        <ID>299009376</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009376</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Kraftstoffzusatz-Heizung</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Additiv-Einspritzdüse</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>NOx-Sensor</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Steuergerät für Automatikgetriebe</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Drehzahlsensor für Automatikgetriebe</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Steuergerät für Automatikgetriebe</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Getriebeölpumpe</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Ölpumpenrelais für das Getriebe</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Relais für die Kraftstoffzusatzpumpe</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Ölpumpenrelais für das Getriebe</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>APC-Relais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242244</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Titolo>Sicherungskasten – Motorraum (D)</Titolo>
+      <RifIDFileIMGANI>299009369</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005459</ID>
+      <XFILE>
+        <ID>299009369</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009369</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Steuergerät für Automatikgetriebe</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Kraftstofffilterheizung</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Wassersensor</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Sicherungskasten / Relais im Motorraum (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Sicherung 06 – Sicherungskasten im Motorraum (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Sicherung 04 – Sicherungskasten im Motorraum (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Sicherung 05 – Sicherungskasten im Motorraum (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Sicherung 07 – Sicherungskasten im Motorraum (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Elektrischer Motorlüfter</Descrizione>
+        <Riferimento>60 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Steuergerät für die Vorwärmung</Descrizione>
+        <Riferimento>70 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Sicherungskasten / Relais im Motorraum (A)</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Anlasserrelais</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Steuergerät für Automatikgetriebe</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Vakuumpumpe / Unterdruckpumpe</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Sicherung 01 – Sicherungskasten im Motorraum (C)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Sicherung 02 – Sicherungskasten im Motorraum (C)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Sicherung 03 – Sicherungskasten im Motorraum (C)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Glühkerzen</Descrizione>
+        <Riferimento>70 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Glühkerzen</Descrizione>
+        <Riferimento>70 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Anlasserrelais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Vakuum-/Unterdruckpumpenrelais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>R4</Numero>
+        <Descrizione>Rückfahrlichtrelais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>R5</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>R6</Numero>
+        <Descrizione>Heizrelais für den Kraftstofffilter</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242244</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Titolo>Sicherungskasten – Fahrgastraum (A)</Titolo>
+      <RifIDFileIMGANI>299009375</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005454</ID>
+      <XFILE>
+        <ID>299009375</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009375</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Schließen der Tankklappe</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Zentralverriegelung</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Schließen der Fahrertür</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Schließen der Beifahrertür</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Zentralverriegelung</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Kofferraumverschluss</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Türverriegelung</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Steuergerät für die Lenkradsperre</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Keyless-Steuergerät</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Innenraum-/Kofferraum-/Pfützenbeleuchtung</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Relais für die Innenbeleuchtung</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Innenbeleuchtung</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Drittes Bremslicht</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Rückspiegel</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Rückleuchten</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Anhänger-Steuergerät</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Rückleuchten</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Scheibenwischerantrieb</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Anhänger-Steuergerät</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Handbremse / Feststellbremse</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Zeitgesteuertes Batterieversorgungsrelais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 11 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 39 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 07 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 10 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 45 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 42 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 40 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 08 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 47 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 09 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 54 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 52 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 50 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 48 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 46 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 43 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 41 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 51 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 53 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 55 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 49 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sicherung 12 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F14</Numero>
+        <Descrizione>Innenraum-/Kofferraum-/Pfützenbeleuchtung</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F15</Numero>
+        <Descrizione>Armaturenbrett</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Alarmanlage / Diebstahlsicherung</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Volumetrische Diebstahlsicherungssensoren</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>APC-Relais</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F17</Numero>
+        <Descrizione>Autoradio-Verstärker</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Autoradio</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F19</Numero>
+        <Descrizione>Multi-Info-Display</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F19</Numero>
+        <Descrizione>12-V-Steckdose</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>Diagnosestecker</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>CAN-Netzwerk-Steuergerät</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F21</Numero>
+        <Descrizione>Telematik-Steuergerät / Dienstleistungen</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F22</Numero>
+        <Descrizione>Steuergerät für Handbremse / Feststellbremse</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F23</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Handbremse / Feststellbremse</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F25</Numero>
+        <Descrizione>Bremspedalschalter</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F25</Numero>
+        <Descrizione>Rückleuchten</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F25</Numero>
+        <Descrizione>Anhänger-Steuergerät</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Zeitgesteuertes Batterieversorgungsrelais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Sicherung 23 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Sicherung 24 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Sicherung 25 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Sicherung 30 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Sicherung 31 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Sicherung 32 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Sicherung 34 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Sicherung 20 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Sicherung 22 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Sicherung 21 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F27</Numero>
+        <Descrizione>Rückspiegel</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F28</Numero>
+        <Descrizione>Anhänger-Steuergerät</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F28</Numero>
+        <Descrizione>Steuergerät für Anhängerkupplung</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F29</Numero>
+        <Descrizione>Akustischer Signalgeber</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F29</Numero>
+        <Descrizione>Akustisches Warnrelais</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F30</Numero>
+        <Descrizione>Zigarettenanzünder</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F30</Numero>
+        <Descrizione>12-V-Steckdose</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F31</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F32</Numero>
+        <Descrizione>Scheibenwaschpumpe vorne / hinten</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F33</Numero>
+        <Descrizione>Sicherung 01 – Sicherungskasten im Fahrgastraum (B)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Elektrischer Innenraumlüfter</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F35</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Beheizbare Heckscheibe</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Sicherung 27 – Sicherungskasten im Fahrgastraum (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F38</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F39</Numero>
+        <Descrizione>Fensterheber vorne rechts</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F40</Numero>
+        <Descrizione>Fensterheber hinten links</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F41</Numero>
+        <Descrizione>Heckfensterheber rechts</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F42</Numero>
+        <Descrizione>Fensterheber vorne links</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F43</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F44</Numero>
+        <Descrizione>Lenkwinkelsensor</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F45</Numero>
+        <Descrizione>Innenraum-Lufttemperatursensor</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F45</Numero>
+        <Descrizione>Regen-/Lichtsensor</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F45</Numero>
+        <Descrizione>Bedienelemente der Klimaanlage</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Transponder-Modul für den Zündschlüssel</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Kupplungspedal-Positionssensor</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Sicherungskasten / Relais im Motorraum (A)</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Anhänger-Steuergerät</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Steuergerät für Anhängerkupplung</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Steuergerät für den Tempomat mit Abstandsregelung</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Kofferraumbeleuchtung</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F47</Numero>
+        <Descrizione>Diebstahlsicherung</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F48</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>ABS+ESP-Steuergerät</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>Bremspedalschalter</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F50</Numero>
+        <Descrizione>Rückspiegel</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F51</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F52</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F53</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F54</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F55</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F56</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F57</Numero>
+        <Descrizione>Airbag-Steuergerät</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F58</Numero>
+        <Descrizione>Armaturenbrett</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F59</Numero>
+        <Descrizione>Servolenkungssteuergerät</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Autoradio</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Relais für Zusatzheizung</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Steuergerät für Einparkhilfe</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Blendfreier Rückspiegel</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Relais für die Heckscheibenheizung</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Sonderausstattungen</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Steuergerät für Handbremse / Feststellbremse</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Modul zur Meldung von Sicherheitsgurten</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Moped-Scheinwerferverstellung – links</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Scheinwerfer-Einstellvorrichtung für Moped – rechts</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Kameramodul</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>CAN-Netzwerk-Steuergerät</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Telefonformular</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Toter-Winkel-Sensor</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Aufprallwarner</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Zeitgesteuertes Batterieversorgungsrelais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Zeitgesteuertes Batterieversorgungsrelais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>R4</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>R5</Numero>
+        <Descrizione>Relais für die Heckscheibenheizung</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>R6</Numero>
+        <Descrizione>Relais für die Innenbeleuchtung</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>R7</Numero>
+        <Descrizione>APC-Relais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242244</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Titolo>Sicherungskasten – Fahrgastraum (B)</Titolo>
+      <RifIDFileIMGANI>299009371</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005455</ID>
+      <XFILE>
+        <ID>299009371</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009371</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Beheizbares Lenkrad</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Relais für die Lenkradheizung</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Scheinwerfer-Leuchtweitenregler</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Sitzheizung</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2024-10-29T05:30:48">
+<XDOCUMENTO>
+<ID>199273607</ID>
+<DOCNumber>GUP89369</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Assorbimento anomalo batteria</Titolo>
+<InfoDoc>71635 | ELETTRONICA | BATTERIA | SCARICA | SCARICAMENTO | ASSORBE | CONSUMA | CARICA | AVVIAMENTO | NON PARTE | 12V | SPIA | ACCENSIONE | ACCENDE | AVVIA | MANCATO | MANCATA | MESSAGGIO | AVVISO |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199273607</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (***)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199273607</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Validità:&lt;/B&gt; Vetture prodotte dal 01/01/19 al 10/11/21&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Elettronica&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Centralina di protezione e commutazione (1337)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Assorbimento anomalo della batteria 12V, con possibile impossibilità ad avviare il motore, accensione della spia batteria e messaggio di avviso &quot;Batteria scarica, avviare il motore&quot;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Errore software centralina di protezione e commutazione (1337)&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199273607</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Eseguire la riprogrammazione ed aggiornamento della centralina di protezione e commutazione (1337)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; Prima di procedere con la riprogrammazione ed aggiornamento della centralina di protezione e commutazione (1337), Verificare che la batteria 12V non si sia danneggiata a seguito dello scaricamento improvviso e sostituirla se necessario.&lt;BR/&gt;Collegare un caricabatteria ai morsetti della batteria 12V, quindi eseguire la riprogrammazione e l&apos;aggiornamento della centralina di protezione e commutazione (1337) tramite diagnosi.&lt;BR/&gt;&lt;I&gt; Se il codice prodotto della centralina di protezione e commutazione (1337) è 284B61704R, non è possibile eseguire la riprogrammazione della centralina ed è necessario procedere con la sua sostituzione.&lt;/I&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; Utilizzando uno strumento diagnostico, verificare inoltre che tutti i sistemi correlati funzionino correttamente. Se sono presenti DTC o condizioni sintomatiche diverse da quelle elencate, procedere alla loro risoluzione prima di proseguire con questo bollettino.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

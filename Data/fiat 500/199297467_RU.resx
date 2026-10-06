@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:47:14">
+  <XDOCUMENTO>
+    <ID>199297467</ID>
+    <DOCNumber>GUP94743</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Zapalenie się kontrolki awarii silnika przy prawidłowo działającym pojeździe</Titolo>
+    <InfoDoc>INIEZIONE | ELETTROVALVOLA | VARIATORE | FASE | VALVOLA | ELETTRICA | ELETTRONICA | P0009 | P0011 | ACCENDE | ACCESA | MIL | GIALLO | GIALLA | COMANDO | FILTRINO | FILTRO | SPORCO | IMBRATTATO | SPORCA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199297467</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Stopień wiarygodności   (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Legenda stopni wiarygodności &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  * niski poziom &lt;/B&gt;  : Obserwacja mechanika samochodowego, przypadek usterki nieodnotowany przez producenta. &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  ** poziom średni &lt;/B&gt;  : Szeroko rozpowszechniony przypadek usterki, odnotowany przez techników serwisowych i mechaników. &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  *** poziom wysoki &lt;/B&gt;  : Pewność wystąpienia usterki, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199297467</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Układ: &lt;/B&gt;  Wtrysk &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Urządzenie: &lt;/B&gt;  Elektrozawór zmiennego rozrządu &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Usterka: &lt;/B&gt;  W pojeździe zapala się kontrolka awarii silnika, przy czym silnik nadal pracuje prawidłowo &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Błędy wykryte przez system autodiagnostyki: &lt;/B&gt;  &lt;UL&gt;   &lt;LI&gt;   P0009 (Układ rozrządu/sterowania silnikiem, rząd cylindrów 2 – błąd ogólny) &lt;BR&gt;  &lt;LI&gt;   P0011 (Położenie/faza wałka rozrządu 1, rząd cylindrów 1 – regulacja wyprzedzenia zapłonu) &lt;/UL&gt;  &lt;LI&gt;   &lt;B&gt;  Przyczyna: &lt;/B&gt;  Zanieczyszczony filtr zaworu elektromagnetycznego zmiennego fazowania &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199297467</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Czynność: &lt;/B&gt;  Sprawdzić stan filtra zaworu elektromagnetycznego regulatora faz rozrządu, w razie potrzeby wymienić sam zawór elektromagnetyczny &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Procedura: &lt;/B&gt;  - - &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Uwaga: &lt;/B&gt;  W omawianym przypadku wymieniono elektromagnetyczny zawór regulatora faz, ponieważ stwierdzono, że jego filtr był zanieczyszczony; w celu ostatecznego usunięcia usterki wymieniono również sam regulator faz. &lt;BR&gt; Element ten znajduje się w górnej części komory silnika, po stronie pasażera, połączony z pokrywą popychaczy. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

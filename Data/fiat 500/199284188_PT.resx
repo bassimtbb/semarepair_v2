@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-31T23:43:14">
+  <XDOCUMENTO>
+    <ID>199284188</ID>
+    <DOCNumber>GUP92079</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Acendimento da luz de avaria do motor com o veículo a funcionar corretamente</Titolo>
+    <InfoDoc>INIEZIONE | ACCESA | ACCENDE | ACCESO | GIALLA | GIALLO | VARIATORE | FASE | ELETTROVALVOLA | VALVOLA | ELETTRICA | COMANDO | GESTIONE | PESCANTE | FILTRO | OLIO | FUNZIONA | BENE | CORRETTAMENTE | P0012 | P0009 | P0011 | VELOCITà | ESAUSTO | DENSO | MIL</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199284188</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda do grau de fiabilidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nível baixo &lt;/B&gt; : Detecção pelo mecânico, caso de avaria não constatado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nível médio &lt;/B&gt; : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nível alto &lt;/B&gt; : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284188</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sistema: &lt;/B&gt;  Injeção &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Anomalia: &lt;/B&gt;  Luz de avaria do motor acesa de forma permanente, mas o veículo funciona corretamente. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Erros detetados pelo autodiagnóstico: &lt;/B&gt;  Um ou mais dos seguintes:&lt;UL&gt; &lt;LI&gt;  P0012 (Posição/fase da árvore de cames 1, banco 1 - Ajuste atrasado) &lt;BR/&gt;  &lt;LI&gt;  P0009 (Sistema de sincronização/controlo do motor, banco 2 - Erro) &lt;BR/&gt;  &lt;LI&gt;  P0011 (Posição/fase do eixo de comando 1, banco 1 - Ajuste antecipado)&lt;/UL&gt; &lt;LI&gt;  &lt;B&gt; Causa: &lt;/B&gt;  Óleo do motor usado que, devido à sua elevada densidade, comprometeu o funcionamento do variador de fase. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284188</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Intervenção: &lt;/B&gt;  Verificar o estado do óleo do motor e o funcionamento correto do variador de fase e da eletroválvula de comando e, se necessário, proceder à sua substituição/reparação &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  Caso se verifique uma densidade elevada do óleo do motor, proceder da seguinte forma:&lt;UL&gt; &lt;LI&gt;  Efetuar uma limpeza minuciosa do tubo de sucção do óleo do motor &lt;BR/&gt;  &lt;LI&gt;  Substituir o filtro de óleo &lt;BR/&gt;  &lt;LI&gt;  Efetuar a renovação completa do óleo do motor &lt;BR/&gt;  &lt;LI&gt;  Substituir/repor o variador de fase &lt;BR/&gt;  &lt;LI&gt;  Substituir/repor a eletroválvula de comando do variador de fase&lt;/UL&gt; &lt;LI&gt;  &lt;B&gt; Nota: &lt;/B&gt;  No caso em apreço, foram inicialmente removidas a tampa das válvulas e o cárter de óleo do motor, tendo-se constatado que o óleo do motor estava esgotado e espesso, sendo este o responsável pela anomalia detetada. Posteriormente, através de equipamento de diagnóstico, foi necessário efetuar a reinicialização das «frentes de came». Estas intervenções permitiram eliminar a anomalia e restabelecer o funcionamento correto do sistema. &lt;BR/&gt; No que diz respeito à localização dos componentes, o variador de fase encontra-se na parte superior do motor, do lado do passageiro, fixado na extremidade do eixo de comando e acessível através da desmontagem do sistema de distribuição; para o correto alinhamento da fase, é necessário utilizar os gabaritos específicos. A eletroválvula do variador de fase, por sua vez, está localizada acima da tampa das válvulas, virada para o habitáculo, sempre do lado do passageiro. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

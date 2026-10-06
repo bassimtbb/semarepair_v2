@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T16:03:22">
+  <XDOCUMENTO>
+    <ID>199308056</ID>
+    <DOCNumber>GUP96898</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Acendimento da luz de aviso do airbag (amarela e depois vermelha), avaria genérica e falha no funcio</Titolo>
+    <InfoDoc>AIRBAG | CENTRALINA | ACCENDE | ACCESA | GIALLO | GIALLA | ROSSO | ROSSA | TRIANGOLO | PERICOLO | PUNTO | ESCLAMATIVO | INATTIVO | FUNZIONA | START | STOP |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199308056</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Legenda do grau de fiabilidade &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  * nível baixo &lt;/B&gt;  : Detecção pelo técnico de reparação, caso de avaria não registado pelo fabricante. &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  ** nível médio &lt;/B&gt;  : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos independentes. &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  *** nível elevado &lt;/B&gt;  : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199308056</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Sistema: &lt;/B&gt;  Airbag &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Dispositivo: &lt;/B&gt;  Unidade de controlo do airbag &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Anomalia: &lt;/B&gt;  Acendimento da luz de aviso do airbag (amarela e depois vermelha) e avaria genérica, com falha no funcionamento do sistema Start&amp;Stop &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Erros detetados pelo autodiagnóstico: &lt;/B&gt;  - - &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Causa: &lt;/B&gt;  Módulo de controlo do airbag com avaria &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199308056</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Intervenção: &lt;/B&gt;  Verificar o estado e o funcionamento correto da unidade de controlo do airbag; se necessário, proceder à sua reparação/substituição &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Procedimento: &lt;/B&gt;  - - &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Nota: &lt;/B&gt;  Após a substituição, foi necessário efetuar o alinhamento Proxy através de equipamento de diagnóstico, devido ao piscar do conta-quilómetros. A intervenção resolveu definitivamente o problema. &lt;BR&gt; O componente está localizado no habitáculo, no túnel central; é acessível por baixo do porta-objetos à esquerda, após a remoção de uma proteção de plástico. &lt;BR&gt;  &lt;BR&gt; O tempo previsto para a intervenção é de cerca de 0,5 h. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

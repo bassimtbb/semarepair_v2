@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T00:39:01">
+  <XDOCUMENTO>
+    <ID>199274296</ID>
+    <DOCNumber>GUP89958</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Falha na partida e/ou no desligamento, avarias de diversa natureza nas funções do habitáculo</Titolo>
+    <InfoDoc>15761 | LAVAFARI | ELETTRONICA | INIEZIONE | ILLUMINAZIONE | FRECCIE | FARI | LUCI | PROIETTORI | ANABBAGLIANTI | ABBAGLIANTI | SPEGNE | ACCENDE | MOTORINO | PERICOLO | REGOLAZIONE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199274296</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Nível de fiabilidade   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda do grau de fiabilidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nível baixo &lt;/B&gt; : Detecção pelo mecânico, caso de avaria não constatado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nível médio &lt;/B&gt; : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nível alto &lt;/B&gt; : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199274296</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sistema: &lt;/B&gt;  Eletrónica &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt;  Relé do lava-faróis &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Anomalia: &lt;/B&gt;  Falha no arranque e/ou desligamento, avarias de diversa natureza nas funções do habitáculo, tais como indicadores de direção ativos, falha no funcionamento dos faróis de cruzamento, etc.  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Erros detetados pelo autodiagnóstico: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Causa: &lt;/B&gt;  Interferências causadas pelos relés do lava-faróis da caixa de fusíveis &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199274296</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Intervenção: &lt;/B&gt;  Substituir os dois relés dos faróis de estrada &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  Para verificar se a série de anomalias se deve a interferências causadas pelos relés dos lavadores de faróis na caixa de fusíveis do compartimento do motor, certifique-se de que: &lt;UL&gt;    &lt;LI&gt;   &lt;I&gt; Com o motor desligado &lt;/I&gt; , no painel de instrumentos apareça o aviso «Avaria eletrónica», com a luz de avaria e os piscas laterais acesos de forma constante.  &lt;LI&gt;   &lt;I&gt; Com o motor ligado &lt;/I&gt; , as anomalias no painel de instrumentos mantêm-se; além disso, os faróis médios acendem-se e o ventilador elétrico dianteiro e o limpa-para-brisas dianteiro são ativados.  &lt;/UL&gt; Se o veículo apresentar este comportamento, a interferência é causada pelos relés do sistema de lavagem dos faróis. Substitua os dois relés do sistema de lavagem dos faróis na caixa de fusíveis do compartimento do motor pelas novas versões (código do produto 8200337663). &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Nota: &lt;/B&gt;  Se o veículo estiver equipado com o sistema de lavagem dos faróis, substitua os dois relés em questão. &lt;BR/&gt; Se o veículo não estiver equipado com o sistema de lavagem dos faróis, poderá, mesmo assim, estar equipado com os dois relés; nesse caso, basta remover os dois relés em questão. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

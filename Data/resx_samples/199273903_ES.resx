@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T00:38:11">
+  <XDOCUMENTO>
+    <ID>199273903</ID>
+    <DOCNumber>GUP89665</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Aviso «NIVEL DE ACEITE DEMASIADO ALTO»</Titolo>
+    <InfoDoc>INYECCIÓN | SEL-SEL-P-0-20000789766373 | 2C6C00 | 35BD00 | INDICACIÓN | MENSAJE | PANTALLA | ACEITE | NIVEL | DEMASIADO | ALTO | MOTOR | CONTAMINADO | COMBUSTIBLE | ACTUALIZAR | ACTUALIZACIÓN | SOFTWARE | UNIDAD DE CONTROL |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guía de reparación</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199273903</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grado de fiabilidad (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Leyenda del grado de fiabilidad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nivel bajo &lt;/B&gt; : Detección del mecánico, caso de avería no detectado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nivel medio &lt;/B&gt;  : Casos frecuentes de avería, detectados por los técnicos de asistencia y los mecánicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nivel alto &lt;/B&gt; : Anomalía confirmada, buen grado de «repetitividad» señalado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273903</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificación del sistema/avería</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Sistema: &lt;/B&gt; Inyección &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositivo: &lt;/B&gt; Unidad de control de inyección &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalía: &lt;/B&gt; Aviso «NIVEL DE ACEITE DEMASIADO ALTO» &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errores detectados por el autodiagnóstico: &lt;/B&gt; Uno o varios de los siguientes errores: &lt;BR/&gt; &lt;UL&gt;   &lt;LI&gt; 2C6C00 (Nivel de aceite del motor demasiado alto) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; 35BD00 (Intervalo de cambio de aceite del motor reducido) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Causa: &lt;/B&gt; Software de la unidad de control de inyección inadecuado &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273903</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimiento de reparación</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervención: &lt;/B&gt; Comprobar el nivel de aceite del motor: &lt;BR/&gt; &lt;OL&gt; &lt;LI&gt; Si es demasiado alto, realizar el procedimiento para restablecer el nivel de aceite &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Si es correcto, esto indica que hay un problema de software en la unidad de control de inyección que solo se puede resolver realizando la actualización correspondiente &lt;/OL&gt; &lt;LI&gt; &lt;B&gt; Procedimiento: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Nota: &lt;/B&gt; &lt;I&gt; ATENCIÓN &lt;/I&gt; : &lt;BR/&gt; &lt;UL&gt; &lt;LI&gt; Si hay códigos de diagnóstico (DTC) o condiciones sintomáticas distintas a las enumeradas, resuélvalas antes de continuar con este boletín. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Para realizar la actualización, la batería del vehículo debe estar en condiciones óptimas de carga o contar con el apoyo de un cargador de batería o una batería adicional, a fin de garantizar la tensión nominal de 12 V. Apague todas las luces y los accesorios para evitar descargas. &lt;/UL&gt; Tiempo estimado para restablecer el nivel de aceite del motor: 40 minutos. &lt;BR/&gt; &lt;BR/&gt; Tiempo estimado para restablecer el nivel de aceite del motor y para realizar la actualización del software de la centralita de inyección: 1 hora y 25 minutos &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

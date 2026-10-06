@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T04:48:16">
+  <XDOCUMENTO>
+    <ID>199269075</ID>
+    <DOCNumber>POP84110</DOCNumber>
+    <RifIDTipoRis>46</RifIDTipoRis>
+    <Titolo>WICHTIGE INFORMATION</Titolo>
+    <InfoDoc>ZZZ+TGE88342+TGE88343</InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>46</ID>
+      <TipoRis>POP</TipoRis>
+      <DscRis>Hinweis</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199269075</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>WARTUNG: RIEMEN UND BAUGRUPPEN Wartung in festgelegten Intervallen</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; Wichtige Austauschmaßnahmen: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Alle 210.000 km – Zahnriemen – Austausch &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Alle 210.000 km – Zahnriemenspanner – Austausch &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199269075</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>WARTUNG: RIEMEN UND BAUGRUPPEN Langzeitwartung – Longlife</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; Wichtige Austauschmaßnahmen: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Alle 210.000 km – Zahnriemen – Austausch &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Alle 210.000 km – Zahnriemenspanner – Austausch &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

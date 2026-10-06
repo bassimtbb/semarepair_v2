@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:14:42">
+  <XDOCUMENTO>
+    <ID>62507668</ID>
+    <DOCNumber>GUR62742</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Przywrócenie działania systemu po odłączeniu akumulatora</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Instrukcja regulacji</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Lokalizacja akumulatora</Capitolo>
+      <Corpo> &lt;BR/&gt; Akumulator znajduje się w komorze silnika, po stronie kierowcy, w pobliżu nadkola. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>199000376</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>199000376</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:199000376</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Procedura odłączania akumulatora</Capitolo>
+      <Corpo> &lt;BR/&gt; W przypadku konieczności odłączenia akumulatora należy: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Sprawdzić, czy wszystkie  &lt;B&gt; urządzenia elektryczne &lt;/B&gt;  w samochodzie, takie jak radioodtwarzacz, nawigacja itp.,  &lt;B&gt; są wyłączone &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt; Sprawdzić, czy &lt;B&gt; zapłon jest wyłączony &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt; Mieć pod ręką  &lt;B&gt; kod radia &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt; Wyłączyć zapłon i odczekać 5 minut &lt;BR/&gt;  &lt;BR/&gt; Następnie można przystąpić do odłączenia akumulatora,  &lt;B&gt; zdejmując najpierw biegun ujemny, a następnie dodatni &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; Po odłączeniu akumulatora należy odczekać kilka minut przed przystąpieniem do jakichkolwiek czynności związanych z instalacją poduszek powietrznych</Corpo>
+      <RifIDFileIMGANI>62503878</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503878</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503878</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procedura podłączania akumulatora</Capitolo>
+      <Corpo> &lt;BR/&gt; Aby ponownie podłączyć akumulator, należy postępować w następujący sposób: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Najpierw podłączyć biegun dodatni &lt;/B&gt; , a następnie biegun ujemny akumulatora &lt;BR/&gt;  &lt;LI&gt; Przywrócić kod radiowy (w razie potrzeby) &lt;BR/&gt;  &lt;LI&gt; Usunąć ewentualne  &lt;B&gt; błędy zapisane w pamięci &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt; Włączyć zapłon i odczekać 40 sekund &lt;BR/&gt;  &lt;LI&gt; Wyłączyć zapłon &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503879</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>62503879</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503879</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Przywracanie elektrycznego szyberdachu</Capitolo>
+      <Corpo> &lt;BR/&gt; Procedura inicjalizacji elektrycznego dachu: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Włączyć zapłon &lt;BR/&gt;  &lt;LI&gt; Nacisnąć i przytrzymać przycisk zamykania dachu &lt;BR/&gt;  &lt;LI&gt; Poczekać, aż elektryczny dach całkowicie się zamknie &lt;BR/&gt;  &lt;LI&gt; Po całkowitym zamknięciu dachu poczekać, aż silnik elektryczny się zatrzyma &lt;BR/&gt;  &lt;LI&gt; Zwolnić przycisk zamykania elektrycznego dachu &lt;BR/&gt;  &lt;BR/&gt; System został zainicjowany. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>Przywracanie radia samochodowego</Capitolo>
+      <Corpo> &lt;BR/&gt; Po odłączeniu akumulatora na wyświetlaczu radia samochodowego może pojawić się  &lt;B&gt; „Radio Code” &lt;/B&gt;  a następnie  &lt;B&gt; „ - - - -” &lt;/B&gt;  &lt;BR/&gt; Należy wówczas wprowadzić kod radia. &lt;BR/&gt; Należy użyć przycisków zaprogramowanych stacji radiowych (od 1 do 6) &lt;BR/&gt; Jeśli 4 cyfry nie zostaną wprowadzone w ciągu 20 sekund, na wyświetlaczu pojawi się komunikat &lt;B&gt; „Enter Code - - - -” &lt;/B&gt; &lt;BR/&gt; Po wprowadzeniu 4 cyfr może minąć do 20 sekund, zanim radio samochodowe zacznie działać. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

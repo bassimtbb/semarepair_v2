@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:44:28">
+  <XDOCUMENTO>
+    <ID>199287995</ID>
+    <DOCNumber>GUP92688</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Sporadyczne awarie systemu Hill Hold z komunikatem „Hill Hold niedostępny” na wyświetlaczu</Titolo>
+    <InfoDoc>ELETTRONICA | FRENO | MANO | STAZIONAMENTO | ELETTRICO | ELETTRONICO | AUTO HOLD | AUTO | HOLD | ASSISTENZA | SALITA | DISCESA | C10CE | FUNZIONA | INDICAZIONE | QUADRO | STRUMENTI | HILL | HOLDER | FRENA | FRENATE | RUOTE | GOMME | ADAS |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199287995</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Stopień wiarygodności   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda stopnia wiarygodności &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niski poziom &lt;/B&gt; : Wykryte przez mechanika samochodowego, przypadek usterki niepotwierdzony przez producenta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** średni poziom &lt;/B&gt; : Częste przypadki usterki, potwierdzone przez techników serwisowych i mechaników. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** wysoki poziom &lt;/B&gt; : Potwierdzona anomalia, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199287995</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Układ: &lt;/B&gt;  Elektronika &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Urządzenie: &lt;/B&gt;  Styki przełącznika Auto-Hold &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Usterka: &lt;/B&gt;  W pojeździe sporadycznie występuje awaria funkcji Hill Holder, co sygnalizowane jest komunikatem „Hill Holder niedostępny” na wyświetlaczu tablicy rozdzielczej. Usterkę można usunąć, naciskając przełącznik Auto Hold. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Błędy wykryte przez autodiagnostykę: &lt;/B&gt;  C10CE (Przełącznik Auto-Hold – błąd) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Przyczyna: &lt;/B&gt;  Zoksydowane styki przełącznika Auto-Hold &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199287995</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Czynność: &lt;/B&gt;  Sprawdzić stan połączeń przełącznika i w razie potrzeby je naprawić. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedura: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Uwaga: &lt;/B&gt;  Przełącznik Auto-Hold znajduje się w kabinie pasażerskiej, obok przycisku hamulca ręcznego, w kierunku tunelu środkowego. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:52:46">
+  <XDOCUMENTO>
+    <ID>199298110</ID>
+    <DOCNumber>GUP94856</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Engine failure to start, engine fault warning lights and glow plugs active, gearbox stuck in gear.</Titolo>
+    <InfoDoc>GEARBOX | ELECTRONICS | CONTROL UNIT | MECHATRONICS | GEARBOX | AUTOMATIC | P0850 | P0607 | LIGHT UP | LIGHTED | LIGHTED | MIL | YELLOW | YELLOW | LOCK | SECOND | RATIO | GEARS | FLASHES | INTERMITTENT | FLASHING |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199298110</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Level of reliability (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Reliability rating key &lt;BR&gt;&lt;BR&gt; &lt;B&gt; * low level &lt;/B&gt; : Reported by a car repairer; fault case not recorded by the manufacturer. &lt;BR&gt;&lt;BR&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Widespread occurrence of the fault, confirmed by service technicians and independent repairers. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** high level &lt;/B&gt; : Confirmed fault, with a high degree of ‘recurrence’ reported by the manufacturer. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199298110</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System / fault identification</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Applicability: &lt;/B&gt; Vehicles fitted with a 7-speed DSG7 gearbox (Volkswagen 0CW dual-clutch gearbox) &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Gearbox &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Component: &lt;/B&gt; Automatic gearbox mechatronic control unit &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; The vehicle fails to start, with the starter motor not turning; at the same time, the gearbox remains permanently locked in one gear (second gear), with the engine fault light illuminated and the glow plug fault light flashing. &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Errors detected by the self-diagnostic system: &lt;/B&gt; &lt;UL&gt; &lt;LI&gt; P0850 (Gear selector switch input circuit, P-N position – Generic fault) &lt;BR&gt;  &lt;LI&gt; P0607 (Engine injection control unit, performance module – Internal fault) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Faulty automatic gearbox mechatronic control unit &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199298110</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check the operation of the automatic gearbox mechatronic control unit and, if necessary, repair it &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; In this case, an oil leak was detected on the automatic gearbox mechatronic control unit; following its replacement, the fault was permanently resolved. &lt;BR&gt; The component is accessible from beneath the engine; it is located in the engine compartment between the engine and the radiator, on the driver’s side, and is connected to the gearbox on the outside, near the radiator; the control unit can be accessed after removing a radiator coolant hose. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T20:24:24">
+  <XDOCUMENTO>
+    <ID>199212796</ID>
+    <DOCNumber>DRA76195</DOCNumber>
+    <RifIDTipoRis>45</RifIDTipoRis>
+    <Titolo>Transmission à double embrayage Volkswagen 0D9 (6 vitesses)</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>45</ID>
+      <TipoRis>DRV</TipoRis>
+      <DscRis>Transmission automatique</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Caractéristiques techniques des lubrifiants  - </Capitolo>
+      <Corpo> &lt;B&gt; Constructeur : &lt;/B&gt; Volkswagen AG &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Désignation : &lt;/B&gt; 0D9 / DQ250 &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Nom commercial : &lt;/B&gt; DSG6, S-Tronic &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Intervalle de vidange d&apos;huile recommandé par le constructeur de la boîte de vitesses automatique : &lt;/B&gt; &lt;BR/&gt; 60 000 km &lt;BR/&gt; &lt;BR/&gt; &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt; &lt;TH width=60% class=&quot;chiaro&quot;&gt; Description &lt;/TH&gt; &lt;TH width=25% class=&quot;chiaro&quot;&gt; Unité de mesure &lt;/TH&gt; &lt;TH width=15% class=&quot;chiaro&quot;&gt; Données &lt;/TH&gt; &lt;TR&gt; &lt;TD&gt; Référence de la boîte de vitesses automatique : &lt;/TD&gt; &lt;TD&gt; N° de référence &lt;/TD&gt; &lt;TD&gt; 0D9 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Nombre de rapports : &lt;/TD&gt; &lt;TD&gt; N° &lt;/TD&gt; &lt;TD&gt; 6 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Huile de boîte de vitesses automatique - Spécifications du constructeur : &lt;/TD&gt; &lt;TD&gt; N° de réf. &lt;/TD&gt;  &lt;TD&gt; VW G 052 182 A2/A6 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Huile de boîte de vitesses automatique - Quantité à vide : &lt;/TD&gt; &lt;TD&gt; Litres &lt;/TD&gt; &lt;TD&gt; 6,9~7,2 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Huile de boîte de vitesses automatique - Quantité pour la vidange : &lt;/TD&gt; &lt;TD&gt; Litres &lt;/TD&gt; &lt;TD&gt; 5,2 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Huile de boîte de vitesses automatique - Quantité pour le rinçage : &lt;/TD&gt; &lt;TD&gt; Litres &lt;/TD&gt; &lt;TD&gt; 8,9~9,2 &lt;/TD&gt;  &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Température de contrôle du niveau d&apos;huile de boîte de vitesses automatique : &lt;/TD&gt; &lt;TD&gt; °C &lt;/TD&gt; &lt;TD&gt; 35 ~ 45° &lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt; &lt;BR/&gt; Effectuer le contrôle du niveau d&apos;huile de boîte de vitesses automatique avec le moteur en marche. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503980</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503980</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503980</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>15</Ordine>
+      <Capitolo>Identification automatique de la boîte de vitesses</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Il est possible d&apos;identifier le modèle de la boîte de vitesses en lisant la plaque supérieure.&lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Le &lt;BR/&gt; symbole &lt;B&gt;1 &lt;/B&gt;identifie le code de la boîte de vitesses.&lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Le &lt;BR/&gt; symbole &lt;B&gt;2 &lt;/B&gt;identifie la date de production (jj.mm.aa).&lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Le &lt;BR/&gt; symbole &lt;B&gt;3 &lt;/B&gt;identifie l&apos;usine de production.&lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Le &lt;BR/&gt; symbole &lt;B&gt;4 &lt;/B&gt;indique l&apos;heure de production.&lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Le &lt;BR/&gt; symbole &lt;B&gt;5 &lt;/B&gt;identifie le numéro de série.&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007243</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007243</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007243</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>16</Ordine>
+      <Capitolo>Dispositif de lavage automatique de la transmission avec équipement</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Pour le rinçage de la boîte de vitesses automatique, il est conseillé de brancher l&apos;équipement à la place du filtre de la boîte de vitesses automatique &lt;B&gt;(fig. 1b).&lt;/B&gt;&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;1a &lt;/B&gt;- Filtre de la transmission automatique&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;1b &lt;/B&gt;- Raccord de la rondelle de la boîte de vitesses&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;2 &lt;/B&gt;- Bouchon de vidange de l&apos;huile de la boîte de vitesses automatique&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299002408</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299002408</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299002408</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>17</Ordine>
+      <Capitolo>Outils spéciaux et équipement d&apos;atelier</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;font-size:12.0pt; line-height:107%;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:0cm;margin-bottom:.0001pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Adaptateur de remplissage d&apos;huile &lt;B&gt;VAS 6262A&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Adaptateur de remplissage d&apos;huile &lt;B&gt;VAS 6262/6 &lt;/B&gt;pour certains types de bouteilles&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Unité d&apos;extraction d&apos;huile &lt;B&gt;VAS 6622A&lt;/B&gt;&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007238</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007238</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007238</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procédure de vidange et de remplissage de l&apos;huile de transmission automatique</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;font-size:12.0pt; line-height:107%;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:0cm;margin-bottom:.0001pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Vérifier à l&apos;aide des instruments de diagnostic que la température de l&apos;huile de la boîte de vitesses ne dépasse pas &lt;B&gt;45°.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Si la température est supérieure à &lt;B&gt;45°&lt;/B&gt;, il est conseillé de laisser refroidir la boîte de vitesses.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Arrêter le moteur&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Positionner le véhicule sur un plan&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Retirer le couvercle inférieur&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Placez le levier de vitesse en &lt;B&gt;P&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Connecter le testeur de diagnostic&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Avant de commencer le travail, vérifiez à l&apos;aide d&apos;un testeur de diagnostic que la température de l&apos;huile de la boîte de vitesses ne dépasse pas &lt;B&gt;45 °C.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Soulever le véhicule&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Placez le bac de vidange sous le véhicule &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Retirer le bouchon de contrôle de niveau &lt;B&gt;B &lt;/B&gt;et le bouchon de trop-plein &lt;B&gt;C &lt;/B&gt;de la base de la boîte de vitesses automatique.&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;AVERTISSEMENT : &lt;/B&gt;Ne pas démarrer le moteur s&apos;il n&apos;y a pas d&apos;huile dans la boîte de vitesses&lt;B&gt;.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:0cm;margin-bottom:.0001pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Attendre la vidange complète de l&apos;huile&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Réinstaller le bouchon de trop-plein &lt;B&gt;C&lt;/B&gt;, en le serrant à &lt;B&gt;3 Nm&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Brancher la bouteille d&apos;huile sur l&apos;adaptateur de remplissage d&apos;huile &lt;B&gt;VAS 6262A&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; S&apos;il y a plusieurs bouteilles d&apos;huile, il sera nécessaire d&apos;utiliser l&apos;adaptateur de bouteille spécifique &lt;B&gt;VAS 6262/6.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Engager le raccord &lt;B&gt;VAS 6262A &lt;/B&gt;à l&apos;intérieur du bouchon de trop-plein &lt;B&gt;C&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Lors du changement de bouteille, fermer le robinet de l&apos;adaptateur de remplissage d&apos;huile &lt;B&gt;VAS 6262A.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Remplir la transmission automatique avec &lt;B&gt;5,5 litres &lt;/B&gt;d&apos;huile&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Serrer provisoirement à la main le bouchon de contrôle de niveau &lt;B&gt;B&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Démarrer le moteur&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Appuyer sur la pédale de frein et sélectionner le levier de vitesse dans chaque position pendant au moins &lt;B&gt;3 secondes.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Ramener le levier de vitesse en position &lt;B&gt;P&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Ne pas couper le moteur&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Vérifier le niveau d&apos;huile et faire l&apos;appoint si nécessaire&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Serrer le bouchon de test de niveau &lt;B&gt;B &lt;/B&gt;à &lt;B&gt;45 Nm&lt;/B&gt;&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007272</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007272</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007272</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>25</Ordine>
+      <Capitolo>Procédure de remplacement du filtre à huile de la transmission automatique</Capitolo>
+      <Corpo> &lt;LI&gt; Le filtre à huile de boîte de vitesses doit être remplacé lorsque : &lt;BR/&gt;
+&lt;LI&gt; Le véhicule a atteint 60 000 km &lt;BR/&gt; &lt;LI&gt; Le liquide de refroidissement a contaminé l&apos;huile de boîte de vitesses &lt;BR/&gt;    &lt;LI&gt; Des particules métalliques ont été détectées dans l’huile de boîte de vitesses &lt;BR/&gt; &lt;LI&gt; L’embrayage est usé ou présente des dysfonctionnements &lt;BR/&gt; &lt;LI&gt; Placez le levier de vitesses en position &lt;B&gt; P &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; Retirez le couvercle du filtre à huile de la boîte de vitesses automatique &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; ATTENTION : &lt;/B&gt; Couvrez la zone autour du filtre avec des chiffons &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Desserrez la vis du filtre à huile de la boîte de vitesses automatique de &lt;B&gt; 7 tours &lt;/B&gt;  &lt;BR/&gt; &lt;LI&gt; Attendre 10 secondes afin que l&apos;huile contenue dans le filtre s&apos;écoule dans le carter de boîte de vitesses &lt;BR/&gt; &lt;LI&gt; Retirer le filtre de la boîte de vitesses automatique &lt;B&gt; (A) &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Procéder au remplacement du filtre &lt;BR/&gt;  &lt;LI&gt; Remontez le couvercle du filtre de boîte de vitesses automatique &lt;B&gt; (A) &lt;/B&gt; et serrez-le à &lt;B&gt; 20 Nm &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; ATTENTION : &lt;/B&gt; Remplacez toujours le joint du filtre de boîte de vitesses automatique</Corpo>
+      <RifIDFileIMGANI>299007244</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007244</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007244</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Vérification du niveau d&apos;huile de la transmission automatique</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;font-size:12.0pt;line-height:107%;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Positionner le véhicule sur un plan&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Soulever le véhicule&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Retirer le couvercle inférieur&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Connecter le testeur de diagnostic&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Veiller à ce que la température de l&apos;huile de la boîte de vitesses soit comprise entre &lt;B&gt;35 et 45 °C.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; A l&apos;aide du testeur de diagnostic, lancer la procédure de &lt;B&gt;vérification du niveau d&apos;huile de la transmission automatique.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Démarrer le moteur au ralenti&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Placez le levier de vitesse en &lt;B&gt;P&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Placez le bac de vidange sous le véhicule &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Retirer le capuchon de vérification du niveau &lt;B&gt;B&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Laisser s&apos;écouler l&apos;excédent d&apos;huile&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Vérifier le niveau d&apos;huile de la transmission automatique&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; La bonne quantité est confirmée par un léger goutte-à-goutte.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Si l&apos;huile ne s&apos;écoule pas par le trou d&apos;inspection, il est nécessaire d&apos;ajouter un litre d&apos;huile supplémentaire à l&apos;aide de l&apos;adaptateur &lt;B&gt;VAS 6262A.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Si l&apos;huile s&apos;avère excédentaire, il faudra la laisser s&apos;écouler jusqu&apos;à ce qu&apos;elle s&apos;égoutte légèrement.&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;ATTENTION : &lt;/B&gt;S&apos;il est nécessaire d&apos;ajouter de l&apos;huile, bien agiter les bouteilles avant de les ouvrir afin qu&apos;il ne reste pas de sédiments au fond.&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;ATTENTION : &lt;/B&gt;Un niveau d&apos;huile trop bas ou trop haut compromet le fonctionnement de la boîte de vitesses&lt;B&gt;.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Réinstallez le capuchon de contrôle de niveau &lt;B&gt;B &lt;/B&gt;et serrez-le à &lt;B&gt;45 Nm&lt;/B&gt;&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;ATTENTION : &lt;/B&gt;Remplacez toujours le joint du capuchon de contrôle de niveau &lt;B&gt;B&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:0cm;margin-bottom:.0001pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Réinstaller le couvercle inférieur&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Abaisser le véhicule&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007271</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007271</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007271</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

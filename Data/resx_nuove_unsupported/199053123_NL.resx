@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T00:45:56">
+  <XDOCUMENTO>
+    <ID>199053123</ID>
+    <DOCNumber>DES76007</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Handleiding voor het lezen van elektrische schema’s</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Beschrijving van het systeem</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199053123</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>LEGENDA</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;B&gt; (1) &lt;/B&gt;  -  &lt;B&gt; Positienummer relais &lt;/B&gt; : Geeft de positie van het relais op de relaisplaat aan. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (2) &lt;/B&gt;  -  &lt;B&gt; Vervolg schema &lt;/B&gt; : De pijl geeft aan dat het onderdeel op de volgende pagina van het schakelschema wordt voortgezet. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (3) &lt;/B&gt;  -  &lt;B&gt; Aansluitnaam &lt;/B&gt; : Geeft het afzonderlijke contact in een meervoudige connector aan. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (4) &lt;/B&gt;  -  &lt;B&gt; Niet-vaste aansluiting &lt;/B&gt; : Weergave van een schroefdraadpen die zich in de relaisplaat bevindt. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (5) &lt;/B&gt;  -  &lt;B&gt; Aanduiding voortzetting van de bedrading &lt;/B&gt; : Geeft aan in welk stroompad de kabel wordt aangesloten. Als het nummer bijvoorbeeld 23 is, moet u het nummer 23 in de regel onderaan het schema zoeken om te zien waar de kabel verderloopt. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (6) &lt;/B&gt;  -  &lt;B&gt; Doorsnede en kleur van de kabel &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (7) &lt;/B&gt;  -  &lt;B&gt; Tekeningen met open kant &lt;/B&gt; : De open kant van het grafische teken geeft aan dat het onderdeel in een ander elektrisch schema wordt voortgezet. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (8) &lt;/B&gt;  -  &lt;B&gt; Interne verbinding (dun streepje) &lt;/B&gt; : Deze verbinding is niet als kabel weergegeven. Interne verbindingen zijn echter wel geleidende elektrische verbindingen. Ze maken het mogelijk om de stroomdoorvoer binnen componenten en bedradingen te volgen. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (9) &lt;/B&gt;  -  &lt;B&gt; Aanduiding dat de kabel doorloopt naar een component &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (10) &lt;/B&gt;  -  &lt;B&gt; Voortzetting van de verbinding &lt;/B&gt; : De letter geeft het punt aan waar de verbinding doorloopt in het volgende deel van het schakelschema.</Corpo>
+      <RifIDFileIMGANI>299002868</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>299002868</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299002868</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199053123</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Codice colore cablaggi</Capitolo>
+      <Corpo> &lt;B&gt; Kleurcodes &lt;/B&gt; :  &lt;BR/&gt;  &lt;BR/&gt; SW = Zwart &lt;BR/&gt; BR = Bruin &lt;BR/&gt; GN = Groen &lt;BR/&gt; BL = Blauw &lt;BR/&gt; GR = Grijs &lt;BR/&gt; LI = Lila &lt;BR/&gt; VI = Lila &lt;BR/&gt; GE = Geel &lt;BR/&gt; OR = Oranje &lt;BR/&gt; RS = Roze &lt;BR/&gt; RO = Rood &lt;BR/&gt; RT = Rood &lt;BR/&gt; WS = Wit &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299002869</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>299002869</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299002869</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

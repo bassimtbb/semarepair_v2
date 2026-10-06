@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T06:56:41">
+  <XDOCUMENTO>
+    <ID>199224274</ID>
+    <DOCNumber>AZZ76306</DOCNumber>
+    <RifIDTipoRis>7</RifIDTipoRis>
+    <Titolo>Reset van het onderhoudsindicatielampje</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>217</RifIDFileICO>
+    <XFILE>
+      <ID>217</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:217</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>7</ID>
+      <TipoRis>AZZ</TipoRis>
+      <DscRis>Reset-service</DscRis>
+      <RifIDFileCSS>1</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>1</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:1</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199224274</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Informatie op de Systeem</Capitolo>
+      <Corpo> &lt;BR/&gt; De auto is uitgerust met een indicator voor onderhoudsintervallen, die zich in het multifunctionele display van het instrumentenpaneel bevindt.  &lt;BR/&gt;  &lt;BR/&gt; De indicator geeft de bestuurder een reeks meldingen weer met betrekking tot de geplande onderhoudsbeurten waaraan de auto periodiek moet worden onderworpen.&lt;/BR&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199224274</RifIDDoc>
+      <Ordine>25</Ordine>
+      <Capitolo>Reset indicator interval van onderhoud</Capitolo>
+      <Corpo> &lt;BR/&gt; Nadat de onderhoudswerkzaamheden zijn uitgevoerd, wordt de indicator handmatig op nul gezet op de volgende manier: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Zet het contact aan. &lt;BR/&gt;  &lt;LI&gt;  Druk meerdere keren op knop  &lt;B&gt; 1 &lt;/B&gt;  totdat het voertuigpictogram wordt gemarkeerd &lt;BR/&gt;  &lt;LI&gt; Selecteer met de knoppen  &lt;B&gt; 2 &lt;/B&gt;  het menu „Onderhoudsinterval“ &lt;BR/&gt;  &lt;LI&gt;  Druk op de knop  &lt;B&gt; 3 &lt;/B&gt;  om te bevestigen &lt;BR/&gt;  &lt;LI&gt; Selecteer met de knoppen  &lt;B&gt; 2 &lt;/B&gt;  het item „Onderhoudslimiet“ &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt;  Als de actieradius minder dan 1.500 km of een maand bedraagt &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt; Het bericht  &lt;B&gt; „Onderhoud gepland binnen“ &lt;/B&gt;  verschijnt, samen met de dichtstbijzijnde vervaldatum (afstand of tijd) &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt;  Bij een actieradius van 0 km of wanneer de onderhoudsdatum is bereikt &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Het bericht  &lt;B&gt; „Onderhoud uitvoeren“ &lt;/B&gt;  vergezeld van het symbool  &lt;B&gt; 4 &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; Om de onderhoudslimiet te resetten, drukt u ongeveer 10 seconden lang, zonder onderbreking, op de toets  &lt;B&gt; 3 &lt;/B&gt;  totdat de onderhoudslimiet continu wordt weergegeven.</Corpo>
+      <RifIDFileIMGANI>299007974</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007974</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007974</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199224274</RifIDDoc>
+      <Ordine>26</Ordine>
+      <Capitolo>Reset indicator vervanging olie motor</Capitolo>
+      <Corpo> &lt;BR/&gt; Nadat de onderhoudswerkzaamheden zijn uitgevoerd, wordt de indicator handmatig gereset op de volgende manier: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Zet het contact aan. &lt;BR/&gt;  &lt;LI&gt;  Druk meerdere keren op knop  &lt;B&gt; 1 &lt;/B&gt;  totdat het voertuigpictogram wordt gemarkeerd &lt;BR/&gt;  &lt;LI&gt; Selecteer met de knoppen  &lt;B&gt; 2 &lt;/B&gt;  het menu „Onderhoudsinterval“ &lt;BR/&gt;  &lt;LI&gt;  Druk op de knop  &lt;B&gt; 3 &lt;/B&gt;  om te bevestigen &lt;BR/&gt;  &lt;LI&gt; Selecteer met de knoppen  &lt;B&gt; 2 &lt;/B&gt;  het item „Olieverversingslimiet“ &lt;BR/&gt;  &lt;BR/&gt; Om de onderhoudslimiet te resetten, drukt u ongeveer 10 seconden lang ononderbroken op de knop  &lt;B&gt; 3 &lt;/B&gt;  totdat de vaste aanduiding van de olieverversingslimiet verschijnt.</Corpo>
+      <RifIDFileIMGANI>299007974</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007974</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007974</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199224274</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>WAARSCHUWINGEN</Capitolo>
+      <Corpo> &lt;BR/&gt; Als er onderhoud wordt uitgevoerd zonder verversing van de motorolie, hoeft alleen de onderhoudsinterval te worden gereset. Bij verversing van de motorolie moeten zowel de onderhoudsinterval als de olieverversingsinterval worden gereset. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T05:02:59">
+  <XDOCUMENTO>
+    <ID>199203407</ID>
+    <DOCNumber>INT76499</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>BMW 3-serie</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Officiële terugroepacties</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199203407</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Fonte gegevens - Ministero van de Trasporti</Capitolo>
+      <Corpo> &lt;B&gt; Fabrikant: &lt;/B&gt;  BMW  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Merk: &lt;/B&gt;  BMW &lt;BR/&gt;  &lt;BR/&gt; Door de fabrikanten erkende storingen op basis van D.D. 78/2000</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199203407</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>BMW Serie 3</Capitolo>
+      <Corpo> &lt;BR/&gt; Aantal voertuigen: 42059 &lt;BR/&gt; Productieperiode: NIET VERMELD &lt;BR/&gt; Beschrijving van het defect: MOGELIJK VLOEISTOFVERLIES IN DE AGR-KOELER EN DAARUIT VOORTVLOEIENDE OVERVERHITTING VAN DE MOTOR &lt;BR/&gt; Correctieve maatregelen: DE AGR-MODULE CONTROLEREN EN EVENTUEEL ONDERDELEN VERVANGEN &lt;BR/&gt; Referentie DEALERS &lt;BR/&gt; Opmerkingen COD 0011970400 CHASSISNUMMERS RAADPLEEG DEALERS &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Aantal voertuigen: 484 &lt;BR/&gt; Productieperiode: 03/2020 - 08/2020 &lt;BR/&gt; Beschrijving van het defect: Er is vastgesteld dat de cellen waaruit de hoogspanningsaccu bestaat, mogelijk vreemde deeltjes (stof) bevatten. In sommige gevallen, met name tijdens het opladen van de hoogspanningsaccu, kan er een kortsluiting in de accu zelf optreden. In deze situatie kan niet worden uitgesloten dat er een oververhitting optreedt &lt;BR/&gt; Corrigerende maatregelen: Wordt momenteel onderzocht door het moederbedrijf &lt;BR/&gt; Referentie: neem contact op met de dealer &lt;BR/&gt; Opmerkingen: Code - 0061670500; raadpleeg de dealer voor chassisnummers &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>199203407</RifIDDoc>
+      <LinkUtili>Link Ministerie van Infrastructuur en Vervoer</LinkUtili>
+      <Ordine>1</Ordine>
+      <RifIDDocLink>15000122</RifIDDocLink>
+      <XLINKDOC>
+        <ID>15000122</ID>
+        <DOCNumber>LNK00008</DOCNumber>
+        <Documento>Ga naar: Terugroepacties - Ministerie van Verkeer</Documento>
+        <URL>LINKDOC:15000122</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

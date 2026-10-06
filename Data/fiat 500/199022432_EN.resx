@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2020-05-31T02:50:16">
+<XDOCUMENTO>
+<ID>199022432</ID>
+<DOCNumber>SCH76066</DOCNumber>
+<RifIDTipoRis>9</RifIDTipoRis>
+<Titolo>Denso Air Conditioner - Manual</Titolo>
+<InfoDoc>^</InfoDoc>
+<RifIDFileICO>232</RifIDFileICO>
+<XFILE>
+<ID>232</ID>
+<Type>IMG</Type>
+<URL>GETFILE:232</URL>
+</XFILE>
+<XTIPORIS>
+<ID>9</ID>
+<TipoRis>SCH</TipoRis>
+<DscRis>Electrical Schemes</DscRis>
+<RifIDFileCSS>5</RifIDFileCSS>
+<RifIDTemplate>2</RifIDTemplate>
+<XFILE>
+<ID>5</ID>
+<Type>CSS</Type>
+<URL>GETFILE:5</URL>
+</XFILE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLCOMPONENTE</IDLabel>
+<Stringa>^Componente</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLDESCRIZIONE</IDLabel>
+<Stringa>^Descrizione Componente</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLDETTAGLIO</IDLabel>
+<Stringa>^Dettaglio</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG1</IDLabel>
+<Stringa>^Parte1</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG2</IDLabel>
+<Stringa>^Parte2</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG3</IDLabel>
+<Stringa>^Parte3</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG4</IDLabel>
+<Stringa>^Parte 4</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG5</IDLabel>
+<Stringa>^Parte 5</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKIMG6</IDLabel>
+<Stringa>^Parte 6</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKLEGENDA</IDLabel>
+<Stringa>^Legenda</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLLOCALIZZAZIONE</IDLabel>
+<Stringa>^Localizzazione</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>COLNUMERO</IDLabel>
+<Stringa>^N.</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>2</RifIDTemplate>
+<IDLabel>LINKPDF</IDLabel>
+<Stringa>^PDF</Stringa>
+</XRISORSE>
+</XTIPORIS>
+<XSCHEMA>
+<RifIDDoc>199022432</RifIDDoc>
+<RifIDFileIMGANIa>299001264</RifIDFileIMGANIa>
+<RifIDFileIMGANIb>0</RifIDFileIMGANIb>
+<RifIDFileIMGANIc>0</RifIDFileIMGANIc>
+<RifIDFileIMGANId>0</RifIDFileIMGANId>
+<RifIDFileIMGANIe>0</RifIDFileIMGANIe>
+<RifIDFileIMGANIf>0</RifIDFileIMGANIf>
+<RifIDFilePDF>0</RifIDFilePDF>
+<FlagTooltips>0</FlagTooltips>
+<XFILEIMG1>
+<ID>299001264</ID>
+<Type>ANI</Type>
+<URL>GETFILE:299001264</URL>
+</XFILEIMG1>
+<XFILEIMG2>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG2>
+<XFILEIMG3>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG3>
+<XFILEIMG4>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG4>
+<XFILEIMG5>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG5>
+<XFILEIMG6>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEIMG6>
+<XFILEPDF>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILEPDF>
+</XSCHEMA>
+<XSCHLEGENDA>
+<RifIDDoc>199022432</RifIDDoc>
+<Numero>A1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Solenoid valve for connecting the air conditioning compressor</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>1000</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022432</RifIDDoc>
+<Numero>D1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Connection to the injection control unit</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>7500</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022432</RifIDDoc>
+<Numero>D2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Connection to the Body Computer control unit</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>7600</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022432</RifIDDoc>
+<Numero>F01</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>7.5A fuse</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>87000003</RifIDDocCMP>
+<URL>LINKDOC:87000003</URL>
+<Parte>a</Parte>
+<Ordine>16900</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022432</RifIDDoc>
+<Numero>F02</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>5A fuse</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>87000003</RifIDDocCMP>
+<URL>LINKDOC:87000003</URL>
+<Parte>a</Parte>
+<Ordine>17000</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022432</RifIDDoc>
+<Numero>F03</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>30A fuse</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>87000003</RifIDDocCMP>
+<URL>LINKDOC:87000003</URL>
+<Parte>a</Parte>
+<Ordine>17100</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022432</RifIDDoc>
+<Numero>F04</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>7.5A fuse</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>87000003</RifIDDocCMP>
+<URL>LINKDOC:87000003</URL>
+<Parte>a</Parte>
+<Ordine>17200</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022432</RifIDDoc>
+<Numero>F05</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>7.5A fuse</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>87000003</RifIDDocCMP>
+<URL>LINKDOC:87000003</URL>
+<Parte>a</Parte>
+<Ordine>17300</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022432</RifIDDoc>
+<Numero>I1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Climate control selector switch</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>32000</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022432</RifIDDoc>
+<Numero>L1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Air conditioning console light bulb</NomeComp>
+<DettComp>nÂ° 1</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>37800</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022432</RifIDDoc>
+<Numero>L2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Air conditioning console light bulb</NomeComp>
+<DettComp>nÂ° 2</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>37900</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022432</RifIDDoc>
+<Numero>M1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Electric fan for interior air</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>41000</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022432</RifIDDoc>
+<Numero>Q1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Connection to brake lights</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>47500</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022432</RifIDDoc>
+<Numero>R1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Relays for interior air blower</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>52000</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022432</RifIDDoc>
+<Numero>R2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Relays for air conditioning compressor connection</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>52100</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022432</RifIDDoc>
+<Numero>S1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Heating element for electro-fan adjustment in the passenger compartment</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>55500</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022432</RifIDDoc>
+<Numero>S2</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Linear sensor for motor cooling fans</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>55600</Ordine>
+</XSCHLEGENDA>
+<XSCHLEGENDA>
+<RifIDDoc>199022432</RifIDDoc>
+<Numero>T1</Numero>
+<NomeOrig></NomeOrig>
+<NomeComp>Electronic thermostat</NomeComp>
+<DettComp>- -</DettComp>
+<Localizzazione>- -</Localizzazione>
+<RifIDDocCMP>0</RifIDDocCMP>
+<URL>LINKDOC:0</URL>
+<Parte>a</Parte>
+<Ordine>59500</Ordine>
+</XSCHLEGENDA>
+</XDOCUMENTO>
+</dataroot>

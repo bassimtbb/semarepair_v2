@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-02T09:50:04">
+  <XDOCUMENTO>
+    <ID>1440</ID>
+    <DOCNumber>NOT00006</DOCNumber>
+    <RifIDTipoRis>27</RifIDTipoRis>
+    <Titolo>Handleiding voor het lezen van EOBD-foutcodes</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>27</ID>
+      <TipoRis>NOT</TipoRis>
+      <DscRis>Technische opmerking</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Interpretatie van de codes</Capitolo>
+      <Corpo>De foutcodes  &lt;B&gt; (DTC) EOBD / OBDII &lt;/B&gt;  kunnen door de autoreparateur worden uitgelezen met behulp van de gestandaardiseerde diagnosetester ( &lt;B&gt; Scantool &lt;/B&gt; ). Ze bestaan uit een letter gevolgd door vier cijfers.  &lt;B&gt; De eerste letter van de code &lt;/B&gt; geeft het systeem van het voertuig aan waarin de storing zich heeft voorgedaan: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P- &lt;/B&gt; (aandrijflijn): motor (standaard EOBD-codes: P0000 - P1000) &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; B- &lt;/B&gt; (carrosserie): klimaatregeling, verlichting, ruitensproeiers, stoelen, deurvergrendeling, raamvergrendeling, spiegels, airbagsensoren, GPS, autoradio... &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; C- &lt;/B&gt; (chassis): ABS, tractie- en stabiliteitscontrole, actieve schokdemperregeling, stuurbekrachtiging &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; U- &lt;/B&gt; (netwerk): communicatiefouten in het datanetwerk &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Het eerste cijfer links geeft aan: of het  &lt;B&gt; 0 &lt;/B&gt;  of  &lt;B&gt; 2 &lt;/B&gt;  is (standaardcodes), of het  &lt;B&gt; 1 &lt;/B&gt;  is (gereserveerde codes) &lt;BR/&gt;  &lt;LI&gt; het tweede cijfer links geeft het subsysteem aan waarin de storing zich heeft voorgedaan: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; 1- &lt;/B&gt;  storingen in de sensoren van het injectiesysteem &lt;BR/&gt;  &lt;B&gt; 2- &lt;/B&gt;  storingen in de actuatoren van het injectiesysteem &lt;BR/&gt;  &lt;B&gt; 3- &lt;/B&gt;  storingen in het injectiesysteem of ontstekingsfouten &lt;BR/&gt;  &lt;B&gt; 4- &lt;/B&gt;  storingen in het emissiecontrolesysteem &lt;BR/&gt;  &lt;B&gt; 5- &lt;/B&gt;  storingen aan de sensoren voor voertuigsnelheid, airco en stuurbekrachtiging &lt;BR/&gt;  &lt;B&gt; 6- &lt;/B&gt;  storingen aan het aandrijfsysteem (koppeling en versnellingsbak) &lt;BR/&gt;  &lt;B&gt; 7- &lt;/B&gt;  storingen in het aandrijfsysteem &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; het derde en laatste cijfer geven specifiek het type storing aan, op basis van de exacte beschrijving in de Europese regelgeving. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Meer informatie is te vinden in de verwijzingen onderaan de pagina &lt;/B&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Codici OBDII da P000 a P1000 - Motorbesturingssystemen</Capitolo>
+      <Corpo> &lt;B&gt; P00XX &lt;/B&gt;  - Lucht/brandstofsysteem en aanvullende emissiecontrole &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P01XX &lt;/B&gt;  - Lucht/brandstofsysteem (metingen) &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P02XX &lt;/B&gt;  - Lucht/brandstofsysteem (metingen) &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P03XX &lt;/B&gt;  - Injectiesysteem en/of ontstekingsfouten &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P04XX &lt;/B&gt;  - Controle van hulpemissies &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P05XX &lt;/B&gt;  - Voertuigsnelheid, stationair toerental, werking van hulpsignalen &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P06XX &lt;/B&gt;  - Hulpcommando&apos;s van regeleenheden of modules &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P07XX &lt;/B&gt;  - Transmissie en/of transmissiesystemen &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P08XX &lt;/B&gt;  - Transmissie en/of transmissiesystemen &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P09XX &lt;/B&gt;  - Transmissie en/of transmissiesystemen</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Codici OBDII da P0A00 a P0F00 - Sistemi a trazione ibrida</Capitolo>
+      <Corpo> &lt;B&gt; P0AXX &lt;/B&gt;  - Aandrijving / Hybride aandrijving &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P0BXX &lt;/B&gt;  - vertrouwelijk - &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P0CXX &lt;/B&gt;  - vertrouwelijk - &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P0DXX &lt;/B&gt;  - gereserveerd - &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P0EXX &lt;/B&gt;  - gereserveerd - &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P0FXX &lt;/B&gt;  - gereserveerd -</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Codici OBDII da P1000 a P2000 - Motorbesturingssystemen</Capitolo>
+      <Corpo> &lt;B&gt; P10XX &lt;/B&gt;  - vertrouwelijk - Lucht/brandstofsysteem en aanvullende emissiecontrole &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P11XX &lt;/B&gt;  - vertrouwelijk - Lucht/brandstofsysteem (metingen) &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P12XX &lt;/B&gt;  - vertrouwelijk - Lucht/brandstofsysteem (metingen) &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P13XX &lt;/B&gt;  - vertrouwelijk - Injectiesysteem en/of ontstekingsfouten &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P14XX &lt;/B&gt;  - gereserveerd - Controle van hulpemissies &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P15XX &lt;/B&gt;  - gereserveerd - Voertuigsnelheid, stationair toerental, werking van hulpsignalen &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P16XX &lt;/B&gt;  - gereserveerd - Hulpbesturingen van regeleenheden of modules &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P17XX &lt;/B&gt;  - gereserveerd - Transmissie en/of transmissiesystemen &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P18XX &lt;/B&gt;  - gereserveerd - Transmissie en/of transmissiesystemen &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P19XX &lt;/B&gt;  - gereserveerd - Transmissie en/of transmissiesystemen</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Codici OBDII da P2000 a P3000 - Motorbesturingssystemen</Capitolo>
+      <Corpo> &lt;B&gt; P20XX &lt;/B&gt;  - Lucht/brandstofsysteem en aanvullende emissiecontrole &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P23XX &lt;/B&gt;  - Injectiesysteem en/of ontstekingsfouten &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P24XX &lt;/B&gt;  - Hulpemissiecontrole &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P25XX &lt;/B&gt;  - Activiteit van hulpsignalen (ingang) &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P26XX &lt;/B&gt;  - Hulpstuurcommando&apos;s van regeleenheden of modules (uitgaand) &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P27XX &lt;/B&gt;  - Transmissie en/of transmissiesystemen &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P28XX &lt;/B&gt;  - gereserveerd voor ISO/SAE &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P29XX &lt;/B&gt;  - Lucht-/brandstofsysteem en hulpemissiecontrole</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Codici OBDII da P3000 a P4000 - Motorbesturingssystemen</Capitolo>
+      <Corpo> &lt;B&gt; P30XX &lt;/B&gt;  - Lucht/brandstofsysteem en aanvullende emissiecontrole &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P31XX &lt;/B&gt;  - Lucht/brandstofsysteem en aanvullende emissiecontrole &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P32XX &lt;/B&gt;  - Lucht-brandstofsysteem en aanvullende emissiecontrole &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P33XX &lt;/B&gt;  - Injectiesysteem en/of ontstekingsfouten &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P34XX &lt;/B&gt;  - Cilinderuitschakeling (brandstofbesparing) &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P35XX &lt;/B&gt;  - gereserveerd voor ISO/SAE &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P36XX &lt;/B&gt;  - gereserveerd voor ISO/SAE &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P37XX &lt;/B&gt;  - gereserveerd voor ISO/SAE &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P38XX &lt;/B&gt;  - gereserveerd voor ISO/SAE &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P39XX &lt;/B&gt;  - gereserveerd voor ISO/SAE</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>OBDII-codes van U0000 tot U0400 – Netwerkcommunicatiegroep</Capitolo>
+      <Corpo> &lt;B&gt; U00XX &lt;/B&gt;  - Activiteiten van het elektriciteitsnet &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; U01XX &lt;/B&gt;  - Communicatie van het elektriciteitsnet &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; U02XX &lt;/B&gt;  - Communicatie van het elektriciteitsnet &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; U03XX &lt;/B&gt;  - Softwareactiviteit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; U04XX &lt;/B&gt;  - Gegevensactiviteit</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

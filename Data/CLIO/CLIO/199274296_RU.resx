@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:40:51">
+  <XDOCUMENTO>
+    <ID>199274296</ID>
+    <DOCNumber>GUP89958</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Brak rozruchu i/lub wyłączenia silnika, różnego rodzaju nieprawidłowości w działaniu elementów wypos</Titolo>
+    <InfoDoc>15761 | LAVAFARI | ELETTRONICA | INIEZIONE | ILLUMINAZIONE | FRECCIE | FARI | LUCI | PROIETTORI | ANABBAGLIANTI | ABBAGLIANTI | SPEGNE | ACCENDE | MOTORINO | PERICOLO | REGOLAZIONE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199274296</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Poziom wiarygodności   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda stopnia wiarygodności &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niski poziom &lt;/B&gt; : Wykryte przez mechanika samochodowego, przypadek usterki niepotwierdzony przez producenta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** średni poziom &lt;/B&gt; : Częste przypadki usterki, potwierdzone przez techników serwisowych i mechaników. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** wysoki poziom &lt;/B&gt; : Potwierdzona anomalia, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199274296</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Układ: &lt;/B&gt;  Elektronika &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Urządzenie: &lt;/B&gt;  Przekaźnik spryskiwaczy reflektorów &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Usterka: &lt;/B&gt;  Brak rozruchu i/lub wyłączenia silnika, różnego rodzaju nieprawidłowości w działaniu funkcji w kabinie, takich jak włączone kierunkowskazy, brak działania świateł mijania itp.  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Błędy wykryte przez system autodiagnostyki: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Przyczyna: &lt;/B&gt;  Zakłócenia spowodowane przez przekaźniki spryskiwaczy reflektorów w skrzynce bezpieczników &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199274296</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Czynność: &lt;/B&gt;  Wymiana dwóch przekaźników spryskiwaczy reflektorów &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedura: &lt;/B&gt;  Aby sprawdzić, czy seria usterek wynika z zakłóceń spowodowanych przez przekaźniki spryskiwaczy reflektorów w skrzynce bezpieczników komory silnika, należy upewnić się, że: &lt;UL&gt;    &lt;LI&gt;   &lt;I&gt; Przy wyłączonym silniku &lt;/I&gt; na desce rozdzielczej pojawia się komunikat „Usterka elektroniczna”, a kontrolka uniemożliwiająca uruchomienie silnika oraz kierunkowskazy boczne świecą się światłem ciągłym.  &lt;LI&gt;   &lt;I&gt; Przy uruchomionym silniku &lt;/I&gt; usterki na desce rozdzielczej utrzymują się; ponadto włączają się światła mijania, uruchamia się przedni wentylator elektryczny oraz przednia wycieraczka.  &lt;/UL&gt; Jeśli pojazd wykazuje takie zachowanie, zakłócenie jest spowodowane przez przekaźniki układu spryskiwaczy reflektorów. Należy wymienić dwa przekaźniki układu spryskiwaczy reflektorów w skrzynce bezpieczników w komorze silnika na nowe wersje (numer produktu 8200337663). &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Uwaga: &lt;/B&gt;  Jeśli samochód jest wyposażony w system spryskiwaczy reflektorów, należy wymienić dwa wspomniane przekaźniki. &lt;BR/&gt; Jeśli samochód nie jest wyposażony w system spryskiwaczy reflektorów, może mimo to posiadać te dwa przekaźniki; w takim przypadku wystarczy je po prostu zdemontować. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

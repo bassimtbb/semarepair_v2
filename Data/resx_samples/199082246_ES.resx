@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T04:39:02">
+  <XDOCUMENTO>
+    <ID>199082246</ID>
+    <DOCNumber>COP87782</DOCNumber>
+    <RifIDTipoRis>24</RifIDTipoRis>
+    <Titolo>Lista para motores B47 D20B</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>226</RifIDFileICO>
+    <XFILE>
+      <ID>226</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:226</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>24</ID>
+      <TipoRis>COP</TipoRis>
+      <DscRis>Par de apriete</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>10</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLDATO</IDLabel>
+        <Stringa>Descripción</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLUM</IDLabel>
+        <Stringa>Unidades de medida</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLVALORE</IDLabel>
+        <Stringa>Datos</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Lista de datos</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Tapa de levas</Dato>
+      <Valore>9</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato> Tapa de taqués</Dato>
+      <Valore>Nota</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199070401</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199070401</ID>
+        <DOCNumber>LIS77373</DOCNumber>
+        <URL>LINKDOC:199070401</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Secuencia de apriete de la culata</Dato>
+      <Valore>Ver imagen</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>75010425</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>75010425</ID>
+        <DOCNumber>LIS75831</DOCNumber>
+        <URL>LINKDOC:75010425</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Prueba de la primera fase: apriete</Dato>
+      <Valore>50</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato> Prueba de la segunda fase: apriete</Dato>
+      <Valore>120°</Valore>
+      <UnitaMis>Grados</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato> Prueba de la tercera fase: apriete</Dato>
+      <Valore>120°</Valore>
+      <UnitaMis>Grados</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Prueba de la cuarta fase: apriete</Dato>
+      <Valore>(M8 a 19 Nm)</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Sustitución de tornillos de culata</Dato>
+      <Valore>Recomendado - (NO RETIRAR EL REVESTIMIENTO)</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Lubricación de los pernos de la Cylinder head</Dato>
+      <Valore>Recomendado - (con aceite de motor)</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Cojinetes del banco</Dato>
+      <Valore>Nota</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199021214</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199021214</ID>
+        <DOCNumber>LIS77132</DOCNumber>
+        <URL>LINKDOC:199021214</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Sustitución de tornillos de cojinetes del banco</Dato>
+      <Valore>Recomendado - (NO RETIRAR EL REVESTIMIENTO)</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Tapas de cojinetes de biela</Dato>
+      <Valore>Nota</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>75011124</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>75011124</ID>
+        <DOCNumber>LIS76034</DOCNumber>
+        <URL>LINKDOC:75011124</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Tapas de cojinetes de biela 1.ª fase - Apretado</Dato>
+      <Valore>20</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato> Tapas de cojinetes de biela 2.ª fase - Apretado</Dato>
+      <Valore>70° y 70°</Valore>
+      <UnitaMis>Grados</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Sustitución de tornillos de tapas de cojinetes de biela.</Dato>
+      <Valore>Recomendado</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Pernos de la polea del árbol motor</Dato>
+      <Valore>40 Nm y 120°</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato> Pernos de la polea del árbol motor</Dato>
+      <Valore>Nota</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199070400</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199070400</ID>
+        <DOCNumber>LIS77372</DOCNumber>
+        <URL>LINKDOC:199070400</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Sustitución de los pernos de la polea del árbol motor.</Dato>
+      <Valore>Recomendado</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Pernos del volante</Dato>
+      <Valore>120</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Sustitución de tornillos del volante</Dato>
+      <Valore>Recomendado</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Tornillos de embrague</Dato>
+      <Valore>120</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Sustitución de tornillos de embrague</Dato>
+      <Valore>Recomendado</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Pernos de empuje del disco de embrague</Dato>
+      <Valore>15 Nm y 90°</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Sustitución de tornillos del disco de embrague</Dato>
+      <Valore>Recomendado</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Engranaje de distribución</Dato>
+      <Valore>17</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato> Tapas de árbol de levas</Dato>
+      <Valore>Nota</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199036891</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199036891</ID>
+        <DOCNumber>LIS77163</DOCNumber>
+        <URL>LINKDOC:199036891</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Colector de admisión hacia la culata</Dato>
+      <Valore>11</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Colector de escape hacia la culata</Dato>
+      <Valore>11 Nm y 13 Nm</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Sustitución de tuercas del colector de escape</Dato>
+      <Valore>Recomendado</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Sustitución de tornillos del colector de escape</Dato>
+      <Valore>Recomendado</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato> Fijación de inyectores</Dato>
+      <Valore>Nota</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199058179</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199058179</ID>
+        <DOCNumber>LIS77297</DOCNumber>
+        <URL>LINKDOC:199058179</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>PARES DE APRIETE</Gruppo>
+      <Dato>Bomba de inyección</Dato>
+      <Valore>19</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+  </XDOCUMENTO>
+</dataroot>

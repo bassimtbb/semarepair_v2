@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T04:54:05">
+  <XDOCUMENTO>
+    <ID>199276264</ID>
+    <DOCNumber>GUP90831</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Leistungsverlust, Ruckeln und weißer Rauch aus dem Auspuff des Fahrzeugs</Titolo>
+    <InfoDoc>INIEZIONE | FUMOSITà | PRESTAZIONI | SEGHETTA | LENTA | PERFORMANCE | P2200 | INCERTA | SCATTI | BLOCCA | EGR |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199276264</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199276264</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Abgasreinigung &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Bauteil: &lt;/B&gt; AGR-Ventil (Abgasrückführung). &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Das Fahrzeug hat plötzlich an Leistung verloren, begann zu ruckeln und stieß weißen Rauch aus dem Auspuff aus. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt; P2200 – NOx-Sensor Bank 1 &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Das AGR-Ventil schloss aufgrund einer Verformung der Ventilplatte nicht vollständig. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199276264</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Mit dem Austausch des AGR-Ventils fortfahren &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Obwohl der Fehlercode auf ein Problem mit dem NOx-Sensor hindeutete, war die eigentliche Ursache das defekte AGR-Ventil. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

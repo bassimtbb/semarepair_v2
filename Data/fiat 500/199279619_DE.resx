@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T04:57:00">
+  <XDOCUMENTO>
+    <ID>199279619</ID>
+    <DOCNumber>GUP91285</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Gelegentliches Ruckeln des Motors und Aufleuchten der Motorfehleranzeige</Titolo>
+    <InfoDoc>INIEIZONE | P0011 | FASE | FASATURA | DISTRIBUZIONE | CAMME | P0012 | MIL | VARIABILE | VARIATORE | IRREGOLARE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199279619</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legende zur Zuverlässigkeitsstufe&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* niedrige Stufe&lt;/B&gt; : Feststellung durch die Kfz-Werkstatt, vom Hersteller nicht dokumentierter Fehlerfall.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** mittlere Stufe&lt;/B&gt; : Häufig auftretender Fehlerfall, der von Servicetechnikern und Kfz-Werkstätten festgestellt wurde.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** hohe Zuverlässigkeit&lt;/B&gt; : Gewissheit hinsichtlich des Fehlers, gute „Wiederholbarkeit“ laut Angaben des Herstellers.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199279619</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Einspritzung &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorrichtung: &lt;/B&gt; Magnetventil für die Phasenverstellung &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Sporadisches Ruckeln des Motors, wobei die Motorfehlerleuchte aufleuchtet &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt;  P0011 (Vorverlegung der Nockenwellenphase 1), P0012 (Verzögerung der Nockenwellenphase 1) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Magnetventil des Phasenverstellers verstopft &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199279619</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Das Magnetventil des Nockenwellen-Phasenverstellers Nr. 1 reinigen &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; Im Anschluss an die Reinigung des Magnetventils der Nockenwellenverstellvorrichtung wird empfohlen, auch den Motorölwechsel sowie den Austausch des entsprechenden Ölfilters durchzuführen &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Hinweis: &lt;/B&gt; Im vorliegenden Fall war das Magnetventil des Nockenwellen-Phasenverstellers durch Verschmutzungen verstopft, und die Reinigung hat das Problem behoben. &lt;BR/&gt; Sollte die Reinigung des Magnetventils allein die beschriebenen Probleme nicht beheben, muss das Magnetventil ausgetauscht werden. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

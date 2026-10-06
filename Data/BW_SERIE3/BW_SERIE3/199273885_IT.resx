@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2024-11-06T05:31:01">
+<XDOCUMENTO>
+<ID>199273885</ID>
+<DOCNumber>GUP89647</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Avviso anomalia livello AdBlue</Titolo>
+<InfoDoc>INIEZIONE | SEL-SEL-P-16-20000813322787-02 | CD9612 | CD9613 | CD9611 | 29FB00 | 29FC00 | MESSAGGIO | INDICAZIONE | AVVERTIMENTO | DISPLAY | ERRORE | SISTEMA | DISTANZA | RESIDUA | RIMANENTE | AGGIORNAMENTO | SOFTWARE | CENTRALINA | CONNETTORE |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199273885</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (***)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199273885</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Validità:&lt;/B&gt; Veicoli prodotti fino all&apos;1 Novembre 2019&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Iniezione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Centralina Adblue&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Avviso anomalia livello AdBlue&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; Uno o più dei seguenti errori:&lt;BR/&gt;&lt;UL&gt;&lt;LI&gt; CD9612 (Problemi di comunicazione tra sistema SCR e centralina iniezione)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; CD9613 (Problemi di comunicazione tra sistema SCR e centralina iniezione per il monitoraggio dello stato dell&apos;additivo SCR)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; CD9611 (Problemi di comunicazione tra sistema SCR e centralina iniezione sugli aggiornamenti del sistema SCR)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; 29FB00 (Spegnimento sistema SCR: allarme livello 1)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; 29FC00 (Spegnimento sistema SCR: allarme livello 2)&lt;/UL&gt; &lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Software centralina Adblue inadeguato o connettore centralina Adblue danneggiato&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199273885</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Verificare lo stato del connettore centralina Adblue. Nel caso in cui non vengano riscontrate anomalie, procedere con l&apos;aggiornamento software della centralina Adblue&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; &lt;I&gt;ATTENZIONE&lt;/I&gt;:&lt;BR/&gt;&lt;UL&gt;&lt;LI&gt; Se sono presenti DTC o condizioni sintomatiche diverse da quelle elencate, procedere alla loro risoluzione prima di proseguire con questo bollettino.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Per eseguire l&apos;aggiornamento la batteria della vettura deve essere in condizioni di carica ottimale o supportata da carica batteria / batteria aggiuntiva in modo da garantire la tensione nominale di 12V. Spegnere tutte le luci e gli accessori per evitare scariche &lt;/UL&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

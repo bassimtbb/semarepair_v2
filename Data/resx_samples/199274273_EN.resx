@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T00:38:59">
+  <XDOCUMENTO>
+    <ID>199274273</ID>
+    <DOCNumber>GUP89935</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Stop and oil pressure warning lights come on, warning "Caution, possible engine failure"</Titolo>
+    <InfoDoc>75913 | 052421 | P052421 | PRESSURE | OIL | ENGINE | INJECTION | LEVEL | EXCHANGER | HEAT | RADIATOR | SERVICE | KEY | KEY | WARNING LIGHTS | 94117B |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199274273</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degree of reliability (***)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legend of the degree of reliability&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* low level&lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** medium level&lt;/B&gt; : Extensive fault history, found by service technicians and repairers.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** high level&lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199274273</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Applicability: &lt;/B&gt; Vehicles manufactured from 01/01/17 to 28/10/23 &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Fuel injection &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Component: &lt;/B&gt; Engine oil pressure sensor &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; Illumination of the Stop and oil pressure fault warning lights, warning message “Warning: possible engine fault” &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Faults detected by the self-diagnostic system: &lt;/B&gt; One or more of the following: &lt;UL&gt; &lt;LI&gt; 052421: Fuel injection control unit &lt;BR/&gt;  &lt;LI&gt; P052421: Injection control unit &lt;BR/&gt; &lt;LI&gt; 94117B: Instrument cluster control unit &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Faulty engine oil pressure sensor &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199274273</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check the actual engine oil pressure value. &lt;BR/&gt; If the pressure value is correct, then the cause of the fault is a faulty engine oil pressure sensor: proceed with its replacement. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; Engine oil pressure sensor product code: 252402757R. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

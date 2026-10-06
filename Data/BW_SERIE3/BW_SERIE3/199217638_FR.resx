@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T23:05:12">
+  <XDOCUMENTO>
+    <ID>199217638</ID>
+    <DOCNumber>DRA76286</DOCNumber>
+    <RifIDTipoRis>45</RifIDTipoRis>
+    <Titolo>Transmission automatique ZF GA8HP51 (8 vitesses)</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>45</ID>
+      <TipoRis>DRV</TipoRis>
+      <DscRis>Transmission automatique</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Caractéristiques techniques des lubrifiants  - </Capitolo>
+      <Corpo> &lt;B&gt; Fabricant : &lt;/B&gt; ZF &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Désignation : &lt;/B&gt; 8HP51 / 1111 024 xxx / 1111 014 xxx &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Nom commercial : &lt;/B&gt;  Steptronic &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Intervalle de vidange recommandé par le constructeur de la boîte de vitesses automatique : &lt;/B&gt; &lt;BR/&gt; 80 000 km &lt;BR/&gt; &lt;BR/&gt; &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt;  &lt;TH width=60% class=&quot;chiaro&quot;&gt; Description &lt;/TH&gt; &lt;TH width=25% class=&quot;chiaro&quot;&gt; Unité de mesure &lt;/TH&gt; &lt;TH width=15% class=&quot;chiaro&quot;&gt; Données &lt;/TH&gt; &lt;TR&gt; &lt;TD&gt; Code boîte de vitesses automatique : &lt;/TD&gt; &lt;TD&gt; N° de référence &lt;/TD&gt; &lt;TD&gt; 8HP51 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Nombre de rapports : &lt;/TD&gt; &lt;TD&gt; N° &lt;/TD&gt; &lt;TD&gt; 8 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Huile pour boîte de vitesses automatique - Spécifications du constructeur : &lt;/TD&gt;  &lt;TD&gt; N° de référence &lt;/TD&gt; &lt;TD&gt; ATF 3+ &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Huile pour boîte de vitesses automatique - Code fabricant : &lt;/TD&gt; &lt;TD&gt; N° de référence &lt;/TD&gt; &lt;TD&gt; BMW 83222289720 &lt;/TD&gt; &lt;/TR&gt;  &lt;TR&gt; &lt;TD&gt; Huile pour boîte de vitesses automatique - Quantité : &lt;/TD&gt; &lt;TD&gt; Litres &lt;/TD&gt; &lt;TD&gt; 9,28 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Huile pour boîte de vitesses automatique - Quantité pour le lavage de la boîte de vitesses : &lt;/TD&gt; &lt;TD&gt; Litres &lt;/TD&gt;  &lt;TD&gt; 9,0-10,0 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Température de contrôle du niveau d&apos;huile de transmission automatique : &lt;/TD&gt; &lt;TD&gt; °C &lt;/TD&gt; &lt;TD&gt; 30 °C~50 °C &lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503978</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503978</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503978</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>12</Ordine>
+      <Capitolo>Identification automatique de la boîte de vitesses</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Il est possible d&apos;identifier le modèle du réducteur en lisant la plaque signalétique sur le côté.&lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;L&apos;&lt;BR/&gt; initiale &lt;B&gt;1 &lt;/B&gt;identifie le numéro de série.&lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Le &lt;BR/&gt; symbole &lt;B&gt;2 &lt;/B&gt;identifie le nom du réducteur.&lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Le &lt;BR/&gt; symbole &lt;B&gt;3 &lt;/B&gt;identifie le modèle du réducteur.&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007669</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007669</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007669</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>13</Ordine>
+      <Capitolo>Dispositif de lavage automatique de la transmission avec équipement</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Pour laver la boîte de vitesses automatique, il est conseillé de brancher l&apos;appareil aux connexions indiquées dans la &lt;B&gt;Fig. 1.&lt;/B&gt;&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;1 &lt;/B&gt;- Attache pour l&apos;appareil de lavage des engrenages&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;2 &lt;/B&gt;- Orifice pour le contrôle du niveau d&apos;huile de la boîte de vitesses automatique&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;3 &lt;/B&gt;- Orifice pour la vidange de l&apos;huile de la boîte de vitesses automatique&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>62504747</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504747</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504747</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>15</Ordine>
+      <Capitolo>Procédure de vidange de l&apos;huile de transmission automatique</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;font-size:12.0pt;line-height:107%;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Positionner le véhicule sur un plan&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Arrêter le moteur&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Retirer le capot d&apos;insonorisation inférieur&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Retirer, si nécessaire, la plaque de protection thermique&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Retirer le bouchon de vidange &lt;B&gt;A&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Attendez que l&apos;huile de la boîte de vitesses soit complètement vidangée.&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;AVERTISSEMENT : &lt;/B&gt;Ne pas démarrer le moteur sans huile dans la boîte de vitesses&lt;B&gt;.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Remettre en place le bouchon de vidange &lt;B&gt;A&lt;/B&gt;, en le serrant à &lt;B&gt;8 Nm&lt;/B&gt;&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007666</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007666</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007666</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>16</Ordine>
+      <Capitolo>Remplacement du filtre à huile de la transmission automatique</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;font-size:12.0pt;line-height:107%;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Le filtre à huile de la boîte de vitesses automatique est situé à l&apos;intérieur du carter d&apos;huile&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;ATTENTION : &lt;/B&gt;Sur ce modèle de boîte de vitesses, le filtre à huile est intégré dans le carter d&apos;huile. Pour remplacer le filtre, il faut remplacer le carter d&apos;huile.&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;ATTENTION : &lt;/B&gt;Toujours remplacer le carter d&apos;huile et ses vis lors de la dépose du carter.&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007668</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007668</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007668</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procédure de remplissage d&apos;huile de transmission automatique</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; Placez le véhicule sur une surface plane et bloquez les roues &lt;BR/&gt; &lt;LI&gt; Éteignez les systèmes d&apos;éclairage et de climatisation &lt;BR/&gt;  &lt;LI&gt; Placez le levier de vitesses en position &lt;B&gt; P &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Serrez le frein de stationnement &lt;BR/&gt; &lt;LI&gt; Connectez le testeur de diagnostic &lt;BR/&gt;  &lt;LI&gt; Retirer le bouchon de remplissage &lt;B&gt; B &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; ATTENTION : &lt;/B&gt; Toujours remplacer le bouchon de remplissage &lt;B&gt; B &lt;/B&gt; et son joint &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; À l&apos;aide du testeur de diagnostic, exécuter la procédure &lt;B&gt; « Système de commande de boîte de vitesses : compensation d&apos;huile » &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Procéder au remplissage d&apos;huile de boîte de vitesses par l&apos;orifice de remplissage &lt;B&gt; B &lt;/B&gt; en suivant les indications fournies par le testeur de diagnostic &lt;BR/&gt;  &lt;LI&gt; Insérer un nouveau bouchon de remplissage &lt;B&gt; B &lt;/B&gt; avec son joint, en serrant à &lt;B&gt; 35 Nm &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Poursuivre la procédure de contrôle du niveau d&apos;huile de la boîte de vitesses automatique &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007667</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007667</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007667</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>21</Ordine>
+      <Capitolo>Procédure de contrôle du niveau d&apos;huile de la transmission automatique</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; Porter la température de l&apos;huile de transmission à &lt;B&gt; 30° - 40° C &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Placer le véhicule sur une surface plane et bloquer les roues &lt;BR/&gt; &lt;LI&gt; Éteindre les systèmes d&apos;éclairage et de climatisation &lt;BR/&gt;  &lt;LI&gt; Placez le levier de vitesses en position &lt;B&gt; P &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Serrez le frein de stationnement &lt;BR/&gt; &lt;LI&gt; Connectez le testeur de diagnostic &lt;BR/&gt; &lt;LI&gt; Retirez le bouchon de remplissage &lt;B&gt; B &lt;/B&gt; &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; ATTENTION : &lt;/B&gt; Toujours remplacer le bouchon de remplissage &lt;B&gt; B &lt;/B&gt; et son joint &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; À l&apos;aide du testeur de diagnostic, exécuter la procédure &lt;B&gt; « Système de commande de boîte de vitesses : compensation d&apos;huile » &lt;/B&gt;  &lt;BR/&gt; &lt;LI&gt; Porter l&apos;huile de boîte de vitesses à une température comprise entre &lt;B&gt; 40 °C et 50 °C &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Suivre les indications fournies par le testeur de diagnostic pour effectuer la procédure de contrôle du niveau d&apos;huile de la boîte de vitesses automatique &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; ATTENTION :  &lt;/B&gt; Un niveau d&apos;huile trop élevé ou trop bas compromet le fonctionnement de la boîte de vitesses &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Insérer un nouveau bouchon de remplissage &lt;B&gt; B &lt;/B&gt; avec son joint, en serrant à &lt;B&gt; 35 Nm &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299023076</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299023076</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299023076</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

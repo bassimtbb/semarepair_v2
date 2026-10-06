@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T04:59:51">
+  <XDOCUMENTO>
+    <ID>199283222</ID>
+    <DOCNumber>GUP91972</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>ABS-Pumpe auch bei ausgeschalteter Zündung ständig aktiv, ABS- und ESP-Kontrollleuchten leuchten auf</Titolo>
+    <InfoDoc>FRENI | ABS | GRUPPO | IDRAULICO | C0020 | ACCESA | ACCESO | ACCENDE | GIALLO | GIALLA | AUTO | SBANDA | CONTROLLO | DI | STABILITà | IDRAULICA | GIRA | SEMPRE | SCHERMO | INDICAZIONE | ESP | HILL | HOLDER | TRIANGOLO | PERICOLO | GENERICO| POMPA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199283222</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legende zur Zuverlässigkeitsstufe&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* niedrige Stufe&lt;/B&gt; : Feststellung durch die Kfz-Werkstatt, vom Hersteller nicht dokumentierter Fehlerfall.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** mittlere Stufe&lt;/B&gt; : Häufig auftretender Fehlerfall, der von Servicetechnikern und Kfz-Werkstätten festgestellt wurde.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** hohe Zuverlässigkeit&lt;/B&gt; : Gewissheit hinsichtlich des Fehlers, gute „Wiederholbarkeit“ laut Angaben des Herstellers.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283222</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; ABS &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Baugruppe: &lt;/B&gt; ABS-Hydraulikbaugruppe &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; ABS-Pumpe bleibt auch bei ausgeschaltetem Armaturenbrett aktiv, ABS- und ESP-Kontrollleuchten leuchten, „Hill Holder“-Warnung &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt; C0020 (Steuerkreis des ABS-Pumpenmotors – Fehler) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Defekte ABS-Hydraulikeinheit &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283222</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Den Zustand und die ordnungsgemäße Funktion der ABS-Hydraulikeinheit überprüfen und diese gegebenenfalls austauschen. Anschließend das Hydrauliksystem entlüften &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Nach dem Austausch musste das neue Bauteil mithilfe von Diagnosegeräten eingestellt werden &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

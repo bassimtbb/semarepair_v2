@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-23T04:33:08">
+  <XDOCUMENTO>
+    <ID>25001938</ID>
+    <DOCNumber>INT25057</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>Fiat 500</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Offizielle Rückrufe</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Datenquelle – Verkehrsministerium</Capitolo>
+      <Corpo> &lt;B&gt; Hersteller: &lt;/B&gt; Fiat Auto S.p.a. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Marke: &lt;/B&gt; Fiat &lt;BR/&gt; &lt;BR/&gt; Von den Herstellern gemäß D.D. 78/2000 anerkannte Mängel</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Fiat 500</Capitolo>
+      <Corpo> &lt;BR/&gt; Anzahl der Fahrzeuge: 108 &lt;BR/&gt; Produktionszeitraum: Juni 2020 &lt;BR/&gt; Fehlerbeschreibung: MÖGLICHE FEHLFUNKTION DES START-STOP-SYSTEMS &lt;BR/&gt; Abhilfemaßnahmen: PROXI-UPDATE &lt;BR/&gt; Hinweis für Vertragshändler &lt;BR/&gt; Anmerkungen – &lt;BR/&gt; Fahrgestellnummernbereich von: ZFA3120000JD77396 &lt;BR/&gt; Fahrgestellnummernbereich bis: ZFA3120000JD80992 &lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt; Anzahl der Fahrzeuge: 298 &lt;BR/&gt; Produktionszeitraum: NOV 2018 – DEZ 2018 &lt;BR/&gt; Fehlerbeschreibung: MÖGLICHER BRUCH DER RECHTEN VORDEREN HALBWELLE &lt;BR/&gt; Abhilfemaßnahmen: AUSTAUSCH &lt;BR/&gt; Hinweis für HÄNDLER &lt;BR/&gt; Anmerkungen – &lt;BR/&gt; Fahrgestellnummernbereich von: ZFA3120000JB11886 &lt;BR/&gt; Fahrgestellnummernbereich bis: ...25994 &lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt; Anzahl der Fahrzeuge: 22356 &lt;BR/&gt; Produktionszeitraum: OKT 2017 – APR 2019 &lt;BR/&gt; Fehlerbeschreibung: MÖGLICHE FEHLFUNKTION DES AIRBAGS &lt;BR/&gt; Abhilfemaßnahmen: SOFTWARE-UPDATE FÜR DAS STEUERGERÄT &lt;BR/&gt; Referenz für HÄNDLER &lt;BR/&gt; Anmerkungen – &lt;BR/&gt; Fahrgestellnummernbereich von: ZFA3340000P622051 &lt;BR/&gt; Fahrgestellnummernbereich bis: ...787333 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Anzahl der Fahrzeuge: 11543 &lt;BR/&gt; Produktionszeitraum: JULI 2017 – AUGUST 2017 &lt;BR/&gt; Fehlerbeschreibung: MÖGLICHE BLOCKIERUNG DER GESCHWINDIGKEITSANZEIGE &lt;BR/&gt; Abhilfemaßnahmen: AUSTAUSCH DER INSTRUMENTENTAFEL &lt;BR/&gt; Referenz für Vertragshändler &lt;BR/&gt; Anmerkungen – &lt;BR/&gt; Fahrgestellnummernbereich von: ZFA3120000J843082 &lt;BR/&gt; Fahrgestellnummernbereich bis: ZFA3100000J858977 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Anzahl der Fahrzeuge: 26 &lt;BR/&gt; Produktionszeitraum: MÄRZ 2017 &lt;BR/&gt; Fehlerbeschreibung: NICHTEINHALTUNG DER VORSCHRIFTEN BEIM LENKGETRIEBE &lt;BR/&gt; Abhilfemaßnahmen: GEGEBENENFALLS AUSTAUSCH &lt;BR/&gt; Hinweis für HÄNDLER &lt;BR/&gt; Anmerkungen – &lt;BR/&gt; Fahrgestellnummernbereich ab: ZFA3120000J762210 &lt;BR/&gt; Fahrgestellnummernbereich bis: ZFA3120000J7653319 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Anzahl der Fahrzeuge: 321 &lt;BR/&gt; Produktionszeitraum: SEP 2016 &lt;BR/&gt; Fehlerbeschreibung: HINTERE BREMSBELÄGE ENTSPRECHEN NICHT DEN VORSCHRIFTEN &lt;BR/&gt; Abhilfemaßnahmen: GEGEBENENFALLS AUSTAUSCH &lt;BR/&gt; Hinweis für HÄNDLER &lt;BR/&gt; Anmerkungen – &lt;BR/&gt; Fahrgestellnummernbereich von: ZFA3120000J658682 &lt;BR/&gt; Fahrgestellnummernbereich bis: ….664976 &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; Anzahl der Fahrzeuge: 2176 &lt;BR/&gt; Produktionszeitraum: Dez. 2015 – Jan. 2016 &lt;BR/&gt; Fehlerbeschreibung: FÜHRUNG DES RECHTEN VORDERSITZES ENTSPRICHT NICHT DEN VORGABEN &lt;BR/&gt; Abhilfemaßnahmen: GEGEBENENFALLS AUSTAUSCH DER KONSTRUKTION &lt;BR/&gt; Referenz 80034280000 &lt;BR/&gt; Anmerkungen – &lt;BR/&gt; Fahrgestellnummernbereich von: ZFA3120000J516840 &lt;BR/&gt; Fahrgestellnummernbereich bis: ZFA3120000J527059 &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; Anzahl der Fahrzeuge: 20 &lt;BR/&gt; Produktionszeitraum: SEP 2014 – OKT 2014 &lt;BR/&gt; Fehlerbeschreibung: NICHT KONFORME VERANKERUNGSSTANGEN DER VORDEREN SICHERHEITSGURTE &lt;BR/&gt; Korrekturmaßnahmen: AUSTAUSCH &lt;BR/&gt; Händler-Referenz &lt;BR/&gt; Anmerkungen – &lt;BR/&gt; Fahrgestellnummernbereich von: ZFA3120000J281982 &lt;BR/&gt; Fahrgestellnummernbereich bis: ZFA3120000J286237 &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; Anzahl der Fahrzeuge: 198 &lt;BR/&gt; Produktionszeitraum: von Juni 2012 bis September 2012 &lt;BR/&gt; Fehlerbeschreibung: Nichtkonformität der Bremskraftverstärker-Unterdruckleitung &lt;BR/&gt; Abhilfemaßnahmen: Überprüfung und gegebenenfalls Austausch &lt;BR/&gt; Hinweis: Vertragshändler &lt;BR/&gt; Fahrgestellnummernbereich von: ZFA31200000878086 &lt;BR/&gt; Fahrgestellnummernbereich bis: ZFA31200000890578 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Anzahl der Fahrzeuge: 319 &lt;BR/&gt; Produktionszeitraum: Juni 2010 &lt;BR/&gt; Fehlerbeschreibung: Nicht konforme Befestigungsschraube des Kardanwellenanschlusses an der Lenkwelle &lt;BR/&gt; Abhilfemaßnahmen: Gegebenenfalls Austausch &lt;BR/&gt; Referenz: Vertragshändler &lt;BR/&gt; Fahrgestellnummernbereich von: ZFA31200000549070 &lt;BR/&gt; Fahrgestellnummernbereich bis: ZFA31200000550399 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Anzahl der Fahrzeuge: 910 &lt;BR/&gt; Produktionszeitraum: von September 2009 bis Dezember 2009 &lt;BR/&gt; Fehlerbeschreibung: Nicht konforme Zwischenlenkwelle &lt;BR/&gt; Abhilfemaßnahmen: Überprüfung und gegebenenfalls Austausch &lt;BR/&gt; Ansprechpartner: Vertragshändler &lt;BR/&gt; Fahrgestellnummernbereich von: ZFA31200000396248 &lt;BR/&gt; Fahrgestellnummernbereich bis: ZFA31200000438371 &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; Anzahl der Fahrzeuge: 24579 &lt;BR/&gt; Produktionszeitraum: von September 2008 bis Februar 2009 &lt;BR/&gt; Fehlerbeschreibung: Mögliche Lockerung der Befestigungsschrauben der Halterung für die hinteren Bremsbacken &lt;BR/&gt; Abhilfemaßnahmen: Überprüfung und gegebenenfalls Nachziehen &lt;BR/&gt; Referenz: Vertragshändler &lt;BR/&gt; Fahrgestellnummernbereich von: ZFA31200000206893 &lt;BR/&gt; Fahrgestellnummernbereich bis: ZFA31200000279954 &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; Anzahl der Fahrzeuge: 20799 &lt;BR/&gt; Produktionszeitraum: von Oktober 2007 bis November 2007 &lt;BR/&gt; Fehlerbeschreibung: Mögliche Unregelmäßigkeit beim Vulkanisationsprozess des Gummischlauchs der Bremsanlage &lt;BR/&gt; Abhilfemaßnahmen: Überprüfung und gegebenenfalls Austausch &lt;BR/&gt; Referenz: Vertragshändler &lt;BR/&gt; Hinweis: Bei nicht aufeinanderfolgenden Fahrgestellnummern bitte den Vertragshändler konsultieren &lt;BR/&gt; Fahrgestellnummernbereich von: 500: zfa31200000032289 &lt;BR/&gt; Fahrgestellnummernbereich bis: zfa31200000039463 &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Fiat 500 1.3 Multijet</Capitolo>
+      <Corpo> &lt;BR/&gt; Anzahl der Fahrzeuge: 899 &lt;BR/&gt; Produktionszeitraum: Februar 2010 bis April 2010 &lt;BR/&gt; Fehlerbeschreibung: Mögliche Nichtkonformität der Befestigungsschrauben der Hydraulikpumpe der Kupplungsbetätigung und daraus resultierende Unmöglichkeit des Einlegens der Gänge &lt;BR/&gt; Abhilfemaßnahmen: Austausch der Befestigungsschrauben &lt;BR/&gt; Fahrgestellnummernbereich von: ZFA31200000454835 &lt;BR/&gt; Fahrgestellnummernbereich bis: ZFA31200000508162 &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Fiat 500 1.2 und 1.4 8V</Capitolo>
+      <Corpo> &lt;BR/&gt; Fahrzeugnummer: 2547 &lt;BR/&gt; Produktionszeitraum: von Juli 2008 bis Oktober 2008 &lt;BR/&gt; Fehlerbeschreibung: Mögliche Nichtkonformität des Kraftstoffverteilers &lt;BR/&gt; Abhilfemaßnahmen: Überprüfung und gegebenenfalls Austausch &lt;BR/&gt; Referenz: Autohaus &lt;BR/&gt; Fahrgestellnummernbereich von: ZFA31200000202179 &lt;BR/&gt; Fahrgestellnummernbereich bis: ZFA31200000223226 &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Fiat 500 Elettrica</Capitolo>
+      <Corpo> &lt;BR/&gt; Anzahl der Fahrzeuge: 9 &lt;BR/&gt; Produktionszeitraum: OKT 2012 – APR 2014 &lt;BR/&gt; Fehlerbeschreibung: FEHLERHAFTES STROMVERSORGUNGS-INVERTERMODUL &lt;BR/&gt; Korrekturmaßnahmen: AUSTAUSCH &lt;BR/&gt; Händler-Referenz &lt;BR/&gt; Anmerkungen: FAHRGESTELLNUMMER NICHT ANGEGEBEN &lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt; Anzahl der Fahrzeuge: 14 &lt;BR/&gt; Produktionszeitraum: OKT 2012 – NOV 2014 &lt;BR/&gt; Fehlerbeschreibung: LEISTUNGSVERLUST DES MOTORS AUFGRUND EINER FEHLFUNKTION DER HOCHSPANNUNGS-ELEKTRIKANIK &lt;BR/&gt; Korrekturmaßnahmen: SOFTWARE-UPDATE &lt;BR/&gt; Referenz 80034280000 &lt;BR/&gt; Anmerkungen: FÜR FAHRZEUG-ID-NUMMERN HÄNDLER KONSULTIEREN &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; Anzahl der Fahrzeuge: 19 &lt;BR/&gt; Produktionszeitraum: Okt. 2012 – Jan. 2016 &lt;BR/&gt; Fehlerbeschreibung: Das Stromversorgungs-Wechselrichtermodul (PIM) ist nicht vorschriftsmäßig programmiert, was zu einem Verlust der Antriebskraft führt &lt;BR/&gt; Abhilfemaßnahmen: NEUPROGRAMMIERUNG &lt;BR/&gt; Referenz für Vertragshändler &lt;BR/&gt; Anmerkungen – &lt;BR/&gt; Fahrgestellnummernbereich von: 3C3CFFGE0DT500186 &lt;BR/&gt; Fahrgestellnummernbereich bis: 3C3CFFGEXGT205326 &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>25001938</RifIDDoc>
+      <LinkUtili>Link zum Ministerium für Infrastruktur und Verkehr</LinkUtili>
+      <Ordine>1</Ordine>
+      <RifIDDocLink>15000122</RifIDDocLink>
+      <XLINKDOC>
+        <ID>15000122</ID>
+        <DOCNumber>LNK00008</DOCNumber>
+        <Documento>Weiter zu: Rückrufe – Verkehrsministerium</Documento>
+        <URL>LINKDOC:15000122</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

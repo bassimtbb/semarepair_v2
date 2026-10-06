@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2025-06-07T05:30:34">
+<XDOCUMENTO>
+<ID>199274275</ID>
+<DOCNumber>GUP89937</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Errore &quot;basso livello AdBlue&quot; che non si risolve con il riempimento del serbatoio</Titolo>
+<InfoDoc>INIEZIONE | P0607-51 | P14A3-96 | ADBLUE | MODULO DOSAGGIO | SENSORE QUALITÀ | ANOMALIA LIVELLO | INIETTORE | SERBATOIO | QUANTITà | FAP | DPF | PARTICOLATO | ANTIPARTICOLATO |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199274275</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (**)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199274275</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Validità:&lt;/B&gt; Tutti i veicoli &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Riduzione emissioni inquinanti&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Sistema AdBlue &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Il display indica un errore di basso livello AdBlue che non si risolve con il riempimento del serbatoio&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Il problema deriva da un malfunzionamento del modulo di dosaggio AdBlue o del sensore di livello. Anche con il serbatoio pieno, il sistema non riconosce il livello corretto, indicando erroneamente la necessità di rifornire AdBlue&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199274275</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Verificare il corretto funzionamento del serbatoio e dell&apos;iniettore AdBlue e, se necessario,  procedere con la sostituzione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt;&lt;UL&gt;&lt;LI&gt; Verificare  il livello di AdBlue e procedere con il riempimento se necessario&lt;BR/&gt;&lt;LI&gt; Procedere con la pulizia dell&apos;iniettore AdBlue e verificare il suo corretto funzionamento&lt;BR/&gt;&lt;LI&gt; Se l&apos;iniettore risulta essere pulito ma non arriva il liquido in pressione, procedere con la sostituzione del serbatoio AdBlue (compreso del modulo di dosaggio)&lt;BR/&gt;In seguito alla sostituzione del serbatoio, apparirà il codice guasto &lt;I&gt;&quot;P0607-51 - Nessuna programmazione&quot;&lt;/I&gt;; indica che è necessario eseguire la riprogrammazione della centralina.&lt;/UL&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; Se, al termine della regolazione, viene visualizzato l’errore &lt;I&gt;“P14A3-96 Sensore della qualità dell’AdBlue/DEF Anomalia interna”&lt;/I&gt;, significa che il modulo presente nel serbatoio non è completamente compatibile con quello precedentemente installato. In tal caso, è necessario procedere con la riprogrammazione del nuovo modulo tramite attrezzatura diagnostica&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

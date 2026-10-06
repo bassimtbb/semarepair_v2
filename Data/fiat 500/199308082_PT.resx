@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T16:03:25">
+  <XDOCUMENTO>
+    <ID>199308082</ID>
+    <DOCNumber>GUP96908</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Acendimento das luzes de aviso do airbag (amarela e depois vermelha) e avaria genérica</Titolo>
+    <InfoDoc>AIRBAG | U1726 | B1053 | CENTRALINA | ACCENDE | ACCESA | GIALLO | GIALLA | ROSSO | ROSSA | TRIANGOLO | PERICOLO | PUNTO | ESCLAMATIVO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199308082</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Legenda do grau de fiabilidade &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  * nível baixo &lt;/B&gt;  : Detecção pelo técnico de reparação, caso de avaria não registado pelo fabricante. &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  ** nível médio &lt;/B&gt;  : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos independentes. &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  *** nível elevado &lt;/B&gt;  : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199308082</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Sistema: &lt;/B&gt;  Airbag &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Dispositivo: &lt;/B&gt;  Unidade de controlo do airbag &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Anomalia: &lt;/B&gt;  Acendimento das luzes de aviso do airbag (amarela e depois vermelha) e avaria genérica &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Erros detetados pelo autodiagnóstico: &lt;/B&gt;  &lt;UL&gt;   &lt;LI&gt;   U1726 (Ausência de comunicação com a central do airbag) &lt;BR&gt;  &lt;LI&gt;   B1053 (Módulo de injeção; sinal de comando do interruptor inercial de segurança — Efetuar autodiagnóstico) &lt;/UL&gt;  &lt;LI&gt;   &lt;B&gt;  Causa: &lt;/B&gt;  Módulo do airbag defeituoso &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199308082</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Intervenção: &lt;/B&gt;  Verificar o estado e o funcionamento correto da central de controlo do airbag; se necessário, proceder à sua reparação/substituição &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Procedimento: &lt;/B&gt;  - - &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Nota: &lt;/B&gt;  A unidade de controlo defeituosa não apresentava anomalias visuais e, após a sua substituição, o problema foi resolvido de forma definitiva. &lt;BR&gt; O componente está localizado na parte inferior do painel de instrumentos, no habitáculo, no túnel central por baixo do canal de ventilação. É acessível por baixo do porta-objetos, do lado do passageiro, após a remoção de uma proteção de plástico. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

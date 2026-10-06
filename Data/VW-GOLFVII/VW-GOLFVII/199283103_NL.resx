@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T11:37:08">
+  <XDOCUMENTO>
+    <ID>199283103</ID>
+    <DOCNumber>COP90847</DOCNumber>
+    <RifIDTipoRis>24</RifIDTipoRis>
+    <Titolo>Lijst voor DFGA-motoren</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>226</RifIDFileICO>
+    <XFILE>
+      <ID>226</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:226</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>24</ID>
+      <TipoRis>COP</TipoRis>
+      <DscRis>Aanhaalmomenten</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>10</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLDATO</IDLabel>
+        <Stringa>Beschrijving</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLUM</IDLabel>
+        <Stringa>Meeteenheid</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLVALORE</IDLabel>
+        <Stringa>Gegevens</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Gegevenslijst</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Deksel van de klepstoters</Dato>
+      <Valore>9</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato> Deksel van de klepstoters</Dato>
+      <Valore>Opmerking</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199246858</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199246858</ID>
+        <DOCNumber>LIS78125</DOCNumber>
+        <URL>LINKDOC:199246858</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Aanhaalvolgorde cilinderkop</Dato>
+      <Valore>Zie afbeelding</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>75004362</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>75004362</ID>
+        <DOCNumber>LIS75196</DOCNumber>
+        <URL>LINKDOC:75004362</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Testfase 1 – Aandraaien</Dato>
+      <Valore>30</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Testserie 2e fase - Aandraaien</Dato>
+      <Valore>70</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato> Testfase 3 – Aandraaien</Dato>
+      <Valore>90°</Valore>
+      <UnitaMis>Graden</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato> Testfase 4 – Aandraaien</Dato>
+      <Valore>90°</Valore>
+      <UnitaMis>Graden</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato> Testfase 5 – Aandraaien</Dato>
+      <Valore>90°</Valore>
+      <UnitaMis>Graden</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Vervanging van cilinderkopbouten</Dato>
+      <Valore>Aanbevolen</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Lagers werkbank 1e fase - Aandraaien</Dato>
+      <Valore>65</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato> Lagers werkbank 2e fase - Aandraaien</Dato>
+      <Valore>90°</Valore>
+      <UnitaMis>Graden</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Vervanging van lagerbouten op de werkbank</Dato>
+      <Valore>Aanbevolen</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Druklagers voor drijfstangen, fase 1 – Aandraaien</Dato>
+      <Valore>30</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato> Druklagerkappen van de drijfstang, 2e fase – Aandraaien</Dato>
+      <Valore>90°</Valore>
+      <UnitaMis>Graden</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Smering van bouten en lagers van de drijfstang</Dato>
+      <Valore>Aanbevolen</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Vervanging van bouten van de drijfstanglagers</Dato>
+      <Valore>Aanbevolen</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato> Bout van de poelie op de krukas (midden)</Dato>
+      <Valore>Opmerking</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>75005708</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>75005708</ID>
+        <DOCNumber>LIS75366</DOCNumber>
+        <URL>LINKDOC:75005708</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato> Bouten voor de poelie van de krukas</Dato>
+      <Valore>Opmerking</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199270275</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199270275</ID>
+        <DOCNumber>LIS78709</DOCNumber>
+        <URL>LINKDOC:199270275</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Vliegwielbouten 1e fase - Aandraaien</Dato>
+      <Valore>60</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato> Vliegwielbouten 2e fase - Aandraaien</Dato>
+      <Valore>90°</Valore>
+      <UnitaMis>Graden</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Vervanging van vliegwielbouten</Dato>
+      <Valore>Aanbevolen</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato> Koppelingsdruklagers</Dato>
+      <Valore>Opmerking</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199283106</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199283106</ID>
+        <DOCNumber>LIS78903</DOCNumber>
+        <URL>LINKDOC:199283106</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Distributietandwiel</Dato>
+      <Valore>100</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato> Nokkenasafdekkappen</Dato>
+      <Valore>Opmerking</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199283104</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199283104</ID>
+        <DOCNumber>LIS78902</DOCNumber>
+        <URL>LINKDOC:199283104</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato> Aanzuigspruitstuk naar cilinderkop</Dato>
+      <Valore>Opmerking</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199246897</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199246897</ID>
+        <DOCNumber>LIS78138</DOCNumber>
+        <URL>LINKDOC:199246897</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato> Uitlaatspruitstuk naar cilinderkop</Dato>
+      <Valore>Opmerking</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199246887</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199246887</ID>
+        <DOCNumber>LIS78133</DOCNumber>
+        <URL>LINKDOC:199246887</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Bevestiging van injectoren</Dato>
+      <Valore>8 Nm en 270°</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Vervanging van injectorbouten</Dato>
+      <Valore>Aanbevolen - (ring en pakking vervangen)</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Koelvloeistofpomp</Dato>
+      <Valore>20 Nm en 45° - (bouten vervangen)</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Motoroliefilter</Dato>
+      <Valore>25</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Aftapplug voor motorolie</Dato>
+      <Valore>30</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>AANHAALMOMENTEN</Gruppo>
+      <Dato>Lambdasonde</Dato>
+      <Valore>52</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-12T08:54:15">
+<XDOCUMENTO>
+<ID>199309506</ID>
+<DOCNumber>GUP97352</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Accensione spia avaria motore durante le fasi di accelerazione o in marcia ad alte velocità</Titolo>
+<InfoDoc>INIEZIONE | P16C0 | TEMPERATURA ASPIRAZIONE | INTERCOOLER ARIA/ACQUA | TERMOSTATO | CIRCUITO BASSA TEMPERATURA | RAFFREDDAMENTO | LIQUIDO ANTIGELO | RIEMPIMENTO SOTTOVUOTO | ACCELERAZIONE | GUASTI | MIL | VELOCITà |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199309506</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (*)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199309506</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Iniezione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Termostato di separazione tra i circuiti di alta e bassa temperatura.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Il veicolo manifesta un&apos;accensione intermittente della spia di avaria motore e un messaggio di anomalia al sistema di iniezione. Questo sintomo si verifica esclusivamente durante fasi di forte accelerazione prolungata o ad alte velocità, e scompare al rilascio del pedale dell&apos;acceleratore. Verificando i parametri, si nota un innalzamento drastico della temperatura dell&apos;aria all&apos;interno dell&apos;intercooler, la quale raggiunge e supera i 100°C invece di assestarsi sui corretti 40-45°C.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; P16C0&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Il problema scaturisce dal bloccaggio meccanico in posizione &quot;aperta&quot; (o intermedia) del termostato che regola il flusso di liquido refrigerante tra il circuito ad alta temperatura (raffreddamento motore) e quello a bassa temperatura (intercooler aria/acqua, EGR). Essendo il sistema alimentato da un&apos;unica vaschetta di espansione, la rottura di tale valvola permette al liquido bollente proveniente dal monoblocco di riversarsi in modo incontrollato nel circuito freddo. Di conseguenza, l&apos;intercooler viene attraversato da liquido ad alta temperatura, finendo per riscaldare l&apos;aria in ingresso al collettore anziché raffreddarla.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199309506</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Sostituzione del termostato del circuito di raffreddamento e immissione di nuovo liquido antigelo.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;	&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

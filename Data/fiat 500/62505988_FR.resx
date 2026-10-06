@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T00:58:05">
+  <XDOCUMENTO>
+    <ID>62505988</ID>
+    <DOCNumber>GUR62509</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Remise en état du démarreur après un choc</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Guide Réglage</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62505988</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Informations sur le système</Capitolo>
+      <Corpo> &lt;BR/&gt; La voiture est équipée d&apos;un système de prévention des incendies appelé &lt;B&gt; FPS (Fire Prevention System) &lt;/B&gt; . &lt;BR/&gt;&lt;BR/&gt; Suite à un choc de faible intensité, le système FPS intervient de la manière suivante : &lt;BR/&gt;&lt;BR/&gt; - Interruption de l&apos;alimentation en carburant depuis l&apos;unité de commande d&apos;injection &lt;BR/&gt; - Déverrouillage des portes &lt;BR/&gt; - Allumage du plafonnier &lt;BR/&gt; - Allumage des feux de détresse &lt;BR/&gt; - Le message &lt;B&gt; « FPS ON » &lt;/B&gt; ou &lt;B&gt; « Blocco carburante intervenuto » &lt;/B&gt; s&apos;affiche sur le tableau de bord &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503867</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503867</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503867</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62505988</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Remise en état du démarreur</Capitolo>
+      <Corpo> &lt;BR/&gt; Procédure de réinitialisation du démarrage du moteur : &lt;BR/&gt; &lt;BR/&gt; 1- Mettre le contact &lt;BR/&gt; 2- En déplaçant le levier de direction &lt;B&gt;, allumer &lt;/B&gt; le clignotant &lt;B&gt; droit &lt;/B&gt;  &lt;BR/&gt; 3- En déplaçant le levier de vitesses &lt;B&gt;, désactiver &lt;/B&gt; le clignotant &lt;B&gt; droit &lt;/B&gt; &lt;BR/&gt; 4- En déplaçant le levier de vitesses &lt;B&gt;, activer &lt;/B&gt; le clignotant &lt;B&gt; gauche &lt;/B&gt;  &lt;BR/&gt; 5- En déplaçant le levier de commande &lt;B&gt;, désactiver &lt;/B&gt; le clignotant &lt;B&gt; gauche &lt;/B&gt; &lt;BR/&gt; 6- En déplaçant le levier de commande &lt;B&gt;, activer &lt;/B&gt; le clignotant &lt;B&gt; droit &lt;/B&gt;  &lt;BR/&gt; 7- En déplaçant le levier de commande &lt;B&gt;, éteindre &lt;/B&gt; le clignotant &lt;B&gt; droit &lt;/B&gt; &lt;BR/&gt; 8- En déplaçant le levier de commande &lt;B&gt;, allumer &lt;/B&gt; le clignotant &lt;B&gt; gauche &lt;/B&gt; &lt;BR/&gt; 9- En déplaçant le levier de commande &lt;B&gt;, désactivez &lt;/B&gt; le clignotant gauche &lt;/B&gt; &lt;BR/&gt; 10- Coupez le contact &lt;BR/&gt; &lt;BR/&gt; Le système FPS est désormais désactivé et vous pouvez démarrer le moteur &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62505988</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Avertissements</Capitolo>
+      <Corpo> &lt;BR/&gt; Sur certaines voitures, la procédure manuelle peut ne pas être possible. Dans ce cas, procédez avec l&apos;équipement de diagnostic &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T05:01:06">
+  <XDOCUMENTO>
+    <ID>199284298</ID>
+    <DOCNumber>GUP92125</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Startschwierigkeiten</Titolo>
+    <InfoDoc>ELETTRONICA | BATTERIA | AVVIA | ACCENSIONE | MOTORE | GIRA | BLOCCA | PARTE | DIFFICOLTà | AVVIARSI | ACCENDE | PARTE | INIEZIONE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199284298</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284298</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Einspritzung &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorrichtung: &lt;/B&gt; Batterie &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Beim Starten geht der Motor mehrmals aus, bevor er anspringt &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose erkannte Fehler: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Defekte Batterie &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284298</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Die ordnungsgemäße Funktion der Batterie überprüfen und diese gegebenenfalls austauschen &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

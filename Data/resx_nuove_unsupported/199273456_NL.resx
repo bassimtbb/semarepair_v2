@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T10:54:52">
+  <XDOCUMENTO>
+    <ID>199273456</ID>
+    <DOCNumber>GUP89218</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>De airconditioning werkt niet of presteert onvoldoende</Titolo>
+    <InfoDoc>60793 | CLIMATIZZATORE | CLIMA | ARIA CONDIZIONATA | FREDDO | TEMPERATURA | NON FUNZIONA | NON ESCE ARIA | SOSTA | SPENTO | LUNGO TERMINE | SANDEN | COMPRESSORE | PRESSIONE | REFRIGERANTE | RAFFREDDAMENTO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparatiehandleiding</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199273456</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Betrouwbaarheidsgraad   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda van de betrouwbaarheidsgraad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * laag niveau &lt;/B&gt; : Vastgesteld door de autoreparateur, storingsgeval niet bevestigd door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** gemiddeld niveau &lt;/B&gt; : Veelvoorkomende storingsgevallen, vastgesteld door servicetechnici en reparateurs. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** hoog niveau &lt;/B&gt; : Bevestigde storing, hoge mate van &quot;herhaalbaarheid&quot; gemeld door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273456</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificatie van het systeem/de storing</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Geldigheid: &lt;/B&gt;  Auto’s geproduceerd tussen 01/01/19 en 01/06/20 en uitgerust met een SANDEN-aircocompressor &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Systeem: &lt;/B&gt;  Airconditioning &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Onderdeel: &lt;/B&gt;  Kogelgewricht van de compressorzuiger &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Storing: &lt;/B&gt;  De airconditioning werkt niet of presteert onvoldoende &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Door de zelfdiagnose gedetecteerde fouten: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Oorzaak: &lt;/B&gt;  Hoge weerstand bij het kogelgewricht van de compressorpiston, waardoor de compressor zijn capaciteit niet kan variëren van minimaal naar maximaal, waardoor de koelmiddelstroom in de airconditioning wordt beperkt en de koelefficiëntie afneemt. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273456</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparatieprocedure</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Werkzaamheid: &lt;/B&gt;  Voer de procedure uit om de zuiger van de aircocompressor te ontgrendelen &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedure: &lt;/B&gt;  Controleer de druk in het koelmiddelcircuit. Start de motor en laat deze stationair draaien terwijl het voertuig stilstaat. Schakel de airconditioning in en stel de temperatuur in op de laagste stand. Als het voertuig is uitgerust met handmatige airconditioning, stel dan de ventilatorsnelheid in op 2/4; als het voertuig daarentegen is uitgerust met automatische airconditioning, stel dan de snelheid in op 4/8. Als de compressor niet binnen drie minuten start, geef dan gas tot 2.000 tpm en houd dit toerental gedurende één minuut aan nadat de compressor is gestart. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Opmerking: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

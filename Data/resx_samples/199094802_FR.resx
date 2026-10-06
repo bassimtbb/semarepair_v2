@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T10:30:26">
+  <XDOCUMENTO>
+    <ID>199094802</ID>
+    <DOCNumber>PTG82614</DOCNumber>
+    <RifIDTipoRis>32</RifIDTipoRis>
+    <Titolo>Maintenance programmée</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>32</ID>
+      <TipoRis>PTG</TipoRis>
+      <DscRis>Révisions officielles</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XLINKUTILI>
+      <RifIDDoc>199094802</RifIDDoc>
+      <Ordine>10</Ordine>
+      <RifIDDocLink>199094803</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199094803</ID>
+        <DOCNumber>TGG145324</DOCNumber>
+        <Documento>Révision: Entretien standard</Documento>
+        <URL>LINKDOC:199094803</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199094802</RifIDDoc>
+      <Ordine>20</Ordine>
+      <RifIDDocLink>199094804</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199094804</ID>
+        <DOCNumber>TGG145325</DOCNumber>
+        <Documento>Révision: Entretien supplémentaire : huile moteur</Documento>
+        <URL>LINKDOC:199094804</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199094802</RifIDDoc>
+      <Ordine>30</Ordine>
+      <RifIDDocLink>199094805</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199094805</ID>
+        <DOCNumber>TGG145326</DOCNumber>
+        <Documento>Révision: Entretien supplémentaire : toutes les 2 vidanges d'huile moteur</Documento>
+        <URL>LINKDOC:199094805</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199094802</RifIDDoc>
+      <Ordine>40</Ordine>
+      <RifIDDocLink>199094806</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199094806</ID>
+        <DOCNumber>TGG145327</DOCNumber>
+        <Documento>Révision: Entretien supplémentaire : toutes les 3 vidanges d'huile moteur</Documento>
+        <URL>LINKDOC:199094806</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199094802</RifIDDoc>
+      <Ordine>50</Ordine>
+      <RifIDDocLink>199094807</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199094807</ID>
+        <DOCNumber>TGG145328</DOCNumber>
+        <Documento>Révision: Entretien supplémentaire : plaquettes de frein avant</Documento>
+        <URL>LINKDOC:199094807</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199094802</RifIDDoc>
+      <Ordine>60</Ordine>
+      <RifIDDocLink>199094808</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199094808</ID>
+        <DOCNumber>TGG145329</DOCNumber>
+        <Documento>Révision: Entretien supplémentaire : plaquettes de frein arrière</Documento>
+        <URL>LINKDOC:199094808</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199094802</RifIDDoc>
+      <Ordine>70</Ordine>
+      <RifIDDocLink>199094809</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199094809</ID>
+        <DOCNumber>TGG145330</DOCNumber>
+        <Documento>Révision: Entretien supplémentaire : liquide de frein</Documento>
+        <URL>LINKDOC:199094809</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199094802</RifIDDoc>
+      <Ordine>80</Ordine>
+      <RifIDDocLink>199094810</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199094810</ID>
+        <DOCNumber>TGG145331</DOCNumber>
+        <Documento>Révision: Entretien supplémentaire : filtre à particules diesel</Documento>
+        <URL>LINKDOC:199094810</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199094802</RifIDDoc>
+      <Ordine>90</Ordine>
+      <RifIDDocLink>199094812</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199094812</ID>
+        <DOCNumber>TGG145332</DOCNumber>
+        <Documento>Révision: Entretien supplémentaire : contrôle du véhicule</Documento>
+        <URL>LINKDOC:199094812</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

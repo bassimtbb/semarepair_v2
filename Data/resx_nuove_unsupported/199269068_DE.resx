@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-22T00:49:57">
+  <XDOCUMENTO>
+    <ID>199269068</ID>
+    <DOCNumber>TGE88342</DOCNumber>
+    <RifIDTipoRis>16</RifIDTipoRis>
+    <Titolo>Wartung in festgelegten Intervallen</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>234</RifIDFileICO>
+    <XFILE>
+      <ID>234</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:234</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>16</ID>
+      <TipoRis>TGE</TipoRis>
+      <DscRis>Zusätzliche Kontrollen und Riemen</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>7</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>SINO</IDLabel>
+        <Stringa>Ja-Nein</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Datenliste</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Im Alter von 3 Jahren, danach alle 2 Jahre (unabhängig von der Fahrleistung)</Tagliando>
+      <TipoCtrl>FLÜSSIGKEITEN FÜR HILFSSYSTEME</TipoCtrl>
+      <Controllo>Bremsflüssigkeit</Controllo>
+      <Verifica>Austausch</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Im Alter von 3 Jahren, danach alle 2 Jahre (unabhängig von der Fahrleistung)</Tagliando>
+      <TipoCtrl>FLÜSSIGKEITEN FÜR HILFSSYSTEME</TipoCtrl>
+      <Controllo>Öl / Kupplungsflüssigkeit</Controllo>
+      <Verifica>Austausch</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 60.000 km oder alle 2 Jahre</Tagliando>
+      <TipoCtrl>ZUSATZFILTER</TipoCtrl>
+      <Controllo>Innenraumfilter / Pollenfilter (falls vorhanden)</Controllo>
+      <Verifica>Austausch</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 90.000 km </Tagliando>
+      <TipoCtrl>ZUSATZFILTER</TipoCtrl>
+      <Controllo>Kraftstofffilter</Controllo>
+      <Verifica>Austausch</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 90.000 km oder alle 6 Jahre</Tagliando>
+      <TipoCtrl>ZUSATZFILTER</TipoCtrl>
+      <Controllo>Luftfilter</Controllo>
+      <Verifica>Austausch</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 90.000 km oder alle 6 Jahre</Tagliando>
+      <TipoCtrl>ZUSATZFILTER</TipoCtrl>
+      <Controllo>Zustand des Luftfiltergehäuses</Controllo>
+      <Verifica>Reinigung / Überprüfung</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 120.000 km </Tagliando>
+      <TipoCtrl>FLÜSSIGKEITEN FÜR HILFSSYSTEME</TipoCtrl>
+      <Controllo>Öl für Automatikgetriebe (Doppelkupplungsgetriebe)</Controllo>
+      <Verifica>Entleeren / Befüllen</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Bei 210.000 km, danach alle 30.000 km</Tagliando>
+      <TipoCtrl>AUSSENELEMENTE / KAROSSERIE</TipoCtrl>
+      <Controllo>Zustand / Zustand des Katalysators und des Partikelfilters / FAP</Controllo>
+      <Verifica>Überprüfen: gegebenenfalls austauschen</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 210.000 km</Tagliando>
+      <TipoCtrl>VERTEILERSTEUERUNG</TipoCtrl>
+      <Controllo>Zahnriemen</Controllo>
+      <Verifica>Austausch</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 210.000 km</Tagliando>
+      <TipoCtrl>VERTEILERSTEUERUNG</TipoCtrl>
+      <Controllo>Spannvorrichtung für den Zahnriemen</Controllo>
+      <Verifica>Austausch</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 60.000 km oder alle 3 Jahre, danach alle 2 Jahre</Tagliando>
+      <TipoCtrl>ELEKTRISCHE/ELEKTRONISCHE TEILE</TipoCtrl>
+      <Controllo>Instrumentierung: Warnleuchten und Beleuchtung</Controllo>
+      <Verifica>Prüfung / Kontrolle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 60.000 km oder alle 3 Jahre, danach alle 2 Jahre</Tagliando>
+      <TipoCtrl>AUSSENELEMENTE / KAROSSERIE</TipoCtrl>
+      <Controllo>Karosserie / Lackierung</Controllo>
+      <Verifica>Prüfung / Kontrolle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 60.000 km oder alle 3 Jahre, danach alle 2 Jahre</Tagliando>
+      <TipoCtrl>AUSSENELEMENTE / KAROSSERIE</TipoCtrl>
+      <Controllo>Zustand der Windschutzscheibe und der Heckscheibe</Controllo>
+      <Verifica>Prüfung / Kontrolle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 60.000 km oder alle 3 Jahre, danach alle 2 Jahre</Tagliando>
+      <TipoCtrl>AUSSENELEMENTE / KAROSSERIE</TipoCtrl>
+      <Controllo>Funktionsweise des Schiebedachs</Controllo>
+      <Verifica>Prüfung / Kontrolle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 60.000 km oder alle 3 Jahre, danach alle 2 Jahre</Tagliando>
+      <TipoCtrl>AUSSENELEMENTE / KAROSSERIE</TipoCtrl>
+      <Controllo>Zustände von Hebelmechanismen und Führungsschienen des Schiebedachs</Controllo>
+      <Verifica>Prüfung / Reinigung / Schmierung</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 60.000 km oder alle 3 Jahre, danach alle 2 Jahre</Tagliando>
+      <TipoCtrl>MECHANISCHE TEILE</TipoCtrl>
+      <Controllo>Kugelgelenke der Lenkung</Controllo>
+      <Verifica>Prüfung / Kontrolle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 60.000 km oder alle 3 Jahre, danach alle 2 Jahre</Tagliando>
+      <TipoCtrl>MECHANISCHE TEILE</TipoCtrl>
+      <Controllo>Zustand des Lenkgetriebes</Controllo>
+      <Verifica>Prüfung / Kontrolle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 60.000 km oder alle 3 Jahre, danach alle 2 Jahre</Tagliando>
+      <TipoCtrl>MECHANISCHE TEILE</TipoCtrl>
+      <Controllo>Bedingungen / Passung mechanischer Elemente der Lenksäule</Controllo>
+      <Verifica>Prüfung / Kontrolle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 60.000 km oder alle 3 Jahre, danach alle 2 Jahre</Tagliando>
+      <TipoCtrl>MECHANISCHE TEILE</TipoCtrl>
+      <Controllo>Fahrwerk und zugehörige Komponenten</Controllo>
+      <Verifica>Prüfung / Kontrolle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 60.000 km oder alle 3 Jahre, danach alle 2 Jahre</Tagliando>
+      <TipoCtrl>MECHANISCHE TEILE</TipoCtrl>
+      <Controllo>Zustand / Funktion der Federung</Controllo>
+      <Verifica>Prüfung / Kontrolle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 60.000 km oder alle 3 Jahre, danach alle 2 Jahre</Tagliando>
+      <TipoCtrl>AUSSENELEMENTE / KAROSSERIE</TipoCtrl>
+      <Controllo>Zustände / Korrosion von Auspuffrohren und Halterungen</Controllo>
+      <Verifica>Prüfung / Kontrolle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 60.000 km oder alle 3 Jahre, danach alle 2 Jahre</Tagliando>
+      <TipoCtrl>AUSSENELEMENTE / KAROSSERIE</TipoCtrl>
+      <Controllo>Zustand / Unterbodenschutz</Controllo>
+      <Verifica>Prüfung / Kontrolle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 60.000 km oder alle 3 Jahre, danach alle 2 Jahre</Tagliando>
+      <TipoCtrl>AUSSENELEMENTE / KAROSSERIE</TipoCtrl>
+      <Controllo>Räder / Vorderradlager</Controllo>
+      <Verifica>Prüfung / Kontrolle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 60.000 km oder alle 3 Jahre, danach alle 2 Jahre</Tagliando>
+      <TipoCtrl>AUSSENELEMENTE / KAROSSERIE</TipoCtrl>
+      <Controllo>Räder / Hinterradlager</Controllo>
+      <Verifica>Prüfung / Kontrolle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 60.000 km oder alle 3 Jahre, danach alle 2 Jahre</Tagliando>
+      <TipoCtrl>RIEMEN UND AGGREGATE</TipoCtrl>
+      <Controllo>Hilfsriemen / Dienstleistungen</Controllo>
+      <Verifica>Prüfung / Einstellung</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269068</RifIDDoc>
+      <Tagliando>Alle 3 Jahre (unabhängig von der Laufleistung)</Tagliando>
+      <TipoCtrl>FLÜSSIGKEITEN FÜR HILFSSYSTEME</TipoCtrl>
+      <Controllo>Haldex-Kupplungsöl</Controllo>
+      <Verifica>Entleeren / Befüllen</Verifica>
+    </XPROGTAGL_COMPLETO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-17T07:11:56">
+  <XDOCUMENTO>
+    <ID>199309024</ID>
+    <DOCNumber>GUP97233</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Fehlermeldung des AdBlue-Systems mit leuchtender Motorwarnleuchte und SCR-Fehlermeldung</Titolo>
+    <InfoDoc>INIEZIONE | ADBLUE | SCR | SPIA MOTORE | AVARIA | SISTEMA ADDITIVAZIONE | DDE | CENTRALINA MOTORE | AGGIORNAMENTO | SOFTWARE | 8052DF | 8052D2 | 2C3000 | UPDATE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199309024</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Legende zur Zuverlässigkeitsstufe &lt;BR&gt; &lt;BR&gt; &lt;B&gt; * niedrige Stufe &lt;/B&gt; : Feststellung durch den Kfz-Mechaniker, vom Hersteller nicht dokumentierter Fehlerfall. &lt;BR&gt; &lt;BR&gt;  &lt;B&gt; ** mittleres Niveau &lt;/B&gt; : Umfangreiche Fehlerfälle, die von Servicetechnikern und Kfz-Mechanikern festgestellt wurden. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** hohes Niveau &lt;/B&gt; : Gewissheit bezüglich des Fehlers, gute „Wiederholungsrate“, die vom Hersteller gemeldet wurde. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309024</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Einspritzung &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Gerät: &lt;/B&gt; DDE-Motorsteuergerät &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Die Fehlermeldung des AdBlue-Systems tritt gleichzeitig mit dem Aufleuchten der Motorwarnleuchte und einer Fehlermeldung bezüglich des Abgasnachbehandlungssystems auf. &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose erkannte Fehler: &lt;/B&gt; &lt;UL&gt; &lt;LI&gt; 2C3000 (SCR-System, Diagnose-Feedback: Übertragung des Fehlerstatus vom SCR-Steuergerät an das DDE) &lt;BR&gt;  &lt;LI&gt; 8052D2 (AdBlue-Tank) &lt;BR&gt; &lt;LI&gt; 8052DF (AdBlue-System, CC-Anforderung: AdBlue-System defekt) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Ungeeignete Steuergerätesoftware &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309024</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Führen Sie ein Software-Update des Motorsteuergeräts durch. &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Überprüfen Sie mithilfe eines Diagnosegeräts außerdem, ob alle zugehörigen Systeme ordnungsgemäß funktionieren. Wenn DTCs oder andere als die aufgeführten Symptome vorliegen, beheben Sie diese zunächst, bevor Sie mit diesem Bericht fortfahren. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

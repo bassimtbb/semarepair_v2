@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-23T01:31:19">
+<XDOCUMENTO>
+<ID>199320408</ID>
+<DOCNumber>GUP100614</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Avvisi &quot;Errore quadro strumenti&quot;, &quot;Front Assist non disponibile&quot; e frecce prive di segnale acustico</Titolo>
+<InfoDoc>ELETTRONICA | ADAS | QUADRO | STRUMENTI | B2000 | U1123 | ANOMALIA | RECARSI | OFFICINA | CRUISE | TRIANGOLO | AUTO | CARREGGIATA | LINEA | ASSISTENZA | CORSIA | SEGNALE | AVVISO | TICCHETTIO | INDICATORI | DIREZIONE | CICALINO | INTERNO |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199320408</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (**)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199320408</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Validità:&lt;/B&gt; Veicoli dotati di quadri strumenti digitali da 12,3’’ pollici&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Elettronica&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Quadro strumenti&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Sul quadro strumenti compaiono gli avvisi &quot;Errore quadro strumenti – Recarsi in officina&quot; e &quot;Front Assist non disponibile&quot;, insieme alla relativa spia e alla spia di avaria generica. Gli indicatori di direzione funzionano regolarmente, ma è assente il ticchettio di azionamento.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt;&lt;ul&gt;&lt;LI&gt; B2000 (Errore somma di controllo memoria interna centralina)&lt;BR/&gt;	&lt;LI&gt; U1123 (Dati non validi o mancanti per il odometro)&lt;/ul&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Malfunzionamento del cicalino interno del quadro strumenti. &lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199320408</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Verificare il corretto funzionamento del quadro strumenti e se necessario, procedere alla sua riparazione/sostituzione.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; Nel caso in esame è stata eseguita la riparazione ed è stato riscontrato un malfunzionamento del cicalino interno al quadro strumenti. La sostituzione del componente ha consentito di ripristinare il corretto funzionamento del quadro.&lt;BR/&gt;&lt;BR/&gt; Questa anomalia risulta piuttosto frequente su questo modello.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

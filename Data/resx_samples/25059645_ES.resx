@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-17T14:31:48">
+  <XDOCUMENTO>
+    <ID>25059645</ID>
+    <DOCNumber>FAR25288</DOCNumber>
+    <RifIDTipoRis>30</RifIDTipoRis>
+    <Titolo>Lista de sustituciones</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>30</ID>
+      <TipoRis>FAR</TipoRis>
+      <DscRis>Bombillas</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>4</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLDATO</IDLabel>
+        <Stringa>Descripción</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLUM</IDLabel>
+        <Stringa>Unidades de medida</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLVALORE</IDLabel>
+        <Stringa>Datos</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>LINK</IDLabel>
+        <Stringa>Enlaces</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Lista de datos</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Baja intensidad - Bombilla</Dato>
+      <Valore>12 / 55 - H7</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>15000050</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>15000050</ID>
+        <DOCNumber>CMP00028</DOCNumber>
+        <Documento>CMP: Bombilla - H7</Documento>
+        <URL>LINKDOC:15000050</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Luces de cruce con faros bi-xenón - Bombilla de xenón</Dato>
+      <Valore>85 / 35 - D3S</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62500779</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500779</ID>
+        <DOCNumber>CMP62502</DOCNumber>
+        <Documento>CMP: Bombilla - D3S</Documento>
+        <URL>LINKDOC:62500779</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Versión deslumbrante 1 - Bombilla</Dato>
+      <Valore>12 / 15/55 - H15</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62506424</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62506424</ID>
+        <DOCNumber>CMP63368</DOCNumber>
+        <Documento>CMP: Bombilla - H15</Documento>
+        <URL>LINKDOC:62506424</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Versión deslumbrante 2 - Bombilla</Dato>
+      <Valore>12 / 75 - H9</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62500816</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500816</ID>
+        <DOCNumber>CMP62539</DOCNumber>
+        <Documento>CMP: Bombilla - H9</Documento>
+        <URL>LINKDOC:62500816</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Luces largas con faros bi-xenón - Bombilla de xenón</Dato>
+      <Valore>85 / 35 - D3S</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62500779</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500779</ID>
+        <DOCNumber>CMP62502</DOCNumber>
+        <Documento>CMP: Bombilla - D3S</Documento>
+        <URL>LINKDOC:62500779</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Faro antiniebla versión 1 - Bombilla</Dato>
+      <Valore>12 / 55 - H11</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62500780</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500780</ID>
+        <DOCNumber>CMP62503</DOCNumber>
+        <Documento>CMP: Bombilla - H11</Documento>
+        <URL>LINKDOC:62500780</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Faro antiniebla versión 2 - Bombilla</Dato>
+      <Valore>12 / 35 - H8 (R-Line)</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62500811</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500811</ID>
+        <DOCNumber>CMP62534</DOCNumber>
+        <Documento>CMP: Bombilla - H8</Documento>
+        <URL>LINKDOC:62500811</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Luz diurna - Bombilla</Dato>
+      <Valore>12 / 15/55 - H15</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62506424</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62506424</ID>
+        <DOCNumber>CMP63368</DOCNumber>
+        <Documento>CMP: Bombilla - H15</Documento>
+        <URL>LINKDOC:62506424</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Luces diurnas para vehículos con luz de giro con faro Bi-Xenón - LED</Dato>
+      <Valore>- -</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Luz de posición delantera - Bombilla</Dato>
+      <Valore>12 / 15/55 - H15</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62506424</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62506424</ID>
+        <DOCNumber>CMP63368</DOCNumber>
+        <Documento>CMP: Bombilla - H15</Documento>
+        <URL>LINKDOC:62506424</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Luces de posición delanteras de vehículos con luces de giro con faros bi-xenón - LED</Dato>
+      <Valore>- -</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Luz de posición trasera - Bombilla</Dato>
+      <Valore>12 / 21 - W21W</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62500804</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500804</ID>
+        <DOCNumber>CMP62527</DOCNumber>
+        <Documento>CMP: Bombilla - W21W</Documento>
+        <URL>LINKDOC:62500804</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Luz de posición trasera - LED</Dato>
+      <Valore>- -</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Luz de giro - Bombilla</Dato>
+      <Valore>12 / 55 - H7</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>15000050</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>15000050</ID>
+        <DOCNumber>CMP00028</DOCNumber>
+        <Documento>CMP: Bombilla - H7</Documento>
+        <URL>LINKDOC:15000050</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Luz de freno - Bombilla</Dato>
+      <Valore>12 / 21 - W21W</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62500804</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500804</ID>
+        <DOCNumber>CMP62527</DOCNumber>
+        <Documento>CMP: Bombilla - W21W</Documento>
+        <URL>LINKDOC:62500804</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Luz de freno con faro trasero LED - LED</Dato>
+      <Valore>- -</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Luz de freno central - LED</Dato>
+      <Valore>- -</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Luz de marcha atrás - Bombilla</Dato>
+      <Valore>12 / 16 - W16W</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62500783</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500783</ID>
+        <DOCNumber>CMP62506</DOCNumber>
+        <Documento>CMP: Bombilla - W16W</Documento>
+        <URL>LINKDOC:62500783</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Luz de marcha atrás con faro trasero LED - LED</Dato>
+      <Valore>- -</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Luz antiniebla trasera - Bombilla</Dato>
+      <Valore>12 / 21 - W21W</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62500804</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500804</ID>
+        <DOCNumber>CMP62527</DOCNumber>
+        <Documento>CMP: Bombilla - W21W</Documento>
+        <URL>LINKDOC:62500804</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Luz antiniebla trasera con faro LED - Bombilla</Dato>
+      <Valore>12 / 21 - H21W</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62500900</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500900</ID>
+        <DOCNumber>CMP62552</DOCNumber>
+        <Documento>CMP: Bombilla - H21W</Documento>
+        <URL>LINKDOC:62500900</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Luz de matrícula - Bombilla</Dato>
+      <Valore>12 / 5 - W5W</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62500885</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500885</ID>
+        <DOCNumber>CMP62549</DOCNumber>
+        <Documento>CMP: Bombilla - W5W</Documento>
+        <URL>LINKDOC:62500885</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Indicador de dirección delantero - Bombilla</Dato>
+      <Valore>12 / 21 - WY21W</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62500803</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500803</ID>
+        <DOCNumber>CMP62526</DOCNumber>
+        <Documento>CMP: Bombilla - WY21W - Amarilla</Documento>
+        <URL>LINKDOC:62500803</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Indicador de dirección delantero con faro bi-xenón - Bombilla</Dato>
+      <Valore>12 / 21 - H21W</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62500900</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500900</ID>
+        <DOCNumber>CMP62552</DOCNumber>
+        <Documento>CMP: Bombilla - H21W</Documento>
+        <URL>LINKDOC:62500900</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Indicador de dirección lateral - LED</Dato>
+      <Valore>- -</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Indicador de dirección trasero - Bombilla</Dato>
+      <Valore>12 / 21 - WY21W</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62500803</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500803</ID>
+        <DOCNumber>CMP62526</DOCNumber>
+        <Documento>CMP: Bombilla - WY21W - Amarilla</Documento>
+        <URL>LINKDOC:62500803</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN EXTERNA</Gruppo>
+      <Dato>Indicador de dirección trasero con luz trasera LED - LED</Dato>
+      <Valore>- -</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN INTERIOR</Gruppo>
+      <Dato>Luz del techo delantero - Bombilla</Dato>
+      <Valore>12 / 5 - W5W</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62500885</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500885</ID>
+        <DOCNumber>CMP62549</DOCNumber>
+        <Documento>CMP: Bombilla - W5W</Documento>
+        <URL>LINKDOC:62500885</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN INTERIOR</Gruppo>
+      <Dato>Luz de lectura del techo delantero - Bombilla</Dato>
+      <Valore>12 / 5 - W5W</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62500885</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500885</ID>
+        <DOCNumber>CMP62549</DOCNumber>
+        <Documento>CMP: Bombilla - W5W</Documento>
+        <URL>LINKDOC:62500885</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN INTERIOR</Gruppo>
+      <Dato>Luz del maletero - Bombilla</Dato>
+      <Valore>12 / 3 - W3W</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62500785</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500785</ID>
+        <DOCNumber>CMP62508</DOCNumber>
+        <Documento>CMP: Bombilla - W3W</Documento>
+        <URL>LINKDOC:62500785</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25059645</RifIDDoc>
+      <Gruppo>ILUMINACIÓN INTERIOR</Gruppo>
+      <Dato>Luz de apertura del maletero - Bombilla</Dato>
+      <Valore>12 / 10 - C10W</Valore>
+      <UnitaMis>Voltio/Vatio - Tipo</UnitaMis>
+      <RifIDFileIMG>62500797</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500797</ID>
+        <DOCNumber>CMP62520</DOCNumber>
+        <Documento>CMP: Bombilla - C10W</Documento>
+        <URL>LINKDOC:62500797</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+  </XDOCUMENTO>
+</dataroot>

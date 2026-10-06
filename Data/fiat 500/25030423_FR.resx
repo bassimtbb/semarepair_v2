@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-16T03:36:23">
+  <XDOCUMENTO>
+    <ID>25030423</ID>
+    <DOCNumber>CAR26209</DOCNumber>
+    <RifIDTipoRis>17</RifIDTipoRis>
+    <Titolo>Fiat 500</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>218</RifIDFileICO>
+    <XFILE>
+      <ID>218</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:218</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>17</ID>
+      <TipoRis>CAR</TipoRis>
+      <DscRis>Caractéristiques</DscRis>
+      <RifIDFileCSS>138</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>138</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:138</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>25030423</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Version - Dimensions</Capitolo>
+      <Corpo> &lt;B&gt; VERSION &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Alimentation : essence &lt;BR/&gt; Carrosserie : compacte &lt;BR/&gt; Traction : avant &lt;BR/&gt; Production depuis : 2007 &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; DIMENSIONS &lt;/B&gt;  &lt;BR/&gt; &lt;BR/&gt; Longueur : 3546 mm &lt;BR/&gt; Largeur : 1627 mm &lt;BR/&gt; Hauteur : 1488 mm &lt;BR/&gt; Empattement : 2300 mm &lt;BR/&gt; Poids : 865 kg &lt;BR/&gt; Réservoir : 35 L</Corpo>
+      <RifIDFileIMGANI>25004470</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>25004470</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:25004470</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25030423</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Moteur - Performances</Capitolo>
+      <Corpo> &lt;B&gt; MOTEUR &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Cylindrée : 1242 cm³ &lt;BR/&gt; Cylindres : 4 &lt;BR/&gt; Puissance : 68 CV - 5500 tr/min &lt;BR/&gt; Couple : 102 Nm - 3000 tr/min &lt;BR/&gt; Soupapes : 8 &lt;BR/&gt; Alésage : 70,8 mm &lt;BR/&gt; Course : 78,86 mm &lt;BR/&gt; EURO 4 &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; PERFORMANCES &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Vitesse maximale : 160 km/h &lt;BR/&gt; Accélération 0-100 km/h : 12,9 s &lt;BR/&gt; Consommation moyenne : 19,61 km/l (5,1 l/100 km)</Corpo>
+      <RifIDFileIMGANI>25004471</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>25004471</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:25004471</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

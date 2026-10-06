@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-23T03:47:50">
+  <XDOCUMENTO>
+    <ID>15000123</ID>
+    <DOCNumber>RCD00001</DOCNumber>
+    <RifIDTipoRis>43</RifIDTipoRis>
+    <Titolo>Kody usterek OBDII</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>43</ID>
+      <TipoRis>RCD</TipoRis>
+      <DscRis>Wyszukiwanie kodów OBDII</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>13</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+  </XDOCUMENTO>
+  <XLINKEXT>
+    <RifIDDoc>15000123</RifIDDoc>
+    <URL>LINKEXT:$BASEURL$/SearchCod.aspx?$IDMACH$</URL>
+  </XLINKEXT>
+</dataroot>

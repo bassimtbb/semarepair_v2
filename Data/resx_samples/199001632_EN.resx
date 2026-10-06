@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T13:09:24">
+  <XDOCUMENTO>
+    <ID>199001632</ID>
+    <DOCNumber>GUR59015</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>System reset after battery disconnection</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Adjustment Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Battery Localisation</Capitolo>
+      <Corpo> &lt;BR/&gt; The battery is located in the engine compartment, on the driver&apos;s side, near the bulkhead. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>199000661</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>199000661</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:199000661</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Procedure for disconnecting the battery</Capitolo>
+      <Corpo> &lt;BR/&gt; If the battery needs to be disconnected, it is necessary to: &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; Check that all &lt;B&gt; electrical devices &lt;/B&gt; in the car, such as the car radio, sat nav, etc., &lt;B&gt; are switched off &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; Check that the &lt;B&gt; ignition is switched off &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; Have the &lt;B&gt; radio code &lt;/B&gt; available &lt;BR/&gt;&lt;BR/&gt; You can then proceed to disconnect the battery, &lt;B&gt; removing the negative terminal first and then the positive terminal &lt;/B&gt; &lt;BR/&gt;&lt;BR/&gt; After disconnecting the battery, wait a few minutes before working on the airbag system.</Corpo>
+      <RifIDFileIMGANI>62503878</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503878</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503878</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procedure for connecting the battery</Capitolo>
+      <Corpo> &lt;BR/&gt; To reconnect the battery, proceed as follows: &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; First connect the positive terminal &lt;/B&gt; and then the negative terminal of the battery &lt;BR/&gt;  &lt;LI&gt; Reset the radio code (if necessary) &lt;BR/&gt; &lt;LI&gt; Clear any &lt;B&gt; errors in the memory &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Turn on the ignition and wait 40 seconds &lt;BR/&gt; &lt;LI&gt; Turn off the ignition &lt;BR/&gt;  &lt;LI&gt; The &lt;B&gt; stability control system warning lights &lt;/B&gt; may come on. You will need to drive the vehicle for a few kilometres at a constant speed for these to go out. &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503879</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503879</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503879</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Electric window regulator repair</Capitolo>
+      <Corpo> &lt;BR/&gt; Electric window initialisation procedure: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Check that &lt;B&gt; the doors and windows are closed &lt;/B&gt; . &lt;BR/&gt;  &lt;LI&gt; Turn on the ignition &lt;BR/&gt; &lt;LI&gt; Press the &lt;B&gt; electric window open/close button &lt;/B&gt; and hold it down until the window is fully &lt;B&gt; open &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; Release the &lt;B&gt; electric window open/close button &lt;/B&gt; and hold it up for more than 3 seconds after it has &lt;B&gt; closed &lt;/B&gt; completely &lt;BR/&gt;  &lt;LI&gt; You will hear an acoustic signal confirming that the operation has been completed &lt;BR/&gt; &lt;BR/&gt; The system is now initialised. &lt;BR/&gt; Repeat the procedure for the remaining windows. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

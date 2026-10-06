@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2009-01-09T17:32:15">
+<XDOCUMENTO>
+<ID>75000517</ID>
+<DOCNumber>DES75004</DOCNumber>
+<RifIDTipoRis>2</RifIDTipoRis>
+<Titolo>Climatizzatore Monozona Denso</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>224</RifIDFileICO>
+<XFILE>
+<ID>224</ID>
+<Type>IMG</Type>
+<URL>GETFILE:224</URL>
+</XFILE>
+<XTIPORIS>
+<ID>2</ID>
+<TipoRis>DES</TipoRis>
+<DscRis>Descrizione Impianto</DscRis>
+<RifIDFileCSS>7</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>7</ID>
+<Type>CSS</Type>
+<URL>GETFILE:7</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>75000517</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Descrizione</Capitolo>
+<Corpo>La centralina è posizionata nella parte centrale della plancia, integrata nel climatizzatore. &lt;BR/&gt;Il sistema è di tipo monozona e la centralina controlla una sola temperatura, diffondendola nell&apos;abitacolo. &lt;BR/&gt;&lt;BR/&gt;La presa di diagnosi è di tipo unificato a 16 pin (EOBD), ed è posta nell&apos;abitacolo sotto la plancia lato guida.&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>75000517</RifIDDoc>
+<Ordine>2</Ordine>
+<Capitolo>Parametri ingegneristici</Capitolo>
+<Corpo>La centralina gestisce vari parametri, che visualizzano tutti i segnali provenienti dai vari sensori distribuiti all&apos;interno e all&apos;esterno dell&apos;abitacolo al fine di comandare gli attuatori del gruppo clima e l&apos;inserimento/disinserimento del giunto compressore. &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;Viene indicata la posizione di tutti gli sportellini&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;Viene indicato lo stato dei tasti ed i rispettivi led&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>75000517</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Modalità alimentazione</Capitolo>
+<Corpo>Indica la condizione in cui la vettura è impostata al momento della spedizione,(stabilimento concessionario. In condizione di “basso consumo” (detto anche di logistic mode), i carichi elettrici sono disabilitati per ridurre al minimo il consumo di corrente della batteria.</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>75000517</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Errori</Capitolo>
+<Corpo>La centralina è dotata di memoria permanente degli errori e memorizza i parametri ambientali nel momento in cui si presenta l’errore.&lt;BR/&gt;&lt;BR/&gt;Essi sono segnalati  con l’annessa comunicazione del loro stato:&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Errore attivo&lt;/B&gt;&lt;BR/&gt;Errore è attualmente rilevato&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Errore memorizzato&lt;/B&gt;&lt;BR/&gt;Errore che è già stato registrato in memoria, ed il guasto non è attualmente presente.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Cancellazione errore/i&lt;/B&gt;&lt;BR/&gt;Avviene solo tramite il consenso dell’operatore a cancellare l’errore attraverso il tasto di cancellazione&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>75000517</RifIDDoc>
+<Ordine>5</Ordine>
+<Capitolo>Diagnosi Attive</Capitolo>
+<Corpo>In ambiente Diagnosi Attive sono pilotate:&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;Sportellini del climatizzatore&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;Led della tastiera centralina&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;Display &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;Elettroventilatore.&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>75000517</RifIDDoc>
+<Ordine>6</Ordine>
+<Capitolo>Regolazioni</Capitolo>
+<Corpo>&lt;B&gt;Test apprendimento degli attuatori degli sportellini:&lt;/B&gt; Da utilizzare alla prima installazione o in caso di sostituzione della centralina.&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T23:39:56">
+  <XDOCUMENTO>
+    <ID>199284104</ID>
+    <DOCNumber>GUP92042</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Motor lässt sich nicht starten, verschiedene elektrische Störungen und Aufleuchten von Warnleuchten </Titolo>
+    <InfoDoc>ILLUMINAZIONE | ELETTRONICA | BODY | COMPUTER | B1010 | B1011 | B1017 | B1023 | B1028 | B1048 | B1057 | B1058 | P0504 | P181D | U0422 | U0426 | U1700 | LUCI | FRECCE | ACCESE | AVARIA | MOTORE | MIL | START&amp;STOP | AIRBAG | VETRI | BAULE | PORTELLONE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199284104</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284104</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Elektronik &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Gerät: &lt;/B&gt; Fahrzeugcomputer &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Der Motor springt nicht an und ist während der Fahrt plötzlich ausgegangen, woraufhin beim Startversuch die vier Blinker blinkten. Ausfall der elektrischen Fensterheber, der Blinker, der Heckklappe und der Handbremsleuchte; Aufleuchten der Warnleuchten für Motorstörung, Airbag, allgemeine Störung und Start&amp;Stop. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt; Einer oder mehrere der folgenden: &lt;UL&gt; &lt;LI&gt; B1010 (Bremspedalschalter – Fehlfunktion) &lt;BR/&gt;  &lt;LI&gt; B1011 (Bremsleuchte hinten links – Fehler in der Verkabelung) &lt;BR/&gt; &lt;LI&gt; B1017 (Relais Türverriegelung – Fehler in der Verkabelung) &lt;BR/&gt; &lt;LI&gt; B1023 (Kennzeichenbeleuchtung – Fehler in der Verkabelung) &lt;BR/&gt;  &lt;LI&gt; B1028 (Bremslicht hinten rechts – Fehler in der Verkabelung) &lt;BR/&gt; &lt;LI&gt; B1048 (CITY-Schalter – Fehlfunktion) &lt;BR/&gt; &lt;LI&gt; B1057 (Fensterheber-Schalter auf der Fahrerseite – Fehler) &lt;BR/&gt; &lt;LI&gt;  B1058 (Fensterheber-Schalter Beifahrerseite – Fehler) &lt;BR/&gt; &lt;LI&gt; P0504 (Bremsschalter-Verhältnis 1-2 – Falsches Verhältnis) &lt;BR/&gt; &lt;LI&gt; P181D (Schalthebel-Positionssensor – Neutralstellung: Falsches Signal) &lt;BR/&gt;  &lt;LI&gt; U0422 (Steuergerät für aktive Federung – Empfangene Daten ungültig) &lt;BR/&gt; &lt;LI&gt; U0426 (Steuermodul für Zusatzheizung – Empfangene Daten ungültig) &lt;BR/&gt;  &lt;LI&gt; U1700 (CAN-Datenbus – Karosseriecomputer – Fehler, keine Kommunikation) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Oxidierte Anschlüsse am Karosseriecomputer &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284104</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Den Zustand der Anschlüsse des Bordcomputers überprüfen und gegebenenfalls wiederherstellen &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

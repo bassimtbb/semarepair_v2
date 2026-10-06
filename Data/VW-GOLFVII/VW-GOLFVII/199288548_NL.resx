@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T12:05:17">
+  <XDOCUMENTO>
+    <ID>199288548</ID>
+    <DOCNumber>GUP92964</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Herstelmodus geactiveerd, oververhitting van de motor gedetecteerd</Titolo>
+    <InfoDoc>INIEZIONE | P17D8 | PROTEZIONE | LENTA | PERFORMANCE | EMERGENZA | TEMPERATURA | BLOCCO | TERMOSTATO | VENTOLA RAFFREDDAMENTO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparatiehandleiding</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199288548</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Betrouwbaarheidsgraad   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda van de betrouwbaarheidsgraad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * laag niveau &lt;/B&gt; : Vastgesteld door de autoreparateur, storingsgeval niet bevestigd door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** gemiddeld niveau &lt;/B&gt; : Veelvoorkomende storingsgevallen, vastgesteld door servicetechnici en reparateurs. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** hoog niveau &lt;/B&gt; : Bevestigde storing, hoge mate van &quot;herhaalbaarheid&quot; gemeld door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199288548</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificatie van het systeem/de storing</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Systeem: &lt;/B&gt;  Motorkoelsysteem &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Onderdeel: &lt;/B&gt;  Waterpomp van het motorkoelsysteem &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Storing: &lt;/B&gt;  Het voertuig vertoont een aanzienlijk vermogensverlies, gepaard gaande met oververhitting van de motor, waardoor de regeleenheid het systeem in de Limp Home-modus zet.  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Door de zelfdiagnose gedetecteerde fouten: &lt;/B&gt;  P17D8 (Motorkoppelbewakingssysteem, controlegrens overschreden) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Oorzaak: &lt;/B&gt;  Blokkering van de waterpomp &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199288548</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparatieprocedure</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Werkzaamheid: &lt;/B&gt;  De waterpomp controleren en indien nodig vervangen &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedure: &lt;/B&gt;   &lt;OL&gt;    1.  &lt;B&gt;   Eerste controle: &lt;/B&gt;    &lt;UL&gt;   &lt;LI&gt;  Controleer de parameters van de koelvloeistoftemperatuursensor via de diagnose. &lt;BR/&gt;    &lt;LI&gt;  Voer een testrit uit om het gedrag van de sensor te beoordelen.   &lt;/UL&gt; 2.   &lt;B&gt; Als de afgelezen waarde te hoog is: &lt;/B&gt;  &lt;UL&gt;     &lt;LI&gt;   Controleer het motoroliepeil en vul indien nodig bij. &lt;BR/&gt;    &lt;LI&gt; Schakel met behulp van het diagnoseapparaat de koelventilator in. &lt;/UL&gt;   3.  &lt;B&gt;   Als de ventilator correct aanslaat: &lt;/B&gt;  &lt;UL&gt;     &lt;LI&gt;    Controleer de temperatuur van de vloeistof in de uitlaatleiding van het thermostaathuis. &lt;/UL&gt;   4.  &lt;B&gt;   Als de temperatuur te laag is: &lt;/B&gt;  &lt;UL&gt;     &lt;LI&gt;    Demonteer de waterpomp. &lt;BR/&gt;    &lt;LI&gt;  Opmerking: Koppel de elektrische bedrading niet los. &lt;BR/&gt;    &lt;LI&gt; Activeer met het diagnoseapparaat de regelklep van de waterpomp. &lt;/UL&gt;   5.  &lt;B&gt;    Resultaat van de test op de regelklep:  &lt;/B&gt;  &lt;UL&gt;  	 &lt;LI&gt;  Als de klep vastzit, moet de waterpomp worden vervangen. &lt;BR/&gt;    &lt;LI&gt;  Als de pomp goed werkt, moet worden gecontroleerd of er eventuele problemen zijn aan de koelsysteem- of motorzijde. &lt;/UL&gt;  &lt;/OL&gt;  &lt;LI&gt;  &lt;B&gt; Opmerking: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299021988</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299021988</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299021988</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

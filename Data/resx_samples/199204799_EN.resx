@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T15:37:16">
+  <XDOCUMENTO>
+    <ID>199204799</ID>
+    <DOCNumber>TGE83763</DOCNumber>
+    <RifIDTipoRis>16</RifIDTipoRis>
+    <Titolo>Standard maintenance</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>234</RifIDFileICO>
+    <XFILE>
+      <ID>234</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:234</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>16</ID>
+      <TipoRis>TGE</TipoRis>
+      <DscRis>Additional Controls and Straps</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>7</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>SINO</IDLabel>
+        <Stringa>Si-No</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Data List</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199204799</RifIDDoc>
+      <Tagliando>Every 60,000 kilometres or 4 years</Tagliando>
+      <TipoCtrl>AUXILIARY FILTERS</TipoCtrl>
+      <Controllo>Air filter</Controllo>
+      <Verifica>Replacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199204799</RifIDDoc>
+      <Tagliando>Every 60,000 kilometres or 4 years</Tagliando>
+      <TipoCtrl>AUXILIARY FILTERS</TipoCtrl>
+      <Controllo>Fuel filter</Controllo>
+      <Verifica>Replacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199204799</RifIDDoc>
+      <Tagliando>Every 120,000 kilometres or 3 years</Tagliando>
+      <TipoCtrl>FLUIDS FOR AUXILIARY SYSTEMS</TipoCtrl>
+      <Controllo>Brake fluid</Controllo>
+      <Verifica>Replacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199204799</RifIDDoc>
+      <Tagliando>Every 120,000 kilometres or 5 years</Tagliando>
+      <TipoCtrl>FLUIDS FOR AUXILIARY SYSTEMS</TipoCtrl>
+      <Controllo>Engine Coolant</Controllo>
+      <Verifica>Replacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199204799</RifIDDoc>
+      <Tagliando>Every 150,000 kilometres or 6 years</Tagliando>
+      <TipoCtrl>DISTRIBUTION CONTROL</TipoCtrl>
+      <Controllo>Timing belt</Controllo>
+      <Verifica>Replacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199204799</RifIDDoc>
+      <Tagliando>Every 150,000 kilometres or 6 years</Tagliando>
+      <TipoCtrl>DISTRIBUTION CONTROL</TipoCtrl>
+      <Controllo>Timing Belt Tensioner</Controllo>
+      <Verifica>Replacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199204799</RifIDDoc>
+      <Tagliando>Every 150,000 kilometres or 6 years</Tagliando>
+      <TipoCtrl>DISTRIBUTION CONTROL</TipoCtrl>
+      <Controllo>Timing belt guide pulley</Controllo>
+      <Verifica>Replacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199204799</RifIDDoc>
+      <Tagliando>Every 150,000 kilometres or 6 years</Tagliando>
+      <TipoCtrl>BELTS AND AGGREGATES</TipoCtrl>
+      <Controllo>Auxiliary Belt / Services</Controllo>
+      <Verifica>Replacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199204799</RifIDDoc>
+      <Tagliando>Every 150,000 kilometres or 6 years</Tagliando>
+      <TipoCtrl>BELTS AND AGGREGATES</TipoCtrl>
+      <Controllo>Auxiliary Belt Tensioner / Services</Controllo>
+      <Verifica>Replacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+  </XDOCUMENTO>
+</dataroot>

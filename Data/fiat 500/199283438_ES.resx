@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:45:02">
+  <XDOCUMENTO>
+    <ID>199283438</ID>
+    <DOCNumber>GUP91986</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Endurecimiento esporádico del volante y encendido de la luz indicadora de la dirección asistida, el </Titolo>
+    <InfoDoc>COLUMNA | VOLANTE | DIRECCIÓN ASISTIDA | COMPLETO | MOTOR | UNIDAD DE CONTROL | B1053 | U0001 | U1700 | U1702 | ENCENDIDO | ENCENDER | ENCENDIDO | AMARILLO | AMARILLA | ABS | INDICACIÓN | PANTALLA | PANTALLA | DURO | GIRAR | GIRAR |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guía de reparación</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199283438</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grado de fiabilidad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Leyenda del grado de fiabilidad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nivel bajo &lt;/B&gt; : Detección del mecánico, caso de avería no detectado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nivel medio &lt;/B&gt;  : Casos frecuentes de avería, detectados por los técnicos de asistencia y los mecánicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nivel alto &lt;/B&gt; : Anomalía confirmada, buen grado de «repetitividad» señalado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283438</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificación del sistema/avería</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Sistema: &lt;/B&gt; Dirección &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositivo: &lt;/B&gt; Columna de dirección con motor eléctrico y unidad de control &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Avería: &lt;/B&gt; Endurecimiento esporádico del volante con encendido de los indicadores de avería de la dirección asistida, el ABS y el motor. Se muestra el aviso «Bloqueo de combustible» en la pantalla &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errores detectados por el autodiagnóstico: &lt;/B&gt; Uno o varios de los siguientes: &lt;UL&gt;   &lt;LI&gt; B1053 (Módulo de inyección, señal de control del interruptor inercial de seguridad - Realizar autodiagnóstico) &lt;BR/&gt; &lt;LI&gt; U0001 (Línea CAN - Fallo) &lt;BR/&gt;  &lt;LI&gt; U1700 (Bus de datos CAN - Ordenador de la carrocería - Error, falta de comunicación) &lt;BR/&gt;  &lt;LI&gt; U1702 (Bus de datos CAN - Módulo de dirección asistida - Error, falta de comunicación) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Causa: &lt;/B&gt; Columna de dirección, incluido el motor eléctrico y el módulo de control, con fallo de funcionamiento &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283438</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimiento de reparación</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervención: &lt;/B&gt; Proceder a la sustitución de la columna de dirección, incluyendo también la unidad de control y el motor correspondientes. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedimiento: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Nota: &lt;/B&gt; El componente defectuoso a simple vista no presentaba anomalías &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

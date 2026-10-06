@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T16:36:35">
+  <XDOCUMENTO>
+    <ID>199007077</ID>
+    <DOCNumber>INT76338</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>Volkswagen Golf VII</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Official Calls</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Data source - Ministry of Transport</Capitolo>
+      <Corpo>&lt;B&gt;Manufacturer:&lt;/B&gt; Volkswagen Group &lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Brand:&lt;/B&gt; Volkswagen &lt;BR/&gt;&lt;BR/&gt;Anomalies recognised by manufacturers in accordance with D.D. 78/2000</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Volkswagen Golf VII</Capitolo>
+      <Corpo> &lt;BR/&gt; Number of vehicles: 462 &lt;BR/&gt; Production period: not stated &lt;BR/&gt; Fault description: possible malfunction of injectors at high emissions &lt;BR/&gt; Corrective actions: replacement &lt;BR/&gt; Reference: consult dealers &lt;BR/&gt; Notes: Code 24FO chassis: consult dealers &lt;BR/&gt;&lt;BR/&gt;  &lt;BR/&gt; Number of vehicles: 716 &lt;BR/&gt; Production period: NOT SPECIFIED &lt;BR/&gt; Fault description: POSSIBLE MALFUNCTION OF FRONT HEADREST LOCK &lt;BR/&gt; Corrective action: REPLACEMENT OF HEADREST GUIDES &lt;BR/&gt; Reference DEALERS &lt;BR/&gt; Notes CODE 72H5 CHASSIS CONSULT DEALERS &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Number of Vehicles: 11206 &lt;BR/&gt; Production period: NOT SPECIFIED &lt;BR/&gt; Defect description: POSSIBLE BREAKAGE OF MANUAL CHILD SAFETY LOCK LEVER AND ITS SUDDEN DISENGAGEMENT DUE TO STRONG VIBRATIONS &lt;BR/&gt; Corrective actions: CHECK SAFETY LOCK OPERATION &lt;BR/&gt; Reference 800865579 &lt;BR/&gt; Notes COD 58C9 DEALERS&apos; CHASSIS &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Number of vehicles: 54 &lt;BR/&gt; Production period: NOT SPECIFIED &lt;BR/&gt; Fault description: POSSIBLE MALFUNCTION OF FRONT WHEEL BEARINGS &lt;BR/&gt; Corrective actions: REPLACEMENT &lt;BR/&gt; Reference DEALERS &lt;BR/&gt; Notes COD 40L2 CHASSIS CONSULT DEALERS &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Number of vehicles: 286 &lt;BR/&gt; Production period: NOT SPECIFIED &lt;BR/&gt; Fault description: REAR WHEEL BEARING HOUSING NOT COMPLIANT &lt;BR/&gt; Corrective action: BEARING HOUSING REPLACEMENT &lt;BR/&gt; Reference DEALERS &lt;BR/&gt; Notes COD 42I2 CHASSIS CONSULT DEALERS &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt; Number of vehicles: 3802 &lt;BR/&gt; Production period: not specified &lt;BR/&gt; Defect description: With six-speed sequential direct gearbox, clutch malfunction possible &lt;BR/&gt; Corrective actions: Gearbox control unit software modification &lt;BR/&gt; Dealer reference &lt;BR/&gt; Notes Cod 37E8 Chassis range consult dealers &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Number of vehicles: 5759 &lt;BR/&gt; Production period: MAY 2018 AUG 2018 &lt;BR/&gt; Fault description: POSSIBLE INCOMPLETE WELDING OF REAR HEADREST GUIDES &lt;BR/&gt; Corrective actions: POSSIBLE REPLACEMENT OF BACKREST FRAME &lt;BR/&gt; Reference DEALERS &lt;BR/&gt; Notes CODE 72H8 FRAMES CONSULT DEALERS &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt; Number of vehicles: 339 &lt;BR/&gt; Production period: 2016/2017 &lt;BR/&gt; Description of defect: POSSIBLE NON-ACTIVATION OF DRIVER AND PASSENGER AIRBAGS AND/OR PRE-TENSIONERS &lt;BR/&gt; Corrective actions: REPLACEMENT OF DEFECTIVE COMPONENTS &lt;BR/&gt; Reference DEALERS &lt;BR/&gt; Notes COD 69P4 CHASSIS CONSULT DEALERS &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt; Number of Vehicles: 10,989 &lt;BR/&gt; Production Period: 2016/2017 &lt;BR/&gt; Description of Defect: POSSIBLE MALFUNCTION OF MANUAL CHILD SAFETY LOCK &lt;BR/&gt; Corrective Actions: CHECK REAR DOOR LOCKS &lt;BR/&gt; Reference DEALERS &lt;BR/&gt; Notes COD 58C9 CHASSIS CONSULT DEALERS &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Volkswagen Golf VII Estate</Capitolo>
+      <Corpo> &lt;BR/&gt; Number of vehicles: 10,989 &lt;BR/&gt; Production period: 2016/2017 &lt;BR/&gt; Fault description: POSSIBLE MALFUNCTION OF CHILD SAFETY LOCK &lt;BR/&gt; Corrective actions: CHECK REAR DOOR LOCKS &lt;BR/&gt; Dealer reference &lt;BR/&gt; Notes COD 58C9 CHASSIS CONSULT DEALERS &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Number of vehicles: 11206 &lt;BR/&gt; Production period: NOT SPECIFIED &lt;BR/&gt; Fault description: POSSIBLE BREAKAGE OF CHILD SAFETY LOCK LEVER AND ITS SUDDEN DISENGAGEMENT DUE TO STRONG VIBRATIONS &lt;BR/&gt; Corrective actions: CHECK SAFETY LOCK OPERATION &lt;BR/&gt; Reference 800865579 &lt;BR/&gt; Notes COD 58C9 DEALER FRAMES &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Volkswagen Golf/Golf Variant VII with ABS/ESP control unit (mk60)</Capitolo>
+      <Corpo> &lt;BR/&gt; Number of vehicles: 51621 &lt;BR/&gt; Production period: 2002/2013 &lt;BR/&gt; Fault description: POSSIBLE INTERRUPTION OF CONTROL UNIT GROUND CONNECTION DUE TO THERMOMECHANICAL OVERLOAD &lt;BR/&gt; Corrective actions: INSTALLATION OF NEW SOFTWARE &lt;BR/&gt; Reference DEALERS &lt;BR/&gt; Notes COD 45F2 CHASSIS CONSULT DEALERS &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Volkswagen Golf VII Performance</Capitolo>
+      <Corpo> &lt;BR/&gt; Number of vehicles: 37 &lt;BR/&gt; Production period: MODEL YEAR 2017 &lt;BR/&gt; Fault description: INCORRECT TYRE PRESSURE PLATES AND POSSIBLE TYRE BURST &lt;BR/&gt; Corrective actions: INSTALLATION OF LABEL WITH EXACT INDICATIONS &lt;BR/&gt; Reference DEALERS &lt;BR/&gt; Notes COD 09A5 CHASSIS CONSULT DEALERS &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>Volkswagen Golf VII with Start/Stop Diesel Engine</Capitolo>
+      <Corpo> &lt;BR/&gt; Number of vehicles: 4976 &lt;BR/&gt; Production period: NOT SPECIFIED &lt;BR/&gt; Fault description: POSSIBLE STARTER MOTOR MALFUNCTION AND FIRE RISK &lt;BR/&gt; Corrective actions: REPLACEMENT OF ELECTROMAGNETIC SWITCHES &lt;BR/&gt; Reference DEALERS &lt;BR/&gt; Notes COD 27F9 CHASSIS CONSULT DEALERS &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>70</Ordine>
+      <Capitolo>Volkswagen Golf VII with 1.2l/1.6l engine</Capitolo>
+      <Corpo> &lt;BR/&gt; Number of vehicles: 271 &lt;BR/&gt; Production period: NOT SPECIFIED &lt;BR/&gt; Fault description: POSSIBLE DETACHMENT OF PHASE VARIATOR BOX SCREWS AND ENGINE OIL LEAK &lt;BR/&gt; Corrective actions: VARIATOR REPLACEMENT &lt;BR/&gt; DEALERSHIP REFERENCE &lt;BR/&gt; Notes COD 15H2 CHASSIS CONSULT DEALERS &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>199007077</RifIDDoc>
+      <LinkUtili>Link Ministry of Infrastructure and Transport</LinkUtili>
+      <Ordine>1</Ordine>
+      <RifIDDocLink>15000122</RifIDDocLink>
+      <XLINKDOC>
+        <ID>15000122</ID>
+        <DOCNumber>LNK00008</DOCNumber>
+        <Documento>Go to: Reminders - Ministry of Transport</Documento>
+        <URL>LINKDOC:15000122</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

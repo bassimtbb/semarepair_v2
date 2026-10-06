@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T00:13:13">
+  <XDOCUMENTO>
+    <ID>62502548</ID>
+    <DOCNumber>LCP62520</DOCNumber>
+    <RifIDTipoRis>33</RifIDTipoRis>
+    <Titolo>Marelli IAW 5SF8</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>33</ID>
+      <TipoRis>LCP</TipoRis>
+      <DscRis>Komponentenliste</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XLINKUTILI>
+      <RifIDDoc>62502548</RifIDDoc>
+      <Ordine>10</Ordine>
+      <RifIDDocLink>62502535</RifIDDocLink>
+      <XLINKDOC>
+        <ID>62502535</ID>
+        <DOCNumber>CMP62704</DOCNumber>
+        <Documento>Komponentendatenblätter: Phasenversteller</Documento>
+        <URL>LINKDOC:62502535</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>62502548</RifIDDoc>
+      <Ordine>20</Ordine>
+      <RifIDDocLink>62502536</RifIDDocLink>
+      <XLINKDOC>
+        <ID>62502536</ID>
+        <DOCNumber>CMP62705</DOCNumber>
+        <Documento>Komponentendatenblätter: Lambdasonde</Documento>
+        <URL>LINKDOC:62502536</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>62502548</RifIDDoc>
+      <Ordine>30</Ordine>
+      <RifIDDocLink>62502537</RifIDDocLink>
+      <XLINKDOC>
+        <ID>62502537</ID>
+        <DOCNumber>CMP62706</DOCNumber>
+        <Documento>Komponentendatenblätter: Kühlflüssigkeitstemperatursensor</Documento>
+        <URL>LINKDOC:62502537</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>62502548</RifIDDoc>
+      <Ordine>40</Ordine>
+      <RifIDDocLink>62502538</RifIDDocLink>
+      <XLINKDOC>
+        <ID>62502538</ID>
+        <DOCNumber>CMP62707</DOCNumber>
+        <Documento>Komponentendatenblätter: Sensor für Ansauglufttemperatur und -druck</Documento>
+        <URL>LINKDOC:62502538</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>62502548</RifIDDoc>
+      <Ordine>50</Ordine>
+      <RifIDDocLink>62502539</RifIDDocLink>
+      <XLINKDOC>
+        <ID>62502539</ID>
+        <DOCNumber>CMP62708</DOCNumber>
+        <Documento>Komponentendatenblätter: Motordrehzahlsensor und PMS</Documento>
+        <URL>LINKDOC:62502539</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>62502548</RifIDDoc>
+      <Ordine>60</Ordine>
+      <RifIDDocLink>62502540</RifIDDocLink>
+      <XLINKDOC>
+        <ID>62502540</ID>
+        <DOCNumber>CMP62709</DOCNumber>
+        <Documento>Komponentendatenblätter: Phasensensor</Documento>
+        <URL>LINKDOC:62502540</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>62502548</RifIDDoc>
+      <Ordine>70</Ordine>
+      <RifIDDocLink>62502541</RifIDDocLink>
+      <XLINKDOC>
+        <ID>62502541</ID>
+        <DOCNumber>CMP62710</DOCNumber>
+        <Documento>Komponentendatenblätter: Klopfsensor</Documento>
+        <URL>LINKDOC:62502541</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>62502548</RifIDDoc>
+      <Ordine>80</Ordine>
+      <RifIDDocLink>62502542</RifIDDocLink>
+      <XLINKDOC>
+        <ID>62502542</ID>
+        <DOCNumber>CMP62711</DOCNumber>
+        <Documento>Komponentendatenblätter: Gaspedal-Sensor</Documento>
+        <URL>LINKDOC:62502542</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>62502548</RifIDDoc>
+      <Ordine>90</Ordine>
+      <RifIDDocLink>62502543</RifIDDocLink>
+      <XLINKDOC>
+        <ID>62502543</ID>
+        <DOCNumber>CMP62712</DOCNumber>
+        <Documento>Komponentendatenblätter: Zündspulen</Documento>
+        <URL>LINKDOC:62502543</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>62502548</RifIDDoc>
+      <Ordine>100</Ordine>
+      <RifIDDocLink>62502544</RifIDDocLink>
+      <XLINKDOC>
+        <ID>62502544</ID>
+        <DOCNumber>CMP62713</DOCNumber>
+        <Documento>Komponentendatenblätter: Motorisierte Drosselklappe</Documento>
+        <URL>LINKDOC:62502544</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>62502548</RifIDDoc>
+      <Ordine>110</Ordine>
+      <RifIDDocLink>62502545</RifIDDocLink>
+      <XLINKDOC>
+        <ID>62502545</ID>
+        <DOCNumber>CMP62714</DOCNumber>
+        <Documento>Komponentendatenblätter: Elektroinjektor</Documento>
+        <URL>LINKDOC:62502545</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>62502548</RifIDDoc>
+      <Ordine>120</Ordine>
+      <RifIDDocLink>62502546</RifIDDocLink>
+      <XLINKDOC>
+        <ID>62502546</ID>
+        <DOCNumber>CMP62715</DOCNumber>
+        <Documento>Komponentendatenblätter: Bremspedalschalter</Documento>
+        <URL>LINKDOC:62502546</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>62502548</RifIDDoc>
+      <Ordine>130</Ordine>
+      <RifIDDocLink>62502547</RifIDDocLink>
+      <XLINKDOC>
+        <ID>62502547</ID>
+        <DOCNumber>CMP62716</DOCNumber>
+        <Documento>Komponentendatenblätter: Kupplungspedal-Schalter</Documento>
+        <URL>LINKDOC:62502547</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>62502548</RifIDDoc>
+      <Ordine>140</Ordine>
+      <RifIDDocLink>25022699</RifIDDocLink>
+      <XLINKDOC>
+        <ID>25022699</ID>
+        <DOCNumber>CMP25270</DOCNumber>
+        <Documento>Komponentendatenblätter: Elektrische Kraftstoffpumpe</Documento>
+        <URL>LINKDOC:25022699</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>62502548</RifIDDoc>
+      <Ordine>150</Ordine>
+      <RifIDDocLink>25022700</RifIDDocLink>
+      <XLINKDOC>
+        <ID>25022700</ID>
+        <DOCNumber>CMP25271</DOCNumber>
+        <Documento>Komponentendatenblätter: Magnetventil für die Kraftstoffdampfrückführung</Documento>
+        <URL>LINKDOC:25022700</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-22T05:22:44">
+  <XDOCUMENTO>
+    <ID>199282069</ID>
+    <DOCNumber>TGE88982</DOCNumber>
+    <RifIDTipoRis>16</RifIDTipoRis>
+    <Titolo>Jusqu'en novembre 2014 - Kilométrage annuel inférieur à 10 000 km</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>234</RifIDFileICO>
+    <XFILE>
+      <ID>234</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:234</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>16</ID>
+      <TipoRis>TGE</TipoRis>
+      <DscRis>Contrôles supplémentaires et courroies</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>7</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>SINO</IDLabel>
+        <Stringa>Oui-Non</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Liste des données</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199282069</RifIDDoc>
+      <Tagliando>Tous les 120 000 km ou tous les 4 ans (utilisation intensive)</Tagliando>
+      <TipoCtrl>COMMANDE DE DISTRIBUTION</TipoCtrl>
+      <Controllo>Courroie de distribution</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199282069</RifIDDoc>
+      <Tagliando>Tous les 120 000 km ou tous les 4 ans (utilisation intensive)</Tagliando>
+      <TipoCtrl>COURROIES ET AGRÉGATS</TipoCtrl>
+      <Controllo>Courroie auxiliaire / Services</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199282069</RifIDDoc>
+      <Tagliando>Tous les 120 000 km ou tous les 5 ans</Tagliando>
+      <TipoCtrl>COMMANDE DE DISTRIBUTION</TipoCtrl>
+      <Controllo>Courroie de distribution</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199282069</RifIDDoc>
+      <Tagliando>Tous les 120 000 km ou tous les 5 ans</Tagliando>
+      <TipoCtrl>COURROIES ET AGRÉGATS</TipoCtrl>
+      <Controllo>Courroie auxiliaire / Services</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199282069</RifIDDoc>
+      <Tagliando>À 60 000 km ou 4 ans, puis tous les 120 000 km ou 5 ans</Tagliando>
+      <TipoCtrl>COMMANDE DE DISTRIBUTION</TipoCtrl>
+      <Controllo>Courroie de distribution</Controllo>
+      <Verifica>Vérification / Contrôle</Verifica>
+    </XPROGTAGL_COMPLETO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T11:03:33">
+  <XDOCUMENTO>
+    <ID>199275862</ID>
+    <DOCNumber>GUP90437</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Geluid (getik) afkomstig van de vooras bij het afslaan bij lage snelheid</Titolo>
+    <InfoDoc>FRENI | STERZO | CARROZZERIA | SEL-SEL-P-34-20000813335958-05 | TICCHETTII | ZONA | RUOTA | RUOTE | MARCIA | CURVA | SENZA | INTERVENTO | FRENO | RIDOTTA | RIDOTTE | BASSE | CLIMA | SECCO | CALDO | FLANGIA | SUPPORTO | TAZZA | DISCO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparatiehandleiding</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199275862</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Betrouwbaarheidsgraad   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda van de betrouwbaarheidsgraad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * laag niveau &lt;/B&gt; : Vastgesteld door de autoreparateur, storingsgeval niet bevestigd door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** gemiddeld niveau &lt;/B&gt; : Veelvoorkomende storingsgevallen, vastgesteld door servicetechnici en reparateurs. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** hoog niveau &lt;/B&gt; : Bevestigde storing, hoge mate van &quot;herhaalbaarheid&quot; gemeld door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199275862</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificatie van het systeem/de storing</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Geldigheid: &lt;/B&gt;  Voertuigen uitgerust met lichtgewicht remschijven &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Systeem: &lt;/B&gt;  Remmen &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Onderdeel: &lt;/B&gt;  Remschijf voor &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Afwijking: &lt;/B&gt;  Geluid (getik) afkomstig van de vooras tijdens het afslaan bij lage snelheid onder droge en warme omstandigheden, ZONDER dat de rem wordt bediend &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Door de zelfdiagnose gedetecteerde fouten: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Oorzaak: &lt;/B&gt;  Microscopische trillingen veroorzaakt door kleine bewegingen tussen de remschijf en de flens van de wielhouder in de vooras, vooral op het binnenste contactoppervlak &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199275862</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparatieprocedure</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Werkzaamheid: &lt;/B&gt;  Verwijder de remschijven van beide voorwielen en plaats aan elke kant van het wiel (links en rechts), tussen de binnenkant van de remschijf en de flens van de wielhouder, een schijfje voor een betere grip. &lt;BR/&gt;  &lt;BR/&gt; Reinig de remschijven met een remreiniger en zorg ervoor dat u ze niet insmeert met vet. Reinig ook beide flenzen van de wielhouder zonder ze in te vetten &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Werkwijze: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Opmerking: &lt;/B&gt;  Als de betreffende auto ouder is dan 2 jaar, vervang dan de wielbouten van de voor- en achteras. &lt;BR/&gt;  &lt;BR/&gt; Artikelnummer remschijven voor voertuigen met een boorgatomtrek van 112: nr. 34106884839 &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2025-10-01T05:30:50">
+<XDOCUMENTO>
+<ID>199294264</ID>
+<DOCNumber>GUP94211</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Lampeggio spie &quot;P-R-N-D-S&quot;, cambio passa improvvisamente in folle</Titolo>
+<InfoDoc>CAMBIO | DSG | DQ200 | MARCIA | INNESTO | SIMBOLO | LAMPEGGIA | | P0716 | P0722 | P0746 | P0751 | P0756 | P0761 | P0766 | P0776 | P1707 |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199294264</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (*)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199294264</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Validità:&lt;/B&gt; Veicoli equipaggiati con cambio automatico DSG a 6 marce (DQ250)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Cambio&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Centralina elettronica cambio&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Durante la marcia il veicolo passa improvvisamente in folle. Sulla leva del cambio le spie &quot;P-R-N-D-S&quot; lampeggiano. A freddo il sistema riprende temporaneamente a funzionare. La condizione tende a peggiorare fino a diventare un guasto permanente.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt;&lt;UL&gt;&lt;LI&gt; P0716 (17100) – Sensore velocità ingresso cambio (G182) segnale non plausibile&lt;BR/&gt;	&lt;LI&gt; 	P0722 (17106) – Sensore velocità uscita cambio (G195) segnale assente&lt;BR/&gt;	&lt;LI&gt; 	P0746 (17130) – Elettrovalvola regolazione pressione 1 (N215) cortocircuito verso massa&lt;BR/&gt;	&lt;LI&gt; 	P0751 (17135) – Elettrovalvola cambio 1 (N88) cortocircuito verso massa&lt;BR/&gt;	&lt;LI&gt; 	P0756 (17140) – Elettrovalvola cambio 2 (N89) cortocircuito verso massa&lt;BR/&gt;	&lt;LI&gt; 	P0761 (17145) – Elettrovalvola cambio 3 (N90) cortocircuito verso massa&lt;BR/&gt;	&lt;LI&gt; 	P0766 (17150) – Elettrovalvola cambio 4 (N91) cortocircuito verso massa&lt;BR/&gt;	&lt;LI&gt; 	P0776 (17160) – Elettrovalvola regolazione pressione 2 (N216) cortocircuito verso massa&lt;BR/&gt;	&lt;LI&gt; 	P1707 (18115) – Interferenza nella centralina meccatronica&lt;/UL&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Malfunzionamento della centralina meccatronica del cambio DSG</Corpo>
+<RifIDFileIMGANI>299022364</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299022364</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299022364</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199294264</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Verificare e se necessario procedere con la sostituzione della centralina meccatronica del cambio&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; Guasti alla centralina elettronica del cambio sono piuttosto frequenti nel DSG DQ250&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299022365</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299022365</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299022365</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-24T15:44:36">
+  <XDOCUMENTO>
+    <ID>199264200</ID>
+    <DOCNumber>GUP87781</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Difficultés à passer les vitesses (boîte de vitesses robotisée)</Titolo>
+    <InfoDoc>BOÎTE DE VITESSES | ROBOTISÉE | BLOQUÉE | MARCHE | P0856 | P1767 | P1810 | P1818 |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199264200</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199264200</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / du défaut</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Validité : &lt;/B&gt; Véhicules équipés d&apos;une boîte de vitesses Selespeed &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Boîte de vitesses &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Dispositif : &lt;/B&gt; Fourchette d&apos;actionnement de l&apos;embrayage &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Difficulté à passer les vitesses &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt;  Un ou plusieurs des codes suivants &lt;BR/&gt; P0856 - Signal de contrôle de traction incorrect &lt;BR/&gt; P1767 - Panne du microprocesseur de l&apos;unité de contrôle électronique (ECU) &lt;BR/&gt; P1810 - Système d&apos;embrayage de la boîte de vitesses robotisée &lt;BR/&gt; P1818 - Contrôle du changement de vitesse &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Le problème est dû à la défaillance structurelle de la fourchette d&apos;actionnement de l&apos;embrayage, qui empêche l&apos;embrayage d&apos;effectuer sa course complète lors de son mouvement d&apos;engagement et de désengagement. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199264200</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Remplacement de la fourchette d&apos;embrayage &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; Après le remplacement de la fourchette, il peut être nécessaire de régler la pointe. Il est également essentiel d&apos;effectuer les réglages/l&apos;apprentissage de la boîte de vitesses à l&apos;aide d&apos;un équipement de diagnostic. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Remarque : &lt;/B&gt; La valeur de la course de la pointe d&apos;embrayage, comprise entre 28 et 28,5 mm, est réglée à l&apos;aide d&apos;une vis de réglage située sur la pointe elle-même. Le réglage de la pointe n&apos;apporte aucune amélioration si la fourche est cassée. Le remplacement de la fourche est la seule solution efficace dans ce cas. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299020735</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299020735</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299020735</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

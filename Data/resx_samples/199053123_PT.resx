@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-19T16:39:59">
+  <XDOCUMENTO>
+    <ID>199053123</ID>
+    <DOCNumber>DES76007</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Guia para a leitura de esquemas elétricos</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Descrição do Sistema</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199053123</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Legenda</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;B&gt; (1) &lt;/B&gt;  -  &lt;B&gt; Número da posição do relé &lt;/B&gt; : Indica a posição do relé na placa de relés. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (2) &lt;/B&gt;  -  &lt;B&gt; Continuação do esquema &lt;/B&gt; : A seta indica a continuação do componente na página seguinte do esquema elétrico. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (3) &lt;/B&gt;  -  &lt;B&gt; Designação da ligação &lt;/B&gt; : Indica o contacto individual num conector múltiplo. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (4) &lt;/B&gt;  -  &lt;B&gt; Ligação não fixa &lt;/B&gt; : Representação de um pino roscado que se encontra na placa do relé. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (5) &lt;/B&gt;  -  &lt;B&gt; Indicação da continuação da cablagem &lt;/B&gt; : Indica em que percurso de corrente o cabo se vai ligar. Por exemplo, se o número for 23, para perceber onde o cabo continua, é necessário encontrar o número 23 na linha situada na base do esquema. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (6) &lt;/B&gt;  -  &lt;B&gt; Secção e cor do cabo &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (7) &lt;/B&gt;  -  &lt;B&gt; Desenhos com lado aberto &lt;/B&gt; : O lado aberto do símbolo gráfico indica a continuação do componente noutro esquema elétrico. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (8) &lt;/B&gt;  -  &lt;B&gt; Ligação interna (traço fino) &lt;/B&gt; : Esta ligação não está presente como cabo. As ligações internas são, no entanto, ligações elétricas condutoras. Permitem acompanhar a propagação da corrente no interior de componentes e cablagens. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (9) &lt;/B&gt;  -  &lt;B&gt; Indicação de continuação do cabo em direção a um componente &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (10) &lt;/B&gt;  -  &lt;B&gt; Continuação da ligação &lt;/B&gt; : A letra indica o ponto em que a ligação prossegue na secção seguinte do esquema elétrico.</Corpo>
+      <RifIDFileIMGANI>299002868</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>299002868</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299002868</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199053123</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Código de cores dos cabos</Capitolo>
+      <Corpo> &lt;B&gt; Código de cores &lt;/B&gt; :  &lt;BR/&gt;  &lt;BR/&gt; SW = Preto &lt;BR/&gt; BR = Castanho &lt;BR/&gt; GN = Verde &lt;BR/&gt; BL = Azul &lt;BR/&gt; GR = Cinzento &lt;BR/&gt; LI = Lilás &lt;BR/&gt; VI = Lilás &lt;BR/&gt; GE = Amarelo &lt;BR/&gt; OR = Laranja &lt;BR/&gt; RS = Rosa &lt;BR/&gt; RO = Vermelho &lt;BR/&gt; RT = Vermelho &lt;BR/&gt; WS = Branco &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299002869</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>299002869</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299002869</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2025-08-02T05:31:05">
+<XDOCUMENTO>
+<ID>199290550</ID>
+<DOCNumber>GUP93450</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Avviso &quot;La pressione dell&apos;olio motore è insufficiente&quot;</Titolo>
+<InfoDoc>INIEZIONE | 2B7800 | 2B7C00 | 2BE800 | MESSAGGIO | INDICAZIONE | AVVERTIMENTO | VEICOLI | NUOVI | PERIODI | FERMO | PROLUNGATO | COPPA | TUBO | ASPIRAZIONE | TEMPERATURA | MORCHIA | MORCHIE | FILTRO | RETE | OTTURATO | OSTRUITO | INTASATO | POMPA |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199290550</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (***)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199290550</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Validità:&lt;/B&gt;&lt;BR/&gt;&lt;UL&gt;&lt;LI&gt; Veicoli con unità di azionamento XD5141O0&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Veicoli nuovi, con periodi di fermo superiori a 120 giorni e nei quali la temperatura dell&apos;olio motore non ha mai superato gli 85°C&lt;/UL&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Iniezione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Pompa dell&apos;olio motore&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Avviso &quot;La pressione dell&apos;olio motore è insufficiente&quot;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt;&lt;BR/&gt;&lt;UL&gt;&lt;LI&gt; 2B7800 (Valvola di regolazione pressione olio, plausibilità: guasto meccanico (pressione dell&apos;olio troppo bassa)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; 2B7C00 (Regolazione pressione olio: pressione insufficiente)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; 2BE800 (Sistema di pressione dell&apos;olio: riduzione della coppia per raffreddamento dei pistoni insufficiente (pressione dell&apos;olio troppo bassa)&lt;/UL&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; La formazione di morchia nella coppa o nel tubo di aspirazione può ostruire il filtro a rete, riducendo l’aspirazione della pompa e causando un abbassamento della pressione dell’olio&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199290550</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Accedere con lo strumento di diagnosi alla funzione di assistenza “Condizionamento olio motore”:&lt;BR/&gt;&lt;OL&gt;&lt;LI&gt; Se non è presente morchia, la funzione viene eseguita automaticamente: a veicolo fermo, la temperatura dell’olio motore viene aumentata per prevenire la formazione di morchia, mentre la pressione dell’olio è monitorata. Se l’olio supera gli 85°C e la pressione è regolare, l’anomalia è risolta.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Se è presente morchia, la funzione si interrompe automaticamente ed è necessaria la sostituzione della pompa dell’olio motore&lt;/OL&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

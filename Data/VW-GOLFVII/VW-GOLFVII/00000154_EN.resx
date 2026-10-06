@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-23T03:13:58">
+  <XDOCUMENTO>
+    <ID>154</ID>
+    <DOCNumber>INF00004</DOCNumber>
+    <RifIDTipoRis>1</RifIDTipoRis>
+    <Titolo>European EOBD standard</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>229</RifIDFileICO>
+    <XFILE>
+      <ID>229</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:229</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>1</ID>
+      <TipoRis>INF</TipoRis>
+      <DscRis>General Information</DscRis>
+      <RifIDFileCSS>12</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>12</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:12</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Introduction</Capitolo>
+      <Corpo>The European EOBD standard originates from the better-known American OBDII. The first anti-pollution directives for motor vehicles were issued in 1988 by the Californian Air Resources Board (CARB) and coincided with the publication of the first OBD standard. &lt;BR/&gt; &lt;BR/&gt; The acronym OBD (On Board Diagnosis) refers to an electronic system integrated into the vehicle&apos;s engine management system, which monitors all components critical to exhaust emissions in real time, recording and reporting any anomalies. &lt;BR/&gt; &lt;BR/&gt; Subsequently, with the advent of increasingly stringent air pollution restrictions, the old OBD standard was replaced by the more modern OBDII in 1996. Based on the new CARB directives, the SAE consortium published a collection of technical standards for the implementation of the set objectives. These standards describe in detail the performance that OBDII systems must meet.</Corpo>
+      <RifIDFileIMGANI>193</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>193</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:193</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Main functions</Capitolo>
+      <Corpo>The main functions of the OBDII system are as follows: &lt;BR/&gt; &lt;BR/&gt; A) Real-time monitoring of all vehicle devices that may adversely affect exhaust emission levels. &lt;BR/&gt; &lt;BR/&gt; B) More thorough monitoring of the most critical components, such as the catalytic converter and lambda probe. &lt;BR/&gt; &lt;BR/&gt; C) Reporting of the most serious and established faults by lighting a special warning light (MIL) on the instrument panel. &lt;BR/&gt; &lt;BR/&gt; D) Storage of faults together with the main parameters at the moment they occurred (&quot;frozen&quot;). &lt;BR/&gt; &lt;BR/&gt; E) Possibility of interfacing with an external unit (OBD self-diagnostic tester &quot;SCANTOOL&quot;) to view the fault codes in memory and the parameters in real time. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Technical details</Capitolo>
+      <Corpo>Inspired by OBDII, the European Community adopted the EOBD standard, which became mandatory for all new motor vehicles from 2000 onwards, together with the strict emission limits set by the Euro3 standard. &lt;BR/&gt; The combination of EOBD and Euro3 has brought various benefits, including standardising access to vehicle self-diagnosis by repairers. In fact, EOBD is, to all intents and purposes, a standard to which all car manufacturers have had to comply, both in terms of fault codes and the actual self-diagnostic interface, from communication protocols to the 16-pin connector for connecting the tester.</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Checks and Diagnostics</Capitolo>
+      <Corpo>Pin 1 Free &lt;BR/&gt; Pin 2 J1850 PWM or VPW (+) diagnostics &lt;BR/&gt; Pin 3 Free &lt;BR/&gt; Pin 4 Chassis ground &lt;BR/&gt; Pin 5 Signal ground &lt;BR/&gt; Pin 6 J2284 CAN (H) diagnostics &lt;BR/&gt; Pin 7 ISo 9141-2 and 14230 diagnostics (K) &lt;BR/&gt; Pin 8 Free &lt;BR/&gt; Pin 9 Free &lt;BR/&gt; Pin 10 J1850 PWM or VPW diagnostics (-) &lt;BR/&gt; Pin 11 Free &lt;BR/&gt; Pin 12 Free &lt;BR/&gt; Pin 13 Free &lt;BR/&gt; Pin 14 J2284 CAN (L) diagnostics &lt;BR/&gt; Pin 15 ISo 9141-2 and 14230 (L) diagnostics &lt;BR/&gt; Pin 16 +12 Volt power supply</Corpo>
+      <RifIDFileIMGANI>196</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>196</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:196</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo>In particular, the European EOBD provides for the control of all sensors and actuators in the engine management unit, as well as the following systems: catalytic converter with lambda probe, misfire detection, EGR, secondary air (if present), etc. The EOBD specifications require the control unit to detect malfunctions in the engine components and save them in memory together with the context of the moment in which they occur (&quot;frozen parameters&quot;). Furthermore, if the fault persists for a certain number of driving cycles (from a minimum of 2 to a maximum of 10), the EOBD system must activate the MIL (Malfunction Indication Lamp) on the dashboard to indicate an engine fault. &lt;BR/&gt; &lt;BR/&gt; Diagnostic Trouble Codes (DTCs) are standardised for problems relating to the engine and emissions, while the rest are deliberately left to the discretion of the vehicle manufacturer. &lt;BR/&gt; There are also special software functions for real-time reading of key vehicle parameters (engine speed, intake air pressure and temperature, lambda probe voltages, etc.) and for initiating special functions to activate diagnostic procedures on the actuators. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>514</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>514</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:514</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

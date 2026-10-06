@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T23:39:56">
+  <XDOCUMENTO>
+    <ID>199284120</ID>
+    <DOCNumber>GUP92053</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Sporadisches Absterben des Motors, Leistungsabfall und Aufleuchten der Motorfehleranzeige</Titolo>
+    <InfoDoc>ELETTRONICA | AGGIORNAMENTO | SOFTWARE | CENTRALINA | INIEZIONE | P0101 | P0106 | ACCESA | ACCENDE | ACCESE | MIL | POTENZA | MANCA | RENDE | CALA | PERDE | VELOCITà | SPEGNE | VOLTE | MARCIA | CORSA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199284120</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284120</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Einspritzung &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Bauteil: &lt;/B&gt; Einspritzsteuergerät &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt;  Der Motor geht sporadisch aus und verliert an Leistung, woraufhin die Motorfehlerleuchte aufleuchtet &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt; &lt;UL&gt; &lt;LI&gt; P0101 (Luftmassenmesser – Falscher Sollwert) &lt;BR/&gt;  &lt;LI&gt; P0106 (Ansaugkrümmerdrucksensor – Falscher Sollwert) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Software-Update für das Einspritzsteuergerät erforderlich &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284120</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Software-Update des Einspritzsteuergeräts durchführen &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Hinweis: &lt;/B&gt; Im vorliegenden Fall wurde das Update mithilfe eines Diagnosegeräts durchgeführt. &lt;BR/&gt; Überprüfen Sie mithilfe eines Diagnosegeräts außerdem, ob alle zugehörigen Systeme ordnungsgemäß funktionieren. Sollten Fehlercodes (DTCs) oder andere als die aufgeführten Symptome vorliegen, beheben Sie diese zunächst, bevor Sie mit diesem Bericht fortfahren. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

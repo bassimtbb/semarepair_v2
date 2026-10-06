@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-16T23:49:56">
+  <XDOCUMENTO>
+    <ID>199287943</ID>
+    <DOCNumber>GUP92640</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Schwierigkeiten beim Starten und Abstellen über den Schalter, bei laufendem Motor läuft der Motor ei</Titolo>
+    <InfoDoc>CAMBIO | B147A | AVVIO | DIFFICILE | FATICOSO | FATICA | TASTO | GIRA | QUADRO | STRUMENTI | DISPLAY | SPEGNE | ARRESTA | BLOCCA | STRADA | FUNZIONA | BENE | CORRETTO | CORRETTAMENTE | PREMENDO | SCHIACCIANDO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199287943</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Legende zur Zuverlässigkeitsstufe &lt;BR&gt; &lt;BR&gt; &lt;B&gt; * niedrige Stufe &lt;/B&gt; : Feststellung durch den Kfz-Mechaniker, vom Hersteller nicht dokumentierter Fehlerfall. &lt;BR&gt; &lt;BR&gt;  &lt;B&gt; ** mittleres Niveau &lt;/B&gt; : Umfangreiche Fehlerfälle, die von Servicetechnikern und Kfz-Mechanikern festgestellt wurden. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** hohes Niveau &lt;/B&gt; : Gewissheit über den Fehler, gute „Wiederholungsrate“, vom Hersteller gemeldet. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199287943</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Elektronik &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Bauteil: &lt;/B&gt; Zündschalter &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Das Fahrzeug lässt sich über den Zündschalter nur schwer starten und abstellen, wobei die Instrumententafel nicht aufleuchtet; nach dem Starten läuft der Motor einwandfrei &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose erkannte Fehler: &lt;/B&gt; B147A (Fernzugangsschlüssel – Fehler) &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Defekter Zündschalter &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199287943</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Die ordnungsgemäße Funktion des Startschalters überprüfen und gegebenenfalls austauschen &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Der defekte Schalter wies keine sichtbaren Mängel auf, und nach seinem Austausch war keine Einstellung mittels Diagnosegerät erforderlich. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

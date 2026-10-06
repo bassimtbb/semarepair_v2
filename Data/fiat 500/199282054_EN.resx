@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-22T05:22:24">
+  <XDOCUMENTO>
+    <ID>199282054</ID>
+    <DOCNumber>TGE88980</DOCNumber>
+    <RifIDTipoRis>16</RifIDTipoRis>
+    <Titolo>Until November 2014 - Standard Maintenance</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>234</RifIDFileICO>
+    <XFILE>
+      <ID>234</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:234</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>16</ID>
+      <TipoRis>TGE</TipoRis>
+      <DscRis>Additional Controls and Straps</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>7</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>SINO</IDLabel>
+        <Stringa>Si-No</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Data List</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199282054</RifIDDoc>
+      <Tagliando>Every 30,000 kilometres or once a year</Tagliando>
+      <TipoCtrl>EXTERNAL ELEMENTS / BODYWORK</TipoCtrl>
+      <Controllo>Conditions / Operation Soft top</Controllo>
+      <Verifica>Verification / Control</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199282054</RifIDDoc>
+      <Tagliando>Every 30,000 kilometres or once a year</Tagliando>
+      <TipoCtrl>AUXILIARY FILTERS</TipoCtrl>
+      <Controllo>Cabin filter/pollen filter (if fitted)</Controllo>
+      <Verifica>Replacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199282054</RifIDDoc>
+      <Tagliando>Every 60,000 kilometres or 2 years</Tagliando>
+      <TipoCtrl>FLUIDS FOR AUXILIARY SYSTEMS</TipoCtrl>
+      <Controllo>Brake fluid</Controllo>
+      <Verifica>Replacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199282054</RifIDDoc>
+      <Tagliando>Every 120,000 kilometres or 4 years (heavy use)</Tagliando>
+      <TipoCtrl>DISTRIBUTION CONTROL</TipoCtrl>
+      <Controllo>Timing belt</Controllo>
+      <Verifica>Replacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199282054</RifIDDoc>
+      <Tagliando>Every 120,000 kilometres or 4 years (heavy use)</Tagliando>
+      <TipoCtrl>BELTS AND AGGREGATES</TipoCtrl>
+      <Controllo>Auxiliary Belt / Services</Controllo>
+      <Verifica>Replacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199282054</RifIDDoc>
+      <Tagliando>Every 120,000 kilometres or 5 years</Tagliando>
+      <TipoCtrl>DISTRIBUTION CONTROL</TipoCtrl>
+      <Controllo>Timing belt</Controllo>
+      <Verifica>Replacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199282054</RifIDDoc>
+      <Tagliando>Every 120,000 kilometres or 5 years</Tagliando>
+      <TipoCtrl>BELTS AND AGGREGATES</TipoCtrl>
+      <Controllo>Auxiliary Belt / Services</Controllo>
+      <Verifica>Replacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199282054</RifIDDoc>
+      <Tagliando>At 60,000 kilometres or 4 years, then every 120,000 kilometres or 5 years</Tagliando>
+      <TipoCtrl>DISTRIBUTION CONTROL</TipoCtrl>
+      <Controllo>Timing belt</Controllo>
+      <Verifica>Verification / Control</Verifica>
+    </XPROGTAGL_COMPLETO>
+  </XDOCUMENTO>
+</dataroot>

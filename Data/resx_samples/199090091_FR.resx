@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T08:24:35">
+  <XDOCUMENTO>
+    <ID>199090091</ID>
+    <DOCNumber>FLT76076</DOCNumber>
+    <RifIDTipoRis>37</RifIDTipoRis>
+    <Titolo>Localisation et remplacement</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>37</ID>
+      <TipoRis>FLT</TipoRis>
+      <DscRis>Filtre d'habitacle</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199090091</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Procédure</Capitolo>
+      <Corpo> &lt;B&gt; Dimensions du filtre : &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; L = 217 mm. &lt;BR/&gt; &lt;LI&gt; H = 200 mm. &lt;BR/&gt; &lt;LI&gt; S = 35 mm. &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Temps estimé pour le remplacement : &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; 10 minutes &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Emplacement : &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; À l&apos;intérieur de l&apos;habitacle &lt;BR/&gt; &lt;LI&gt; Côté passager &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Remplacement : &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Retirer la cloison en plastique située à côté du tunnel central &lt;BR/&gt;  &lt;LI&gt; Retirer le filtre le long des guides du siège (de gauche à droite) &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Remontage : &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Effectuer la procédure inverse</Corpo>
+      <RifIDFileIMGANI>299005605</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299005605</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299005605</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

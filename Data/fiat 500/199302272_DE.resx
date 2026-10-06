@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-22T16:01:10">
+  <XDOCUMENTO>
+    <ID>199302272</ID>
+    <DOCNumber>IND77125</DOCNumber>
+    <RifIDTipoRis>36</RifIDTipoRis>
+    <Titolo>Diagnosestecker</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>36</ID>
+      <TipoRis>IND</TipoRis>
+      <DscRis>OBDII-Diagnosestecker</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199302272</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Lokalisierung der Diagnosesteckdose – Version A</Capitolo>
+      <Corpo> &lt;LI&gt; 16-poliger OBD-Stecker. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Entfernen Sie die Abdeckung unter dem Armaturenbrett auf der Fahrerseite. Der Diagnosestecker befindet sich im linken Bereich.</Corpo>
+      <RifIDFileIMGANI>299023042</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299023042</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299023042</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199302272</RifIDDoc>
+      <Ordine>15</Ordine>
+      <Capitolo>Lokalisierung der Diagnosesteckdose – Version B</Capitolo>
+      <Corpo> &lt;LI&gt; 16-poliger OBD-Anschluss. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Beinfreiheit des Fahrers, links unter dem Armaturenbrett</Corpo>
+      <RifIDFileIMGANI>299023046</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299023046</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299023046</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199302272</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Pinbelegung des Steckers</Capitolo>
+      <Corpo>Pin 1 Frei &lt;BR/&gt; Pin 2 Diagnose J1850 PWM oder VPW (+) &lt;BR/&gt; Pin 3 Frei &lt;BR/&gt; Pin 4 Chassis-Masse &lt;BR/&gt; Pin 5 Signal-Masse &lt;BR/&gt; Pin 6 Diagnose J2284 CAN (H) &lt;BR/&gt; Pin 7 Diagnose ISo 9141-2 und 14230 (K) &lt;BR/&gt; Pin 8 Frei &lt;BR/&gt; Pin 9 Frei &lt;BR/&gt; Pin 10 Diagnose J1850 PWM oder VPW (-) &lt;BR/&gt; Pin 11 Frei &lt;BR/&gt; Pin 12 Frei &lt;BR/&gt; Pin 13 Frei &lt;BR/&gt; Pin 14 Diagnose J2284 CAN (L) &lt;BR/&gt; Pin 15 Diagnose ISo 9141-2 und 14230 (L) &lt;BR/&gt; Pin 16 Stromversorgung +12 Volt</Corpo>
+      <RifIDFileIMGANI>532</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>532</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:532</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

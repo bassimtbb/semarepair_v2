@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-16T23:59:38">
+  <XDOCUMENTO>
+    <ID>199308056</ID>
+    <DOCNumber>GUP96898</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Airbag-Warnleuchte leuchtet auf (zuerst gelb, dann rot), allgemeine Störung und Ausfall des Start-St</Titolo>
+    <InfoDoc>AIRBAG | CENTRALINA | ACCENDE | ACCESA | GIALLO | GIALLA | ROSSO | ROSSA | TRIANGOLO | PERICOLO | PUNTO | ESCLAMATIVO | INATTIVO | FUNZIONA | START | STOP |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199308056</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Legende zur Zuverlässigkeitsstufe &lt;BR&gt; &lt;BR&gt; &lt;B&gt; * niedrige Stufe &lt;/B&gt; : Feststellung durch den Kfz-Mechaniker, vom Hersteller nicht dokumentierter Fehlerfall. &lt;BR&gt; &lt;BR&gt;  &lt;B&gt; ** mittleres Niveau &lt;/B&gt; : Umfangreiche Fehlerfälle, die von Servicetechnikern und Kfz-Mechanikern festgestellt wurden. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** hohes Niveau &lt;/B&gt; : Gewissheit über den Fehler, gute „Wiederholungsrate“, vom Hersteller gemeldet. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199308056</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Airbag &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Bauteil: &lt;/B&gt; Airbag-Steuergerät &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Aufleuchten der Airbag-Warnleuchte (zuerst gelb, dann rot) und allgemeine Störung, verbunden mit einem Ausfall des Start-Stopp-Systems &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt; - - &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Fehlfunktion des Airbag-Steuergeräts &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199308056</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Den Zustand und die ordnungsgemäße Funktion des Airbag-Steuergeräts überprüfen, gegebenenfalls reparieren bzw. austauschen &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Nach dem Austausch musste aufgrund des Blinkens des Kilometerzählers eine Proxy-Kalibrierung mittels Diagnosegerät durchgeführt werden. Der Eingriff hat das Problem endgültig behoben. &lt;BR&gt; Das Bauteil befindet sich im Fahrgastraum auf dem Mitteltunnel; der Zugang erfolgt von unterhalb des Ablagefachs auf der linken Seite, nachdem eine Kunststoffabdeckung entfernt wurde. &lt;BR&gt; &lt;BR&gt; Die voraussichtliche Dauer des Eingriffs beträgt etwa 0,5 h. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

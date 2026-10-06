@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-05-29T13:15:00">
+  <XDOCUMENTO>
+    <ID>25034453</ID>
+    <DOCNumber>GUP25281</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Acendimento esporádico da luz de injeção, fraca aceleração</Titolo>
+    <InfoDoc>gestione motore | iniezione | B1003 | spia iniezione | spia guasti | basse performance | scarsa accelerazione</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>25034453</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (**)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda do grau de fiabilidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nível baixo &lt;/B&gt; : Detecção pelo mecânico, caso de avaria não constatado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nível médio &lt;/B&gt; : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nível alto &lt;/B&gt; : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25034453</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Identificação do veículo</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Marca: &lt;/B&gt;  Fiat &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Modelo: &lt;/B&gt;  500 (150) &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Motorização: &lt;/B&gt;  1.2i 8V &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Período: &lt;/B&gt;  2007 &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Código do motor / VIN: &lt;/B&gt;   169 A 4000 &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sistema &lt;/B&gt;  Injeção Marelli IAW 5SF8 CF5</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25034453</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação da avaria / anomalia</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Anomalia: &lt;/B&gt;  Acendimento esporádico da luz de injeção, aceleração fraca &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Código de avaria DTC: &lt;/B&gt;  B1003, Variador de fase &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Causa: &lt;/B&gt;  Avaria no variador de fase</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25034453</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação / inspeção</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Intervenção: &lt;/B&gt;  Substituição do variador de fase &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  VARIADOR DE FASE: para verificar o variador de fase, é necessário desligar a eletroválvula de comando, ligar o motor, ligar uma fonte de alimentação (bateria) aos terminais da eletroválvula do variador de fase; deve ouvir-se uma variação perceptível na rotação de marcha lenta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Nota: &lt;/B&gt;  Após resolver a avaria, é necessário estabelecer comunicação com a central de controlo e efetuar a eliminação das avarias através de um equipamento de diagnóstico específico no ambiente «ERROS» &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

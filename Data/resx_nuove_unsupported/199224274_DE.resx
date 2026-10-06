@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T03:01:00">
+  <XDOCUMENTO>
+    <ID>199224274</ID>
+    <DOCNumber>AZZ76306</DOCNumber>
+    <RifIDTipoRis>7</RifIDTipoRis>
+    <Titolo>Zurücksetzen der Serviceanzeige</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>217</RifIDFileICO>
+    <XFILE>
+      <ID>217</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:217</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>7</ID>
+      <TipoRis>AZZ</TipoRis>
+      <DscRis>Rücksetzung Service</DscRis>
+      <RifIDFileCSS>1</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>1</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:1</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199224274</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Informationen zum System</Capitolo>
+      <Corpo> &lt;BR/&gt; Das Fahrzeug ist mit einer Anzeige für Wartungsintervalle ausgestattet, die sich im Multifunktionsdisplay des Kombiinstruments befindet. &lt;BR/&gt;&lt;BR/&gt; Die Anzeige informiert den Fahrer über eine Reihe von Hinweisen zu den planmäßigen Wartungsarbeiten, denen das Fahrzeug regelmäßig unterzogen werden muss. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199224274</RifIDDoc>
+      <Ordine>25</Ordine>
+      <Capitolo>Wartungsintervallanzeige zurücksetzen</Capitolo>
+      <Corpo> &lt;BR/&gt; Nach Abschluss der Wartungsarbeiten erfolgt das manuelle Zurücksetzen der Anzeige wie folgt: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Zündung einschalten. &lt;BR/&gt;  &lt;LI&gt; Drücken Sie mehrmals die Taste &lt;B&gt; 1 &lt;/B&gt; , bis das Fahrzeugsymbol hervorgehoben wird &lt;BR/&gt; &lt;LI&gt; Wählen Sie mit den Tasten &lt;B&gt; 2 &lt;/B&gt; das Menü „Wartungsintervall“ aus &lt;BR/&gt;  &lt;LI&gt; Drücken Sie die Taste &lt;B&gt; 3 &lt;/B&gt; , um zu bestätigen &lt;BR/&gt;  &lt;LI&gt; Wählen Sie mit den Tasten &lt;B&gt; 2 &lt;/B&gt; den Menüpunkt „Wartungsgrenze“ aus &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Wenn die Reichweite weniger als 1.500 km oder einen Monat beträgt &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; Es erscheint die Meldung &lt;B&gt; „Wartung innerhalb von“ &lt;/B&gt; zusammen mit dem nächstliegenden Termin (Entfernung oder Zeit) &lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; Bei einer Reichweite von 0 km oder bei Erreichen des Wartungstermins &lt;/B&gt; &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; Es erscheint die Meldung  &lt;B&gt; „Wartung durchführen“ &lt;/B&gt; zusammen mit dem Symbol &lt;B&gt; 4 &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Um die Wartungsgrenze zurückzusetzen, drücken Sie die Taste &lt;B&gt; 3 &lt;/B&gt; etwa 10 Sekunden lang ohne Unterbrechung, bis die Wartungsgrenze dauerhaft angezeigt wird.</Corpo>
+      <RifIDFileIMGANI>299007974</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007974</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007974</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199224274</RifIDDoc>
+      <Ordine>26</Ordine>
+      <Capitolo>Zurücksetzen der Motorölwechselanzeige</Capitolo>
+      <Corpo> &lt;BR/&gt; Nach Abschluss der Wartungsarbeiten erfolgt das manuelle Zurücksetzen der Anzeige wie folgt: &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; Zündung einschalten. &lt;BR/&gt;  &lt;LI&gt; Drücken Sie mehrmals die Taste &lt;B&gt; 1 &lt;/B&gt; , bis das Fahrzeugsymbol hervorgehoben wird &lt;BR/&gt; &lt;LI&gt; Wählen Sie mit den Tasten &lt;B&gt; 2 &lt;/B&gt; das Menü „Wartungsintervall“ aus &lt;BR/&gt;  &lt;LI&gt; Drücken Sie die Taste &lt;B&gt; 3 &lt;/B&gt; , um zu bestätigen &lt;BR/&gt;  &lt;LI&gt; Wählen Sie mit den Tasten &lt;B&gt; 2 &lt;/B&gt; den Menüpunkt „Ölwechselintervall“ aus &lt;BR/&gt; &lt;BR/&gt; Um das Wartungsintervall zurückzusetzen, drücken Sie die Taste &lt;B&gt; 3 &lt;/B&gt; etwa 10 Sekunden lang ohne Unterbrechung, bis die feste Anzeige des Ölwechselintervalls erscheint.</Corpo>
+      <RifIDFileIMGANI>299007974</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007974</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007974</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199224274</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>HINWEISE</Capitolo>
+      <Corpo> &lt;BR/&gt; Wird eine Wartung ohne Motorölwechsel durchgeführt, muss lediglich die Wartungsfrist zurückgesetzt werden. Bei einem Motorölwechsel müssen sowohl die Wartungsfrist als auch die Ölwechselintervall-Frist zurückgesetzt werden. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

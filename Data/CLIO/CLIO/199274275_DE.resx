@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T23:39:38">
+  <XDOCUMENTO>
+    <ID>199274275</ID>
+    <DOCNumber>GUP89937</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Fehlermeldung „AdBlue-Füllstand zu niedrig“, die sich nicht durch Nachfüllen des Tanks beheben lässt</Titolo>
+    <InfoDoc>INIEZIONE | P0607-51 | P14A3-96 | ADBLUE | MODULO DOSAGGIO | SENSORE QUALITÀ | ANOMALIA LIVELLO | INIETTORE | SERBATOIO | QUANTITà | FAP | DPF | PARTICOLATO | ANTIPARTICOLATO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199274275</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (**)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199274275</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Gültigkeit: &lt;/B&gt; Alle Fahrzeuge &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Reduzierung von Schadstoffemissionen &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorrichtung: &lt;/B&gt;  AdBlue-System &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Das Display zeigt einen Fehler wegen zu niedrigem AdBlue-Füllstand an, der sich durch Nachfüllen des Tanks nicht beheben lässt &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose erkannte Fehler: &lt;/B&gt;  - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Das Problem ist auf eine Fehlfunktion des AdBlue-Dosiermoduls oder des Füllstandssensors zurückzuführen. Selbst bei vollem Tank erkennt das System den korrekten Füllstand nicht und zeigt fälschlicherweise an, dass AdBlue nachgefüllt werden muss &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199274275</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Die ordnungsgemäße Funktion des AdBlue-Tanks und der AdBlue-Einspritzdüse überprüfen und gegebenenfalls einen Austausch vornehmen &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; &lt;UL&gt;   &lt;LI&gt; Den AdBlue-Füllstand prüfen und bei Bedarf nachfüllen &lt;BR/&gt; &lt;LI&gt; Die AdBlue-Einspritzdüse reinigen und deren ordnungsgemäße Funktion prüfen &lt;BR/&gt; &lt;LI&gt;  Wenn die AdBlue-Einspritzdüse sauber ist, aber keine Flüssigkeit unter Druck austritt, den AdBlue-Tank (einschließlich des Dosiermoduls) austauschen &lt;BR/&gt; Nach dem Austausch des Tanks erscheint der Fehlercode &lt;I&gt; „P0607-51 – Keine Programmierung“ &lt;/I&gt; ; dies bedeutet, dass das Steuergerät neu programmiert werden muss. &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Wenn nach Abschluss der Einstellung der Fehler &lt;I&gt; „P14A3-96 AdBlue/DEF-Qualitätssensor – Interne Störung“ &lt;/I&gt; angezeigt wird, bedeutet dies, dass das im Tank vorhandene Modul nicht vollständig mit dem zuvor installierten kompatibel ist. In diesem Fall muss das neue Modul mithilfe eines Diagnosegeräts neu programmiert werden &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

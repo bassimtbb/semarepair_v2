@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:47:53">
+  <XDOCUMENTO>
+    <ID>199290569</ID>
+    <DOCNumber>GUP93469</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Les volets d'air de refroidissement (AKKS) inférieurs ne se ferment pas lors du stationnement.</Titolo>
+    <InfoDoc>INJECTION | 138223 | 138224 | 138225 | 21B042 | 138206 | 138204 | 13822A | COMMANDE | ACTIVE | AILETTES | BAS | OUVERTES | OUVERTES | FERMÉES | FERMÉES | MIL | MOBILES | FRONTALES | REGOLAIRE | FLUX | AIR | MOTEUR | UNITÉ DE COMMANDE | DME | MISE À JOUR |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199290569</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199290569</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / du défaut</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Validité : &lt;/B&gt; Véhicules fabriqués à partir du 1er juillet 2018 &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Injection &lt;BR/&gt;&lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Calculateur d’injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Les volets d’air de refroidissement (AKKS) inférieurs ne se ferment pas lors du stationnement &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; Une ou plusieurs des erreurs suivantes : &lt;BR/&gt; &lt;UL&gt; &lt;LI&gt; 138223 (Commande active des volets d&apos;air de refroidissement (AKKS), en bas : gelé) &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; 138224 (Commande active des volets d&apos;air de refroidissement (AKKS), partie inférieure : butée inférieure non détectée) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; 138225 (Commande active des volets d&apos;air de refroidissement (AKKS), partie inférieure : butée supérieure non détectée) &lt;BR/&gt;  &lt;BR/&gt; &lt;LI&gt; 21B042 (Commande active du volet d&apos;air de refroidissement (AKKS), en bas : blocage quelle que soit la température ambiante) &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; 138206 (Commande active des volets d&apos;air de refroidissement (AKKS), en bas : blocage en cas de température ambiante élevée) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; 138204 (Commande active des volets d&apos;air de refroidissement (AKKS), en bas : écart régulé pour toutes les températures ambiantes) &lt;BR/&gt;  &lt;BR/&gt; &lt;LI&gt; 13822A (Commande active des volets d&apos;air de refroidissement (AKKS), en bas : écart régulé par température ambiante élevée) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Erreur logicielle du calculateur d&apos;injection &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199290569</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Réprogrammer le calculateur d&apos;injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; &lt;I&gt; ATTENTION &lt;/I&gt; : Si des codes d&apos;erreur ou des symptômes autres que ceux indiqués sont présents, procéder à leur résolution avant de poursuivre avec ce bulletin &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

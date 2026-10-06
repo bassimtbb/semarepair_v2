@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:19:51">
+  <XDOCUMENTO>
+    <ID>75000464</ID>
+    <DOCNumber>GUP75458</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Aktualizacja oprogramowania – nieprawidłowe działanie regulacji podświetlenia tablicy rozdzielczej</Titolo>
+    <InfoDoc>EP2 | luminosità | strumentazione | luce</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>75000464</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Poziom wiarygodności   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda stopnia wiarygodności &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niski poziom &lt;/B&gt; : Wykryte przez mechanika samochodowego, przypadek usterki niepotwierdzony przez producenta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** średni poziom &lt;/B&gt; : Częste przypadki usterki, potwierdzone przez techników serwisowych i mechaników. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** wysoki poziom &lt;/B&gt; : Potwierdzona anomalia, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000464</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Identyfikacja pojazdu</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Marka: &lt;/B&gt;  FIAT &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Model: &lt;/B&gt;  500 &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Silnik: &lt;/B&gt;  1.2 8V, 1.3 JTD, 1.4i 16V &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Okres produkcji: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Kod silnika / VIN: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Linia: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Inne informacje: &lt;/B&gt;  - -</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000464</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Układ: &lt;/B&gt;  Tablica rozdzielcza Marelli EP2 &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Urządzenie: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Usterka: &lt;/B&gt;  Spadek jasności zestawu wskaźników podczas zmniejszania poziomu oświetlenia nocnego &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Błędy wykryte przez autodiagnostykę: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Przyczyna: &lt;/B&gt;  Błąd w oprogramowaniu zestawu wskaźników</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000464</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Czynność</Capitolo>
+      <Corpo> &lt;BR/&gt; – Przeprowadź aktualizację oprogramowania, nr wersji Fiat 7.50.2. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

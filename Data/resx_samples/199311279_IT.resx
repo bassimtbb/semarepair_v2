@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-10T01:33:51">
+<XDOCUMENTO>
+<ID>199311279</ID>
+<DOCNumber>DIS75460</DOCNumber>
+<RifIDTipoRis>100000012</RifIDTipoRis>
+<Titolo>Disposizione Montaggio - Smontaggio</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>219</RifIDFileICO>
+<XFILE>
+<ID>219</ID>
+<Type>IMG</Type>
+<URL>GETFILE:219</URL>
+</XFILE>
+<XTIPORIS>
+<ID>100000012</ID>
+<TipoRis>DIS</TipoRis>
+<DscRis>Distribuzione</DscRis>
+<RifIDFileCSS>3</RifIDFileCSS>
+<RifIDTemplate>12</RifIDTemplate>
+<XFILE>
+<ID>3</ID>
+<Type>CSS</Type>
+<URL>GETFILE:3</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Avvertenze Generali</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;ATTENZIONE&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;Salvo diversa indicazione specifica del costruttore del veicolo o del motore, attenersi scrupolosamente alle seguenti avvertenze e raccomandazioni durante le operazioni di sostituzione della cinghia di distribuzione.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Avvertenze generali di sicurezza&lt;/B&gt;&lt;UL&gt;	&lt;LI&gt; 	Scollegare la batteria prima di iniziare qualsiasi intervento.&lt;BR/&gt;	&lt;LI&gt; 	Non ruotare mai l’albero motore o l’albero a camme con la cinghia di distribuzione smontata.&lt;BR/&gt;	&lt;LI&gt; 	Non ruotare il motore agendo su alberi a camme, pulegge o altri pignoni.&lt;BR/&gt;	&lt;LI&gt; 	Ruotare il motore esclusivamente nel senso normale di rotazione, salvo diversa indicazione del costruttore.&lt;BR/&gt;	&lt;LI&gt; 	Rispettare sempre le coppie di serraggio prescritte per tutti i componenti interessati. &lt;/UL&gt;&lt;BR/&gt;&lt;B&gt;Raccomandazioni operative&lt;/B&gt;&lt;UL&gt;	&lt;LI&gt; 	Dopo lo smontaggio, non rimontare mai una cinghia di distribuzione usata: installare sempre una cinghia nuova.&lt;BR/&gt;	&lt;LI&gt; 	In occasione della sostituzione della cinghia di distribuzione, è fortemente raccomandata la sostituzione dei tenditori e delle pulegge.&lt;BR/&gt;	&lt;LI&gt; 	Si consiglia la sostituzione della pompa dell’acqua qualora sia azionata dalla cinghia di distribuzione.&lt;BR/&gt;&lt;LI&gt; Non serrare o allentare le viti delle pulegge dell&apos;albero a camme e della pompa alta pressione carburante quando sono inseriti i relativi perni di bloccaggio. Rimuovere temporaneamente i perni, procedere a serrare/allentare le viti (tramite gli strumenti indicati), quindi riapplicare i perni di bloccaggio&lt;/UL&gt;&lt;BR/&gt;&lt;B&gt;Prescrizioni di montaggio&lt;/B&gt;&lt;UL&gt;	&lt;LI&gt; 	Il motore deve essere freddo prima di eseguire la regolazione e la tensionatura della cinghia di distribuzione.&lt;BR/&gt;	&lt;LI&gt; 	Evitare di piegare, torcere o sottoporre a trazione la cinghia di distribuzione.&lt;BR/&gt;	&lt;LI&gt; 	Durante il montaggio, assicurarsi che i riferimenti di fase siano correttamente allineati prima della tensionatura finale.&lt;BR/&gt;	&lt;LI&gt; 	Se previsto, rimuovere candele o candelette per facilitare la rotazione manuale del motore durante le verifiche. &lt;/UL&gt;&lt;BR/&gt;&lt;B&gt;Controlli finali&lt;/B&gt;&lt;UL&gt;&lt;LI&gt; 	Dopo il montaggio, ruotare manualmente il motore e verificare nuovamente la corretta fasatura.&lt;BR/&gt;&lt;LI&gt; Verificare che durante la rotazione manuale il motore non presenti blocchi o resistenza anomale.&lt;BR/&gt;	&lt;LI&gt; 	Applicare un’etichetta nel vano motore riportante chilometraggio e data della sostituzione della cinghia di distribuzione.&lt;BR/&gt;&lt;LI&gt; L’eventuale omissione di questi controlli solleva WDB da qualsiasi responsabilità in merito a danni o malfunzionamenti successivi.&lt;/UL&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299022700</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299022700</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299022700</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Cinghia Distribuzione - Dati Tecnici</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;BR/&gt;
+&lt;B&gt;Legenda&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;
+&lt;table class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt;
+&lt;th width=15% class=&quot;chiaro&quot;&gt;Tipo&lt;/th&gt;
+&lt;th width=34% class=&quot;chiaro&quot;&gt;Descrizione&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;Mot&lt;/td&gt;&lt;td&gt;Albero Motore&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Cam&lt;/td&gt;&lt;td&gt;Albero Camme&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Cam-A&lt;/td&gt;&lt;td&gt;Albero Camme Aspirazione&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Cam-S&lt;/td&gt;&lt;td&gt;Albero Camme Scarico&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Tns&lt;/td&gt;&lt;td&gt;Tensionatore&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Tnd&lt;/td&gt;&lt;td&gt;Tendicinghia / Galoppino&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;P-aux&lt;/td&gt;&lt;td&gt;Pompa idraulica / ausiliaria&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;P-w&lt;/td&gt;&lt;td&gt;Pompa acqua&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;P-oil&lt;/td&gt;&lt;td&gt;Pompa olio&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;P-inz&lt;/td&gt;&lt;td&gt;Pompa iniezione&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;C-Tens&lt;/td&gt;&lt;td&gt;Controllo Tensionamento&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Notch&lt;/td&gt;&lt;td&gt;Tacca di riferimento&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Hole&lt;/td&gt;&lt;td&gt;Foro / Allineamento&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;BR/&gt;
+&lt;BR/&gt;&lt;BR/&gt;
+&lt;B&gt;Coppie di Serraggio&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;
+&lt;table class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt;
+&lt;th width=35% class=&quot;chiaro&quot;&gt;Descrizione&lt;/th&gt;
+&lt;th width=15% class=&quot;chiaro&quot;&gt;Unità di misura&lt;/th&gt;
+&lt;th width=15% class=&quot;chiaro&quot;&gt;Dati&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;Vite pignone albero a camme&lt;/td&gt;&lt;td&gt;Nm&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Vite di fissaggio albero a camme&lt;/td&gt;&lt;td&gt;Nm&lt;/td&gt;&lt;td&gt;9&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Dado pignone pompa alta pressione carburante&lt;/td&gt;&lt;td&gt;Nm&lt;/td&gt;&lt;td&gt;95&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Dado tenditore&lt;/td&gt;&lt;td&gt;Nm&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Dado tensionatore 1° fase - Serraggio&lt;/td&gt;&lt;td&gt;Nm&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Dado tensionatore 2° fase - Serraggio&lt;/td&gt;&lt;td&gt;Gradi&lt;/td&gt;&lt;td&gt;45&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Vite pignone albero motore 1° fase - Serraggio&lt;/td&gt;&lt;td&gt;Nm&lt;/td&gt;&lt;td&gt;180&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Vite pignone albero motore 2° fase - Serraggio&lt;/td&gt;&lt;td&gt;Gradi&lt;/td&gt;&lt;td&gt;135° (Eseguire in più riprese, come 90° + 45°)&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;BR/&gt;&lt;BR/&gt;
+&lt;B&gt;Tempo previsto per la sostituzione della cinghia di distribuzione:&lt;/B&gt; 3,1 ore&lt;BR/&gt;
+&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025407</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025407</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025407</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>12</Ordine>
+<Capitolo>Attrezzature e strumenti utilizzati</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt; Perno bloccaggio albero a camme &lt;B&gt;3359&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Strumento serraggio / allentamento dado pompa alta pressione carburante &lt;B&gt;T10051&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Strumento serraggio / allentamento vite pignone albero a camme &lt;B&gt;T10172&lt;/B&gt; con adattatori &lt;B&gt;T10172/11&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Cacciavite angolare - per tensionamento tensionatore (Variante 1) &lt;B&gt;T10264&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Cacciavite angolare - per tensionamento tensionatore (Variante 2) &lt;B&gt;T10409&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Strumento bloccaggio tensionatore &lt;B&gt;T10265&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Perno di bloccaggio pompa alta pressione carburante &lt;B&gt;T10492&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Perno di bloccaggio pignone albero motore &lt;B&gt;T10490&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025475</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025475</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025475</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>15</Ordine>
+<Capitolo>Identificazione varianti tensionatore</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt; Possono essere impiegate due diverse varianti di tensionatore, la variante &lt;B&gt;1&lt;/B&gt; e la variante &lt;B&gt;2&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;VARIANTE 1:&lt;/B&gt; Per il tensionamento è necessario inserire lo strumento &lt;B&gt;T10264&lt;/B&gt; nell&apos;eccentrico del tensionatore e bloccarlo tramite lo strumento &lt;B&gt;T10265&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;VARIANTE 2:&lt;/B&gt; Per il tensionamento è sufficiente inserire lo strumento &lt;B&gt;T10409&lt;/B&gt; nell&apos;eccentrico del tensionatore senza impiegare alcuno strumento di bloccaggio &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Ad eccezione della tipologia di attrezzo da usare, le operazioni indicate nella seguente procedura sono valide per entrambe le varianti di tensionatore&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025459</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025459</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025459</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>25</Ordine>
+<Capitolo>Operazioni preliminari</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt; Posizionare la vettura su un piano&lt;BR/&gt;&lt;LI&gt; Rimuovere il supporto del motore&lt;BR/&gt;&lt;LI&gt; Rimuovere il carter inferiore della cinghia di distribuzione&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>30</Ordine>
+<Capitolo>Stacco cinghia di distribuzione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;BLOCCAGGIO ALBERO MOTORE E ALBERI A CAMME&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Ruotare l&apos;albero motore fino a portare l&apos;ingranaggio dell&apos;albero a camme sul Punto Morto Superiore (PMS)&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE:&lt;/B&gt; Ruotare l&apos;albero motore solo nel senso di rotazione del motore (senso orario) e solo agendo sulla vite dell&apos;ingranaggio dell&apos;albero motore&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Bloccare il mozzo dell&apos;albero a camme tramite il perno &lt;B&gt;3359&lt;/B&gt; inserendolo nel foro &lt;B&gt;A&lt;/B&gt; di allineamento del foro presente nella forcella &lt;B&gt;B&lt;/B&gt; della puleggia dell&apos;albero a camme con il foro nella testata&lt;BR/&gt;&lt;LI&gt; Allentare di mezzo giro la vite &lt;B&gt;C&lt;/B&gt; della forcella &lt;B&gt;B&lt;/B&gt; della puleggia dell&apos;albero a camme&lt;BR/&gt;&lt;LI&gt; Bloccare l&apos;ingranaggio dell&apos;albero motore applicando lo strumento &lt;B&gt;T10490&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025455</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025455</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025455</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>31</Ordine>
+<Capitolo></Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;ALLENTARE PULEGGIA ALBERO A CAMME&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE:&lt;/B&gt; Non allentare o serrare le viti delle pulegge senza prima rimuovere temporaneamente i perni di bloccaggio, in quanto potrebbero causarsi danni non visibili ai trascinatori &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Rimuovere il perno di bloccaggio &lt;B&gt;3359&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Tramite lo strumento fermo &lt;B&gt;T10172&lt;/B&gt; con gli adattatori &lt;B&gt;T10172/11&lt;/B&gt;, bloccare la puleggia albero a camme&lt;BR/&gt;&lt;LI&gt; Allentare la vite &lt;B&gt;D&lt;/B&gt; della puleggia albero a camme&lt;BR/&gt;&lt;LI&gt; Inserire il perno di bloccaggio &lt;B&gt;3359&lt;/B&gt; nel foro &lt;B&gt;A&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025456</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025456</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025456</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>32</Ordine>
+<Capitolo></Capitolo>
+<Corpo>&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ALLENTARE PULEGGIA POMPA ALTA PRESSIONE CARBURANTE&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Applicare lo strumento blocco puleggia pompa alta pressione &lt;B&gt;T10492&lt;/B&gt; con il lato piatto orientato verso destra nel foro &lt;B&gt;E&lt;/B&gt; di allineamento del foro presente nella forcella &lt;B&gt;F&lt;/B&gt; della puleggia pompa alta pressione con il foro nella testata&lt;BR/&gt;&lt;LI&gt; Rimuovere il perno di bloccaggio della pompa alta pressione &lt;B&gt;T10492&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Tramite lo strumento fermo &lt;B&gt;T10051&lt;/B&gt; allentare la vite &lt;B&gt;G&lt;/B&gt; della puleggia pompa alta pressione di circa 90°&lt;BR/&gt;&lt;LI&gt; Applicare nuovamente il perno di bloccaggio della pompa alta pressione &lt;B&gt;T10492&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025457</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025457</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025457</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>33</Ordine>
+<Capitolo></Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;RILASCIO TENSIONAMENTO TENSIONATORE&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Allentare il dado &lt;B&gt;H&lt;/B&gt; del tensionatore&lt;BR/&gt;&lt;LI&gt; Inserire lo strumento &lt;B&gt;T10264&lt;/B&gt; nell&apos;eccentrico del tensionatore&lt;BR/&gt;&lt;LI&gt; Ruotare lo strumento &lt;B&gt;T10264&lt;/B&gt; in senso antiorario fino a quando diventa possibile bloccare il rullo del tensionatore con lo strumento &lt;B&gt;T10265&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Tenendo lo strumento &lt;B&gt;T10265&lt;/B&gt; inserito, ruotare lo strumento &lt;B&gt;T10264&lt;/B&gt; in senso orario fino alla battuta&lt;BR/&gt;&lt;LI&gt; Serrare a mano il dado &lt;B&gt;H&lt;/B&gt; del tensionatore&lt;BR/&gt;&lt;LI&gt; Scalzare la cinghia di distribuzione dalla pompa del liquido di raffreddamento, quindi rimuovere la cinghia di distribuzione&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025458</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025458</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025458</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>40</Ordine>
+<Capitolo>Riattacco cinghia di distribuzione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;CONDIZIONI PRELIMINARI - TENSIONAMENTO TENSIONATORE&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE:&lt;/B&gt; Sostituire il dado &lt;B&gt;H&lt;/B&gt; del tensionatore&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Inserire gli strumenti &lt;B&gt;T10264&lt;/B&gt; e &lt;B&gt;T10265&lt;/B&gt; nell&apos;eccentrico del tensionatore&lt;BR/&gt;&lt;LI&gt; Ruotare lo strumento &lt;B&gt;T10264&lt;/B&gt; in senso orario al massimo&lt;BR/&gt;&lt;LI&gt; Bloccare il tensionatore il più possibile a destra serrando a mano il dado &lt;B&gt;H&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Assicurarsi che la linguetta &lt;B&gt;I&lt;/B&gt; del tensionatore sia inserita nella cavità della testata&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025460</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025460</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025460</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>46</Ordine>
+<Capitolo></Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;CONDIZIONI PRELIMINARI - BLOCCAGGIO ALBERO A CAMME E ALBERO MOTORE&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Assicurarsi che il pignone dell&apos;albero a camme sia bloccato tramite lo strumento &lt;B&gt;3359&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Assicurarsi che la vite &lt;B&gt;C&lt;/B&gt; sia allentata di mezzo giro e in posizione centrale nel rispettivo foro&lt;BR/&gt;&lt;LI&gt; Assicurarsi che la vite &lt;B&gt;D&lt;/B&gt; sia allentata&lt;BR/&gt;&lt;LI&gt; Assicurarsi che il pignone dell&apos;albero a camme possa ruotare leggermente&lt;BR/&gt;&lt;LI&gt; Assicurarsi che il pignone dell&apos;albero motore sia bloccato tramite lo strumento &lt;B&gt;T10490&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025461</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025461</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025461</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>47</Ordine>
+<Capitolo></Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;CONDIZIONI PRELIMINARI - BLOCCO POMPA ALTA PRESSIONE&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Assicurarsi che il pignone della pompa alta pressione carburante sia bloccata tramite lo strumento &lt;B&gt;T10492&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Assicurarsi che il dado &lt;B&gt;G&lt;/B&gt; del pignone della pompa alta pressione sia allentato&lt;BR/&gt;&lt;LI&gt; Assicurarsi che il pignone della pompa alta pressione carburante possa ruotare leggermente&lt;BR/&gt;&lt;LI&gt; Ruotare i pignoni dell&apos;albero a camme e della pompa alta pressione in senso orario fino al loro blocco dovuto alla presenza degli strumenti &lt;B&gt;3359&lt;/B&gt; e &lt;B&gt;T10492&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025462</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025462</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025462</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>48</Ordine>
+<Capitolo></Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;INSTALLAZIONE CINGHIA DI DISTRIBUZIONE - PARTE 1&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Installare la cinghia di distribuzione in sede, posizionandola sui pignoni nell&apos;ordine indicato in figura&lt;OL&gt;&lt;LI&gt; Puleggia albero motore&lt;BR/&gt;&lt;LI&gt; Tensionatore&lt;BR/&gt;&lt;LI&gt; Puleggia albero a camme&lt;BR/&gt;&lt;LI&gt; Puleggia pompa alta pressione&lt;BR/&gt;&lt;LI&gt; Puleggia pompa liquido di raffreddamento&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025463</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025463</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025463</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>49</Ordine>
+<Capitolo></Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;INSTALLAZIONE CINGHIA DI DISTRIBUZIONE - PARTE 2&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Assicurarsi che la vite &lt;B&gt;C&lt;/B&gt; si trovi in posizione centrale nel foro ellittico dove è posizionata&lt;BR/&gt;&lt;LI&gt; Se necessario, correggere la posizione della puleggia dell&apos;albero a camme ruotandola in senso orario di un dente, quindi riposizionare in sede la cinghia di distribuzione&lt;BR/&gt;&lt;LI&gt; Tramite lo strumento &lt;B&gt;T10264&lt;/B&gt;, ruotare il tensionatore in senso orario fino a portare l&apos;indicatore &lt;B&gt;J&lt;/B&gt; al centro del foro della piastra di base &lt;B&gt;K&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE:&lt;/B&gt; Assicurarsi di non ruotare il dado &lt;B&gt;H&lt;/B&gt; durante questa operazione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Tenendo fermo il tensionatore, serrare il relativo dado &lt;B&gt;H&lt;/B&gt; a &lt;B&gt;20 Nm + 45°&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025464</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025464</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025464</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>65</Ordine>
+<Capitolo></Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;INSTALLAZIONE CINGHIA DI DISTRIBUZIONE - PARTE 3&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Applicare lo strumento &lt;B&gt;T10172&lt;/B&gt; con gli adattatori &lt;B&gt;T10172/11&lt;/B&gt; alla puleggia dell&apos;albero a camme&lt;BR/&gt;&lt;LI&gt; Spingere lo strumento in senso antiorario e tenerlo in posizione&lt;BR/&gt;&lt;LI&gt; Serrare le viti &lt;B&gt;D&lt;/B&gt; della puleggia albero a camme a &lt;B&gt;20 Nm&lt;/B&gt; e &lt;B&gt;G&lt;/B&gt; della puleggia pompa alta pressione a &lt;B&gt;20 Nm&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE:&lt;/B&gt; Non allentare o serrare le viti delle pulegge senza prima rimuovere temporaneamente i perni di bloccaggio, in quanto potrebbero causarsi danni non visibili ai trascinatori &lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025465</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025465</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025465</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>68</Ordine>
+<Capitolo></Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;INSTALLAZIONE CINGHIA DI DISTRIBUZIONE - PARTE 4&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Assicurarsi che l&apos;estremità del contrassegno &lt;B&gt;L&lt;/B&gt; presente sulla puleggia della pompa alta pressione non sia in linea con il centro del perno di bloccaggio della pompa alta pressione &lt;B&gt;T10492&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Se necessario, ruotare la puleggia della pompa alta pressione di un dente in senso orario per portare l&apos;estremità del contrassegno &lt;B&gt;L&lt;/B&gt; nella posizione corretta, quindi riposizionare la cinghia dentata sulla puleggia&lt;BR/&gt;&lt;LI&gt; Rimuovere i perni di bloccaggio &lt;B&gt;3359&lt;/B&gt; della puleggia albero a camme, &lt;B&gt;T10492&lt;/B&gt; della puleggia pompa alta pressione e &lt;B&gt;T10490&lt;/B&gt; della puleggia albero motore&lt;BR/&gt;&lt;LI&gt; Proseguire al controllo fasatura della distribuzione&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025466</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025466</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025466</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>69</Ordine>
+<Capitolo>Controllo fasatura</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;PARTE 1&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Eseguire due rotazioni dell&apos;albero motore nel corretto senso di rotazione (senso orario), fino a portarlo poco prima del punto morto superiore (PMS)&lt;BR/&gt;&lt;LI&gt; Applicare lo strumento &lt;B&gt;T10490&lt;/B&gt; per il bloccaggio della puleggia albero motore&lt;BR/&gt;&lt;LI&gt; Ruotare leggermente l&apos;albero motore nel corretto senso di rotazione (senso orario), fino a quando il perno dello strumento &lt;B&gt;T10490&lt;/B&gt; si inserisce nel foro della flangia di tenuta &lt;B&gt;M&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE:&lt;/B&gt; Se l&apos;albero motore è stato fatto girare oltre il punto morto superiore (PMS), è necessario eseguire altre due rotazioni complete dell&apos;albero motore per riportarlo in posizione al punto morto superiore&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Inserire lo strumento &lt;B&gt;3359&lt;/B&gt; di blocco puleggia albero a camme nel foro &lt;B&gt;A&lt;/B&gt; di allineamento del foro presente nella forcella &lt;B&gt;B&lt;/B&gt; della puleggia dell&apos;albero a camme con il foro nella testata&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE:&lt;/B&gt; Se non è possibile inserire lo strumento &lt;B&gt;3359&lt;/B&gt; di blocco puleggia albero a camme, proseguire alla procedura di correzione della fasatura&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025467</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025467</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025467</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>70</Ordine>
+<Capitolo></Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;PARTE 2&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Assicurarsi che il foro &lt;B&gt;E&lt;/B&gt; e la forcella &lt;B&gt;F&lt;/B&gt; del pignone pompa alta pressione siano allineati&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;NOTA:&lt;/B&gt; Uno scostamento minimo tra il foro &lt;B&gt;E&lt;/B&gt; e la forcella &lt;B&gt;F&lt;/B&gt; non influisce sul funzionamento del motore&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Assicurarsi che il segno di riferimento &lt;B&gt;J&lt;/B&gt; presente sul tensionatore sia allineato con il centro della piastra &lt;B&gt;K&lt;/B&gt; con un massimo di 5mm di scostamento&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;NOTA:&lt;/B&gt; L&apos;applicazione degli strumenti di blocco albero a camme &lt;B&gt;3359&lt;/B&gt; e di blocco albero motore &lt;B&gt;T10490&lt;/B&gt; con il controllo dell&apos;allineamento del foro &lt;B&gt;E&lt;/B&gt; del pignone pompa alta pressione e del riferimento &lt;B&gt;J&lt;/B&gt; del tensionatore assicurano che la distribuzione si trova nella corretta fasatura&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Rimuovere lo strumento &lt;B&gt;3359&lt;/B&gt; di blocco dell&apos;albero a camme e &lt;B&gt;T10490&lt;/B&gt; di blocco dell&apos;albero motore&lt;BR/&gt;&lt;LI&gt; Compiere due giri dell&apos;albero motore nel corretto senso di rotazione (senso orario) fino a portare la puleggia dell&apos;albero motore poco prima del punto morto superiore (PMS)&lt;BR/&gt;&lt;LI&gt; Ripetere il controllo della fasatura&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025468</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025468</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025468</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>71</Ordine>
+<Capitolo></Capitolo>
+<Corpo>&lt;B&gt;PARTE 3&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Tramite lo strumento &lt;B&gt;T10172&lt;/B&gt; con gli adattatori &lt;B&gt;T10172/11&lt;/B&gt;, procedere a serrare definitivamente il dado &lt;B&gt;D&lt;/B&gt; della puleggia albero a camme&lt;BR/&gt;&lt;LI&gt; Tramite lo strumento &lt;B&gt;T10051&lt;/B&gt;, procedere a serrare definitivamente la vite &lt;B&gt;G&lt;/B&gt; della puleggia della pompa alta pressione carburante&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE:&lt;/B&gt; Non allentare o serrare le viti delle pulegge senza prima rimuovere temporaneamente i perni di bloccaggio, in quanto potrebbero causarsi danni non visibili ai trascinatori &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Ripetere il controllo della fasatura&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025469</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025469</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025469</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>73</Ordine>
+<Capitolo>Correzione fasatura</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;BLOCCO PULEGGIA ALBERO A CAMME&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Sfilare lo strumento &lt;B&gt;T10490&lt;/B&gt; di blocco puleggia albero motore dal foro nella flangia &lt;B&gt;M&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Girare l&apos;albero motore in senso opposto al normale senso di rotazione (senso antiorario), superando di poco il punto morto superiore (PMS)&lt;BR/&gt;&lt;LI&gt; Ruotare lentamente l&apos;albero motore nel normale senso di rotazione (senso orario) fino a quando è possibile inserire lo strumento &lt;B&gt;3359&lt;/B&gt; di blocco puleggia albero a camme nel foro &lt;B&gt;A&lt;/B&gt; di allineamento del foro presente nella forcella &lt;B&gt;B&lt;/B&gt; della puleggia dell&apos;albero a camme con il foro nella testata&lt;BR/&gt;&lt;LI&gt; Utilizzando lo strumento &lt;B&gt;T10172&lt;/B&gt; con l&apos;adattatore &lt;B&gt;T10172/11&lt;/B&gt;, allentare il dado &lt;B&gt;D&lt;/B&gt; della puleggia albero a camme&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025470</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025470</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025470</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>74</Ordine>
+<Capitolo></Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;CORREZIONE FASATURA&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt; CON PERNO DISPOSITIVO DI BLOCCAGGIO ALBERO MOTORE T10490 A SINISTRA DEL FORO NELLA FLANGIA M&lt;/B&gt;&lt;UL&gt;&lt;LI&gt; Ruotare l&apos;albero motore nel corretto senso di rotazione (senso orario) fino a quando il perno dello strumento &lt;B&gt;T10490&lt;/B&gt; si inserisce nel foro della flangia &lt;B&gt;M&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Tramite lo strumento &lt;B&gt;T10172&lt;/B&gt; con adattatore &lt;B&gt;T10172/11&lt;/B&gt; serrare il dado &lt;B&gt;D&lt;/B&gt; della puleggia albero a camme a &lt;B&gt;20 Nm&lt;/B&gt;&lt;/UL&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt; CON PERNO DISPOSITIVO DI BLOCCAGGIO ALBERO MOTORE T10490 A DESTRA DEL FORO NELLA FLANGIA M&lt;/B&gt;&lt;UL&gt;&lt;LI&gt; Ruotare leggermente l&apos;albero motore nel senso inverso al corretto senso di rotazione (senso antiorario)&lt;BR/&gt;&lt;LI&gt; Ruotare l&apos;albero motore nel corretto senso di rotazione (senso orario) fino a quando il perno dello strumento &lt;B&gt;T10490&lt;/B&gt; si inserisce nel foro della flangia &lt;B&gt;M&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Tramite lo strumento &lt;B&gt;T10172&lt;/B&gt; con adattatore &lt;B&gt;T10172/11&lt;/B&gt; serrare il dado &lt;B&gt;D&lt;/B&gt; della puleggia albero a camme a &lt;B&gt;20 Nm&lt;/B&gt;&lt;/UL&gt;&lt;BR/&gt;&lt;LI&gt; Rimuovere lo strumento di blocco puleggia albero a camme &lt;B&gt;3359&lt;/B&gt; e di blocco puleggia albero motore &lt;B&gt;T10490&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Eseguire due rotazioni dell&apos;albero motore nel normale senso di rotazione&lt;BR/&gt;&lt;LI&gt; Ripetere la procedura di controllo della fasatura&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025470</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025470</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025470</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>75</Ordine>
+<Capitolo></Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;OPERAZIONI FINALI DOPO CORREZIONE FASATURA&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Tramite lo strumento &lt;B&gt;T10172&lt;/B&gt; con gli adattatori &lt;B&gt;T10172/11&lt;/B&gt;, procedere a serrare definitivamente il dado &lt;B&gt;D&lt;/B&gt; della puleggia albero a camme&lt;BR/&gt;&lt;LI&gt; Tramite lo strumento &lt;B&gt;T10051&lt;/B&gt;, procedere a serrare definitivamente la vite &lt;B&gt;G&lt;/B&gt; della puleggia della pompa alta pressione carburante&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE:&lt;/B&gt; Non allentare o serrare le viti delle pulegge senza prima rimuovere temporaneamente i perni di bloccaggio, in quanto potrebbero causarsi danni non visibili ai trascinatori &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Ripetere il controllo della fasatura&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025469</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025469</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025469</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199311279</RifIDDoc>
+<Ordine>76</Ordine>
+<Capitolo>Operazioni conclusive</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt; Serrare la vite &lt;B&gt;C&lt;/B&gt; a &lt;B&gt;9 Nm&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Reinstallare il carter inferiore della cinghia di distribuzione&lt;BR/&gt;&lt;LI&gt; Reinstallare il supporto motore&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299025471</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299025471</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299025471</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

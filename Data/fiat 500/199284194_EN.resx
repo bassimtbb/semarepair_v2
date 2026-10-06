@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:45:14">
+  <XDOCUMENTO>
+    <ID>199284194</ID>
+    <DOCNumber>GUP92083</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Failure to start with the engine fault light on</Titolo>
+    <InfoDoc>INJECTION | P0301 | WHEEL | AUDIBLE | ON | IGNITION | LIGHTS UP | YELLOW | YELLOW | FLASHING | FLASHING | AVAILABLE | MIL | CYLINDERS | CYLINDER | BAD | TURNS | ADJUSTMENTS | LEARNING | PARAMETERS | SELF-ADJUSTING | FRONTS | CAM |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199284194</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degree of reliability (*)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legend of the degree of reliability&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* low level&lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** medium level&lt;/B&gt; : Extensive fault history, found by service technicians and repairers.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** high level&lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284194</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Injection &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; - - &lt;BR/&gt;&lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; The engine is misfiring with the engine fault light on &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errors detected by self-diagnosis: &lt;/B&gt; P0301 (Cylinder 1 misfire - Error) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Incorrect injection parameter configuration - Phonic wheel &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284194</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; Using diagnostic equipment, carry out the following procedures: “cam profile reset”, “self-adaptive parameter reset” and “tachometer reset”, followed by the relevant calibration. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; The calibration of the phonic wheel is carried out as follows: &lt;UL&gt; &lt;LI&gt; Bring the engine up to operating temperature. &lt;BR/&gt; &lt;LI&gt; Accelerate to 5000 rpm and maintain this speed for approximately 2 seconds &lt;BR/&gt;  &lt;LI&gt; Leave the engine idling for a further 2 seconds &lt;BR/&gt; &lt;LI&gt; Repeat the acceleration sequence until the engine fault warning light goes out &lt;BR/&gt; &lt;LI&gt; Generally, the warning light goes out after the third repetition &lt;/UL&gt;  &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; During an initial service, the spark plugs were replaced, but this did not resolve the fault. Only after carrying out the ‘cam profile reset’, ‘self-adaptive parameter reset’, ‘phonic wheel reset’ and the subsequent calibration phase was the problem fully resolved, &lt;BR/&gt; In this case, after resetting the phonic wheel, the engine warning light came on. The calibration procedure was then carried out to resolve the fault permanently, resulting in the warning light going out. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

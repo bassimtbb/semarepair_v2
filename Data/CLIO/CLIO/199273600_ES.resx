@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-03-11T16:36:12">
+  <XDOCUMENTO>
+    <ID>199273600</ID>
+    <DOCNumber>GUP89362</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Pérdida de información o anomalía en el registro del kilometraje del vehículo.</Titolo>
+    <InfoDoc>68974 | ELECTRÓNICA | INSTRUMENTACIÓN | ORDENADORES | ACTUALIZACIÓN | SOFTWARE | KILÓMETROS | KM | CUADRO | INSTRUMENTOS | AUMENTO | DISMINUCIÓN | RECORRIDO | VIAJE | MEMORIZACIÓN | CONSUMO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guía de reparación</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199273600</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grado de fiabilidad (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Leyenda del grado de fiabilidad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nivel bajo &lt;/B&gt; : Detección del mecánico, caso de avería no detectado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nivel medio &lt;/B&gt;  : Casos frecuentes de avería, detectados por los técnicos de asistencia y los mecánicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nivel alto &lt;/B&gt; : Anomalía confirmada, buen grado de «repetitividad» señalado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273600</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificación del sistema/avería</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Validez: &lt;/B&gt; Vehículos fabricados entre el 18/03/19 y el 24/03/22 &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Sistema: &lt;/B&gt; Electrónica &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Dispositivo: &lt;/B&gt; Centralita ABS-ESP (1094) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalía: &lt;/B&gt; Pérdida o alteración de la información relativa al kilometraje del vehículo o al recorrido realizado &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Errores detectados por el autodiagnóstico: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Causa: &lt;/B&gt; Un error de software de la unidad de control ABS-ESP (1094) impide que la unidad de control almacene correctamente la información sobre el kilometraje &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273600</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimiento de reparación</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervención: &lt;/B&gt; Realizar la reprogramación y actualización de la centralita ABS-ESP (1094) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedimiento: &lt;/B&gt;  En primer lugar, compruebe el estado del fusible SHUNT. Si detecta alguna anomalía en el montaje del fusible SHUNT, o si el fusible está dañado, proceda a su sustitución. &lt;BR/&gt; Si no se detectan anomalías en el fusible SHUNT, proceda a la reprogramación y actualización de la centralita ABS-ESP (1094). &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Nota: &lt;/B&gt; Utilizando una herramienta de diagnóstico, compruebe que todos los sistemas relacionados funcionan correctamente. Si hay DTC o condiciones sintomáticas diferentes a las enumeradas, proceda a su resolución antes de continuar con este boletín. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

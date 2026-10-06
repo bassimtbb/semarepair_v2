@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:47:53">
+  <XDOCUMENTO>
+    <ID>199290569</ID>
+    <DOCNumber>GUP93469</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>As abas de ar de refrigeração (AKKS) inferiores não fecham durante o estacionamento</Titolo>
+    <InfoDoc>INIEZIONE | 138223 | 138224 | 138225 | 21B042 | 138206 | 138204 | 13822A | COMANDO | ATTIVO | ALETTE | BASSO | APERTE | APERTI | CHIUSI | CHIUSE | MIL | MOBILI | FRONTALE | REGOLARE | FLUSSO | ARIA | MOTORE | CENTRALINA | DME | AGGIORNAMENTO | SOFTWARE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199290569</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Nível de fiabilidade   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda do grau de fiabilidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nível baixo &lt;/B&gt; : Detecção pelo mecânico, caso de avaria não constatado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nível médio &lt;/B&gt; : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nível alto &lt;/B&gt; : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199290569</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Validade: &lt;/B&gt;  Veículos fabricados a partir de 1 de julho de 2018 &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sistema: &lt;/B&gt;  Injeção &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt;  Unidade de controlo da injeção &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Anomalia: &lt;/B&gt;  As abas inferiores de ar de arrefecimento (AKKS) não fecham durante o estacionamento &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Erros detetados pelo autodiagnóstico: &lt;/B&gt;  Um ou mais dos seguintes: &lt;BR/&gt;  &lt;UL&gt;   &lt;LI&gt;  138223 (Comando ativo das abas de ar de arrefecimento (AKKS), na parte inferior: congelado) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  138224 (Comando ativo da aba de ar de arrefecimento (AKKS), inferior: batente inferior não reconhecido) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  138225 (Comando ativo da aba de ar de arrefecimento (AKKS), inferior: batente superior não reconhecido) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  21B042 (Comando ativo da aba de ar de refrigeração (AKKS), na parte inferior: bloqueio em todas as temperaturas ambientes) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  138206 (Comando ativo da aba de ar de refrigeração (AKKS), parte inferior: bloqueio em caso de temperatura ambiente elevada) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  138204 (Comando ativo da aba de ar de refrigeração (AKKS), parte inferior: desvio regulado para todas as temperaturas ambientes) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  13822A (Comando ativo da aba de ar de arrefecimento (AKKS), na parte inferior: Desvio regulado em temperatura ambiente elevada) &lt;/UL&gt;  &lt;LI&gt;  &lt;B&gt; Causa: &lt;/B&gt;  Erro de software da central de injeção &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199290569</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Intervenção: &lt;/B&gt;  Efetuar a reprogramação da central de injeção &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Nota: &lt;/B&gt;   &lt;I&gt; ATENÇÃO &lt;/I&gt; : Se existirem DTC ou condições sintomáticas diferentes das listadas, proceda à sua resolução antes de continuar com este boletim &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

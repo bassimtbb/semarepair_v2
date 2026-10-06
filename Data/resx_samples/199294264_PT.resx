@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:49:17">
+  <XDOCUMENTO>
+    <ID>199294264</ID>
+    <DOCNumber>GUP94211</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Piscar das luzes indicadoras «P-R-N-D-S», a caixa de velocidades passa repentinamente para ponto mor</Titolo>
+    <InfoDoc>CAMBIO | DSG | DQ200 | MARCIA | INNESTO | SIMBOLO | LAMPEGGIA | | P0716 | P0722 | P0746 | P0751 | P0756 | P0761 | P0766 | P0776 | P1707 |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199294264</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda do grau de fiabilidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nível baixo &lt;/B&gt; : Detecção pelo mecânico, caso de avaria não constatado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nível médio &lt;/B&gt; : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nível alto &lt;/B&gt; : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199294264</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Validade: &lt;/B&gt;  Veículos equipados com caixa de velocidades automática DSG de 6 velocidades (DQ250) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sistema: &lt;/B&gt;  Caixa de velocidades &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt;  Unidade de controlo eletrónica da caixa de velocidades &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Anomalia: &lt;/B&gt;  Durante a condução, o veículo passa subitamente para ponto morto. Na alavanca da caixa de velocidades, as luzes «P-R-N-D-S» piscam. A frio, o sistema volta a funcionar temporariamente. A situação tende a agravar-se até se tornar uma avaria permanente. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Erros detetados pelo autodiagnóstico: &lt;/B&gt;  &lt;UL&gt;   &lt;LI&gt;  P0716 (17100) – Sensor de velocidade de entrada da caixa de velocidades (G182): sinal não plausível &lt;BR/&gt;    &lt;LI&gt;    P0722 (17106) – Sensor de velocidade de saída da caixa de velocidades (G195): sinal ausente &lt;BR/&gt;    &lt;LI&gt;    P0746 (17130) – Eletroválvula de regulação da pressão 1 (N215) – curto-circuito para massa &lt;BR/&gt;    &lt;LI&gt;    P0751 (17135) – Eletroválvula da caixa de velocidades 1 (N88) – curto-circuito para massa &lt;BR/&gt;    &lt;LI&gt;    P0756 (17140) – Eletroválvula da caixa de velocidades 2 (N89) – curto-circuito à massa &lt;BR/&gt;    &lt;LI&gt;    P0761 (17145) – Eletroválvula da caixa de velocidades 3 (N90) – curto-circuito à massa &lt;BR/&gt;    &lt;LI&gt;  	P0766 (17150) – Eletroválvula da caixa de velocidades 4 (N91) – curto-circuito à massa &lt;BR/&gt;    &lt;LI&gt;    P0776 (17160) – Eletroválvula de regulação de pressão 2 (N216) – curto-circuito à massa &lt;BR/&gt; 	 &lt;LI&gt;    P1707 (18115) – Interferência na unidade de controlo mecatrónica &lt;/UL&gt;  &lt;LI&gt;  &lt;B&gt; Causa: &lt;/B&gt;  Avaria na unidade de controlo mecatrónica da caixa de velocidades DSG</Corpo>
+      <RifIDFileIMGANI>299022364</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299022364</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299022364</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199294264</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Intervenção: &lt;/B&gt;  Verificar e, se necessário, proceder à substituição da central eletrónica da caixa de velocidades &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Nota: &lt;/B&gt;  As avarias na central eletrónica da caixa de velocidades são bastante frequentes no DSG DQ250 &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299022365</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299022365</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299022365</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

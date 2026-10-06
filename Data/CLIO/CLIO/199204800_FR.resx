@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-24T18:41:00">
+  <XDOCUMENTO>
+    <ID>199204800</ID>
+    <DOCNumber>POP79023</DOCNumber>
+    <RifIDTipoRis>46</RifIDTipoRis>
+    <Titolo>INFORMATION IMPORTANTE</Titolo>
+    <InfoDoc>TAG+TGE83763</InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>46</ID>
+      <TipoRis>POP</TipoRis>
+      <DscRis>Avertissement</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199204800</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>ENTRETIEN : COURROIES ET AGRÉGATS </Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; Remplacements importants : &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Tous les 150 000 km ou tous les 6 ans - Courroie de distribution - Remplacement &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Tous les 150 000 km ou 6 ans - Tendeur de courroie de distribution - Remplacement &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Tous les 150 000 km ou 6 ans - Poulie de guidage de la courroie de distribution - Remplacement &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Tous les 150 000 km ou 6 ans - Courroie auxiliaire / Services - Remplacement &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Tous les 150 000 km ou 6 ans - Tendeur de courroie auxiliaire / Services - Remplacement &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199204800</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>EXÉCUTION DES VISITES D&apos;ENTRETIEN CONFORMÉMENT AU RÈGLEMENT BER/2010</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt; Utiliser des pièces de rechange de qualité d&apos;origine ou équivalentes à l&apos;original. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Utiliser des lubrifiants conformes aux prescriptions du constructeur &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Indiquer sur la fiche de conformité et sur la facture le type de lubrifiant utilisé (marque, nom commercial, viscosité et spécification) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Indiquer sur la fiche de conformité et sur la facture le type de pièce de rechange utilisé (marque, code de pièce) &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

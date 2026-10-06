@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T00:58:06">
+  <XDOCUMENTO>
+    <ID>62505988</ID>
+    <DOCNumber>GUR62509</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Reparação do arranque do motor na sequência de um impacto</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Guia de Ajuste</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62505988</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Informações sobre o sistema</Capitolo>
+      <Corpo> &lt;BR/&gt; O veículo está equipado com um sistema de prevenção de incêndios denominado  &lt;B&gt; FPS (Fire Prevention System) &lt;/B&gt; .  &lt;BR/&gt;  &lt;BR/&gt; Na sequência de um impacto de pequena magnitude, o sistema FPS intervém da seguinte forma: &lt;BR/&gt;  &lt;BR/&gt; - Interrupção do fornecimento de combustível pela central de injeção &lt;BR/&gt; - Desbloqueio das portas &lt;BR/&gt; - Acendimento da luz do teto &lt;BR/&gt; - Acendimento das luzes de emergência &lt;BR/&gt; - No painel de instrumentos aparece a mensagem  &lt;B&gt; &quot;FPS ON&quot; &lt;/B&gt;  ou  &lt;B&gt; &quot;Bloqueio de combustível ativado&quot; &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503867</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503867</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503867</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62505988</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Reparação do arranque do motor</Capitolo>
+      <Corpo> &lt;BR/&gt; Procedimento para restabelecer o arranque do motor: &lt;BR/&gt;  &lt;BR/&gt; 1- Ligar a ignição &lt;BR/&gt; 2- Através do deslocamento da alavanca de direção  &lt;B&gt; ligar &lt;/B&gt;  o pisca-pisca  &lt;B&gt; direito &lt;/B&gt;  &lt;BR/&gt; 3- Através do deslocamento da alavanca de direção  &lt;B&gt; desligue &lt;/B&gt;  o pisca-pisca  &lt;B&gt; direito &lt;/B&gt;  &lt;BR/&gt; 4- Através do deslocamento da alavanca de direção  &lt;B&gt; ligue &lt;/B&gt;  o pisca-pisca  &lt;B&gt; esquerdo &lt;/B&gt;  &lt;BR/&gt; 5- Movendo o seletor de direção  &lt;B&gt; desligar &lt;/B&gt;  o pisca-pisca  &lt;B&gt; esquerdo &lt;/B&gt;  &lt;BR/&gt; 6- Movendo o seletor de direção  &lt;B&gt; ligar &lt;/B&gt;  o pisca-pisca  &lt;B&gt; direito &lt;/B&gt;  &lt;BR/&gt; 7- Deslocando o seletor de direção  &lt;B&gt; desligar &lt;/B&gt;  o pisca-pisca  &lt;B&gt; direito &lt;/B&gt;  &lt;BR/&gt; 8- Deslocando o seletor de direção  &lt;B&gt; ligar &lt;/B&gt;  o pisca-pisca  &lt;B&gt; esquerdo &lt;/B&gt;  &lt;BR/&gt; 9- Deslocando o seletor de direção  &lt;B&gt; desligar &lt;/B&gt;  o pisca-pisca  &lt;B&gt; esquerdo &lt;/B&gt;  &lt;BR/&gt; 10- Desligar a ignição &lt;BR/&gt;  &lt;BR/&gt; Agora o sistema FPS está desativado e será possível ligar o motor &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62505988</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Avisos</Capitolo>
+      <Corpo> &lt;BR/&gt; Em alguns veículos, o procedimento manual poderá não ser possível. Nesse caso, utilize o equipamento de diagnóstico &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

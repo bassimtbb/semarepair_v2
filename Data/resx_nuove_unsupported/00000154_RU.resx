@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-23T03:13:59">
+  <XDOCUMENTO>
+    <ID>154</ID>
+    <DOCNumber>INF00004</DOCNumber>
+    <RifIDTipoRis>1</RifIDTipoRis>
+    <Titolo>Norma europejska EOBD</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>229</RifIDFileICO>
+    <XFILE>
+      <ID>229</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:229</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>1</ID>
+      <TipoRis>INF</TipoRis>
+      <DscRis>Informacje ogólne</DscRis>
+      <RifIDFileCSS>12</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>12</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:12</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Wprowadzenie</Capitolo>
+      <Corpo>Europejska norma EOBD wywodzi się z lepiej znanego amerykańskiego standardu OBDII. Pierwsze dyrektywy dotyczące ograniczenia emisji zanieczyszczeń przez pojazdy silnikowe zostały wydane w 1988 roku przez kalifornijską agencję CARB (Californian Air Resources Board) i zbiegły się w czasie z opublikowaniem pierwszej normy OBD. &lt;BR/&gt;  &lt;BR/&gt; Skrót OBD (On Board Diagnosis) oznacza system elektroniczny, zintegrowany z układem sterowania silnikiem pojazdu, którego zadaniem jest monitorowanie w czasie rzeczywistym wszystkich podzespołów mających kluczowe znaczenie dla emisji spalin, a także rejestrowanie i sygnalizowanie ewentualnych nieprawidłowości. &lt;BR/&gt;  &lt;BR/&gt; Następnie, wraz z wprowadzeniem coraz surowszych ograniczeń dotyczących zanieczyszczenia powietrza, w 1996 r. stary standard OBD został zastąpiony przez nowocześniejszy OBDII. W oparciu o nowe wytyczne CARB konsorcjum SAE opublikowało zbiór norm technicznych służących realizacji wyznaczonych celów. Normy te szczegółowo opisują parametry, które muszą spełniać systemy OBDII.</Corpo>
+      <RifIDFileIMGANI>193</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>193</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:193</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Główne funkcje</Capitolo>
+      <Corpo>Główne funkcje systemu OBDII są następujące: &lt;BR/&gt;  &lt;BR/&gt; A) Monitorowanie w czasie rzeczywistym wszystkich podzespołów pojazdu, które mogą negatywnie wpływać na poziom emisji spalin. &lt;BR/&gt;  &lt;BR/&gt; B) Bardziej szczegółowy nadzór nad najbardziej krytycznymi podzespołami, takimi jak katalizator i sonda lambda. &lt;BR/&gt;  &lt;BR/&gt; C) Sygnalizacja najpoważniejszych i utrwalonych usterek poprzez zapalenie się specjalnej kontrolki (MIL) na desce rozdzielczej. &lt;BR/&gt;  &lt;BR/&gt; D) Zapisywanie usterek wraz z głównymi parametrami w momencie ich wystąpienia („freezed”). &lt;BR/&gt;  &lt;BR/&gt; E) Możliwość połączenia z urządzeniem zewnętrznym (testerem do autodiagnostyki OBD „SCANTOOL”) w celu wyświetlenia kodów usterek zapisanych w pamięci oraz parametrów w czasie rzeczywistym. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Szczegóły techniczne</Capitolo>
+      <Corpo>Wspólnota Europejska, czerpiąc inspirację z systemu OBDII, przyjęła normę EOBD, która stała się obowiązkowa dla wszystkich nowych pojazdów silnikowych od 2000 roku, wraz z rygorystycznymi limitami emisji przewidzianymi w normie Euro3. &lt;BR/&gt; Połączenie standardów EOBD i Euro3 przyniosło szereg korzyści, w tym ujednolicenie dostępu do autodiagnostyki pojazdu przez warsztat naprawczy. W rzeczywistości EOBD jest pod każdym względem standardem, do którego wszystkie koncerny motoryzacyjne musiały się dostosować, zarówno w odniesieniu do kodów usterek, jak i samego interfejsu autodiagnostyki – począwszy od protokołów komunikacyjnych, a skończywszy na 16-stykowym złączu do podłączenia testera.</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Kontrole i diagnostyka</Capitolo>
+      <Corpo>Pin 1 Wolny &lt;BR/&gt; Pin 2 Diagnostyka J1850 PWM lub VPW (+) &lt;BR/&gt; Pin 3 Wolny &lt;BR/&gt; Pin 4 Masa podwozia &lt;BR/&gt; Pin 5 Masa sygnału &lt;BR/&gt; Pin 6 Diagnostyka J2284 CAN (H) &lt;BR/&gt; Pin 7 Diagnostyka ISO 9141-2 i 14230 (K) &lt;BR/&gt; Pin 8 Wolny &lt;BR/&gt; Pin 9 Wolny &lt;BR/&gt; Pin 10 Diagnostyka J1850 PWM lub VPW (-) &lt;BR/&gt; Pin 11 Wolny &lt;BR/&gt; Pin 12 Wolny &lt;BR/&gt; Pin 13 Wolny &lt;BR/&gt; Pin 14 Diagnostyka J2284 CAN (L) &lt;BR/&gt; Pin 15 Diagnostyka ISO 9141-2 i 14230 (L) &lt;BR/&gt; Pin 16 Zasilanie +12 Volt</Corpo>
+      <RifIDFileIMGANI>196</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>196</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:196</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo>W szczególności europejski system EOBD przewiduje kontrolę wszystkich czujników i elementów wykonawczych układu sterowania silnikiem, a także, oczywiście, następujących układów: katalizator z sondą lambda, wykrywanie przerw w zapłonie, układ EGR, dopływ powietrza wtórnego (jeśli występuje) itp. Specyfikacje EOBD przewidują, że sterownik musi wykrywać nieprawidłowości w działaniu podzespołów silnika i zapisywać je w pamięci wraz z kontekstem momentu ich wystąpienia („freezed parameters”). Ponadto, jeśli błąd występuje ponownie przez określoną liczbę cykli jazdy (od minimum 2 do maksymalnie 10), system EOBD musi włączyć lampkę kontrolną MIL (Malfunction Indication Lamp) na desce rozdzielczej, sygnalizując awarię silnika. &lt;BR/&gt;  &lt;BR/&gt; Kody usterek (DTC: Diagnostic Trouble Codes) są znormalizowane w zakresie problemów dotyczących silnika i emisji spalin, natomiast pozostała część została celowo pozostawiona do swobodnego określenia przez producenta pojazdu. &lt;BR/&gt; Przewidziano również specjalne funkcje oprogramowania do odczytu w czasie rzeczywistym podstawowych parametrów pojazdu (obroty silnika, ciśnienie i temperatura powietrza wlotowego, napięcia sondy lambda itp.) oraz do uruchamiania funkcji specjalnych służących do aktywacji procedur diagnostycznych dotyczących elementów wykonawczych. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>514</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>514</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:514</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

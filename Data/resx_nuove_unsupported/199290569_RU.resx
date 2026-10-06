@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:45:27">
+  <XDOCUMENTO>
+    <ID>199290569</ID>
+    <DOCNumber>GUP93469</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Dolne klapy chłodzące (AKKS) nie zamykają się podczas parkowania</Titolo>
+    <InfoDoc>INIEZIONE | 138223 | 138224 | 138225 | 21B042 | 138206 | 138204 | 13822A | COMANDO | ATTIVO | ALETTE | BASSO | APERTE | APERTI | CHIUSI | CHIUSE | MIL | MOBILI | FRONTALE | REGOLARE | FLUSSO | ARIA | MOTORE | CENTRALINA | DME | AGGIORNAMENTO | SOFTWARE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199290569</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Poziom wiarygodności   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda stopnia wiarygodności &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niski poziom &lt;/B&gt; : Wykryte przez mechanika samochodowego, przypadek usterki niepotwierdzony przez producenta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** średni poziom &lt;/B&gt; : Częste przypadki usterki, potwierdzone przez techników serwisowych i mechaników. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** wysoki poziom &lt;/B&gt; : Potwierdzona anomalia, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199290569</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Obowiązywanie: &lt;/B&gt;  Pojazdy wyprodukowane od 1 lipca 2018 r. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Układ: &lt;/B&gt;  Wtrysk paliwa &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Urządzenie: &lt;/B&gt;  Moduł sterujący wtryskiem &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Usterka: &lt;/B&gt;  Dolne klapy powietrza chłodzącego (AKKS) nie zamykają się podczas parkowania &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Błędy wykryte przez autodiagnostykę: &lt;/B&gt;  Jeden lub więcej z poniższych: &lt;BR/&gt;  &lt;UL&gt;   &lt;LI&gt;  138223 (Aktywne sterowanie klapami powietrza chłodzącego (AKKS), na dole: zamarznięte) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  138224 (Aktywne sterowanie klapami powietrza chłodzącego (AKKS), dolne: nie rozpoznano dolnego ogranicznika) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  138225 (Aktywne sterowanie klapami powietrza chłodzącego (AKKS), dolne: nie rozpoznano górnego ogranicznika) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  21B042 (Aktywne sterowanie klapami chłodzenia (AKKS), na dole: blokada przy wszystkich temperaturach otoczenia) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  138206 (Aktywne sterowanie klapą powietrza chłodzącego (AKKS), u dołu: blokada w przypadku wysokiej temperatury otoczenia) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  138204 (Aktywne sterowanie klapą powietrza chłodzącego (AKKS), u dołu: regulowane odchylenie przy wszystkich temperaturach otoczenia) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  13822A (Aktywne sterowanie klapką powietrza chłodzącego (AKKS), u dołu: regulowane odchylenie przy wysokiej temperaturze otoczenia) &lt;/UL&gt;  &lt;LI&gt;  &lt;B&gt; Przyczyna: &lt;/B&gt;  Błąd oprogramowania modułu sterującego wtrysku &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199290569</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Czynność: &lt;/B&gt;  Przeprowadzić przeprogramowanie modułu sterującego wtryskiem &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedura: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Uwaga: &lt;/B&gt;   &lt;I&gt; UWAGA &lt;/I&gt; : Jeśli występują kody usterek (DTC) lub objawy inne niż wymienione, należy je usunąć przed kontynuowaniem postępowania zgodnie z niniejszym biuletynem &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

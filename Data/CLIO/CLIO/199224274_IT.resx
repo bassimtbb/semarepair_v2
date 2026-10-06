@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-10T05:30:55">
+<XDOCUMENTO>
+<ID>199224274</ID>
+<DOCNumber>AZZ76306</DOCNumber>
+<RifIDTipoRis>7</RifIDTipoRis>
+<Titolo>Ripristino Indicatore Assistenza</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>217</RifIDFileICO>
+<XFILE>
+<ID>217</ID>
+<Type>IMG</Type>
+<URL>GETFILE:217</URL>
+</XFILE>
+<XTIPORIS>
+<ID>7</ID>
+<TipoRis>AZZ</TipoRis>
+<DscRis>Azzeramento Service</DscRis>
+<RifIDFileCSS>1</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>1</ID>
+<Type>CSS</Type>
+<URL>GETFILE:1</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199224274</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Informazioni sul Sistema</Capitolo>
+<Corpo>&lt;BR/&gt;La vettura è dotata di un indicatore relativo agli intervalli di assistenza, collocato nel display multifunzione della strumentazione. &lt;BR/&gt;
+&lt;BR/&gt;L&apos;indicatore presenta al conducente una serie di avvisi riguardanti gli interventi di manutenzione programmata a cui la vettura va periodicamente sottoposta.&lt;/BR&gt; &lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199224274</RifIDDoc>
+<Ordine>25</Ordine>
+<Capitolo>Reset indicatore intervallo di manutenzione</Capitolo>
+<Corpo>&lt;BR/&gt;Una volta eseguiti i lavori di manutenzione, l&apos;azzeramento manuale dell&apos;indicatore si effettua con le seguenti modalità:&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Inserire l&apos;accensione.&lt;BR/&gt;&lt;LI&gt; Premere più volte il pulsante &lt;B&gt;1&lt;/B&gt; fino a quando viene evidenziata l&apos;icona del veicolo&lt;BR/&gt;&lt;LI&gt;Tramite i pulsanti &lt;B&gt;2&lt;/B&gt; selezionare il menu &quot;Autonomia di Manutenzione&quot;&lt;BR/&gt;&lt;LI&gt; Premere il pulsante &lt;B&gt;3&lt;/B&gt; per confermare&lt;BR/&gt;&lt;LI&gt;Tramite i pulsanti &lt;B&gt;2&lt;/B&gt; selezionare la voce &quot;Limite di Manutenzione&quot;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt; Se l’autonomia è inferiore a 1.500 km o un mese&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt;Appare il messaggio &lt;B&gt;“Prevedere manutenzione entro”&lt;/B&gt; insieme alla scadenza più vicina (distanza o tempo)&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt; Con Autonomia uguale a 0 km o data della manutenzione raggiunta&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Appare il messaggio &lt;B&gt;&quot;Fare Manutenzione&quot;&lt;/B&gt; accompagnato dal simbolo &lt;B&gt;4&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;Per reinizializzare il limite di manutenzione, premere per circa 10 secondi, senza interruzioni, il tasto &lt;B&gt;3&lt;/B&gt; finché non compare l’indicazione fissa del limite di manutenzione.</Corpo>
+<RifIDFileIMGANI>299007974</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299007974</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299007974</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199224274</RifIDDoc>
+<Ordine>26</Ordine>
+<Capitolo>Reset indicatore sostituzione olio motore</Capitolo>
+<Corpo>&lt;BR/&gt;Una volta eseguiti i lavori di manutenzione, l&apos;azzeramento manuale dell&apos;indicatore si effettua con le seguenti modalità:&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Inserire l&apos;accensione.&lt;BR/&gt;&lt;LI&gt; Premere più volte il pulsante &lt;B&gt;1&lt;/B&gt; fino a quando viene evidenziata l&apos;icona del veicolo&lt;BR/&gt;&lt;LI&gt;Tramite i pulsanti &lt;B&gt;2&lt;/B&gt; selezionare il menu &quot;Autonomia di Manutenzione&quot;&lt;BR/&gt;&lt;LI&gt; Premere il pulsante &lt;B&gt;3&lt;/B&gt; per confermare&lt;BR/&gt;&lt;LI&gt;Tramite i pulsanti &lt;B&gt;2&lt;/B&gt; selezionare la voce &quot;Limite sostituzione olio&quot;&lt;BR/&gt;&lt;BR/&gt;Per reinizializzare il limite di manutenzione, premere per circa 10 secondi, senza interruzioni, il tasto &lt;B&gt;3&lt;/B&gt; finché non compare l’indicazione fissa del limite di sostituzione dell’olio.</Corpo>
+<RifIDFileIMGANI>299007974</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299007974</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299007974</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199224274</RifIDDoc>
+<Ordine>30</Ordine>
+<Capitolo>AVVERTENZE</Capitolo>
+<Corpo>&lt;BR/&gt;Se una manutenzione viene effettuata senza sostituzione olio motore, è necessario reinizializzare unicamente il limite di manutenzione. In caso di sostituzione olio motore, è necessario reinizializzare sia il limite di manutenzione che il limite sostituzione olio.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

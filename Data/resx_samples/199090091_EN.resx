@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T08:24:35">
+  <XDOCUMENTO>
+    <ID>199090091</ID>
+    <DOCNumber>FLT76076</DOCNumber>
+    <RifIDTipoRis>37</RifIDTipoRis>
+    <Titolo>Localization and Replacement - Until 2011</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>37</ID>
+      <TipoRis>FLT</TipoRis>
+      <DscRis>Filter Cockpit</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199090091</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Procedure</Capitolo>
+      <Corpo>&lt;B&gt;Size Filter:&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;L= 205 mm.&lt;BR/&gt;&lt;LI&gt;H= 177 mm.&lt;BR/&gt;&lt;LI&gt;S= 18 mm.&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Time Estimated for replacement:&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;10 Minutes&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Location:&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;Inside the passenger compartment&lt;BR/&gt;&lt;LI&gt;Passenger side&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Replacement:&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;Remove the plastic bulkhead next to the central tunnel&lt;BR/&gt;&lt;LI&gt;Slide the filter along the housing guides, (from left to right)&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Remounting:&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;Do the opposite</Corpo>
+      <RifIDFileIMGANI>299005605</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299005605</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299005605</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

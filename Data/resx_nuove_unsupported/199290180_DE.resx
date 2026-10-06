@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T00:04:12">
+  <XDOCUMENTO>
+    <ID>199290180</ID>
+    <DOCNumber>GUP93225</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Unangenehmer Geruch im Innenraum bei eingeschalteter Heizung oder Klimaanlage</Titolo>
+    <InfoDoc>CLIMATIZZATORE | PUZZA | FORTE | CATTIVO | MUFFA | BREVEMENTE | TEMPO | BREVE | AVVIAMENTO | MOTORE | CLIMA | AUTOMATICO | INSERITO | DISINSERIMENTO | A/C | MARCIA | PERCORSO | STRADA | REGOLAZIONE | INTEGRATA | IHKA | EVAPORATORE | MICROFILTRO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199290180</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (***)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legende zur Zuverlässigkeitsstufe&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* niedrige Stufe&lt;/B&gt; : Feststellung durch die Kfz-Werkstatt, vom Hersteller nicht dokumentierter Fehlerfall.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** mittlere Stufe&lt;/B&gt; : Häufig auftretender Fehlerfall, der von Servicetechnikern und Kfz-Werkstätten festgestellt wurde.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** hohe Zuverlässigkeit&lt;/B&gt; : Gewissheit hinsichtlich des Fehlers, gute „Wiederholbarkeit“ laut Angaben des Herstellers.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199290180</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Gültigkeit: &lt;/B&gt; Fahrzeuge mit: &lt;BR/&gt; &lt;OL&gt; &lt;LI&gt; Klimaanlage mit integrierter Heizungs- und Klimaregelung; &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Integrierte automatische Heizungs- und Klimaanlage (IHKA) &lt;/OL&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Klimaanlage &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Bauteil: &lt;/B&gt; Verdampfer &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Störung: &lt;/B&gt; Unmittelbar nach dem Starten des Motors bei eingeschalteter automatischer Klima- oder Heizungsanlage oder nach dem Ausschalten der Anlage während der Fahrt ist kurzzeitig ein muffiger Geruch im Innenraum wahrnehmbar &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose erkannte Fehler: &lt;/B&gt;  - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Die Kondensation von Feuchtigkeit am Verdampfer begünstigt in Verbindung mit Verunreinigungen in der zugeführten oder umgewälzten Luft die Bildung von Bakterien und Schimmelpilzen, was den unangenehmen Geruch verursacht &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199290180</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Den Verdampfer mit einer Sprühlanze reinigen. Sollte die Störung weiterhin bestehen, den Mikrofilter austauschen &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Artikelnummer der Sprühpistole: 83 30 2 222 502. &lt;BR/&gt; &lt;BR/&gt; Artikelnummer der Spritzpistole: 81 45 9 429 217. &lt;BR/&gt;  &lt;BR/&gt; Artikelnummer des Reinigungsmittels für die Sprühdüse: 83 19 2 180 507 &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:40:35">
+  <XDOCUMENTO>
+    <ID>199273920</ID>
+    <DOCNumber>GUP89682</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Stały hałas dochodzący z silnika</Titolo>
+    <InfoDoc>63854 | MOTORE | VIBRAZIONI | RUMORE | GUIDA | MINIMO | MARCIA | ACCELERAZIONE | DECELERAZIONE | VELOCITà | REGIME | ACCESO | AVVIATO | CINGHIA | TENDITORE | AUSILIARIA | ACCESSORI | INIEZIONE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199273920</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Poziom wiarygodności   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda stopnia wiarygodności &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niski poziom &lt;/B&gt; : Wykryte przez mechanika samochodowego, przypadek usterki niepotwierdzony przez producenta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** średni poziom &lt;/B&gt; : Częste przypadki usterki, potwierdzone przez techników serwisowych i mechaników. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** wysoki poziom &lt;/B&gt; : Potwierdzona anomalia, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273920</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Obowiązywanie: &lt;/B&gt;  Samochody wyprodukowane od 01.01.2017 r. do 31.12.2020 r. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Układ: &lt;/B&gt;  Wtrysk paliwa &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Element: &lt;/B&gt;  Rolka napinająca &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Usterka: &lt;/B&gt;  Słychać hałas i/lub odczuwalne są wibracje dochodzące z silnika &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Błędy wykryte przez autodiagnostykę: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Przyczyna: &lt;/B&gt;  Nieprawidłowa rolka napinająca pasek pomocniczy &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273920</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Czynność: &lt;/B&gt;  Sprawdzić i w razie potrzeby wymienić rolkę napinającą oraz pasek pomocniczy. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedura: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Uwaga: &lt;/B&gt;  Wadliwy kołek napinający można rozpoznać po numerze katalogowym 117504048R. Jeśli występuje, należy wymienić zarówno pasek pomocniczy, jak i kołek napinający na nową wersję o numerze katalogowym 117501113R. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

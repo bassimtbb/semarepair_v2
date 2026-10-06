@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-19T16:39:59">
+  <XDOCUMENTO>
+    <ID>199053123</ID>
+    <DOCNumber>DES76007</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Guía para la lectura de esquemas eléctricos.</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Descripción del sistema</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199053123</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Leyenda</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; (1) &lt;/B&gt; - &lt;B&gt; Número de posición del relé &lt;/B&gt; : Indica la posición del relé en la placa de relés. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (2) &lt;/B&gt; - &lt;B&gt; Continuación del esquema &lt;/B&gt; : La flecha indica la continuación del componente en la página siguiente del esquema eléctrico. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (3) &lt;/B&gt; - &lt;B&gt; Denominación de la conexión &lt;/B&gt; : Indica el contacto individual en un conector múltiple. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (4) &lt;/B&gt; - &lt;B&gt; Conexión no fija &lt;/B&gt; : Representación de un pasador roscado que se encuentra en la placa de relés. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (5) &lt;/B&gt; - &lt;B&gt; Indicación de continuación del cableado &lt;/B&gt; : Indica en qué recorrido de corriente se va a conectar el cable. Por ejemplo, si el número es 23, para saber dónde continúa el cable es necesario buscar el número 23 en la línea situada en la base del esquema. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (6) &lt;/B&gt;  - &lt;B&gt; Sección y color del cable &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (7) &lt;/B&gt; - &lt;B&gt; Dibujos con lado abierto &lt;/B&gt; : El lado abierto del símbolo gráfico indica la continuación del componente en otro esquema eléctrico. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (8) &lt;/B&gt; - &lt;B&gt; Conexión interna (guion fino) &lt;/B&gt; : Esta conexión no está presente como cable. Sin embargo, las conexiones internas son conexiones eléctricas conductoras. Permiten seguir la propagación de la corriente dentro de los componentes y el cableado. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (9) &lt;/B&gt; - &lt;B&gt; Indicación de continuación del cable hacia un componente &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (10) &lt;/B&gt; - &lt;B&gt; Continuación de la conexión &lt;/B&gt; : La letra indica el punto en el que la conexión continúa en la siguiente sección del esquema eléctrico.</Corpo>
+      <RifIDFileIMGANI>299002868</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>299002868</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299002868</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199053123</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Código de colores del cableado</Capitolo>
+      <Corpo> &lt;B&gt; Código de colores &lt;/B&gt; : &lt;BR/&gt;  &lt;BR/&gt; SW = Negro &lt;BR/&gt; BR = Marrón &lt;BR/&gt; GN = Verde &lt;BR/&gt; BL = Azul &lt;BR/&gt; GR = Gris &lt;BR/&gt; LI = Lila &lt;BR/&gt; VI = Lila &lt;BR/&gt; GE = Amarillo &lt;BR/&gt; OR = Naranja &lt;BR/&gt; RS = Rosa &lt;BR/&gt; RO = Rojo &lt;BR/&gt; RT = Rojo &lt;BR/&gt; WS = Blanco &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299002869</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>299002869</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299002869</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

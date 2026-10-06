@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:49:28">
+  <XDOCUMENTO>
+    <ID>199308071</ID>
+    <DOCNumber>GUP96905</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Zapalenie się kontrolki awarii silnika z komunikatem „Sprawdzić silnik” oraz nietypowy hałas dochodz</Titolo>
+    <InfoDoc>INIEZIONE | P0016 | ELETTROVALVOLA | VARIATORE | FASE | ELETTRICA | VALVOLA | ACCENDE | ACCESA | MIL | GIALLO | GIALLA | INDICAZIONE | MESSAGGIO | DISPLAY | RUMORE | ANOMALO | MINIMO | REGIME |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199308071</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Stopień wiarygodności   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda stopnia wiarygodności &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niski poziom &lt;/B&gt; : Wykryte przez mechanika samochodowego, przypadek usterki niepotwierdzony przez producenta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** średni poziom &lt;/B&gt; : Częste przypadki usterki, potwierdzone przez techników serwisowych i mechaników. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** wysoki poziom &lt;/B&gt; : Potwierdzona anomalia, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199308071</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Układ: &lt;/B&gt;  Wtrysk &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Urządzenie: &lt;/B&gt;  Elektrozawór zmiennego fazowania &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Usterka: &lt;/B&gt;  Wykryto zapalenie się lampki kontrolnej usterki silnika wraz z komunikatem „Sprawdzić silnik” na wyświetlaczu oraz nietypowy hałas dochodzący z silnika na biegu jałowym (przypominający szum). Pojazd nadal jednak działa prawidłowo. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Błędy wykryte przez autodiagnostykę: &lt;/B&gt;  P0016 (Położenie / faza wału korbowego 1, rząd cylindrów 1 – Nieprawidłowy stosunek) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Przyczyna: &lt;/B&gt;  Część zanurzona w oleju elektrovalwy regulatora fazy okazała się zabrudzona, a sprężyna wewnętrzna zablokowana. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199308071</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Czynność: &lt;/B&gt;  Sprawdzić stan elektrozaworu regulatora faz rozrządu, w razie potrzeby wyczyścić go &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedura: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Uwaga: &lt;/B&gt;  Elektrozawór posiada część zanurzoną w oleju, w której znajduje się zablokowana sprężyna oraz zabrudzony filtr. Po wyczyszczeniu elektrozaworu regulatora fazy usterka została ostatecznie usunięta bez konieczności wymiany. &lt;BR/&gt; Element ten znajduje się w komorze silnika, po stronie pasażera, w pobliżu korka oleju, pomiędzy silnikiem a kabiną pasażerską. &lt;BR/&gt;  &lt;BR/&gt; Przewidywany czas trwania naprawy wynosi około 0,7 godz. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

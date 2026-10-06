@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2018-03-01T13:13:20">
+<XDOCUMENTO>
+<ID>199001632</ID>
+<DOCNumber>GUR59015</DOCNumber>
+<RifIDTipoRis>5</RifIDTipoRis>
+<Titolo>Ripristino sistema dopo scollegamento batteria</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>228</RifIDFileICO>
+<XFILE>
+<ID>228</ID>
+<Type>IMG</Type>
+<URL>GETFILE:228</URL>
+</XFILE>
+<XTIPORIS>
+<ID>5</ID>
+<TipoRis>GUR</TipoRis>
+<DscRis>Guida Regolazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199001632</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Localizzazione Batteria</Capitolo>
+<Corpo>&lt;BR/&gt;La batteria si trova nel vano motore, lato conducente, in prossimità della paratia.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>199000661</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>199000661</ID>
+<Type>IMG</Type>
+<URL>GETFILE:199000661</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199001632</RifIDDoc>
+<Ordine>10</Ordine>
+<Capitolo>Procedura per lo scollegamento della batteria</Capitolo>
+<Corpo>&lt;BR/&gt;Qual&apos;ora si debba scollegare la batteria è necessario:&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;Verificare che tutti i &lt;B&gt;dispositivi elettrici&lt;/B&gt; della vettura, come ad esempio autoradio navigatore ecc., &lt;B&gt;siano spenti&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt;Verificare che l&apos;&lt;B&gt;accensione sia disinserita&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt;Avere a disposizione il &lt;B&gt;codice della radio&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;Quindi si può procedere con lo scollegamento della batteria, &lt;B&gt;rimuovendo prima il polo negativo e successivamente quello positivo&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;Dopo aver scollegato la batteria attendere qualche minuto prima di effettuare interventi all&apos;impianto Airbag</Corpo>
+<RifIDFileIMGANI>62503878</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>62503878</ID>
+<Type>IMG</Type>
+<URL>GETFILE:62503878</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199001632</RifIDDoc>
+<Ordine>20</Ordine>
+<Capitolo>Procedura per il collegamento della batteria</Capitolo>
+<Corpo>&lt;BR/&gt;Per ricollegare la batteria è necessario procedere come segue:&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Collegare prima il polo positivo&lt;/B&gt; e successivamente quello negativo della batteria&lt;BR/&gt;&lt;LI&gt;Ripristinare il codice radio (se necessario)&lt;BR/&gt;&lt;LI&gt;Cancellare eventuali &lt;B&gt;errori presenti in memoria&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt;Inserire l&apos;accensione e attendere 40 secondi&lt;BR/&gt;&lt;LI&gt;Disinserire l&apos;accensione&lt;BR/&gt;&lt;LI&gt;Potrebbero accendersi le &lt;B&gt;spie relative al sistema di controllo della stabilità&lt;/B&gt;. E&apos; necessario quindi guidare il veicolo per qualche chilometro a velocità costante affinché queste si spengano.&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>62503879</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>62503879</ID>
+<Type>IMG</Type>
+<URL>GETFILE:62503879</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199001632</RifIDDoc>
+<Ordine>40</Ordine>
+<Capitolo>Ripristino alzacristalli elettrici</Capitolo>
+<Corpo>&lt;BR/&gt;Procedura inizializzazione alzacristalli elettrici:&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;Verificare che &lt;B&gt;le porte ed i finestrini siano chiusi&lt;/B&gt;.&lt;BR/&gt;&lt;LI&gt;Inserire l&apos;accensione&lt;BR/&gt;&lt;LI&gt;Premere il &lt;B&gt;pulsante di apertura/chiusura del vetro elettrico&lt;/B&gt; e mantenerlo premuto fino a quando questo si sia &lt;B&gt;aperto&lt;/B&gt; del tutto&lt;BR/&gt;&lt;LI&gt;Sollevare il &lt;B&gt;pulsante di apertura/chiusura del vetro elettrico&lt;/B&gt; e mantenerlo sollevato per più di 3 secondi dopo che questo si sia &lt;B&gt;chiuso&lt;/B&gt; del tutto&lt;BR/&gt;&lt;LI&gt;Si udirà un segnale acustico a conferma dell&apos;avvenuta operazione&lt;BR/&gt;&lt;BR/&gt;Ora il sistema è inizializzato.&lt;BR/&gt;Ripetere la procedura per i finestrini rimanenti.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

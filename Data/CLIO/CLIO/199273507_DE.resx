@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T04:52:02">
+  <XDOCUMENTO>
+    <ID>199273507</ID>
+    <DOCNumber>GUP89269</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Ausfall oder plötzliches Erlöschen der Instrumententafel</Titolo>
+    <InfoDoc>74493 | ELETTRONICA | STRUMENTAZIONE | VIDEO | SCHERMATA | LUMINOSITà | NON ACCENDE | NON PARTE | SPENTO | DISATTIVATO | NON RISPONDE | RISPOSTA | CRUSCOTTO | COMPUTER | BORDO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199273507</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (***)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legende zur Zuverlässigkeitsstufe&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* niedrige Stufe&lt;/B&gt; : Feststellung durch die Kfz-Werkstatt, vom Hersteller nicht dokumentierter Fehlerfall.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** mittlere Stufe&lt;/B&gt; : Häufig auftretender Fehlerfall, der von Servicetechnikern und Kfz-Werkstätten festgestellt wurde.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** hohe Zuverlässigkeit&lt;/B&gt; : Gewissheit hinsichtlich des Fehlers, gute „Wiederholbarkeit“ laut Angaben des Herstellers.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273507</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Gültigkeit: &lt;/B&gt; Fahrzeuge, die vom 20.11.18 bis zum 07.10.21 in Novo Mesto oder vom 30.05.18 bis zum 06.10.21 in Bursa hergestellt wurden und mit einem 7-Zoll-Kombiinstrument (MET04) ausgestattet sind &lt;BR/&gt;  &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Elektronik &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Bauteil: &lt;/B&gt; Steuergerät des Kombiinstruments &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Ausfall des Kombiinstruments, plötzliches Erlöschen des Displays und Unmöglichkeit, es wieder einzuschalten &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Softwarefehler im Steuergerät des Kombiinstruments &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273507</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Neuprogrammierung und Software-Update des Steuergeräts des Kombiinstruments über die Diagnose durchführen &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Die im Kombiinstrument zu installierende Softwareversion muss für in Bursa produzierte Fahrzeuge nach dem Datum 06.10.21 und für in Novo Mesto produzierte Fahrzeuge nach dem Datum 07.10.21 liegen. &lt;BR/&gt; Überprüfen Sie außerdem mithilfe eines Diagnosegeräts, ob alle betroffenen Systeme ordnungsgemäß funktionieren. Sollten DTCs oder andere als die aufgeführten Symptome vorliegen, beheben Sie diese zunächst, bevor Sie mit diesem Bericht fortfahren. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T00:02:13">
+  <XDOCUMENTO>
+    <ID>199273876</ID>
+    <DOCNumber>GUP89638</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Fehlfunktionen bei fortschrittlichen Fahrerassistenzsystemen (ADAS)</Titolo>
+    <InfoDoc>ADAS | 800A07 | C9AC05 | FUNZIONARE | CORRETTAMENTE | FUNZIONANO | BENE | MALE | ACC | ADAPTIVE | CRUISE | CONTROL | ADATTIVO | STERZO | AUTOMATICO | SERVOSTERZO | SISTEMA | AVVISO | SUPERAMENTO | LINEA | CARREGGIATA | MOTORINO | VIBRANTE | VOLANTE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199273876</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (**)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legende zur Zuverlässigkeitsstufe&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* niedrige Stufe&lt;/B&gt; : Feststellung durch die Kfz-Werkstatt, vom Hersteller nicht dokumentierter Fehlerfall.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** mittlere Stufe&lt;/B&gt; : Häufig auftretender Fehlerfall, der von Servicetechnikern und Kfz-Werkstätten festgestellt wurde.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** hohe Zuverlässigkeit&lt;/B&gt; : Gewissheit hinsichtlich des Fehlers, gute „Wiederholbarkeit“ laut Angaben des Herstellers.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273876</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; ADAS &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Gerät: &lt;/B&gt; Vibrationsmotor im Lenkrad &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Fehlfunktion der Fahrerassistenzsysteme (ADAS) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose erkannte Fehler: &lt;/B&gt; Einer oder mehrere der folgenden Fehler: &lt;BR/&gt; &lt;UL&gt;   &lt;LI&gt; 800A07 (Vibrationsmotor des Lenkrads defekt) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; C9AC05 (Lenkradvibration: Stellantrieb blockiert) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Defekter Vibrationsmotor des Lenkrads &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273876</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Den Zustand der Verkabelung des Schwingmotors am Schwungrad überprüfen und gegebenenfalls reparieren. Falls keine Unregelmäßigkeiten an der Verkabelung festgestellt werden, den Zustand des Schwingmotors selbst überprüfen und diesen gegebenenfalls austauschen &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

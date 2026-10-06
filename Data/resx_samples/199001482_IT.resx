@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2019-09-30T13:06:26">
+<XDOCUMENTO>
+<ID>199001482</ID>
+<DOCNumber>FUS55018</DOCNumber>
+<RifIDTipoRis>20</RifIDTipoRis>
+<Titolo>Riferimenti e Localizzazione - Motori Diesel</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>265</RifIDFileICO>
+<XFILE>
+<ID>265</ID>
+<Type>IMG</Type>
+<URL>GETFILE:265</URL>
+</XFILE>
+<XTIPORIS>
+<ID>20</ID>
+<TipoRis>FUS</TipoRis>
+<DscRis>Fusibili e Relè</DscRis>
+<RifIDFileCSS>264</RifIDFileCSS>
+<RifIDTemplate>8</RifIDTemplate>
+<XFILE>
+<ID>264</ID>
+<Type>CSS</Type>
+<URL>GETFILE:264</URL>
+</XFILE>
+<XRISORSE>
+<RifIDTemplate>8</RifIDTemplate>
+<IDLabel>COLDESCRIZIONE</IDLabel>
+<Stringa>Descrizione</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>8</RifIDTemplate>
+<IDLabel>COLNUMERO</IDLabel>
+<Stringa>Numero</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>8</RifIDTemplate>
+<IDLabel>COLRIFERIMENTO</IDLabel>
+<Stringa>Riferimento</Stringa>
+</XRISORSE>
+</XTIPORIS>
+<XFUSCONN>
+<RifIDDoc>199001482</RifIDDoc>
+<Ordine>1</Ordine>
+<Titolo>Localizzazione Scatole Fusibili</Titolo>
+<RifIDFileIMGANI>62504838</RifIDFileIMGANI>
+<Posizione>L</Posizione>
+<ID>62500371</ID>
+<XFILE>
+<ID>62504838</ID>
+<Type>IMG</Type>
+<URL>GETFILE:62504838</URL>
+</XFILE>
+<XTABVAL>
+<RifIDImmagine>62500371</RifIDImmagine>
+<Numero>1</Numero>
+<Descrizione>Scatola Fusibili Abitacolo</Descrizione>
+<Riferimento>Sotto il volante in basso a sinistra</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>62500371</RifIDImmagine>
+<Numero>2</Numero>
+<Descrizione>Scatola Fusibili Vano Motore</Descrizione>
+<Riferimento>Vano motore - posizione laterale</Riferimento>
+</XTABVAL>
+</XFUSCONN>
+<XFUSCONN>
+<RifIDDoc>199001482</RifIDDoc>
+<Ordine>2</Ordine>
+<Titolo>Scatola fusibili - Abitacolo</Titolo>
+<RifIDFileIMGANI>199000307</RifIDFileIMGANI>
+<Posizione>L</Posizione>
+<ID>25000595</ID>
+<XFILE>
+<ID>199000307</ID>
+<Type>IMG</Type>
+<URL>GETFILE:199000307</URL>
+</XFILE>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F01</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F02</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F03</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F04</Numero>
+<Descrizione>Allarme / Antifurto</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F04</Numero>
+<Descrizione>Centralina rete di bordo</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F05</Numero>
+<Descrizione>Centralina Diagnosi</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F06</Numero>
+<Descrizione>Sensore antifurto</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F07</Numero>
+<Descrizione>Centralina commutazione Cambio Automatico</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F07</Numero>
+<Descrizione>Centralina Climatizzatore</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F07</Numero>
+<Descrizione>Relè lunotto termico</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F07</Numero>
+<Descrizione>Ricevitore riscaldatore supplementare</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F08</Numero>
+<Descrizione>Interruttore freno a mano / stazionamento</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F08</Numero>
+<Descrizione>Sensore pioggia</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F08</Numero>
+<Descrizione>Connettore di trasferimento dati / Diagnosi</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F08</Numero>
+<Descrizione>Interruttore luci fari</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F08</Numero>
+<Descrizione>Sensore irraggiamento solare</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F09</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F10</Numero>
+<Descrizione>Modulo comando ed info display anteriore</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F11</Numero>
+<Descrizione>Centralina 4WD</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F12</Numero>
+<Descrizione>Centralina multi info display</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F13</Numero>
+<Descrizione>Centralina sospensioni attive</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F14</Numero>
+<Descrizione>Elettroventola aria fresca / esterna</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F15</Numero>
+<Descrizione>Centralina Bloccasterzo</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F16</Numero>
+<Descrizione>Centralina telematica / servizi</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F16</Numero>
+<Descrizione>Modulo ricarica USB</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F16</Numero>
+<Descrizione>Modulo amplificatore segnale antenna</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F17</Numero>
+<Descrizione>Quadro Strumenti</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F18</Numero>
+<Descrizione>Interruttore apertura portellone posteriore</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F18</Numero>
+<Descrizione>Modulo telecamera posteriore</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F19</Numero>
+<Descrizione>Centralina Keyless</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F20</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F21</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F22</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F23</Numero>
+<Descrizione>Centralina rete di bordo</Descrizione>
+<Riferimento>40 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F23</Numero>
+<Descrizione>Faro anteriore destro</Descrizione>
+<Riferimento>40 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F24</Numero>
+<Descrizione>Tettuccio apribile</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F25</Numero>
+<Descrizione>Alzacristalli anteriore lato conducente</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F25</Numero>
+<Descrizione>Modulo porta conducente</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F26</Numero>
+<Descrizione>Centralina rete di bordo</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F26</Numero>
+<Descrizione>Modulo riscaldamento sedili anteriori</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F27</Numero>
+<Descrizione>Impianto audio</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F28</Numero>
+<Descrizione>Modulo comando rimorchio</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F29</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F30</Numero>
+<Descrizione>Pretensionatore anteriore sinistro</Descrizione>
+<Riferimento>25 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F31</Numero>
+<Descrizione>Centralina rete di bordo</Descrizione>
+<Riferimento>40 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F31</Numero>
+<Descrizione>Faro anteriore sinistro</Descrizione>
+<Riferimento>40 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F32</Numero>
+<Descrizione>Centralina cruise control con controllo distanza sicurezza</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F32</Numero>
+<Descrizione>Modulo telecamera anteriore</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F32</Numero>
+<Descrizione>Sistema parcheggio assistito</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F33</Numero>
+<Descrizione>Spia airbag passeggero</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F33</Numero>
+<Descrizione>Centralina Airbag</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F34</Numero>
+<Descrizione>Interruttore freno a mano / stazionamento</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F34</Numero>
+<Descrizione>Interruttore luci fari</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F34</Numero>
+<Descrizione>Specchietto retrovisore antiriflesso</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F34</Numero>
+<Descrizione>Interruttore controllo pneumatici</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F34</Numero>
+<Descrizione>Relè presa ausiliaria</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F34</Numero>
+<Descrizione>Sensore pressione liquido refrigerante</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F34</Numero>
+<Descrizione>Interruttore luci retromarcia</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F34</Numero>
+<Descrizione>Sensore qualità aria</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F35</Numero>
+<Descrizione>Specchietto retrovisore antiriflesso</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F35</Numero>
+<Descrizione>Connettore di trasferimento dati / Diagnosi</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F35</Numero>
+<Descrizione>Centralina assetto fari</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F36</Numero>
+<Descrizione>Luce diurna destra</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F36</Numero>
+<Descrizione>Luci di posizione lato destro</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F37</Numero>
+<Descrizione>Luce diurna sinistra</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F37</Numero>
+<Descrizione>Luci di posizione lato sinistro</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F38</Numero>
+<Descrizione>Modulo comando rimorchio</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F39</Numero>
+<Descrizione>Alzacristalli lato destro</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F39</Numero>
+<Descrizione>Modulo porta passeggero</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F40</Numero>
+<Descrizione>Accendisigari</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F40</Numero>
+<Descrizione>Presa per dispositivi ausiliari</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F41</Numero>
+<Descrizione>Centralina piantone sterzo</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F42</Numero>
+<Descrizione>Chiusura centralizzata</Descrizione>
+<Riferimento>40 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F42</Numero>
+<Descrizione>Centralina rete di bordo</Descrizione>
+<Riferimento>40 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F43</Numero>
+<Descrizione>Centralina rete di bordo</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F44</Numero>
+<Descrizione>Modulo comando rimorchio</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F45</Numero>
+<Descrizione>Sedile elettrico lato conducente</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F45</Numero>
+<Descrizione>Sedile elettrico lato passeggero</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F46</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F47</Numero>
+<Descrizione>Motorino tergilunotto</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F48</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F49</Numero>
+<Descrizione>Relè comando avviamento</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F49</Numero>
+<Descrizione>Sensore posizione pedale frizione</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F50</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F51</Numero>
+<Descrizione>Pretensionatore anteriore destro</Descrizione>
+<Riferimento>25 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F52</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>F53</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>R1</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>R2</Numero>
+<Descrizione>Relè disimpegno +15</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>R3</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>R4</Numero>
+<Descrizione>Relè circuiti principali di accensione</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>R5</Numero>
+<Descrizione>Relè lunotto termico</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000595</RifIDImmagine>
+<Numero>R6</Numero>
+<Descrizione>Relè presa 12 V</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+</XFUSCONN>
+<XFUSCONN>
+<RifIDDoc>199001482</RifIDDoc>
+<Ordine>3</Ordine>
+<Titolo>Scatola fusibili - Vano motore</Titolo>
+<RifIDFileIMGANI>199000568</RifIDFileIMGANI>
+<Posizione>L</Posizione>
+<ID>25000596</ID>
+<XFILE>
+<ID>199000568</ID>
+<Type>IMG</Type>
+<URL>GETFILE:199000568</URL>
+</XFILE>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F01</Numero>
+<Descrizione>Centralina ABS+ESP</Descrizione>
+<Riferimento>40 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F02</Numero>
+<Descrizione>Elettropompa idraulica gruppo ABS</Descrizione>
+<Riferimento>40 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F02</Numero>
+<Descrizione>Centralina ABS+ESP</Descrizione>
+<Riferimento>40 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F03</Numero>
+<Descrizione>Elettrovalvola regolazione pressione olio motore</Descrizione>
+<Riferimento>5-10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F03</Numero>
+<Descrizione>Sensore pressione collettore gas / gpl</Descrizione>
+<Riferimento>5-10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F03</Numero>
+<Descrizione>Centralina Iniezione</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F03</Numero>
+<Descrizione>Attuatore Variatore Fase</Descrizione>
+<Riferimento>5-10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F04</Numero>
+<Descrizione>Elettrovalvola commutazione radiatore</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F04</Numero>
+<Descrizione>Relè comando riscaldamento alta entità</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F04</Numero>
+<Descrizione>Elettrovalvola regolazione pressione sovralimentazione</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F04</Numero>
+<Descrizione>Sensore livello e temperatura olio motore</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F04</Numero>
+<Descrizione>Relè comando riscaldamento bassa entità</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F05</Numero>
+<Descrizione>Elettrovalvola dosaggio carburante</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F05</Numero>
+<Descrizione>Elettrovalvola regolazione pressione carburante</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F06</Numero>
+<Descrizione>Interruttore luci freni</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F07</Numero>
+<Descrizione>Elettrovalvola regolazione pressione olio motore</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F07</Numero>
+<Descrizione>Elettropompa acqua riscaldamento</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F07</Numero>
+<Descrizione>Elettrovalvola liquido raffreddamento testata</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F08</Numero>
+<Descrizione>Riscaldatore Sonda Lambda</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F08</Numero>
+<Descrizione>Sensore temperatura / pressione aria aspirata</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F08</Numero>
+<Descrizione>Sonda lambda a valle del catalizzatore</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F08</Numero>
+<Descrizione>Sonda lambda a monte del catalizzatore</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F08</Numero>
+<Descrizione>Riscaldatore Sonda Lambda a valle</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F09</Numero>
+<Descrizione>Centralina candelette</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F10</Numero>
+<Descrizione>Centralina elettropompa carburante</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F11</Numero>
+<Descrizione>Riscaldatore supplementare</Descrizione>
+<Riferimento>40 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F12</Numero>
+<Descrizione>Riscaldatore supplementare</Descrizione>
+<Riferimento>40 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F13</Numero>
+<Descrizione>Comando cambio doppia frizione</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F14</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F15</Numero>
+<Descrizione>Relè avvisatore acustico</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F16</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F17</Numero>
+<Descrizione>Relè alimentazione +30</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F17</Numero>
+<Descrizione>Centralina ABS</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F17</Numero>
+<Descrizione>Centralina Iniezione</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F18</Numero>
+<Descrizione>Centralina Diagnosi</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F18</Numero>
+<Descrizione>Modulo controllo batteria</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F19</Numero>
+<Descrizione>Motorino Tergicristalli</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F20</Numero>
+<Descrizione>Sirena Antifurto</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F21</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F22</Numero>
+<Descrizione>Centralina Iniezione</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F23</Numero>
+<Descrizione>Motorino avviamento motore</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F24</Numero>
+<Descrizione>Riscaldatore supplementare</Descrizione>
+<Riferimento>40 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F31</Numero>
+<Descrizione>Pompa vuoto / depressione</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F32</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F33</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F34</Numero>
+<Descrizione>Sistema blocco differenziale</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F35</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F36</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F37</Numero>
+<Descrizione>Modulo riscaldatore supplementare</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>F38</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>R1</Numero>
+<Descrizione>Relè motorino avviamento</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>R2</Numero>
+<Descrizione>Relè motorino avviamento</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>R3</Numero>
+<Descrizione>Relè avvisatore acustico</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>R4</Numero>
+<Descrizione>Relè comando riscaldamento alta entità</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>R5</Numero>
+<Descrizione>Relè alimentazione +30</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>R6</Numero>
+<Descrizione>Relè modulo preaccensione candelette</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>R7</Numero>
+<Descrizione>Relè comando riscaldamento bassa entità</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>R8</Numero>
+<Descrizione>Relè centralina iniezione</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>R9</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>25000596</RifIDImmagine>
+<Numero>R10</Numero>
+<Descrizione>Non utilizzato / Non presente</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+</XFUSCONN>
+</XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T10:26:46">
+  <XDOCUMENTO>
+    <ID>199094642</ID>
+    <DOCNumber>AZZ76263</DOCNumber>
+    <RifIDTipoRis>7</RifIDTipoRis>
+    <Titolo>Restablecimiento del indicador de asistencia</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>217</RifIDFileICO>
+    <XFILE>
+      <ID>217</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:217</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>7</ID>
+      <TipoRis>AZZ</TipoRis>
+      <DscRis>Servicio de puesta a cero</DscRis>
+      <RifIDFileCSS>1</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>1</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:1</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Información sobre el sistema</Capitolo>
+      <Corpo> &lt;BR/&gt; El equipamiento del vehículo incluye el indicador de intervalos de mantenimiento, integrado en la pantalla del cuadro de instrumentos. &lt;BR/&gt; El indicador muestra al conductor una serie de avisos relativos a las operaciones de mantenimiento programadas a las que debe someterse periódicamente el vehículo. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Ajuste - Puesta a cero del indicador de sustitución del aceite del motor</Capitolo>
+      <Corpo>Una vez realizado el cambio de aceite del motor, se restablece manualmente el indicador de la siguiente manera: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; apagar el encendido &lt;BR/&gt; &lt;LI&gt; pulsar y mantener pulsado el botón ( &lt;B&gt; 1 &lt;/B&gt; ) &lt;BR/&gt;  &lt;LI&gt; encender el contacto &lt;BR/&gt; &lt;LI&gt; en la pantalla aparecerá el mensaje relativo a la puesta a cero del indicador de cambio de aceite del motor &lt;BR/&gt; &lt;LI&gt; soltar el botón ( &lt;B&gt; 1 &lt;/B&gt; ) &lt;BR/&gt;  &lt;LI&gt; pulsar el botón ( &lt;B&gt; 1 &lt;/B&gt; ) para confirmar &lt;BR/&gt; &lt;BR/&gt; En este momento, el indicador de intervalos de mantenimiento se ha reiniciado. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299006187</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299006187</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299006187</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>25</Ordine>
+      <Capitolo>Ajuste - Puesta a cero del indicador de intervalo de mantenimiento</Capitolo>
+      <Corpo>Una vez realizados los trabajos de mantenimiento, el indicador se pone a cero manualmente de la siguiente manera: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; apagar el encendido &lt;BR/&gt; &lt;LI&gt; pulsar y mantener pulsado el botón ( &lt;B&gt; 1 &lt;/B&gt; ) &lt;BR/&gt;  &lt;LI&gt; encender el contacto &lt;BR/&gt; &lt;LI&gt; en la pantalla aparecerá el mensaje relativo a la puesta a cero del indicador de intervalos de mantenimiento &lt;BR/&gt; &lt;LI&gt; soltar el botón ( &lt;B&gt; 1 &lt;/B&gt; ) &lt;BR/&gt;  &lt;LI&gt; pulsar el botón ( &lt;B&gt; 1 &lt;/B&gt; ) para confirmar &lt;BR/&gt; &lt;BR/&gt; En este momento, el indicador de intervalos de mantenimiento se ha reiniciado. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299006187</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>299006187</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299006187</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>ADVERTENCIA</Capitolo>
+      <Corpo> &lt;BR/&gt; La puesta a cero de los &lt;B&gt; intervalos de mantenimiento prolongados &lt;/B&gt; solo es posible &lt;B&gt; mediante el equipo de diagnóstico específico &lt;/B&gt; previsto por el fabricante.  &lt;BR/&gt; &lt;BR/&gt; Sin embargo, es posible restablecer los intervalos de mantenimiento prolongados siguiendo este procedimiento, pero al hacerlo, el intervalo pasará de mantenimiento prolongado a mantenimiento fijo. &lt;BR/&gt; &lt;BR/&gt; Antes de realizar el restablecimiento, compruebe que no haya códigos de avería en la memoria y que todas las puertas estén cerradas. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

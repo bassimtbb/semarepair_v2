@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T13:03:40">
+  <XDOCUMENTO>
+    <ID>199001482</ID>
+    <DOCNumber>FUS55018</DOCNumber>
+    <RifIDTipoRis>20</RifIDTipoRis>
+    <Titolo>Referenzen und Lokalisierung – Dieselmotoren</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>265</RifIDFileICO>
+    <XFILE>
+      <ID>265</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:265</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>20</ID>
+      <TipoRis>FUS</TipoRis>
+      <DscRis>Sicherungen und Relais</DscRis>
+      <RifIDFileCSS>264</RifIDFileCSS>
+      <RifIDTemplate>8</RifIDTemplate>
+      <XFILE>
+        <ID>264</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:264</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLDESCRIZIONE</IDLabel>
+        <Stringa>Beschreibung</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLNUMERO</IDLabel>
+        <Stringa>Anzahl</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLRIFERIMENTO</IDLabel>
+        <Stringa>Referenz</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XFUSCONN>
+      <RifIDDoc>199001482</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Titolo>Lokalisierung von Sicherungskästen</Titolo>
+      <RifIDFileIMGANI>62504838</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>62500371</ID>
+      <XFILE>
+        <ID>62504838</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504838</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>62500371</RifIDImmagine>
+        <Numero>1</Numero>
+        <Descrizione>Sicherungskasten im Fahrgastraum</Descrizione>
+        <Riferimento>Unter dem Lenkrad unten links</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>62500371</RifIDImmagine>
+        <Numero>2</Numero>
+        <Descrizione>Sicherungskasten im Motorraum</Descrizione>
+        <Riferimento>Motorraum – seitliche Lage</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199001482</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Titolo>Sicherungskasten – Fahrgastraum</Titolo>
+      <RifIDFileIMGANI>199000307</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>25000595</ID>
+      <XFILE>
+        <ID>199000307</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:199000307</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Alarmanlage / Diebstahlsicherung</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Bordnetz-Steuergerät</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Diagnosegerät</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Diebstahlsicherungssensor</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Steuergerät der Klimaanlage</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Steuergerät für das Automatikgetriebe</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Relais für die Heckscheibenheizung</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Zusatzheizungsempfänger</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Sonneneinstrahlungssensor</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Handbremsschalter / Feststellbremse</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Regensensor</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Datenübertragungsstecker / Diagnose</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Scheinwerfer-Schalter</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Steuergerät und vorderes Info-Display</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>4WD-Steuergerät</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Steuergerät mit Multi-Info-Display</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Steuergerät für die aktive Federung</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F14</Numero>
+        <Descrizione>Elektrolüfter für Frischluft / Außenluft</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F15</Numero>
+        <Descrizione>Steuergerät für die Lenkradsperre</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Telematik-Steuergerät / Dienstleistungen</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Antennen-Signalverstärkermodul</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>USB-Lademodul</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F17</Numero>
+        <Descrizione>Armaturenbrett</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Schalter zum Öffnen der Heckklappe</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Rückfahrkamera-Modul</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F19</Numero>
+        <Descrizione>Keyless-Steuergerät</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F21</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F22</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F23</Numero>
+        <Descrizione>Rechter Scheinwerfer</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F23</Numero>
+        <Descrizione>Bordnetz-Steuergerät</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Schiebedach</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F25</Numero>
+        <Descrizione>Fensterheber vorne auf der Fahrerseite</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F25</Numero>
+        <Descrizione>Fahrersitzmodul</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Modul für die Sitzheizung der Vordersitze</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Bordnetz-Steuergerät</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F27</Numero>
+        <Descrizione>Audiosystem</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F28</Numero>
+        <Descrizione>Anhänger-Steuergerät</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F29</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F30</Numero>
+        <Descrizione>Gurtstraffer vorne links</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F31</Numero>
+        <Descrizione>Linker Scheinwerfer</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F31</Numero>
+        <Descrizione>Bordnetz-Steuergerät</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F32</Numero>
+        <Descrizione>Einparkhilfe</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F32</Numero>
+        <Descrizione>Frontkamera-Modul</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F32</Numero>
+        <Descrizione>Steuergerät für den Tempomat mit Abstandsregelung</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F33</Numero>
+        <Descrizione>Airbag-Steuergerät</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F33</Numero>
+        <Descrizione>Airbag-Warnleuchte für den Beifahrer</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Rückfahrlichtschalter</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Kühlmitteldrucksensor</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Handbremsschalter / Feststellbremse</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Reifendruckschalter</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Blendfreier Rückspiegel</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Scheinwerfer-Schalter</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Luftqualitätssensor</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Relais für die Zusatzsteckdose</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F35</Numero>
+        <Descrizione>Scheinwerfer-Einstellsteuergerät</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F35</Numero>
+        <Descrizione>Datenübertragungsstecker / Diagnose</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F35</Numero>
+        <Descrizione>Blendfreier Rückspiegel</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Standlicht rechts</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Tagfahrlicht rechts</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Standlicht links</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Tagfahrlicht links</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F38</Numero>
+        <Descrizione>Anhänger-Steuergerät</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F39</Numero>
+        <Descrizione>Fensterheber rechts</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F39</Numero>
+        <Descrizione>Beifahrertürmodul</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F40</Numero>
+        <Descrizione>Zigarettenanzünder</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F40</Numero>
+        <Descrizione>Anschluss für Zusatzgeräte</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F41</Numero>
+        <Descrizione>Steuergerät für die Lenksäule</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F42</Numero>
+        <Descrizione>Zentralverriegelung</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F42</Numero>
+        <Descrizione>Bordnetz-Steuergerät</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F43</Numero>
+        <Descrizione>Bordnetz-Steuergerät</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F44</Numero>
+        <Descrizione>Anhänger-Steuergerät</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F45</Numero>
+        <Descrizione>Elektrisch verstellbarer Beifahrersitz</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F45</Numero>
+        <Descrizione>Elektrisch verstellbarer Fahrersitz</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F47</Numero>
+        <Descrizione>Scheibenwischerantrieb</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F48</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>Anlasserrelais</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>Kupplungspedal-Positionssensor</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F50</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F51</Numero>
+        <Descrizione>Gurtstraffer vorne rechts</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F52</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F53</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Auskuppelrelais +15</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>R4</Numero>
+        <Descrizione>Hauptzündstromkreisrelais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>R5</Numero>
+        <Descrizione>Relais für die Heckscheibenheizung</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>R6</Numero>
+        <Descrizione>12-V-Steckdosenrelais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199001482</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Titolo>Sicherungskasten – Motorraum</Titolo>
+      <RifIDFileIMGANI>199000568</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>25000596</ID>
+      <XFILE>
+        <ID>199000568</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:199000568</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>ABS+ESP-Steuergerät</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>ABS+ESP-Steuergerät</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Elektrische Hydraulikpumpe für das ABS-System</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Einspritzsteuergerät</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Phasenversteller-Stellantrieb</Descrizione>
+        <Riferimento>5–10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Magnetventil zur Regelung des Motoröldrucks</Descrizione>
+        <Riferimento>5–10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Drucksensor für Gas-/LPG-Krümmer</Descrizione>
+        <Riferimento>5–10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Magnetventil zur Regelung des Ladedrucks</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Relais zur Steuerung der Niedertemperaturheizung</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Relais zur Steuerung der Hochleistungsheizung</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Motorölstands- und -temperatursensor</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Magnetventil zur Kühlerumschaltung</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Magnetventil zur Kraftstoffdruckregelung</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Magnetventil für die Kraftstoffdosierung</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Bremslichtschalter</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Magnetventil zur Regelung des Motoröldrucks</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Elektrische Wasserpumpe für die Heizung</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Magnetventil für die Kühlflüssigkeit des Zylinderkopfs</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Lambdasonden-Heizung</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Heizung für die nachgeschaltete Lambdasonde</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Lambdasonde vor dem Katalysator</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Lambdasonde hinter dem Katalysator</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Temperatur-/Ansaugluftdrucksensor</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Glühkerzen-Steuergerät</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Steuergerät für die Kraftstoffpumpe</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Zusatzheizung</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Zusatzheizung</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Steuerung des Doppelkupplungsgetriebes</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F14</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F15</Numero>
+        <Descrizione>Akustisches Warnrelais</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F17</Numero>
+        <Descrizione>ABS-Steuergerät</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F17</Numero>
+        <Descrizione>Einspritzsteuergerät</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F17</Numero>
+        <Descrizione>Stromversorgungsrelais +30</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Diagnosegerät</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Batterieüberwachungsmodul</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F19</Numero>
+        <Descrizione>Scheibenwischer</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>Diebstahlwarnsirene</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F21</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F22</Numero>
+        <Descrizione>Einspritzsteuergerät</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F23</Numero>
+        <Descrizione>Anlasser</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Zusatzheizung</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F31</Numero>
+        <Descrizione>Vakuumpumpe / Unterdruckpumpe</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F32</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F33</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Differenzialsperrsystem</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F35</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Zusatzheizmodul</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F38</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Anlasserrelais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R10</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Anlasserrelais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Akustisches Warnrelais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R4</Numero>
+        <Descrizione>Relais zur Steuerung der Hochleistungsheizung</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R5</Numero>
+        <Descrizione>Stromversorgungsrelais +30</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R6</Numero>
+        <Descrizione>Relais für die Vorheizmodul-Zündkerzen</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R7</Numero>
+        <Descrizione>Relais zur Steuerung der Niedertemperaturheizung</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R8</Numero>
+        <Descrizione>Relais der Einspritzsteuereinheit</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R9</Numero>
+        <Descrizione>Nicht verwendet / Nicht vorhanden</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+  </XDOCUMENTO>
+</dataroot>

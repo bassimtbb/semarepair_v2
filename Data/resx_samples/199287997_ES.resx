@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:46:26">
+  <XDOCUMENTO>
+    <ID>199287997</ID>
+    <DOCNumber>GUP92689</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Bloqueo repentino de la caja de cambios en punto muerto durante la marcha, con encendido de la luz d</Titolo>
+    <InfoDoc>CAMBIO | ELECTRÓNICA | MARCHA | MARCHANTE | MUEVE | PARTE | LOCO | FIJO | BLOQUEADO | ENGRANAJE | AMARILLO | AMARILLA | CARRERA | MOVIMIENTO | CARRETERA | AUTOMÁTICO | PALANCA | INTERRUPTOR | SENSOR | POSICIÓN | PALANCA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guía de reparación</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199287997</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grado de fiabilidad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Leyenda del grado de fiabilidad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nivel bajo &lt;/B&gt; : Detección del mecánico, caso de avería no detectado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nivel medio &lt;/B&gt;  : Casos frecuentes de avería, detectados por los técnicos de asistencia y los mecánicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nivel alto &lt;/B&gt; : Anomalía confirmada, buen grado de «repetitividad» señalado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199287997</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificación del sistema/avería</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Aplicabilidad: &lt;/B&gt; Vehículos equipados con cambio automático &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Sistema: &lt;/B&gt; Cambio &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt; Sensor de posición de la palanca de cambios &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalía: &lt;/B&gt; La caja de cambios se ha quedado bloqueada en punto muerto durante la marcha por carretera; posteriormente, también se ha encendido el correspondiente testigo de avería de la caja de cambios &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errores detectados por el autodiagnóstico: &lt;/B&gt; Uno o varios de los siguientes: &lt;UL&gt; &lt;LI&gt; U0103 (Bus de datos CAN - Módulo de control del selector de marchas Pérdida de comunicación) &lt;BR/&gt; &lt;LI&gt; P0914 (Circuito de control, posición del selector de marchas - Error) &lt;BR/&gt;  &lt;LI&gt; P1734 (Error/desactivación - Sensor de posición de la palanca de cambios) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Causa: &lt;/B&gt; Sensor de posición de la palanca de cambios defectuoso &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199287997</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimiento de reparación</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervención: &lt;/B&gt; Comprobar el estado y el correcto funcionamiento del sensor de posición de la palanca de cambios y, si es necesario, proceder a su sustitución. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedimiento: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Nota: &lt;/B&gt; Tras la sustitución del componente, no ha sido necesario realizar ningún ajuste mediante un comprobador de autodiagnóstico. &lt;BR/&gt; El sensor en cuestión está enganchado en el tope de la palanca de cambios y se suministra completo con tornillos de fijación y cableado. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

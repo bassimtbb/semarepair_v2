@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:40:17">
+  <XDOCUMENTO>
+    <ID>199273607</ID>
+    <DOCNumber>GUP89369</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Nieprawidłowe pobieranie energii z akumulatora</Titolo>
+    <InfoDoc>71635 | ELETTRONICA | BATTERIA | SCARICA | SCARICAMENTO | ASSORBE | CONSUMA | CARICA | AVVIAMENTO | NON PARTE | 12V | SPIA | ACCENSIONE | ACCENDE | AVVIA | MANCATO | MANCATA | MESSAGGIO | AVVISO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199273607</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Poziom wiarygodności   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda stopnia wiarygodności &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niski poziom &lt;/B&gt; : Wykryte przez mechanika samochodowego, przypadek usterki niepotwierdzony przez producenta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** średni poziom &lt;/B&gt; : Częste przypadki usterki, potwierdzone przez techników serwisowych i mechaników. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** wysoki poziom &lt;/B&gt; : Potwierdzona anomalia, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273607</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Obowiązywanie: &lt;/B&gt;  Samochody wyprodukowane od 01.01.19 do 10.11.21 &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Układ: &lt;/B&gt;  Elektronika &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Urządzenie: &lt;/B&gt;  Moduł zabezpieczający i przełączający (1337) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Usterka: &lt;/B&gt;  Nieprawidłowy pobór prądu z akumulatora 12 V, co może uniemożliwić uruchomienie silnika, zapalenie się kontrolki akumulatora oraz wyświetlenie komunikatu ostrzegawczego „Rozładowany akumulator, uruchomić silnik” &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Błędy wykryte przez autodiagnostykę: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Przyczyna: &lt;/B&gt;  Błąd oprogramowania modułu zabezpieczającego i przełączającego (1337) &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273607</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Czynność: &lt;/B&gt;  Przeprowadzić przeprogramowanie i aktualizację modułu zabezpieczającego i przełączającego (1337) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedura: &lt;/B&gt;  Przed przystąpieniem do przeprogramowania i aktualizacji modułu zabezpieczającego i przełączającego (1337) należy sprawdzić, czy akumulator 12 V nie uległ uszkodzeniu w wyniku nagłego rozładowania, i w razie potrzeby go wymienić. &lt;BR/&gt; Podłączyć ładowarkę do zacisków akumulatora 12 V, a następnie przeprowadzić przeprogramowanie i aktualizację modułu zabezpieczającego i przełączającego (1337) za pomocą diagnostyki. &lt;BR/&gt;  &lt;I&gt;  Jeśli kod produktu modułu zabezpieczającego i przełączającego (1337) to 284B61704R, nie można przeprowadzić przeprogramowania modułu i konieczna jest jego wymiana. &lt;/I&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Uwaga: &lt;/B&gt;  Za pomocą narzędzia diagnostycznego należy również sprawdzić, czy wszystkie powiązane układy działają prawidłowo. Jeśli występują kody DTC lub objawy inne niż wymienione, należy je usunąć przed kontynuowaniem postępowania zgodnie z niniejszym biuletynem. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

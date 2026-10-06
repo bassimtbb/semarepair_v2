@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T14:58:07">
+  <XDOCUMENTO>
+    <ID>199203407</ID>
+    <DOCNumber>INT76499</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>BMW 3er-Reihe</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Offizielle Rückrufe</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199203407</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Datenquelle – Verkehrsministerium</Capitolo>
+      <Corpo> &lt;B&gt; Hersteller: &lt;/B&gt; BMW &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Marke: &lt;/B&gt; BMW &lt;BR/&gt; &lt;BR/&gt; Von den Herstellern gemäß dem Dekret 78/2000 anerkannte Mängel</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199203407</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>BMW 3er-Reihe</Capitolo>
+      <Corpo> &lt;BR/&gt; Fahrzeugnummer: 42059 &lt;BR/&gt; Produktionszeitraum: NICHT ANGEGEBEN &lt;BR/&gt; Fehlerbeschreibung: MÖGLICHER FLÜSSIGKEITSVERLUST IM AGR-KÜHLER UND DARAUS RESULTIERENDE MOTORÜBERHITZUNG &lt;BR/&gt; Abhilfemaßnahmen: ÜBERPRÜFUNG DES AGR-MODULS UND GEGEBENENFALLS AUSTAUSCH VON KOMPONENTEN &lt;BR/&gt; Hinweis für HÄNDLER &lt;BR/&gt; Anmerkungen COD 0011970400 FAHRZEUG-ID-NUMMERN: BITTE HÄNDLER KONSULTIEREN &lt;BR/&gt;&lt;BR/&gt;  &lt;BR/&gt; Anzahl der Fahrzeuge: 484 &lt;BR/&gt; Produktionszeitraum: 03/2020 – 08/2020 &lt;BR/&gt; Fehlerbeschreibung: Es wurde festgestellt, dass die Zellen, aus denen die Hochspannungsbatterie besteht, möglicherweise Fremdkörper (Staub) enthalten. In einigen Fällen, insbesondere während des Ladevorgangs der Hochspannungsbatterie, könnte es zu einem Kurzschluss innerhalb der Batterie selbst kommen. In diesem Fall kann die Möglichkeit einer thermischen Reaktion nicht ausgeschlossen werden &lt;BR/&gt; Abhilfemaßnahmen: Werden derzeit vom Mutterkonzern geprüft &lt;BR/&gt; Hinweis: Wenden Sie sich bitte an Ihren Vertragshändler &lt;BR/&gt; Anmerkungen: Teilenummer – 0061670500; für Fahrgestellnummern wenden Sie sich bitte an Ihren Vertragshändler &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>199203407</RifIDDoc>
+      <LinkUtili>Link zum Ministerium für Infrastruktur und Verkehr</LinkUtili>
+      <Ordine>1</Ordine>
+      <RifIDDocLink>15000122</RifIDDocLink>
+      <XLINKDOC>
+        <ID>15000122</ID>
+        <DOCNumber>LNK00008</DOCNumber>
+        <Documento>Weiter zu: Rückrufe – Verkehrsministerium</Documento>
+        <URL>LINKDOC:15000122</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

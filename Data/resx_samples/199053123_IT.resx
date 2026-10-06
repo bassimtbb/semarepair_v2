@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2019-07-08T13:02:02">
+<XDOCUMENTO>
+<ID>199053123</ID>
+<DOCNumber>DES76007</DOCNumber>
+<RifIDTipoRis>2</RifIDTipoRis>
+<Titolo>Guida alla lettura degli schemi elettrici</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>224</RifIDFileICO>
+<XFILE>
+<ID>224</ID>
+<Type>IMG</Type>
+<URL>GETFILE:224</URL>
+</XFILE>
+<XTIPORIS>
+<ID>2</ID>
+<TipoRis>DES</TipoRis>
+<DscRis>Descrizione Impianto</DscRis>
+<RifIDFileCSS>7</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>7</ID>
+<Type>CSS</Type>
+<URL>GETFILE:7</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199053123</RifIDDoc>
+<Ordine>10</Ordine>
+<Capitolo>Legenda</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;(1)&lt;/B&gt; - &lt;B&gt;Numero posizione relè&lt;/B&gt;: Contrassegna la posizione del relè sulla piastra dei relè.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;(2)&lt;/B&gt; - &lt;B&gt;Continuazione schema&lt;/B&gt;: La freccia indica la continuazione del componente alla pagina successiva dello schema elettrico.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;(3)&lt;/B&gt; - &lt;B&gt;Denominazione collegamento&lt;/B&gt;: Indica il singolo contatto in un connettore multiplo.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;(4)&lt;/B&gt; - &lt;B&gt;Collegamento non fisso&lt;/B&gt;: Rappresentazione di un perno filettato che si trova nella piastra relè.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;(5)&lt;/B&gt; - &lt;B&gt;Indicazione continuazione cablaggio&lt;/B&gt;: Indica in quale percorso di corrente va a collegarsi il cavo. Ad es. se il numero è 23, per capire dove prosegue il cavo è necessario trovare nella linea posta alla base dello schema il numero 23.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;(6)&lt;/B&gt; - &lt;B&gt;Sezione e colore del cavo&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;(7)&lt;/B&gt; - &lt;B&gt;Disegni con lato aperto&lt;/B&gt;: Il lato aperto del segno grafico indica la continuazione del componente in un altro schema elettrico.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;(8)&lt;/B&gt; - &lt;B&gt;Collegamento interno (trattino sottile)&lt;/B&gt;: Questo collegamento non è presente come cavo. I collegamenti interni sono comunque connessioni elettriche conduttive. Consentono di seguire la propagazione della corrente all&apos;interno di componenti e cablaggi.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;(9)&lt;/B&gt; - &lt;B&gt;Indicazione di continuazione del cavo verso un componente&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;(10)&lt;/B&gt; - &lt;B&gt;Continuazione del collegamento&lt;/B&gt;: La lettera indica il punto in cui il collegamento prosegue nella sezione successiva dello schema elettrico.</Corpo>
+<RifIDFileIMGANI>299002868</RifIDFileIMGANI>
+<Allineamento>L</Allineamento>
+<XFILE>
+<ID>299002868</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299002868</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199053123</RifIDDoc>
+<Ordine>20</Ordine>
+<Capitolo>Codice colore cablaggi</Capitolo>
+<Corpo>&lt;B&gt;Codice Colori&lt;/B&gt;: &lt;BR/&gt;&lt;BR/&gt;SW = Nero&lt;BR/&gt;BR = Marrone&lt;BR/&gt;GN = Verde&lt;BR/&gt;BL = Blu&lt;BR/&gt;GR = Grigio&lt;BR/&gt;LI = Lilla&lt;BR/&gt;VI = Lilla&lt;BR/&gt;GE = Giallo&lt;BR/&gt;OR = Arancione&lt;BR/&gt;RS = Rosa&lt;BR/&gt;RO = Rosso&lt;BR/&gt;RT = Rosso&lt;BR/&gt;WS = Bianco&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299002869</RifIDFileIMGANI>
+<Allineamento>L</Allineamento>
+<XFILE>
+<ID>299002869</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299002869</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

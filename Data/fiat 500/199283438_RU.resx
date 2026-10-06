@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:43:26">
+  <XDOCUMENTO>
+    <ID>199283438</ID>
+    <DOCNumber>GUP91986</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Sporadyczne sztywnienie kierownicy i zapalenie się kontrolki wspomagania kierownicy, ABS, silnika or</Titolo>
+    <InfoDoc>PIANTONE | STERZO | SERVOSTERZO | COMPLETO | MOTORINO | CENTRALINA | B1053 | U0001 | U1700 | U1702 | ACCESA | ACCENDE | ACCESO | GIALLO | GIALLA | ABS | INDICAZIONE | DISPLAY | SCHERMO | DURO | GIRA | GIRARE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199283438</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Stopień wiarygodności   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda stopnia wiarygodności &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niski poziom &lt;/B&gt; : Wykryte przez mechanika samochodowego, przypadek usterki niepotwierdzony przez producenta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** średni poziom &lt;/B&gt; : Częste przypadki usterki, potwierdzone przez techników serwisowych i mechaników. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** wysoki poziom &lt;/B&gt; : Potwierdzona anomalia, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283438</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Układ: &lt;/B&gt;  Układ kierowniczy &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Urządzenie: &lt;/B&gt;  Kolumna kierownicy wraz z silnikiem elektrycznym i modułem sterującym &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Usterka: &lt;/B&gt;  Sporadyczne zacinanie się kierownicy wraz z zapaleniem się lampek kontrolnych usterki wspomagania kierownicy, ABS i silnika. Komunikat „Blokada paliwa” wyświetlany na ekranie &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Błędy wykryte przez autodiagnostykę: &lt;/B&gt;  Jeden lub więcej z poniższych: &lt;UL&gt;   &lt;LI&gt;  B1053 (Moduł sterujący wtryskiem, sygnał sterujący bezwładnościowego wyłącznika bezpieczeństwa   – Przeprowadzić autodiagnostykę) &lt;BR/&gt;  &lt;LI&gt;  U0001 (Linia CAN – Awaria) &lt;BR/&gt;  &lt;LI&gt;  U1700 (Magistrala CAN – komputer nadwozia – błąd, brak komunikacji) &lt;BR/&gt;  &lt;LI&gt;  U1702 (Magistrala danych CAN – moduł sterujący wspomaganiem kierownicy   – błąd, brak komunikacji) &lt;/UL&gt;  &lt;LI&gt;  &lt;B&gt; Przyczyna: &lt;/B&gt;  Kolumna kierownicy wraz z silnikiem elektrycznym i modułem sterującym działa nieprawidłowo &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283438</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Czynność: &lt;/B&gt;  Należy przystąpić do wymiany kolumny kierowniczej wraz z odpowiednim modułem sterującym i silnikiem &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedura: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Uwaga: &lt;/B&gt;  Wadliwy element nie wykazywał żadnych widocznych nieprawidłowości &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

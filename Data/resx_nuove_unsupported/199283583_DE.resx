@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T23:39:55">
+  <XDOCUMENTO>
+    <ID>199283583</ID>
+    <DOCNumber>GUP91998</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Schwergängigkeit der Lenkung, Aufleuchten der Lenkung-Fehleranzeige</Titolo>
+    <InfoDoc>ELETTRONICA | STERZO | MIL | SERVOSTERZO | DURO | NON GIRA | NON STERZA | STERZARE | GIRARE | B2000 | B200F | U0428 |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199283583</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283583</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Servolenkung &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorrichtung: &lt;/B&gt; Lenkgetriebe &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Das Lenkrad lässt sich unter bestimmten Umständen nur schwer drehen, und die Warnleuchte für die Servolenkung (rotes Lenkradsymbol mit „!“) leuchtet gelegentlich auf. Außerdem ertönt ein akustisches Signal. Manchmal verschwindet das Problem, und das Lenkrad funktioniert wieder normal, ohne dass Warnleuchten aufleuchten. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt; &lt;UL&gt; &lt;LI&gt; B200F (Interner Fehler im Steuergerät) &lt;BR/&gt; &lt;LI&gt; B2000 (Fehler im internen Speicher des Steuergeräts) &lt;BR/&gt;  &lt;LI&gt; U0428 (Empfang ungültiger Daten von der Lenkwinkelsensoreinheit) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Interner Fehler des in das Lenkgetriebe integrierten Steuergeräts. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283583</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Führen Sie den Austausch des Lenkgetriebes durch (das den Elektromotor, das Steuergerät und das Lenkgetriebe umfasst) &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Nach dem Austausch des Lenkgetriebes muss die Einstellung mithilfe eines Diagnosegeräts vorgenommen werden &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

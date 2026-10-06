@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-31T23:40:03">
+  <XDOCUMENTO>
+    <ID>199317457</ID>
+    <DOCNumber>GUP99773</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Keine Reaktion des Gaspedals bei Aufleuchten der Warnleuchten: Motor-, ESP- und TPMS-Störung</Titolo>
+    <InfoDoc>INIEZIONE | P0101 | C1221 | SENSORE | PRESSIONE | COLLETTORE | ASPIRAZIONE | RISPONDE | ACCELERA | AUMENTA | VELOCITà | ACCENDONO | MIL | AUTO | SBANDA | PNEUMATICO | TIRE | PRESSURE | MONITORING | SYSTEM | GIALLO | GIALLA | LAMPEGGIA | MIL |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199317457</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199317457</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Einspritzung &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Bauteil: &lt;/B&gt; Ansaugkrümmer-Drucksensor &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt;  Das Gaspedal spricht nicht an. Sporadisch leuchten die Motorfehler-Kontrollleuchte, die ESP-Kontrollleuchte und die TPMS-Kontrollleuchte (Reifendruck) auf, wobei letztere blinkt. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose erkannte Fehler: &lt;/B&gt; &lt;LI&gt; P0101 (Luftmassenmesser – falscher Sollwert) &lt;BR/&gt; &lt;LI&gt; C1221 (NCM-Motorsteuerung) &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Defekter Ansaugkrümmerdrucksensor &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199317457</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Den Zustand und die ordnungsgemäße Funktion des Ansaugkrümmer-Drucksensors überprüfen und diesen gegebenenfalls austauschen &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Der defekte Sensor wies keine sichtbaren Mängel auf, und nach seinem Austausch war die Störung endgültig behoben. &lt;BR/&gt; Das Bauteil befindet sich im Motorraum auf der Beifahrerseite und ist an der Seite des Ansaugkrümmers angeschlossen. &lt;BR/&gt; &lt;BR/&gt; Die voraussichtliche Arbeitszeit beträgt ca. 0,4 h. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

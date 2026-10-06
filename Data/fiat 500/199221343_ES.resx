@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T01:06:59">
+  <XDOCUMENTO>
+    <ID>199221343</ID>
+    <DOCNumber>DRA76373</DOCNumber>
+    <RifIDTipoRis>45</RifIDTipoRis>
+    <Titolo>Fiat - GM C514 - 5 (5 velocidades) Transmisión rotativa</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>45</ID>
+      <TipoRis>DRV</TipoRis>
+      <DscRis>Caja de cambios automática</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Datos técnicos - Lubricantes</Capitolo>
+      <Corpo>&lt;B&gt;Fabricante:&lt;/B&gt; Fiat-GM Powertrain&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Denominación:&lt;/B&gt; C514-5&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Nombre comercial:&lt;/B&gt; Dualogic&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Cambie el aceite de la transmisión automática:&lt;/B&gt; &lt;BR/&gt;Según el programa de mantenimiento o cuando se encienda el indicador luminoso&lt;BR/&gt;&lt;BR/&gt;&lt;TABLE class=&apos;contenuto&apos; width=99% border=1 cellpadding=1 cellspacing=0&gt;&lt;TH width=60% class=&apos;chiaro&apos;&gt;Descripción&lt;/TH&gt;&lt;TH width=25% class=&apos;chiaro&apos;&gt;Unidad de medida&lt;/TH&gt;&lt;TH width=15% class=&apos;chiaro&apos;&gt;Datos&lt;/TH&gt;&lt;TR&gt;&lt;TD&gt;Número de ratios:&lt;/TD&gt;&lt;TD&gt;N°&lt;/TD&gt;&lt;TD&gt;5&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Aceite de transmisión automática - Especificación del fabricante:&lt;/TD&gt;&lt;TD&gt;N.Ref&lt;/TD&gt;&lt;TD&gt;FIAT 9.55550-SA1&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Aceite para la transmisión automática - Cantidad:&lt;/TD&gt;&lt;TD&gt;Litros&lt;/TD&gt;&lt;TD&gt;0,7&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Temperatura de control del nivel de aceite de la transmisión automática:&lt;/TD&gt;&lt;TD&gt;C°&lt;/TD&gt;&lt;TD&gt;- -&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&lt;BR/&gt;&lt;/BR&gt;</Corpo>
+      <RifIDFileIMGANI>62504107</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504107</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504107</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>11</Ordine>
+      <Capitolo>Ubicación de la unidad de control de la transmisión automática</Capitolo>
+      <Corpo>&lt;BR/&gt;&lt;LI&gt; La unidad de control de la transmisión automática se encuentra debajo del salpicadero, lado del pasajero, detrás del embellecedor&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>62504109</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504109</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504109</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>12</Ordine>
+      <Capitolo>Procedimiento de vaciado y llenado de aceite de la transmisión robotizada.</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; Coloque el vehículo sobre una superficie plana &lt;BR/&gt; &lt;LI&gt; Apague el motor &lt;BR/&gt; &lt;LI&gt; Retire la cubierta insonorizante inferior &lt;BR/&gt; &lt;LI&gt; Coloque debajo del vehículo la bandeja de recogida de aceite usado &lt;BR/&gt;  &lt;LI&gt; Retire el tapón de llenado de aceite de la caja de cambios robotizada &lt;B&gt; A &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Retire el tapón de drenaje &lt;B&gt; B &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Espere a que se vacíe completamente el aceite de la caja de cambios &lt;BR/&gt;  &lt;LI&gt; Colocar el tapón de drenaje &lt;B&gt; B &lt;/B&gt; , apretándolo a &lt;B&gt; 16~20 Nm &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; ATENCIÓN: &lt;/B&gt; No arrancar el motor sin aceite en la caja de cambios &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Proceda a rellenar con &lt;B&gt; 1,65 litros &lt;/B&gt; de aceite de la caja de cambios a través del orificio de llenado &lt;B&gt; A &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; Continuar con el procedimiento de control del nivel de aceite del cambio robotizado &lt;BR/&gt; &lt;LI&gt; Insertar el tapón de llenado &lt;B&gt; A &lt;/B&gt; , apretando a &lt;B&gt; 23~28 Nm &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007896</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007896</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007896</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>13</Ordine>
+      <Capitolo>Procedimiento de control del nivel de aceite de la transmisión robotizada.</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; Coloque el vehículo sobre una superficie plana &lt;BR/&gt; &lt;LI&gt; Retire la cubierta insonorizante inferior &lt;BR/&gt; &lt;LI&gt;  Coloque debajo del vehículo la bandeja de recogida de aceite usado &lt;BR/&gt; &lt;LI&gt; Retire el tapón de llenado &lt;B&gt; A &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Asegúrese de que el nivel de aceite en la caja de cambios roce el borde inferior del orificio de llenado &lt;B&gt; A &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; Si es necesario, rellene con aceite de caja de cambios a través del orificio de llenado &lt;B&gt; A &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Inserte el tapón de llenado &lt;B&gt; A &lt;/B&gt; , apretándolo a &lt;B&gt; 23~28 Nm &lt;/B&gt; &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007897</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007897</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007897</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Comprobación del nivel de aceite de la transmisión automática</Capitolo>
+      <Corpo>&lt;BR/&gt;&lt;LI&gt; El nivel de aceite de la transmisión automática debe comprobarse cuando el aceite está a temperatura ambiente y el motor está frío&lt;BR/&gt;&lt;LI&gt; Coloque la palanca de la transmisión automática en la posición &lt;B&gt;(N&lt;/B&gt;)&lt;BR/&gt;&lt;LI&gt; Utilizando el equipo de diagnóstico, despresurice el circuito de accionamiento hidráulico&lt;BR/&gt;&lt;LI&gt; Retire el fusible &lt;B&gt;F83&lt;/B&gt; (30 A) &lt;BR/&gt;&lt;LI&gt; Compruebe el nivel de aceite en el cárter de la caja de cambios robotizada &lt;B&gt;(A)&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Si es necesario, rellene&lt;BR/&gt;&lt;LI&gt; El consumo de aceite de la caja de cambios robotizada es muy bajo. Si el nivel de aceite es inferior al nivel mínimo, compruebe si hay fugas&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>299007898</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007898</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007898</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

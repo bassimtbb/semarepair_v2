@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T02:10:39">
+  <XDOCUMENTO>
+    <ID>199070454</ID>
+    <DOCNumber>AZZ76146</DOCNumber>
+    <RifIDTipoRis>7</RifIDTipoRis>
+    <Titolo>Reset van het onderhoudsindicatielampje</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>217</RifIDFileICO>
+    <XFILE>
+      <ID>217</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:217</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>7</ID>
+      <TipoRis>AZZ</TipoRis>
+      <DscRis>Reset-service</DscRis>
+      <RifIDFileCSS>1</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>1</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:1</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199070454</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Informatie op de Systeem</Capitolo>
+      <Corpo> &lt;BR/&gt; De uitrusting van de auto omvat de onderhoudsindicator, die onderaan op het instrumentenpaneel is geplaatst. &lt;BR/&gt; De indicator toont de bestuurder de pictogrammen die betrekking hebben op de verschillende onderhoudsposten die door de boordcomputer zijn vastgesteld, op basis van de onderhoudsbeurten die nodig zijn gezien de toestand van het voertuig en de manier waarop het is gebruikt. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199070454</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Afstelling - Reset</Capitolo>
+      <Corpo> &lt;BR/&gt; Zodra de door de indicator aangegeven werkzaamheden zijn uitgevoerd, wordt de teller op nul gezet volgens de volgende procedure: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Tijdens de procedure hoeft u geen enkel pedaal in te drukken &lt;BR/&gt;  &lt;LI&gt;  Sluit het voertuig af en wacht ongeveer 10 minuten &lt;BR/&gt;  &lt;LI&gt;  Ontgrendel de auto met de afstandsbediening &lt;BR/&gt;  &lt;LI&gt;  Druk drie keer snel achter elkaar op de startknop &lt;BR/&gt;  &lt;LI&gt;  Druk op de knop  &lt;B&gt; (1) &lt;/B&gt;  (en houd deze minstens 10 seconden ingedrukt) om het pictogram van het eerste onderhoudspunt weer te geven &lt;BR/&gt;  &lt;LI&gt;  Druk kort op de knop  &lt;B&gt; (1) &lt;/B&gt;  om door de pictogrammen van de andere serviceopties te bladeren &lt;BR/&gt;  &lt;LI&gt;  Op het display verschijnt de vraag „Reset uitvoeren?“ &lt;BR/&gt;  &lt;LI&gt;  Houd de knop  &lt;B&gt; (1) &lt;/B&gt;  minstens 3 seconden ingedrukt &lt;BR/&gt;  &lt;LI&gt;  Op het display verschijnt de melding „Reset uitvoeren?“ &lt;BR/&gt;  &lt;LI&gt;  Houd de knop &lt;B&gt; (1) &lt;/B&gt;  minstens 3 seconden ingedrukt om de weergegeven melding te resetten; herhaal deze handeling voor elk van de betreffende service-items. &lt;BR/&gt;  &lt;LI&gt;  Schakel het contact uit</Corpo>
+      <RifIDFileIMGANI>299003974</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299003974</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299003974</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199070454</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>WAARSCHUWINGEN</Capitolo>
+      <Corpo> &lt;BR/&gt; De teksten op het display kunnen per voertuigversie verschillen. &lt;BR/&gt;  &lt;BR/&gt; Het resetten van elk onderhoudspunt is alleen mogelijk als een toestand wordt gedetecteerd die gelijk is aan 90 procent van de verwachte levensduur van het betreffende onderdeel. &lt;BR/&gt;  &lt;BR/&gt; Het item „remonderhoud“ kan alleen worden gereset als de bijbehorende slijtage-sensor correct functioneert. &lt;BR/&gt;  &lt;BR/&gt; Controleer voordat u doorgaat met het resetten of de boordklok de juiste tijd aangeeft. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

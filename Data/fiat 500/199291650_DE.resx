@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T05:07:56">
+  <XDOCUMENTO>
+    <ID>199291650</ID>
+    <DOCNumber>GUP93600</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Blinken / Dauerleuchten von Fehleranzeigen, unlesbares Display im Armaturenbrett</Titolo>
+    <InfoDoc>ELETTRONICA | SPIE | LAMPEGGIO | ACCESE | FISSE | INDICATORE | DIREZIONE | QUADRO | STRUMENTI | ABS | AIRBAG | BATTERIA | LCD |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199291650</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199291650</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Elektronik &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Gerät: &lt;/B&gt; Kombiinstrument &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Bei Betätigung des Blinkers blinken verschiedene Kontrollleuchten auf dem Armaturenbrett ungewöhnlich, in der Regel diejenigen für ABS, Motorsteuerung, Batterie und Airbag, es können jedoch auch andere Kontrollleuchten betroffen sein. In einigen Fällen leuchten die Kontrollleuchten auch bei ausgeschalteter Zündung dauerhaft. Oft ist das LCD-Display des Armaturenbretts unlesbar. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose erkannte Fehler: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Interne Fehlfunktion der elektronischen Steuerplatine des Armaturenbretts. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299022171</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299022171</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299022171</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199291650</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Das Armaturenbrett überprüfen und gegebenenfalls austauschen &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Das Problem hängt mit einem internen Defekt der Steuerplatine des Kombiinstruments zusammen, der infolge von Verschleiß oder elektronischen Störungen zu Interferenzen zwischen den Schaltkreisen führt und ein abnormales Blinken der Kontrollleuchten beim Betätigen des Blinkers oder deren Dauerleuchten auch ohne Stromversorgung verursacht. Vor der Ermittlung der Ursache wurden gezielte Überprüfungen des Verhaltens der Kontrollleuchten und des Zusammenhangs mit der Betätigung der Blinker durchgeführt, um Probleme im Zusammenhang mit Sensoren oder sekundären Steuergeräten auszuschließen. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T13:09:25">
+  <XDOCUMENTO>
+    <ID>199001632</ID>
+    <DOCNumber>GUR59015</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Restauração do sistema após a desconexão da bateria</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Guia de Ajuste</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Localização da bateria</Capitolo>
+      <Corpo> &lt;BR/&gt; A bateria encontra-se no compartimento do motor, do lado do condutor, junto à parede divisória. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>199000661</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>199000661</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:199000661</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Procedimento para desligar a bateria</Capitolo>
+      <Corpo> &lt;BR/&gt; Caso seja necessário desligar a bateria, é necessário: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Verificar se todos os  &lt;B&gt; dispositivos elétricos &lt;/B&gt;  do veículo, como por exemplo o rádio-navegador, etc.,  &lt;B&gt; estão desligados &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt; Verificar se a &lt;B&gt; ignição está desligada &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt; Ter à mão o  &lt;B&gt; código do rádio &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; Em seguida, pode-se proceder à desconexão da bateria,  &lt;B&gt; removendo primeiro o terminal negativo e, posteriormente, o positivo &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; Após ter desligado a bateria, aguarde alguns minutos antes de realizar intervenções no sistema de airbags</Corpo>
+      <RifIDFileIMGANI>62503878</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503878</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503878</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procedimento para ligar a bateria</Capitolo>
+      <Corpo> &lt;BR/&gt; Para voltar a ligar a bateria, é necessário proceder da seguinte forma: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Ligue primeiro o pólo positivo &lt;/B&gt;  e, em seguida, o pólo negativo da bateria &lt;BR/&gt;  &lt;LI&gt; Repor o código da rádio (se necessário) &lt;BR/&gt;  &lt;LI&gt; Apagar eventuais  &lt;B&gt; erros presentes na memória &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt; Ligar a ignição e aguardar 40 segundos &lt;BR/&gt;  &lt;LI&gt; Desligar a ignição &lt;BR/&gt;  &lt;LI&gt; As  &lt;B&gt; luzes indicadoras do sistema de controlo de estabilidade &lt;/B&gt; podem acender-se. É necessário, portanto, conduzir o veículo durante alguns quilómetros a velocidade constante para que estas se apaguem. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503879</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503879</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503879</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Reparação de vidros elétricos</Capitolo>
+      <Corpo> &lt;BR/&gt; Procedimento de inicialização dos vidros elétricos: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Verifique se  &lt;B&gt; as portas e os vidros estão fechados &lt;/B&gt; . &lt;BR/&gt;  &lt;LI&gt; Ligue o contacto &lt;BR/&gt;  &lt;LI&gt; Pressione o  &lt;B&gt; botão de abertura/fecho do vidro elétrico &lt;/B&gt;  e mantenha-o pressionado até que este esteja  &lt;B&gt; totalmente aberto &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt; Levante o  &lt;B&gt; botão de abertura/fecho do vidro elétrico &lt;/B&gt;  e mantenha-o levantado durante mais de 3 segundos após este se ter  &lt;B&gt; fechado &lt;/B&gt;  completamente &lt;BR/&gt;  &lt;LI&gt; Ouvir-se-á um sinal sonoro a confirmar que a operação foi realizada &lt;BR/&gt;  &lt;BR/&gt; Agora o sistema está inicializado. &lt;BR/&gt; Repita o procedimento para as restantes janelas. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T04:16:03">
+  <XDOCUMENTO>
+    <ID>199094642</ID>
+    <DOCNumber>AZZ76263</DOCNumber>
+    <RifIDTipoRis>7</RifIDTipoRis>
+    <Titolo>Reset van het onderhoudsindicatielampje</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>217</RifIDFileICO>
+    <XFILE>
+      <ID>217</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:217</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>7</ID>
+      <TipoRis>AZZ</TipoRis>
+      <DscRis>Reset-service</DscRis>
+      <RifIDFileCSS>1</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>1</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:1</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Informatie op de Systeem</Capitolo>
+      <Corpo> &lt;BR/&gt; De uitrusting van de auto omvat de onderhoudsintervalindicator, die in het instrumentenpaneel is geïntegreerd. &lt;BR/&gt; De indicator geeft de bestuurder een reeks meldingen weer met betrekking tot de geplande onderhoudsbeurten waaraan de auto periodiek moet worden onderworpen. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Afstelling - Nulstelling indicator vervanging olie motor</Capitolo>
+      <Corpo>Nadat de motorolie is ververst, wordt de indicator handmatig gereset op de volgende manier: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; schakel het contact uit &lt;BR/&gt;  &lt;LI&gt; druk de knop ( &lt;B&gt; 1 &lt;/B&gt; ) in en houd deze ingedrukt &lt;BR/&gt;  &lt;LI&gt; zet het contact aan &lt;BR/&gt;  &lt;LI&gt; op het display verschijnt het bericht over het resetten van de motorolieverversingsindicator &lt;BR/&gt;  &lt;LI&gt; laat de knop ( &lt;B&gt; 1 &lt;/B&gt; ) los &lt;BR/&gt;  &lt;LI&gt; druk op de knop ( &lt;B&gt; 1 &lt;/B&gt; ) om te bevestigen &lt;BR/&gt;  &lt;BR/&gt; De onderhoudsintervalindicator is nu op nul gezet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299006187</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299006187</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299006187</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>25</Ordine>
+      <Capitolo>Afstelling - Nulstelling indicator interval van onderhoud</Capitolo>
+      <Corpo>Zodra de onderhoudswerkzaamheden zijn uitgevoerd, wordt de indicator handmatig gereset op de volgende manier: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; schakel het contact uit &lt;BR/&gt;  &lt;LI&gt; druk de knop ( &lt;B&gt; 1 &lt;/B&gt; ) in en houd deze ingedrukt &lt;BR/&gt;  &lt;LI&gt; zet het contact aan &lt;BR/&gt;  &lt;LI&gt; op het display verschijnt het bericht over het resetten van de onderhoudsintervalindicator &lt;BR/&gt;  &lt;LI&gt; laat de knop ( &lt;B&gt; 1 &lt;/B&gt; ) los &lt;BR/&gt;  &lt;LI&gt; druk op de knop ( &lt;B&gt; 1 &lt;/B&gt; ) om te bevestigen &lt;BR/&gt;  &lt;BR/&gt; De onderhoudsintervalindicator is nu op nul gezet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299006187</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>299006187</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299006187</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Avvertenza</Capitolo>
+      <Corpo> &lt;BR/&gt; Het resetten van de  &lt;B&gt; verlengde onderhoudsintervallen &lt;/B&gt;  is  &lt;B&gt; alleen mogelijk met behulp van de door de fabrikant voorgeschreven diagnoseapparatuur &lt;/B&gt;.  &lt;BR/&gt;  &lt;BR/&gt; Het is echter mogelijk om de verlengde onderhoudsintervallen te herstellen door deze procedure te volgen, maar hierdoor verandert het interval van een verlengd onderhoudsinterval naar een vast onderhoudsinterval. &lt;BR/&gt;  &lt;BR/&gt; Controleer voordat u het interval terugzet of er geen foutcodes in het geheugen staan  en of alle deuren gesloten zijn. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

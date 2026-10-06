@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:41:21">
+  <XDOCUMENTO>
+    <ID>199275862</ID>
+    <DOCNumber>GUP90437</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Hałas (stukanie) dochodzący z przedniej osi podczas skręcania przy niskiej prędkości</Titolo>
+    <InfoDoc>FRENI | STERZO | CARROZZERIA | SEL-SEL-P-34-20000813335958-05 | TICCHETTII | ZONA | RUOTA | RUOTE | MARCIA | CURVA | SENZA | INTERVENTO | FRENO | RIDOTTA | RIDOTTE | BASSE | CLIMA | SECCO | CALDO | FLANGIA | SUPPORTO | TAZZA | DISCO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199275862</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Poziom wiarygodności   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda stopnia wiarygodności &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niski poziom &lt;/B&gt; : Wykryte przez mechanika samochodowego, przypadek usterki niepotwierdzony przez producenta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** średni poziom &lt;/B&gt; : Częste przypadki usterki, potwierdzone przez techników serwisowych i mechaników. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** wysoki poziom &lt;/B&gt; : Potwierdzona anomalia, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199275862</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Obowiązywanie: &lt;/B&gt;  Pojazdy wyposażone w lekkie tarcze hamulcowe &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Układ: &lt;/B&gt;  Hamulce &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Element: &lt;/B&gt;  Talerz przedniego hamulca &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Usterka: &lt;/B&gt;  Hałas (stukanie) dochodzący z przedniej osi podczas skręcania z małą prędkością w suchych i gorących warunkach, BEZ naciskania pedału hamulca &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Błędy wykryte przez system autodiagnostyki: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Przyczyna: &lt;/B&gt;  Mikroskopijne drgania spowodowane niewielkimi ruchami między tarczą hamulcową a kołnierzem wspornika koła w przedniej osi, zwłaszcza na wewnętrznej powierzchni styku &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199275862</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Czynność: &lt;/B&gt;  Zdemontować tarcze hamulcowe z obu przednich kół i po każdej stronie koła (po lewej i po prawej), pomiędzy miseczką wewnętrznej tarczy hamulcowej a kołnierzem wspornika koła wsunąć podkładkę przylegającą. &lt;BR/&gt;  &lt;BR/&gt; Oczyścić tarcze za pomocą środka czyszczącego do hamulców, unikając ich smarowania. Oczyścić również oba kołnierze wspornika koła, nie smarując ich &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedura: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Uwaga: &lt;/B&gt;  Jeśli dany pojazd ma ponad 2 lata, należy wymienić śruby kół przedniej i tylnej osi. &lt;BR/&gt;  &lt;BR/&gt; Kod tarcz przyczepności dla pojazdów o obwodzie otworu 112: nr 34106884839 &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

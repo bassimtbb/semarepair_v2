@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:26:17">
+  <XDOCUMENTO>
+    <ID>75000517</ID>
+    <DOCNumber>DES75004</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Denso Single Zone Air Conditioning System</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Plant Description</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Description</Capitolo>
+      <Corpo>The control unit is located in the centre of the dashboard, integrated into the air conditioning system. &lt;BR/&gt; The system is single-zone and the control unit regulates a single temperature, distributing it throughout the passenger compartment. &lt;BR/&gt;&lt;BR/&gt; The diagnostic socket is a standard 16-pin (EOBD) type and is located in the passenger compartment under the dashboard on the driver&apos;s side. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Engineering parameters</Capitolo>
+      <Corpo>The control unit manages various parameters, which display all the signals coming from the various sensors distributed inside and outside the passenger compartment in order to control the climate control actuators and the engagement/disengagement of the compressor clutch.  &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; The position of all doors is indicated &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; The status of the buttons and their respective LEDs is indicated &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Power supply mode</Capitolo>
+      <Corpo>Indicates the condition in which the car is set at the time of shipment (dealer factory). In &quot;low consumption&quot; mode (also known as logistics mode), electrical loads are disabled to minimise battery power consumption.</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Errors</Capitolo>
+      <Corpo>The control unit is equipped with permanent error memory and stores the environmental parameters at the moment the error occurs. &lt;BR/&gt; &lt;BR/&gt; They are reported with the attached communication of their status: &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Active error &lt;/B&gt; &lt;BR/&gt; Error is currently detected &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Stored error &lt;/B&gt; &lt;BR/&gt; Error that has already been recorded in memory, and the fault is not currently present. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Error deletion &lt;/B&gt; &lt;BR/&gt; This only occurs with the operator&apos;s consent to delete the error using the delete key &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Active Diagnostics</Capitolo>
+      <Corpo>In the Active Diagnostics environment, the following are controlled: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Air conditioning vents &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Control unit keypad LEDs &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Display &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Electric fan. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>6</Ordine>
+      <Capitolo>Adjustments</Capitolo>
+      <Corpo> &lt;B&gt; Test learning of door actuators: &lt;/B&gt; To be used during initial installation or when replacing the control unit. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

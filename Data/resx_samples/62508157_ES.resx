@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:18:54">
+  <XDOCUMENTO>
+    <ID>62508157</ID>
+    <DOCNumber>GUR62846</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Desbloqueo manual del freno de estacionamiento electrónico no disponible.</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Guía de ajuste</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62508157</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Información del sistema</Capitolo>
+      <Corpo> &lt;BR/&gt; El freno de estacionamiento electrónico, que se activa mediante un botón, tiene la capacidad de mantener el vehículo inmóvil y seguro incluso con el motor apagado o sin suministro eléctrico. &lt;BR/&gt; Se activa automáticamente al apagar el motor y se desactiva cuando el vehículo comienza a moverse. &lt;BR/&gt; En caso de batería descargada o avería mecánica, puede ocurrir que el &lt;B&gt; freno de estacionamiento no se desactive &lt;/B&gt; &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62508157</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Desbloqueo de emergencia del freno de estacionamiento electrónico.</Capitolo>
+      <Corpo> &lt;BR/&gt; No existe un procedimiento para el desbloqueo de emergencia del freno de estacionamiento electrónico. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T13:09:25">
+  <XDOCUMENTO>
+    <ID>199001632</ID>
+    <DOCNumber>GUR59015</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Restablecimiento del sistema tras desconectar la batería.</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Guía de ajuste</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Localización Batería</Capitolo>
+      <Corpo> &lt;BR/&gt; La batería se encuentra en el compartimento del motor, en el lado del conductor, cerca de la mampara. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>199000661</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>199000661</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:199000661</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Procedimiento para desconectar la batería</Capitolo>
+      <Corpo> &lt;BR/&gt; Si es necesario desconectar la batería, es necesario: &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; Comprobar que todos los &lt;B&gt; dispositivos eléctricos &lt;/B&gt; del coche, como la radio, el navegador, etc., &lt;B&gt; estén apagados &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; Comprobar que el &lt;B&gt; encendido esté desconectado &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; Tener a mano el &lt;B&gt; código de la radio &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; A continuación, se puede proceder a desconectar la batería, &lt;B&gt; retirando primero el polo negativo y luego el positivo &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Después de desconectar la batería, espere unos minutos antes de realizar cualquier intervención en el sistema de airbags.</Corpo>
+      <RifIDFileIMGANI>62503878</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503878</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503878</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procedimiento para conectar la batería</Capitolo>
+      <Corpo> &lt;BR/&gt; Para volver a conectar la batería, proceda de la siguiente manera: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Conecte primero el polo positivo &lt;/B&gt; y luego el negativo de la batería &lt;BR/&gt;  &lt;LI&gt; Restablecer el código de la radio (si es necesario) &lt;BR/&gt; &lt;LI&gt; Borrar los posibles &lt;B&gt; errores presentes en la memoria &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Encender el contacto y esperar 40 segundos &lt;BR/&gt; &lt;LI&gt; Apagar el contacto &lt;BR/&gt;  &lt;LI&gt; Es posible que se enciendan las &lt;B&gt; luces indicadoras del sistema de control de estabilidad &lt;/B&gt; . Por lo tanto, es necesario conducir el vehículo durante unos kilómetros a velocidad constante para que se apaguen. &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503879</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503879</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503879</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Reparación de elevalunas eléctricos.</Capitolo>
+      <Corpo> &lt;BR/&gt; Procedimiento de inicialización de los elevalunas eléctricos: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Compruebe que &lt;B&gt; las puertas y las ventanillas estén cerradas &lt;/B&gt; . &lt;BR/&gt;  &lt;LI&gt; Encender el contacto &lt;BR/&gt; &lt;LI&gt; Pulsar el &lt;B&gt; botón de apertura/cierre de la ventanilla eléctrica &lt;/B&gt; y mantenerlo pulsado hasta que esta se haya &lt;B&gt; abierto &lt;/B&gt; completamente &lt;BR/&gt;  &lt;LI&gt; Levante el &lt;B&gt; botón de apertura/cierre de la ventanilla eléctrica &lt;/B&gt; y manténgalo levantado durante más de 3 segundos después de que esta se haya &lt;B&gt; cerrado &lt;/B&gt; por completo &lt;BR/&gt;  &lt;LI&gt; Se oirá una señal acústica que confirma que la operación se ha realizado correctamente &lt;BR/&gt; &lt;BR/&gt; Ahora el sistema está inicializado. &lt;BR/&gt; Repita el procedimiento para las ventanillas restantes. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

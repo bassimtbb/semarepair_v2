@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:46:20">
+  <XDOCUMENTO>
+    <ID>199287943</ID>
+    <DOCNumber>GUP92640</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Difficult to start and switch off using the switch; once started, the engine runs smoothly.</Titolo>
+    <InfoDoc>GEARBOX | B147A | START | DIFFICULT | TIRING | EFFORT | BUTTON | TURN | PANEL | INSTRUMENTS | DISPLAY | SWITCH OFF | STOP | LOCK | ROAD | WORKS | WELL | CORRECT | CORRECTLY | PRESSING | PUSHING |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199287943</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Level of reliability (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Reliability level key &lt;BR&gt;&lt;BR&gt; &lt;B&gt; * low level &lt;/B&gt; : Reported by a garage mechanic; fault case not recorded by the manufacturer. &lt;BR&gt;&lt;BR&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Widespread occurrence of the fault, confirmed by service technicians and independent repairers. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** high level &lt;/B&gt; : Confirmed fault, with a high degree of ‘recurrence’ reported by the manufacturer. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199287943</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System / fault identification</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Electronics &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Ignition switch &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; The vehicle experiences difficulty starting and switching off via the ignition switch, with the instrument panel failing to illuminate; once started, the engine runs normally &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Fault codes detected by the on-board diagnostics: &lt;/B&gt; B147A (Remote access key – Fault) &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Faulty ignition switch &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199287943</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check that the starter switch is working correctly and, if necessary, replace it &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; The faulty switch showed no visible defects and, following its replacement, no adjustments were required using diagnostic equipment. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

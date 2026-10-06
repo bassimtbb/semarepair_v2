@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T18:05:41">
+  <XDOCUMENTO>
+    <ID>199253549</ID>
+    <DOCNumber>DTM91772</DOCNumber>
+    <RifIDTipoRis>13</RifIDTipoRis>
+    <Titolo>MECHANICAL DATABASE - DIESEL</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>226</RifIDFileICO>
+    <XFILE>
+      <ID>226</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:226</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>13</ID>
+      <TipoRis>DTM</TipoRis>
+      <DscRis>Mechanical and Lubricant Data</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>4</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLDATO</IDLabel>
+        <Stringa>Description</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLUM</IDLabel>
+        <Stringa>Unit of measurement</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLVALORE</IDLabel>
+        <Stringa>Data</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>LINK</IDLabel>
+        <Stringa>Link</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Data List</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE DATA</Gruppo>
+      <Dato>Displacement</Dato>
+      <Valore>1968</Valore>
+      <UnitaMis>cm³</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE DATA</Gruppo>
+      <Dato>Cylinders</Dato>
+      <Valore>4</Valore>
+      <UnitaMis>No.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE DATA</Gruppo>
+      <Dato>Valve arrangement</Dato>
+      <Valore>DOHC</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE DATA</Gruppo>
+      <Dato>Intake/exhaust valves</Dato>
+      <Valore>Hydraulics</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE DATA</Gruppo>
+      <Dato>Injection order</Dato>
+      <Valore>1-3-4-2</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE DATA</Gruppo>
+      <Dato>Compression ratio</Dato>
+      <Valore>16.2</Valore>
+      <UnitaMis>:1</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE DATA</Gruppo>
+      <Dato>Compression pressure</Dato>
+      <Valore>19.0-31.0</Valore>
+      <UnitaMis>bar</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>IGNITION DATA</Gruppo>
+      <Dato>Battery Voltage</Dato>
+      <Valore>12</Valore>
+      <UnitaMis>Volt</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>IGNITION DATA</Gruppo>
+      <Dato>Glow plugs 1</Dato>
+      <Valore>BorgWarner</Valore>
+      <UnitaMis>Brand</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>IGNITION DATA</Gruppo>
+      <Dato> Glow plugs 1</Dato>
+      <Valore>059 963 319 AB</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>IGNITION DATA</Gruppo>
+      <Dato>Glow plugs 2</Dato>
+      <Valore>BorgWarner - (with integrated pressure sensor)</Valore>
+      <UnitaMis>Brand</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>IGNITION DATA</Gruppo>
+      <Dato> Glow plugs 2</Dato>
+      <Valore>03L 905 061 K - (with integrated pressure sensor)</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>EXHAUST GAS DATA</Gruppo>
+      <Dato>Minimum speed</Dato>
+      <Valore>730-930</Valore>
+      <UnitaMis>Revolutions per minute</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>EXHAUST GAS DATA</Gruppo>
+      <Dato>Minimum Speed - Smoke Test</Dato>
+      <Valore>730-930</Valore>
+      <UnitaMis>Revolutions per minute</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>EXHAUST GAS DATA</Gruppo>
+      <Dato>Accelerated Regime - Smoke Test</Dato>
+      <Valore>2300-2700</Valore>
+      <UnitaMis>Revolutions per minute</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>EXHAUST GAS DATA</Gruppo>
+      <Dato>Maximum Accelerated Speed</Dato>
+      <Valore>2.0</Valore>
+      <UnitaMis>s</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>EXHAUST GAS DATA</Gruppo>
+      <Dato>Test method</Dato>
+      <Valore>B</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>EXHAUST GAS DATA</Gruppo>
+      <Dato>Smoke opacity</Dato>
+      <Valore>1.5</Valore>
+      <UnitaMis>m-1</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Engine Oil - Viscosity</Dato>
+      <Valore>5W/30</Valore>
+      <UnitaMis>SAE</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Engine Oil - Manufacturer Specification</Dato>
+      <Valore>VW 507.00</Valore>
+      <UnitaMis>Ref. No.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Engine Oil and Filter - Quantity</Dato>
+      <Valore>4.7</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Manual Transmission Oil - Manufacturer Specification</Dato>
+      <Valore>VW G 052 527 A2 - (with 02Q gearbox)</Valore>
+      <UnitaMis>Ref. No.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Manual Transmission Oil - Quantity</Dato>
+      <Valore>2.15 - (with 02Q gearbox)</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Manual Transmission Oil - Empty Quantity</Dato>
+      <Valore>2.30 - (with 02Q gearbox)</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Semiautomatic Transmission Oil - Manufacturer Specification</Dato>
+      <Valore>VW G 055 529 A2 - (with 0GC gearbox)</Valore>
+      <UnitaMis>Ref. No.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Semiautomatic Transmission Oil - Quantity</Dato>
+      <Valore>6.0 - (with 0GC gearbox)</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Semiautomatic Transmission Oil - Unloaded Quantity</Dato>
+      <Valore>6.7-6.9 - (with 0GC gearbox)</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Rear Differential Oil - Viscosity</Dato>
+      <Valore>75W/90 - (until March 2019)</Valore>
+      <UnitaMis>SAE</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Rear Differential Oil - Manufacturer Specification</Dato>
+      <Valore>VW G 052 145 S2 (until March 2019)</Valore>
+      <UnitaMis>Ref. No.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Rear Differential Oil - Quantity</Dato>
+      <Valore>0.95</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Transfer box oil - Viscosity</Dato>
+      <Valore>75W/90</Valore>
+      <UnitaMis>SAE</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Transfer box oil - Manufacturer Specification</Dato>
+      <Valore>VW G 052 145</Valore>
+      <UnitaMis>Ref. No.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Transfer box oil - Quantity</Dato>
+      <Valore>0.85</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Haldex clutch oil - Manufacturer's specification</Dato>
+      <Valore>(VW G 060 175 A2 - until March 2019) - (VW G 065 175 A2 - from April 2019)</Valore>
+      <UnitaMis>Ref. No.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>ENGINE LUBRICANTS - GEARBOX</Gruppo>
+      <Dato>Haldex clutch oil - Quantity</Dato>
+      <Valore>0.65 - (0.75 when empty)</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>AUXILIARY FLUID DATA</Gruppo>
+      <Dato>Liquid Radiator</Dato>
+      <Valore>G12 Plus Plus</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>AUXILIARY FLUID DATA</Gruppo>
+      <Dato>Liquid Radiator - Manufacturer Specification</Dato>
+      <Valore>TL-VW 774G</Valore>
+      <UnitaMis>Ref. No.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>AUXILIARY FLUID DATA</Gruppo>
+      <Dato>Liquid Radiator - Quantity</Dato>
+      <Valore>8.0</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>AUXILIARY FLUID DATA</Gruppo>
+      <Dato>Brake fluid</Dato>
+      <Valore>DOT 4</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>AUXILIARY FLUID DATA</Gruppo>
+      <Dato>Brake Fluid - Manufacturer Specification</Dato>
+      <Valore>VW 501.14</Valore>
+      <UnitaMis>Ref. No.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>AUXILIARY FLUID DATA</Gruppo>
+      <Dato>Brake Fluid - Quantity</Dato>
+      <Valore>1.15 - (1.00 with automatic transmission)</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>AUXILIARY FLUID DATA</Gruppo>
+      <Dato>Radiator Thermostat Opening</Dato>
+      <Valore>85-89</Valore>
+      <UnitaMis>°C</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>AUXILIARY FLUID DATA</Gruppo>
+      <Dato>Pressure Liquid Cap Radiator</Dato>
+      <Valore>1.6-1.8</Valore>
+      <UnitaMis>bar</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>MECHANICAL DATA BRAKES</Gruppo>
+      <Dato>Minimum thickness of front discs (ventilated)</Dato>
+      <Valore>22.0</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>MECHANICAL DATA BRAKES</Gruppo>
+      <Dato>Minimum thickness of front brake pads</Dato>
+      <Valore>2.0</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>MECHANICAL DATA BRAKES</Gruppo>
+      <Dato>Minimum thickness Rear discs</Dato>
+      <Valore>8.0</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>MECHANICAL DATA BRAKES</Gruppo>
+      <Dato>Minimum thickness of rear brake pads</Dato>
+      <Valore>2.0</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>AIR CONDITIONING</Gruppo>
+      <Dato>Refrigerant gas</Dato>
+      <Valore>Consult link</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>75008087</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>75008087</ID>
+        <DOCNumber>NOT75102</DOCNumber>
+        <Documento>NOT: Refrigerant gas</Documento>
+        <URL>LINKDOC:75008087</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>AIR CONDITIONING</Gruppo>
+      <Dato>Refrigerant Gas - Quantity</Dato>
+      <Valore>485-515 - (with R134a - check label)</Valore>
+      <UnitaMis>grams</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>AIR CONDITIONING</Gruppo>
+      <Dato> Refrigerant Gas - Quantity</Dato>
+      <Valore>445-475 - (with R1234yf - check label)</Valore>
+      <UnitaMis>grams</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>AIR CONDITIONING</Gruppo>
+      <Dato>Oil Compressor</Dato>
+      <Valore>Consult link</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>199247136</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199247136</ID>
+        <DOCNumber>NOT76564</DOCNumber>
+        <Documento>NOT: Oil Compressor</Documento>
+        <URL>LINKDOC:199247136</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>AIR CONDITIONING</Gruppo>
+      <Dato>Compressor Oil - Quantity</Dato>
+      <Valore>Consult link</Valore>
+      <UnitaMis>cm³</UnitaMis>
+      <RifIDFileIMG>199073840</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199073840</ID>
+        <DOCNumber>NOT76106</DOCNumber>
+        <Documento>NOT: Compressor oil - quantity</Documento>
+        <URL>LINKDOC:199073840</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+  </XDOCUMENTO>
+</dataroot>

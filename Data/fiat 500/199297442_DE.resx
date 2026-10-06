@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-16T23:52:24">
+  <XDOCUMENTO>
+    <ID>199297442</ID>
+    <DOCNumber>GUP94734</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Zündaussetzer und Fehlzündungen nach einer kurzen Fahrt auf der Straße</Titolo>
+    <InfoDoc>INIEZIONE | MOTORE | P0301 | P0304 | BOBINA | ACCENSIONE | CANDELE | CANDELA | CILINDRI | CILINDRO | GIRA | MALE | ACCENDE | IRREGOLARE | PERDE | STRADA | BREVE | TRAGITTO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199297442</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Legende zur Zuverlässigkeitsstufe &lt;BR&gt; &lt;BR&gt; &lt;B&gt; * niedrige Stufe &lt;/B&gt; : Feststellung durch den Kfz-Mechaniker, vom Hersteller nicht dokumentierter Fehlerfall. &lt;BR&gt; &lt;BR&gt;  &lt;B&gt; ** mittleres Niveau &lt;/B&gt; : Umfangreiche Fehlerfälle, die von Servicetechnikern und Kfz-Mechanikern festgestellt wurden. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** hohes Niveau &lt;/B&gt; : Gewissheit über den Fehler, gute „Wiederholungsrate“, vom Hersteller gemeldet. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199297442</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Einspritzung &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Bauteil: &lt;/B&gt; Zündspule &lt;BR&gt; &lt;BR&gt; &lt;LI&gt;   &lt;B&gt; Störung: &lt;/B&gt; Das Fahrzeug weist nach einer kurzen Fahrt Zündaussetzer mit Fehlzündungen auf. Durch einen Neustart des Fahrzeugs wird das Problem vorübergehend behoben. &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose erkannte Fehler: &lt;/B&gt; &lt;UL&gt; &lt;LI&gt;   P0300 (Fehlzündung in nicht definierten Zylindern – Fehler) &lt;BR&gt; &lt;LI&gt; P0304 (Fehlzündung in Zylinder 4 – Fehler) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Defekte Zündspule &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199297442</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Die ordnungsgemäße Funktion überprüfen und die Zündspule gegebenenfalls austauschen &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR&gt; &lt;BR&gt; &lt;LI&gt;   &lt;B&gt; Hinweis: &lt;/B&gt; Im vorliegenden Fall ist der Motor mit einer einzigen Zündspule ausgestattet, die die 4 Zündkerzen an den Zylindern versorgt. &lt;BR&gt; Das defekte Bauteil wies Oxidationsspuren am Zündstecker des 4. Zylinders ausgehend von der Ventilsteuerung auf; nach dem Austausch der Zündspule wurde die Störung endgültig behoben. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>299022235</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299022235</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299022235</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

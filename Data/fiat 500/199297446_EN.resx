@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:52:01">
+  <XDOCUMENTO>
+    <ID>199297446</ID>
+    <DOCNumber>GUP94737</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Significant drop in performance, with jerky operation and unstable engine speed when the vehicle is </Titolo>
+    <InfoDoc>INJECTION | SENSOR | REVOLUTIONS | ENGINE | YIELDS | LOSES | DROPS | MISSES | POWER | SPEED | DECREASE | SIGNIFICANTLY | DRASTIC | DRASTICALLY | JERKS | JOLTS | KICKS | PULLS | BACK | RISES | FALLS | UNSTABLE | RPM | ENGINE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199297446</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Level of reliability (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Reliability level key &lt;BR&gt; &lt;BR&gt; &lt;B&gt; * low level &lt;/B&gt; : Reported by a garage mechanic; fault case not recorded by the manufacturer. &lt;BR&gt; &lt;BR&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Widespread occurrence of the fault, confirmed by service technicians and independent repairers. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** high level &lt;/B&gt; : Confirmed fault, with a high degree of ‘recurrence’ reported by the manufacturer. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199297446</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System / fault identification</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Injection &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Engine speed sensor &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; The vehicle exhibits significantly reduced performance even at low revs, jerky operation and an irregular engine speed whilst stationary. &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Errors detected by the self-diagnostic system: &lt;/B&gt; - - &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Faulty engine speed sensor &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199297446</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check that the engine speed sensor is working correctly and, if necessary, replace it &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; The faulty component is located between the engine and the radiator, on the lower part of the engine, on the passenger side, on the crankshaft pulley. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

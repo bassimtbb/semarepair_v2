@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:26:18">
+  <XDOCUMENTO>
+    <ID>75000517</ID>
+    <DOCNumber>DES75004</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Denso-Einzonen-Klimaanlage</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Beschreibung Anlage</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Beschreibung</Capitolo>
+      <Corpo>Das Steuergerät befindet sich im mittleren Bereich des Armaturenbretts und ist in die Klimaanlage integriert. &lt;BR/&gt; Es handelt sich um ein Ein-Zonen-System, bei dem das Steuergerät nur eine Temperatur regelt und diese im Fahrgastraum verteilt. &lt;BR/&gt;&lt;BR/&gt; Die Diagnosesteckdose ist ein standardisierter 16-poliger Stecker (EOBD) und befindet sich im Fahrgastraum unterhalb des Armaturenbretts auf der Fahrerseite. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Technische Parameter</Capitolo>
+      <Corpo>Das Steuergerät verwaltet verschiedene Parameter, die alle Signale der verschiedenen Sensoren innerhalb und außerhalb des Fahrgastraums anzeigen, um die Stellglieder der Klimaanlage sowie das Ein- und Ausschalten der Kompressorkupplung zu steuern.  &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Die Position aller Klappen wird angezeigt &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Der Status der Tasten und der entsprechenden LEDs wird angezeigt &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Betankungsarten</Capitolo>
+      <Corpo>Bezeichnet den Zustand, in dem das Fahrzeug zum Zeitpunkt des Versands (vom Hersteller oder vom Händler) eingestellt ist. Im „Energiesparmodus“ (auch als Logistikmodus bezeichnet) sind die elektrischen Verbraucher deaktiviert, um den Stromverbrauch der Batterie auf ein Minimum zu reduzieren.</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Fehler</Capitolo>
+      <Corpo>Das Steuergerät verfügt über einen permanenten Fehlerspeicher und speichert die Umgebungsparameter zum Zeitpunkt des Auftretens des Fehlers. &lt;BR/&gt; &lt;BR/&gt; Diese werden zusammen mit einer entsprechenden Statusmeldung angezeigt: &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Aktiver Fehler &lt;/B&gt; &lt;BR/&gt; Der Fehler wird derzeit erkannt &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Gespeicherter Fehler &lt;/B&gt; &lt;BR/&gt; Der Fehler wurde bereits im Speicher erfasst, die Störung liegt derzeit jedoch nicht vor. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Löschen von Fehlern &lt;/B&gt; &lt;BR/&gt; Dies erfolgt nur mit Zustimmung des Bedieners, der den Fehler über die Löschtaste löscht &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Aktive Diagnosen</Capitolo>
+      <Corpo>Im Bereich „Aktive Diagnosen“ werden gesteuert: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Klappen der Klimaanlage &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; LEDs des Steuergerät-Bedienfelds &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Display &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Elektrischer Lüfter. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>6</Ordine>
+      <Capitolo>Einstellungen</Capitolo>
+      <Corpo> &lt;B&gt; Test zur Erkennung der Aktuatoren der Klappen: &lt;/B&gt; Bei der Erstinstallation oder beim Austausch des Steuergeräts durchzuführen. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

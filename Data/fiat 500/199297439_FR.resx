@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:52:00">
+  <XDOCUMENTO>
+    <ID>199297439</ID>
+    <DOCNumber>GUP94732</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Démarrages sporadiques, fonctionnement irrégulier, régime moteur bas, coupures involontaires.</Titolo>
+    <InfoDoc>INJECTION | CORPS | PAPILLON | SALIS | ENCRASSÉ | BRÛLÉ | S'ALLUME | DÉMARRE | PART | FONCTIONNE | TOURNE | MAL | INSTABLE | RALENTI | S'ÉTEINT | BLOQUE | ARRÊTE | BLOCAGE | MARCHE | MOUVEMENT | MOTEUR | DÉMARRAGE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199297439</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Niveau de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Légende des niveaux de fiabilité &lt;BR&gt; &lt;BR&gt; &lt;B&gt; * niveau faible &lt;/B&gt; : Constat du réparateur indépendant, cas de panne non répertorié par le constructeur. &lt;BR&gt; &lt;BR&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt; : Cas de panne fréquents, constatés par les techniciens d&apos;assistance et les réparateurs indépendants. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** niveau élevé &lt;/B&gt; : Certitude de l&apos;anomalie, bon degré de « récurrence » signalé par le constructeur. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199297439</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Injection &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Corps de papillon &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Le véhicule présente, de manière sporadique, des problèmes de démarrage ou des coupures de moteur involontaires. Parallèlement, on constate un fonctionnement irrégulier, avec un régime de ralenti bas. Une fois démarré et en marche, le fonctionnement est régulier. &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; - - &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Corps de papillon encrassé &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199297439</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier l&apos;état et le bon fonctionnement du corps de papillon ; si nécessaire, procéder à son nettoyage &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Dans le cas présent, le nettoyage du corps de papillon a été effectué afin de résoudre définitivement le problème. &lt;BR&gt; Ce composant est situé entre le moteur et l&apos;habitacle, côté conducteur, au-dessus du moteur. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

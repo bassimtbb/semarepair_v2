@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T10:56:08">
+  <XDOCUMENTO>
+    <ID>199273903</ID>
+    <DOCNumber>GUP89665</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Waarschuwing „OLIEPEIL TE HOOG”</Titolo>
+    <InfoDoc>INIEZIONE | SEL-SEL-P-0-20000789766373 | 2C6C00 | 35BD00 | INDICAZIONE | MESSAGGIO | DISPLAY | OIL | LEVEL | TOO | HIGH | MOTORE | CONTAMINATO | CARBURANTE | AGGIORNARE | AGGIORNAMENTO | SOFTWARE | CENTRALINA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparatiehandleiding</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199273903</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Betrouwbaarheidsgraad   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda van de betrouwbaarheidsgraad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * laag niveau &lt;/B&gt; : Vastgesteld door de autoreparateur, storingsgeval niet bevestigd door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** gemiddeld niveau &lt;/B&gt; : Veelvoorkomende storingsgevallen, vastgesteld door servicetechnici en reparateurs. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** hoog niveau &lt;/B&gt; : Bevestigde storing, hoge mate van &quot;herhaalbaarheid&quot; gemeld door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273903</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificatie van het systeem/de storing</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Systeem: &lt;/B&gt;  Injectie &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Apparaat: &lt;/B&gt;  Injectiecontrole-eenheid &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Storing: &lt;/B&gt;  Waarschuwing „OLIEPEIL TE HOOG“ &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Door de zelfdiagnose gedetecteerde fouten: &lt;/B&gt;  Een of meer van de volgende fouten: &lt;BR/&gt;  &lt;UL&gt;   &lt;LI&gt;  2C6C00 (Motoroliepeil te hoog) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  35BD00 (Verkort vervangingsinterval motorolie) &lt;/UL&gt;   &lt;LI&gt;  &lt;B&gt; Oorzaak: &lt;/B&gt;  Onjuiste software van de injectieregeleider &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273903</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparatieprocedure</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Handeling: &lt;/B&gt;  Controleer het motoroliepeil: &lt;BR/&gt;  &lt;OL&gt;   &lt;LI&gt;  Als het peil te hoog is, voer dan de procedure uit om het oliepeil te herstellen &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Als het peil correct is, duidt dit op een softwareprobleem in de injectiecontroller dat alleen kan worden opgelost door de betreffende update uit te voeren &lt;/OL&gt;    &lt;LI&gt;  &lt;B&gt; Procedure: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Opmerking: &lt;/B&gt;   &lt;I&gt; LET OP &lt;/I&gt; : &lt;BR/&gt;  &lt;UL&gt;   &lt;LI&gt;  Als er DTC’s of symptomatische omstandigheden aanwezig zijn die afwijken van de genoemde, los deze dan eerst op voordat u verdergaat met dit bulletin. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Om de update uit te voeren, moet de accu van de auto optimaal opgeladen zijn of worden ondersteund door een acculader of een extra accu, zodat de nominale spanning van 12 V gewaarborgd is. Schakel alle verlichting en accessoires uit om ontlading te voorkomen.  &lt;/UL&gt; Geschatte tijd voor het herstellen van het motoroliepeil: 40 minuten. &lt;BR/&gt;  &lt;BR/&gt; Geschatte tijd voor het herstellen van het motoroliepeil en het uitvoeren van de software-update van de injectiecontroller: 1 uur en 25 minuten &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

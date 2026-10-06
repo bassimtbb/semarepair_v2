@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:46:51">
+  <XDOCUMENTO>
+    <ID>199288548</ID>
+    <DOCNumber>GUP92964</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Ativação do modo de recuperação, detetado sobreaquecimento do motor</Titolo>
+    <InfoDoc>INIEZIONE | P17D8 | PROTEZIONE | LENTA | PERFORMANCE | EMERGENZA | TEMPERATURA | BLOCCO | TERMOSTATO | VENTOLA RAFFREDDAMENTO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199288548</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda do grau de fiabilidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nível baixo &lt;/B&gt; : Detecção pelo mecânico, caso de avaria não constatado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nível médio &lt;/B&gt; : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nível alto &lt;/B&gt; : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199288548</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sistema: &lt;/B&gt;  Circuito de arrefecimento do motor &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt;  Bomba de água do sistema de arrefecimento do motor &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Anomalia: &lt;/B&gt;  O veículo apresenta uma perda significativa de potência acompanhada de um sobreaquecimento do motor, o que leva a unidade de controlo a colocar o sistema em modo Limp Home.  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Erros detetados pelo autodiagnóstico: &lt;/B&gt;  P17D8 (Sistema de monitorização do binário do motor, limite de controlo excedido) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Causa: &lt;/B&gt;  Bloqueio da bomba de água &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199288548</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Intervenção: &lt;/B&gt;  Verificar e, se necessário, proceder à substituição da bomba de água &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;   &lt;OL&gt;    1.  &lt;B&gt;   Verificação inicial: &lt;/B&gt;    &lt;UL&gt;   &lt;LI&gt;  Verificar os parâmetros do sensor de temperatura do líquido de arrefecimento através do diagnóstico. &lt;BR/&gt;    &lt;LI&gt;  Efetuar um teste de estrada para avaliar o comportamento do sensor.   &lt;/UL&gt; 2.   &lt;B&gt; Se o valor lido for demasiado elevado: &lt;/B&gt;  &lt;UL&gt;     &lt;LI&gt;   Verificar o nível do óleo do motor e atestar, se necessário. &lt;BR/&gt;    &lt;LI&gt; Utilizando o instrumento de diagnóstico, ativar a ventoinha de arrefecimento. &lt;/UL&gt;   3.  &lt;B&gt;   Se a ventoinha se ativar corretamente: &lt;/B&gt;  &lt;UL&gt;     &lt;LI&gt;    Verifique a temperatura do líquido no tubo de saída do corpo do termóstato. &lt;/UL&gt;   4.  &lt;B&gt;   Se a temperatura for demasiado baixa: &lt;/B&gt;  &lt;UL&gt;     &lt;LI&gt;    Desmonte a bomba de água. &lt;BR/&gt;    &lt;LI&gt;  Nota: Não desligue a cablagem elétrica. &lt;BR/&gt;    &lt;LI&gt; Com o instrumento de diagnóstico, ative a válvula de controlo da bomba de água. &lt;/UL&gt;   5.  &lt;B&gt;    Resultado do teste da válvula de controlo:  &lt;/B&gt;  &lt;UL&gt;  	 &lt;LI&gt;  Se a válvula estiver bloqueada, substitua a bomba de água. &lt;BR/&gt;    &lt;LI&gt;  Se a bomba estiver a funcionar, verifique se existem eventuais problemas no sistema de arrefecimento ou no motor. &lt;/UL&gt;  &lt;/OL&gt;  &lt;LI&gt;  &lt;B&gt; Nota: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299021988</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299021988</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299021988</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

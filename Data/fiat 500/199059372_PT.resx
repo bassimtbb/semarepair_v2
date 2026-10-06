@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-19T19:25:57">
+  <XDOCUMENTO>
+    <ID>199059372</ID>
+    <DOCNumber>FLT76031</DOCNumber>
+    <RifIDTipoRis>37</RifIDTipoRis>
+    <Titolo>Localização e Substituição - Até 2011</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>37</ID>
+      <TipoRis>FLT</TipoRis>
+      <DscRis>Filtro de Habitáculo</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199059372</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Procedimento</Capitolo>
+      <Corpo> &lt;B&gt; Dimensões do filtro: &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; L = 205 mm. &lt;BR/&gt;  &lt;LI&gt; H = 177 mm. &lt;BR/&gt;  &lt;LI&gt; S = 18 mm. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Tempo estimado para a substituição: &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; 10 minutos &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Localização: &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; No interior do habitáculo &lt;BR/&gt;  &lt;LI&gt; Lado do passageiro &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Substituição: &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Remova a divisória de plástico ao lado do túnel central &lt;BR/&gt;  &lt;LI&gt; Deslize o filtro ao longo das guias do suporte (da esquerda para a direita) &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Remontagem: &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Siga o procedimento inverso</Corpo>
+      <RifIDFileIMGANI>299025045</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025045</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025045</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

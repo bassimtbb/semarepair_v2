@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2021-05-21T05:30:47">
+<XDOCUMENTO>
+<ID>199007077</ID>
+<DOCNumber>INT76338</DOCNumber>
+<RifIDTipoRis>21</RifIDTipoRis>
+<Titolo>Volkswagen Golf VII</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>294</RifIDFileICO>
+<XFILE>
+<ID>294</ID>
+<Type>IMG</Type>
+<URL>GETFILE:294</URL>
+</XFILE>
+<XTIPORIS>
+<ID>21</ID>
+<TipoRis>INT</TipoRis>
+<DscRis>Richiami Ufficiali</DscRis>
+<RifIDFileCSS>293</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>293</ID>
+<Type>CSS</Type>
+<URL>GETFILE:293</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199007077</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Fonte dati - Ministero dei Trasporti</Capitolo>
+<Corpo>&lt;B&gt;Costruttore:&lt;/B&gt; Gruppo Volkswagen &lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Marca:&lt;/B&gt; Volkswagen &lt;BR/&gt;&lt;BR/&gt;Anomalie riconosciute dalle case costruttrici in base al D.D. 78/2000</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199007077</RifIDDoc>
+<Ordine>2</Ordine>
+<Capitolo>Volkswagen Golf VII</Capitolo>
+<Corpo>&lt;BR/&gt;Numero Veicoli: 462&lt;BR/&gt;Periodo di produzione: non dichiarato&lt;BR/&gt;Descrizione Difetto: possibile malfunzionamento iniettori ad altezza emissioni&lt;BR/&gt;Azioni correttive: sostituzione&lt;BR/&gt;Riferimento consultare concessionari&lt;BR/&gt;Note Cod. 24FO telai consultare concessionari&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 716&lt;BR/&gt;Periodo di produzione: NON INDICATO&lt;BR/&gt;Descrizione Difetto: POSSIBILE MALFUNZIONAMENTO BLOCCAGGIO POGGIATESTA ANTERIORI&lt;BR/&gt;Azioni correttive: SOSTITUZIONE GUIDE POGGIATESTA&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note COD 72H5 TELAI CONSULTARE CONCESSIONARI&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 11206&lt;BR/&gt;Periodo di produzione: NON INDICATO&lt;BR/&gt;Descrizione Difetto: POSSIBILE ROTTURA LEVA DELLA SICURA MANUALE PER BAMBINI E SUO IMPROVVISO DISINSERIMENTO CAUSA FORTI VIBRAZIONI&lt;BR/&gt;Azioni correttive: CONTROLLO FUNZIONAMENTO BLOCCO SICUREZZA&lt;BR/&gt;Riferimento 800865579&lt;BR/&gt;Note COD 58C9 TELAI CONCESSIONARI&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 54&lt;BR/&gt;Periodo di produzione: NON INDICATO&lt;BR/&gt;Descrizione Difetto: POSSIBILE MALFUNZIONAMENTO CUSCINETTO RUOTE ANTERIORI&lt;BR/&gt;Azioni correttive: SOSTITUZIONE&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note COD 40L2 TELAI CONSULTARE CONCESSIONARI&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 286&lt;BR/&gt;Periodo di produzione: NON INDICATO&lt;BR/&gt;Descrizione Difetto: PORTA CUSCINETTO RUOTE POSTERIORI NON A NORMA&lt;BR/&gt;Azioni correttive: SOSTITUZIONE PORTA CUSCINETTI&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note COD 42I2 TELAI CONSULTARE CONCESSIONARI&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 3802&lt;BR/&gt;Periodo di produzione: non indicato&lt;BR/&gt;Descrizione Difetto: Se con cambio sequenziale diretto a sei marce possibile malfunzionamento frizione&lt;BR/&gt;Azioni correttive: Modifica software centralina cambio&lt;BR/&gt;Riferimento Concessionari&lt;BR/&gt;Note Cod 37E8 Intervallo telai consultare Concessionari&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 5759&lt;BR/&gt;Periodo di produzione: MAG 2018 AGO 2018&lt;BR/&gt;Descrizione Difetto: POSSIBILE INCOMPLETA SALDATURA GUIDE POGGIATESTA POSTERIORI&lt;BR/&gt;Azioni correttive: EVENTUALE SOSTITUZIONE TELAIO SCHIENALE&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note COD 72H8 TELAI CONSULTARE CONCESSIONARI&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 339&lt;BR/&gt;Periodo di produzione: ANNI 2016/2017&lt;BR/&gt;Descrizione Difetto: POSSIBILE NON ATTIVAZIONE AIRBAG E/O PRETENSIONATORE CONDUCENTE E PASSEGGERO&lt;BR/&gt;Azioni correttive: SOSTITUZIONE COMPONETI DIFETTOSI&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note COD 69P4 TELAI CONSULTARE CONCESSIONARI&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 10989&lt;BR/&gt;Periodo di produzione: ANNI 2016/2017&lt;BR/&gt;Descrizione Difetto: POSSIBILE MALFUNZIONAMENTO SICURA MANUALE PER BAMBINI&lt;BR/&gt;Azioni correttive: CONTROLLO SERRATURE PORTE POSTERIORI&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note COD 58C9 TELAI CONSULTARE CONCESSIONARI&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199007077</RifIDDoc>
+<Ordine>30</Ordine>
+<Capitolo>Volkswagen Golf VII Variant</Capitolo>
+<Corpo>&lt;BR/&gt;Numero Veicoli: 10989&lt;BR/&gt;Periodo di produzione: ANNI 2016/2017&lt;BR/&gt;Descrizione Difetto: POSSIBILE MALFUNZIONAMENTO SICURA MANUALE PER BAMBINI&lt;BR/&gt;Azioni correttive: CONTROLLO SERRATURE PORTE POSTERIORI&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note COD 58C9 TELAI CONSULTARE CONCESSIONARI&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Numero Veicoli: 11206&lt;BR/&gt;Periodo di produzione: NON INDICATO&lt;BR/&gt;Descrizione Difetto: POSSIBILE ROTTURA LEVA DELLA SICURA MANUALE PER BAMBINI E SUO IMPROVVISO DISINSERIMENTO CAUSA FORTI VIBRAZIONI&lt;BR/&gt;Azioni correttive: CONTROLLO FUNZIONAMENTO BLOCCO SICUREZZA&lt;BR/&gt;Riferimento 800865579&lt;BR/&gt;Note COD 58C9 TELAI CONCESSIONARI&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199007077</RifIDDoc>
+<Ordine>40</Ordine>
+<Capitolo>Volkswagen Golf/Golf Variant VII Con Centralina Abs/esp (mk60)</Capitolo>
+<Corpo>&lt;BR/&gt;Numero Veicoli: 51621&lt;BR/&gt;Periodo di produzione: ANNI 2002/2013&lt;BR/&gt;Descrizione Difetto: POSSIBILE INTERRUZIONE COLLEGAMENTO A MASSA DELLA CENTRALINA PER SOVRACCARICO TERMOMECCANICO&lt;BR/&gt;Azioni correttive: INSTALLLAZIONE NUOVO SOFTWARE&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note COD 45F2 TELAI CONSULTARE CONCESSIONARI&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199007077</RifIDDoc>
+<Ordine>50</Ordine>
+<Capitolo>Volkswagen Golf VII Performance</Capitolo>
+<Corpo>&lt;BR/&gt;Numero Veicoli: 37&lt;BR/&gt;Periodo di produzione: ANNO MODELLO 2017&lt;BR/&gt;Descrizione Difetto: TARGHETTE PRESSIONE PNEUMATICI ERRATE ED EVENTUALE SCOPPIO PNEUMATICI&lt;BR/&gt;Azioni correttive: INSTALLAZIONE TARGHETTA CON INDICAZIONI ESATTE&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note COD 09A5 TELAI CONSULTARE CONCESSIONARI&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199007077</RifIDDoc>
+<Ordine>60</Ordine>
+<Capitolo>Volkswagen Golf VII Con Motore Diesel Start/Stop</Capitolo>
+<Corpo>&lt;BR/&gt;Numero Veicoli: 4976&lt;BR/&gt;Periodo di produzione: NON INDICATO&lt;BR/&gt;Descrizione Difetto: POSSIBILE MALFUNZIONAMENTO MOTORINO AVVIAMENTO E RISCHIO INCENDIO&lt;BR/&gt;Azioni correttive: SOSTITUZIONE INTERRUTTORI ELETTROMAGNETICI&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note COD 27F9 TELAI CONSULTARE CONCESSIONARI&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199007077</RifIDDoc>
+<Ordine>70</Ordine>
+<Capitolo>Volkswagen Golf VII con motore 1.2l/1.6l</Capitolo>
+<Corpo>&lt;BR/&gt;Numero Veicoli: 271&lt;BR/&gt;Periodo di produzione: NON INDICATO&lt;BR/&gt;Descrizione Difetto: POSSIBILE DISTACCO VITI SCATOLA VARIATORE DI FASE E FUORIUSCITA OLIO MOTORE&lt;BR/&gt;Azioni correttive: SOSTITUZIONE VARIATORE&lt;BR/&gt;Riferimento CONCESSIONARI&lt;BR/&gt;Note COD 15H2 TELAI CONSULTARE CONCESSIONARI&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XLINKUTILI>
+<RifIDDoc>199007077</RifIDDoc>
+<LinkUtili>Link Ministero delle Infrastrutture e dei Trasporti</LinkUtili>
+<Ordine>1</Ordine>
+<RifIDDocLink>15000122</RifIDDocLink>
+<XLINKDOC>
+<ID>15000122</ID>
+<DOCNumber>LNK00008</DOCNumber>
+<Documento>Vai a: Richiami - Ministero dei Trasporti</Documento>
+<URL>LINKDOC:15000122</URL>
+</XLINKDOC>
+</XLINKUTILI>
+</XDOCUMENTO>
+</dataroot>

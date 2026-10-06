@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:45:09">
+  <XDOCUMENTO>
+    <ID>199284104</ID>
+    <DOCNumber>GUP92042</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Falha na partida do motor, várias anomalias de natureza elétrica e acendimento de luzes de aviso de </Titolo>
+    <InfoDoc>ILLUMINAZIONE | ELETTRONICA | BODY | COMPUTER | B1010 | B1011 | B1017 | B1023 | B1028 | B1048 | B1057 | B1058 | P0504 | P181D | U0422 | U0426 | U1700 | LUCI | FRECCE | ACCESE | AVARIA | MOTORE | MIL | START&amp;STOP | AIRBAG | VETRI | BAULE | PORTELLONE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199284104</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda do grau de fiabilidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nível baixo &lt;/B&gt; : Detecção pelo mecânico, caso de avaria não constatado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nível médio &lt;/B&gt; : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nível alto &lt;/B&gt; : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284104</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sistema: &lt;/B&gt;  Eletrónica  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt;  Computador de bordo &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Anomalia: &lt;/B&gt;  O motor não arranca e desligou-se repentinamente durante a condução, com subsequente piscar das quatro luzes de emergência durante a tentativa de arranque. Falha no funcionamento dos vidros elétricos, dos indicadores de direção, da porta traseira e da luz de aviso do travão de mão; acendimento das luzes de aviso de avaria do motor, do airbag, de avaria geral e do Start&amp;Stop. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Erros detetados pelo autodiagnóstico: &lt;/B&gt;  Um ou mais dos seguintes:  &lt;UL&gt;   &lt;LI&gt;  B1010 (Interruptor do pedal do travão - Avaria) &lt;BR/&gt;  &lt;LI&gt;  B1011 (Luz de travão traseira esquerda   - Erro na cablagem) &lt;BR/&gt;  &lt;LI&gt;  B1017 (Relé de fecho das portas   - Erro na cablagem) &lt;BR/&gt;  &lt;LI&gt;  B1023 (Luzes da matrícula   - Erro na cablagem)  &lt;BR/&gt;  &lt;LI&gt;  B1028 (Luz de travão traseira direita   - Erro na cablagem) &lt;BR/&gt;  &lt;LI&gt;  B1048 (Interruptor CITY   - Avaria) &lt;BR/&gt;  &lt;LI&gt;  B1057 (Interruptor do elevador de vidro do lado do condutor - Erro) &lt;BR/&gt;  &lt;LI&gt;  B1058 (Interruptor do elevador de vidro do lado do passageiro - Erro) &lt;BR/&gt;  &lt;LI&gt;  P0504 (Relação do interruptor do travão 1-2 - Relação incorreta) &lt;BR/&gt;  &lt;LI&gt;  P181D (Sensor de posição da alavanca das mudanças - posição neutra: sinal incorreto) &lt;BR/&gt;  &lt;LI&gt;  U0422 (Unidade de controlo da suspensão ativa -   Dados recebidos inválidos) &lt;BR/&gt;  &lt;LI&gt;  U0426 (Módulo de comando do aquecedor auxiliar   - Dados recebidos inválidos) &lt;BR/&gt;  &lt;LI&gt;  U1700 (Barramento de dados CAN - Computador da carroçaria -   Erro, ausência de comunicação) &lt;/UL&gt;  &lt;LI&gt;  &lt;B&gt; Causa: &lt;/B&gt;  Ligações do computador da carroçaria oxidadas &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284104</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Intervenção: &lt;/B&gt;  Verificar o estado das ligações do computador de bordo e, se necessário, proceder à sua reparação &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Nota: &lt;/B&gt;  - -  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

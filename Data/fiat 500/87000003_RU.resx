@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T12:12:42">
+  <XDOCUMENTO>
+    <ID>87000003</ID>
+    <DOCNumber>FUS87003</DOCNumber>
+    <RifIDTipoRis>20</RifIDTipoRis>
+    <Titolo>Referencje i lokalizacja</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>265</RifIDFileICO>
+    <XFILE>
+      <ID>265</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:265</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>20</ID>
+      <TipoRis>FUS</TipoRis>
+      <DscRis>Bezpieczniki i przekaźniki</DscRis>
+      <RifIDFileCSS>264</RifIDFileCSS>
+      <RifIDTemplate>8</RifIDTemplate>
+      <XFILE>
+        <ID>264</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:264</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLDESCRIZIONE</IDLabel>
+        <Stringa>Opis</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLNUMERO</IDLabel>
+        <Stringa>Numer</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLRIFERIMENTO</IDLabel>
+        <Stringa>Odniesienie</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XFUSCONN>
+      <RifIDDoc>87000003</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Titolo>Lokalizacja skrzynek bezpieczników</Titolo>
+      <RifIDFileIMGANI>62504825</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>62500349</ID>
+      <XFILE>
+        <ID>62504825</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504825</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>62500349</RifIDImmagine>
+        <Numero>1</Numero>
+        <Descrizione>Skrzynka bezpieczników w kabinie pasażerskiej</Descrizione>
+        <Riferimento>Pod kierownicą w lewym dolnym rogu</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>62500349</RifIDImmagine>
+        <Numero>2</Numero>
+        <Descrizione>Skrzynka bezpieczników w komorze silnika</Descrizione>
+        <Riferimento>Komora silnika – położenie boczne</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>87000003</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Titolo>Skrzynka bezpieczników - Kabina</Titolo>
+      <RifIDFileIMGANI>609</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87000003</ID>
+      <XFILE>
+        <ID>609</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:609</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Prawe światło mijania</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Lewe światło mijania</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Moduł regulacji świateł</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F31</Numero>
+        <Descrizione>Zasilanie styku INT/A (przełącznik zapłonu)</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F32</Numero>
+        <Descrizione>Oświetlenie wnętrza / bagażnika / podwozia</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Gniazdo diagnostyczne</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Moduł sterujący klimatyzacją / odbiornik radiowy</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Przełącznik świateł hamowania</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Deska rozdzielcza</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F38</Numero>
+        <Descrizione>Moduł sterujący zamykaniem drzwi</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F43</Numero>
+        <Descrizione>Pompa spryskiwacza przedniej/tylnej szyby</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F47</Numero>
+        <Descrizione>Lewa przednia szyba</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F48</Numero>
+        <Descrizione>Przednia prawa szyba</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>Lusterka wsteczne / podświetlenie tablicy rozdzielczej</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>Moduł sterujący czujników parkowania</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F50</Numero>
+        <Descrizione>Moduł sterujący poduszką powietrzną</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F51</Numero>
+        <Descrizione>System audio / Klimatyzacja</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F51</Numero>
+        <Descrizione>Przełącznik świateł hamowania / pedał sprzęgła</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F53</Numero>
+        <Descrizione>Deska rozdzielcza</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>87000003</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Titolo>Skrzynka bezpieczników - Komora silnika</Titolo>
+      <RifIDFileIMGANI>62502660</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87000004</ID>
+      <XFILE>
+        <ID>62502660</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62502660</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Komputer pokładowy</Descrizione>
+        <Riferimento>60 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Wzmacniacz do radia samochodowego</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Przełącznik zapłonu</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Moduł sterujący ABS</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Elektryczne wspomaganie kierownicy</Descrizione>
+        <Riferimento>70 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Wentylator elektryczny – 1. prędkość</Descrizione>
+        <Riferimento>20–30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Wentylator elektryczny 2. prędkości</Descrizione>
+        <Riferimento>30–40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Elektryczny wentylator chłodnicy klimatyzacji</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Gniazdo elektryczne przyczepy (jeśli występuje)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Sygnał dźwiękowy</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Zasilanie podzespołów układu wtryskowego (drugorzędnych)</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F14</Numero>
+        <Descrizione>Światła drogowe</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F15</Numero>
+        <Descrizione>Otwierany dach (jeśli występuje)</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Moduł sterujący układem wtrysku / Moduł sterujący zautomatyzowaną skrzynią biegów</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Zasilanie przekaźnika T20</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F17</Numero>
+        <Descrizione>Moduł sterujący wtryskiem paliwa</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Moduł sterujący wtryskiem paliwa</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Zasilanie przekaźnika T09</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F19</Numero>
+        <Descrizione>Sprężarka klimatyzacji</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>Ogrzewana szyba tylna</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>Odmrażacz lusterek wstecznych</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F21</Numero>
+        <Descrizione>Elektryczna pompa paliwa</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F22</Numero>
+        <Descrizione>Cewka zapłonowa</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F22</Numero>
+        <Descrizione>Wtryskiwacze elektroniczne</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F23</Numero>
+        <Descrizione>Zespół zaworów hydraulicznych ABS</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Elektryczne wspomaganie kierownicy</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Moduł sterujący ABS / Czujnik poślizgu</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F30</Numero>
+        <Descrizione>Reflektory przeciwmgielne</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F81</Numero>
+        <Descrizione>Moduł sterujący podgrzewania świec żarowych (jeśli występuje)</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F82</Numero>
+        <Descrizione>Instalacja bezpiecznika / pomocnicza</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F83</Numero>
+        <Descrizione>Pompa skrzyni biegów Dualogic (jeśli występuje)</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F84</Numero>
+        <Descrizione>Elektrozawory w zautomatyzowanej skrzyni biegów</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F85</Numero>
+        <Descrizione>Gniazdo 12 V</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F87</Numero>
+        <Descrizione>Moduł sterujący wtryskiem paliwa</Descrizione>
+        <Riferimento>5–7,5–15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F87</Numero>
+        <Descrizione>Przekaźnik sprężarki klimatyzacji</Descrizione>
+        <Riferimento>5–7,5–15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F87</Numero>
+        <Descrizione>Przekaźnik świateł przeciwmgielnych</Descrizione>
+        <Riferimento>5–7,5–15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F87</Numero>
+        <Descrizione>Przekaźnik podgrzewania tylnej szyby</Descrizione>
+        <Riferimento>5–7,5–15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F87</Numero>
+        <Descrizione>Przekaźnik świateł drogowych</Descrizione>
+        <Riferimento>5–7,5–15 (A)</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>87000003</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Titolo>Skrzynka bezpieczników - Komora silnika (przekaźniki)</Titolo>
+      <RifIDFileIMGANI>62502661</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87000006</ID>
+      <XFILE>
+        <ID>62502661</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62502661</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T02</Numero>
+        <Descrizione>Przekaźnik świateł drogowych</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T03</Numero>
+        <Descrizione>Przekaźnik sygnału dźwiękowego / klakson</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T05</Numero>
+        <Descrizione>Przekaźnik sprężarki klimatyzacji</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T06</Numero>
+        <Descrizione>Przekaźniki wentylatorów chłodzących silnik – 1. i 2. prędkość</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T07</Numero>
+        <Descrizione>Przekaźnik wentylatora chłodzenia silnika – 1. prędkość</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T08</Numero>
+        <Descrizione>Przekaźnik wentylatora elektrycznego klimatyzacji</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T09</Numero>
+        <Descrizione>Przekaźnik główny</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T10</Numero>
+        <Descrizione>Konfiguracja przekaźnika / modułu pomocniczego</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T14</Numero>
+        <Descrizione>Przekaźnik świateł przeciwmgielnych</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T17</Numero>
+        <Descrizione>Przekaźnik elektropompy paliwa</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T19</Numero>
+        <Descrizione>Przekaźnik podgrzewania tylnej szyby</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T20</Numero>
+        <Descrizione>Przekaźnik modułu sterującego immobilizera</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T30</Numero>
+        <Descrizione>Przekaźnik pompy skrzyni biegów Dualogic (jeśli występuje)</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T31</Numero>
+        <Descrizione>Przednie gniazdo 12 V</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+  </XDOCUMENTO>
+</dataroot>

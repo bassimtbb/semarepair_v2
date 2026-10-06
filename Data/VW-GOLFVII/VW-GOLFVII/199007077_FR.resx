@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T16:36:35">
+  <XDOCUMENTO>
+    <ID>199007077</ID>
+    <DOCNumber>INT76338</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>Volkswagen Golf VII</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Rappels officiels</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Source des données - Ministère des Transports</Capitolo>
+      <Corpo> &lt;B&gt; Constructeur : &lt;/B&gt; Groupe Volkswagen &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Marque : &lt;/B&gt; Volkswagen &lt;BR/&gt; &lt;BR/&gt; Anomalies reconnues par les constructeurs sur la base du décret 78/2000</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Volkswagen Golf VII</Capitolo>
+      <Corpo> &lt;BR/&gt; Nombre de véhicules : 462 &lt;BR/&gt; Période de production : non déclarée &lt;BR/&gt; Description du défaut : dysfonctionnement possible des injecteurs au niveau des émissions &lt;BR/&gt; Mesures correctives : remplacement &lt;BR/&gt; Référence : consulter les concessionnaires &lt;BR/&gt; Remarques : code 24FO châssis, consulter les concessionnaires &lt;BR/&gt;&lt;BR/&gt;  &lt;BR/&gt; Nombre de véhicules : 716 &lt;BR/&gt; Période de production : NON INDIQUÉE &lt;BR/&gt; Description du défaut : DYSFONCTIONNEMENT POSSIBLE DU BLOCAGE DES APPUIS-TÊTES AVANT &lt;BR/&gt; Mesures correctives : REMPLACEMENT DES GUIDES D&apos;APPUIS-TÊTES &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques COD 72H5 CHÂSSIS CONSULTER LES CONCESSIONNAIRES &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 11206 &lt;BR/&gt; Période de production : NON INDIQUÉE &lt;BR/&gt; Description du défaut : RISQUE DE RUPTURE DU LEVIER DE SÉCURITÉ MANUEL POUR ENFANTS ET DÉBLOCAGE SOUDAIN EN RAISON DE FORTES VIBRATIONS &lt;BR/&gt; Mesures correctives : CONTRÔLE DU FONCTIONNEMENT DU VERROU DE SÉCURITÉ &lt;BR/&gt; Référence 800865579 &lt;BR/&gt; Remarques COD 58C9 CHÂSSIS CONCESSIONNAIRES &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 54 &lt;BR/&gt; Période de production : NON INDIQUÉE &lt;BR/&gt; Description du défaut : DYSFONCTIONNEMENT POSSIBLE DU ROULEMENT DES ROUES AVANT &lt;BR/&gt; Mesures correctives : REMPLACEMENT &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques COD 40L2 CHÂSSIS CONSULTER LES CONCESSIONNAIRES &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 286 &lt;BR/&gt; Période de production : NON INDIQUÉE &lt;BR/&gt; Description du défaut : SUPPORT DE ROULEMENT DES ROUES ARRIÈRE NON CONFORME &lt;BR/&gt; Mesures correctives : REMPLACEMENT DES SUPPORTS DE ROULEMENTS &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques COD 42I2 CHÂSSIS CONSULTER LES CONCESSIONNAIRES &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt; Nombre de véhicules : 3802 &lt;BR/&gt; Période de production : non indiquée &lt;BR/&gt; Description du défaut : en cas de boîte de vitesses séquentielle directe à six rapports, dysfonctionnement possible de l&apos;embrayage &lt;BR/&gt; Mesures correctives : modification du logiciel du calculateur de boîte de vitesses &lt;BR/&gt; Référence concessionnaires &lt;BR/&gt; Remarques Cod 37E8 Intervalle châssis consulter les concessionnaires &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 5759 &lt;BR/&gt; Période de production : MAI 2018 AOÛT 2018 &lt;BR/&gt; Description du défaut : SOUDURE INCOMPLÈTE DES GUIDES D&apos;APPUI TÊTE ARRIÈRE POSSIBLE &lt;BR/&gt; Mesures correctives : REMPLACEMENT ÉVENTUEL DU CHÂSSIS DU DOSSIER &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques COD 72H8 CHÂSSIS CONSULTER LES CONCESSIONNAIRES &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt; Nombre de véhicules : 339 &lt;BR/&gt; Période de production : ANNÉES 2016/2017 &lt;BR/&gt; Description du défaut : POSSIBLE NON-ACTIVATION DE L&apos;AIRBAG ET/OU DU PRÉTENSIONNEUR DU CONDUCTEUR ET DU PASSAGER &lt;BR/&gt; Mesures correctives : REMPLACEMENT DES COMPOSANTS DÉFECTUEUX &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques COD 69P4 CHÂSSIS CONSULTER LES CONCESSIONNAIRES &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt; Nombre de véhicules : 10989 &lt;BR/&gt; Période de production : ANNÉES 2016/2017 &lt;BR/&gt; Description du défaut : POSSIBLE DYSFONCTIONNEMENT DE LA SÉCURITÉ MANUELLE POUR ENFANTS &lt;BR/&gt; Mesures correctives : CONTRÔLE DES VERROUILLAGES DES PORTES ARRIÈRE &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques COD 58C9 CHÂSSIS CONSULTER LES CONCESSIONNAIRES &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Volkswagen Golf VII Variant</Capitolo>
+      <Corpo> &lt;BR/&gt; Nombre de véhicules : 10989 &lt;BR/&gt; Période de production : ANNÉES 2016/2017 &lt;BR/&gt; Description du défaut : POSSIBLE DYSFONCTIONNEMENT DE LA SÉCURITÉ MANUELLE POUR ENFANTS &lt;BR/&gt; Mesures correctives : CONTRÔLE DES SERRURES DES PORTES ARRIÈRE &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques COD 58C9 CHÂSSIS CONSULTER LES CONCESSIONNAIRES &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Nombre de véhicules : 11206 &lt;BR/&gt; Période de production : NON INDIQUÉE &lt;BR/&gt; Description du défaut : RISQUE DE RUPTURE DU LEVIER DE LA SÉCURITÉ MANUELLE POUR ENFANTS ET DÉSACTIVATION SOUDAINE EN RAISON DE FORTES VIBRATIONS &lt;BR/&gt; Mesures correctives : CONTRÔLE DU FONCTIONNEMENT DU VERROU DE SÉCURITÉ &lt;BR/&gt; Référence 800865579 &lt;BR/&gt; Remarques COD 58C9 CHÂSSIS CONCESSIONNAIRES &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Volkswagen Golf/Golf Variant VII avec unité de commande ABS/ESP (mk60)</Capitolo>
+      <Corpo> &lt;BR/&gt; Nombre de véhicules : 51621 &lt;BR/&gt; Période de production : ANNÉES 2002/2013 &lt;BR/&gt; Description du défaut : INTERRUPTION POSSIBLE DE LA CONNEXION À LA MASSE DU BOÎTIER ÉLECTRONIQUE EN RAISON D&apos;UNE SURCHARGE THERMOMÉCANIQUE &lt;BR/&gt; Mesures correctives : INSTALLATION D&apos;UN NOUVEAU LOGICIEL &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques COD 45F2 CHÂSSIS CONSULTER LES CONCESSIONNAIRES &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Volkswagen Golf VII Performance</Capitolo>
+      <Corpo> &lt;BR/&gt; Nombre de véhicules : 37 &lt;BR/&gt; Période de production : ANNÉE MODÈLE 2017 &lt;BR/&gt; Description du défaut : PLAQUES DE PRESSION DES PNEUS INCORRECTES ET RISQUE D&apos;ÉCLATEMENT DES PNEUS &lt;BR/&gt; Mesures correctives : INSTALLATION D&apos;UNE PLAQUE AVEC LES INDICATIONS EXACTES &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques COD 09A5 CHÂSSIS CONSULTER LES CONCESSIONNAIRES &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>Volkswagen Golf VII avec moteur diesel Start/Stop</Capitolo>
+      <Corpo> &lt;BR/&gt; Nombre de véhicules : 4976 &lt;BR/&gt; Période de production : NON INDIQUÉE &lt;BR/&gt; Description du défaut : RISQUE DE DYSFONCTIONNEMENT DU DÉMARREUR ET D&apos;INCENDIE &lt;BR/&gt; Mesures correctives : REMPLACEMENT DES INTERRUPTEURS ÉLECTROMAGNÉTIQUES &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques COD 27F9 CHÂSSIS CONSULTER LES CONCESSIONNAIRES &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>70</Ordine>
+      <Capitolo>Volkswagen Golf VII avec moteur 1,2 l/1,6 l</Capitolo>
+      <Corpo> &lt;BR/&gt; Nombre de véhicules : 271 &lt;BR/&gt; Période de production : NON INDIQUÉE &lt;BR/&gt; Description du défaut : DÉTACHEMENT POSSIBLE DES VIS DU BOÎTIER DU VARIATEUR DE PHASE ET FUITE D&apos;HUILE MOTEUR &lt;BR/&gt; Mesures correctives : REMPLACEMENT DU VARIATEUR &lt;BR/&gt; Référence CONCESSIONNAIRES &lt;BR/&gt; Remarques COD 15H2 CHÂSSIS CONSULTER LES CONCESSIONNAIRES &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>199007077</RifIDDoc>
+      <LinkUtili>Lien Ministère des Infrastructures et des Transports</LinkUtili>
+      <Ordine>1</Ordine>
+      <RifIDDocLink>15000122</RifIDDocLink>
+      <XLINKDOC>
+        <ID>15000122</ID>
+        <DOCNumber>LNK00008</DOCNumber>
+        <Documento>Aller à: Rappels - Ministère des Transports</Documento>
+        <URL>LINKDOC:15000122</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

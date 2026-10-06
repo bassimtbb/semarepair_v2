@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-02T09:45:16">
+  <XDOCUMENTO>
+    <ID>154</ID>
+    <DOCNumber>INF00004</DOCNumber>
+    <RifIDTipoRis>1</RifIDTipoRis>
+    <Titolo>Europese EOBD-norm</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>229</RifIDFileICO>
+    <XFILE>
+      <ID>229</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:229</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>1</ID>
+      <TipoRis>INF</TipoRis>
+      <DscRis>Algemene informatie</DscRis>
+      <RifIDFileCSS>12</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>12</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:12</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Introduzione</Capitolo>
+      <Corpo>De Europese EOBD-norm vindt zijn oorsprong in de beter bekende Amerikaanse OBDII-norm. De uitvaardiging van de eerste richtlijnen ter bestrijding van vervuiling door motorvoertuigen dateert uit 1988 en is het werk van de Californische instantie CARB (Californian Air Resources Board); dit valt samen met de publicatie van de eerste OBD-norm. &lt;BR/&gt;  &lt;BR/&gt; Het acroniem OBD (On Board Diagnosis) verwijst naar een elektronisch systeem dat is geïntegreerd in het motormanagement van het voertuig en dat tot taak heeft alle componenten die cruciaal zijn voor de uitlaatgasemissies in realtime te monitoren, waarbij eventuele afwijkingen worden geregistreerd en gemeld. &lt;BR/&gt;  &lt;BR/&gt; Vervolgens, met de komst van steeds strengere beperkingen op het gebied van luchtverontreiniging, werd in 1996 de oude OBD-norm vervangen door de modernere OBDII. Op basis van de nieuwe CARB-richtlijnen heeft het SAE-consortium een verzameling technische normen gepubliceerd voor de uitvoering van de gestelde doelstellingen. Deze normen beschrijven in detail de prestaties waaraan OBDII-systemen moeten voldoen.</Corpo>
+      <RifIDFileIMGANI>193</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>193</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:193</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Funzioni principali</Capitolo>
+      <Corpo>De belangrijkste functies van het OBDII-systeem zijn de volgende: &lt;BR/&gt;  &lt;BR/&gt; A) Real-time monitoring van alle voertuigcomponenten die een negatieve invloed kunnen hebben op de uitlaatemissies. &lt;BR/&gt;  &lt;BR/&gt; B) Grondiger toezicht op de meest kritieke onderdelen, zoals de katalysator en de lambdasonde. &lt;BR/&gt;  &lt;BR/&gt; C) Melding van de ernstigste en langdurige storingen door het oplichten van een speciaal controlelampje (MIL) in het instrumentenpaneel. &lt;BR/&gt;  &lt;BR/&gt; D) Opslag van storingen samen met de belangrijkste parameters op het moment dat ze zich voordeden („freezed“). &lt;BR/&gt;  &lt;BR/&gt; E) Mogelijkheid tot koppeling met een extern apparaat (OBD-zelfdiagnosetester „SCANTOOL“) om de opgeslagen storingscodes en de parameters in realtime weer te geven. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Dettagli tecnici</Capitolo>
+      <Corpo>De Europese Gemeenschap heeft, geïnspireerd door OBDII, de EOBD-norm aangenomen, die vanaf 2000 verplicht is geworden voor alle nieuwe motorvoertuigen, samen met de strenge emissiegrenswaarden die zijn vastgelegd in de Euro3-regelgeving. &lt;BR/&gt; De combinatie van EOBD en Euro 3 heeft verschillende voordelen opgeleverd, waaronder het uniform maken van de toegang tot de zelfdiagnose van het voertuig voor de autoreparateur. De EOBD-norm is namelijk in alle opzichten een standaard waaraan alle autofabrikanten zich hebben moeten aanpassen, zowel wat betreft de foutcodes als de eigenlijke autodiagnose-interface, van de communicatieprotocollen tot de 16-polige connector voor het aansluiten van de tester.</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Controles en diagnoses</Capitolo>
+      <Corpo>Pin 1 Vrij &lt;BR/&gt; Pin 2 Diagnose J1850 PWM of VPW (+) &lt;BR/&gt; Pin 3 Vrij &lt;BR/&gt; Pin 4 Chassismassa &lt;BR/&gt; Pin 5 Signaalmassa &lt;BR/&gt; Pin 6 Diagnose J2284 CAN (H) &lt;BR/&gt; Pin 7 Diagnose ISo 9141-2 en 14230 (K) &lt;BR/&gt; Pin 8 Vrij &lt;BR/&gt; Pin 9 Vrij &lt;BR/&gt; Pin 10 Diagnose J1850 PWM of VPW (-) &lt;BR/&gt; Pin 11 Vrij &lt;BR/&gt; Pin 12 Vrij &lt;BR/&gt; Pin 13 Vrij &lt;BR/&gt; Pin 14 Diagnose J2284 CAN (L) &lt;BR/&gt; Pin 15 Diagnose ISo 9141-2 en 14230 (L) &lt;BR/&gt; Pin 16 Voeding +12 Volt</Corpo>
+      <RifIDFileIMGANI>196</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>196</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:196</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>154</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo></Capitolo>
+      <Corpo>De Europese EOBD-norm schrijft met name voor dat alle sensoren en actuatoren van het motormanagementsysteem moeten worden gecontroleerd, naast uiteraard de volgende systemen: katalysator met lambdasonde, detectie van uitblijvende ontstekingen, EGR, secundaire luchttoevoer (indien aanwezig), enz. De EOBD-specificaties schrijven voor dat de regeleenheid storingen in de motoronderdelen moet detecteren en deze samen met de context van het moment waarop ze zich voordoen in het geheugen moet opslaan („freezed parameters“). Bovendien moet het EOBD-systeem, als de fout zich gedurende een bepaald aantal rijcycli (van minimaal 2 tot maximaal 10) blijft voordoen, het MIL-lampje (Malfunction Indication Lamp) op het dashboard laten branden om een motorstoring aan te geven. &lt;BR/&gt;  &lt;BR/&gt; De foutcodes (DTC: Diagnostic Trouble Codes) zijn gestandaardiseerd voor wat betreft problemen met de motor en de emissies, terwijl de rest bewust wordt overgelaten aan het oordeel van de autofabrikant. &lt;BR/&gt; Daarnaast zijn er speciale softwarefuncties voorzien voor het in realtime uitlezen van de fundamentele parameters van het voertuig (motortoerental, druk en temperatuur van de inlaatlucht, spanningen van de lambdasonde, enz.) en voor het starten van speciale functies voor het activeren van diagnostische procedures op de actuatoren. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>514</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>514</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:514</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T20:18:29">
+  <XDOCUMENTO>
+    <ID>199257791</ID>
+    <DOCNumber>DRA80138</DOCNumber>
+    <RifIDTipoRis>45</RifIDTipoRis>
+    <Titolo>Dwusprzęgłowa skrzynia biegów Volkswagen 0GC (7 biegów)</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>45</ID>
+      <TipoRis>DRV</TipoRis>
+      <DscRis>Automatyczna skrzynia biegów</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199257791</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Dane techniczne – smary</Capitolo>
+      <Corpo> &lt;B&gt; Producent: &lt;/B&gt;  Volkswagen AG &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Oznaczenie: &lt;/B&gt;  0GC / DQ381-7 &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Nazwa handlowa: &lt;/B&gt;  DSG7, S-Tronic  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Zalecany przez producenta automatycznej skrzyni biegów okres wymiany oleju: &lt;/B&gt;   &lt;BR/&gt; 60 000 km &lt;BR/&gt;  &lt;BR/&gt;  &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt;  &lt;TH width=60% class=&quot;chiaro&quot;&gt; Opis &lt;/TH&gt;  &lt;TH width=25% class=&quot;chiaro&quot;&gt; Jednostka miary &lt;/TH&gt;  &lt;TH width=15% class=&quot;chiaro&quot;&gt; Dane &lt;/TH&gt;  &lt;TR&gt;  &lt;TD&gt; Kod automatycznej skrzyni biegów: &lt;/TD&gt;  &lt;TD&gt; Nr katalogowy &lt;/TD&gt;  &lt;TD&gt; 0GC &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Liczba biegów: &lt;/TD&gt;  &lt;TD&gt; Liczba &lt;/TD&gt;  &lt;TD&gt; 7 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Olej do automatycznej skrzyni biegów – specyfikacja producenta: &lt;/TD&gt;  &lt;TD&gt; Nr ref. &lt;/TD&gt;  &lt;TD&gt; VW G 055 529 A2 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Olej do automatycznej skrzyni biegów – Ilość przy opróżnieniu: &lt;/TD&gt;  &lt;TD&gt; Litry &lt;/TD&gt;  &lt;TD&gt; 7,2 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Olej do automatycznej skrzyni biegów – Ilość potrzebna do wymiany: &lt;/TD&gt;  &lt;TD&gt; litry &lt;/TD&gt;  &lt;TD&gt; 5,5 ~ 6,0 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Olej do automatycznej skrzyni biegów – Ilość potrzebna do płukania skrzyni biegów: &lt;/TD&gt;  &lt;TD&gt; litry &lt;/TD&gt;  &lt;TD&gt; 9,2 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Temperatura sprawdzania poziomu oleju w automatycznej skrzyni biegów: &lt;/TD&gt;  &lt;TD&gt; C° &lt;/TD&gt;  &lt;TD&gt; 35 ~ 45° &lt;/TD&gt;  &lt;/TR&gt;  &lt;/TABLE&gt;  &lt;BR/&gt; Sprawdzić poziom oleju w automatycznej skrzyni biegów przy włączonym silniku. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007256</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007256</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007256</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199257791</RifIDDoc>
+      <Ordine>15</Ordine>
+      <Capitolo>Identyfikacja skrzyni automatycznej</Capitolo>
+      <Corpo> &lt;BR/&gt; Model skrzyni biegów można zidentyfikować, odczytując tabliczkę umieszczoną w górnej części. &lt;BR/&gt;  &lt;BR/&gt; Skrót  &lt;B&gt; 1 &lt;/B&gt;  oznacza kod skrzyni biegów. &lt;BR/&gt;  &lt;BR/&gt; Skrót  &lt;B&gt; 2 &lt;/B&gt;  oznacza datę produkcji (dd.mm.rr). &lt;BR/&gt;  &lt;BR/&gt; Skrót  &lt;B&gt; 3 &lt;/B&gt;  oznacza zakład produkcyjny. &lt;BR/&gt;  &lt;BR/&gt; Skrót  &lt;B&gt; 4 &lt;/B&gt;  oznacza godzinę produkcji. &lt;BR/&gt;  &lt;BR/&gt; Skrót  &lt;B&gt; 5 &lt;/B&gt;  oznacza numer seryjny. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007250</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007250</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007250</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199257791</RifIDDoc>
+      <Ordine>17</Ordine>
+      <Capitolo>Narzędzia specjalne i wyposażenie warsztatowe</Capitolo>
+      <Corpo> &lt;LI&gt;  Adapter do tankowania  &lt;B&gt; VAS 6262A &lt;/B&gt;  &lt;B&gt;  &lt;/B&gt;  z adapterem  &lt;B&gt; VAS 6262/1 &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Odciągacz oleju  &lt;B&gt; VAS 6622A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Adapter  &lt;B&gt; VAS 6262/6 &lt;/B&gt;  lub &lt;BR/&gt;  &lt;LI&gt;  Adapter &lt;B&gt;  VAS 6262/7 &lt;/B&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007251</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007251</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007251</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199257791</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procedura spuszczania i napełniania oleju w automatycznej skrzyni biegów</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Skrzynia biegów nie może znajdować się w trybie awaryjnym &lt;BR/&gt;  &lt;LI&gt;  Ustawić pojazd na równej powierzchni &lt;BR/&gt;  &lt;LI&gt;  Podnieść pojazd &lt;BR/&gt;  &lt;LI&gt;  Ustawić dźwignię zmiany biegów w pozycji  &lt;B&gt; P &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Upewnić się, że hamulec postojowy jest zaciągnięty &lt;BR/&gt;  &lt;LI&gt;  Wyłączyć silnik &lt;BR/&gt;  &lt;LI&gt;  Zdjąć dolną osłonę &lt;BR/&gt;  &lt;LI&gt;  Umieścić w pobliżu skrzyni biegów miskę do spuszczania oleju  &lt;B&gt; VAS 6622A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Odkręcić korek spustowy  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Odkręcić rurkę przelewową  &lt;B&gt; B &lt;/B&gt;  i spuścić olej skrzyni biegów &lt;BR/&gt;  &lt;LI&gt;  Odkręcić korek spustowy modułu mechatronicznego  &lt;B&gt; C &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Pozwolić, aby olej całkowicie spłynął &lt;BR/&gt;  &lt;LI&gt;  Odczekać  &lt;B&gt; około 4 minut &lt;/B&gt;, aż spłynie cały olej ze skrzyni biegów &lt;BR/&gt;  &lt;LI&gt;  Ponownie zamontować korek spustowy modułu mechatronicznego  &lt;B&gt; C &lt;/B&gt;  i dokręcić go momentem &lt;B&gt;  10 ~ 20 Nm + 45° &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; UWAGA: &lt;/B&gt;  Zawsze należy wymienić uszczelkę korka spustowego modułu mechatronicznego &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Wkręcić ponownie korek przelewowy   &lt;B&gt; B &lt;/B&gt;  i dokręcić go momentem  &lt;B&gt; 3 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Korek powinien dać się łatwo wkręcić &lt;BR/&gt;  &lt;LI&gt;  Dobrze wstrząsnąć butelkami, aby na dnie nie pozostały osady &lt;BR/&gt;  &lt;LI&gt;  Przykręcić butelkę oleju skrzyni biegów do adaptera do uzupełniania  &lt;B&gt; VAS 6262A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  W razie potrzeby użyć adaptera  &lt;B&gt; VAS 6262/6 &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Włożyć adapter  &lt;B&gt; VAS 6262A &lt;/B&gt;  do rurki przelewowej &lt;B&gt;  B &lt;/B&gt;  i dokręcić go ręcznie  &lt;BR/&gt;  &lt;LI&gt;  Trzymaj butelkę i adapter  &lt;B&gt; VAS 6262A &lt;/B&gt;  jak najwyżej nad skrzynią biegów i wlej  &lt;B&gt; 5,5 ~ 6,0 litrów &lt;/B&gt;  oleju do automatycznej skrzyni biegów &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; UWAGA:  &lt;/B&gt; Jeśli temperatura oleju skrzyni biegów przekroczy  &lt;B&gt; 45 °C &lt;/B&gt;  podczas napełniania, należy przerwać czynność i poczekać, aż olej skrzyni biegów ostygnie. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Zdjąć adapter do uzupełniania  &lt;B&gt; VAS 6262A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Wkręcić ponownie korek spustowy  &lt;B&gt; A &lt;/B&gt;  i dokręcić go momentem  &lt;B&gt; 45 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; UWAGA:  &lt;/B&gt; Zawsze należy wymienić uszczelkę korka spustowego  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Uruchomić silnik i pozostawić go na biegu jałowym &lt;BR/&gt;  &lt;LI&gt;  Nacisnąć pedał hamulca przy silniku pracującym na biegu jałowym i ustawić dźwignię w każdej pozycji, zatrzymując się w niej na co najmniej  &lt;B&gt; 3 &lt;/B&gt;  sekundy &lt;BR/&gt;  &lt;LI&gt;  Ustawić dźwignię skrzyni biegów w pozycji  &lt;B&gt; P &lt;/B&gt;  bez wyłączania silnika &lt;BR/&gt;  &lt;LI&gt;  Sprawdzić poziom oleju w automatycznej skrzyni biegów &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007253</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007253</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007253</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199257791</RifIDDoc>
+      <Ordine>25</Ordine>
+      <Capitolo>Procedura wymiany filtra oleju automatycznej skrzyni biegów</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;B&gt; UWAGA:  &lt;/B&gt;  Przykryć szmatkami obszar wokół filtra oleju skrzyni biegów automatycznej &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Zdjąć pokrywę filtra oleju skrzyni biegów automatycznej &lt;BR/&gt;  &lt;LI&gt;  Wyjąć filtr skrzyni biegów automatycznej &lt;LI&gt;  Przystąpić do wymiany filtra  &lt;BR/&gt;  &lt;LI&gt;  Założyć pokrywę filtra automatycznej skrzyni biegów i dokręcić ją  momentem  &lt;B&gt; 50 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; UWAGA: &lt;/B&gt;  Zawsze wymieniać uszczelkę filtra automatycznej skrzyni biegów</Corpo>
+      <RifIDFileIMGANI>299007254</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007254</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007254</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199257791</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Kontrola poziomu oleju w automatycznej skrzyni biegów</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Skrzynia biegów nie może znajdować się w trybie awaryjnym &lt;BR/&gt;  &lt;LI&gt;  Należy upewnić się, że temperatura oleju w skrzyni biegów nie przekracza  &lt;B&gt; 30 °C &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Jeśli temperatura jest wyższa, zaleca się pozostawienie oleju skrzyni biegów do ostygnięcia &lt;BR/&gt;  &lt;LI&gt;  Ustawić pojazd na równym podłożu &lt;BR/&gt;  &lt;LI&gt;  Ustawić dźwignię zmiany biegów w pozycji  &lt;B&gt; P &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Upewnić się, że hamulec postojowy jest włączony &lt;BR/&gt;  &lt;LI&gt;  Podłączyć przewody urządzenia diagnostycznego  &lt;B&gt; VAS 6622A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Uruchomić silnik na biegu jałowym &lt;BR/&gt;  &lt;LI&gt;  Upewnić się, że klimatyzacja i ogrzewanie są wyłączone &lt;BR/&gt;  &lt;LI&gt;  Podłączyć tester diagnostyczny i poczekać na identyfikację pojazdu &lt;BR/&gt;  &lt;LI&gt;  Za pomocą testera diagnostycznego uruchomić procedurę sprawdzania poziomu oleju w automatycznej skrzyni biegów &lt;BR/&gt;  &lt;LI&gt;  Zdjąć dolną osłonę &lt;BR/&gt;  &lt;LI&gt;  Umieścić miskę odpływową  &lt;B&gt; VAS 6622A &lt;/B&gt;  pod skrzynią biegów &lt;BR/&gt;  &lt;LI&gt;  Zdjąć korek spustowy  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Pozwolić, aby zgromadzony olej skrzyni biegów wypłynął przez rurkę przelewową  &lt;B&gt; B &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; UWAGA: &lt;/B&gt; Istnieją różne wersje rurki przelewowej &lt;BR/&gt;  &lt;B&gt; UWAGA: &lt;/B&gt;  W przypadku nadmiernego lub niedostatecznego napełnienia może dojść do uszkodzenia skrzyni biegów &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Upewnij się, że rurka przelewowa jest prawidłowo zamontowana &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; SKRZYNIA BIEGÓW Z BEŻOWĄ RURKĄ PRZELEWOWĄ: &lt;/B&gt;  &lt;BR/&gt; - Poziom oleju nie może przekraczać krawędzi rurki przelewowej  &lt;B&gt; B &lt;/B&gt;  &lt;BR/&gt; - W celu sprawdzenia i dokładnej regulacji poziomu oleju należy odkręcić rurkę przelewową o  &lt;B&gt; 2 obroty &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; SKRZYNIA BIEGÓW Z CZERWONĄ RURKĄ PRZEPŁYWOWĄ: &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Nie ma potrzeby odkręcania czerwonej rurki przepływowej w celu sprawdzenia poziomu oleju &lt;B&gt;  &lt;BR/&gt;  &lt;BR/&gt; DALSZA CZĘŚĆ DLA WSZYSTKICH POJAZDÓW: &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Jeśli temperatura oleju skrzyni biegów wynosi od  &lt;B&gt; 35 do 45 °C &lt;/B&gt;  i wypływa niewielka ilość oleju (z powodu wzrostu temperatury), poziom oleju jest prawidłowy. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; UWAGA:  &lt;/B&gt; Niewielka ilość oleju skrzyni biegów wypływa z rurki przelewowej  &lt;B&gt; B &lt;/B&gt;  co 30 sekund z powodu pulsacji płynu chłodzącego. Wyciek ten nie ma znaczenia dla kontroli poziomu oleju. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Nie należy ponownie używać oleju skrzyni biegów, który już wyciekł &lt;BR/&gt;  &lt;LI&gt;  W razie potrzeby uzupełnić olej przekładniowy nowym olejem &lt;BR/&gt;  &lt;LI&gt;  Jeśli poziom oleju jest prawidłowy, w razie potrzeby przykręcić rurkę przelewową  &lt;B&gt; B &lt;/B&gt;  i dokręcić ją momentem  &lt;B&gt; 3 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Dokręcić korek spustowy  &lt;B&gt; A &lt;/B&gt;  momentem  &lt;B&gt; 45 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; UWAGA:  &lt;/B&gt; Zawsze wymieniać uszczelkę korka spustowego  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007252</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007252</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007252</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

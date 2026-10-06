@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:52:05">
+  <XDOCUMENTO>
+    <ID>199297461</ID>
+    <DOCNumber>GUP94742</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Sporadiquement : allumage du voyant de panne moteur et perte de puissance</Titolo>
+    <InfoDoc>INJECTION | MOTEUR | P0300 | P0301 | BOBINE | ALLUMAGE | ALLUMAGE | JAUNE | MIL | ALLUMÉE | TOURNE | MAL | CYLINDRES | CYLINDRE | CÂBLES | BOUGIE | PERD | COUPS | ARRACHÉS |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199297461</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Niveau de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Légende des niveaux de fiabilité &lt;BR&gt; &lt;BR&gt; &lt;B&gt; * niveau faible &lt;/B&gt; : Constat du réparateur indépendant, cas de panne non répertorié par le constructeur. &lt;BR&gt; &lt;BR&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt; : Cas de panne fréquents, constatés par les techniciens d&apos;assistance et les réparateurs indépendants. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** niveau élevé &lt;/B&gt; : Certitude de l&apos;anomalie, bon degré de « récurrence » signalé par le constructeur. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199297461</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / de la panne</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Injection &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Bobine d&apos;allumage &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Le moteur présente, de manière sporadique, des ratés d&apos;allumage et le témoin de panne moteur s&apos;allume &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt;  &lt;UL&gt; &lt;LI&gt; P0300 (Absence d&apos;allumage dans des cylindres non définis - Erreur générique) &lt;BR&gt;  &lt;LI&gt; P0301 (Absence d&apos;allumage du cylindre 1 - Erreur générique) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Bobine d&apos;allumage défectueuse &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199297461</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier le bon fonctionnement de la bobine d&apos;allumage et, si nécessaire, procéder à son remplacement &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Le véhicule est équipé d’une bobine qui gère l’allumage des quatre cylindres. &lt;BR&gt; Dans le cas présent, la bobine d’allumage, avec ses câbles de bougies, a été remplacée, ce qui a permis de résoudre définitivement le problème. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>299022644</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299022644</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299022644</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

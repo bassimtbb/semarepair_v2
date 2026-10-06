@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:51:11">
+  <XDOCUMENTO>
+    <ID>199314140</ID>
+    <DOCNumber>GUP98961</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Kontrolka i komunikat „System czujników parkowania niedostępny” / „Blokada czujników”</Titolo>
+    <InfoDoc>ADAS |  C1001-29 | C1002-29 | C1003-29 | C1004-29 | C1005-29 | C1006-29 | C1007-29 | C1008-29 | C100B-29 | C100C-29 | C100D-29 | C100E-29 | C1013-29 | C1014-29 | C1015-29 | C1016-29 | SENSORI | PARCHEGGIO | PARK | ASSIST |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199314140</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Poziom wiarygodności   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda stopnia wiarygodności &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niski poziom &lt;/B&gt; : Wykryte przez mechanika samochodowego, przypadek usterki niepotwierdzony przez producenta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** średni poziom &lt;/B&gt; : Częste przypadki usterki, potwierdzone przez techników serwisowych i mechaników. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** wysoki poziom &lt;/B&gt; : Potwierdzona anomalia, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199314140</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Zastosowanie: &lt;/B&gt;  Wszystkie pojazdy wyposażone w ultradźwiękowe czujniki parkowania z 4, 8 lub 12 kanałami: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Układ: &lt;/B&gt;  Park Assist. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Urządzenie: &lt;/B&gt;  Ultradźwiękowe czujniki parkowania  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Usterka: &lt;/B&gt;  Zapalenie się kontrolki i wyświetlenie odpowiedniego komunikatu na wyświetlaczu deski rozdzielczej: „System Park Sensor niedostępny” lub „Blokada czujników”, lub podobne komunikaty dotyczące systemu Active ParkAssist. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Błędy wykryte przez autodiagnostykę: &lt;/B&gt; Jeden lub więcej z następujących błędów:&lt;UL&gt; &lt;LI&gt;  C1001-29 — Lewy przedni czujnik zewnętrzny, nieprawidłowy sygnał &lt;BR/&gt;  &lt;LI&gt;  C1002-29 — Lewy przedni czujnik wewnętrzny, nieprawidłowy sygnał &lt;BR/&gt;  &lt;LI&gt;  C1003-29 — Prawy przedni czujnik wewnętrzny, nieprawidłowy sygnał &lt;BR/&gt;  &lt;LI&gt;  C1004-29 — Prawy przedni czujnik zewnętrzny, nieprawidłowy sygnał &lt;BR/&gt;  &lt;LI&gt;  C1005-29 — Lewy przedni czujnik boczny, nieprawidłowy sygnał &lt;BR/&gt;  &lt;LI&gt;  C1006-29 — Lewy tylny czujnik boczny, nieprawidłowy sygnał &lt;BR/&gt;  &lt;LI&gt;  C1007-29 — Prawy tylny czujnik boczny, nieprawidłowy sygnał &lt;BR/&gt;  &lt;LI&gt;  C1008-29 — Prawy przedni czujnik boczny, nieprawidłowy sygnał &lt;BR/&gt;  &lt;LI&gt;  C100B-29 — Lewy tylny czujnik zewnętrzny, nieprawidłowy sygnał &lt;BR/&gt;  &lt;LI&gt;  C100C-29 — Lewy tylny czujnik wewnętrzny, nieprawidłowy sygnał &lt;BR/&gt;  &lt;LI&gt;  C100D-29 — Tylny czujnik wewnętrzny po prawej stronie (centralny w modelu Tipo), nieprawidłowy sygnał &lt;BR/&gt;  &lt;LI&gt;  C100E-29 — Tylny czujnik zewnętrzny po prawej stronie, nieprawidłowy sygnał &lt;BR/&gt;  &lt;LI&gt;  C1013-29 — Przedni czujnik Parkfit po lewej stronie, nieprawidłowy sygnał &lt;BR/&gt;  &lt;LI&gt;  C1014-29 — Prawy przedni czujnik Parkfit, nieprawidłowy sygnał &lt;BR/&gt;  &lt;LI&gt;  C1015-29 — Lewy tylny czujnik Parkfit, nieprawidłowy sygnał &lt;BR/&gt;  &lt;LI&gt;  C1016-29 — Prawy tylny czujnik Parkfit, nieprawidłowy sygnał&lt;/UL&gt; &lt;LI&gt;  &lt;B&gt; Przyczyna: &lt;/B&gt;  Wygenerowanie kodu DTC C10xx-29 (nieprawidłowy sygnał), gdzie „x” oznacza położenie czujnika na zderzaku, może wynikać z czterech możliwych przyczyn: &lt;UL&gt;  &lt;LI&gt;  Nieprawidłowy montaż czujnika &lt;BR/&gt;  &lt;LI&gt;  Obecność zanieczyszczeń lub lodu na powierzchni czujnika &lt;BR/&gt;  &lt;LI&gt;  Uszkodzenie pierścienia uszczelniającego typu O-ring lub samej powierzchni czujnika &lt;BR/&gt;  &lt;LI&gt;  Nieprawidłowe działanie czujnika parkowania. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199314140</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Czynność: &lt;/B&gt;  Przed rozważeniem wymiany czujnika należy przeprowadzić systematyczną kontrolę możliwych przyczyn.  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedura: &lt;/B&gt; &lt;OL&gt;  &lt;LI&gt;  Sprawdzić za pomocą narzędzia diagnostycznego, czy występuje aktywny kod usterki DTC C10xx-29, identyfikując położenie danego czujnika. &lt;BR/&gt;  &lt;LI&gt;  Sprawdzić, czy na powierzchni czujnika nie ma zanieczyszczeń lub lodu; w takim przypadku należy oczyścić powierzchnię i powtórzyć kontrolę. &lt;BR/&gt;  &lt;LI&gt; Sprawdzić prawidłowość montażu czujnika, obecność i nienaruszalność pierścienia uszczelniającego oraz połączenie z zderzakiem; w razie potrzeby skorygować montaż. &lt;BR/&gt;  &lt;LI&gt;  Sprawdzić zewnętrzną powierzchnię czujnika oraz otaczający go obszar pod kątem uszkodzeń, zadrapań, wgnieceń lub śladów zderzenia z innymi pojazdami lub przedmiotami. &lt;BR/&gt;  &lt;LI&gt;  Jeśli żadna z powyższych sytuacji nie ma miejsca, skasować błędy za pomocą narzędzia diagnostycznego i sprawdzić, czy kod DTC ponownie pojawia się w stanie aktywnym. &lt;/OL&gt;W przypadku ponownego pojawienia się błędu bez stwierdzenia przyczyn zewnętrznych należy wymienić czujnik. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Uwaga: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

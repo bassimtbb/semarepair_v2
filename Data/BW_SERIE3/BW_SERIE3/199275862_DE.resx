@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T04:53:44">
+  <XDOCUMENTO>
+    <ID>199275862</ID>
+    <DOCNumber>GUP90437</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Geräusch (Klackern) aus der Vorderachse beim Abbiegen bei niedriger Geschwindigkeit</Titolo>
+    <InfoDoc>FRENI | STERZO | CARROZZERIA | SEL-SEL-P-34-20000813335958-05 | TICCHETTII | ZONA | RUOTA | RUOTE | MARCIA | CURVA | SENZA | INTERVENTO | FRENO | RIDOTTA | RIDOTTE | BASSE | CLIMA | SECCO | CALDO | FLANGIA | SUPPORTO | TAZZA | DISCO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199275862</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199275862</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Gültigkeit: &lt;/B&gt; Fahrzeuge mit Leichtbau-Bremsscheiben &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Bremsen &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Bauteil: &lt;/B&gt;  Bremsscheibennabe vorne &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Geräusch (Klappern) von der Vorderachse beim Abbiegen bei niedriger Geschwindigkeit unter trockenen und heißen Bedingungen, OHNE Betätigung der Bremse &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Mikroskopisch kleine Schwingungen, verursacht durch geringfügige Bewegungen zwischen der Bremsscheibenhalterung und dem Radträgerflansch an der Vorderachse, insbesondere an der inneren Kontaktfläche &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199275862</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Arbeitsschritt: &lt;/B&gt; Die Bremsscheiben an beiden Vorderrädern entfernen und auf jeder Seite des Rades (links und rechts) zwischen der inneren Bremsscheibenaufnahme und dem Flansch der Radhalterung eine Dichtscheibe einlegen. &lt;BR/&gt; &lt;BR/&gt; Die Bremsscheiben mit einem Bremsenreiniger säubern, dabei darauf achten, dass sie nicht gefettet werden. Auch beide Flansche des Radträgers säubern, ohne sie zu fetten &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Hinweis: &lt;/B&gt; Wenn das betreffende Fahrzeug älter als 2 Jahre ist, müssen die Radschrauben der Vorder- und Hinterachse ausgetauscht werden. &lt;BR/&gt; &lt;BR/&gt; Artikelnummer der Reibscheiben für Fahrzeuge mit einem Lochkreis von 112: Nr. 34106884839 &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

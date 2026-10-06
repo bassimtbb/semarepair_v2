@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T12:36:51">
+  <XDOCUMENTO>
+    <ID>199240473</ID>
+    <DOCNumber>CIA76338</DOCNumber>
+    <RifIDTipoRis>22</RifIDTipoRis>
+    <Titolo>Aufbau – Referenzen</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>301</RifIDFileICO>
+    <XFILE>
+      <ID>301</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:301</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>22</ID>
+      <TipoRis>CIA</TipoRis>
+      <DscRis>Hilfsriemen</DscRis>
+      <RifIDFileCSS>300</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>300</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:300</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199240473</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>LEGENDE</Capitolo>
+      <Corpo> &lt;table class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt; &lt;th width=15% class=&quot;chiaro&quot;&gt; Typ &lt;/TH&gt; &lt;th width=34% class=&quot;chiaro&quot;&gt; Beschreibung &lt;/TH&gt; &lt;TR&gt; &lt;TD&gt; Mot &lt;/TD&gt; &lt;TD&gt;  Kurbelwelle &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Tns &lt;/TD&gt; &lt;TD&gt; Spanner &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Tnd &lt;/TD&gt; &lt;TD&gt; Riemenspanner / Umlenkrolle &lt;/TD&gt; &lt;/TR&gt; 
+ &lt;TR&gt; &lt;TD&gt; Tsc &lt;/TD&gt; &lt;TD&gt; Volumetrischer Kompressor &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Gen &lt;/TD&gt; &lt;TD&gt; Lichtmaschine &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; A/C &lt;/TD&gt;  &lt;TD&gt; Klimaanlagenkompressor &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Ssv &lt;/TD&gt; &lt;TD&gt; Hydraulische Servolenkung &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Cool &lt;/TD&gt;  &lt;TD&gt; Kühlgebläse &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; P-w &lt;/TD&gt; &lt;TD&gt; Wasserpumpe &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; P-ws &lt;/TD&gt; &lt;TD&gt;  Zusatzwasserpumpe &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; P-oil &lt;/TD&gt; &lt;TD&gt; Ölpumpe &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; P-air &lt;/TD&gt; &lt;TD&gt; Luftpumpe &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt;   &lt;TD&gt; P-inz &lt;/TD&gt; &lt;TD&gt; Einspritzpumpe &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; P-aux &lt;/TD&gt; &lt;TD&gt; Hydraulik-/Hilfspumpe &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; PR-oil &lt;/TD&gt;  &lt;TD&gt; Ölrücklaufpumpe &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; ISG &lt;/TD&gt; &lt;TD&gt; Generator / Anlasser &lt;/TD&gt; &lt;/TR&gt; &lt;/table&gt; </Corpo>
+      <RifIDFileIMGANI>299009168</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299009168</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009168</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>199240473</RifIDDoc>
+      <LinkUtili>LEGENDE – Detailansicht</LinkUtili>
+      <Ordine>10</Ordine>
+      <RifIDDocLink>1582</RifIDDocLink>
+      <XLINKDOC>
+        <ID>1582</ID>
+        <DOCNumber>LNK00005</DOCNumber>
+        <Documento>Weiter zu: Hilfsriemen – Diagnose</Documento>
+        <URL>LINKDOC:1582</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199240473</RifIDDoc>
+      <LinkUtili>LEGENDE – Detailansicht</LinkUtili>
+      <Ordine>20</Ordine>
+      <RifIDDocLink>1583</RifIDDocLink>
+      <XLINKDOC>
+        <ID>1583</ID>
+        <DOCNumber>LNK00006</DOCNumber>
+        <Documento>Weiter zu: Legende Riemen – Detailansicht</Documento>
+        <URL>LINKDOC:1583</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

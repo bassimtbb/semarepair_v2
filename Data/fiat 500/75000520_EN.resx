@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:26:19">
+  <XDOCUMENTO>
+    <ID>75000520</ID>
+    <DOCNumber>DES75007</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Marelli IAW 5SF8 injection - Euro 4</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Plant Description</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Description</Capitolo>
+      <Corpo>The electronic control unit is located in the engine compartment. &lt;BR/&gt; &lt;BR/&gt; The diagnostic socket is a standard 16-pin (EOBD) type and is located in the passenger compartment under the dashboard on the driver&apos;s side. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Engineering parameters</Capitolo>
+      <Corpo>The control unit manages all the parameters characteristic of petrol injection, such as the following: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Engine speed &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Engine temperature &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Battery voltage &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; …………………  &lt;BR/&gt; &lt;BR/&gt; In particular, the following parameters are also highlighted: &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Calculated advance &lt;/B&gt; &lt;BR/&gt; Indicates the advance value calculated by the control unit to meet the engine operating conditions. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Lambda integrator &lt;/B&gt; &lt;BR/&gt; This is the correction made by the control unit to the amount of fuel in order to achieve the correct air/fuel ratio. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Cruise control target speed &lt;/B&gt; &lt;BR/&gt; Indicates the speed at which the &quot;CRUISE CONTROL&quot; refers to the cruising speed of the car. The value is only reliable at vehicle speeds above 30 km/h. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Errors</Capitolo>
+      <Corpo>The control unit is equipped with permanent error memory and stores the environmental parameters at the moment the error occurs. &lt;BR/&gt; &lt;BR/&gt; They are reported with the attached communication of their status: &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Active error &lt;/B&gt; &lt;BR/&gt; Error is currently detected &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Stored error &lt;/B&gt; &lt;BR/&gt; Error that has already been recorded in memory, and the fault is not currently present. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Error deletion &lt;/B&gt; &lt;BR/&gt; This only occurs with the operator&apos;s consent to delete the error using the delete key &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Active Diagnostics</Capitolo>
+      <Corpo>In the Active Diagnostics environment, the following devices are controlled: &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Air conditioning compressor &lt;/B&gt; &lt;BR/&gt; The air conditioning relay is activated for about ten seconds. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Coil 1-2-3-4 &lt;/B&gt;  &lt;BR/&gt; The AT coils are controlled separately. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Fuel pump relay &lt;/B&gt; &lt;BR/&gt; The fuel pump relay is activated. &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Injector 1-2-3-4 &lt;/B&gt; &lt;BR/&gt; The injectors are activated individually. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Fan 1st-2nd speed &lt;/B&gt; &lt;BR/&gt; The fans are activated individually. &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Lambda probe heating element 1 upstream and 1 downstream &lt;/B&gt; &lt;BR/&gt; The heating element inside the lambda probe is activated. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Canister solenoid valve &lt;/B&gt; &lt;BR/&gt; It is activated for about ten seconds. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Fault indicator control &lt;/B&gt; &lt;BR/&gt; It is activated for about ten seconds. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; VVT (variable valve timing) &lt;/B&gt; &lt;BR/&gt; When activated, the component should be heard ticking.</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>6</Ordine>
+      <Capitolo>Adjustments</Capitolo>
+      <Corpo>The following adjustments can be made: &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Starting with code card &lt;/B&gt; &lt;BR/&gt; Using the vehicle&apos;s code card, the engine can be started in the event of a fault with the key or the electronic key control unit/body computer (if present). &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Throttle learning storage &lt;/B&gt; &lt;BR/&gt; The self-learning of the motorised throttle is stored. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Phonic wheel learning reset &lt;/B&gt; &lt;BR/&gt; To be performed every time the phonic wheel or rev sensor is adjusted &lt;BR/&gt; N.B.: First reset the self-adaptive parameters. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Reset self-adaptive parameters &lt;/B&gt; &lt;BR/&gt; The factory settings are restored in the control unit maps. &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Vehicle configuration deletion &lt;/B&gt; &lt;BR/&gt; Deletes the configuration: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Gearbox type &lt;BR/&gt; &lt;LI&gt; Air conditioning type &lt;BR/&gt; &lt;LI&gt; Cruise control &lt;BR/&gt; &lt;LI&gt; ABS &lt;BR/&gt;  &lt;LI&gt; Electric drive &lt;BR/&gt; &lt;BR/&gt; so that the control unit relearns the new configuration. &lt;BR/&gt; N.B.: Only to be performed in the event of configuration errors or in the event of non-virgin control units being installed. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Resetting camshafts (VVT) &lt;/B&gt;  &lt;BR/&gt; The data in the control unit relating to the camshafts of the phase variator are reset. &lt;BR/&gt; During the first engine start-up after this reset, the new values are automatically learned. &lt;BR/&gt; &lt;BR/&gt; N.B.: To be performed when working on the component or replacing the control unit. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

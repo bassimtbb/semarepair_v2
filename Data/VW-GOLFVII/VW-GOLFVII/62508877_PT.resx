@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:25:32">
+  <XDOCUMENTO>
+    <ID>62508877</ID>
+    <DOCNumber>GUR63116</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Chave de ignição</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Guia de Ajuste</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62508877</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Sincronização da chave</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;B&gt; Esta operação é necessária nos seguintes casos: &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  O sistema de fecho centralizado/alarme não funciona corretamente &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  &lt;BR/&gt; O procedimento deve ser executado utilizando a chave a sincronizar &lt;BR/&gt;  &lt;LI&gt;  Feche todas as portas do veículo &lt;BR/&gt;  &lt;LI&gt;  Pressione o botão  &lt;B&gt; (1) &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Desbloqueie o veículo manualmente &lt;BR/&gt;  &lt;LI&gt;  Sincronização concluída &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504797</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504797</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504797</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62508877</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Programação de chaves</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;B&gt; Esta operação é necessária nos seguintes casos: &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;    Substituição/adição de uma chave. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  As chaves são entregues já programadas, pelo que não existe qualquer procedimento de programação &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

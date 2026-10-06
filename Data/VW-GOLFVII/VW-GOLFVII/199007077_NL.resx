@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-02T20:29:20">
+  <XDOCUMENTO>
+    <ID>199007077</ID>
+    <DOCNumber>INT76338</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>Volkswagen Golf VII</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Officiële terugroepacties</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Fonte gegevens - Ministero van de Trasporti</Capitolo>
+      <Corpo> &lt;B&gt; Fabrikant: &lt;/B&gt;  Volkswagen-groep  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Merk: &lt;/B&gt;  Volkswagen  &lt;BR/&gt;  &lt;BR/&gt; Door de fabrikanten erkende afwijkingen op basis van D.D. 78/2000</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Volkswagen Golf VII</Capitolo>
+      <Corpo> &lt;BR/&gt; Aantal voertuigen: 462 &lt;BR/&gt; Productieperiode: niet vermeld &lt;BR/&gt; Beschrijving van het defect: mogelijke storing van de injectoren met betrekking tot de emissiewaarden &lt;BR/&gt; Corrigerende maatregelen: vervanging &lt;BR/&gt; Referentie: raadpleeg de dealer &lt;BR/&gt; Opmerkingen: cod. 24FO, chassisnummers: raadpleeg de dealer &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Aantal voertuigen: 716 &lt;BR/&gt; Productieperiode: NIET VERMELD &lt;BR/&gt; Beschrijving van het defect: MOGELIJKE STORING IN DE VERGRENDELING VAN DE VOORSTE HOOFDSTEUNEN &lt;BR/&gt; Corrigerende maatregelen: VERVANGING VAN DE GELEIDINGEN VAN DE HOOFDSTEUNEN &lt;BR/&gt; Referentie DEALERS &lt;BR/&gt; Opmerkingen COD 72H5 CHASSIS: RAADPLEEG DEALERS &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Aantal voertuigen: 11206 &lt;BR/&gt; Productieperiode: NIET VERMELD &lt;BR/&gt; Beschrijving van het defect: MOGELIJKE BREUK VAN DE HENDEL VAN DE HANDMATIGE KINDERVEILIGHEIDSVERGRENDELING EN HET PLOTSELING LOSRAKEN DAARVAN ALS GEVOLG VAN STERKE TRILLINGEN &lt;BR/&gt; Corrigerende maatregelen: CONTROLE VAN DE WERKING VAN DE VEILIGHEIDSVERGRENDELING &lt;BR/&gt; Referentie 800865579 &lt;BR/&gt; Opmerkingen COD 58C9 CHASSIS DEALERS &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Aantal voertuigen: 54 &lt;BR/&gt; Productieperiode: NIET VERMELD &lt;BR/&gt; Beschrijving van het defect: MOGELIJKE STORING IN HET LAGER VAN DE VOORWIELEN &lt;BR/&gt; Correctieve maatregelen: VERVANGING &lt;BR/&gt; Referentie DEALERS &lt;BR/&gt; Opmerkingen COD 40L2 CHASSIS RAADPLEEG DEALERS &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Aantal voertuigen: 286 &lt;BR/&gt; Productieperiode: NIET VERMELD &lt;BR/&gt; Beschrijving van het defect: LAGERHOUDER ACHTERWIELEN NIET CONFORM &lt;BR/&gt; Corrigerende maatregelen: VERVANGING LAGERHOUDER &lt;BR/&gt; Referentie DEALERS &lt;BR/&gt; Opmerkingen COD 42I2 CHASSIS RAADPLEEG DEALERS &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Aantal voertuigen: 3802 &lt;BR/&gt; Productieperiode: niet vermeld &lt;BR/&gt; Beschrijving van het defect: Bij een sequentiële zesversnellingsbak met directe schakeling is een storing in de koppeling mogelijk &lt;BR/&gt; Corrigerende maatregelen: Aanpassing van de software van de versnellingsbakregeleenheid &lt;BR/&gt; Referentie voor dealers &lt;BR/&gt; Opmerkingen Cod 37E8 Chassisbereik: raadpleeg dealers &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Aantal voertuigen: 5759 &lt;BR/&gt; Productieperiode: mei 2018 – augustus 2018 &lt;BR/&gt; Beschrijving van het defect: MOGELIJK ONVOLLEDIGE LASNADEN AAN DE ACHTERSTE HOOFDSTEUNRAILS &lt;BR/&gt; Corrigerende maatregelen: EVENTUELE VERVANGING VAN HET RUGLEUNINGFRAME &lt;BR/&gt; Referentie DEALERS &lt;BR/&gt; Opmerkingen COD 72H8 CHASSIS: RAADPLEEG DEALERS &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Aantal voertuigen: 339 &lt;BR/&gt; Productieperiode: JAREN 2016/2017 &lt;BR/&gt; Beschrijving van het defect: MOGELIJKE NIET-ACTIVERING VAN DE AIRBAG EN/OF DE GESPANNER VOOR BESTUURDER EN BIJRIJDER &lt;BR/&gt; Correctieve maatregelen: VERVANGING VAN DEFECTE ONDERDELEN &lt;BR/&gt; Referentie DEALERS &lt;BR/&gt; Opmerkingen COD 69P4 CHASSIS RAADPLEEG DEALERS &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Aantal voertuigen: 10989 &lt;BR/&gt; Productieperiode: JAREN 2016/2017 &lt;BR/&gt; Beschrijving van het defect: MOGELIJKE STORING IN DE HANDMATIGE KINDERVEILIGHEIDSVERGRENDELING &lt;BR/&gt; Corrigerende maatregelen: CONTROLE VAN DE VERGRENDELINGEN VAN DE ACHTERDEUREN &lt;BR/&gt; Referentie DEALERS &lt;BR/&gt; Opmerkingen COD 58C9 CHASSIS: RAADPLEEG DEALERS &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Volkswagen Golf VII Variant</Capitolo>
+      <Corpo> &lt;BR/&gt; Aantal voertuigen: 10989 &lt;BR/&gt; Productieperiode: JAREN 2016/2017 &lt;BR/&gt; Beschrijving van het defect: MOGELIJKE STORING IN DE VEILIGHEIDSVERGRENDELING VOOR KINDEREN &lt;BR/&gt; Corrigerende maatregelen: CONTROLE VAN DE VERGRENDELINGEN VAN DE ACHTERDEUREN &lt;BR/&gt; Referentie DEALERS &lt;BR/&gt; Opmerkingen COD 58C9 CHASSISNummers RAADPLEEG DEALERS &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Aantal voertuigen: 11206 &lt;BR/&gt; Productieperiode: NIET VERMELD &lt;BR/&gt; Beschrijving van het defect: MOGELIJKE BREUK VAN DE HENDEL VAN DE HANDMATIGE KINDERVEILIGHEIDSVERGRENDELING EN HET PLOTSELINGE LOSRAKEN DAARVAN ALS GEVOLG VAN STERKE TRILLINGEN &lt;BR/&gt; Corrigerende maatregelen: CONTROLE VAN DE WERKING VAN DE VEILIGHEIDSVERGRENDELING &lt;BR/&gt; Referentie 800865579 &lt;BR/&gt; Opmerkingen COD 58C9 CHASSIS VAN DEALERS &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Volkswagen Golf/Golf Variant VII met ABS/ESP-regeleenheid (mk60)</Capitolo>
+      <Corpo> &lt;BR/&gt; Aantal voertuigen: 51621 &lt;BR/&gt; Productieperiode: JAREN 2002/2013 &lt;BR/&gt; Beschrijving van de storing: MOGELIJKE ONDERBREKING VAN DE MASSVERBINDING VAN DE REGELEENHEID ALS GEVOLG VAN THERMOMECHANISCHE OVERBELASTING &lt;BR/&gt; Correctieve maatregelen: INSTALLATIE VAN NIEUWE SOFTWARE &lt;BR/&gt; Referentie DEALERS &lt;BR/&gt; Opmerkingen COD 45F2 CHASSIS: RAADPLEEG DEALERS &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Volkswagen Golf VII Performance</Capitolo>
+      <Corpo> &lt;BR/&gt; Aantal voertuigen: 37 &lt;BR/&gt; Productieperiode: MODELJAAR 2017 &lt;BR/&gt; Beschrijving van het defect: ONJUISTE BANDENDRUKPLAATJES EN MOGELIJKE BANDENKLAP &lt;BR/&gt; Correctieve maatregelen: PLAATSING VAN EEN PLAATJE MET DE JUISTE GEGEVENS &lt;BR/&gt; Referentie DEALERS &lt;BR/&gt; Opmerkingen COD 09A5 CHASSIS: RAADPLEEG DEALERS &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>Volkswagen Golf VII Met motor Diesel Start/Stop</Capitolo>
+      <Corpo> &lt;BR/&gt; Aantal voertuigen: 4976 &lt;BR/&gt; Productieperiode: NIET VERMELD &lt;BR/&gt; Beschrijving van het defect: MOGELIJKE STORING IN DE STARTMOTOR EN BRANDGEVAAR &lt;BR/&gt; Corrigerende maatregelen: VERVANGING VAN ELEKTROMAGNETISCHE SCHAKELAARS &lt;BR/&gt; Referentie DEALERS &lt;BR/&gt; Opmerkingen COD 27F9 CHASSISNUMMERS RAADPLEEG DEALERS &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>70</Ordine>
+      <Capitolo>Volkswagen Golf VII met motor 1.2l/1.6l</Capitolo>
+      <Corpo> &lt;BR/&gt; Aantal voertuigen: 271 &lt;BR/&gt; Productieperiode: NIET VERMELD &lt;BR/&gt; Beschrijving van het defect: MOGELIJKE LOSRAKEN VAN SCHROEVEN VAN DE FASEVERSCHUIVINGSREGELAAR EN MOTOROLIEVERLIES &lt;BR/&gt; Corrigerende maatregelen: VERVANGING VAN DE FASEVERSCHUIVINGSREGELAAR &lt;BR/&gt; Referentie DEALERS &lt;BR/&gt; Opmerkingen COD 15H2 CHASSISNUMMERS RAADPLEEG DEALERS &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>199007077</RifIDDoc>
+      <LinkUtili>Link Ministerie van Infrastructuur en Vervoer</LinkUtili>
+      <Ordine>1</Ordine>
+      <RifIDDocLink>15000122</RifIDDocLink>
+      <XLINKDOC>
+        <ID>15000122</ID>
+        <DOCNumber>LNK00008</DOCNumber>
+        <Documento>Ga naar: Terugroepacties - Ministerie van Verkeer</Documento>
+        <URL>LINKDOC:15000122</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

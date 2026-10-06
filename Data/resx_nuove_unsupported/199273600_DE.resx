@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T04:52:07">
+  <XDOCUMENTO>
+    <ID>199273600</ID>
+    <DOCNumber>GUP89362</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Verlust von Informationen oder Unregelmäßigkeiten bei der Erfassung des Kilometerstands des Fahrzeug</Titolo>
+    <InfoDoc>68974 | ELETTRONICA | STRUMENTAZIONE | COMPUTER | AGGIORNAMENTO | SOFTWARE | CHILOMETRI | KM | QUADRO | STRUMENTI | AUMENTO | DIMINUZIONE | PERCORSO | VIAGGIO | MEMORIZZAZIONE | CONSUMI |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199273600</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (***)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legende zur Zuverlässigkeitsstufe&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* niedrige Stufe&lt;/B&gt; : Feststellung durch die Kfz-Werkstatt, vom Hersteller nicht dokumentierter Fehlerfall.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** mittlere Stufe&lt;/B&gt; : Häufig auftretender Fehlerfall, der von Servicetechnikern und Kfz-Werkstätten festgestellt wurde.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** hohe Zuverlässigkeit&lt;/B&gt; : Gewissheit hinsichtlich des Fehlers, gute „Wiederholbarkeit“ laut Angaben des Herstellers.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273600</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Gültigkeit: &lt;/B&gt; Fahrzeuge, die vom 18.03.19 bis zum 24.03.22 hergestellt wurden &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Elektronik &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Bauteil: &lt;/B&gt; ABS-ESP-Steuergerät (1094) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Verlust oder Veränderung von Informationen zum Kilometerstand des Fahrzeugs oder zur zurückgelegten Strecke &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Ein Softwarefehler des ABS-ESP-Steuergeräts (1094) verhindert, dass das Steuergerät die Informationen zum Kilometerstand korrekt speichert &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273600</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Neuprogrammierung und Aktualisierung des ABS-ESP-Steuergeräts (1094) durchführen &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt;  Überprüfen Sie zunächst den Zustand der SHUNT-Sicherung. Sollte eine Unregelmäßigkeit beim Einbau der SHUNT-Sicherung festgestellt werden oder sollte die Sicherung selbst beschädigt sein, ersetzen Sie diese. &lt;BR/&gt; Wenn keine Unregelmäßigkeiten an der SHUNT-Sicherung festgestellt werden, führen Sie die Neuprogrammierung und Aktualisierung des ABS-ESP-Steuergeräts (1094) durch. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Überprüfen Sie mithilfe eines Diagnosegeräts, ob alle zugehörigen Systeme ordnungsgemäß funktionieren. Sollten Fehlercodes (DTCs) oder andere als die aufgeführten Symptome vorliegen, beheben Sie diese zunächst, bevor Sie mit diesem Bericht fortfahren. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

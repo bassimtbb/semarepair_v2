@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-06-01T12:54:15">
+  <XDOCUMENTO>
+    <ID>199250099</ID>
+    <DOCNumber>POP82450</DOCNumber>
+    <RifIDTipoRis>46</RifIDTipoRis>
+    <Titolo>INFORMAÇÃO IMPORTANTE</Titolo>
+    <InfoDoc>ZZZ+TGE83763</InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>46</ID>
+      <TipoRis>POP</TipoRis>
+      <DscRis>Aviso</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199250099</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>MANUTENÇÃO: CORREIAS E COMPONENTES </Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;B&gt; Intervenções de substituição importantes: &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; A cada 150 000 km ou 6 anos - Correia de distribuição - Substituição &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; A cada 150.000 km ou 6 anos - Tensor da correia de distribuição - Substituição &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; A cada 150.000 km ou 6 anos - Polia guia da correia de distribuição - Substituição &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; A cada 150.000 km ou 6 anos - Correia auxiliar / serviços - Substituição &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; A cada 150.000 km ou 6 anos - Tensor da correia auxiliar / serviços - Substituição &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

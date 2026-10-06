@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-03T23:29:16">
+  <XDOCUMENTO>
+    <ID>199320445</ID>
+    <DOCNumber>GUP100617</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Aviso «Erro: Dirija-se a uma oficina! Deixe o veículo apenas na posição P.» e luz de aviso de avaria</Titolo>
+    <InfoDoc>CAMBIO | B1162 | INTERRUTTORE | POSIZIONE | LEVA | MARCE | TRIANGOLO | PERICOLO | DSG | GIALLA | INDICAZIONE | MESSAGGIO | FUNZIONA | BENE | AUTOMATICO | BLOCCAGGIO | SELETTRICE | SEGNALE | MICROINTERRUTTORE | Già | DOPPIA | FRIZIONE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+  </XDOCUMENTO>
+</dataroot>

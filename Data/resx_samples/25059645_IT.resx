@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2022-03-12T05:31:04">
+<XDOCUMENTO>
+<ID>25059645</ID>
+<DOCNumber>FAR25288</DOCNumber>
+<RifIDTipoRis>30</RifIDTipoRis>
+<Titolo>Elenco Sostituzioni</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>0</RifIDFileICO>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+<XTIPORIS>
+<ID>30</ID>
+<TipoRis>FAR</TipoRis>
+<DscRis>Lampadine</DscRis>
+<RifIDFileCSS>0</RifIDFileCSS>
+<RifIDTemplate>4</RifIDTemplate>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+<XRISORSE>
+<RifIDTemplate>4</RifIDTemplate>
+<IDLabel>COLDATO</IDLabel>
+<Stringa>Descrizione</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>4</RifIDTemplate>
+<IDLabel>LINK</IDLabel>
+<Stringa>Link</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>4</RifIDTemplate>
+<IDLabel>TITOLETTO</IDLabel>
+<Stringa>Lista Dati</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>4</RifIDTemplate>
+<IDLabel>COLUM</IDLabel>
+<Stringa>Unità di misura</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>4</RifIDTemplate>
+<IDLabel>COLVALORE</IDLabel>
+<Stringa>Dati</Stringa>
+</XRISORSE>
+</XTIPORIS>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Anabbagliante - Lampadina</Dato>
+<Valore>12 / 55 - H7</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>15000050</RifIDFileIMG>
+<XLINKDOC>
+<ID>15000050</ID>
+<DOCNumber>CMP00028</DOCNumber>
+<Documento>Schede Componenti: Lampadina - H7</Documento>
+<URL>LINKDOC:15000050</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Anabbagliante con faro Bi-Xenon - Lampadina Xenon</Dato>
+<Valore>85 / 35 - D3S</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62500779</RifIDFileIMG>
+<XLINKDOC>
+<ID>62500779</ID>
+<DOCNumber>CMP62502</DOCNumber>
+<Documento>Schede Componenti: Lampadina - D3S</Documento>
+<URL>LINKDOC:62500779</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Abbagliante versione 1 - Lampadina</Dato>
+<Valore>12 / 15/55 - H15</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62506424</RifIDFileIMG>
+<XLINKDOC>
+<ID>62506424</ID>
+<DOCNumber>CMP63368</DOCNumber>
+<Documento>Schede Componenti: Lampadina - H15</Documento>
+<URL>LINKDOC:62506424</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Abbagliante versione 2 - Lampadina</Dato>
+<Valore>12 / 75 - H9</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62500816</RifIDFileIMG>
+<XLINKDOC>
+<ID>62500816</ID>
+<DOCNumber>CMP62539</DOCNumber>
+<Documento>Schede Componenti: Lampadina - H9</Documento>
+<URL>LINKDOC:62500816</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Abbagliante con faro Bi-Xenon - Lampadina Xenon</Dato>
+<Valore>85 / 35 - D3S</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62500779</RifIDFileIMG>
+<XLINKDOC>
+<ID>62500779</ID>
+<DOCNumber>CMP62502</DOCNumber>
+<Documento>Schede Componenti: Lampadina - D3S</Documento>
+<URL>LINKDOC:62500779</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Faro fendinebbia versione 1 - Lampadina</Dato>
+<Valore>12 / 55 - H11</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62500780</RifIDFileIMG>
+<XLINKDOC>
+<ID>62500780</ID>
+<DOCNumber>CMP62503</DOCNumber>
+<Documento>Schede Componenti: Lampadina - H11</Documento>
+<URL>LINKDOC:62500780</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Faro fendinebbia versione 2 - Lampadina</Dato>
+<Valore>12 / 35 - H8 (R-Line)</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62500811</RifIDFileIMG>
+<XLINKDOC>
+<ID>62500811</ID>
+<DOCNumber>CMP62534</DOCNumber>
+<Documento>Schede Componenti: Lampadina - H8</Documento>
+<URL>LINKDOC:62500811</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Luce diurna - Lampadina</Dato>
+<Valore>12 / 15/55 - H15</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62506424</RifIDFileIMG>
+<XLINKDOC>
+<ID>62506424</ID>
+<DOCNumber>CMP63368</DOCNumber>
+<Documento>Schede Componenti: Lampadina - H15</Documento>
+<URL>LINKDOC:62506424</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Luce diurna veicoli con luce di svolta con faro Bi-Xenon - LED</Dato>
+<Valore>- -</Valore>
+<UnitaMis>-</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Luce di posizione anteriore - Lampadina</Dato>
+<Valore>12 / 15/55 - H15</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62506424</RifIDFileIMG>
+<XLINKDOC>
+<ID>62506424</ID>
+<DOCNumber>CMP63368</DOCNumber>
+<Documento>Schede Componenti: Lampadina - H15</Documento>
+<URL>LINKDOC:62506424</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Luce di posizione anteriore veicoli con luce di svolta con faro Bi-Xenon - LED</Dato>
+<Valore>- -</Valore>
+<UnitaMis>-</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Luce di posizione posteriore - Lampadina</Dato>
+<Valore>12 / 21 - W21W</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62500804</RifIDFileIMG>
+<XLINKDOC>
+<ID>62500804</ID>
+<DOCNumber>CMP62527</DOCNumber>
+<Documento>Schede Componenti: Lampadina - W21W</Documento>
+<URL>LINKDOC:62500804</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Luce di posizione posteriore - LED</Dato>
+<Valore>- -</Valore>
+<UnitaMis>-</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Luce di svolta - Lampadina</Dato>
+<Valore>12 / 55 - H7</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>15000050</RifIDFileIMG>
+<XLINKDOC>
+<ID>15000050</ID>
+<DOCNumber>CMP00028</DOCNumber>
+<Documento>Schede Componenti: Lampadina - H7</Documento>
+<URL>LINKDOC:15000050</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Luce stop - Lampadina</Dato>
+<Valore>12 / 21 - W21W</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62500804</RifIDFileIMG>
+<XLINKDOC>
+<ID>62500804</ID>
+<DOCNumber>CMP62527</DOCNumber>
+<Documento>Schede Componenti: Lampadina - W21W</Documento>
+<URL>LINKDOC:62500804</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Luce stop con faro posteriore a LED - LED</Dato>
+<Valore>- -</Valore>
+<UnitaMis>-</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Luce stop centrale - LED</Dato>
+<Valore>- -</Valore>
+<UnitaMis>-</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Luce retromarcia - Lampadina</Dato>
+<Valore>12 / 16 - W16W</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62500783</RifIDFileIMG>
+<XLINKDOC>
+<ID>62500783</ID>
+<DOCNumber>CMP62506</DOCNumber>
+<Documento>Schede Componenti: Lampadina - W16W</Documento>
+<URL>LINKDOC:62500783</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Luce retromarcia con faro posteriore a LED - LED</Dato>
+<Valore>- -</Valore>
+<UnitaMis>-</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Luce retronebbia - Lampadina</Dato>
+<Valore>12 / 21 - W21W</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62500804</RifIDFileIMG>
+<XLINKDOC>
+<ID>62500804</ID>
+<DOCNumber>CMP62527</DOCNumber>
+<Documento>Schede Componenti: Lampadina - W21W</Documento>
+<URL>LINKDOC:62500804</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Luce retronebbia con faro posteriore a LED - Lampadina</Dato>
+<Valore>12 / 21 - H21W</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62500900</RifIDFileIMG>
+<XLINKDOC>
+<ID>62500900</ID>
+<DOCNumber>CMP62552</DOCNumber>
+<Documento>Schede Componenti: Lampadina - H21W</Documento>
+<URL>LINKDOC:62500900</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Luce targa - Lampadina</Dato>
+<Valore>12 / 5 - W5W</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62500885</RifIDFileIMG>
+<XLINKDOC>
+<ID>62500885</ID>
+<DOCNumber>CMP62549</DOCNumber>
+<Documento>Schede Componenti: Lampadina - W5W</Documento>
+<URL>LINKDOC:62500885</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Indicatore di direzione anteriore - Lampadina</Dato>
+<Valore>12 / 21 - WY21W</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62500803</RifIDFileIMG>
+<XLINKDOC>
+<ID>62500803</ID>
+<DOCNumber>CMP62526</DOCNumber>
+<Documento>Schede Componenti: Lampadina - WY21W - Gialla</Documento>
+<URL>LINKDOC:62500803</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Indicatore di direzione anteriore con faro Bi-Xenon - Lampadina</Dato>
+<Valore>12 / 21 - H21W</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62500900</RifIDFileIMG>
+<XLINKDOC>
+<ID>62500900</ID>
+<DOCNumber>CMP62552</DOCNumber>
+<Documento>Schede Componenti: Lampadina - H21W</Documento>
+<URL>LINKDOC:62500900</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Indicatore di direzione laterale - LED</Dato>
+<Valore>- -</Valore>
+<UnitaMis>-</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Indicatore di direzione posteriore - Lampadina</Dato>
+<Valore>12 / 21 - WY21W</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62500803</RifIDFileIMG>
+<XLINKDOC>
+<ID>62500803</ID>
+<DOCNumber>CMP62526</DOCNumber>
+<Documento>Schede Componenti: Lampadina - WY21W - Gialla</Documento>
+<URL>LINKDOC:62500803</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE ESTERNA</Gruppo>
+<Dato>Indicatore di direzione posteriore con faro posteriore a LED - LED</Dato>
+<Valore>- -</Valore>
+<UnitaMis>-</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE INTERNA</Gruppo>
+<Dato>Luce plafoniera anteriore - Lampadina</Dato>
+<Valore>12 / 5 - W5W</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62500885</RifIDFileIMG>
+<XLINKDOC>
+<ID>62500885</ID>
+<DOCNumber>CMP62549</DOCNumber>
+<Documento>Schede Componenti: Lampadina - W5W</Documento>
+<URL>LINKDOC:62500885</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE INTERNA</Gruppo>
+<Dato>Luce lettura plafoniera anteriore - Lampadina</Dato>
+<Valore>12 / 5 - W5W</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62500885</RifIDFileIMG>
+<XLINKDOC>
+<ID>62500885</ID>
+<DOCNumber>CMP62549</DOCNumber>
+<Documento>Schede Componenti: Lampadina - W5W</Documento>
+<URL>LINKDOC:62500885</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE INTERNA</Gruppo>
+<Dato>Luce vano portaoggetti - Lampadina</Dato>
+<Valore>12 / 3 - W3W</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62500785</RifIDFileIMG>
+<XLINKDOC>
+<ID>62500785</ID>
+<DOCNumber>CMP62508</DOCNumber>
+<Documento>Schede Componenti: Lampadina - W3W</Documento>
+<URL>LINKDOC:62500785</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>25059645</RifIDDoc>
+<Gruppo>ILLUMINAZIONE INTERNA</Gruppo>
+<Dato>Luce apertura baule - Lampadina</Dato>
+<Valore>12 / 10 - C10W</Valore>
+<UnitaMis>Volt / Watt - Tipo</UnitaMis>
+<RifIDFileIMG>62500797</RifIDFileIMG>
+<XLINKDOC>
+<ID>62500797</ID>
+<DOCNumber>CMP62520</DOCNumber>
+<Documento>Schede Componenti: Lampadina - C10W</Documento>
+<URL>LINKDOC:62500797</URL>
+</XLINKDOC>
+</XDATIMECH>
+</XDOCUMENTO>
+</dataroot>

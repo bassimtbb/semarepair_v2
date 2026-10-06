@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-23T03:45:20">
+  <XDOCUMENTO>
+    <ID>1440</ID>
+    <DOCNumber>NOT00006</DOCNumber>
+    <RifIDTipoRis>27</RifIDTipoRis>
+    <Titolo>Leitfaden zum Auslesen von EOBD-Fehlercodes</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>27</ID>
+      <TipoRis>NOT</TipoRis>
+      <DscRis>Technischer Hinweis</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Auslegung der Codes</Capitolo>
+      <Corpo>Die Fehlercodes &lt;B&gt; (DTC) EOBD / OBDII &lt;/B&gt; können vom Kfz-Mechaniker mithilfe des standardisierten Diagnosegeräts ( &lt;B&gt; Scantool &lt;/B&gt; ) ausgelesen werden. Sie bestehen aus einem Buchstaben, gefolgt von vier Ziffern.  &lt;B&gt; Der erste Buchstabe des Codes &lt;/B&gt; steht für das Fahrzeugsystem, in dem der Fehler aufgetreten ist: &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P- &lt;/B&gt; (Powertrain): Motor (EOBD-Standardcodes: P0000 – P1000) &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; B- &lt;/B&gt; (Karosserie): Klimaanlage, Beleuchtung, Scheibenwaschanlage, Sitze, Türverriegelung, Fensterheber, Außenspiegel, Airbag-Sensoren, GPS, Autoradio... &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; C- &lt;/B&gt; (Fahrwerk): ABS, Traktions- und Stabilitätskontrolle, aktive Stoßdämpferregelung, Servolenkung &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; U- &lt;/B&gt; (Netzwerk): Kommunikationsfehler im Datennetzwerk &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Die erste Ziffer links gibt an: ob &lt;B&gt; 0 &lt;/B&gt; oder &lt;B&gt; 2 &lt;/B&gt; (Standardcodes), ob &lt;B&gt; 1 &lt;/B&gt; (reservierte Codes) &lt;BR/&gt; &lt;LI&gt; Die zweite Ziffer links identifiziert das Teilsystem, in dem der Fehler aufgetreten ist: &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; 1- &lt;/B&gt; Fehler an den Sensoren des Einspritzsystems &lt;BR/&gt; &lt;B&gt; 2- &lt;/B&gt; Fehler an den Stellgliedern des Einspritzsystems &lt;BR/&gt; &lt;B&gt; 3- &lt;/B&gt; Fehler am Einspritzsystem oder Zündaussetzer &lt;BR/&gt;  &lt;B&gt; 4- &lt;/B&gt; Fehler am Abgasnachbehandlungssystem &lt;BR/&gt; &lt;B&gt; 5- &lt;/B&gt; Fehler an den Sensoren für Fahrzeuggeschwindigkeit, Klimaanlage und Servolenkung &lt;BR/&gt; &lt;B&gt; 6- &lt;/B&gt; Fehler am Antriebsstrang (Kupplung und Getriebe) &lt;BR/&gt;  &lt;B&gt; 7- &lt;/B&gt; Störungen am Antriebsstrang &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; Die dritte und letzte Ziffer geben die Art der Störung gemäß der genauen Beschreibung in der europäischen Norm an. &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Weitere Informationen finden Sie in den Verweisen am Ende der Seite &lt;/B&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>OBDII-Codes von P000 bis P1000 – Motorsteuerungssysteme</Capitolo>
+      <Corpo> &lt;B&gt; P00XX &lt;/B&gt; – Luft-Kraftstoff-System und zusätzliche Emissionskontrolle &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P01XX &lt;/B&gt; – Luft-Kraftstoff-System (Messungen) &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P02XX &lt;/B&gt; – Luft-Kraftstoff-System (Messungen) &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P03XX &lt;/B&gt; – Einspritzsystem und/oder Zündaussetzer &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P04XX &lt;/B&gt;  - Überwachung der Zusatzemissionen &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P05XX &lt;/B&gt; - Fahrzeuggeschwindigkeit, Leerlaufregelung, Aktivität der Zusatzsignale &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P06XX &lt;/B&gt; - Zusatzbefehle von Steuergeräten oder Modulen &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P07XX &lt;/B&gt; - Getriebe und/oder Getriebesysteme &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P08XX &lt;/B&gt; - Getriebe und/oder Getriebesysteme &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P09XX &lt;/B&gt; - Getriebe und/oder Getriebesysteme</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>OBDII-Codes von P0A00 bis P0F00 – Hybridantriebssysteme</Capitolo>
+      <Corpo> &lt;B&gt; P0AXX &lt;/B&gt; – Hybridantrieb / Hybrid-Antriebsstrang &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P0BXX &lt;/B&gt; – reserviert – &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P0CXX &lt;/B&gt; – reserviert – &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P0DXX &lt;/B&gt; – reserviert – &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P0EXX &lt;/B&gt; – reserviert – &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P0FXX &lt;/B&gt; – reserviert –</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>OBDII-Codes von P1000 bis P2000 – Motorsteuerungssysteme</Capitolo>
+      <Corpo> &lt;B&gt; P10XX &lt;/B&gt; – vertraulich – Luft-Kraftstoff-System und zusätzliche Emissionskontrolle &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P11XX &lt;/B&gt; – vertraulich – Luft-Kraftstoff-System (Messungen) &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P12XX &lt;/B&gt; – reserviert – Luft-Kraftstoff-System (Messungen) &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P13XX &lt;/B&gt; – reserviert – Einspritzsystem und/oder Zündaussetzer &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P14XX &lt;/B&gt; – reserviert – Steuerung der Zusatzemissionen &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P15XX &lt;/B&gt; – reserviert – Fahrzeuggeschwindigkeit, Leerlaufregelung, Aktivität der Zusatzsignale &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P16XX &lt;/B&gt; – reserviert – Zusatzsteuerungen von Steuergeräten oder Modulen &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P17XX &lt;/B&gt; – reserviert – Getriebe und/oder Getriebesysteme &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P18XX &lt;/B&gt; – reserviert – Getriebe und/oder Getriebesysteme &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P19XX &lt;/B&gt; – reserviert – Getriebe und/oder Getriebesysteme</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>OBDII-Codes von P2000 bis P3000 – Motorsteuerungssysteme</Capitolo>
+      <Corpo> &lt;B&gt; P20XX &lt;/B&gt; – Luft-Kraftstoff-System und zusätzliche Emissionskontrolle &lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; P23XX &lt;/B&gt; – Einspritzsystem und/oder Zündaussetzer &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P24XX &lt;/B&gt; – Zusatz-Abgasnachbehandlung &lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; P25XX &lt;/B&gt; – Aktivität der Zusatzsignale (Eingang) &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P26XX &lt;/B&gt; - Hilfsbefehle von Steuergeräten oder Modulen (Ausgangssignale) &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P27XX &lt;/B&gt; - Getriebe und/oder Getriebesysteme &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P28XX &lt;/B&gt; - reserviert für ISO/SAE &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P29XX &lt;/B&gt; - Luft-/Kraftstoffsystem und zusätzliche Emissionskontrolle</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>OBDII-Codes von P3000 bis P4000 – Motorsteuerungssysteme</Capitolo>
+      <Corpo> &lt;B&gt; P30XX &lt;/B&gt; – Luft-Kraftstoff-System und zusätzliche Emissionskontrolle &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P31XX &lt;/B&gt; – Luft-Kraftstoff-System und zusätzliche Emissionskontrolle &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P32XX &lt;/B&gt;  - Luft-Kraftstoff-System und zusätzliche Emissionskontrolle &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P33XX &lt;/B&gt; - Einspritzsystem und/oder Zündaussetzer &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P34XX &lt;/B&gt; - Zylinderabschaltung (Verbrauchsreduzierung) &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P35XX &lt;/B&gt; - reserviert für ISO/SAE &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P36XX &lt;/B&gt; - reserviert für ISO/SAE &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P37XX &lt;/B&gt; - reserviert für ISO/SAE &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P38XX &lt;/B&gt; - für ISO/SAE reserviert &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P39XX &lt;/B&gt; - für ISO/SAE reserviert</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>OBDII-Codes von U0000 bis U0400 – Gruppe „Netzwerkkommunikation“</Capitolo>
+      <Corpo> &lt;B&gt; U00XX &lt;/B&gt; – Aktivitäten im Stromnetz &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; U01XX &lt;/B&gt; – Kommunikation im Stromnetz &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; U02XX &lt;/B&gt; – Kommunikation im Stromnetz &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; U03XX &lt;/B&gt; – Softwareaktivitäten &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; U04XX &lt;/B&gt; – Datenaktivitäten</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

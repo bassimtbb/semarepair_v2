@@ -1,0 +1,1568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T13:36:29">
+  <XDOCUMENTO>
+    <ID>199242244</ID>
+    <DOCNumber>FUS88928</DOCNumber>
+    <RifIDTipoRis>20</RifIDTipoRis>
+    <Titolo>Références et localisation - D'octobre 2019 à septembre 2020 - Moteurs diesel</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>265</RifIDFileICO>
+    <XFILE>
+      <ID>265</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:265</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>20</ID>
+      <TipoRis>FUS</TipoRis>
+      <DscRis>Fusibles et relais</DscRis>
+      <RifIDFileCSS>264</RifIDFileCSS>
+      <RifIDTemplate>8</RifIDTemplate>
+      <XFILE>
+        <ID>264</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:264</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLDESCRIZIONE</IDLabel>
+        <Stringa>Description</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLNUMERO</IDLabel>
+        <Stringa>Numéro</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLRIFERIMENTO</IDLabel>
+        <Stringa>Référence</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XFUSCONN>
+      <RifIDDoc>199242244</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Titolo>Localisation Boîtes à fusibles</Titolo>
+      <RifIDFileIMGANI>299009382</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005453</ID>
+      <XFILE>
+        <ID>299009382</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009382</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005453</RifIDImmagine>
+        <Numero>1</Numero>
+        <Descrizione>Boîte à fusibles / Relais compartiment moteur (A)</Descrizione>
+        <Riferimento>Compartiment moteur - à côté de la batterie</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005453</RifIDImmagine>
+        <Numero>2</Numero>
+        <Descrizione>Boîte à fusibles / Relais compartiment moteur (B)</Descrizione>
+        <Riferimento>Compartiment moteur - à côté de la batterie</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005453</RifIDImmagine>
+        <Numero>3</Numero>
+        <Descrizione>Boîte à fusibles / Relais compartiment moteur (C)</Descrizione>
+        <Riferimento>Compartiment moteur - à côté de la batterie</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005453</RifIDImmagine>
+        <Numero>4</Numero>
+        <Descrizione>Boîte à fusibles / Relais compartiment moteur (D)</Descrizione>
+        <Riferimento>Compartiment moteur - à côté de la batterie</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005453</RifIDImmagine>
+        <Numero>5</Numero>
+        <Descrizione>Boîte à fusibles / Relais habitacle (A)</Descrizione>
+        <Riferimento>Sous le tableau de bord - côté gauche</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005453</RifIDImmagine>
+        <Numero>6</Numero>
+        <Descrizione>Boîte à fusibles / Relais habitacle (B)</Descrizione>
+        <Riferimento>Intégrée dans la boîte à fusibles</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242244</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Titolo>Boîte à fusibles - Compartiment moteur (A)</Titolo>
+      <RifIDFileIMGANI>299009374</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005456</ID>
+      <XFILE>
+        <ID>299009374</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009374</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Boîtier électronique ABS+ESP</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Capteur de température du carburant</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Pompe à carburant électrique avec capteur de niveau</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Relais de pompe à vide / dépression</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Ventilateur électrique de refroidissement du moteur</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Pompe électrique de liquide de refroidissement turbocompresseur</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Électrovanne de sélection</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Relais d'additif carburant</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Composants d'injection</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Boîtier d'injection</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Réglage du calage des arbres à cames</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Boîtier d'injection</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Limiteur de chauffage moteur</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Moteur d'essuie-glace</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Boîtier électronique de boîte de vitesses automatique</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Capteur de vitesse de changement de vitesse</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Relais APC</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Commande de boîte de vitesses automatique</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Relais de chauffage du filtre à carburant</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Relais de feux de recul</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Boîte à fusibles / Relais compartiment moteur (A)</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Module de commande de remorque</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Éclairage du coffre</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Actionneur à cylindrée variable</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F14</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005456</RifIDImmagine>
+        <Numero>F15</Numero>
+        <Descrizione>Boîtier d'injection</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242244</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Titolo>Boîte à fusibles - Compartiment moteur (B)</Titolo>
+      <RifIDFileIMGANI>299009367</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005457</ID>
+      <XFILE>
+        <ID>299009367</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009367</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005457</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005457</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005457</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Stabilisateur de réseau</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005457</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005457</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005457</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005457</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Fusible 07 - Boîte à fusibles habitacle (B)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005457</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Relais d'avertisseur sonore</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242244</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Titolo>Boîte à fusibles - Compartiment moteur (C)</Titolo>
+      <RifIDFileIMGANI>299009376</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005458</ID>
+      <XFILE>
+        <ID>299009376</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009376</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Réchauffeur d'additif pour carburant</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Injecteur d'additif</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Capteur NOx</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Boîtier électronique de boîte de vitesses automatique</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Capteur de vitesse de boîte de vitesses automatique</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Boîtier électronique de boîte de vitesses automatique</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Pompe à huile de boîte de vitesses</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Relais de pompe à huile de boîte de vitesses</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Relais électropompe additif carburant</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Relais de pompe à huile de boîte de vitesses</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005458</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Relais APC</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242244</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Titolo>Boîte à fusibles - Compartiment moteur (D)</Titolo>
+      <RifIDFileIMGANI>299009369</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005459</ID>
+      <XFILE>
+        <ID>299009369</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009369</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Boîtier électronique de boîte de vitesses automatique</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Réchauffeur de filtre à carburant</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Capteur de présence d'eau</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Boîte à fusibles / Relais compartiment moteur (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Fusible 06 - Boîte à fusibles Compartiment moteur (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Fusible 04 - Boîte à fusibles Compartiment moteur (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Fusible 05 - Boîte à fusibles Compartiment moteur (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Fusible 07 - Boîte à fusibles Compartiment moteur (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Ventilateur électrique de refroidissement du moteur</Descrizione>
+        <Riferimento>60 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Unité de préchauffage</Descrizione>
+        <Riferimento>70 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Boîte à fusibles / Relais compartiment moteur (A)</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Relais de démarreur</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Boîtier électronique de boîte de vitesses automatique</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Pompe à vide / dépression</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Fusible 01 - Boîte à fusibles Compartiment moteur (C)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Fusible 02 - Boîte à fusibles Compartiment moteur (C)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Fusible 03 - Boîte à fusibles Compartiment moteur (C)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Bougies de préchauffage</Descrizione>
+        <Riferimento>70 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Bougies de préchauffage</Descrizione>
+        <Riferimento>70 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Relais de démarreur</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Relais de pompe à vide / dépression</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>R4</Numero>
+        <Descrizione>Relais de feux de recul</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>R5</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005459</RifIDImmagine>
+        <Numero>R6</Numero>
+        <Descrizione>Relais de chauffage du filtre à carburant</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242244</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Titolo>Boîte à fusibles - Habitacle (A)</Titolo>
+      <RifIDFileIMGANI>299009375</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005454</ID>
+      <XFILE>
+        <ID>299009375</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009375</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Fermeture du volet du réservoir de carburant</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Verrouillage centralisé</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Fermeture de la porte conducteur</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Fermeture de la porte passager</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Verrouillage centralisé</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Fermeture du coffre</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Fermeture des portes</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Boîtier de direction</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Boîtier électronique Keyless</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Éclairage habitacle / coffre / bac à eau</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Relais d'éclairage de l'habitacle</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Éclairage d'ambiance</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Feu arrière troisième stop</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Rétroviseurs</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Feux arrière</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Module de commande de remorque</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Feux arrière</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Essuie-glace arrière</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Module de commande de remorque</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Frein à main / frein de stationnement</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Relais d'alimentation batterie temporisé</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 11 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 39 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 07 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 10 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 45 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 42 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 40 - Boîte à fusibles Habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 08 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 47 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 09 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 54 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 52 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 50 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 48 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 46 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 43 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 41 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 51 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 53 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 55 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 49 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fusible 12 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F14</Numero>
+        <Descrizione>Éclairage habitacle / coffre / bac à eau</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F15</Numero>
+        <Descrizione>Tableau de bord</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Alarme / Antivol</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Capteurs volumétriques antivol</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Relais APC</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F17</Numero>
+        <Descrizione>Amplificateur d'autoradio</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Autoradio</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F19</Numero>
+        <Descrizione>Écran multifonctions</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F19</Numero>
+        <Descrizione>Prise 12 V</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>Prise de diagnostic</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>Boîtier électronique CAN</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F21</Numero>
+        <Descrizione>Unité de contrôle électronique / services</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F22</Numero>
+        <Descrizione>Module de commande du frein à main / de stationnement</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F23</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Frein à main / frein de stationnement</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F25</Numero>
+        <Descrizione>Interrupteur de pédale de frein</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F25</Numero>
+        <Descrizione>Feux arrière</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F25</Numero>
+        <Descrizione>Module de commande de remorque</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Relais d'alimentation batterie temporisé</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fusible 23 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fusible 24 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fusible 25 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fusible 30 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fusible 31 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fusible 32 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fusible 34 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fusible 20 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fusible 22 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fusible 21 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F27</Numero>
+        <Descrizione>Rétroviseurs</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F28</Numero>
+        <Descrizione>Module de commande de remorque</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F28</Numero>
+        <Descrizione>Boîtier électronique d'attelage</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F29</Numero>
+        <Descrizione>Avertisseur sonore</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F29</Numero>
+        <Descrizione>Relais d'avertisseur sonore</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F30</Numero>
+        <Descrizione>Allume-cigare</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F30</Numero>
+        <Descrizione>Prise 12 V</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F31</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F32</Numero>
+        <Descrizione>Pompe lave-glace avant / arrière</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F33</Numero>
+        <Descrizione>Fusible 01 - Boîte à fusibles habitacle (B)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Ventilateur électrique de l'habitacle</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F35</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Lunette arrière chauffante</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Fusible 27 - Boîte à fusibles habitacle (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F38</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F39</Numero>
+        <Descrizione>Lève-vitre avant droit</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F40</Numero>
+        <Descrizione>Lève-vitre arrière gauche</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F41</Numero>
+        <Descrizione>Lève-vitre arrière droit</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F42</Numero>
+        <Descrizione>Lève-vitre avant gauche</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F43</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F44</Numero>
+        <Descrizione>Capteur d'angle de braquage</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F45</Numero>
+        <Descrizione>Capteur de température de l'air dans l'habitacle</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F45</Numero>
+        <Descrizione>Capteur de pluie / lumière</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F45</Numero>
+        <Descrizione>Commandes de climatisation</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Module transpondeur clé de contact</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Capteur de position de la pédale d'embrayage</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Boîte à fusibles / Relais compartiment moteur (A)</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Module de commande de remorque</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Boîtier électronique d'attelage</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Boîtier électronique de régulateur de vitesse avec contrôle de la distance de sécurité</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Éclairage du coffre</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F47</Numero>
+        <Descrizione>Antivol</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F48</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>Boîtier électronique ABS+ESP</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>Interrupteur de pédale de frein</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F50</Numero>
+        <Descrizione>Rétroviseurs</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F51</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F52</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F53</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F54</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F55</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F56</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F57</Numero>
+        <Descrizione>Boîtier électronique Airbag</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F58</Numero>
+        <Descrizione>Tableau de bord</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F59</Numero>
+        <Descrizione>Boîtier électronique de direction assistée</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Autoradio</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Relais de chauffage supplémentaire</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Unité de commande d'aide au stationnement</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Rétroviseur anti-éblouissement</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Relais de lunette arrière chauffante</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Aménagements spéciaux</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Module de commande du frein à main / de stationnement</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Formulaire de signalement des ceintures de sécurité</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Moteur de réglage des phares - gauche</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Moteur de réglage des phares - droit</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Module caméra</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Boîtier électronique CAN</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Module téléphone</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Capteur d'angle mort</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Capteur d'alerte d'impact</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Relais d'alimentation batterie temporisé</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Relais d'alimentation batterie temporisé</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>R4</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>R5</Numero>
+        <Descrizione>Relais de lunette arrière chauffante</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>R6</Numero>
+        <Descrizione>Relais d'éclairage de l'habitacle</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005454</RifIDImmagine>
+        <Numero>R7</Numero>
+        <Descrizione>Relais APC</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242244</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Titolo>Boîte à fusibles - Habitacle (B)</Titolo>
+      <RifIDFileIMGANI>299009371</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005455</ID>
+      <XFILE>
+        <ID>299009371</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009371</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Volant chauffant</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Relais de chauffage volant</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Commutateur d'éclairage</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Sièges chauffants</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005455</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Non utilisé / Non présent</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+  </XDOCUMENTO>
+</dataroot>

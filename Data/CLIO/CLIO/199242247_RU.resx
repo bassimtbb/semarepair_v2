@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T13:36:42">
+  <XDOCUMENTO>
+    <ID>199242247</ID>
+    <DOCNumber>FUS88929</DOCNumber>
+    <RifIDTipoRis>20</RifIDTipoRis>
+    <Titolo>Referencje i lokalizacja – od października 2020 r. do września 2021 r. – silniki wysokoprężne</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>265</RifIDFileICO>
+    <XFILE>
+      <ID>265</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:265</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>20</ID>
+      <TipoRis>FUS</TipoRis>
+      <DscRis>Bezpieczniki i przekaźniki</DscRis>
+      <RifIDFileCSS>264</RifIDFileCSS>
+      <RifIDTemplate>8</RifIDTemplate>
+      <XFILE>
+        <ID>264</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:264</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLDESCRIZIONE</IDLabel>
+        <Stringa>Opis</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLNUMERO</IDLabel>
+        <Stringa>Numer</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLRIFERIMENTO</IDLabel>
+        <Stringa>Odniesienie</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XFUSCONN>
+      <RifIDDoc>199242247</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Titolo>Lokalizacja skrzynek bezpieczników</Titolo>
+      <RifIDFileIMGANI>299009382</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005460</ID>
+      <XFILE>
+        <ID>299009382</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009382</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005460</RifIDImmagine>
+        <Numero>1</Numero>
+        <Descrizione>Skrzynka bezpieczników / Przekaźnik komory silnika (A)</Descrizione>
+        <Riferimento>Komora silnika – obok akumulatora</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005460</RifIDImmagine>
+        <Numero>2</Numero>
+        <Descrizione>Skrzynka bezpieczników / Przekaźnik w komorze silnika (B)</Descrizione>
+        <Riferimento>Komora silnika – obok akumulatora</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005460</RifIDImmagine>
+        <Numero>3</Numero>
+        <Descrizione>Skrzynka bezpieczników / Przekaźnik komory silnika (C)</Descrizione>
+        <Riferimento>Komora silnika – obok akumulatora</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005460</RifIDImmagine>
+        <Numero>4</Numero>
+        <Descrizione>Skrzynka bezpieczników / Przekaźnik komory silnika (D)</Descrizione>
+        <Riferimento>Komora silnika – obok akumulatora</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005460</RifIDImmagine>
+        <Numero>5</Numero>
+        <Descrizione>Skrzynka bezpieczników / Przekaźnik w kabinie (A)</Descrizione>
+        <Riferimento>Pod deską rozdzielczą – strona lewa</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005460</RifIDImmagine>
+        <Numero>6</Numero>
+        <Descrizione>Skrzynka bezpieczników / Przekaźnik w kabinie (B)</Descrizione>
+        <Riferimento>Zintegrowana z skrzynką bezpieczników</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242247</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Titolo>Skrzynka bezpieczników - Komora silnika (A)</Titolo>
+      <RifIDFileIMGANI>299009374</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005463</ID>
+      <XFILE>
+        <ID>299009374</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009374</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Moduł sterujący ABS+ESP</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Czujnik temperatury paliwa</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Elektryczna pompa paliwa z czujnikiem poziomu</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Przekaźnik pompy próżniowej / podciśnieniowej</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Elektryczny wentylator chłodzący silnik</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Elektryczna pompa płynu chłodzącego turbosprężarki</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Elektrozawór selekcyjny</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Przekaźnik dodatku do paliwa</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Elementy układu wtryskowego</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Moduł sterujący wtryskiem paliwa</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Regulacja faz rozrządu wałków rozrządu</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Moduł sterujący wtryskiem paliwa</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Regulator przepływu powietrza w układzie ogrzewania silnika</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Silnik wycieraczek</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Moduł sterujący automatycznej skrzyni biegów</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Czujnik prędkości skrzyni biegów</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Przekaźnik APC</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Sterowanie automatyczną skrzynią biegów</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Przekaźnik podgrzewania filtra paliwa</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Przekaźnik świateł cofania</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Skrzynka bezpieczników / Przekaźnik komory silnika (A)</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Moduł sterowania przyczepą</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Oświetlenie bagażnika</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Siłownik zmiennej pojemności cylindra</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F14</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005463</RifIDImmagine>
+        <Numero>F15</Numero>
+        <Descrizione>Moduł sterujący wtryskiem paliwa</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242247</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Titolo>Skrzynka bezpieczników - Komora silnika (B)</Titolo>
+      <RifIDFileIMGANI>299009367</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005464</ID>
+      <XFILE>
+        <ID>299009367</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009367</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005464</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005464</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005464</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Stabilizator sieciowy</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005464</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005464</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005464</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005464</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Bezpiecznik 38 – Skrzynka bezpieczników w kabinie pasażerskiej</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005464</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Przekaźnik sygnału dźwiękowego</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242247</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Titolo>Skrzynka bezpieczników - Komora silnika (C)</Titolo>
+      <RifIDFileIMGANI>299009377</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005465</ID>
+      <XFILE>
+        <ID>299009377</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009377</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005465</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Nagrzewnica dodatku do paliwa</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005465</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Wtryskiwacz dodatku</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005465</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Czujnik NOx</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005465</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Czujnik filtra cząstek stałych</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005465</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005465</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Moduł sterujący automatycznej skrzyni biegów</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005465</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Czujnik prędkości skrzyni biegów automatycznej</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005465</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Moduł sterujący automatycznej skrzyni biegów</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005465</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Pompa oleju skrzyni biegów</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005465</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Przekaźnik pompy oleju skrzyni biegów</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005465</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005465</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Przekaźnik elektropompy dodatku do paliwa</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005465</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Przekaźnik pompy oleju skrzyni biegów</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005465</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Przekaźnik APC</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242247</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Titolo>Skrzynka bezpieczników - Komora silnika (D)</Titolo>
+      <RifIDFileIMGANI>299009378</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005466</ID>
+      <XFILE>
+        <ID>299009378</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009378</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Moduł sterujący automatycznej skrzyni biegów</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Grzałka filtra paliwa</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Czujnik obecności wody</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Skrzynka bezpieczników / Przekaźnik komory silnika (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Bezpiecznik 06 – Skrzynka bezpieczników w komorze silnika (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Bezpiecznik 04 – Skrzynka bezpieczników w komorze silnika (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Bezpiecznik 05 – Skrzynka bezpieczników w komorze silnika (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Bezpiecznik 07 – Skrzynka bezpieczników w komorze silnika (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Elektryczny wentylator chłodzący silnik</Descrizione>
+        <Riferimento>60 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Moduł sterujący podgrzewaniem wstępnym</Descrizione>
+        <Riferimento>70 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Skrzynka bezpieczników / Przekaźnik komory silnika (A)</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Przekaźnik rozrusznika</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Moduł sterujący automatycznej skrzyni biegów</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Pompa próżniowa / podciśnieniowa</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Bezpiecznik 01 – Skrzynka bezpieczników w komorze silnika (C)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Bezpiecznik 02 – Skrzynka bezpieczników w komorze silnika (C)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Bezpiecznik 03 – Skrzynka bezpieczników w komorze silnika (C)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Świece grzewcze</Descrizione>
+        <Riferimento>70 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Świece grzewcze</Descrizione>
+        <Riferimento>70 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Przekaźnik rozrusznika</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Przekaźnik pompy próżniowej / podciśnieniowej</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Przekaźnik świateł cofania</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>R4</Numero>
+        <Descrizione>Przekaźnik świateł cofania</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>R5</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005466</RifIDImmagine>
+        <Numero>R6</Numero>
+        <Descrizione>Przekaźnik podgrzewania filtra paliwa</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242247</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Titolo>Skrzynka bezpieczników - Kabina (A)</Titolo>
+      <RifIDFileIMGANI>299009379</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005461</ID>
+      <XFILE>
+        <ID>299009379</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009379</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Zamknięcie klapki wlewu paliwa</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Centralny zamek</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Zamknięcie drzwi kierowcy</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Zamknięcie drzwi pasażera</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Centralny zamek</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Zamknięcie bagażnika</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Zamknięcie drzwi</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Moduł sterujący blokady kierownicy</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Moduł sterujący systemu Keyless</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Oświetlenie wnętrza / bagażnika / podwozia</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Przekaźnik oświetlenia wnętrza</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Oświetlenie wnękowe</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Trzecie światło hamowania</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Lusterka wsteczne</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Tylne światła</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Moduł sterowania przyczepą</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Tylne światła</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Silnik wycieraczki tylnej szyby</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Moduł sterowania przyczepą</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Skuter z hamulcem ręcznym / hamulcem postojowym</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Czasowy przekaźnik zasilania akumulatora</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 11 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 39 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 07 – Skrzynka bezpieczników w kabinie pasażerskiej (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 10 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 45 – Skrzynka bezpieczników w kabinie pasażerskiej (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 42 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 40 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 08 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 47 – Skrzynka bezpieczników w kabinie pasażerskiej (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 09 – Skrzynka bezpieczników w kabinie pasażerskiej (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 54 – Skrzynka bezpieczników w kabinie pasażerskiej (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 52 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 50 – Skrzynka bezpieczników w kabinie pasażerskiej (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 48 – Skrzynka bezpieczników w kabinie pasażerskiej (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 46 – Skrzynka bezpieczników w kabinie pasażerskiej (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 43 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 41 – Skrzynka bezpieczników w kabinie pasażerskiej (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 51 – Skrzynka bezpieczników w kabinie pasażerskiej (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 53 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 55 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 49 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bezpiecznik 12 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F14</Numero>
+        <Descrizione>Oświetlenie wnętrza / bagażnika / podwozia</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F15</Numero>
+        <Descrizione>Deska rozdzielcza</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Alarm / System antykradzieżowy</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Objętościowe czujniki antykradzieżowe</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Przekaźnik APC</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F17</Numero>
+        <Descrizione>Wzmacniacz do radia samochodowego</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Radio samochodowe</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F19</Numero>
+        <Descrizione>Wielofunkcyjny wyświetlacz informacyjny</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F19</Numero>
+        <Descrizione>Gniazdo 12 V</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>Gniazdo diagnostyczne</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>Moduł sterujący sieci CAN</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F21</Numero>
+        <Descrizione>Moduł telematyczny / usługi</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F22</Numero>
+        <Descrizione>Moduł sterujący hamulcem ręcznym / postojowym</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F23</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Skuter z hamulcem ręcznym / hamulcem postojowym</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F25</Numero>
+        <Descrizione>Przełącznik pedału hamulca</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F25</Numero>
+        <Descrizione>Tylne światła</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F25</Numero>
+        <Descrizione>Moduł sterowania przyczepą</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Czasowy przekaźnik zasilania akumulatora</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Bezpiecznik 23 – Skrzynka bezpieczników w kabinie pasażerskiej (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Bezpiecznik 24 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Bezpiecznik 25 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Bezpiecznik 30 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Bezpiecznik 31 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Bezpiecznik 32 – Skrzynka bezpieczników w kabinie pasażerskiej (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Bezpiecznik 34 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Bezpiecznik 20 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Bezpiecznik 22 – Skrzynka bezpieczników w kabinie pasażerskiej (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Bezpiecznik 21 – Skrzynka bezpieczników w kabinie pasażerskiej (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F27</Numero>
+        <Descrizione>Lusterka wsteczne</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F28</Numero>
+        <Descrizione>Moduł sterowania przyczepą</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F28</Numero>
+        <Descrizione>Moduł sterujący haka holowniczego</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F29</Numero>
+        <Descrizione>Sygnał dźwiękowy</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F29</Numero>
+        <Descrizione>Przekaźnik sygnału dźwiękowego</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F30</Numero>
+        <Descrizione>Gniazdo zapalniczki</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F30</Numero>
+        <Descrizione>Gniazdo 12 V</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F31</Numero>
+        <Descrizione>Przekaźnik podgrzewania kierownicy</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F31</Numero>
+        <Descrizione>Przełącznik regulacji wysokości świateł</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F32</Numero>
+        <Descrizione>Pompa spryskiwacza przedniej/tylnej szyby</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F33</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Elektryczny wentylator klimatyzacji</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F35</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Ogrzewana szyba tylna</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Bezpiecznik 27 – Skrzynka bezpieczników w kabinie (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F38</Numero>
+        <Descrizione>Ogrzewane siedzenia</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F39</Numero>
+        <Descrizione>Przednia prawa szyba</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F40</Numero>
+        <Descrizione>Podnośnik szyby tylnej lewej</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F41</Numero>
+        <Descrizione>Podnośnik tylnej prawej szyby</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F42</Numero>
+        <Descrizione>Lewa przednia szyba</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F43</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F44</Numero>
+        <Descrizione>Czujnik kąta skrętu kierownicy</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F45</Numero>
+        <Descrizione>Czujnik temperatury powietrza w kabinie</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F45</Numero>
+        <Descrizione>Czujnik deszczu / światła</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F45</Numero>
+        <Descrizione>Elementy sterujące klimatyzacją</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Moduł transpondera kluczyka zapłonowego</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Czujnik położenia pedału sprzęgła</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Skrzynka bezpieczników / Przekaźnik komory silnika (A)</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Moduł sterowania przyczepą</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Moduł sterujący haka holowniczego</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Moduł sterujący tempomatem z funkcją utrzymywania bezpiecznej odległości</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Oświetlenie bagażnika</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F47</Numero>
+        <Descrizione>Systemy antykradzieżowe</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F48</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>Moduł sterujący ABS+ESP</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>Przełącznik pedału hamulca</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F50</Numero>
+        <Descrizione>Lusterka wsteczne</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F51</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F52</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F53</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F54</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F55</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F56</Numero>
+        <Descrizione>Nie używane / Nie występuje</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F57</Numero>
+        <Descrizione>Moduł sterujący poduszką powietrzną</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F58</Numero>
+        <Descrizione>Deska rozdzielcza</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F59</Numero>
+        <Descrizione>Moduł sterujący układem wspomagania kierownicy</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Radio samochodowe</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Przekaźnik dodatkowego ogrzewania</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Moduł wspomagania parkowania</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Lusterko wsteczne z powłoką antyodblaskową</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Przekaźnik podgrzewania tylnej szyby</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Wyposażenie specjalne</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Moduł sterujący hamulcem ręcznym / postojowym</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Formularz zgłoszenia dotyczący pasów bezpieczeństwa</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Regulator ustawienia świateł w skuterze – lewy</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Regulator ustawienia świateł w skuterze – prawy</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Moduł kamery</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Moduł sterujący sieci CAN</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Formularz telefoniczny</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Czujnik martwego pola</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Czujnik ostrzegający o zderzeniu</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Czasowy przekaźnik zasilania akumulatora</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Czasowy przekaźnik zasilania akumulatora</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Przekaźnik APC</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>R4</Numero>
+        <Descrizione>Przekaźnik podgrzewania kierownicy</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>R5</Numero>
+        <Descrizione>Przekaźnik podgrzewania tylnej szyby</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>R6</Numero>
+        <Descrizione>Przekaźnik oświetlenia wnętrza</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005461</RifIDImmagine>
+        <Numero>R7</Numero>
+        <Descrizione>Przekaźnik APC</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+  </XDOCUMENTO>
+</dataroot>

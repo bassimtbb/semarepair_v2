@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T04:39:01">
+  <XDOCUMENTO>
+    <ID>199082246</ID>
+    <DOCNumber>COP87782</DOCNumber>
+    <RifIDTipoRis>24</RifIDTipoRis>
+    <Titolo>List for Engines B47 D20B</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>226</RifIDFileICO>
+    <XFILE>
+      <ID>226</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:226</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>24</ID>
+      <TipoRis>COP</TipoRis>
+      <DscRis>Tightening torques</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>10</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLDATO</IDLabel>
+        <Stringa>Description</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLUM</IDLabel>
+        <Stringa>Unit of measurement</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLVALORE</IDLabel>
+        <Stringa>Data</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Data List</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Tappet cover</Dato>
+      <Valore>9</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato> Tappet cover</Dato>
+      <Valore>Note</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199070401</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199070401</ID>
+        <DOCNumber>LIS77373</DOCNumber>
+        <URL>LINKDOC:199070401</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Engine head tightening sequence</Dato>
+      <Valore>Consult image</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>75010425</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>75010425</ID>
+        <DOCNumber>LIS75831</DOCNumber>
+        <URL>LINKDOC:75010425</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>1st phase Cylinder head test - Tightening</Dato>
+      <Valore>50</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato> Cylinder head 2 - Tightening</Dato>
+      <Valore>120°</Valore>
+      <UnitaMis>Degrees</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato> Cylinder head 3 - Tightening</Dato>
+      <Valore>120°</Valore>
+      <UnitaMis>Degrees</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>4th phase Cylinder head test - Tightening</Dato>
+      <Valore>(M8 at 19 Nm)</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Replacement of engine head bolts</Dato>
+      <Valore>Recommended - (DO NOT REMOVE COVER)</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Lubrication of engine head bolts</Dato>
+      <Valore>Recommended - (with engine oil)</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Main bearings</Dato>
+      <Valore>Note</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199021214</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199021214</ID>
+        <DOCNumber>LIS77132</DOCNumber>
+        <URL>LINKDOC:199021214</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Replacement of crankshaft bearing bolts</Dato>
+      <Valore>Recommended - (DO NOT REMOVE COVER)</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Connecting rod bearing caps</Dato>
+      <Valore>Note</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>75011124</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>75011124</ID>
+        <DOCNumber>LIS76034</DOCNumber>
+        <URL>LINKDOC:75011124</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Connecting rod bearing caps, 1st stage - Tightening</Dato>
+      <Valore>5</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato> Connecting rod bearing caps, 2nd stage - Tightening</Dato>
+      <Valore>20 Nm and 70° e of 70°</Valore>
+      <UnitaMis>Degrees</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Replacement of connecting rod bearing cap bolts</Dato>
+      <Valore>Recommended</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Crankshaft pulley bolts</Dato>
+      <Valore>40 Nm and 120°.</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato> Crankshaft pulley bolts</Dato>
+      <Valore>Note</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199070400</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199070400</ID>
+        <DOCNumber>LIS77372</DOCNumber>
+        <URL>LINKDOC:199070400</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Replacement of crankshaft pulley bolts</Dato>
+      <Valore>Recommended</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Flywheel bolts</Dato>
+      <Valore>120</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Replacement of flywheel bolts</Dato>
+      <Valore>Recommended</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Clutch bolts</Dato>
+      <Valore>120</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Replacing clutch bolts</Dato>
+      <Valore>Recommended</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Clutch release bolts</Dato>
+      <Valore>15 Nm and 90°</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Replacement of clutch release bolts</Dato>
+      <Valore>Recommended</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Timing gear</Dato>
+      <Valore>17</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato> Camshaft caps</Dato>
+      <Valore>Note</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199036891</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199036891</ID>
+        <DOCNumber>LIS77163</DOCNumber>
+        <URL>LINKDOC:199036891</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Intake manifold towards engine head</Dato>
+      <Valore>11</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Exhaust manifold towards header</Dato>
+      <Valore>11 Nm and 13 Nm</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Replacing exhaust manifold nuts</Dato>
+      <Valore>Recommended</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Replacing exhaust manifold bolts</Dato>
+      <Valore>Recommended</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato> Fixing injectors</Dato>
+      <Valore>Note</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199058179</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199058179</ID>
+        <DOCNumber>LIS77297</DOCNumber>
+        <URL>LINKDOC:199058179</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199082246</RifIDDoc>
+      <Gruppo>TORQUE TORQUES</Gruppo>
+      <Dato>Injection pump</Dato>
+      <Valore>19</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+  </XDOCUMENTO>
+</dataroot>

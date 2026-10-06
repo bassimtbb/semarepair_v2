@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:26:18">
+  <XDOCUMENTO>
+    <ID>75000518</ID>
+    <DOCNumber>DES75005</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Marelli-Instrumententafel 2</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Beschreibung Anlage</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Beschreibung</Capitolo>
+      <Corpo>Das Steuergerät ist in die Instrumententafel integriert, die sich im Armaturenbrett des Fahrzeugs oberhalb des Lenkrads befindet. &lt;BR/&gt; &lt;BR/&gt; Die Diagnosesteckdose ist ein einheitlicher 16-poliger Stecker (EOBD) und befindet sich im Fahrgastraum unterhalb der Armaturenbrettverkleidung auf der Fahrerseite. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Technische Parameter</Capitolo>
+      <Corpo>Das Steuergerät regelt verschiedene Parameter: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Motordrehzahl &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Motortemperatur &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Kraftstoffstand, &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Kilometerstand (Tachostand) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Alle servicebezogenen Parameter (Inspektion) &lt;BR/&gt; &lt;BR/&gt; Die servicebezogenen Parameter für die Inspektion geben Folgendes an: &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Kilometerstand bis zur nächsten Wartung &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Kilometerstand, bei dem die Wartung durchgeführt wurde &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Anzahl der durchgeführten Wartungen &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Kilometerleistung bis zur nächsten Wartung &lt;BR/&gt; &lt;BR/&gt; Weitere wichtige Parameter sind: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Sicherheitsgurtwarnung: Zeigt den Status (aktiviert/deaktiviert) des akustischen Alarms an, je nachdem, ob der Sicherheitsgurt angelegt wurde oder nicht &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Stromversorgungsmodus: Zeigt den Zustand an, in den das Fahrzeug zum Zeitpunkt des Transports (vom Werk zum Händler) versetzt wird. Dieser Modus wird auch als „Logistic Mode“ bezeichnet und sieht vor, bestimmte elektrische Verbraucher zu deaktivieren, um den Stromverbrauch der Batterie auf ein Minimum zu reduzieren. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Fehler</Capitolo>
+      <Corpo>Das Steuergerät verfügt über einen permanenten Fehlerspeicher und speichert die Umgebungsparameter zum Zeitpunkt des Auftretens des Fehlers. &lt;BR/&gt; &lt;BR/&gt; Diese werden zusammen mit einer entsprechenden Statusmeldung angezeigt: &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Aktiver Fehler &lt;/B&gt; &lt;BR/&gt; Der Fehler wird derzeit erkannt &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Gespeicherter Fehler &lt;/B&gt; &lt;BR/&gt; Der Fehler wurde bereits im Speicher erfasst, die Störung liegt derzeit jedoch nicht vor. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Löschen von Fehlern &lt;/B&gt; &lt;BR/&gt; Dies erfolgt nur mit Zustimmung des Bedieners, der den Fehler über die Löschtaste löscht &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Aktive Diagnosen</Capitolo>
+      <Corpo>Im Bereich „Aktive Diagnosen“ werden folgende Anzeigen gesteuert: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Wassertemperaturanzeige &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Kraftstoffstandsanzeige &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Drehzahlanzeige &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Geschwindigkeitsanzeige &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Warnleuchte für maximale Wassertemperatur &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Warnleuchte für Kraftstoffreserve &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; ABS-Warnleuchte &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Verschiedene weitere Warnleuchten.  &lt;BR/&gt; &lt;BR/&gt; Außerdem sind folgende Funktionen aktiviert: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Summer &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Beleuchtung der Armaturenbrettanzeigen &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; LCD-Beleuchtung.  &lt;BR/&gt; &lt;BR/&gt; Hinweis: Bei der ABARTH-Version sind die Aktivierung der Turbodruckanzeige und die Aktivierung des Displays vorhanden. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>6</Ordine>
+      <Capitolo>Einstellungen</Capitolo>
+      <Corpo> &lt;B&gt; Scheinwerfer-Einstellprüfung &lt;/B&gt; &lt;BR/&gt; zum Einstellen des Abblendlichtwinkels &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Kilometerzähler zurücksetzen &lt;/B&gt; &lt;BR/&gt; Zum Zurücksetzen des Kilometerzählers nur, wenn der Wert unter 200 km liegt und vor der Kilometerzahl das Symbol „H“ steht.  &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Löschen der Serviceinformationen &lt;/B&gt; &lt;BR/&gt; Hier werden alle Parameter bezüglich der Wartung auf einen Abstand von 30.000 km (d. h. bis zur nächsten Wartung) zurückgesetzt. Hinweis: Dies ist bei jeder Wartung durchzuführen.  &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Deaktivierung des Sicherheitsgurt-Alarms / Aktivierung des Sicherheitsgurt-Alarms &lt;/B&gt; &lt;BR/&gt; Hiermit kann der akustische Alarm bei nicht angelegtem Sicherheitsgurt des Fahrers aktiviert oder deaktiviert werden. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Austausch des Kombiinstruments &lt;/B&gt; &lt;BR/&gt; Bei diesem Vorgang werden die Daten des alten Kombiinstruments ausgelesen, nämlich: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Kilometerstand &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Entfernung seit der letzten Wartung &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Wartungsnummer (Inspektion) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Datum der letzten Wartung &lt;BR/&gt; &lt;BR/&gt; und schreibt diese auf das neue Armaturenbrett um. &lt;BR/&gt; &lt;BR/&gt; Hinweis: Nur im Falle eines Austauschs des Steuergeräts durchzuführen. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

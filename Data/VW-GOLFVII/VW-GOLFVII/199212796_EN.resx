@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T20:24:24">
+  <XDOCUMENTO>
+    <ID>199212796</ID>
+    <DOCNumber>DRA76195</DOCNumber>
+    <RifIDTipoRis>45</RifIDTipoRis>
+    <Titolo>Volkswagen dual clutch transmission 0D9 (6-speed)</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>45</ID>
+      <TipoRis>DRV</TipoRis>
+      <DscRis>Automatic Transmission</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Technical Data - Lubricants</Capitolo>
+      <Corpo> &lt;B&gt; Manufacturer: &lt;/B&gt; Volkswagen AG &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Designation: &lt;/B&gt; 0D9 / DQ250 &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Trade name: &lt;/B&gt; DSG6, S-Tronic &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Oil change interval recommended by the automatic gearbox manufacturer: &lt;/B&gt; &lt;BR/&gt; 60,000 km &lt;BR/&gt; &lt;BR/&gt; &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt; &lt;TH width=60% class=&quot;chiaro&quot;&gt; Description &lt;/TH&gt; &lt;TH width=25% class=&quot;chiaro&quot;&gt; Unit of measurement &lt;/TH&gt; &lt;TH width=15% class=&quot;chiaro&quot;&gt; Data &lt;/TH&gt; &lt;TR&gt; &lt;TD&gt; Automatic gearbox code: &lt;/TD&gt; &lt;TD&gt; Ref. No. &lt;/TD&gt; &lt;TD&gt; 0D9 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Number of gears: &lt;/TD&gt; &lt;TD&gt; No. &lt;/TD&gt; &lt;TD&gt; 6 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Automatic gearbox oil – Manufacturer’s specification: &lt;/TD&gt; &lt;TD&gt; Ref. No. &lt;/TD&gt;  &lt;TD&gt; VW G 052 182 A2/A6 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Automatic gearbox oil – Drained quantity: &lt;/TD&gt; &lt;TD&gt; Litres &lt;/TD&gt; &lt;TD&gt; 6.9–7.2 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Automatic gearbox oil – Quantity for replacement: &lt;/TD&gt; &lt;TD&gt; Litres &lt;/TD&gt; &lt;TD&gt; 5.2 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Automatic gearbox oil – Gearbox-cleaner quantity: &lt;/TD&gt; &lt;TD&gt; Litres &lt;/TD&gt; &lt;TD&gt; 8.9–9.2 &lt;/TD&gt;  &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Temperature for checking automatic gearbox oil level: &lt;/TD&gt; &lt;TD&gt; °C &lt;/TD&gt; &lt;TD&gt; 35–45° &lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt; &lt;BR/&gt; Check the automatic gearbox oil level whilst the engine is running. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503980</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503980</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503980</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>15</Ordine>
+      <Capitolo>Automatic transmission identification</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;It is possible to identify the model of the gearbox by reading the plate at the top.&lt;BR/&gt; &lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;The abbreviation &lt;B&gt;1 &lt;/B&gt;identifies the code of the gearbox.&lt;BR/&gt; &lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Acronym &lt;B&gt;2 &lt;/B&gt;identifies the production date (dd.mm.yy).&lt;BR/&gt; &lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Acronym &lt;B&gt;3 &lt;/B&gt;identifies the manufacturing plant.&lt;BR/&gt; &lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Initial &lt;B&gt;4 &lt;/B&gt;identifies the production time.&lt;BR/&gt; &lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Initial &lt;B&gt;5 &lt;/B&gt;identifies the serial number.&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007243</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007243</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007243</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>16</Ordine>
+      <Capitolo>Automatic transmission washing attachment with equipment</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;To flush the automatic transmission, it is advisable to connect the equipment in place of the automatic transmission filter &lt;B&gt;fig. 1b&lt;/B&gt;&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;1a &lt;/B&gt;- Automatic transmission filter&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;1b &lt;/B&gt;- Washer attachment&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;2 &lt;/B&gt;- Automatic transmission oil drain plug&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299002408</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299002408</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299002408</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>17</Ordine>
+      <Capitolo>Special tools and workshop equipment</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;font-size:12.0pt; line-height:107%;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:0cm;margin-bottom:.0001pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Oil filling adapter &lt;B&gt;VAS 6262A&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; &lt;B&gt;VAS 6262/6 &lt;/B&gt;oil filling adapter for some types of bottles.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Oil extraction unit &lt;B&gt;VAS 6622A&lt;/B&gt;&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007238</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007238</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007238</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Automatic transmission oil drain and fill procedure</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;font-size:12.0pt; line-height:107%;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:0cm;margin-bottom:.0001pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Check by diagnostic instrumentation, that the gearbox oil temperature is not higher than &lt;B&gt;45°.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Should the temperature be above &lt;B&gt;45°&lt;/B&gt;, it is recommended to let the gearbox cool down&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Turn off the engine&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Place the vehicle on a level&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Remove the bottom cover&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Place the shift lever in &lt;B&gt;P&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Connect the diagnostic tester&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Before starting work, make sure by diagnostic tester that the gearbox oil temperature does not exceed &lt;B&gt;45 °C&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Lift the vehicle&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Place the waste oil collection tray under the vehicle. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Remove the level check plug &lt;B&gt;B &lt;/B&gt;and the overflow plug &lt;B&gt;C &lt;/B&gt;found at the base of the automatic transmission&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;CAUTION: &lt;/B&gt;Do not start the engine if there is no oil in the transmission&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:0cm;margin-bottom:.0001pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Wait for the oil to drain completely&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Reinstall the overflow plug &lt;B&gt;C&lt;/B&gt;, tightening to &lt;B&gt;3 Nm.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Plug the oil bottle into the oil filling adapter &lt;B&gt;VAS 6262A.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; If there are some oil bottles, it will be necessary to use the specific bottle adapter &lt;B&gt;VAS 6262/6&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Engage the connection of &lt;B&gt;VAS 6262A &lt;/B&gt;inside the overflow plug &lt;B&gt;C&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; When replacing the bottle, close the tap in the oil filling adapter &lt;B&gt;VAS 6262A.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Fill the automatic transmission with &lt;B&gt;5.5 liters &lt;/B&gt;of oil&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Tighten the level verification cap &lt;B&gt;B &lt;/B&gt;provisionally by hand.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Start the engine&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Press the brake pedal and select the shift lever to each position for at least &lt;B&gt;3 seconds&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Return the shift lever to &lt;B&gt;P&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Do not turn off the engine&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Check the oil level and top up if necessary&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Tighten the level verification cap &lt;B&gt;B &lt;/B&gt;to &lt;B&gt;45 Nm.&lt;/B&gt;&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007272</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007272</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007272</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>25</Ordine>
+      <Capitolo>Automatic transmission oil filter replacement procedure</Capitolo>
+      <Corpo> &lt;LI&gt; The gearbox oil filter should be replaced when: &lt;BR/&gt;
+&lt;LI&gt; The car has reached 60,000 km &lt;BR/&gt; &lt;LI&gt; Coolant has contaminated the gearbox oil &lt;BR/&gt;    &lt;LI&gt; Metal particles have been found in the gearbox oil &lt;BR/&gt; &lt;LI&gt; The clutch is worn or malfunctioning &lt;BR/&gt; &lt;LI&gt; Move the gear lever to &lt;B&gt; P &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; Remove the automatic gearbox oil filter cover &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; CAUTION: &lt;/B&gt; Cover the area around the filter with cloths &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Loosen the automatic gearbox oil filter screw by &lt;B&gt; 7 turns &lt;/B&gt;  &lt;BR/&gt; &lt;LI&gt; Wait 10 seconds to allow the oil in the filter to drain into the gearbox housing &lt;BR/&gt; &lt;LI&gt; Remove the automatic gearbox filter &lt;B&gt; (A) &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Proceed with replacing the filter &lt;BR/&gt;  &lt;LI&gt; Refitting the automatic gearbox filter cover &lt;B&gt; (A) &lt;/B&gt; and tightening it to &lt;B&gt; 20 Nm &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; CAUTION: &lt;/B&gt; Always replace the automatic gearbox filter gasket</Corpo>
+      <RifIDFileIMGANI>299007244</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007244</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007244</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Automatic transmission oil level check</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;font-size:12.0pt;line-height:107%;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Place the vehicle on a level&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Lift the vehicle&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Remove the bottom cover&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Connect the diagnostic tester&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Make sure that the temperature of the gearbox oil is between &lt;B&gt;35~ 45 °C.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Via diagnostio tester, start the &lt;B&gt;automatic transmission oil level check &lt;/B&gt;procedure&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Start the engine at idle&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Place the shift lever in &lt;B&gt;P&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Place the waste oil collection tray under the vehicle. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Remove the level verification cap &lt;B&gt;B&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Allow excess oil to drain away.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Check the oil level of the automatic transmission.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; The right amount is confirmed by a slight drip&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; If oil is not dripping from the inspection hole, it will be necessary to add another liter of oil using the &lt;B&gt;VAS 6262A &lt;/B&gt;adapter&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&amp;#61623; If the oil turns out to be in excess, it will be necessary to allow it to drain off until a slight drip is obtained&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;CAUTION: &lt;/B&gt;If it is necessary to add oil, shake the bottles well before opening them so that no sediment remains at the bottom&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;CAUTION: &lt;/B&gt;An oil level that is too low and too high will impair the operation of the transmission&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Reinstall the level verification cap &lt;B&gt;B &lt;/B&gt;and tighten it to &lt;B&gt;45 Nm&lt;/B&gt;&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;CAUTION: &lt;/B&gt;Always replace the gasket of the level verification cap &lt;B&gt;B&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:0cm;margin-bottom:.0001pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Reinstall the lower cover&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Lowering the vehicle&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007271</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007271</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007271</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

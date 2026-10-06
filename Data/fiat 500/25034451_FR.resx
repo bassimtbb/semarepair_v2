@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-24T16:59:48">
+  <XDOCUMENTO>
+    <ID>25034451</ID>
+    <DOCNumber>GUP25279</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Témoin Airbag allumé en permanence</Titolo>
+    <InfoDoc>airbag | B0100 | B0101 | voyant airbag |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>25034451</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (**)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25034451</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Identification du véhicule</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Marque : &lt;/B&gt; Fiat &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Modèle : &lt;/B&gt; 500 (150) &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Motorisation : &lt;/B&gt; 1.2i 8V &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Période : &lt;/B&gt; 2007 &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Code moteur / VIN : &lt;/B&gt; 169 A 4000 &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système &lt;/B&gt; Airbag Continental</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25034451</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification de la panne / anomalie</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Témoin Air Bag allumé en permanence &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Code d&apos;erreur DTC : &lt;/B&gt; B0100, Erreur interne du calculateur - B0101 &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Causes : &lt;/B&gt; Panne du calculateur Air Bag</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25034451</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation / contrôle</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Remplacement du boîtier électronique de l&apos;airbag &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; AIRBAG, lors du remplacement du calculateur Airbag par un nouveau, il est nécessaire de l&apos;aligner sur le réseau CAN à l&apos;aide d&apos;un ALIGNEMENT PROXY. La procédure est effectuée à l&apos;aide d&apos;un équipement de diagnostic spécial dans l&apos;environnement « RÉGLAGES » &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Une fois le défaut résolu, il est nécessaire de communiquer avec le calculateur et d&apos;effectuer une suppression des défauts à l&apos;aide d&apos;un équipement de diagnostic spécial dans l&apos;environnement « ERREURS » &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

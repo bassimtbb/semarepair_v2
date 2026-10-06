@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T13:09:25">
+  <XDOCUMENTO>
+    <ID>199001632</ID>
+    <DOCNumber>GUR59015</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Przywrócenie działania systemu po odłączeniu akumulatora</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Instrukcja regulacji</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Lokalizacja akumulatora</Capitolo>
+      <Corpo> &lt;BR/&gt; Akumulator znajduje się w komorze silnika, po stronie kierowcy, w pobliżu przegrody. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>199000661</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>199000661</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:199000661</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Procedura odłączania akumulatora</Capitolo>
+      <Corpo> &lt;BR/&gt; W przypadku konieczności odłączenia akumulatora należy: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Sprawdzić, czy wszystkie  &lt;B&gt; urządzenia elektryczne &lt;/B&gt;  w samochodzie, takie jak radioodtwarzacz, nawigacja itp.,  &lt;B&gt; są wyłączone &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt; Sprawdzić, czy &lt;B&gt; zapłon jest wyłączony &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt; Mieć pod ręką  &lt;B&gt; kod radia &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; Następnie można przystąpić do odłączenia akumulatora,  &lt;B&gt; odłączając najpierw biegun ujemny, a następnie dodatni &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; Po odłączeniu akumulatora należy odczekać kilka minut przed przystąpieniem do jakichkolwiek czynności związanych z instalacją poduszek powietrznych</Corpo>
+      <RifIDFileIMGANI>62503878</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503878</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503878</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procedura podłączania akumulatora</Capitolo>
+      <Corpo> &lt;BR/&gt; Aby ponownie podłączyć akumulator, należy postępować w następujący sposób: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Najpierw podłączyć biegun dodatni &lt;/B&gt;  a następnie biegun ujemny akumulatora &lt;BR/&gt;  &lt;LI&gt; Przywrócić kod radiowy (w razie potrzeby) &lt;BR/&gt;  &lt;LI&gt; Usunąć ewentualne  &lt;B&gt; błędy zapisane w pamięci &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt; Włączyć zapłon i odczekać 40 sekund &lt;BR/&gt;  &lt;LI&gt; Wyłączyć zapłon &lt;BR/&gt;  &lt;LI&gt; Mogą zapalić się  &lt;B&gt; kontrolki systemu kontroli stabilności &lt;/B&gt; . Należy zatem przejechać kilka kilometrów z stałą prędkością, aby kontrolki te zgasły. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503879</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503879</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503879</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Przywracanie elektrycznych podnośników szyb</Capitolo>
+      <Corpo> &lt;BR/&gt; Procedura inicjalizacji elektrycznych podnośników szyb: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Sprawdzić, czy  &lt;B&gt; drzwi i szyby są zamknięte &lt;/B&gt; . &lt;BR/&gt;  &lt;LI&gt; Włączyć zapłon &lt;BR/&gt;  &lt;LI&gt; Nacisnąć  &lt;B&gt; przycisk otwierania/zamykania elektrycznej szyby &lt;/B&gt;  i przytrzymać go, aż szyba  &lt;B&gt; otworzy się &lt;/B&gt;  całkowicie &lt;BR/&gt;  &lt;LI&gt; Podnieść  &lt;B&gt; przycisk otwierania/zamykania elektrycznej szyby &lt;/B&gt;  i utrzymać go w tej pozycji przez ponad 3 sekundy po całkowitym  &lt;B&gt; zamknięciu &lt;/B&gt;  szyby &lt;BR/&gt;  &lt;LI&gt; Rozlegnie się sygnał dźwiękowy potwierdzający wykonanie operacji &lt;BR/&gt;  &lt;BR/&gt; System został zainicjowany. &lt;BR/&gt; Powtórz procedurę dla pozostałych szyb. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

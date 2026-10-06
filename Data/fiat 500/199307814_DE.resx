@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-16T23:59:36">
+  <XDOCUMENTO>
+    <ID>199307814</ID>
+    <DOCNumber>GUP96866</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Aufleuchten der roten Airbag-Warnleuchte, Deaktivierung des Beifahrersystems und allgemeine Gefahren</Titolo>
+    <InfoDoc>AIRBAG | CENTRALINA | B0100 | B0101 | U0422 | U1726 | ROSSO | SPORADICAMENTE | VOLTE | TRIANGOLO | PERICOLO | GENERICO | GIALLO | GIALLA | LAMPEGGIA | LAMPEGGIO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199307814</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Legende zur Zuverlässigkeitsstufe &lt;BR&gt; &lt;BR&gt; &lt;B&gt; * niedrige Stufe &lt;/B&gt; : Feststellung durch den Kfz-Mechaniker, vom Hersteller nicht dokumentierter Fehlerfall. &lt;BR&gt; &lt;BR&gt;  &lt;B&gt; ** mittleres Niveau &lt;/B&gt; : Weit verbreiteter Fehlerfall, der von Servicetechnikern und Kfz-Mechanikern festgestellt wurde. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** hohes Niveau &lt;/B&gt; : Gewissheit über den Fehler, gute „Wiederholungsrate“, die vom Hersteller gemeldet wurde. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199307814</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Airbag &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Bauteil: &lt;/B&gt; Airbag-Steuergerät &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Die Airbag-Fehlerleuchte (rot) leuchtet ständig. Die Airbag-Deaktivierungsleuchte auf der Beifahrerseite (gelb) und die allgemeine Fehlerleuchte leuchten sporadisch auf. Außerdem blinkt in einigen Fällen der Gesamtkilometerstand. &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt; &lt;UL&gt; &lt;LI&gt; B0100 (Airbag-Steuergerät – Fehler) &lt;BR&gt; &lt;LI&gt; B0101 (Stromversorgung des Airbag-Steuergeräts – Fehler) &lt;BR&gt;  &lt;LI&gt; U0422 (Steuergerät für aktive Federung – empfangene Daten ungültig) &lt;BR&gt; &lt;LI&gt; U1726 (Keine Kommunikation mit dem Airbag-Steuergerät) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Fehlfunktion des Airbag-Steuergeräts &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199307814</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Den Zustand und die ordnungsgemäße Funktion des Airbag-Steuergeräts überprüfen und gegebenenfalls reparieren bzw. austauschen &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Nach dem Austausch musste das neue Steuergerät codiert werden, wodurch das Problem endgültig behoben wurde. &lt;BR&gt; Das Bauteil befindet sich im Fahrgastraum auf dem Mitteltunnel und ist von unterhalb des Ablagefachs auf der Beifahrerseite zugänglich; zuvor muss eine Kunststoffabdeckung entfernt werden. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

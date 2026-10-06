@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-02T09:51:46">
+  <XDOCUMENTO>
+    <ID>15000158</ID>
+    <DOCNumber>LGR00001</DOCNumber>
+    <RifIDTipoRis>49</RifIDTipoRis>
+    <Titolo>Reparatiehandleidingen</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>49</ID>
+      <TipoRis>LGR</TipoRis>
+      <DscRis>Lijst</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>13</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+  </XDOCUMENTO>
+  <XLINKEXT>
+    <RifIDDoc>15000158</RifIDDoc>
+    <URL>LINKEXT:$BASEURL$/SearchGup.aspx?$IDMACH$&amp;amp;mode=listall</URL>
+  </XLINKEXT>
+</dataroot>

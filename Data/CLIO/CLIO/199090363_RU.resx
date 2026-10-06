@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T08:31:25">
+  <XDOCUMENTO>
+    <ID>199090363</ID>
+    <DOCNumber>COP88134</DOCNumber>
+    <RifIDTipoRis>24</RifIDTipoRis>
+    <Titolo>Lista dla silników K9K-872</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>226</RifIDFileICO>
+    <XFILE>
+      <ID>226</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:226</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>24</ID>
+      <TipoRis>COP</TipoRis>
+      <DscRis>Momenty dokręcania</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>10</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLDATO</IDLabel>
+        <Stringa>Opis</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLUM</IDLabel>
+        <Stringa>Jednostka miary</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLVALORE</IDLabel>
+        <Stringa>Dane</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Lista danych</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato>Kolejność dokręcania śrub głowicy cylindrów</Dato>
+      <Valore>Zobacz obrazek</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>75010599</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>75010599</ID>
+        <DOCNumber>LIS75871</DOCNumber>
+        <URL>LINKDOC:75010599</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato>Test w 1. fazie – Dokręcanie</Dato>
+      <Valore>20</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato>Test 2. etapu – Dokręcanie</Dato>
+      <Valore>25</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato> Test 3. fazy – Dokręcanie</Dato>
+      <Valore>260°-280°</Valore>
+      <UnitaMis>Stopnie</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato>Wymiana śrub głowicy cylindrów</Dato>
+      <Valore>Zalecana</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato>Smarowanie śrub głowicy cylindrów</Dato>
+      <Valore>Nie</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato>Łożyska stołu</Dato>
+      <Valore>Uwaga</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199070695</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199070695</ID>
+        <DOCNumber>LIS77384</DOCNumber>
+        <URL>LINKDOC:199070695</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato>Łożyska stołu 1. etapu – Dokręcanie</Dato>
+      <Valore>25</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato> Łożyska stołu 2. etapu – Dokręcanie</Dato>
+      <Valore>41°-53°</Valore>
+      <UnitaMis>Stopnie</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato>Wymiana śrub łożysk stołu warsztatowego</Dato>
+      <Valore>Zalecana</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato>Kapsle łożysk korbowodów 1. etapu – Dokręcanie</Dato>
+      <Valore>25</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato> Kryty łożysk korbowodów 2. etapu – Dokręcanie</Dato>
+      <Valore>104°-116°</Valore>
+      <UnitaMis>Stopnie</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato>Wymiana śrub mocujących łupki łożysk korbowodów</Dato>
+      <Valore>Zalecana</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato> Śruba koła pasowego wału silnika (środkowa)</Dato>
+      <Valore>Uwaga</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199090364</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199090364</ID>
+        <DOCNumber>LIS77609</DOCNumber>
+        <URL>LINKDOC:199090364</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato>Śruby koła zamachowego</Dato>
+      <Valore>25 Nm oraz 44°–56°</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato>Wymiana śrub koła zamachowego</Dato>
+      <Valore>Zalecana</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato>Śruby dociskowe tarczy sprzęgła</Dato>
+      <Valore>23</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato>Przekładnia rozrządu</Dato>
+      <Valore>25 Nm i 54°–66°</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato>Wymiana śrub przekładni rozrządu</Dato>
+      <Valore>Zalecana</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato> Kapturki wałka rozrządu</Dato>
+      <Valore>Uwaga</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199079429</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199079429</ID>
+        <DOCNumber>LIS77471</DOCNumber>
+        <URL>LINKDOC:199079429</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato>Kolektor wydechowy prowadzący do głowicy cylindrów</Dato>
+      <Valore>25</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>MOMENTY DOKRĘCANIA</Gruppo>
+      <Dato>Mocowanie wtryskiwaczy</Dato>
+      <Valore>27</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+  </XDOCUMENTO>
+</dataroot>

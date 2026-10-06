@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T23:05:13">
+  <XDOCUMENTO>
+    <ID>199217638</ID>
+    <DOCNumber>DRA76286</DOCNumber>
+    <RifIDTipoRis>45</RifIDTipoRis>
+    <Titolo>Caixa de velocidades automática ZF GA8HP51 (8 velocidades)</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>45</ID>
+      <TipoRis>DRV</TipoRis>
+      <DscRis>Câmbio Automático</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Dados técnicos - Lubrificantes</Capitolo>
+      <Corpo> &lt;B&gt; Fabricante: &lt;/B&gt;  ZF &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Designação: &lt;/B&gt;  8HP51 / 1111 024 xxx / 1111 014 xxx &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Designação comercial: &lt;/B&gt;  Steptronic &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Intervalo de substituição de óleo recomendado pelo fabricante da caixa de velocidades automática: &lt;/B&gt;   &lt;BR/&gt; 80 000 km &lt;BR/&gt;  &lt;BR/&gt;  &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt;  &lt;TH width=60% class=&quot;chiaro&quot;&gt; Descrição &lt;/TH&gt;  &lt;TH width=25% class=&quot;chiaro&quot;&gt; Unidade de medida &lt;/TH&gt;  &lt;TH width=15% class=&quot;chiaro&quot;&gt; Dados &lt;/TH&gt;  &lt;TR&gt;  &lt;TD&gt; Código da caixa de velocidades automática: &lt;/TD&gt;  &lt;TD&gt; N.º de referência &lt;/TD&gt;  &lt;TD&gt; 8HP51 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Número de relações: &lt;/TD&gt;  &lt;TD&gt; N.º &lt;/TD&gt;  &lt;TD&gt; 8 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Óleo de caixa automática - Especificação do fabricante: &lt;/TD&gt;  &lt;TD&gt; N.º de referência &lt;/TD&gt;  &lt;TD&gt;  ATF 3+ &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Óleo da caixa de velocidades automática - Código do fabricante: &lt;/TD&gt;  &lt;TD&gt; N.º de referência &lt;/TD&gt;  &lt;TD&gt; BMW 83222289720 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Óleo da caixa de velocidades automática - Quantidade: &lt;/TD&gt;  &lt;TD&gt; Litros &lt;/TD&gt;  &lt;TD&gt; 9,28 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Óleo da caixa de velocidades automática - Quantidade do líquido de lavagem: &lt;/TD&gt;  &lt;TD&gt; Litros &lt;/TD&gt;  &lt;TD&gt; 9,0-10,0 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Temperatura de verificação do nível de óleo da caixa de velocidades automática: &lt;/TD&gt;  &lt;TD&gt; °C &lt;/TD&gt;  &lt;TD&gt; 30°~50° &lt;/TD&gt;  &lt;/TR&gt;  &lt;/TABLE&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503978</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503978</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503978</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>12</Ordine>
+      <Capitolo>Identificação da caixa de velocidades automática</Capitolo>
+      <Corpo> &lt;BR/&gt; É possível identificar o modelo da caixa de velocidades lendo a placa de identificação situada na lateral. &lt;BR/&gt;  &lt;BR/&gt; A sigla  &lt;B&gt; 1 &lt;/B&gt;  identifica o número de série. &lt;BR/&gt;  &lt;BR/&gt; A sigla  &lt;B&gt; 2 &lt;/B&gt;  identifica a denominação da caixa de velocidades. &lt;BR/&gt;  &lt;BR/&gt; A sigla  &lt;B&gt; 3 &lt;/B&gt;  identifica o modelo da caixa de velocidades. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007669</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007669</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007669</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>13</Ordine>
+      <Capitolo>Montagem da lavagem da caixa de velocidades automática com equipamento</Capitolo>
+      <Corpo> &lt;BR/&gt; Para efetuar a lavagem da caixa de velocidades automática, é aconselhável ligar o equipamento às ligações indicadas na  &lt;B&gt; fig. 1 &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; 1 &lt;/B&gt;  - Ligação para equipamento de lavagem da caixa de velocidades &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; 2 &lt;/B&gt;  - Orifício para verificação do nível de óleo da caixa de velocidades automática &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; 3 &lt;/B&gt;  - Orifício para drenagem do óleo da caixa de velocidades automática &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504747</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504747</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504747</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>15</Ordine>
+      <Capitolo>Procedimento de drenagem do óleo da transmissão automática</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  Coloque o veículo numa superfície plana &lt;BR/&gt;  &lt;LI&gt;  Desligue o motor &lt;BR/&gt;  &lt;LI&gt;  Retire a cobertura insonorizante inferior &lt;BR/&gt;  &lt;LI&gt;  Retire, se necessário, a chapa de proteção térmica &lt;BR/&gt;  &lt;LI&gt;  Retire a tampa de drenagem  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Aguarde até que todo o óleo da caixa de velocidades tenha saído &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ATENÇÃO:  &lt;/B&gt; Não ligue o motor sem óleo na caixa de velocidades &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Recoloque a tampa de drenagem  &lt;B&gt; A &lt;/B&gt; , apertando a  &lt;B&gt; 8 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007666</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007666</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007666</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>16</Ordine>
+      <Capitolo>Substituição do filtro de óleo da transmissão automática</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  O filtro de óleo da caixa de velocidades automática encontra-se dentro do cárter de óleo &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ATENÇÃO:  &lt;/B&gt; Neste modelo de caixa de velocidades, o filtro de óleo está integrado no cárter de óleo. Para proceder à substituição do filtro, é necessário substituir o cárter de óleo. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ATENÇÃO:  &lt;/B&gt; Substitua sempre o cárter de óleo e os parafusos correspondentes quando o cárter for desmontado &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007668</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007668</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007668</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procedimento de enchimento de óleo da transmissão automática</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  Coloque o veículo numa superfície plana e bloqueie as rodas &lt;BR/&gt;  &lt;LI&gt;  Desligue os sistemas de iluminação e de climatização &lt;BR/&gt;  &lt;LI&gt;  Coloque a alavanca das mudanças em  &lt;B&gt; P &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Aplique o travão de estacionamento &lt;BR/&gt;  &lt;LI&gt;  Ligue o testador de diagnóstico &lt;BR/&gt;  &lt;LI&gt;  Retirar a tampa de enchimento  &lt;B&gt; B &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ATENÇÃO:  &lt;/B&gt; Substituir sempre a tampa de enchimento  &lt;B&gt; B &lt;/B&gt;  e a respetiva junta &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Através do testador de diagnóstico, execute o procedimento de  &lt;B&gt; «Sistema de comando da caixa de velocidades: compensação do óleo» &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Proceda ao reabastecimento com óleo da caixa de velocidades através do orifício de enchimento  &lt;B&gt; B &lt;/B&gt;  seguindo as indicações fornecidas pelo testador de diagnóstico &lt;BR/&gt;  &lt;LI&gt;  Colocar uma nova tampa de enchimento  &lt;B&gt; B &lt;/B&gt;  com a respetiva junta, apertando a  &lt;B&gt; 35 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Prosseguir com o procedimento de verificação do nível de óleo da caixa de velocidades automática &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007667</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007667</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007667</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>21</Ordine>
+      <Capitolo>Procedimento de verificação do nível de óleo da transmissão automática</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  Ajustar a temperatura do óleo da caixa de velocidades para  &lt;B&gt; 30° - 40° C &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Colocar o veículo numa superfície plana e bloquear as rodas &lt;BR/&gt;  &lt;LI&gt;  Desligar os sistemas de iluminação e climatização &lt;BR/&gt;  &lt;LI&gt;  Coloque a alavanca das mudanças em  &lt;B&gt; P &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Aplique o travão de estacionamento &lt;BR/&gt;  &lt;LI&gt;  Ligue o testador de diagnóstico &lt;BR/&gt;  &lt;LI&gt;  Retire a tampa de enchimento  &lt;B&gt; B &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ATENÇÃO:  &lt;/B&gt; Substituir sempre a tampa de enchimento  &lt;B&gt; B &lt;/B&gt;  e a respetiva junta &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Através do testador de diagnóstico, executar o procedimento de  &lt;B&gt; «Sistema de comando da caixa de velocidades: compensação do óleo» &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Leve o óleo da caixa de velocidades a uma temperatura de  &lt;B&gt; 40° - 50°C &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Siga as indicações apresentadas no testador de diagnóstico para executar o procedimento de verificação do nível de óleo da caixa de velocidades automática &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ATENÇÃO:  &lt;/B&gt; Um nível de óleo demasiado alto ou demasiado baixo compromete o funcionamento da caixa de velocidades &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Colocar uma nova tampa de enchimento  &lt;B&gt; B &lt;/B&gt;  com a respetiva junta, apertando a  &lt;B&gt; 35 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299023076</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299023076</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299023076</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

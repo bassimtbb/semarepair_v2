@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T20:24:25">
+  <XDOCUMENTO>
+    <ID>199212796</ID>
+    <DOCNumber>DRA76195</DOCNumber>
+    <RifIDTipoRis>45</RifIDTipoRis>
+    <Titolo>Transmisión de doble embrague Volkswagen 0D9 (6 velocidades)</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>45</ID>
+      <TipoRis>DRV</TipoRis>
+      <DscRis>Caja de cambios automática</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Datos técnicos de los lubricantes  - </Capitolo>
+      <Corpo> &lt;B&gt; Fabricante: &lt;/B&gt; Volkswagen AG &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Denominación: &lt;/B&gt; 0D9 / DQ250 &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Denominación comercial: &lt;/B&gt; DSG6, S-Tronic &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Intervalo de cambio de aceite recomendado por el fabricante de la caja de cambios automática: &lt;/B&gt; &lt;BR/&gt; 60 000 km &lt;BR/&gt; &lt;BR/&gt; &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt; &lt;TH width=60% class=&quot;chiaro&quot;&gt; Descripción &lt;/TH&gt; &lt;TH width=25% class=&quot;chiaro&quot;&gt; Unidad de medida &lt;/TH&gt; &lt;TH width=15% class=&quot;chiaro&quot;&gt; Datos &lt;/TH&gt; &lt;TR&gt; &lt;TD&gt; Código de la caja de cambios automática: &lt;/TD&gt; &lt;TD&gt; N.º de ref. &lt;/TD&gt; &lt;TD&gt; 0D9 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Número de marchas: &lt;/TD&gt; &lt;TD&gt; N.º &lt;/TD&gt; &lt;TD&gt; 6 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Aceite de caja de cambios automática - Especificaciones del fabricante: &lt;/TD&gt; &lt;TD&gt; N.º de ref. &lt;/TD&gt;  &lt;TD&gt; VW G 052 182 A2/A6 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Aceite de la caja de cambios automática - Cantidad en vacío: &lt;/TD&gt; &lt;TD&gt; Litros &lt;/TD&gt; &lt;TD&gt; 6,9~7,2 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Aceite de la caja de cambios automática - Cantidad para el cambio: &lt;/TD&gt; &lt;TD&gt; Litros &lt;/TD&gt; &lt;TD&gt; 5,2 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Aceite de la caja de cambios automática - Cantidad para el lavado de la caja de cambios: &lt;/TD&gt; &lt;TD&gt; Litros &lt;/TD&gt; &lt;TD&gt; 8,9~9,2 &lt;/TD&gt;  &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Temperatura para comprobar el nivel de aceite de la caja de cambios automática: &lt;/TD&gt; &lt;TD&gt; °C &lt;/TD&gt; &lt;TD&gt; 35 ~ 45° &lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt; &lt;BR/&gt; Comprueba el nivel de aceite de la caja de cambios automática con el motor en marcha. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503980</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503980</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503980</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>15</Ordine>
+      <Capitolo>Identificación automática de la caja de cambios</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Es posible identificar el modelo de la caja de cambios leyendo la placa situada en la parte superior.&lt;BR/&gt; &lt;B&gt;&lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;El &lt;/B&gt;&lt;BR/&gt; símbolo &lt;B&gt;1 &lt;/B&gt;identifica el código de la caja de cambios.&lt;BR/&gt; &lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;El símbolo &lt;B&gt;2 &lt;/B&gt;identifica la fecha de fabricación (dd.mm.aa).&lt;BR/&gt; &lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;El símbolo &lt;B&gt;3 &lt;/B&gt;identifica el centro de producción.&lt;BR/&gt; &lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;El símbolo &lt;B&gt;4 &lt;/B&gt;identifica la hora de producción.&lt;BR/&gt; &lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;El símbolo &lt;B&gt;5 &lt;/B&gt;identifica el número de serie.&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007243</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007243</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007243</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>16</Ordine>
+      <Capitolo>Accesorio de lavado automático de la transmisión con equipo</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Para lavar la transmisión automática es aconsejable conectar el equipo en lugar del filtro de transmisión automática &lt;B&gt;fig. 1b&lt;/B&gt;&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;1a &lt;/B&gt;- Filtro de la transmisión automática&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;1b &lt;/B&gt;- Conexión de la arandela de la caja de cambios&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;2 &lt;/B&gt;- Tapón de drenaje del aceite de la transmisión automática&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299002408</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299002408</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299002408</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>17</Ordine>
+      <Capitolo>Herramientas especiales y equipos de taller</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;font-size:12.0pt; line-height:107%;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:0cm;margin-bottom:.0001pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Adaptador de llenado de aceite &lt;B&gt;VAS 6262A&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Adaptador de llenado de aceite &lt;B&gt;VAS 6262/6 &lt;/B&gt;para determinados tipos de botellas&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Unidad de extracción de aceite &lt;B&gt;VAS 6622A&lt;/B&gt;&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007238</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007238</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007238</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procedimiento de vaciado y llenado del aceite de la transmisión automática</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;font-size:12.0pt; line-height:107%;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:0cm;margin-bottom:.0001pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Compruebe mediante los instrumentos de diagnóstico que la temperatura del aceite de la caja de cambios no supera &lt;B&gt;los 45°.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Si la temperatura es superior a &lt;B&gt;45°&lt;/B&gt;, se recomienda dejar enfriar la caja de cambios.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Apague el motor&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Posicionar el vehículo en un plano&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Retire la cubierta inferior&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Coloque la palanca de cambios en &lt;B&gt;P&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Conectar el comprobador de diagnóstico&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Antes de empezar a trabajar, asegúrese mediante un comprobador de diagnóstico de que la temperatura del aceite de la caja de cambios no supera &lt;B&gt;los 45 °C.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Levante el vehículo&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Coloque la bandeja de drenaje de aceite debajo del vehículo &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Retire el tapón de comprobación de nivel &lt;B&gt;B &lt;/B&gt;y el tapón de rebose &lt;B&gt;C &lt;/B&gt;de la base de la caja de cambios automática.&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;ADVERTENCIA: &lt;/B&gt;No arranque el motor si no hay aceite en la caja de cambios.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:0cm;margin-bottom:.0001pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Esperar a que el aceite drene completamente&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Vuelva a montar el tapón de rebose &lt;B&gt;C&lt;/B&gt;, apretándolo a &lt;B&gt;3 Nm.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Enchufe la botella de aceite en el adaptador de llenado de aceite &lt;B&gt;VAS 6262A&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Si hay varias botellas de aceite, será necesario utilizar el adaptador específico &lt;B&gt;para &lt;/B&gt;botellas &lt;B&gt;VAS 6262/6&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Enganche la conexión &lt;B&gt;VAS 6262A &lt;/B&gt;dentro del tapón de rebose &lt;B&gt;C&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Al cambiar la botella, cierre el grifo del adaptador de llenado de aceite &lt;B&gt;VAS 6262A&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Llenar la transmisión automática con &lt;B&gt;5,5 litros &lt;/B&gt;de aceite.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Apriete provisionalmente a mano el tapón de comprobación de nivel &lt;B&gt;B&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Arrancar el motor&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Pise el pedal del freno y seleccione la palanca de cambios en cada posición durante al menos &lt;B&gt;3 segundos.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Coloque la palanca de cambios en &lt;B&gt;P&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; No apague el motor&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Compruebe el nivel de aceite y rellene si es necesario.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Apriete el tapón de prueba de nivel &lt;B&gt;B &lt;/B&gt;a &lt;B&gt;45 Nm&lt;/B&gt;&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007272</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007272</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007272</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>25</Ordine>
+      <Capitolo>Procedimiento de sustitución del filtro de aceite de la transmisión automática</Capitolo>
+      <Corpo> &lt;LI&gt; El filtro de aceite de la caja de cambios debe sustituirse cuando: &lt;BR/&gt;
+&lt;LI&gt; El coche ha alcanzado los 60 000 km &lt;BR/&gt; &lt;LI&gt; El líquido refrigerante ha contaminado el aceite de la caja de cambios &lt;BR/&gt;    &lt;LI&gt; Se han detectado partículas metálicas en el aceite de la caja de cambios &lt;BR/&gt; &lt;LI&gt; El embrague está desgastado o presenta fallos de funcionamiento &lt;BR/&gt; &lt;LI&gt; Coloca la palanca de cambios en &lt;B&gt; P &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; Retirar la tapa del filtro de aceite de la caja de cambios automática &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; ATENCIÓN: &lt;/B&gt; Cubrir con paños la zona alrededor del filtro &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Aflojar el tornillo del filtro de aceite de la caja de cambios automática &lt;B&gt; 7 vueltas &lt;/B&gt;  &lt;BR/&gt; &lt;LI&gt; Esperar 10 segundos para que el aceite del filtro se vacíe en la caja de cambios &lt;BR/&gt; &lt;LI&gt; Retirar el filtro de la caja de cambios automática &lt;B&gt; (A) &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Proceder a la sustitución del filtro &lt;BR/&gt;  &lt;LI&gt; Vuelva a montar la tapa del filtro de la caja de cambios automática &lt;B&gt; (A) &lt;/B&gt; y apriétela a &lt;B&gt; 20 Nm &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; ATENCIÓN: &lt;/B&gt; Sustituya siempre la junta del filtro de la caja de cambios automática</Corpo>
+      <RifIDFileIMGANI>299007244</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007244</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007244</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Comprobación del nivel de aceite de la transmisión automática</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;font-size:12.0pt;line-height:107%;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Posicionar el vehículo en un plano&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Levante el vehículo&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Retire la cubierta inferior&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Conectar el comprobador de diagnóstico&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Asegúrese de que la temperatura del aceite de la caja de cambios está entre &lt;B&gt;35~45 °C.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Utilizando el comprobador de diagnóstico, inicie el procedimiento de &lt;B&gt;comprobación del nivel de aceite de la transmisión automática.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Arrancar el motor al ralentí&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Coloque la palanca de cambios en &lt;B&gt;P&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Coloque la bandeja de drenaje de aceite debajo del vehículo &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Retirar la tapa de verificación de nivel &lt;B&gt;B&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Dejar escurrir el aceite sobrante&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Compruebe el nivel de aceite de la transmisión automática&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; La cantidad correcta se confirma con un ligero goteo&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Si no gotea aceite por el orificio de inspección, será necesario añadir otro litro de aceite utilizando el adaptador &lt;B&gt;VAS 6262A.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Si el aceite resulta excesivo, será necesario dejarlo escurrir hasta que gotee ligeramente.&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;ATENCIÓN: &lt;/B&gt;Si es necesario añadir aceite, agite bien las botellas antes de abrirlas para que no queden sedimentos en el fondo&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;ATENCIÓN: &lt;/B&gt;Un nivel de aceite demasiado bajo o demasiado alto compromete el funcionamiento de la caja de cambios&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Vuelva a instalar el tapón de control de nivel &lt;B&gt;B &lt;/B&gt;y apriételo a &lt;B&gt;45 Nm&lt;/B&gt;&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;PRECAUCIÓN: &lt;/B&gt;Sustituya siempre la junta del tapón de control de nivel &lt;B&gt;B&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:0cm;margin-bottom:.0001pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Vuelva a instalar la cubierta inferior&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Bajar el vehículo&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007271</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007271</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007271</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

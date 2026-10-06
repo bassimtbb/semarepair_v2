@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T23:40:24">
+  <XDOCUMENTO>
+    <ID>199294264</ID>
+    <DOCNumber>GUP94211</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Blinken der Kontrollleuchten „P-R-N-D-S“, das Getriebe schaltet plötzlich in den Leerlauf</Titolo>
+    <InfoDoc>CAMBIO | DSG | DQ200 | MARCIA | INNESTO | SIMBOLO | LAMPEGGIA | | P0716 | P0722 | P0746 | P0751 | P0756 | P0761 | P0766 | P0776 | P1707 |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199294264</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199294264</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Gültigkeit: &lt;/B&gt; Fahrzeuge mit 6-Gang-DSG-Automatikgetriebe (DQ250) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Getriebe &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Baugruppe: &lt;/B&gt; Elektronisches Getriebesteuergerät &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Während der Fahrt schaltet das Fahrzeug plötzlich in den Leerlauf. Am Schalthebel blinken die Anzeigen „P-R-N-D-S“. Im kalten Zustand funktioniert das System vorübergehend wieder. Der Zustand verschlimmert sich tendenziell, bis er zu einem dauerhaften Defekt wird. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose erkannte Fehler: &lt;/B&gt; &lt;UL&gt; &lt;LI&gt; P0716 (17100) – Drehzahlsensor Getriebeeingang (G182) – unplausibles Signal &lt;BR/&gt; &lt;LI&gt; P0722 (17106) – Drehzahlsensor Getriebeausgang (G195) – kein Signal &lt;BR/&gt; &lt;LI&gt; P0746 (17130) – Magnetventil Druckregelung 1 (N215) – Kurzschluss gegen Masse &lt;BR/&gt; &lt;LI&gt; P0751 (17135) – Magnetventil Getriebe 1 (N88) – Kurzschluss gegen Masse &lt;BR/&gt; &lt;LI&gt; P0756 (17140) – Magnetventil Getriebe 2 (N89) Kurzschluss gegen Masse &lt;BR/&gt; &lt;LI&gt; P0761 (17145) – Magnetventil Getriebe 3 (N90) Kurzschluss gegen Masse &lt;BR/&gt; &lt;LI&gt;  	P0766 (17150) – Magnetventil Getriebe 4 (N91) Kurzschluss gegen Masse &lt;BR/&gt; &lt;LI&gt; P0776 (17160) – Magnetventil Druckregelung 2 (N216) Kurzschluss gegen Masse &lt;BR/&gt; 	 &lt;LI&gt; P1707 (18115) – Störung im mechatronischen Steuergerät &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Fehlfunktion des mechatronischen Steuergeräts des DSG-Getriebes</Corpo>
+      <RifIDFileIMGANI>299022364</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299022364</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299022364</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199294264</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Die mechatronische Getriebesteuerung überprüfen und gegebenenfalls austauschen &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Störungen am elektronischen Getriebesteuergerät treten beim DSG DQ250 relativ häufig auf &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299022365</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299022365</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299022365</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

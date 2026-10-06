@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T16:36:36">
+  <XDOCUMENTO>
+    <ID>199007077</ID>
+    <DOCNumber>INT76338</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>Volkswagen Golf VII</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Oficjalne komunikaty serwisowe</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Źródło danych – Ministerstwo Transportu</Capitolo>
+      <Corpo> &lt;B&gt; Producent: &lt;/B&gt;  Grupa Volkswagen  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Marka: &lt;/B&gt;  Volkswagen  &lt;BR/&gt;  &lt;BR/&gt; Usterki uznane przez producentów zgodnie z dekretem nr 78/2000</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Volkswagen Golf VII</Capitolo>
+      <Corpo> &lt;BR/&gt; Liczba pojazdów: 462 &lt;BR/&gt; Okres produkcji: nie podano &lt;BR/&gt; Opis usterki: możliwe nieprawidłowe działanie wtryskiwaczy związane z poziomem emisji &lt;BR/&gt; Działania naprawcze: wymiana &lt;BR/&gt; Informacje: skontaktować się z dealerami &lt;BR/&gt; Uwagi: nr kat. 24FO – numery podwozi – skontaktować się z dealerami &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 716 &lt;BR/&gt; Okres produkcji: NIE PODANO &lt;BR/&gt; Opis usterki: MOŻLIWA NIEPRAWIDŁOWA PRACA BLOKADY PRZEDNICH ZAGŁÓWKÓW &lt;BR/&gt; Działania naprawcze: WYMIANA PROWADNIC ZAGŁÓWKÓW &lt;BR/&gt; Odniesienie dla dealerów &lt;BR/&gt; Uwagi: KOD 72H5 – PODRZĘDOWE, SKONTAKTOWAĆ SIĘ Z DEALERAMI &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 11206 &lt;BR/&gt; Okres produkcji: NIE PODANO &lt;BR/&gt; Opis usterki: MOŻLIWE PĘKNIĘCIE DŹWIGNIA RĘCZNEJ BLOKADY BEZPIECZEŃSTWA DLA DZIECI ORAZ JEJ NIEPRZEWIDZIANE ODBLOKOWANIE SPOWODOWANE SILNYMI WIBRACJAMI &lt;BR/&gt; Działania naprawcze: SPRAWDZENIE DZIAŁANIA BLOKADY BEZPIECZEŃSTWA &lt;BR/&gt; Numer referencyjny 800865579 &lt;BR/&gt; Uwagi COD 58C9 PODRĘCZNIKI DEALERSKIE &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 54 &lt;BR/&gt; Okres produkcji: NIE PODANO &lt;BR/&gt; Opis usterki: MOŻLIWA NIEPRAWIDŁOWA PRACA ŁOŻYSK PRZEDNICH KÓŁ &lt;BR/&gt; Działania naprawcze: WYMIANA &lt;BR/&gt; Numer referencyjny DEALERÓW &lt;BR/&gt; Uwagi COD 40L2 PODRZĘDNE SKONTAKTUJ SIĘ Z DEALEREM &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 286 &lt;BR/&gt; Okres produkcji: NIE PODANO &lt;BR/&gt; Opis usterki: NIEPRAWIDŁOWA OBUDOWA ŁOŻYSK KÓŁ TYLNYCH &lt;BR/&gt; Działania naprawcze: WYMIANA OBUDOWY ŁOŻYSK &lt;BR/&gt; Informacje dla DEALERÓW &lt;BR/&gt; Uwagi: KOD 42I2 PODWOZIA – SKONTAKTOWAĆ SIĘ Z DEALEREM &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 3802 &lt;BR/&gt; Okres produkcji: nie podano &lt;BR/&gt; Opis usterki: W przypadku sześciobiegowej sekwencyjnej skrzyni biegów możliwe jest nieprawidłowe działanie sprzęgła &lt;BR/&gt; Działania naprawcze: Modyfikacja oprogramowania modułu sterującego skrzynią biegów &lt;BR/&gt; Odniesienie dla dealerów &lt;BR/&gt; Uwagi kod 37E8 Zakres numerów podwozi – skonsultować się z dealerami &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 5759 &lt;BR/&gt; Okres produkcji: MAJ 2018 – SIERPIEŃ 2018 &lt;BR/&gt; Opis usterki: MOŻLIWE NIEPEŁNE SPAWANIE PROWADZIC ZAGŁÓWKÓW TYLNYCH &lt;BR/&gt; Działania naprawcze: EWENTUALNA WYMIANA RAMY OPARCIOWEJ &lt;BR/&gt; Informacje dla dealerów &lt;BR/&gt; Uwagi: kod 72H8 – ramy – skonsultować się z dealerami &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 339 &lt;BR/&gt; Okres produkcji: LATA 2016/2017 &lt;BR/&gt; Opis usterki: MOŻLIWY BRAK AKTYWACJI PODUSZKI POWIETRZNEJ I/LUB NAPINACZA PASÓW BEZPIECZEŃSTWA KIEROWCY I PASAŻERA &lt;BR/&gt; Działania naprawcze: WYMIANA USZKODZONYCH ELEMENTÓW &lt;BR/&gt; Informacje dla DEALERÓW &lt;BR/&gt; Uwagi: KOD 69P4 PODRZĘDNE, SKONTAKTOWAĆ SIĘ Z DEALERAMI &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 10989 &lt;BR/&gt; Okres produkcji: LATA 2016/2017 &lt;BR/&gt; Opis usterki: MOŻLIWE NIEPRAWIDŁOWE DZIAŁANIE RĘCZNEJ BLOKADY DRZWI DLA DZIECI &lt;BR/&gt; Działania naprawcze: KONTROLA ZAMKÓW TYLNYCH DRZWI &lt;BR/&gt; Informacje dla dealerów &lt;BR/&gt; Uwagi: kod 58C9 – podwozia – skontaktować się z dealerami &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Volkswagen Golf VII Variant</Capitolo>
+      <Corpo> &lt;BR/&gt; Liczba pojazdów: 10989 &lt;BR/&gt; Okres produkcji: LATA 2016/2017 &lt;BR/&gt; Opis usterki: MOŻLIWA NIEPRAWIDŁOWA PRACA RĘCZNEGO ZAMKA BEZPIECZEŃSTWA DLA DZIECI &lt;BR/&gt; Działania naprawcze: KONTROLA ZAMKÓW TYLNYCH DRZWI &lt;BR/&gt; Numer referencyjny DEALERÓW &lt;BR/&gt; Uwagi: KOD 58C9 PODRZĘDNE, SKONTAKTOWAĆ SIĘ Z DEALEREM &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 11206 &lt;BR/&gt; Okres produkcji: NIE PODANO &lt;BR/&gt; Opis usterki: MOŻLIWE ZŁAMANIE DŹWIGNI RĘCZNEJ BLOKADY ZABEZPIECZAJĄCEJ PRZED OTWARCIEM PRZEZ DZIECI ORAZ JEJ NAGŁE ODBLOKOWANIE SPOWODOWANE SILNYMI WIBRACJAMI &lt;BR/&gt; Działania naprawcze: KONTROLA DZIAŁANIA BLOKADY ZABEZPIECZAJĄCEJ &lt;BR/&gt; Numer referencyjny 800865579 &lt;BR/&gt; Uwagi: KOD 58C9 RAMY DEALERSKIE &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Volkswagen Golf/Golf Variant VII ze sterownikiem ABS/ESP (mk60)</Capitolo>
+      <Corpo> &lt;BR/&gt; Numer pojazdu: 51621 &lt;BR/&gt; Okres produkcji: LATA 2002/2013 &lt;BR/&gt; Opis usterki: MOŻLIWE PRZERWANIE POŁĄCZENIA MASOWEGO MODUŁU STERUJĄCEGO Z POWODU PRZECIĄŻENIA TERMOMECHANICZNEGO &lt;BR/&gt; Działania naprawcze: ZAINSTALOWANIE NOWEGO OPROGRAMOWANIA &lt;BR/&gt; Informacje dla dealerów &lt;BR/&gt; Uwagi: KOD 45F2 – NUMERY PODWOZI – SKONTAKTOWAĆ SIĘ Z DEALERAMI &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Volkswagen Golf VII Performance</Capitolo>
+      <Corpo> &lt;BR/&gt; Liczba pojazdów: 37 &lt;BR/&gt; Okres produkcji: ROK MODELOWY 2017 &lt;BR/&gt; Opis usterki: NIEPRAWIDŁOWE TABLICZKI Z WSKAZANIEM CIŚNIENIA W OPONACH I MOŻLIWE PĘKANIE OPON &lt;BR/&gt; Działania naprawcze: MONTAŻ TABLICZKI Z DOKŁADNYMI DANYMI &lt;BR/&gt; Informacje dla dealerów &lt;BR/&gt; Uwagi: KOD 09A5 RAMY – SKONTAKTOWAĆ SIĘ Z DEALERAMI &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>Volkswagen Golf VII z silnikiem Diesel Start/Stop</Capitolo>
+      <Corpo> &lt;BR/&gt; Liczba pojazdów: 4976 &lt;BR/&gt; Okres produkcji: NIE PODANO &lt;BR/&gt; Opis usterki: MOŻLIWA NIEPRAWIDŁOWA PRACA SILNIKA ROZRUCHOWEGO I RYZYKO POŻARU &lt;BR/&gt; Działania naprawcze: WYMIANA PRZEŁĄCZNIKÓW ELEKTROMAGNETYCZNYCH &lt;BR/&gt; Informacje dla dealerów &lt;BR/&gt; Uwagi: COD 27F9 – numery podwozi – skontaktować się z dealerami &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>70</Ordine>
+      <Capitolo>Volkswagen Golf VII z silnikiem 1.2l/1.6l</Capitolo>
+      <Corpo> &lt;BR/&gt; Liczba pojazdów: 271 &lt;BR/&gt; Okres produkcji: NIE PODANO &lt;BR/&gt; Opis usterki: MOŻLIWE ODŁĄCZENIE ŚRUB OBUDOWY PRZEKŁADNI ZMIENNEJ FAZY I WYCIECI OLEJU SILNIKOWEGO &lt;BR/&gt; Działania naprawcze: WYMIANA PRZEKŁADNI &lt;BR/&gt; Informacje dla dealerów &lt;BR/&gt; Uwagi: KOD 15H2 – NUMERY PODWOZI – SKONTAKTOWAĆ SIĘ Z DEALERAMI &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>199007077</RifIDDoc>
+      <LinkUtili>Link do Ministerstwa Infrastruktury i Transportu</LinkUtili>
+      <Ordine>1</Ordine>
+      <RifIDDocLink>15000122</RifIDDocLink>
+      <XLINKDOC>
+        <ID>15000122</ID>
+        <DOCNumber>LNK00008</DOCNumber>
+        <Documento>Przejdź do: Komunikaty – Ministerstwo Transportu</Documento>
+        <URL>LINKDOC:15000122</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

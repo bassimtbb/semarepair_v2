@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-22T17:16:41">
+  <XDOCUMENTO>
+    <ID>199303802</ID>
+    <DOCNumber>IND77142</DOCNumber>
+    <RifIDTipoRis>36</RifIDTipoRis>
+    <Titolo>Prise de diagnostic</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>36</ID>
+      <TipoRis>IND</TipoRis>
+      <DscRis>Prise de diagnostic OBDII</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199303802</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Localisation Prise de diagnostic</Capitolo>
+      <Corpo> &lt;LI&gt; Prise de type OBD 16 broches. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; La prise de diagnostic se trouve dans le compartiment pour les jambes du conducteur, sous le tableau de bord côté gauche.</Corpo>
+      <RifIDFileIMGANI>299023370</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299023370</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299023370</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199303802</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Brochage du connecteur</Capitolo>
+      <Corpo>Broche 1 Libre &lt;BR/&gt; Broche 2 Diagnostic J1850 PWM ou VPW (+) &lt;BR/&gt; Broche 3 Libre &lt;BR/&gt; Broche 4 Masse châssis &lt;BR/&gt; Broche 5 Masse signal &lt;BR/&gt; Broche 6 Diagnostic J2284 CAN (H) &lt;BR/&gt; Broche 7 Diagnostic ISo 9141-2 et 14230 (K) &lt;BR/&gt; Broche 8 Libre &lt;BR/&gt; Broche 9 Libre &lt;BR/&gt; Broche 10 Diagnostic J1850 PWM ou VPW (-) &lt;BR/&gt; Broche 11 Libre &lt;BR/&gt; Broche 12 Libre &lt;BR/&gt; Broche 13 Libre &lt;BR/&gt; Broche 14 Diagnostic J2284 CAN (L) &lt;BR/&gt; Broche 15 Diagnostic ISo 9141-2 et 14230 (L) &lt;BR/&gt; Broche 16 Alimentation +12 volts</Corpo>
+      <RifIDFileIMGANI>25003412</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>25003412</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:25003412</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

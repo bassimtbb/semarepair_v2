@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T20:24:26">
+  <XDOCUMENTO>
+    <ID>199212796</ID>
+    <DOCNumber>DRA76195</DOCNumber>
+    <RifIDTipoRis>45</RifIDTipoRis>
+    <Titolo>Volkswagen Doppelkupplungsgetriebe 0D9 (6-Gang)</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>45</ID>
+      <TipoRis>DRV</TipoRis>
+      <DscRis>Automatik-Getriebe</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Technische Daten  - -Schmierstoffe</Capitolo>
+      <Corpo> &lt;B&gt; Hersteller: &lt;/B&gt; Volkswagen AG &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Bezeichnung: &lt;/B&gt; 0D9 / DQ250 &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Handelsbezeichnung: &lt;/B&gt; DSG6, S-Tronic &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Vom Hersteller des Automatikgetriebes empfohlenes Ölwechselintervall: &lt;/B&gt; &lt;BR/&gt; 60.000 km &lt;BR/&gt; &lt;BR/&gt; &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt; &lt;TH width=60% class=&quot;chiaro&quot;&gt; Beschreibung &lt;/TH&gt; &lt;TH width=25% class=&quot;chiaro&quot;&gt; Maßeinheit &lt;/TH&gt; &lt;TH width=15% class=&quot;chiaro&quot;&gt; Daten &lt;/TH&gt; &lt;TR&gt; &lt;TD&gt; Automatikgetriebe-Code: &lt;/TD&gt; &lt;TD&gt; Ref.-Nr. &lt;/TD&gt; &lt;TD&gt; 0D9 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Anzahl der Gänge: &lt;/TD&gt; &lt;TD&gt; Nr. &lt;/TD&gt; &lt;TD&gt; 6 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Automatikgetriebeöl – Herstellerspezifikation: &lt;/TD&gt; &lt;TD&gt; Ref.-Nr. &lt;/TD&gt;  &lt;TD&gt; VW G 052 182 A2/A6 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Automatikgetriebeöl – Füllmenge bei leerem Getriebe: &lt;/TD&gt; &lt;TD&gt; Liter &lt;/TD&gt; &lt;TD&gt; 6,9–7,2 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Automatikgetriebeöl – Menge beim Ölwechsel: &lt;/TD&gt; &lt;TD&gt; Liter &lt;/TD&gt; &lt;TD&gt; 5,2 &lt;/TD&gt; &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Automatikgetriebeöl – Menge für die Getriebespülung: &lt;/TD&gt; &lt;TD&gt; Liter &lt;/TD&gt; &lt;TD&gt; 8,9–9,2 &lt;/TD&gt;  &lt;/TR&gt; &lt;TR&gt; &lt;TD&gt; Temperatur für die Überprüfung des Automatikgetriebeölstands: &lt;/TD&gt; &lt;TD&gt; °C &lt;/TD&gt; &lt;TD&gt; 35 ~ 45° &lt;/TD&gt; &lt;/TR&gt; &lt;/TABLE&gt; &lt;BR/&gt; Die Überprüfung des Automatikgetriebeölstands bei laufendem Motor durchführen. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503980</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503980</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503980</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>15</Ordine>
+      <Capitolo>Automatische Identifizierung des Getriebes</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Das Getriebemodell lässt sich anhand des Schildes an der Oberseite ermitteln.&lt;BR/&gt; &lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Das Symbol &lt;B&gt;1 &lt;/B&gt;gibt den Code des Getriebes an.&lt;BR/&gt; &lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Symbol &lt;B&gt;2 &lt;/B&gt;gibt das Produktionsdatum an (tt.mm.jj).&lt;BR/&gt; &lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Das Symbol &lt;B&gt;3 &lt;/B&gt;kennzeichnet das Produktionswerk.&lt;BR/&gt; &lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Symbol &lt;B&gt;4 &lt;/B&gt;gibt die Produktionszeit an.&lt;BR/&gt; &lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Symbol &lt;B&gt;5 &lt;/B&gt;gibt die Seriennummer an.&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007243</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007243</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007243</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>16</Ordine>
+      <Capitolo>Automatische Getriebewaschanlage mit Ausrüstung</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&lt;BR/&gt; &lt;span style=&apos;mso-spacerun:yes&apos;&gt; &lt;/span&gt;Für die Spülung des Automatikgetriebes ist es ratsam, das Gerät anstelle des Automatikgetriebes anzuschließen &lt;B&gt;Abb. 1b&lt;/B&gt;&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;1a &lt;/B&gt;- Automatikgetriebefilter&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;1b &lt;/B&gt;- Anschluss der Getriebespülung&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;2 &lt;/B&gt;- Ölablassschraube des Automatikgetriebes&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299002408</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299002408</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299002408</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>17</Ordine>
+      <Capitolo>Spezialwerkzeuge und Werkstattausrüstung</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;font-size:12.0pt; line-height:107%;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:0cm;margin-bottom:.0001pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Öleinfülladapter &lt;B&gt;VAS 6262A&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Öleinfülladapter &lt;B&gt;VAS 6262/6 &lt;/B&gt;für bestimmte Flaschentypen&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Ölabsauganlage &lt;B&gt;VAS 6622A&lt;/B&gt;&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007238</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007238</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007238</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Verfahren zum Ablassen und Einfüllen von Automatikgetriebeöl</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;font-size:12.0pt; line-height:107%;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:0cm;margin-bottom:.0001pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Mit Hilfe von Diagnoseinstrumenten prüfen, dass die Temperatur des Getriebeöls nicht über &lt;B&gt;45° liegt.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Wenn die Temperatur über &lt;B&gt;45° &lt;/B&gt;liegt, ist es ratsam, das Getriebe abkühlen zu lassen.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Stellen Sie den Motor ab&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Das Fahrzeug auf einer Ebene positionieren&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Entfernen Sie die untere Abdeckung&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Stellen Sie den Schalthebel auf &lt;B&gt;P&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Anschließen des Diagnosetesters&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Vergewissern Sie sich vor Beginn der Arbeiten mit Hilfe eines Diagnosetesters, dass die Temperatur des Getriebeöls &lt;B&gt;45 °C &lt;/B&gt;nicht überschreitet.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Das Fahrzeug anheben&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Stellen Sie die Ölablasswanne unter das Fahrzeug &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Entfernen Sie die Füllstandskontrollschraube &lt;B&gt;B &lt;/B&gt;und die Überlaufschraube &lt;B&gt;C &lt;/B&gt;aus dem Sockel des Automatikgetriebes.&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;WARNUNG: &lt;/B&gt;Starten Sie den Motor nicht, wenn sich kein Öl im Getriebe befindet.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:0cm;margin-bottom:.0001pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Warten Sie, bis das Öl vollständig abgelassen ist.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Überlaufstopfen &lt;B&gt;C &lt;/B&gt;wieder einsetzen und mit &lt;B&gt;3 Nm &lt;/B&gt;anziehen&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Stecken Sie die Ölflasche in den Öleinfülladapter &lt;B&gt;VAS 6262A&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Wenn mehrere Flaschen Öl vorhanden sind, muss der spezielle Flaschenadapter &lt;B&gt;VAS 6262/6 &lt;/B&gt;verwendet werden.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Den Anschluss &lt;B&gt;VAS 6262A &lt;/B&gt;in den Überlaufstopfen &lt;B&gt;C &lt;/B&gt;einrasten lassen&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Beim Flaschenwechsel den Hahn am Öleinfülladapter &lt;B&gt;VAS 6262A &lt;/B&gt;schließen&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Füllen Sie das Automatikgetriebe mit &lt;B&gt;5,5 Liter &lt;/B&gt;Öl.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Niveaustecker &lt;B&gt;B &lt;/B&gt;provisorisch von Hand anziehen&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Starten Sie den Motor&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Drücken Sie das Bremspedal und wählen Sie den Schalthebel in jeder Stellung mindestens &lt;B&gt;3 Sekunden &lt;/B&gt;lang&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Stellen Sie den Schalthebel auf &lt;B&gt;P&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Den Motor nicht abstellen&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Kontrollieren Sie den Ölstand und füllen Sie bei Bedarf Öl nach.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Ziehen Sie die Füllstandsprüfschraube &lt;B&gt;B &lt;/B&gt;mit &lt;B&gt;45 Nm &lt;/B&gt;an.&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007272</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007272</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007272</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>25</Ordine>
+      <Capitolo>Verfahren zum Austausch des Ölfilters für das automatische Getriebe</Capitolo>
+      <Corpo> &lt;LI&gt; Der Getriebeölfilter muss ausgetauscht werden, wenn: &lt;BR/&gt;
+&lt;LI&gt; Das Fahrzeug hat 60.000 km erreicht &lt;BR/&gt; &lt;LI&gt; Kühlflüssigkeit hat das Getriebeöl verunreinigt &lt;BR/&gt;    &lt;LI&gt; Im Getriebeöl wurden Metallpartikel festgestellt &lt;BR/&gt; &lt;LI&gt; Die Kupplung ist verschlissen oder weist Funktionsstörungen auf &lt;BR/&gt; &lt;LI&gt; Den Schalthebel auf &lt;B&gt; P &lt;/B&gt; stellen &lt;BR/&gt;  &lt;LI&gt; Die Abdeckung des Automatikgetriebeölfilters entfernen &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; ACHTUNG: &lt;/B&gt; Den Bereich um den Filter herum mit Tüchern abdecken &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Die Schraube des Automatikgetriebeölfilters um &lt;B&gt; 7 Umdrehungen &lt;/B&gt; lösen  &lt;BR/&gt; &lt;LI&gt; 10 Sekunden warten, damit das Öl im Filter in das Getriebegehäuse abfließen kann &lt;BR/&gt; &lt;LI&gt; Den Automatikgetriebefilter entfernen &lt;B&gt; (A) &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Mit dem Austausch des Filters fortfahren &lt;BR/&gt;  &lt;LI&gt; Die Abdeckung des Automatikgetriebefilters wieder montieren &lt;B&gt; (A) &lt;/B&gt; und mit &lt;B&gt; 20 Nm &lt;/B&gt; festziehen &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; ACHTUNG: &lt;/B&gt; Die Dichtung des Automatikgetriebefilters immer austauschen</Corpo>
+      <RifIDFileIMGANI>299007244</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007244</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007244</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Kontrolle des Ölstands im Automatikgetriebe</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;font-size:12.0pt;line-height:107%;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Das Fahrzeug auf einer Ebene positionieren&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Das Fahrzeug anheben&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Entfernen Sie die untere Abdeckung&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Anschließen des Diagnosetesters&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Stellen Sie sicher, dass die Temperatur des Getriebeöls zwischen &lt;B&gt;35~45 °C &lt;/B&gt;liegt&lt;B&gt;.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Starten Sie die &lt;B&gt;Ölstandskontrolle des Automatikgetriebes &lt;/B&gt;mit dem Diagnosetester.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Den Motor im Leerlauf starten&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Stellen Sie den Schalthebel auf &lt;B&gt;P&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Stellen Sie die Ölablasswanne unter das Fahrzeug &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Füllstandskontrollkappe &lt;B&gt;B &lt;/B&gt;entfernen&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Überschüssiges Öl abtropfen lassen&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Prüfen Sie den Ölstand des Automatikgetriebes&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Die richtige Menge wird durch einen leichten Tropf bestätigt&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Wenn das Öl nicht aus der Kontrollöffnung tropft, muss mit dem Adapter &lt;B&gt;VAS 6262A &lt;/B&gt;ein weiterer Liter Öl nachgefüllt werden.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Wenn sich herausstellt, dass zu viel Öl eingefüllt wurde, muss man es ablaufen lassen, bis es leicht abtropft.&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;ACHTUNG: &lt;/B&gt;Wenn Öl nachgefüllt werden muss, die Flaschen vor dem Öffnen gut schütteln, damit keine Ablagerungen am Boden zurückbleiben.&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;WARNUNG: &lt;/B&gt;Ein zu niedriger oder zu hoher Ölstand beeinträchtigt die Funktion des Getriebes.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Füllstandskontrollkappe &lt;B&gt;B &lt;/B&gt;wieder einbauen und mit &lt;B&gt;45 Nm &lt;/B&gt;anziehen&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;ACHTUNG: &lt;/B&gt;Die Dichtung der Füllstandskontrollkappe &lt;B&gt;B &lt;/B&gt;immer ersetzen&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:0cm;margin-bottom:.0001pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Bringen Sie die untere Abdeckung wieder an.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;&amp;#61623; Absenken des Fahrzeugs&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007271</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007271</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007271</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

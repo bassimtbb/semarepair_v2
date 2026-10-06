@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-02T20:01:13">
+  <XDOCUMENTO>
+    <ID>199001632</ID>
+    <DOCNumber>GUR59015</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Herstel van het systeem na het loskoppelen van de accu</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Handleiding voor afstelling</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Locatie Accu</Capitolo>
+      <Corpo> &lt;BR/&gt; De accu bevindt zich in de motorruimte, aan de bestuurderszijde, vlakbij het schot. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>199000661</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>199000661</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:199000661</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Procedures voor de loskoppeling van de accu</Capitolo>
+      <Corpo> &lt;BR/&gt; Als de accu moet worden losgekoppeld, moet u het volgende doen: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Controleer of alle  &lt;B&gt; elektrische apparaten &lt;/B&gt;  in de auto, zoals de autoradio, het navigatiesysteem enz.,  &lt;B&gt; zijn uitgeschakeld &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt; Controleer of het &lt;B&gt; contact is uitgeschakeld &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt; Zorg dat u de  &lt;B&gt; code van de autoradio &lt;/B&gt; bij de hand hebt  &lt;BR/&gt;  &lt;BR/&gt; Vervolgens kunt u de accu loskoppelen,  &lt;B&gt; waarbij u eerst de minpool en daarna de pluspool verwijdert &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; Wacht na het loskoppelen van de accu enkele minuten voordat u werkzaamheden aan het airbagsysteem uitvoert</Corpo>
+      <RifIDFileIMGANI>62503878</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503878</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503878</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procedures voor de collegamento van de accu</Capitolo>
+      <Corpo> &lt;BR/&gt; Om de accu weer aan te sluiten, moet u als volgt te werk gaan: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sluit eerst de pluspool aan &lt;/B&gt;  en vervolgens de minpool van de accu &lt;BR/&gt;  &lt;LI&gt; Stel de radiocode opnieuw in (indien nodig) &lt;BR/&gt;  &lt;LI&gt; Wis eventuele  &lt;B&gt; fouten in het geheugen &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt; Zet het contact aan en wacht 40 seconden &lt;BR/&gt;  &lt;LI&gt; Zet het contact uit &lt;BR/&gt;  &lt;LI&gt; Mogelijk gaan de  &lt;B&gt; controlelampjes van het stabiliteitscontrolesysteem branden &lt;/B&gt; . Rijd daarom enkele kilometers met constante snelheid, zodat deze weer uitgaan. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503879</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503879</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503879</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Reset raambediening elektrisch</Capitolo>
+      <Corpo> &lt;BR/&gt; Procedure voor het initialiseren van de elektrische raamheffers: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Controleer of  &lt;B&gt; de deuren en ramen gesloten zijn &lt;/B&gt; . &lt;BR/&gt;  &lt;LI&gt; Zet het contact aan &lt;BR/&gt;  &lt;LI&gt; Druk op de  &lt;B&gt; knop voor het openen/sluiten van de elektrische ruit &lt;/B&gt;  en houd deze ingedrukt totdat de ruit  &lt;B&gt; volledig &lt;/B&gt;  is geopend &lt;BR/&gt;  &lt;LI&gt; Til de  &lt;B&gt; knop voor het openen/sluiten van de elektrische ruit &lt;/B&gt;  op en houd deze meer dan 3 seconden omhoog nadat deze  &lt;B&gt; volledig gesloten &lt;/B&gt;  is &lt;BR/&gt;  &lt;LI&gt; Er klinkt een geluidssignaal ter bevestiging dat de handeling is voltooid &lt;BR/&gt;  &lt;BR/&gt; Het systeem is nu geïnitialiseerd. &lt;BR/&gt; Herhaal de procedure voor de overige ramen. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-03T01:31:34">
+<XDOCUMENTO>
+<ID>199320371</ID>
+<DOCNumber>GUP100611</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Avvisi ADAS, pneumatici e freno di manovra, spia pneumatici lampeggiante, guasti ed ESC fisse</Titolo>
+<InfoDoc>FRENI | ADAS | GRUPPO | ABS | CENTRALINA | U1123 | C107A | C1146 | U1122 | IDRAULICO | IMPIANTO | FRENANTE | MODULO | PRESSIONE | RUOTE | SENSORE | VELOCITà | SBANDA | CONTACHILOMETRI | ODOMETRO | ESC | STABILITà | SALITA | FRONT | ASSIST | PARKPILOT |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199320371</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (*)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199320371</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Freni &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Gruppo ABS &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Sul quadro strumenti risultano attive le spie avaria motore ed ESC fisse e la spia del controllo della pressione dei pneumatici lampeggiante. Vengono inoltre visualizzati diversi avvisi: “Funzione freno di manovra non disponibile”, “Anomalia all’ABS/controllo stabilità (ESC)”, “Anomalia: assistente per le partenze in salita”, “Front Assist non disponibile.”, “Anomalia al sistema di controllo dei pneumatici” e “ParkPilot non disponibile”. Il veicolo continua a funzionare regolarmente.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt;&lt;ul&gt;&lt;LI&gt; U1123 (Dati non validi o mancanti per l’odometro)&lt;BR/&gt;&lt;LI&gt; C107A (Sensore di pressione 1 freni ABS - Funzionamento difettoso)&lt;BR/&gt;&lt;LI&gt; C1146 (Guasto del sensore di pressione dei pneumatici)&lt;BR/&gt;&lt;LI&gt; U1122 (Dati non validi o mancanti per il contachilometri)&lt;/ul&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Malfunzionamento del gruppo ABS (modulo e gruppo idraulico), con conseguenti anomalie di comunicazione con gli altri sistemi del veicolo.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199320371</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Verificare lo stato e il corretto funzionamento del gruppo ABS (modulo e gruppo idraulico) e se necessario procedere con la sua sostituzione. Successivamente effettuare lo spurgo dell&apos;impianto frenante. &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - - &lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; Il gruppo ABS è posizionato nel vano motore, lato passeggero. Nel caso in esame al controllo visivo i componenti non presentavano anomalie. Il tempo previsto per l&apos;intervento è circa di 1,75h.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

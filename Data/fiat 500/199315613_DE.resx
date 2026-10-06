@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-10T23:52:56">
+  <XDOCUMENTO>
+    <ID>199315613</ID>
+    <DOCNumber>GUP99288</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Heckscheibenheizung und beheizbare Außenspiegel funktionieren nicht, S&amp;S nicht verfügbar</Titolo>
+    <InfoDoc>ELETTRONICA | RAFFREDDAMENTO | TUBO REFRIGERANTE | PERDITA REFRIGERANTE | PERDE | LIQUIDO REFRIGERANTE | INVERTER | SURRISCALDA | DANNI MOTORE | DANNI CAMBIO | ACQUA | PERDITA | GOCCE | GOCCIA | TRACCIA | TERRA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199315613</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199315613</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Gültigkeit: &lt;/B&gt; Alle Fahrzeuge, die mit einem intelligenten Batteriesensor (IBS) ausgestattet sind &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Elektrische Anlage / Batteriemanagement &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Gerät: &lt;/B&gt; Intelligenter Batteriesensor (IBS) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt;  Das Fahrzeug kann niedrige oder falsche Werte für den Ladezustand (SOC) und den Gesundheitszustand (SOH) der Batterie aufweisen, die vom IBS-Sensor erfasst werden, was zu einem Ausfall der beheizbaren Heckscheibe und der beheizbaren Außenspiegel sowie zur Deaktivierung der Start-Stopp-Funktion führt. Dieser Zustand tritt insbesondere auf, wenn der IBS-Sensor vom Minuspol der Batterie oder vom Signalstecker getrennt wird, was zu einem Reset des Sensors führt. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose erkannte Fehler: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Der Reset des IBS-Bauteils, der durch das Trennen vom Minuspol der Batterie oder durch das Trennen des Signalsteckers verursacht wird, führt zum Verlust der Kalibrierungsparameter. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199315613</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Führen Sie eine Neukalibrierung des IBS-Sensors durch. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt;  &lt;LI&gt; Die Anschlüsse des IBS-Sensors (Minuspol der Batterie und Signalstecker) ordnungsgemäß wiederherstellen. &lt;BR/&gt; &lt;LI&gt; 3 vollständige Zündzyklen in folgender Reihenfolge durchführen: Zündung AUS – Zündung EIN – Motor starten – Zündung AUS. &lt;BR/&gt;  &lt;LI&gt; Das Fahrzeug mit der Fernbedienung verriegeln und mindestens 4 Stunden im Deep-Sleep-Modus warten, damit die IBS-Komponente die Neukalibrierung abschließen kann. &lt;BR/&gt;  &lt;LI&gt; Überprüfen Sie nach Ablauf der Wartezeit den festen Sitz des Signalsteckers und des Leistungssteckers. &lt;BR/&gt; &lt;LI&gt; Sollten nach den 4 Stunden im Deep-Sleep-Modus weiterhin niedrige SOC- oder SOH-Werte vorliegen, überprüfen Sie den Zustand der Batterie genauer und laden Sie sie mit einem Ladegerät auf. &lt;BR/&gt;  &lt;LI&gt; Schließen Sie während des Ladevorgangs den Pluspol des Ladegeräts an den Pluspol der Batterie (oder an die CBA) und den Minuspol an den Radsok-Stift an, wobei Sie darauf achten müssen, den IBS-Sensor nicht zu überbrücken. &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025983</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025983</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025983</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

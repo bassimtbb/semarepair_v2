@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T03:00:59">
+  <XDOCUMENTO>
+    <ID>199224274</ID>
+    <DOCNumber>AZZ76306</DOCNumber>
+    <RifIDTipoRis>7</RifIDTipoRis>
+    <Titolo>Restablecimiento del indicador de asistencia</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>217</RifIDFileICO>
+    <XFILE>
+      <ID>217</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:217</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>7</ID>
+      <TipoRis>AZZ</TipoRis>
+      <DscRis>Servicio de puesta a cero</DscRis>
+      <RifIDFileCSS>1</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>1</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:1</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199224274</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Información sobre el sistema</Capitolo>
+      <Corpo> &lt;BR/&gt; El vehículo está equipado con un indicador de intervalos de mantenimiento, situado en la pantalla multifunción del cuadro de instrumentos. &lt;BR/&gt;&lt;BR/&gt; El indicador muestra al conductor una serie de avisos relativos a las operaciones de mantenimiento programadas a las que debe someterse periódicamente el vehículo. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199224274</RifIDDoc>
+      <Ordine>25</Ordine>
+      <Capitolo>Restablecimiento del indicador de intervalo de mantenimiento</Capitolo>
+      <Corpo> &lt;BR/&gt; Una vez realizados los trabajos de mantenimiento, el indicador se pone a cero manualmente de la siguiente manera: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Encender el motor. &lt;BR/&gt;  &lt;LI&gt; Pulse varias veces el botón &lt;B&gt; 1 &lt;/B&gt; hasta que se resalte el icono del vehículo &lt;BR/&gt; &lt;LI&gt; Con los botones &lt;B&gt; 2 &lt;/B&gt;, seleccione el menú «Autonomía de mantenimiento» &lt;BR/&gt;  &lt;LI&gt; Pulse el botón &lt;B&gt; 3 &lt;/B&gt; para confirmar &lt;BR/&gt;  &lt;LI&gt; Con los botones &lt;B&gt; 2 &lt;/B&gt;, seleccione la opción «Límite de mantenimiento» &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Si la autonomía es inferior a 1500 km o un mes &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; Aparece el mensaje &lt;B&gt; «Prever mantenimiento antes de» &lt;/B&gt; junto con la fecha de vencimiento más cercana (distancia o tiempo) &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Con una autonomía igual a 0 km o fecha de mantenimiento alcanzada &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Aparece el mensaje  &lt;B&gt; «Realizar mantenimiento» &lt;/B&gt; acompañado del símbolo &lt;B&gt; 4 &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Para reiniciar el límite de mantenimiento, pulse durante unos 10 segundos, sin interrupciones, la tecla &lt;B&gt; 3 &lt;/B&gt; hasta que aparezca la indicación fija del límite de mantenimiento.</Corpo>
+      <RifIDFileIMGANI>299007974</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007974</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007974</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199224274</RifIDDoc>
+      <Ordine>26</Ordine>
+      <Capitolo>Restablecimiento del indicador de sustitución del aceite del motor.</Capitolo>
+      <Corpo> &lt;BR/&gt; Una vez realizados los trabajos de mantenimiento, el indicador se pone a cero manualmente de la siguiente manera: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Encender el motor. &lt;BR/&gt;  &lt;LI&gt; Pulse varias veces el botón &lt;B&gt; 1 &lt;/B&gt; hasta que se resalte el icono del vehículo &lt;BR/&gt; &lt;LI&gt; Con los botones &lt;B&gt; 2 &lt;/B&gt;, seleccione el menú «Autonomía de mantenimiento» &lt;BR/&gt;  &lt;LI&gt; Pulse el botón &lt;B&gt; 3 &lt;/B&gt; para confirmar &lt;BR/&gt;  &lt;LI&gt; Con los botones &lt;B&gt; 2 &lt;/B&gt;, seleccione la opción «Límite de sustitución de aceite» &lt;BR/&gt; &lt;BR/&gt; Para reiniciar el límite de mantenimiento, pulse durante unos 10 segundos, sin interrupciones, el botón &lt;B&gt; 3 &lt;/B&gt; hasta que aparezca la indicación fija del límite de sustitución de aceite.</Corpo>
+      <RifIDFileIMGANI>299007974</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007974</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007974</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199224274</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>ADVERTENCIAS</Capitolo>
+      <Corpo> &lt;BR/&gt; Si se realiza un mantenimiento sin cambiar el aceite del motor, solo es necesario reiniciar el límite de mantenimiento. En caso de cambiar el aceite del motor, es necesario reiniciar tanto el límite de mantenimiento como el límite de cambio de aceite. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

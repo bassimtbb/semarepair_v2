@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T00:58:06">
+  <XDOCUMENTO>
+    <ID>62505988</ID>
+    <DOCNumber>GUR62509</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Wiederherstellung der Motorstartfunktion nach einem Aufprall</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Einstellungsanleitung</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62505988</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Informationen zum System</Capitolo>
+      <Corpo> &lt;BR/&gt; Das Fahrzeug ist mit einem Brandschutzsystem namens &lt;B&gt; FPS (Fire Prevention System) &lt;/B&gt; ausgestattet. &lt;BR/&gt; &lt;BR/&gt; Nach einem leichten Aufprall greift das FPS-System wie folgt ein: &lt;BR/&gt; &lt;BR/&gt; - Unterbrechung der Kraftstoffzufuhr durch das Einspritzsteuergerät &lt;BR/&gt; - Entriegelung der Türverriegelung &lt;BR/&gt; - Einschalten der Innenbeleuchtung &lt;BR/&gt; - Einschalten der Warnblinkanlage &lt;BR/&gt; - Im Kombiinstrument erscheint die Meldung &lt;B&gt; „FPS ON“ &lt;/B&gt; oder &lt;B&gt; „Kraftstoffsperre aktiviert“ &lt;/B&gt; &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503867</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503867</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503867</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62505988</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Wiederherstellung der Motorstartfunktion</Capitolo>
+      <Corpo> &lt;BR/&gt; Vorgehensweise zur Wiederherstellung der Motorstartfunktion: &lt;BR/&gt; &lt;BR/&gt; 1- Zündung einschalten &lt;BR/&gt; 2- Durch Betätigen des Schalthebels &lt;B&gt; einschalten &lt;/B&gt; den Blinker &lt;B&gt; rechts &lt;/B&gt;  &lt;BR/&gt; 3- Durch Betätigen des Blinkerschalters &lt;B&gt; den &lt;/B&gt; rechten Blinker &lt;B&gt; ausschalten &lt;/B&gt; &lt;BR/&gt; 4- Durch Betätigen des Blinkerschalters &lt;B&gt; den &lt;/B&gt; linken Blinker &lt;B&gt; einschalten &lt;/B&gt;  &lt;BR/&gt; 5- Durch Bewegen des Blinkerschalters &lt;B&gt; ausschalten &lt;/B&gt; den Blinker &lt;B&gt; links &lt;/B&gt; &lt;BR/&gt; 6- Durch Bewegen des Blinkerschalters &lt;B&gt; einschalten &lt;/B&gt; den Blinker &lt;B&gt; rechts &lt;/B&gt;  &lt;BR/&gt; 7- Durch Bewegen des Schalthebels &lt;B&gt; den &lt;B&gt; rechten &lt;/B&gt; Blinker &lt;B&gt; ausschalten &lt;/B&gt; &lt;BR/&gt; 8- Durch Bewegen des Schalthebels &lt;B&gt; den &lt;B&gt; linken &lt;/B&gt; Blinker &lt;B&gt; einschalten &lt;/B&gt; &lt;BR/&gt; 9- Durch Bewegen des Schalthebels &lt;B&gt; ausschalten &lt;/B&gt; den Blinker &lt;B&gt; links &lt;/B&gt; &lt;BR/&gt; 10- Die Zündung ausschalten &lt;BR/&gt; &lt;BR/&gt; Nun ist das FPS-System deaktiviert, und der Motor kann gestartet werden &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62505988</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Hinweise</Capitolo>
+      <Corpo> &lt;BR/&gt; Bei einigen Fahrzeugen ist das manuelle Verfahren möglicherweise nicht durchführbar. In diesem Fall sollten Sie die Diagnoseausrüstung verwenden &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2025-08-02T05:31:18">
+<XDOCUMENTO>
+<ID>199290569</ID>
+<DOCNumber>GUP93469</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>I flap aria di raffreddamento (AKKS) inferiori non si chiudono durante il parcheggio</Titolo>
+<InfoDoc>INIEZIONE | 138223 | 138224 | 138225 | 21B042 | 138206 | 138204 | 13822A | COMANDO | ATTIVO | ALETTE | BASSO | APERTE | APERTI | CHIUSI | CHIUSE | MIL | MOBILI | FRONTALE | REGOLARE | FLUSSO | ARIA | MOTORE | CENTRALINA | DME | AGGIORNAMENTO | SOFTWARE |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199290569</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (***)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199290569</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Validità:&lt;/B&gt; Veicoli prodotti dal 01 Luglio 2018&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Iniezione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Centralina iniezione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; I flap aria di raffreddamento (AKKS) inferiori non si chiudono durante il parcheggio&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; Uno o più dei seguenti:&lt;BR/&gt;&lt;UL&gt;&lt;LI&gt; 138223 (Comando attivo flap aria di raffreddamento (AKKS), in basso: ghiacciato)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; 138224 (Comando attivo flap aria di raffreddamento (AKKS), in basso: battuta di arresto inferiore non riconosciuta)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; 138225 (Comando attivo flap aria di raffreddamento (AKKS), in basso: battuta di arresto superiore non riconosciuta)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; 21B042 (Comando attivo flap aria di raffreddamento (AKKS), in basso: blocco con tutte le temperature ambiente)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; 138206 (Comando attivo flap aria di raffreddamento (AKKS), in basso: Blocco in caso di temperatura ambiente calda)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; 138204 (Comando attivo flap aria di raffreddamento (AKKS), in basso: scostamento regolato con tutte le temperature ambiente)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; 13822A (Comando attivo flap aria di raffreddamento (AKKS), in basso: Scostamento regolato a temperatura ambiente calda temperatura ambiente)&lt;/UL&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Errore software della centralina iniezione&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199290569</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Eseguire la riprogrammazione della centralina iniezione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; &lt;I&gt;ATTENZIONE&lt;/I&gt;: Se sono presenti DTC o condizioni sintomatiche diverse da quelle elencate, procedere alla loro risoluzione prima di proseguire con questo bollettino&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

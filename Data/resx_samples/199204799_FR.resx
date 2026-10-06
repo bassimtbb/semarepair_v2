@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T15:37:16">
+  <XDOCUMENTO>
+    <ID>199204799</ID>
+    <DOCNumber>TGE83763</DOCNumber>
+    <RifIDTipoRis>16</RifIDTipoRis>
+    <Titolo>Entretien standard</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>234</RifIDFileICO>
+    <XFILE>
+      <ID>234</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:234</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>16</ID>
+      <TipoRis>TGE</TipoRis>
+      <DscRis>Contrôles supplémentaires et courroies</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>7</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>SINO</IDLabel>
+        <Stringa>Oui-Non</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Liste des données</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199204799</RifIDDoc>
+      <Tagliando>Tous les 60 000 km ou tous les 4 ans</Tagliando>
+      <TipoCtrl>FILTRES AUXILIAIRES</TipoCtrl>
+      <Controllo>Filtre à air</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199204799</RifIDDoc>
+      <Tagliando>Tous les 60 000 km ou tous les 4 ans</Tagliando>
+      <TipoCtrl>FILTRES AUXILIAIRES</TipoCtrl>
+      <Controllo>Filtre à carburant</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199204799</RifIDDoc>
+      <Tagliando>Tous les 120 000 km ou tous les 3 ans</Tagliando>
+      <TipoCtrl>FLUIDES POUR SYSTÈMES AUXILIAIRES</TipoCtrl>
+      <Controllo>Liquide de frein</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199204799</RifIDDoc>
+      <Tagliando>Tous les 120 000 km ou tous les 5 ans</Tagliando>
+      <TipoCtrl>FLUIDES POUR SYSTÈMES AUXILIAIRES</TipoCtrl>
+      <Controllo>Liquide de refroidissement moteur</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199204799</RifIDDoc>
+      <Tagliando>Tous les 150 000 km ou tous les 6 ans</Tagliando>
+      <TipoCtrl>COMMANDE DE DISTRIBUTION</TipoCtrl>
+      <Controllo>Courroie de distribution</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199204799</RifIDDoc>
+      <Tagliando>Tous les 150 000 km ou tous les 6 ans</Tagliando>
+      <TipoCtrl>COMMANDE DE DISTRIBUTION</TipoCtrl>
+      <Controllo>Tendeur de courroie de distribution</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199204799</RifIDDoc>
+      <Tagliando>Tous les 150 000 km ou tous les 6 ans</Tagliando>
+      <TipoCtrl>COMMANDE DE DISTRIBUTION</TipoCtrl>
+      <Controllo>Poulie de guidage de la courroie de distribution</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199204799</RifIDDoc>
+      <Tagliando>Tous les 150 000 km ou tous les 6 ans</Tagliando>
+      <TipoCtrl>COURROIES ET AGRÉGATS</TipoCtrl>
+      <Controllo>Courroie auxiliaire / Services</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199204799</RifIDDoc>
+      <Tagliando>Tous les 150 000 km ou tous les 6 ans</Tagliando>
+      <TipoCtrl>COURROIES ET AGRÉGATS</TipoCtrl>
+      <Controllo>Tendeur de courroie auxiliaire / Services</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+  </XDOCUMENTO>
+</dataroot>

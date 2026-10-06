@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T00:39:01">
+  <XDOCUMENTO>
+    <ID>199274296</ID>
+    <DOCNumber>GUP89958</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Démarrage et/ou arrêt impossible, dysfonctionnements divers des fonctions de l'habitacle.</Titolo>
+    <InfoDoc>15761 | LAVAFARI | ÉLECTRONIQUE | INJECTION | ÉCLAIRAGE | CLIGNOTANTS | PHARES | FEUX | PROJECTEURS | FEUX DE CROISEMENT | FEUX DE ROUTE | ÉTEINDRE | ALLUMER | MOTEUR | DANGER | RÉGLAGE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199274296</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199274296</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / du défaut</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Électronique &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Relais de lave-phares &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Démarrage et/ou arrêt impossible, dysfonctionnements divers des fonctions de l&apos;habitacle tels que clignotants actifs, phares de croisement qui ne fonctionnent pas, etc. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Interférences causées par les relais lave-phares du boîtier à fusibles &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199274296</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Remplacer les deux relais des lave-phares &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt;  Pour vérifier si la série d’anomalies est due à des interférences causées par les relais des lave-phares dans la boîte à fusibles du compartiment moteur, s’assurer que : &lt;UL&gt; &lt;LI&gt; &lt;I&gt; Moteur à l’arrêt &lt;/I&gt; , le message « Panne électronique » s’affiche sur le tableau de bord, avec le témoin de démarrage et les clignotants latéraux allumés en permanence.  &lt;LI&gt; &lt;I&gt; Lorsque le moteur est en marche &lt;/I&gt; , les anomalies sur le tableau de bord persistent ; de plus, les feux de croisement s’allument, le ventilateur électrique avant et l’essuie-glace avant s’activent.  &lt;/UL&gt; Si le véhicule présente ce comportement, l’interférence est causée par les relais du système de lave-phares. Remplacer les deux relais du système de lave-phares situés dans la boîte à fusibles du compartiment moteur par les nouvelles versions (référence 8200337663). &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Si le véhicule est équipé du système de lave-phares, remplacer les deux relais en question. &lt;BR/&gt; Si le véhicule n&apos;est pas équipé du système de lave-phares, il peut néanmoins être équipé de ces deux relais ; dans ce cas, il suffit de retirer les deux relais en question. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T00:38:34">
+  <XDOCUMENTO>
+    <ID>199073831</ID>
+    <DOCNumber>FLT76055</DOCNumber>
+    <RifIDTipoRis>37</RifIDTipoRis>
+    <Titolo>Localisation and Replacement</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>37</ID>
+      <TipoRis>FLT</TipoRis>
+      <DscRis>Filter Cockpit</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199073831</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procedure</Capitolo>
+      <Corpo> Filter dimensions: H= 212 mm. L= 300 mm. S= 30 mm. &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Estimated replacement time: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; 20 minutes &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Location: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Inside the passenger compartment &lt;BR/&gt; &lt;LI&gt; Passenger side &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Replacement: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Remove the plastic bulkhead under the glove compartment &lt;BR/&gt;  &lt;LI&gt; Disconnect the footwell light wiring harness located in the plastic bulkhead &lt;BR/&gt; &lt;LI&gt; Move the air vents slightly to allow easy access to the cabin filter &lt;BR/&gt; &lt;LI&gt; Remove the cabin filter cover cap &lt;BR/&gt;  &lt;LI&gt; Slide the filter out along the guides of the housing (from top to bottom) &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Reassembly: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Perform the procedure in reverse order</Corpo>
+      <RifIDFileIMGANI>62503509</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503509</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503509</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

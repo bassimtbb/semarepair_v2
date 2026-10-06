@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-03-11T17:46:42">
+  <XDOCUMENTO>
+    <ID>199282140</ID>
+    <DOCNumber>POP84662</DOCNumber>
+    <RifIDTipoRis>46</RifIDTipoRis>
+    <Titolo>INFORMACIÓN IMPORTANTE</Titolo>
+    <InfoDoc>TAG+TGE88984+TGE88985+TGE88980+TGE88982</InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>46</ID>
+      <TipoRis>POP</TipoRis>
+      <DscRis>Aviso</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199282140</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>MANTENIMIENTO: CORREAS Y AGREGADOS Desde diciembre de 2014 - Con usos normales</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; Intervenciones de sustitución importantes: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Cada 120 000 km o 6 años: correa de distribución, sustitución &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Cada 120 000 km o 6 años: correa auxiliar/servicios, sustitución &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Intervenciones de control importantes: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; A los 60 000 km o 4 años, y posteriormente cada 120 000 km o 6 años - Correa de distribución - Verificación / Control &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199282140</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>MANTENIMIENTO: CORREAS Y AGREGADOS Desde diciembre de 2014 - En condiciones severas</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; Intervenciones de sustitución importantes: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Cada 60 000 km o 4 años: correa de distribución, sustitución &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Cada 60 000 km o 4 años: correa auxiliar/servicios, sustitución &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Intervenciones de control importantes: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; A los 60 000 km o 4 años, y posteriormente cada 120 000 km o 6 años: correa de distribución: verificación/control &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199282140</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>MANTENIMIENTO: CORREAS Y AGREGADOS Hasta noviembre de 2014 - </Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; Intervenciones de sustitución importantes: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Cada 120 000 km o 4 años (uso intensivo) - Correa de distribución - Sustitución &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Cada 120 000 km o 4 años (uso intensivo) - Correa auxiliar/servicios - Sustitución &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Cada 120 000 km o 5 años - Correa de distribución - Sustitución &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Cada 120 000 km o 5 años - Correa auxiliar / Servicios - Sustitución &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Intervenciones de control importantes: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; A los 60 000 km o 4 años, y posteriormente cada 120 000 km o 5 años - Correa de distribución - Verificación / Control &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199282140</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>MANTENIMIENTO: CORREAS Y AGREGADOS Hasta noviembre de 2014: kilometraje anual inferior a 10 000 km.</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; Intervenciones de sustitución importantes: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Cada 120 000 km o 4 años (uso intensivo) - Correa de distribución - Sustitución &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Cada 120 000 km o 4 años (uso intensivo) - Correa auxiliar/servicios - Sustitución &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Cada 120 000 km o 5 años - Correa de distribución - Sustitución &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Cada 120 000 km o 5 años - Correa auxiliar / Servicios - Sustitución &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Intervenciones de control importantes: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; A los 60 000 km o 4 años, y posteriormente cada 120 000 km o 5 años - Correa de distribución - Verificación / Control &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199282140</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>REVISIONES DE MANTENIMIENTO DE ACUERDO CON EL REGLAMENTO BER/2010</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt; Utilizar recambios de calidad original o equivalentes a los originales. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Utilizar lubricantes según las especificaciones del fabricante &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Indique en la ficha de conformidad y en la factura el tipo de lubricante utilizado (marca, nombre comercial, viscosidad y especificación). &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Indique en la ficha de conformidad y en la factura el tipo de recambio utilizado (marca, código del recambio). &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

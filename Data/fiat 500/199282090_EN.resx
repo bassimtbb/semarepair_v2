@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-22T05:23:22">
+  <XDOCUMENTO>
+    <ID>199282090</ID>
+    <DOCNumber>PTG88803</DOCNumber>
+    <RifIDTipoRis>32</RifIDTipoRis>
+    <Titolo>Since December 2014 - Under difficult conditions</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>32</ID>
+      <TipoRis>PTG</TipoRis>
+      <DscRis>Official Coupons</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XLINKUTILI>
+      <RifIDDoc>199282090</RifIDDoc>
+      <Ordine>10</Ordine>
+      <RifIDDocLink>199282091</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282091</ID>
+        <DOCNumber>TGG197192</DOCNumber>
+        <Documento>Coupon: 15,000 kilometres or 1 year</Documento>
+        <URL>LINKDOC:199282091</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282090</RifIDDoc>
+      <Ordine>20</Ordine>
+      <RifIDDocLink>199282092</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282092</ID>
+        <DOCNumber>TGG197193</DOCNumber>
+        <Documento>Coupon: 30,000 kilometres or 2 years</Documento>
+        <URL>LINKDOC:199282092</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282090</RifIDDoc>
+      <Ordine>30</Ordine>
+      <RifIDDocLink>199282093</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282093</ID>
+        <DOCNumber>TGG197194</DOCNumber>
+        <Documento>Coupon: 45,000 kilometres or 3 years</Documento>
+        <URL>LINKDOC:199282093</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282090</RifIDDoc>
+      <Ordine>40</Ordine>
+      <RifIDDocLink>199282094</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282094</ID>
+        <DOCNumber>TGG197195</DOCNumber>
+        <Documento>Coupon: 60,000 kilometres or 4 years</Documento>
+        <URL>LINKDOC:199282094</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282090</RifIDDoc>
+      <Ordine>50</Ordine>
+      <RifIDDocLink>199282095</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282095</ID>
+        <DOCNumber>TGG197196</DOCNumber>
+        <Documento>Coupon: 75,000 kilometres or 5 years</Documento>
+        <URL>LINKDOC:199282095</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282090</RifIDDoc>
+      <Ordine>60</Ordine>
+      <RifIDDocLink>199282096</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282096</ID>
+        <DOCNumber>TGG197197</DOCNumber>
+        <Documento>Coupon: 90,000 kilometres or 6 years</Documento>
+        <URL>LINKDOC:199282096</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282090</RifIDDoc>
+      <Ordine>70</Ordine>
+      <RifIDDocLink>199282097</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282097</ID>
+        <DOCNumber>TGG197198</DOCNumber>
+        <Documento>Coupon: 105,000 kilometres or 7 years</Documento>
+        <URL>LINKDOC:199282097</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282090</RifIDDoc>
+      <Ordine>80</Ordine>
+      <RifIDDocLink>199282098</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282098</ID>
+        <DOCNumber>TGG197199</DOCNumber>
+        <Documento>Coupon: 120,000 kilometres or 8 years</Documento>
+        <URL>LINKDOC:199282098</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282090</RifIDDoc>
+      <Ordine>90</Ordine>
+      <RifIDDocLink>199282099</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282099</ID>
+        <DOCNumber>TGG197200</DOCNumber>
+        <Documento>Coupon: 135,000 kilometres or 9 years</Documento>
+        <URL>LINKDOC:199282099</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282090</RifIDDoc>
+      <Ordine>100</Ordine>
+      <RifIDDocLink>199282100</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282100</ID>
+        <DOCNumber>TGG197201</DOCNumber>
+        <Documento>Coupon: 150,000 kilometres or 10 years</Documento>
+        <URL>LINKDOC:199282100</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282090</RifIDDoc>
+      <Ordine>110</Ordine>
+      <RifIDDocLink>199282101</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282101</ID>
+        <DOCNumber>TGG197202</DOCNumber>
+        <Documento>Coupon: 165,000 kilometres or 11 years</Documento>
+        <URL>LINKDOC:199282101</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282090</RifIDDoc>
+      <Ordine>120</Ordine>
+      <RifIDDocLink>199282102</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282102</ID>
+        <DOCNumber>TGG197203</DOCNumber>
+        <Documento>Coupon: 180,000 kilometres or 12 years</Documento>
+        <URL>LINKDOC:199282102</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282090</RifIDDoc>
+      <Ordine>130</Ordine>
+      <RifIDDocLink>199282103</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282103</ID>
+        <DOCNumber>TGG197204</DOCNumber>
+        <Documento>Coupon: 195,000 kilometres or 13 years</Documento>
+        <URL>LINKDOC:199282103</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282090</RifIDDoc>
+      <Ordine>140</Ordine>
+      <RifIDDocLink>199282104</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282104</ID>
+        <DOCNumber>TGG197205</DOCNumber>
+        <Documento>Coupon: 210,000 kilometres or 14 years</Documento>
+        <URL>LINKDOC:199282104</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282090</RifIDDoc>
+      <Ordine>150</Ordine>
+      <RifIDDocLink>199282105</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282105</ID>
+        <DOCNumber>TGG197206</DOCNumber>
+        <Documento>Coupon: 225,000 kilometres or 15 years</Documento>
+        <URL>LINKDOC:199282105</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282090</RifIDDoc>
+      <Ordine>160</Ordine>
+      <RifIDDocLink>199282106</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282106</ID>
+        <DOCNumber>TGG197207</DOCNumber>
+        <Documento>Coupon: 240,000 kilometres or 16 years</Documento>
+        <URL>LINKDOC:199282106</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

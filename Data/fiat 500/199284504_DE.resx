@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T23:40:00">
+  <XDOCUMENTO>
+    <ID>199284504</ID>
+    <DOCNumber>GUP92237</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Bei hoher Geschwindigkeit Leistungsabfall, mangelndes Ansprechen des Gaspedals und leuchtende Motorf</Titolo>
+    <InfoDoc>INIEZIONE | ELETTROVALVOLA | VALVOLA | CANISTER | GAS | SCARICO | VAPORI | POTENZA | P0101 | C1221 | ACCENDE | ACCESA | ACCESO | GIALLA | GIALLO | RENDE | PIANO | MIL | RISPONDE | SALE | GIRI | REGIME | MINIMO | ACCELERANDO | RIMANE | MANCA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199284504</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284504</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Einspritzung &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorrichtung: &lt;/B&gt; Canister-Magnetventil &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Bei Fahrt mit hoher Geschwindigkeit kommt es zu einem deutlichen Leistungsabfall, gefolgt von einem Verlust der Gasannahme. Gleichzeitig leuchtet die Motorfehleranzeige auf und der Motor bleibt im Leerlauf. Das Problem lässt sich vorübergehend durch einen Neustart des Fahrzeugs beheben. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose erkannte Fehler: &lt;/B&gt; &lt;UL&gt; &lt;LI&gt; P0101 (Luftmassenmesser – Falscher Sollwert) &lt;BR/&gt;  &lt;LI&gt; C1221 (Gaspedalsensor, NCM-Steuerung – Ungültiges Signal) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Defektes Aktivkohlefilter-Magnetventil &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284504</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Die ordnungsgemäße Funktion des Kanister-Magnetventils überprüfen und gegebenenfalls austauschen &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Das Magnetventil ist am Ansaugkrümmer auf der Fahrerseite zwischen Motor und Fahrgastraum angeschlossen. Im vorliegenden Fall wurde zunächst der Ansaugkrümmer-Drucksensor ausgetauscht, ohne dass dadurch die Störung behoben wurde. Die endgültige Lösung wurde allein durch den Austausch des Magnetventils des Aktivkohlebehälters erreicht. Das defekte Bauteil wies keine sichtbaren Mängel auf, und nach seinem Austausch war keine Einstellung mittels Diagnosegerät erforderlich. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T01:06:59">
+  <XDOCUMENTO>
+    <ID>199221343</ID>
+    <DOCNumber>DRA76373</DOCNumber>
+    <RifIDTipoRis>45</RifIDTipoRis>
+    <Titolo>Fiat - GM C514 - 5 (5-Gang) Drehdurchführung</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>45</ID>
+      <TipoRis>DRV</TipoRis>
+      <DscRis>Automatik-Getriebe</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Technische Daten - Schmierstoffe</Capitolo>
+      <Corpo> &lt;B&gt; Hersteller: &lt;/B&gt; Fiat - GM Powertrain&lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; Bezeichnung: &lt;/B&gt; C514 - 5&lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; Handelsname: &lt;/B&gt; Dualogic&lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; Ölwechsel des Automatikgetriebes: &lt;/B&gt; &lt;BR/&gt;Entsprechend dem Wartungsplan oder wenn die Anzeige aufleuchtet&lt;BR/&gt;&lt;BR/&gt;&lt;TABLE class=&apos;contenuto&apos; width=99%  border=1 cellpadding=1 cellspacing=0&gt;&lt;TH width=60%  class=&apos;chiaro&apos;&gt;Beschreibung&lt;/TH&gt;&lt;TH width=25%  class=&apos;chiaro&apos;&gt;Maßeinheit&lt;/TH&gt;&lt;TH width=15%  class=&apos;chiaro&apos;&gt;Daten&lt;/TH&gt;&lt;TR&gt; &lt;TD&gt; Anzahl der Kennziffern: &lt;/TD&gt; &lt;TD&gt; N &lt;/TD&gt; &lt;TD&gt; 5 &lt;/TD&gt; &lt;/TR&gt;&lt;TR&gt; &lt;TD&gt; Automatikgetriebeöl - Spezifikation des Herstellers: &lt;/TD&gt; &lt;TD&gt; N.Ref &lt;/TD&gt; &lt;TD&gt; FIAT 9.55550 - SA1 &lt;/TD&gt; &lt;/TR&gt;&lt;TR&gt; &lt;TD&gt; Automatikgetriebeöl - Menge: &lt;/TD&gt; &lt;TD&gt; Liter &lt;/TD&gt; &lt;TD&gt; 0,7 &lt;/TD&gt; &lt;/TR&gt;&lt;TR&gt; &lt;TD&gt; Automatische Getriebeölstandskontrolle Temperatur: &lt;/TD&gt; &lt;TD&gt; C° &lt;/TD&gt; &lt;TD&gt; - &lt;/TD&gt; &lt;/TR&gt;&lt;/TABLE&gt;</Corpo>
+      <RifIDFileIMGANI>62504107</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504107</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504107</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>11</Ordine>
+      <Capitolo>Lage des Steuergeräts für das automatische Getriebe</Capitolo>
+      <Corpo> &lt;LI&gt; Das Steuergerät für das Automatikgetriebe befindet sich unter dem Armaturenbrett auf der Beifahrerseite, hinter der Verkleidung</Corpo>
+      <RifIDFileIMGANI>62504109</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504109</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504109</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>12</Ordine>
+      <Capitolo>Verfahren zum Ablassen und Einfüllen des Öls in das Roboter-Getriebe</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt;word-wrap:break-word&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;font-size:12.0pt;line-height:115%;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;Stellen Sie das Fahrzeug auf eine ebene Fläche&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;Abstellen des Motors&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;Entfernen Sie die untere Schalldämmungsabdeckung&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;Stellen Sie die Ölablasswanne unter das Fahrzeug&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;Den Öleinfülldeckel des Robotergetriebes entfernen &lt;B&gt;A&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;Ablassschraube &lt;B&gt;B&lt;/B&gt; entfernen&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;Warten Sie, bis das Getriebeöl vollständig abgelaufen ist.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:12.0pt&apos;&gt;&lt;span style=&apos;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;Ablassschraube &lt;B&gt;B&lt;/B&gt; einsetzen und mit &lt;B&gt;16~20 Nm &lt;/B&gt;anziehen&lt;BR/&gt; &lt;BR/&gt; &lt;B&gt;WARNUNG: &lt;/B&gt;Starten Sie den Motor nicht ohne Öl im Getriebe.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal style=&apos;margin-bottom:0cm&apos;&gt;&lt;span style=&apos;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;Füllen Sie &lt;B&gt;1,65 Liter &lt;/B&gt;Getriebeöl durch die Einfüllöffnung &lt;B&gt;A nach.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;Fahren Sie mit der Ölstandskontrolle des automatisierten Getriebes fort&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;Einfülldeckel &lt;B&gt;A&lt;/B&gt; einsetzen und mit &lt;B&gt;23~28 Nm &lt;/B&gt;anziehen&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007896</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007896</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007896</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>13</Ordine>
+      <Capitolo>Verfahren zur Kontrolle des Ölstands im Robotergetriebe</Capitolo>
+      <Corpo> &lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;     &lt;body lang=IT style=&apos;tab-interval:35.4pt;word-wrap:break-word&apos;&gt;  &lt;div class=WordSection1&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;font-size:12.0pt;line-height:115%;mso-fareast-font-family: &quot;Times New Roman&quot;&apos;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;Stellen Sie das Fahrzeug auf eine ebene Fläche&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;Entfernen Sie die untere Schalldämmungsabdeckung&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;Stellen Sie die Ölablasswanne unter das Fahrzeug&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;Einfülldeckel &lt;B&gt;A&lt;/B&gt; entfernen&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;Sicherstellen, dass der Ölstand im Getriebe die Unterkante der Einfüllöffnung &lt;B&gt;A&lt;/B&gt; berührt&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;Falls erforderlich, Getriebeöl über die Einfüllöffnung &lt;B&gt;A nachfüllen.&lt;/B&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;  &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:&quot;Times New Roman&quot;&apos;&gt;Einfülldeckel &lt;B&gt;A&lt;/B&gt; einsetzen und mit &lt;B&gt;23~28 Nm &lt;/B&gt;anziehen&lt;/span&gt;&lt;/p&gt;  &lt;/div&gt;  &lt;/body&gt;  &lt;/html&gt;</Corpo>
+      <RifIDFileIMGANI>299007897</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007897</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007897</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Kontrolle des Ölstands im Automatikgetriebe</Capitolo>
+      <Corpo> &lt;LI&gt; Vergewissern Sie sich, dass sich das Automatikgetriebe nicht im Erholungsmodus befindet&lt;BR/&gt; &lt;LI&gt; Kontrollieren Sie, ob Klimaanlage und Heizung ausgeschaltet sind&lt;BR/&gt; &lt;LI&gt; Entfernen Sie den Deckel der Einfüllöffnung &lt;B&gt; (D) &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Entfernen Sie den Deckel der Niveauregulierung &lt;B&gt; (B) &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Füllen Sie den Behälter des Gerätecodes VAG 1924 &lt;B&gt; (E) &lt;/B&gt; mit Öl für das Automatikgetriebe&lt;BR/&gt; &lt;LI&gt; Die Spitze des Geräts in die Einfüllöffnung &lt;B&gt; (D) &lt;/B&gt; stecken&lt;BR/&gt; &lt;LI&gt; Dann das Automatikgetriebe nachfüllen, bis ein leichtes Tropfen aus der Füllstandsöffnung &lt;B&gt; (C) &lt;/B&gt; kommt&lt;BR/&gt; &lt;LI&gt; Den Motor starten&lt;BR/&gt; &lt;LI&gt; Wählen Sie bei Leerlaufdrehzahl und betätigtem Bremspedal zyklisch alle Schalthebelstellungen, wobei Sie in jeder Stellung mindestens 10 Sekunden lang pausieren&lt;BR/&gt; &lt;LI&gt; Kontrollieren Sie dann den Ölstand des Automatikgetriebes&lt;BR/&gt; &lt;LI&gt; Der korrekte Füllstand ist gegeben, wenn das Öl bei einer Temperatur von 40° leicht aus der Füllstandsbohrung tropft&lt;BR/&gt; &lt;LI&gt; Gegebenenfalls nachfüllen oder ablassen, dann die Füllstandskontrolle wiederholen&lt;BR/&gt; &lt;LI&gt; Nach Abschluss des Vorgangs den mit einem neuen Dichtungsring versehenen Fülllochdeckel &lt;B&gt; (D) &lt;/B&gt; wieder anbringen&lt;BR/&gt; &lt;LI&gt; Anschließend den mit einem neuen Dichtungsring versehenen Einfülldeckel &lt;B&gt; (B) &lt;/B&gt; wieder anbringen und mit 27 Nm festziehen</Corpo>
+      <RifIDFileIMGANI>299007898</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007898</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007898</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

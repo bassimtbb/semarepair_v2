@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T00:03:48">
+  <XDOCUMENTO>
+    <ID>199284134</ID>
+    <DOCNumber>GUP92061</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Start&amp;Stop-Fehleranzeige, Motorfehleranzeige und allgemeine Fehleranzeige leuchten auf. Meldung „Sta</Titolo>
+    <InfoDoc>INIEZIONE | P0300 | P0301 | P0304 | RUOTA | FONICA | CAMME | CAMMA | ACCESA | ACCENSIONE | ACCENDE | GIALLA | GIALLE | LAMPEGGIANO | LAMPEGGIANTI | DISPONIBILE | INDICAZIONE | DISPLAY | QUADRO | STRUMENTI | MIL | TRIANGOLO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199284134</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legende zur Zuverlässigkeitsstufe&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* niedrige Stufe&lt;/B&gt; : Feststellung durch die Kfz-Werkstatt, vom Hersteller nicht dokumentierter Fehlerfall.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** mittlere Stufe&lt;/B&gt; : Häufig auftretender Fehlerfall, der von Servicetechnikern und Kfz-Werkstätten festgestellt wurde.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** hohe Zuverlässigkeit&lt;/B&gt; : Gewissheit hinsichtlich des Fehlers, gute „Wiederholbarkeit“ laut Angaben des Herstellers.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284134</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Einspritzung &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorrichtung: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Die Kontrollleuchten für Motorstörung, Start&amp;Stop und allgemeine Störung leuchten sporadisch und intermittierend auf. Auf dem Display des Kombiinstruments erscheint die Meldung „Start&amp;Stop nicht verfügbar“, während das Fahrzeug weiterhin einwandfrei funktioniert. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Von der Selbstdiagnose erkannte Fehler: &lt;/B&gt; Einer oder mehrere der folgenden: &lt;UL&gt; &lt;LI&gt; P0300 (Fehlende Zündung in nicht definierten Zylindern – Fehler) &lt;BR/&gt; &lt;LI&gt; P0301 (Fehlende Zündung in Zylinder 1 – Fehler) &lt;BR/&gt;  &lt;LI&gt; P0304 (Fehlende Zündung Zylinder 4 – Fehler) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Falsche Konfiguration der Einspritzparameter – Schwingrad &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284134</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Führen Sie mithilfe von Diagnosegeräten die folgenden Vorgänge durch: „Nullstellung der Nockenflanken“, „Zurücksetzen der selbstanpassenden Parameter“ und „Zurücksetzen des Schwingrads“, gefolgt von der entsprechenden Kalibrierung. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; Die Kalibrierung des Schwingungsmessrads erfolgt wie folgt: &lt;UL&gt; &lt;LI&gt; Den Motor auf Betriebstemperatur bringen. &lt;BR/&gt;  &lt;LI&gt; Beschleunigen Sie auf 5000 U/min und halten Sie diese Drehzahl etwa 2 Sekunden lang &lt;BR/&gt; &lt;LI&gt; Lassen Sie den Motor weitere 2 Sekunden im Leerlauf laufen &lt;BR/&gt; &lt;LI&gt; Wiederholen Sie die Beschleunigungssequenz, bis die Motorfehleranzeige erlischt &lt;BR/&gt;  &lt;LI&gt; In der Regel erlischt die Kontrollleuchte nach der dritten Wiederholung &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Bei einem ersten Eingriff wurden die Zündkerzen, die Zündspule (das Fahrzeug ist mit einer einzigen Zündspule ausgestattet) und der Steuerungssatz ausgetauscht, ohne dass die Störung jedoch behoben werden konnte. Erst nach Durchführung des „Nullabgleichs der Nockenflanken“, des „Resets der selbstanpassenden Parameter“, des „Resets des Tonsensors“ und der anschließenden Kalibrierungsphase konnte das Problem vollständig behoben werden, &lt;BR/&gt; Im vorliegenden Fall leuchtete nach dem Reset des Tonsensors die Motorwarnleuchte auf. Anschließend wurde der Kalibrierungsvorgang durchgeführt, um die Störung endgültig zu beheben, woraufhin die Kontrollleuchte erlosch. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

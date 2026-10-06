@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:14:57">
+  <XDOCUMENTO>
+    <ID>62507691</ID>
+    <DOCNumber>GUR62765</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Start&amp;Stop system</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Adjustment Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>System information</Capitolo>
+      <Corpo> &lt;BR/&gt; Start&amp;Stop is a device that automatically stops the engine whenever the vehicle stops, and automatically restarts it as soon as the driver intends to resume driving. This reduces fuel consumption and pollutant emissions. &lt;BR/&gt; &lt;BR/&gt; This system requires &lt;B&gt; batteries with specific technology and technical characteristics &lt;/B&gt;, so care must be taken when replacing and maintaining the battery. The battery must have the same characteristics as the battery being replaced. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Symbols</Capitolo>
+      <Corpo> &lt;BR/&gt; Start&amp;Stop system indicators: &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; A &lt;/B&gt; - Start&amp;Stop system &lt;B&gt; Active &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; B &lt;/B&gt; - &lt;B&gt; Start&amp;Stop system failure &lt;/B&gt; &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; C &lt;/B&gt; - Start&amp;Stop system &lt;B&gt; Deactivated &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; D &lt;/B&gt; - General fault &lt;B&gt; General fault &lt;/B&gt; (engine oil pressure sensor, inertia switch, external lights, parking sensors, Start&amp;Stop system) &lt;BR/&gt; &lt;BR/&gt; It is also possible to &lt;B&gt; manually deactivate the system &lt;/B&gt; by pressing the appropriate button &lt;B&gt; (E) &lt;/B&gt; on the instrument panel. Deactivation is confirmed by the warning light or symbol &lt;B&gt; (C) &lt;/B&gt; on the multifunction display &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504340</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504340</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504340</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>21</Ordine>
+      <Capitolo>Start&amp;Stop activation - Engine shutdown</Capitolo>
+      <Corpo> &lt;BR/&gt; The Start&amp;Stop system &lt;B&gt; is only activated after exceeding a speed of 10 km/h &lt;/B&gt; and when the following conditions are met: &lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; Manual gearbox &lt;/B&gt; &lt;BR/&gt; - Vehicle stationary &lt;BR/&gt; - Gearbox in neutral &lt;BR/&gt; - Clutch pedal released &lt;BR/&gt; - Engine at operating temperature &lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; Automatic gearbox &lt;/B&gt; &lt;BR/&gt; - Vehicle stationary &lt;BR/&gt; - Brake pedal depressed / Gear lever in N position &lt;BR/&gt; &lt;BR/&gt; Confirmation of Start&amp;Stop system activation is indicated by the &lt;B&gt; (A) &lt;/B&gt; or &lt;B&gt; (B) &lt;/B&gt; indicator light in the instrument panel &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>22</Ordine>
+      <Capitolo>Engine restart</Capitolo>
+      <Corpo> &lt;BR/&gt; Following the Start&amp;Stop intervention to restart the engine, it is necessary to: &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Manual gearbox &lt;/B&gt; &lt;BR/&gt; - Press the clutch pedal &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Automatic gearbox &lt;/B&gt; &lt;BR/&gt; - Release the brake pedal / Move the gear lever from the N position to any driving position &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Start&amp;Stop malfunction</Capitolo>
+      <Corpo> &lt;BR/&gt; The Start&amp;Stop system may fail to operate for one of the following reasons: &lt;BR/&gt;&lt;BR/&gt; - Engine not yet at operating temperature &lt;BR/&gt; - Battery not sufficiently charged &lt;BR/&gt; - Heated rear window activated &lt;BR/&gt; - Windscreen wipers activated at maximum speed &lt;BR/&gt; - Particulate filter regeneration in progress &lt;BR/&gt; - Driver&apos;s door open &lt;BR/&gt; - Driver&apos;s seatbelt not fastened &lt;BR/&gt; - Reverse gear engaged &lt;BR/&gt; - If the automatic air conditioning has not yet reached the desired temperature inside the passenger compartment &lt;BR/&gt; - Road on a slope &lt;BR/&gt; - Very low or very high outside temperature &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Automatic engine restart</Capitolo>
+      <Corpo> &lt;BR/&gt; The system automatically reactivates the engine, regardless of the driver&apos;s choice, if one of the following conditions occurs: &lt;BR/&gt;&lt;BR/&gt; - Windscreen wipers activated at maximum speed &lt;BR/&gt; - Flat battery &lt;BR/&gt; - Vehicle in motion (sloping roads) &lt;BR/&gt; - Engine off for more than 3 minutes &lt;BR/&gt; - Low brake system pressure &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Battery disconnection - Versions with false negative terminal</Capitolo>
+      <Corpo> &lt;BR/&gt; If it is necessary to disconnect the battery, proceed by disconnecting device &lt;B&gt; (1) &lt;/B&gt; &lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; Do not disconnect the battery monitoring sensor (2). The sensor should only be disconnected when replacing the battery. &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; When reconnecting the battery, turn the ignition key to the &quot;STOP&quot; position with the driver&apos;s door closed, and &lt;B&gt; wait at least 1 minute for the system to complete initialisation &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504342</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504342</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504342</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>55</Ordine>
+      <Capitolo>Battery disconnection - Versions without false negative terminal</Capitolo>
+      <Corpo> &lt;BR/&gt; If it is necessary to disconnect the battery, press the button on the connector &lt;B&gt; (B) &lt;/B&gt; to detach the connector. &lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; Do not disconnect the battery monitoring sensor (A). The sensor should only be disconnected when replacing the battery. &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; When reconnecting the battery, turn the ignition key to the &quot;STOP&quot; position with the driver&apos;s door closed, and &lt;B&gt; wait at least 1 minute for the system to complete initialisation &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504345</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504345</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504345</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>80</Ordine>
+      <Capitolo>Emergency starting</Capitolo>
+      <Corpo> &lt;BR/&gt; If it is necessary to connect a battery in parallel to perform an emergency start, connect &lt;B&gt; the positive terminal of the auxiliary battery to the positive terminal of the vehicle battery &lt;/B&gt; and the &lt;B&gt; negative terminal to any ground point on the engine &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Never connect the negative terminal of the auxiliary battery to the negative terminal of the vehicle battery. &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>90</Ordine>
+      <Capitolo>Battery recharge - Versions with false negative terminal</Capitolo>
+      <Corpo> &lt;BR/&gt; To recharge the battery, proceed as follows: &lt;BR/&gt;&lt;BR/&gt; - Disconnect the negative terminal using the quick release &lt;BR/&gt; - Connect the positive cable of the battery charger to the positive terminal of the vehicle battery &lt;BR/&gt; - Connect the negative cable of the battery charger to the negative terminal of the battery &lt;BR/&gt; - Switch on the battery charger &lt;BR/&gt; - Once the procedure is complete, remove the battery charger &lt;BR/&gt; - Reconnect the negative terminal &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>95</Ordine>
+      <Capitolo>Battery recharge - Versions without false negative terminal</Capitolo>
+      <Corpo> &lt;BR/&gt; To recharge the battery, proceed as follows: &lt;BR/&gt;&lt;BR/&gt; - Disconnect the connector from the battery monitoring sensor &lt;BR/&gt; - Connect the positive cable of the battery charger to the positive terminal of the vehicle battery &lt;BR/&gt; - Connect the negative cable of the battery charger to the negative terminal of the vehicle battery &lt;BR/&gt; - Switch on the battery charger &lt;BR/&gt; - Once the procedure is complete, remove the battery charger &lt;BR/&gt; - Reconnect the connector &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

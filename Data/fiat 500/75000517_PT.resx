@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:26:18">
+  <XDOCUMENTO>
+    <ID>75000517</ID>
+    <DOCNumber>DES75004</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Ar condicionado monozonal Denso</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Descrição do Sistema</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Descrição</Capitolo>
+      <Corpo>A central de controlo está posicionada na parte central do painel de instrumentos, integrada no sistema de climatização.  &lt;BR/&gt; O sistema é do tipo monozona e a central de controlo regula uma única temperatura, distribuindo-a pelo habitáculo.  &lt;BR/&gt;  &lt;BR/&gt; A tomada de diagnóstico é do tipo unificado de 16 pinos (EOBD) e está localizada no habitáculo, por baixo do painel de instrumentos, do lado do condutor. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Parâmetros de engenharia</Capitolo>
+      <Corpo>A central de controlo gere vários parâmetros, que visualizam todos os sinais provenientes dos vários sensores distribuídos no interior e no exterior do habitáculo, com o objetivo de comandar os atuadores do sistema de climatização e a ativação/desativação da junta do compressor.  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; É indicada a posição de todas as portas &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; É indicado o estado dos botões e dos respetivos LEDs &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Modalidades de alimentação</Capitolo>
+      <Corpo>Indica o estado em que o veículo se encontra no momento da entrega (na concessionária). No modo de «baixo consumo» (também denominado «modo logístico»), as cargas elétricas são desativadas para minimizar o consumo de energia da bateria.</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Erros</Capitolo>
+      <Corpo>A central de controlo está equipada com uma memória permanente de erros e armazena os parâmetros ambientais no momento em que o erro ocorre. &lt;BR/&gt;  &lt;BR/&gt; Estes são sinalizados  com a comunicação anexa do seu estado: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Erro ativo &lt;/B&gt;  &lt;BR/&gt; Erro atualmente detetado &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Erro memorizado &lt;/B&gt;  &lt;BR/&gt; Erro que já foi registado na memória, e a avaria não está atualmente presente. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Apagamento do(s) erro(s) &lt;/B&gt;  &lt;BR/&gt; Só ocorre mediante o consentimento do operador para apagar o erro através da tecla de apagamento &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Diagnósticos ativos</Capitolo>
+      <Corpo>No ambiente Diagnóstico Ativo são controlados: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Aberturas do ar condicionado &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; LEDs do teclado da central de controlo &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Ecrã  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Ventilador elétrico. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000517</RifIDDoc>
+      <Ordine>6</Ordine>
+      <Capitolo>Ajustes</Capitolo>
+      <Corpo> &lt;B&gt; Teste de aprendizagem dos atuadores das portas: &lt;/B&gt;  A utilizar na primeira instalação ou em caso de substituição da central de controlo. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

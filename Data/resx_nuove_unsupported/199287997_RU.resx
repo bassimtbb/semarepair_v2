@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:44:28">
+  <XDOCUMENTO>
+    <ID>199287997</ID>
+    <DOCNumber>GUP92689</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Nagłe zablokowanie skrzyni biegów w pozycji neutralnej podczas jazdy, z jednoczesnym zapaleniem się </Titolo>
+    <InfoDoc>CAMBIO | ELETTRONICA | MARCIA | MARCIANTE | MUOVE | PARTE | FOLLE | FISSO | BLOCCATO | INGRANAGGIO | GIALLO | GIALLA | CORSA | MUOVIMENTO | STRADA | AUTOMATICO | LEVA | INTERRUTTORE | SENSORE | POSIZIONE | LEVA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199287997</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Stopień wiarygodności   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda stopnia wiarygodności &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niski poziom &lt;/B&gt; : Wykryte przez mechanika samochodowego, przypadek usterki niepotwierdzony przez producenta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** średni poziom &lt;/B&gt; : Częste przypadki usterki, potwierdzone przez techników serwisowych i mechaników. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** wysoki poziom &lt;/B&gt; : Potwierdzona anomalia, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199287997</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Zastosowanie: &lt;/B&gt;  Samochody wyposażone w automatyczną skrzynię biegów &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Układ: &lt;/B&gt;  Skrzynia biegów  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Element: &lt;/B&gt;  Czujnik położenia dźwigni zmiany biegów &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Usterka: &lt;/B&gt;  Skrzynia biegów zablokowała się w pozycji neutralnej podczas jazdy po drodze, a następnie zapaliła się również odpowiednia kontrolka awarii skrzyni biegów &lt;BR/&gt;   &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Błędy wykryte przez autodiagnostykę: &lt;/B&gt;  Jeden lub więcej z poniższych: &lt;UL&gt;   &lt;LI&gt;  U0103 (Magistrala danych CAN – moduł sterujący dźwignią zmiany biegów  Utrata komunikacji) &lt;BR/&gt;  &lt;LI&gt;  P0914 (Obwód sterujący, położenie dźwigni zmiany biegów – Błąd) &lt;BR/&gt;  &lt;LI&gt;  P1734 (Błąd/wyłączenie – czujnik położenia dźwigni zmiany biegów) &lt;/UL&gt;  &lt;LI&gt;  &lt;B&gt; Przyczyna: &lt;/B&gt;  Uszkodzony czujnik położenia dźwigni zmiany biegów &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199287997</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Czynność: &lt;/B&gt;  Sprawdzić stan i prawidłowe działanie czujnika położenia dźwigni zmiany biegów i w razie potrzeby wymienić go. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedura: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Uwaga: &lt;/B&gt;  Po wymianie elementu nie było konieczne dokonywanie żadnych regulacji za pomocą testera autodiagnostycznego. &lt;BR/&gt; Omawiany czujnik jest zamocowany na zatrzask na dźwigni skrzyni biegów i jest dostarczany w komplecie ze śrubami mocującymi oraz okablowaniem. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

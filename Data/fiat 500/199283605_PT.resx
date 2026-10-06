@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:45:05">
+  <XDOCUMENTO>
+    <ID>199283605</ID>
+    <DOCNumber>GUP92000</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Falha no arranque do motor, acendimento das luzes de avaria do motor, ESC, travões e pressão dos pne</Titolo>
+    <InfoDoc>INIEZIONE | MOTORE | CENTRALINA | B1053 | B1901 | P0069 | P0230 | P0606 | P2227 | U0426 | U0431 | U1071 | U1700 | U1701 | GIRA | PARTE | DISPONIBILE | HILL | HOLDER | BLOCCO | CARBURANTE | PRESSIONE | IMPIANTO | FRENANTE | ACCENDONO | ACCESE | ACCENDE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199283605</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda do grau de fiabilidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nível baixo &lt;/B&gt; : Detecção pelo mecânico, caso de avaria não constatado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nível médio &lt;/B&gt; : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nível alto &lt;/B&gt; : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283605</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sistema: &lt;/B&gt;  injeção &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt;  unidade de controlo da injeção &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Anomalia: &lt;/B&gt;  O motor não arranca e acendem-se as luzes de aviso de avaria do motor, do ESC, da pressão dos pneus e do sistema de travagem. No painel de instrumentos aparecem várias mensagens de aviso: «Hill Holder indisponível», «Pressão dos pneus indisponível», «Bloqueio de combustível indisponível» e «ESC indisponível». &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Erros detetados pelo autodiagnóstico: &lt;/B&gt;  Um ou mais dos seguintes:  &lt;UL&gt;   &lt;LI&gt;  B1053 (Unidade de controlo da injeção: sinal de comando do interruptor inercial de segurança   - Efetuar autodiagnóstico) &lt;BR/&gt;  &lt;LI&gt;  B1901 (Sinal de retorno do motor de distribuição do ar do habitáculo   - Cablagem) &lt;BR/&gt;  &lt;LI&gt;  P0069 (Sensor de pressão absoluta, sensor de pressão atmosférica - Relatório incorreto) &lt;BR/&gt;  &lt;LI&gt;  P0230 (Tensão de alimentação da bomba de combustível - Erro) &lt;BR/&gt;  &lt;LI&gt;  P0606 (Unidade de controlo da injeção do motor – módulo de desempenho – Erro interno) &lt;BR/&gt;  &lt;LI&gt;  P2227 (Sensor de pressão atmosférica – Desempenho, funcionalidade incorreta) &lt;BR/&gt;  &lt;LI&gt;  U0426 (Chave eletrónica – erro) &lt;BR/&gt;  &lt;LI&gt;  U0431 (Unidade de controlo eletrónica central 1 (computador da carroçaria) –   Dados recebidos inválidos) &lt;BR/&gt;  &lt;LI&gt;  U1071 (Dados inválidos ou em falta do SCP para sensores do motor) &lt;BR/&gt;  &lt;LI&gt;  U1700 (Barramento de dados CAN - Computador da carroçaria  Erro / ausência de comunicação) &lt;BR/&gt;  &lt;LI&gt;  U1701 (Controlo do motor NCM, transmissão CAN) &lt;/UL&gt;  &lt;LI&gt;  &lt;B&gt; Causa: &lt;/B&gt;  Unidade de controlo da injeção defeituosa &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283605</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Intervenção: &lt;/B&gt;  Verificar o estado e o funcionamento correto da central de injeção; se necessário, proceder à substituição &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Nota: &lt;/B&gt;  No caso em apreço, o componente defeituoso não apresentava anomalias visuais &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

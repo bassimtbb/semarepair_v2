@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-31T23:40:10">
+  <XDOCUMENTO>
+    <ID>199317469</ID>
+    <DOCNumber>GUP99778</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Motoraussetzer nach dem Starten, unregelmäßiger Lauf und Aufleuchten der Motor- und ABS-Warnleuchten</Titolo>
+    <InfoDoc>INIEZIONE | ELETTRONICA | C1221 | P0300 | P0302 | P0303 | P0641 | FUSIBILIERA | VANO | MOTORE | CONTATTI | SPEGNE | ARRESTA | BLOCCA | AVVIA | ACCENDE | STRAPPA | COLPI | ACCENDE | ACCESA | MIL | GIALLO | GIALLA | ABS | ANTI | LOCK | SYSTEM |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199317469</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199317469</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Elektronik &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Bauteil: &lt;/B&gt; Sicherungskasten im Motorraum &lt;BR/&gt;&lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Gelegentlich springt der Motor bei kaltem Motor zwar normal an, geht aber sofort wieder aus; gleichzeitig leuchten immer wieder sporadisch die Motorfehler- und die ABS-Kontrollleuchte auf, und das Fahrzeug läuft ruckartig. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt;
+&lt;LI&gt; C1221 (NCM-Motorsteuerung) &lt;BR/&gt; &lt;LI&gt; P0300 (Fehlende Zündung in nicht definierten Zylindern – generischer Fehler) &lt;BR/&gt;  &lt;LI&gt; P0302 (Zündausfall Zylinder 2 – generischer Fehler) &lt;BR/&gt; &lt;LI&gt; P0303 (Zündausfall Zylinder 3 – generischer Fehler) &lt;BR/&gt;  &lt;LI&gt; P0641 (Referenzspannungssensor 1 – Fehlfunktion/offen) &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Kontakte im Sicherungskasten des Motorraums beschädigt &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199317469</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Den Zustand der Kontakte am Sicherungskasten im Motorraum überprüfen und diesen gegebenenfalls austauschen &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Das Bauteil befindet sich im Motorraum auf der Fahrerseite in der Nähe der Batterie. &lt;BR/&gt; &lt;BR/&gt; Die voraussichtliche Dauer des Eingriffs beträgt ca. 2,3 Stunden. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

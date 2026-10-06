@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:52:46">
+  <XDOCUMENTO>
+    <ID>199298110</ID>
+    <DOCNumber>GUP94856</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Fallo de arranque del motor, luces de avería del motor y bujías activas, cambio bloqueado en marcha.</Titolo>
+    <InfoDoc>CAMBIO | ELECTRÓNICA | UNIDAD DE CONTROL | MECATRÓNICA | CAMBIO | AUTOMÁTICO | P0850 | P0607 | ENCENDIDO | ENCENDIDO | ENCENDIDO | MIL | AMARILLO | AMARILLA | BLOQUEO | SEGUNDA | RELACIÓN | MARCHAS | PARPADEANDO | INTERMITENTE | PARPADEOS |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guía de reparación</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199298110</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grado de fiabilidad (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Leyenda del grado de fiabilidad &lt;BR&gt; &lt;BR&gt; &lt;B&gt; * nivel bajo &lt;/B&gt; : Observación del mecánico, caso de avería no constatado por el fabricante. &lt;BR&gt; &lt;BR&gt;  &lt;B&gt; ** nivel medio &lt;/B&gt; : Amplia incidencia de la avería, constatada por los técnicos de servicio y los talleres de reparación. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** nivel alto &lt;/B&gt; : Certeza de la anomalía, buen grado de «repetitividad» señalado por el fabricante. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199298110</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificación del sistema / avería</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Vigencia: &lt;/B&gt; Vehículos equipados con caja de cambios DSG7 de 7 velocidades (caja de cambios de doble embrague Volkswagen 0CW) &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Sistema: &lt;/B&gt; Caja de cambios &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Dispositivo: &lt;/B&gt; Unidad de control mecatrónica de la caja de cambios automática &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Avería: &lt;/B&gt; El vehículo no arranca, ya que el motor de arranque no gira; al mismo tiempo, la caja de cambios permanece bloqueada permanentemente en una marcha (segunda), con el encendido del testigo de avería del motor y el parpadeo del testigo de avería de las bujías de precalentamiento. &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Errores detectados por el autodiagnóstico: &lt;/B&gt; &lt;UL&gt; &lt;LI&gt; P0850 (Circuito de entrada del interruptor de la caja de cambios, posición P-N - Error genérico) &lt;BR&gt;  &lt;LI&gt; P0607 (Unidad de control de inyección del motor, módulo de prestaciones - Error interno) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Causa: &lt;/B&gt; Unidad de control mecatrónica de la caja de cambios automática averiada &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199298110</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimiento de reparación</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Intervención: &lt;/B&gt; Comprobar el funcionamiento de la unidad de control mecatrónica de la caja de cambios automática y, si es necesario, proceder a su reparación &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Procedimiento: &lt;/B&gt; - - &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Nota: &lt;/B&gt; En el caso que nos ocupa, se observó una fuga de aceite en la unidad de control mecatrónica de la caja de cambios automática; tras su sustitución, la avería se solucionó de forma definitiva. &lt;BR&gt; Se puede acceder al componente desde la parte inferior del motor; está situado en el compartimento del motor, entre el motor y el radiador, en el lado del conductor, y conectado a la caja de cambios en la parte exterior, junto al radiador; para acceder a la unidad de control, es necesario retirar un manguito del líquido refrigerante del radiador. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

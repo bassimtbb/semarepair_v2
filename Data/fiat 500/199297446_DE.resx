@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-16T23:52:27">
+  <XDOCUMENTO>
+    <ID>199297446</ID>
+    <DOCNumber>GUP94737</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Deutlicher Leistungsabfall mit ruckartigem Lauf und instabiler Motordrehzahl im Stand</Titolo>
+    <InfoDoc>INIEZIONE | SENSORE | GIRI | MOTORE | RENDE | PERDE | CALA | MANCA | POTENZA | VELOCITà | CALO | NOTEVOLMENTE | DRASTICO | DRASTICAMENTE | STRAPPA | STRATTONA | COLPI | TIRA | INDIETRO | SALE | SCENDE | INSTABILE | REGIME | MOTORE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199297446</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Legende zur Zuverlässigkeitsstufe &lt;BR&gt; &lt;BR&gt; &lt;B&gt; * niedrige Stufe &lt;/B&gt; : Feststellung durch den Kfz-Mechaniker, vom Hersteller nicht dokumentierter Fehlerfall. &lt;BR&gt; &lt;BR&gt;  &lt;B&gt; ** mittleres Niveau &lt;/B&gt; : Weit verbreiteter Fehlerfall, der von Kundendiensttechnikern und Kfz-Werkstätten festgestellt wurde. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** hohes Niveau &lt;/B&gt; : Gewissheit über den Fehler, gute „Wiederholungshäufigkeit“, die vom Hersteller gemeldet wurde. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199297446</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Einspritzung &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Vorrichtung: &lt;/B&gt; Motordrehzahlsensor &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Das Fahrzeug weist bereits bei niedrigen Drehzahlen eine deutlich verminderte Leistung, einen ruckartigen Lauf und eine unregelmäßige Motordrehzahl im Stillstand auf. &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt; - - &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Defekter Motordrehzahlsensor &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199297446</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Die ordnungsgemäße Funktion des Motordrehzahlsensors überprüfen und diesen gegebenenfalls austauschen &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Das defekte Bauteil befindet sich zwischen Motor und Kühler, am unteren Teil des Motors auf der Beifahrerseite, an der Riemenscheibe der Kurbelwelle. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

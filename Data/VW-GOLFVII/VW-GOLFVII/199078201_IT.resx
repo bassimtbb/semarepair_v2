@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2020-04-23T13:03:46">
+<XDOCUMENTO>
+<ID>199078201</ID>
+<DOCNumber>GUP86262</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Calo di potenza dopo un lungo tragitto, spia avaria accesa</Titolo>
+<InfoDoc>INIEZIONE | CALO | POTENZA | SPIA | AVARIA | MOTORE | P023A</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199078201</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (**)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199078201</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;
+&lt;LI&gt;&lt;B&gt;Validità:&lt;/B&gt; tutte&lt;BR/&gt;&lt;BR/&gt;
+&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; iniezione&lt;BR/&gt;&lt;BR/&gt;
+&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; pompa acqua&lt;BR/&gt;&lt;BR/&gt;
+&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; calo di potenza dopo un lungo tragitto, spia avaria motore (gialla) accesa&lt;BR/&gt;&lt;BR/&gt;
+&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; P023A&lt;BR/&gt;&lt;BR/&gt;
+&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; contatti difettosi sul connettore della pompa dell&apos;acqua elettrica supplementare&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199078201</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;
+&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; ripristino contatti sul connettore della pompa dell&apos;acqua elettrica supplementare, cancellazione errore in memoria tramite tester di autodiagnosi&lt;BR/&gt;&lt;BR/&gt;
+&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;
+&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; tempo d&apos;intervento circa 30 minuti&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199078201</RifIDDoc>
+<Ordine>40</Ordine>
+<Capitolo></Capitolo>
+<Corpo></Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

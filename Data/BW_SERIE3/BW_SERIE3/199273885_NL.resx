@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T10:56:05">
+  <XDOCUMENTO>
+    <ID>199273885</ID>
+    <DOCNumber>GUP89647</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Waarschuwing voor afwijkend AdBlue-peil</Titolo>
+    <InfoDoc>INIEZIONE | SEL-SEL-P-16-20000813322787-02 | CD9612 | CD9613 | CD9611 | 29FB00 | 29FC00 | MESSAGGIO | INDICAZIONE | AVVERTIMENTO | DISPLAY | ERRORE | SISTEMA | DISTANZA | RESIDUA | RIMANENTE | AGGIORNAMENTO | SOFTWARE | CENTRALINA | CONNETTORE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparatiehandleiding</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199273885</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Betrouwbaarheidsgraad   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda van de betrouwbaarheidsgraad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * laag niveau &lt;/B&gt; : Vastgesteld door de autoreparateur, storingsgeval niet bevestigd door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** gemiddeld niveau &lt;/B&gt; : Veelvoorkomende storingsgevallen, vastgesteld door servicetechnici en reparateurs. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** hoog niveau &lt;/B&gt; : Bevestigde storing, hoge mate van &quot;herhaalbaarheid&quot; gemeld door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273885</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificatie van het systeem/de storing</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Geldigheid: &lt;/B&gt;  Voertuigen geproduceerd tot en met 1 november 2019 &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Systeem: &lt;/B&gt;  Injectie &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Apparaat: &lt;/B&gt;  AdBlue-regeleenheid &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Storing: &lt;/B&gt;  Waarschuwing AdBlue-peilstoring &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Door de zelfdiagnose gedetecteerde fouten: &lt;/B&gt;  Een of meer van de volgende fouten: &lt;BR/&gt;  &lt;UL&gt;   &lt;LI&gt;  CD9612 (Communicatieproblemen tussen het SCR-systeem en de injectiecontroller) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  CD9613 (Communicatieproblemen tussen het SCR-systeem en de injectiecontroller bij het monitoren van de status van het SCR-additief) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  CD9611 (Communicatieproblemen tussen het SCR-systeem en de injectieregelezer met betrekking tot updates van het SCR-systeem) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  29FB00 (Uitschakeling SCR-systeem: alarmniveau 1) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  29FC00 (Uitschakeling van het SCR-systeem: alarmniveau 2) &lt;/UL&gt;   &lt;LI&gt;  &lt;B&gt; Oorzaak: &lt;/B&gt;  Onjuiste AdBlue-regeleenheidsoftware of beschadigde connector van de AdBlue-regeleenheid &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273885</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparatieprocedure</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Ingreep: &lt;/B&gt;  Controleer de status van de connector van de AdBlue-regeleenheid. Indien er geen afwijkingen worden geconstateerd, ga dan verder met de software-update van de AdBlue-regeleenheid &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedure: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Opmerking: &lt;/B&gt;   &lt;I&gt; LET OP &lt;/I&gt; : &lt;BR/&gt;  &lt;UL&gt;   &lt;LI&gt;  Als er DTC’s of symptomatische omstandigheden aanwezig zijn die afwijken van de hier genoemde, los deze dan eerst op voordat u verdergaat met dit bulletin. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Om de update uit te voeren, moet de accu van de auto optimaal opgeladen zijn of worden ondersteund door een acculader of extra accu, zodat de nominale spanning van 12 V gewaarborgd is. Schakel alle verlichting en accessoires uit om ontlading te voorkomen  &lt;/UL&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

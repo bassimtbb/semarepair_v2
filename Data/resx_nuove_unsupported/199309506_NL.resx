@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T13:44:30">
+  <XDOCUMENTO>
+    <ID>199309506</ID>
+    <DOCNumber>GUP97352</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Het branden van het motorstoringslampje tijdens het accelereren of bij het rijden met hoge snelheid</Titolo>
+    <InfoDoc>INIEZIONE | P16C0 | TEMPERATURA ASPIRAZIONE | INTERCOOLER ARIA/ACQUA | TERMOSTATO | CIRCUITO BASSA TEMPERATURA | RAFFREDDAMENTO | LIQUIDO ANTIGELO | RIEMPIMENTO SOTTOVUOTO | ACCELERAZIONE | GUASTI | MIL | VELOCITà |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparatiehandleiding</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199309506</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Betrouwbaarheidsgraad   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda van de betrouwbaarheidsgraad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * laag niveau &lt;/B&gt; : Vastgesteld door de autoreparateur, storingsgeval niet bevestigd door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** gemiddeld niveau &lt;/B&gt; : Veelvoorkomende storingsgevallen, vastgesteld door servicetechnici en reparateurs. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** hoog niveau &lt;/B&gt; : Bevestigde storing, hoge mate van &quot;herhaalbaarheid&quot; gemeld door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309506</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificatie van het systeem/de storing</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Systeem: &lt;/B&gt;  Injectie &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Apparaat: &lt;/B&gt;  Thermostaat voor scheiding tussen het hoge- en het lage-temperatuurcircuit. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Storing: &lt;/B&gt;  Het voertuig vertoont een intermitterend oplichten van het motorstoringslampje en een foutmelding in het injectiesysteem. Dit symptoom treedt uitsluitend op tijdens langdurige, krachtige acceleraties of bij hoge snelheden, en verdwijnt zodra het gaspedaal wordt losgelaten. Bij controle van de parameters valt een drastische stijging van de luchttemperatuur in de intercooler op, die 100 °C bereikt en overschrijdt in plaats van zich te stabiliseren op de juiste 40-45 °C. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Door de zelfdiagnose gedetecteerde fouten: &lt;/B&gt;  P16C0 &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Oorzaak: &lt;/B&gt;  Het probleem is het gevolg van het mechanisch vastlopen in de „open“ (of tussenliggende) stand van de thermostaat die de koelvloeistofstroom regelt tussen het circuit met hoge temperatuur (motorkoeling) en het circuit met lage temperatuur (lucht/water-intercooler, EGR). Aangezien het systeem wordt gevoed door één expansievat, zorgt het defect raken van deze klep ervoor dat de kokend hete vloeistof uit het motorblok ongecontroleerd in het koude circuit stroomt. Als gevolg hiervan stroomt er vloeistof met hoge temperatuur door de intercooler, waardoor de inlaatlucht naar het inlaatspruitstuk wordt verwarmd in plaats van gekoeld. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309506</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparatieprocedure</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Werkzaamheid: &lt;/B&gt;  Vervanging van de thermostaat van het koelsysteem en bijvullen van nieuwe antivriesvloeistof. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Werkwijze: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;    &lt;LI&gt;  &lt;B&gt; Opmerking: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

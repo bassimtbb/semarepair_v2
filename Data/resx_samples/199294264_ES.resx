@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:49:17">
+  <XDOCUMENTO>
+    <ID>199294264</ID>
+    <DOCNumber>GUP94211</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Las luces «P-R-N-D-S» parpadean, la palanca de cambios pasa repentinamente a punto muerto.</Titolo>
+    <InfoDoc>CAMBIO | DSG | DQ200 | MARCHA | ENGRANAJE | SÍMBOLO | PARPADEOS | | P0716 | P0722 | P0746 | P0751 | P0756 | P0761 | P0766 | P0776 | P1707 |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guía de reparación</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199294264</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grado de fiabilidad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Leyenda del grado de fiabilidad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nivel bajo &lt;/B&gt; : Detección del mecánico, caso de avería no detectado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nivel medio &lt;/B&gt;  : Casos frecuentes de avería, detectados por los técnicos de asistencia y los mecánicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nivel alto &lt;/B&gt; : Anomalía confirmada, buen grado de «repetitividad» señalado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199294264</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificación del sistema/avería</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Ámbito de aplicación: &lt;/B&gt; Vehículos equipados con caja de cambios automática DSG de 6 velocidades (DQ250) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Sistema: &lt;/B&gt; Caja de cambios &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt; Unidad de control electrónico de la caja de cambios &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalía: &lt;/B&gt; Durante la marcha, el vehículo pasa repentinamente a punto muerto. En la palanca de cambios parpadean los indicadores «P-R-N-D-S». En frío, el sistema vuelve a funcionar temporalmente. La situación tiende a empeorar hasta convertirse en una avería permanente. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errores detectados por el autodiagnóstico: &lt;/B&gt; &lt;UL&gt; &lt;LI&gt; P0716 (17100) – Sensor de velocidad de entrada de la caja de cambios (G182): señal no plausible &lt;BR/&gt; &lt;LI&gt; P0722 (17106) – Sensor de velocidad de salida de la caja de cambios (G195): señal ausente &lt;BR/&gt; &lt;LI&gt; P0746 (17130) – Electroválvula de regulación de presión 1 (N215): cortocircuito a masa &lt;BR/&gt; &lt;LI&gt; P0751 (17135) – Electroválvula de la caja de cambios 1 (N88): cortocircuito a masa &lt;BR/&gt; &lt;LI&gt; P0756 (17140) – Electroválvula de cambio 2 (N89): cortocircuito a masa &lt;BR/&gt; &lt;LI&gt; P0761 (17145) – Electroválvula de cambio 3 (N90): cortocircuito a masa &lt;BR/&gt; &lt;LI&gt;  	P0766 (17150) – Electroválvula de la caja de cambios 4 (N91): cortocircuito a masa &lt;BR/&gt; &lt;LI&gt; P0776 (17160) – Electroválvula de regulación de presión 2 (N216): cortocircuito a masa &lt;BR/&gt; 	 &lt;LI&gt; P1707 (18115) – Interferencia en la unidad de control mecatrónica &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Causa: &lt;/B&gt; Fallos de funcionamiento de la unidad de control mecatrónica de la caja de cambios DSG</Corpo>
+      <RifIDFileIMGANI>299022364</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299022364</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299022364</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199294264</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimiento de reparación</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervención: &lt;/B&gt; Comprobar y, si es necesario, proceder a la sustitución de la unidad de control mecatrónica de la caja de cambios &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedimiento: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Nota: &lt;/B&gt; Las averías en la unidad de control electrónico de la caja de cambios son bastante frecuentes en el DSG DQ250 &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299022365</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299022365</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299022365</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

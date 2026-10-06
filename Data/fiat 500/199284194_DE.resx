@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T23:39:56">
+  <XDOCUMENTO>
+    <ID>199284194</ID>
+    <DOCNumber>GUP92083</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Zündaussetzer bei leuchtender Motorfehleranzeige</Titolo>
+    <InfoDoc>INIEZIONE | P0301 | RUOTA | FONICA | ACCESA | ACCENSIONE | ACCENDE | GIALLA | GIALLE | LAMPEGGIANO | LAMPEGGIANTI | DISPONIBILE | MIL | CILINDRI | CILINDRO | MALE | GIRA | REGOLAZIONI | APPRENDIMENTO | PARAMETRI | AUTOADATTIVI | FRONTI | CAMMA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199284194</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284194</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Einspritzung &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorrichtung: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Der Motor weist Zündaussetzer auf, die Motor-Fehlerleuchte leuchtet &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt; P0301 (Fehlzündung Zylinder 1 – Fehler) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Falsche Konfiguration der Einspritzparameter – Schwingrad &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284194</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Führen Sie mithilfe von Diagnosegeräten die folgenden Vorgänge durch: „Nullstellung der Nockenflanken“, „Zurücksetzen der selbstanpassenden Parameter“ und „Zurücksetzen des Schwingrads“, gefolgt von der entsprechenden Kalibrierung. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; Die Kalibrierung des Schwingungsmessrads erfolgt wie folgt: &lt;UL&gt; &lt;LI&gt; Den Motor auf Betriebstemperatur bringen. &lt;BR/&gt; &lt;LI&gt; Eine Beschleunigung bis auf 5000 U/min durchführen und diese Drehzahl etwa 2 Sekunden lang halten &lt;BR/&gt;  &lt;LI&gt; Den Motor weitere 2 Sekunden im Leerlauf laufen lassen &lt;BR/&gt; &lt;LI&gt; Den Beschleunigungsvorgang wiederholen, bis die Motorfehlerleuchte erlischt &lt;BR/&gt; &lt;LI&gt; In der Regel erlischt die Leuchte nach der dritten Wiederholung &lt;/UL&gt;  &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Bei einem ersten Eingriff wurden die Zündkerzen ausgetauscht, ohne dass die Störung behoben wurde. Erst nach Durchführung des „Nullabgleichs der Nockenflanken“, des „Resets der selbstanpassenden Parameter“, des „Resets des Tonsensors“ und der anschließenden Kalibrierungsphase konnte das Problem vollständig behoben werden, &lt;BR/&gt; Im vorliegenden Fall leuchtete nach dem Zurücksetzen des Tonsensors die Motorwarnleuchte auf. Es wurde daraufhin das Kalibrierungsverfahren durchgeführt, um die Störung endgültig zu beheben, woraufhin die Warnleuchte erlosch. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -25,8 +25,12 @@ export interface HelpCopy {
   // reads as the product being broken.
   demo_badge: string;
   demo_title: string;
-  demo_body: string;
-  demo_vehicle: (vehicle: string) => string;
+  // Takes the vehicle count, because the archive stopped being one car the
+  // day three more arrived. A sentence that says "a single vehicle" while
+  // four are loaded is the exact staleness the coverage endpoint exists to
+  // prevent - so the wording follows the data like the figures do.
+  demo_body: (vehicles: number) => string;
+  demo_vehicles_label: string;
   demo_counts: (facts: number, diagrams: number, pages: number) => string;
   demo_counts_no_manual: (facts: number, diagrams: number) => string;
   demo_counts_data_only: (facts: number) => string;
@@ -85,8 +89,10 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
 
     demo_badge: 'DEMO',
     demo_title: 'Questa è una dimostrazione',
-    demo_body: 'L’archivio caricato è volutamente limitato: contiene un solo veicolo. Per quel veicolo però la documentazione è completa, ed è quella reale dell’officina.',
-    demo_vehicle: v => `Veicolo disponibile: ${v}`,
+    demo_body: n => n === 1
+      ? 'L’archivio caricato è volutamente limitato: contiene un solo veicolo. Per quel veicolo però la documentazione è completa, ed è quella reale dell’officina.'
+      : `L’archivio caricato è volutamente limitato: contiene ${n} veicoli. Per ognuno di essi la documentazione è completa, ed è quella reale dell’officina.`,
+    demo_vehicles_label: 'Veicoli disponibili',
     demo_counts: (f, d, p) => `${f} dati tecnici · ${d} schemi elettrici · ${p} pagine di manuale d’officina`,
     demo_counts_no_manual: (f, d) => `${f} dati tecnici · ${d} schemi elettrici`,
     demo_counts_data_only: f => `${f} dati tecnici`,
@@ -138,8 +144,10 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
 
     demo_badge: 'DEMO',
     demo_title: 'This is a demonstration',
-    demo_body: 'The loaded archive is deliberately limited: it holds a single vehicle. For that vehicle the documentation is complete, and it is the workshop’s real documentation.',
-    demo_vehicle: v => `Vehicle available: ${v}`,
+    demo_body: n => n === 1
+      ? 'The loaded archive is deliberately limited: it holds a single vehicle. For that vehicle the documentation is complete, and it is the workshop’s real documentation.'
+      : `The loaded archive is deliberately limited: it holds ${n} vehicles. For each of them the documentation is complete, and it is the workshop’s real documentation.`,
+    demo_vehicles_label: 'Vehicles available',
     demo_counts: (f, d, p) => `${f} technical figures · ${d} wiring diagrams · ${p} workshop manual pages`,
     demo_counts_no_manual: (f, d) => `${f} technical figures · ${d} wiring diagrams`,
     demo_counts_data_only: f => `${f} technical figures`,
@@ -191,8 +199,10 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
 
     demo_badge: 'DÉMO',
     demo_title: 'Ceci est une démonstration',
-    demo_body: 'L’archive chargée est volontairement limitée : elle ne contient qu’un seul véhicule. Pour ce véhicule, en revanche, la documentation est complète — c’est la vraie documentation d’atelier.',
-    demo_vehicle: v => `Véhicule disponible : ${v}`,
+    demo_body: n => n === 1
+      ? 'L’archive chargée est volontairement limitée : elle ne contient qu’un seul véhicule. Pour ce véhicule, en revanche, la documentation est complète — c’est la vraie documentation d’atelier.'
+      : `L’archive chargée est volontairement limitée : elle contient ${n} véhicules. Pour chacun d’eux, la documentation est complète — c’est la vraie documentation d’atelier.`,
+    demo_vehicles_label: 'Véhicules disponibles',
     demo_counts: (f, d, p) => `${f} données techniques · ${d} schémas électriques · ${p} pages de manuel d’atelier`,
     demo_counts_no_manual: (f, d) => `${f} données techniques · ${d} schémas électriques`,
     demo_counts_data_only: f => `${f} données techniques`,
@@ -244,8 +254,10 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
 
     demo_badge: 'DEMO',
     demo_title: 'Esto es una demostración',
-    demo_body: 'El archivo cargado está deliberadamente limitado: contiene un solo vehículo. Para ese vehículo, en cambio, la documentación está completa, y es la documentación real del taller.',
-    demo_vehicle: v => `Vehículo disponible: ${v}`,
+    demo_body: n => n === 1
+      ? 'El archivo cargado está deliberadamente limitado: contiene un solo vehículo. Para ese vehículo, en cambio, la documentación está completa, y es la documentación real del taller.'
+      : `El archivo cargado está deliberadamente limitado: contiene ${n} vehículos. Para cada uno de ellos la documentación está completa, y es la documentación real del taller.`,
+    demo_vehicles_label: 'Vehículos disponibles',
     demo_counts: (f, d, p) => `${f} datos técnicos · ${d} esquemas eléctricos · ${p} páginas de manual de taller`,
     demo_counts_no_manual: (f, d) => `${f} datos técnicos · ${d} esquemas eléctricos`,
     demo_counts_data_only: f => `${f} datos técnicos`,
@@ -297,8 +309,10 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
 
     demo_badge: 'DEMO',
     demo_title: 'Isto é uma demonstração',
-    demo_body: 'O arquivo carregado é deliberadamente limitado: contém um único veículo. Para esse veículo, porém, a documentação está completa, e é a documentação real da oficina.',
-    demo_vehicle: v => `Veículo disponível: ${v}`,
+    demo_body: n => n === 1
+      ? 'O arquivo carregado é deliberadamente limitado: contém um único veículo. Para esse veículo, porém, a documentação está completa, e é a documentação real da oficina.'
+      : `O arquivo carregado é deliberadamente limitado: contém ${n} veículos. Para cada um deles a documentação está completa, e é a documentação real da oficina.`,
+    demo_vehicles_label: 'Veículos disponíveis',
     demo_counts: (f, d, p) => `${f} dados técnicos · ${d} esquemas elétricos · ${p} páginas de manual de oficina`,
     demo_counts_no_manual: (f, d) => `${f} dados técnicos · ${d} esquemas elétricos`,
     demo_counts_data_only: f => `${f} dados técnicos`,

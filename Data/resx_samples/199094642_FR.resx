@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T10:26:46">
+  <XDOCUMENTO>
+    <ID>199094642</ID>
+    <DOCNumber>AZZ76263</DOCNumber>
+    <RifIDTipoRis>7</RifIDTipoRis>
+    <Titolo>Réinitialisation de l'indicateur d'entretien</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>217</RifIDFileICO>
+    <XFILE>
+      <ID>217</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:217</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>7</ID>
+      <TipoRis>AZZ</TipoRis>
+      <DscRis>Remise à zéro Service</DscRis>
+      <RifIDFileCSS>1</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>1</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:1</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Informations sur le système</Capitolo>
+      <Corpo> &lt;BR/&gt; L&apos;équipement du véhicule comprend un indicateur d&apos;intervalles d&apos;entretien, intégré à l&apos;écran du tableau de bord. &lt;BR/&gt; L&apos;indicateur présente au conducteur une série d&apos;avertissements concernant les interventions d&apos;entretien programmées auxquelles le véhicule doit être soumis périodiquement. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Réglage - Remise à zéro de l&apos;indicateur de remplacement de l&apos;huile moteur</Capitolo>
+      <Corpo>Une fois la vidange d&apos;huile moteur effectuée, la remise à zéro manuelle de l&apos;indicateur s&apos;effectue de la manière suivante : &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; couper le contact &lt;BR/&gt; &lt;LI&gt; appuyer et maintenir enfoncé le bouton ( &lt;B&gt; 1 &lt;/B&gt; ) &lt;BR/&gt;  &lt;LI&gt; mettre le contact &lt;BR/&gt; &lt;LI&gt; le message relatif à la remise à zéro de l&apos;indicateur de remplacement de l&apos;huile moteur s&apos;affiche à l&apos;écran &lt;BR/&gt; &lt;LI&gt; relâcher le bouton ( &lt;B&gt; 1 &lt;/B&gt; ) &lt;BR/&gt;  &lt;LI&gt; appuyez sur le bouton ( &lt;B&gt; 1 &lt;/B&gt; ) pour confirmer &lt;BR/&gt; &lt;BR/&gt; À ce stade, l&apos;indicateur d&apos;intervalles d&apos;entretien est réinitialisé. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299006187</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299006187</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299006187</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>25</Ordine>
+      <Capitolo>Réglage - Remise à zéro de l&apos;indicateur d&apos;intervalle d&apos;entretien</Capitolo>
+      <Corpo>Une fois les travaux d&apos;entretien effectués, la remise à zéro manuelle de l&apos;indicateur s&apos;effectue de la manière suivante : &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; couper le contact &lt;BR/&gt; &lt;LI&gt; appuyer sur le bouton ( &lt;B&gt; 1 &lt;/B&gt; ) et le maintenir enfoncé &lt;BR/&gt;  &lt;LI&gt; mettre le contact &lt;BR/&gt; &lt;LI&gt; le message relatif à la remise à zéro de l&apos;indicateur d&apos;intervalles d&apos;entretien s&apos;affiche à l&apos;écran &lt;BR/&gt; &lt;LI&gt; relâcher le bouton ( &lt;B&gt; 1 &lt;/B&gt; ) &lt;BR/&gt;  &lt;LI&gt; appuyez sur le bouton ( &lt;B&gt; 1 &lt;/B&gt; ) pour confirmer &lt;BR/&gt; &lt;BR/&gt; À ce stade, l&apos;indicateur d&apos;intervalle d&apos;entretien est réinitialisé. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299006187</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>299006187</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299006187</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>AVERTISSEMENT</Capitolo>
+      <Corpo> &lt;BR/&gt; La réinitialisation des &lt;B&gt; intervalles d&apos;entretien prolongés &lt;/B&gt; n&apos;est possible &lt;B&gt; qu&apos;à l&apos;aide de l&apos;équipement de diagnostic approprié &lt;/B&gt; fourni par le constructeur.  &lt;BR/&gt; &lt;BR/&gt; Il est toutefois possible de rétablir les intervalles d&apos;entretien prolongés en suivant cette procédure, mais l&apos;intervalle passera alors d&apos;un entretien prolongé à un entretien fixe. &lt;BR/&gt; &lt;BR/&gt; Avant d&apos;effectuer la réinitialisation, vérifiez qu&apos;il n&apos;y a pas de codes d&apos;erreur en mémoire et que toutes les portes sont fermées. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

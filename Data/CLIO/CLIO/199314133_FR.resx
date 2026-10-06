@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-22T22:17:11">
+  <XDOCUMENTO>
+    <ID>199314133</ID>
+    <DOCNumber>DIS75471</DOCNumber>
+    <RifIDTipoRis>100000012</RifIDTipoRis>
+    <Titolo>Disposition - Montage - Démontage</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>219</RifIDFileICO>
+    <XFILE>
+      <ID>219</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:219</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>100000012</ID>
+      <TipoRis>DIS</TipoRis>
+      <DscRis>Distribution</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>12</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+    </XTIPORIS>
+  </XDOCUMENTO>
+</dataroot>

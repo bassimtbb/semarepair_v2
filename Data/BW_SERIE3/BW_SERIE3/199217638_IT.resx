@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-10T05:30:43">
+<XDOCUMENTO>
+<ID>199217638</ID>
+<DOCNumber>DRA76286</DOCNumber>
+<RifIDTipoRis>45</RifIDTipoRis>
+<Titolo>Cambio Automatico ZF GA8HP51 (8 Marce)</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>0</RifIDFileICO>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+<XTIPORIS>
+<ID>45</ID>
+<TipoRis>DRV</TipoRis>
+<DscRis>Cambio Automatico</DscRis>
+<RifIDFileCSS>0</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199217638</RifIDDoc>
+<Ordine>10</Ordine>
+<Capitolo>Dati Tecnici - Lubrificanti</Capitolo>
+<Corpo>
+&lt;B&gt;Produttore:&lt;/B&gt; ZF&lt;BR/&gt;&lt;BR/&gt;
+&lt;B&gt;Denominazione:&lt;/B&gt; 8HP51 / 1111 024 xxx / 1111 014 xxx&lt;BR/&gt;&lt;BR/&gt;
+&lt;B&gt;Denominazione commerciale:&lt;/B&gt; Steptronic&lt;BR/&gt;&lt;BR/&gt;
+&lt;B&gt;Intervallo sostituzione olio consigliato dal costruttore del cambio automatico:&lt;/B&gt; &lt;BR&gt;80.000 km&lt;BR/&gt;&lt;BR/&gt;
+
+&lt;table class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt;
+&lt;th width=60% class=&quot;chiaro&quot;&gt;Descrizione&lt;/th&gt;
+&lt;th width=25% class=&quot;chiaro&quot;&gt;Unità di misura&lt;/th&gt;
+&lt;th width=15% class=&quot;chiaro&quot;&gt;Dati&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;Codice cambio automatico:&lt;/td&gt;&lt;td&gt;N.Ref&lt;/td&gt;&lt;td&gt;8HP51&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Numero Rapporti:&lt;/td&gt;&lt;td&gt;N°&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Olio cambio automatico - Specifica costruttore:&lt;/td&gt;&lt;td&gt;N.Ref&lt;/td&gt;&lt;td&gt; ATF 3+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Olio cambio automatico - Codice produttore:&lt;/td&gt;&lt;td&gt;N.Ref&lt;/td&gt;&lt;td&gt;BMW 83222289720&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Olio cambio automatico - Quantità:&lt;/td&gt;&lt;td&gt;Litri&lt;/td&gt;&lt;td&gt;9,28&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Olio cambio automatico - Quantità lavacambi:&lt;/td&gt;&lt;td&gt;Litri&lt;/td&gt;&lt;td&gt;9,0-10,0&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Temperatura controllo livello olio cambio automatico:&lt;/td&gt;&lt;td&gt;C°&lt;/td&gt;&lt;td&gt;30°~50°&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;BR&gt;
+&lt;BR&gt;</Corpo>
+<RifIDFileIMGANI>62503978</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>62503978</ID>
+<Type>IMG</Type>
+<URL>GETFILE:62503978</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199217638</RifIDDoc>
+<Ordine>12</Ordine>
+<Capitolo>Identificazione cambio automatico</Capitolo>
+<Corpo>&lt;BR/&gt;E&apos; possibile identificare il modello del cambio leggendo la targhetta posta lateralmente.&lt;BR/&gt;&lt;BR/&gt;La sigla &lt;B&gt;1&lt;/B&gt; identifica il numero seriale.&lt;BR/&gt;&lt;BR/&gt;La sigla &lt;B&gt;2&lt;/B&gt; identifica la denominazione del cambio.&lt;BR/&gt;&lt;BR/&gt;La sigla &lt;B&gt;3&lt;/B&gt; identifica il modello del cambio.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299007669</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299007669</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299007669</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199217638</RifIDDoc>
+<Ordine>13</Ordine>
+<Capitolo>Attacco lavaggio cambio automatico con attrezzatura</Capitolo>
+<Corpo>&lt;BR/&gt;Per effettuare il lavaggio del cambio automatico è consigliabile collegare l&apos;attrezzatura agli attacchi indicati in &lt;B&gt;fig. 1&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;1&lt;/B&gt; - Attacco per attrezzatura lavacambi&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;2&lt;/B&gt; - Foro per il controllo livello olio cambio automatico&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;3&lt;/B&gt; - Foro per lo scarico dell&apos;olio del cambio automatico&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>62504747</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>62504747</ID>
+<Type>IMG</Type>
+<URL>GETFILE:62504747</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199217638</RifIDDoc>
+<Ordine>15</Ordine>
+<Capitolo>Procedura scarico olio cambio automatico</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt; Posizionare il veicolo su un piano&lt;BR/&gt;&lt;LI&gt; Spegnere il motore&lt;BR/&gt;&lt;LI&gt; Rimuovere la copertura insonorizzante inferiore&lt;BR/&gt;&lt;LI&gt; Rimuovere, se necessario, la lamiera di protezione termica&lt;BR/&gt;&lt;LI&gt; Rimuovere il tappo di scarico &lt;B&gt;A&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Attendere la completa fuoriuscita dell&apos;olio del cambio&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE: &lt;/B&gt;Non avviare il motore senza olio nel cambio&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Reinserire il tappo di scarico &lt;B&gt;A&lt;/B&gt;, serrando a &lt;B&gt;8 Nm&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299007666</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299007666</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299007666</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199217638</RifIDDoc>
+<Ordine>16</Ordine>
+<Capitolo>Sostituzione filtro olio cambio automatico</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt; Il filtro dell&apos;olio cambio automatico si trova dentro la coppa dell&apos;olio&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE: &lt;/B&gt;In questo modello di cambio, il filtro dell&apos;olio è integrato nella coppa dell&apos;olio. Per procedere alla sostituzione del filtro, bisogna sostituire la coppa dell&apos;olio.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE: &lt;/B&gt;Sostituire sempre la coppa dell&apos;olio e le relativi viti quando la coppa viene smontata&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299007668</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299007668</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299007668</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199217638</RifIDDoc>
+<Ordine>20</Ordine>
+<Capitolo>Procedura riempimento olio cambio automatico</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt; Posizionare il veicolo su un piano e bloccare le ruote&lt;BR/&gt;&lt;LI&gt; Spegnere i sistemi di illuminazione e climatizzazione&lt;BR/&gt;&lt;LI&gt; Posizionare la leva del cambio in &lt;B&gt;P&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Inserire il freno di stazionamento&lt;BR/&gt;&lt;LI&gt; Collegare il tester diagnostico&lt;BR/&gt;&lt;LI&gt; Rimuovere il tappo di riempimento &lt;B&gt;B&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE: &lt;/B&gt;Sostituire sempre il tappo di riempimento &lt;B&gt;B&lt;/B&gt; e la relativa guarnizione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Tramite tester diagnostico, eseguire la procedura di &lt;B&gt;&quot;Sistema di comando cambio: compensazione dell&apos;olio&quot;&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Procedere a rifornire con olio del cambio attraverso il foro di riempimento &lt;B&gt;B&lt;/B&gt; seguendo le indicazioni fornite dal tester diagnostico&lt;BR/&gt;&lt;LI&gt; Inserire un nuovo tappo di riempimento &lt;B&gt;B&lt;/B&gt; con la relativa guarnizione, serrando a &lt;B&gt;35 Nm&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Proseguire alla procedura di controllo livello dell&apos;olio cambio automatico&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299007667</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299007667</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299007667</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199217638</RifIDDoc>
+<Ordine>21</Ordine>
+<Capitolo>Procedura controllo livello olio cambio automatico</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt; Portare la temperatura dell&apos;olio del cambio a &lt;B&gt;30° - 40° C&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Posizionare il veicolo su un piano e bloccare le ruote&lt;BR/&gt;&lt;LI&gt; Spegnere i sistemi di illuminazione e climatizzazione&lt;BR/&gt;&lt;LI&gt; Posizionare la leva del cambio in &lt;B&gt;P&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Inserire il freno di stazionamento&lt;BR/&gt;&lt;LI&gt; Collegare il tester diagnostico&lt;BR/&gt;&lt;LI&gt; Rimuovere il tappo di riempimento &lt;B&gt;B&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE: &lt;/B&gt;Sostituire sempre il tappo di riempimento &lt;B&gt;B&lt;/B&gt; e la relativa guarnizione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Tramite tester diagnostico, eseguire la procedura di &lt;B&gt;&quot;Sistema di comando cambio: compensazione dell&apos;olio&quot;&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Portare l&apos;olio del cambio alla temperatura di &lt;B&gt;40° - 50°C&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Seguire le indicazioni riportare sul tester diagnostico per eseguire la procedura di controllo livello olio cambio automatico&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE: &lt;/B&gt;Un livello di olio troppo alto o troppo basso compromette il funzionamento del cambio&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Inserire un nuovo tappo di riempimento &lt;B&gt;B&lt;/B&gt; con la relativa guarnizione, serrando a &lt;B&gt;35 Nm&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299023076</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299023076</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299023076</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

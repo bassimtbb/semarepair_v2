@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T10:26:47">
+  <XDOCUMENTO>
+    <ID>199094642</ID>
+    <DOCNumber>AZZ76263</DOCNumber>
+    <RifIDTipoRis>7</RifIDTipoRis>
+    <Titolo>Resetowanie wskaźnika serwisowego</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>217</RifIDFileICO>
+    <XFILE>
+      <ID>217</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:217</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>7</ID>
+      <TipoRis>AZZ</TipoRis>
+      <DscRis>Usługa zerowania licznika przebiegu</DscRis>
+      <RifIDFileCSS>1</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>1</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:1</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Informacje o systemie</Capitolo>
+      <Corpo> &lt;BR/&gt; Wyposażenie samochodu obejmuje wskaźnik terminów przeglądów, zintegrowany z wyświetlaczem zestawu wskaźników. &lt;BR/&gt; Wskaźnik ten wyświetla kierowcy szereg komunikatów dotyczących planowych czynności serwisowych, którym samochód powinien być okresowo poddawany. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Regulacja - Zerowanie wskaźnika wymiany oleju silnikowego</Capitolo>
+      <Corpo>Po wymianie oleju silnikowego ręczne wyzerowanie wskaźnika odbywa się w następujący sposób: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; wyłączyć zapłon &lt;BR/&gt;  &lt;LI&gt; nacisnąć i przytrzymać przycisk ( &lt;B&gt; 1 &lt;/B&gt; ) &lt;BR/&gt;  &lt;LI&gt; włączyć zapłon &lt;BR/&gt;  &lt;LI&gt; na wyświetlaczu pojawi się komunikat dotyczący zerowania wskaźnika wymiany oleju silnikowego &lt;BR/&gt;  &lt;LI&gt; zwolnić przycisk ( &lt;B&gt; 1 &lt;/B&gt; ) &lt;BR/&gt;  &lt;LI&gt; nacisnąć przycisk ( &lt;B&gt; 1 &lt;/B&gt; ) w celu potwierdzenia &lt;BR/&gt;  &lt;BR/&gt; W tym momencie wskaźnik terminów przeglądów został wyzerowany. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299006187</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299006187</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299006187</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>25</Ordine>
+      <Capitolo>Regulacja - Zerowanie wskaźnika interwału obsługi</Capitolo>
+      <Corpo>Po zakończeniu prac konserwacyjnych ręczne wyzerowanie wskaźnika odbywa się w następujący sposób: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; wyłączyć zapłon &lt;BR/&gt;  &lt;LI&gt; nacisnąć i przytrzymać przycisk ( &lt;B&gt; 1 &lt;/B&gt; ) &lt;BR/&gt;  &lt;LI&gt; włączyć zapłon &lt;BR/&gt;  &lt;LI&gt; na wyświetlaczu pojawi się komunikat dotyczący zerowania wskaźnika terminów przeglądów &lt;BR/&gt;  &lt;LI&gt; zwolnić przycisk ( &lt;B&gt; 1 &lt;/B&gt; ) &lt;BR/&gt;  &lt;LI&gt; Nacisnąć przycisk ( &lt;B&gt; 1 &lt;/B&gt; ) w celu potwierdzenia &lt;BR/&gt;  &lt;BR/&gt; W tym momencie wskaźnik terminów przeglądów został wyzerowany. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299006187</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>299006187</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299006187</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>UWAGA</Capitolo>
+      <Corpo> &lt;BR/&gt; Zresetowanie  &lt;B&gt; wydłużonych okresów między przeglądami &lt;/B&gt;  jest możliwe  &lt;B&gt; wyłącznie za pomocą specjalnego urządzenia diagnostycznego &lt;/B&gt;  przewidzianego przez producenta.  &lt;BR/&gt;  &lt;BR/&gt; Możliwe jest jednak przywrócenie wydłużonych okresów między przeglądami, postępując zgodnie z poniższą procedurą, jednak w ten sposób okres ten zmieni się z wydłużonego na stały. &lt;BR/&gt;  &lt;BR/&gt; Przed zresetowaniem należy sprawdzić, czy w pamięci nie ma kodów usterek  i czy wszystkie drzwi są zamknięte. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

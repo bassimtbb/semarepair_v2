@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2013-12-13T16:41:02">
+<XDOCUMENTO>
+<ID>154</ID>
+<DOCNumber>INF00004</DOCNumber>
+<RifIDTipoRis>1</RifIDTipoRis>
+<Titolo>Standard Europeo EOBD</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>229</RifIDFileICO>
+<XFILE>
+<ID>229</ID>
+<Type>IMG</Type>
+<URL>GETFILE:229</URL>
+</XFILE>
+<XTIPORIS>
+<ID>1</ID>
+<TipoRis>INF</TipoRis>
+<DscRis>Informazione generica</DscRis>
+<RifIDFileCSS>12</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>12</ID>
+<Type>CSS</Type>
+<URL>GETFILE:12</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>154</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Introduzione</Capitolo>
+<Corpo>Lo standard europeo EOBD, ha origine dal meglio noto OBDII americano. L&apos;emanazione delle prime direttive antininquinamento destinate agli autoveicoli, risale al 1988 ad opera dell&apos;ente californiano CARB (Californian Air Resources Board) e coincide con la pubblicazione del primo standard OBD.&lt;BR/&gt;&lt;BR/&gt;L&apos;acronimo OBD (On Board Diagnose) denota un sistema elettronico, integrato nella gestione del motore del veicolo, che ha il compito di monitorare in tempo reale tutti i componenti critici per le emissioni di gas di scarico, registrando e segnalando le eventuali anomalie.&lt;BR/&gt;&lt;BR/&gt;Successivamente, con l&apos;avvento di limitazioni sempre più severe in materia di inquinamento atmosferico, nel 1996 il vecchio standard OBD è stato soppiantato dal più moderno OBDII. Sulla base delle nuove direttive del CARB, il consorzio SAE ha pubblicato una raccolta di norme tecniche per l&apos;attuazione degli obbiettivi prefissati. Queste norme, descrivono dettagliatamente le prestazioni che devono essere rispettate dai sistemi OBDII.</Corpo>
+<RifIDFileIMGANI>193</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>193</ID>
+<Type>IMG</Type>
+<URL>GETFILE:193</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>154</RifIDDoc>
+<Ordine>2</Ordine>
+<Capitolo>Funzioni principali</Capitolo>
+<Corpo>Le funzioni principali del sistema OBDII sono le seguenti:&lt;BR/&gt;&lt;BR/&gt;A) Monitoraggio in tempo reale di tutti i dispositivi del veicolo che possono incidere negativamente sul livello di emissioni allo scarico.&lt;BR/&gt;&lt;BR/&gt;B) Sorveglianza più approfondita dei componenti più critici, quali il catalizzatore e la sonda lambda.&lt;BR/&gt;&lt;BR/&gt;C) Segnalazione dei guasti più gravi e consolidati con l&apos;accensione di una apposita spia (MIL) nel quadro strumenti.&lt;BR/&gt;&lt;BR/&gt;D) Memorizzazione dei guasti assieme con i principali parametri nell&apos;istante in cui si sono verificati (&quot;freezed&quot;).&lt;BR/&gt;&lt;BR/&gt;E) Possibilità di interfacciamento con un&apos;unità esterna (tester per l&apos;autodiagnosi OBD &quot;SCANTOOL&quot;) per visualizzare i codici dei guasti in memoria, ed i parametri in tempo reale.&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>154</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Dettagli tecnici</Capitolo>
+<Corpo>La comunità europea, traendo spunto dall&apos;OBDII, ha adottato lo standard EOBD che è diventato obbligatorio per tutti i nuovi autoveicoli a partire dal 2000, insieme con i rigorosi limiti sulle emissioni previsti dalla normativa Euro3.&lt;BR/&gt;Il binomio EOBD - Euro3 ha portato vari benefici, fra cui quello di uniformare l&apos;accesso all&apos;autodiagnosi del veicolo da parte dell&apos;autoriparatore. Infatti, l&apos;EOBD è a tutti gli effetti uno standard al quale tutte le case automobilistiche si sono dovute adeguare, sia per quanto concerne i codici di guasto, sia per l&apos;interfaccia di autodiagnosi vera e propria, a partire dai protocolli di comunicazione fino al connettore a 16 poli per il collegamento del tester.</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>154</RifIDDoc>
+<Ordine>5</Ordine>
+<Capitolo>Controlli e Diagnosi</Capitolo>
+<Corpo>Pin 1 Libero&lt;BR/&gt;Pin 2 Diagnosi J1850 PWM o VPW (+)&lt;BR/&gt;Pin 3 Libero&lt;BR/&gt;Pin 4 Massa telaio&lt;BR/&gt;Pin 5 Massa segnale&lt;BR/&gt;Pin 6 Diagnosi J2284 CAN (H)&lt;BR/&gt;Pin 7 Diagnosi ISo 9141-2 e 14230 (K)&lt;BR/&gt;Pin 8 Libero&lt;BR/&gt;Pin 9 Libero&lt;BR/&gt;Pin 10 Diagnosi J1850 PWM o VPW (-)&lt;BR/&gt;Pin 11 Libero&lt;BR/&gt;Pin 12 Libero&lt;BR/&gt;Pin 13 Libero&lt;BR/&gt;Pin 14 Diagnosi J2284 CAN (L)&lt;BR/&gt;Pin 15 Diagnosi ISo 9141-2 e 14230 (L)&lt;BR/&gt;Pin 16 Alimentazione +12 Volt</Corpo>
+<RifIDFileIMGANI>196</RifIDFileIMGANI>
+<Allineamento>L</Allineamento>
+<XFILE>
+<ID>196</ID>
+<Type>IMG</Type>
+<URL>GETFILE:196</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>154</RifIDDoc>
+<Ordine>50</Ordine>
+<Capitolo></Capitolo>
+<Corpo>In particolare, l&apos;EOBD europeo prevede il controllo di tutti i sensori e gli attuatori del gruppo gestione motore, oltre ovviamente ai seguenti sistemi: catalizzatore con sonda lambda, rilevamento delle mancate accensioni, EGR, aria secondaria (se presente), ecc. Le specifiche dell&apos; EOBD prevedono che la centralina debba rilevare i malfunzionamenti dei componenti del motore e salvarli in memoria assieme al contesto del momento in cui si verificano (&quot;freezed parameters&quot;). Inoltre, se l&apos;errore si manifesta ancora per un certo numero di cicli guida (da un minimo di 2 ad un massimo di 10), il sistema EOBD deve accendere la spia MIL (Malfunction Indication Lamp) sul cruscotto, ad indicare un guasto al motore.&lt;BR/&gt;&lt;BR/&gt;I codici di guasto (DTC: Diagnostic Trouble Codes), sono standardizzati per la parte che riguarda i problemi attinenti al motore ed alle emissioni, mentre il resto è lasciato volutamente libero a discrezione del costruttore dell&apos;autoveicolo.&lt;BR/&gt;Sono previste inoltre delle apposite funzioni software per la lettura in tempo reale dei parametri fondamentali del veicolo (regime motore, pressione e temperatura dell&apos;aria aspirata, tensioni sonda lambda, ecc.) e per l&apos;avvio di funzioni speciali per l&apos;attivazione di procedure diagnostiche sugli attuatori.&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>514</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>514</ID>
+<Type>IMG</Type>
+<URL>GETFILE:514</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

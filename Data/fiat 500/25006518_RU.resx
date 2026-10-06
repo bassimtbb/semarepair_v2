@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-23T05:20:19">
+  <XDOCUMENTO>
+    <ID>25006518</ID>
+    <DOCNumber>FAR25020</DOCNumber>
+    <RifIDTipoRis>30</RifIDTipoRis>
+    <Titolo>Lista zamienników – do 2014 r.</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>30</ID>
+      <TipoRis>FAR</TipoRis>
+      <DscRis>Żarówki</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>4</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLDATO</IDLabel>
+        <Stringa>Opis</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLUM</IDLabel>
+        <Stringa>Jednostka miary</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLVALORE</IDLabel>
+        <Stringa>Dane</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>LINK</IDLabel>
+        <Stringa>Link</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Lista danych</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XDATIMECH>
+      <RifIDDoc>25006518</RifIDDoc>
+      <Gruppo>OŚWIETLENIE ZEWNĘTRZNE</Gruppo>
+      <Dato>Światło mijania – żarówka</Dato>
+      <Valore>12 / 55 - H7</Valore>
+      <UnitaMis>Volt / Wat – Typ</UnitaMis>
+      <RifIDFileIMG>15000050</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>15000050</ID>
+        <DOCNumber>CMP00028</DOCNumber>
+        <Documento>CMP: Żarówka – H7</Documento>
+        <URL>LINKDOC:15000050</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25006518</RifIDDoc>
+      <Gruppo>OŚWIETLENIE ZEWNĘTRZNE</Gruppo>
+      <Dato>Światło mijania z reflektorem ksenonowym – żarówka</Dato>
+      <Valore>85 / 35 - D1S</Valore>
+      <UnitaMis>Volt / Wat – Typ</UnitaMis>
+      <RifIDFileIMG>62500789</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500789</ID>
+        <DOCNumber>CMP62512</DOCNumber>
+        <Documento>CMP: Żarówka – D1S</Documento>
+        <URL>LINKDOC:62500789</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25006518</RifIDDoc>
+      <Gruppo>OŚWIETLENIE ZEWNĘTRZNE</Gruppo>
+      <Dato>Światło drogowe – żarówka</Dato>
+      <Valore>12 / 55 - H1</Valore>
+      <UnitaMis>Volt / Wat – Typ</UnitaMis>
+      <RifIDFileIMG>62500786</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500786</ID>
+        <DOCNumber>CMP62509</DOCNumber>
+        <Documento>CMP: Żarówka – H1</Documento>
+        <URL>LINKDOC:62500786</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25006518</RifIDDoc>
+      <Gruppo>OŚWIETLENIE ZEWNĘTRZNE</Gruppo>
+      <Dato>Światło przeciwmgielne – żarówka</Dato>
+      <Valore>12 / 55 - H3</Valore>
+      <UnitaMis>Volt / Wat – Typ</UnitaMis>
+      <RifIDFileIMG>62500806</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500806</ID>
+        <DOCNumber>CMP62529</DOCNumber>
+        <Documento>CMP: Żarówka – H3</Documento>
+        <URL>LINKDOC:62500806</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25006518</RifIDDoc>
+      <Gruppo>OŚWIETLENIE ZEWNĘTRZNE</Gruppo>
+      <Dato>Światło dzienne – żarówka</Dato>
+      <Valore>12 / 21/5 - W21/5W</Valore>
+      <UnitaMis>Volt / Wat – Typ</UnitaMis>
+      <RifIDFileIMG>62500805</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500805</ID>
+        <DOCNumber>CMP62528</DOCNumber>
+        <Documento>CMP: Żarówka – W21/5W</Documento>
+        <URL>LINKDOC:62500805</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25006518</RifIDDoc>
+      <Gruppo>OŚWIETLENIE ZEWNĘTRZNE</Gruppo>
+      <Dato>Przednie światło pozycyjne – żarówka</Dato>
+      <Valore>12 / 5 – W21/5W</Valore>
+      <UnitaMis>Volt / Wat – Typ</UnitaMis>
+      <RifIDFileIMG>62500805</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500805</ID>
+        <DOCNumber>CMP62528</DOCNumber>
+        <Documento>CMP: Żarówka – W21/5W</Documento>
+        <URL>LINKDOC:62500805</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25006518</RifIDDoc>
+      <Gruppo>OŚWIETLENIE ZEWNĘTRZNE</Gruppo>
+      <Dato>Tylne światło pozycyjne – żarówka</Dato>
+      <Valore>12 / 10 - R10W</Valore>
+      <UnitaMis>Volt / Wat – Typ</UnitaMis>
+      <RifIDFileIMG>62500791</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500791</ID>
+        <DOCNumber>CMP62514</DOCNumber>
+        <Documento>CMP: Żarówka – R10W</Documento>
+        <URL>LINKDOC:62500791</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25006518</RifIDDoc>
+      <Gruppo>OŚWIETLENIE ZEWNĘTRZNE</Gruppo>
+      <Dato>Światło hamowania – żarówka</Dato>
+      <Valore>12 / 21 - P21W</Valore>
+      <UnitaMis>Volt / Wat – Typ</UnitaMis>
+      <RifIDFileIMG>62500782</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500782</ID>
+        <DOCNumber>CMP62505</DOCNumber>
+        <Documento>CMP: Żarówka – P21W</Documento>
+        <URL>LINKDOC:62500782</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25006518</RifIDDoc>
+      <Gruppo>OŚWIETLENIE ZEWNĘTRZNE</Gruppo>
+      <Dato>Środkowa lampka hamowania – żarówka</Dato>
+      <Valore>12 / 5 - W5W</Valore>
+      <UnitaMis>Volt / Wat – Typ</UnitaMis>
+      <RifIDFileIMG>62500885</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500885</ID>
+        <DOCNumber>CMP62549</DOCNumber>
+        <Documento>CMP: Żarówka – W5W</Documento>
+        <URL>LINKDOC:62500885</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25006518</RifIDDoc>
+      <Gruppo>OŚWIETLENIE ZEWNĘTRZNE</Gruppo>
+      <Dato>Światło cofania – żarówka</Dato>
+      <Valore>12 / 21 - P21W</Valore>
+      <UnitaMis>Volt / Wat – Typ</UnitaMis>
+      <RifIDFileIMG>62500782</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500782</ID>
+        <DOCNumber>CMP62505</DOCNumber>
+        <Documento>CMP: Żarówka – P21W</Documento>
+        <URL>LINKDOC:62500782</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25006518</RifIDDoc>
+      <Gruppo>OŚWIETLENIE ZEWNĘTRZNE</Gruppo>
+      <Dato>Światło przeciwmgielne – żarówka</Dato>
+      <Valore>12 / 21 - P21W</Valore>
+      <UnitaMis>Volt / Wat – Typ</UnitaMis>
+      <RifIDFileIMG>62500782</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500782</ID>
+        <DOCNumber>CMP62505</DOCNumber>
+        <Documento>CMP: Żarówka – P21W</Documento>
+        <URL>LINKDOC:62500782</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25006518</RifIDDoc>
+      <Gruppo>OŚWIETLENIE ZEWNĘTRZNE</Gruppo>
+      <Dato>Oświetlenie tablicy rejestracyjnej – żarówka</Dato>
+      <Valore>12 / 5 - C5W</Valore>
+      <UnitaMis>Volt / Wat – Typ</UnitaMis>
+      <RifIDFileIMG>62500883</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500883</ID>
+        <DOCNumber>CMP62547</DOCNumber>
+        <Documento>CMP: Żarówka – C5W</Documento>
+        <URL>LINKDOC:62500883</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25006518</RifIDDoc>
+      <Gruppo>OŚWIETLENIE ZEWNĘTRZNE</Gruppo>
+      <Dato>Przedni kierunkowskaz – żarówka</Dato>
+      <Valore>12 / 21 - WY21W</Valore>
+      <UnitaMis>Volt / Wat – Typ</UnitaMis>
+      <RifIDFileIMG>62500803</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500803</ID>
+        <DOCNumber>CMP62526</DOCNumber>
+        <Documento>CMP: Żarówka – WY21W – żółta</Documento>
+        <URL>LINKDOC:62500803</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25006518</RifIDDoc>
+      <Gruppo>OŚWIETLENIE ZEWNĘTRZNE</Gruppo>
+      <Dato>Kierunkowskaz boczny – żarówka</Dato>
+      <Valore>12 / 5 - WY5W</Valore>
+      <UnitaMis>Volt / Wat – Typ</UnitaMis>
+      <RifIDFileIMG>62500787</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500787</ID>
+        <DOCNumber>CMP62510</DOCNumber>
+        <Documento>CMP: Żarówka – WY5W – żółta</Documento>
+        <URL>LINKDOC:62500787</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25006518</RifIDDoc>
+      <Gruppo>OŚWIETLENIE ZEWNĘTRZNE</Gruppo>
+      <Dato>Tylny kierunkowskaz – żarówka</Dato>
+      <Valore>12 / 21 - PY21W</Valore>
+      <UnitaMis>Volt / Wat – Typ</UnitaMis>
+      <RifIDFileIMG>62500781</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500781</ID>
+        <DOCNumber>CMP62504</DOCNumber>
+        <Documento>CMP: Żarówka – PY21W – żółta</Documento>
+        <URL>LINKDOC:62500781</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25006518</RifIDDoc>
+      <Gruppo>OŚWIETLENIE WEWNĘTRZNE</Gruppo>
+      <Dato>Przednia lampa sufitowa – żarówka</Dato>
+      <Valore>12 / 5 - C5W</Valore>
+      <UnitaMis>Volt / Wat – Typ</UnitaMis>
+      <RifIDFileIMG>62500883</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500883</ID>
+        <DOCNumber>CMP62547</DOCNumber>
+        <Documento>CMP: Żarówka – C5W</Documento>
+        <URL>LINKDOC:62500883</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>25006518</RifIDDoc>
+      <Gruppo>OŚWIETLENIE WEWNĘTRZNE</Gruppo>
+      <Dato>Oświetlenie otwierania bagażnika – żarówka</Dato>
+      <Valore>12 / 5 - W5W</Valore>
+      <UnitaMis>Volt / Wat – Typ</UnitaMis>
+      <RifIDFileIMG>62500885</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>62500885</ID>
+        <DOCNumber>CMP62549</DOCNumber>
+        <Documento>CMP: Żarówka – W5W</Documento>
+        <URL>LINKDOC:62500885</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+  </XDOCUMENTO>
+</dataroot>

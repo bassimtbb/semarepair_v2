@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T23:42:22">
+  <XDOCUMENTO>
+    <ID>199082245</ID>
+    <DOCNumber>DTM88828</DOCNumber>
+    <RifIDTipoRis>13</RifIDTipoRis>
+    <Titolo>Liste pour moteurs B47 D20B</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>226</RifIDFileICO>
+    <XFILE>
+      <ID>226</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:226</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>13</ID>
+      <TipoRis>DTM</TipoRis>
+      <DscRis>Données mécaniques et lubrifiants</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>4</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLDATO</IDLabel>
+        <Stringa>Description</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLUM</IDLabel>
+        <Stringa>Unités de mesure</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLVALORE</IDLabel>
+        <Stringa>Données</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>LINK</IDLabel>
+        <Stringa>Lien</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Liste des données</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES MOTEUR</Gruppo>
+      <Dato>Cylindrée</Dato>
+      <Valore>1995</Valore>
+      <UnitaMis>cm³</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES MOTEUR</Gruppo>
+      <Dato>Cylindres</Dato>
+      <Valore>4</Valore>
+      <UnitaMis>n°</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES MOTEUR</Gruppo>
+      <Dato>Disposition des soupapes</Dato>
+      <Valore>DOHC</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES MOTEUR</Gruppo>
+      <Dato>Jeu de soupapes d'admission/d'échappement</Dato>
+      <Valore>Hydraulique</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES MOTEUR</Gruppo>
+      <Dato>Ordre d'injection</Dato>
+      <Valore>1-3-4-2</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES MOTEUR</Gruppo>
+      <Dato>Rapport de compression</Dato>
+      <Valore>16,5</Valore>
+      <UnitaMis>:1</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES MOTEUR</Gruppo>
+      <Dato>Pression de compression</Dato>
+      <Valore>16,0</Valore>
+      <UnitaMis>bar</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES D'ALLUMAGE</Gruppo>
+      <Dato>Tension de batterie</Dato>
+      <Valore>12</Valore>
+      <UnitaMis>Volt</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES RELATIVES AUX GAZ D'ÉCHAPPEMENT</Gruppo>
+      <Dato>Régime minimum</Dato>
+      <Valore>680-900</Valore>
+      <UnitaMis>Tours/min</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES RELATIVES AUX GAZ D'ÉCHAPPEMENT</Gruppo>
+      <Dato>Régime minimum - Test de fumée</Dato>
+      <Valore>680-900</Valore>
+      <UnitaMis>Tours/min</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES RELATIVES AUX GAZ D'ÉCHAPPEMENT</Gruppo>
+      <Dato>Régime accéléré - Test de fumée</Dato>
+      <Valore>3700-4100</Valore>
+      <UnitaMis>Tours/min</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES RELATIVES AUX GAZ D'ÉCHAPPEMENT</Gruppo>
+      <Dato>Temps maximum Régime accéléré</Dato>
+      <Valore>0,5</Valore>
+      <UnitaMis>s</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES RELATIVES AUX GAZ D'ÉCHAPPEMENT</Gruppo>
+      <Dato>Méthode d'essai</Dato>
+      <Valore>B</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES RELATIVES AUX GAZ D'ÉCHAPPEMENT</Gruppo>
+      <Dato>Opacité des fumées - Limite européenne</Dato>
+      <Valore>1,50</Valore>
+      <UnitaMis>m-1</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES RELATIVES AUX GAZ D'ÉCHAPPEMENT</Gruppo>
+      <Dato>Opacité des fumées</Dato>
+      <Valore>0,09</Valore>
+      <UnitaMis>m-1</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>LUBRIFIANTS MOTEUR - BOÎTE DE VITESSES</Gruppo>
+      <Dato> Huile moteur - Viscosité</Dato>
+      <Valore>Consultez le lien</Valore>
+      <UnitaMis>SAE</UnitaMis>
+      <RifIDFileIMG>199323858</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199323858</ID>
+        <DOCNumber>NOT77058</DOCNumber>
+        <Documento>NOT: Huile moteur</Documento>
+        <URL>LINKDOC:199323858</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>LUBRIFIANTS MOTEUR - BOÎTE DE VITESSES</Gruppo>
+      <Dato> Huile moteur - Spécifications du constructeur</Dato>
+      <Valore>Consultez le lien</Valore>
+      <UnitaMis>N° de réf.</UnitaMis>
+      <RifIDFileIMG>199323858</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199323858</ID>
+        <DOCNumber>NOT77058</DOCNumber>
+        <Documento>NOT: Huile moteur</Documento>
+        <URL>LINKDOC:199323858</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>LUBRIFIANTS MOTEUR - BOÎTE DE VITESSES</Gruppo>
+      <Dato> Huile moteur - Alternative (avec DPF)</Dato>
+      <Valore>C3</Valore>
+      <UnitaMis>ACEA</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>LUBRIFIANTS MOTEUR - BOÎTE DE VITESSES</Gruppo>
+      <Dato>Huile moteur et filtre - Quantité</Dato>
+      <Valore>Consultez le lien</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>199323858</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199323858</ID>
+        <DOCNumber>NOT77058</DOCNumber>
+        <Documento>NOT: Huile moteur</Documento>
+        <URL>LINKDOC:199323858</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>LUBRIFIANTS MOTEUR - BOÎTE DE VITESSES</Gruppo>
+      <Dato>Huile de boîte de vitesses manuelle</Dato>
+      <Valore>BMW MTF-3</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>LUBRIFIANTS MOTEUR - BOÎTE DE VITESSES</Gruppo>
+      <Dato>Huile de boîte de vitesses manuelle - Quantité</Dato>
+      <Valore>1,2</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>LUBRIFIANTS MOTEUR - BOÎTE DE VITESSES</Gruppo>
+      <Dato>Huile pour transmission automatique</Dato>
+      <Valore>ATF-3+</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>LUBRIFIANTS MOTEUR - BOÎTE DE VITESSES</Gruppo>
+      <Dato>Huile de transmission automatique - Quantité à vide</Dato>
+      <Valore>9,3</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>LUBRIFIANTS MOTEUR - BOÎTE DE VITESSES</Gruppo>
+      <Dato>Huile différentiel arrière - Spécifications du constructeur</Dato>
+      <Valore>Consultez le lien</Valore>
+      <UnitaMis>N° de réf.</UnitaMis>
+      <RifIDFileIMG>199097261</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199097261</ID>
+        <DOCNumber>NOT76165</DOCNumber>
+        <Documento>NOT: Huile différentiel arrière - Spécifications du constructeur</Documento>
+        <URL>LINKDOC:199097261</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>LUBRIFIANTS MOTEUR - BOÎTE DE VITESSES</Gruppo>
+      <Dato>Huile différentiel arrière - Quantité</Dato>
+      <Valore>0,7-1,2</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>LUBRIFIANTS MOTEUR - BOÎTE DE VITESSES</Gruppo>
+      <Dato>Huile Boîte de transfert - Viscosité</Dato>
+      <Valore>BMW DTF-1 Synthétique</Valore>
+      <UnitaMis>SAE</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>LUBRIFIANTS MOTEUR - BOÎTE DE VITESSES</Gruppo>
+      <Dato>Huile Boîte de transfert</Dato>
+      <Valore>GL4</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>LUBRIFIANTS MOTEUR - BOÎTE DE VITESSES</Gruppo>
+      <Dato>Huile Boîte de transfert - Quantité</Dato>
+      <Valore>0,7</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES SUR LES FLUIDES AUXILIAIRES</Gruppo>
+      <Dato>Liquide de radiateur</Dato>
+      <Valore>Consultez le lien</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>199097766</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199097766</ID>
+        <DOCNumber>NOT76168</DOCNumber>
+        <Documento>NOT: Liquide de refroidissement</Documento>
+        <URL>LINKDOC:199097766</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES SUR LES FLUIDES AUXILIAIRES</Gruppo>
+      <Dato>Liquide de refroidissement - Quantité</Dato>
+      <Valore>7,0</Valore>
+      <UnitaMis>litres</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES SUR LES FLUIDES AUXILIAIRES</Gruppo>
+      <Dato>Liquide de frein</Dato>
+      <Valore>DOT 4 LV</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES SUR LES FLUIDES AUXILIAIRES</Gruppo>
+      <Dato>Pression Bouchon Liquide Radiateur</Dato>
+      <Valore>1,40</Valore>
+      <UnitaMis>bar</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES MÉCANIQUES FREINS</Gruppo>
+      <Dato>Épaisseur minimale des disques avant (ventilés)</Dato>
+      <Valore>Consultez le lien</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>199070397</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199070397</ID>
+        <DOCNumber>NOT76088</DOCNumber>
+        <Documento>NOT: Épaisseur minimale des disques avant (ventilés)</Documento>
+        <URL>LINKDOC:199070397</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES MÉCANIQUES FREINS</Gruppo>
+      <Dato>Épaisseur minimale des plaquettes avant</Dato>
+      <Valore>3,7</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES MÉCANIQUES FREINS</Gruppo>
+      <Dato>Épaisseur minimale des disques arrière (ventilés)</Dato>
+      <Valore>Consultez le lien</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>199070398</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199070398</ID>
+        <DOCNumber>NOT76089</DOCNumber>
+        <Documento>NOT: Épaisseur minimale des disques arrière (ventilés)</Documento>
+        <URL>LINKDOC:199070398</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>DONNÉES MÉCANIQUES FREINS</Gruppo>
+      <Dato>Épaisseur minimale des plaquettes arrière</Dato>
+      <Valore>3,7</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>CLIMATISATION</Gruppo>
+      <Dato>Gaz réfrigérant</Dato>
+      <Valore>Consultez le lien</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>75008087</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>75008087</ID>
+        <DOCNumber>NOT75102</DOCNumber>
+        <Documento>NOT: Gaz réfrigérant</Documento>
+        <URL>LINKDOC:75008087</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>CLIMATISATION</Gruppo>
+      <Dato>Gaz réfrigérant - Quantité</Dato>
+      <Valore>535-565 - (vérifier l'étiquette)</Valore>
+      <UnitaMis>grammes</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>CLIMATISATION</Gruppo>
+      <Dato>Huile Compresseur</Dato>
+      <Valore>SP-A2 - (vérifier l'étiquette du compresseur)</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>CLIMATISATION</Gruppo>
+      <Dato> Huile compresseur - Quantité</Dato>
+      <Valore>Vérifiez l'étiquette du compresseur.</Valore>
+      <UnitaMis>cm³</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+  </XDOCUMENTO>
+</dataroot>

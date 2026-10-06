@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:26:19">
+  <XDOCUMENTO>
+    <ID>75000518</ID>
+    <DOCNumber>DES75005</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Deska rozdzielcza Marelli 2</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Opis układu</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Opis</Capitolo>
+      <Corpo>Moduł sterujący jest wbudowany w zestaw wskaźników, umieszczony w desce rozdzielczej samochodu, nad kierownicą.  &lt;BR/&gt;  &lt;BR/&gt; Gniazdo diagnostyczne jest typu ujednoliconego, 16-pinowego (EOBD) i znajduje się w kabinie pasażerskiej pod deską rozdzielczą po stronie kierowcy. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Parametry techniczne</Capitolo>
+      <Corpo>Moduł sterujący zarządza różnymi parametrami:  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Obroty silnika &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Temperatura silnika &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Poziom paliwa,  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Odczyt stanu licznika (kilometry)   &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Wszystkie parametry związane z przeglądem &lt;BR/&gt;  &lt;BR/&gt; Parametry związane z przeglądem wskazują:  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Przebieg do następnego przeglądu &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Przebieg, przy którym  przeprowadzono przegląd  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Liczba przeprowadzonych przeglądów &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Odległość w kilometrach do następnego przeglądu  &lt;BR/&gt;  &lt;BR/&gt; Inne ważne parametry to: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Alarm pasów bezpieczeństwa: Wskazuje stan (włączony/wyłączony) alarmu dźwiękowego w zależności od tego, czy pas został zapięty, czy nie &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Tryb zasilania: wskazuje stan, w jakim pojazd jest ustawiony w momencie wysyłki (z fabryki do salonu). Tryb ten nazywany jest również „Logistic Mode” i polega na wyłączeniu niektórych obciążeń elektrycznych w celu zminimalizowania zużycia energii z akumulatora. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Błędy</Capitolo>
+      <Corpo>Moduł sterujący jest wyposażony w stałą pamięć błędów i zapisuje parametry środowiskowe w momencie wystąpienia błędu. &lt;BR/&gt;  &lt;BR/&gt; Są one sygnalizowane wraz z informacją o ich stanie: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Błąd aktywny &lt;/B&gt;  &lt;BR/&gt; Błąd jest obecnie wykryty &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Błąd zapisany &lt;/B&gt;  &lt;BR/&gt; Błąd, który został już zapisany w pamięci, a usterka nie występuje obecnie. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Kasowanie błędu/błędów &lt;/B&gt;  &lt;BR/&gt; Odbywa się wyłącznie za zgodą operatora, który kasuje błąd za pomocą przycisku kasowania &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Diagnozy aktywne</Capitolo>
+      <Corpo>W module „Diagnostyka aktywna” sterowane są: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Wskaźnik temperatury wody &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Wskaźnik poziomu paliwa &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Wskaźnik obrotów &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Wskaźnik prędkości &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Kontrolka maksymalnej temperatury wody &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Kontrolka rezerwy paliwa &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Kontrolka ABS &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Inne różne kontrolki.  &lt;BR/&gt;  &lt;BR/&gt; Dostępne są również następujące funkcje: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Brzęczyk &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Podświetlenie wskaźników na desce rozdzielczej &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Podświetlenie wyświetlacza LCD.  &lt;BR/&gt;  &lt;BR/&gt; Uwaga: W wersji ABARTH dostępne są funkcje włączania wskaźnika ciśnienia turbosprężarki oraz wyświetlacza. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000518</RifIDDoc>
+      <Ordine>6</Ordine>
+      <Capitolo>Regulacje</Capitolo>
+      <Corpo> &lt;B&gt; Test regulacji ustawienia świateł &lt;/B&gt;  &lt;BR/&gt; w celu wyregulowania kąta nachylenia świateł mijania &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Reset licznika przebiegu &lt;/B&gt;  &lt;BR/&gt; W celu wyzerowania licznika przebiegu tylko wtedy, gdy wartość jest mniejsza niż 200 km i gdy przed liczbą kilometrów znajduje się symbol „H”.  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Kasowanie informacji serwisowych &lt;/B&gt;  &lt;BR/&gt; gdzie wszystkie parametry dotyczące przeglądu są resetowane na odległość 30 000 km (tj. do następnego przeglądu). Uwaga: Należy to wykonać przy każdym przeglądzie.  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Wyłączenie alarmu pasów bezpieczeństwa / Włączenie alarmu pasów bezpieczeństwa  &lt;/B&gt;  &lt;BR/&gt; Umożliwiają włączenie lub wyłączenie sygnału dźwiękowego ostrzegającego o niezapiętych pasach bezpieczeństwa przez kierowcę. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Wymiana tablicy rozdzielczej &lt;/B&gt;  &lt;BR/&gt; Procedura ta odczytuje parametry starej tablicy rozdzielczej, którymi są: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Stan licznika &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Odległość od ostatniego przeglądu &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Numer przeglądu &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Data ostatniego przeglądu  &lt;BR/&gt;  &lt;BR/&gt; i zapisuje je na nowej tablicy.  &lt;BR/&gt;  &lt;BR/&gt; Uwaga: należy wykonać tylko w przypadku wymiany modułu sterującego. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

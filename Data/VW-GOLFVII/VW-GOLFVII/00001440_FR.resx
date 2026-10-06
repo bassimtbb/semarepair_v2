@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-23T03:45:20">
+  <XDOCUMENTO>
+    <ID>1440</ID>
+    <DOCNumber>NOT00006</DOCNumber>
+    <RifIDTipoRis>27</RifIDTipoRis>
+    <Titolo>Guide de lecture des codes d'erreur EOBD</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>27</ID>
+      <TipoRis>NOT</TipoRis>
+      <DscRis>Note technique</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Interprétation des codes</Capitolo>
+      <Corpo>Les codes d&apos;erreur &lt;B&gt; (DTC) EOBD / OBDII &lt;/B&gt; peuvent être lus par le réparateur automobile à l&apos;aide d&apos;un testeur de diagnostic standardisé ( &lt;B&gt; Scantool &lt;/B&gt; ). Ils sont composés d&apos;une lettre suivie de quatre chiffres.  &lt;B&gt; La première lettre du code &lt;/B&gt; représente le système du véhicule où la panne s&apos;est produite : &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P- &lt;/B&gt; (powertrain) : moteur (codes EOBD standard : P0000 - P1000) &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; B- &lt;/B&gt; (carrosserie) : climatisation, éclairage, lave-glaces, sièges, fermeture des portes, fermeture des vitres, rétroviseurs, capteurs airbag, GPS, autoradio... &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; C- &lt;/B&gt; (châssis) : ABS, contrôle de traction et de stabilité, contrôle actif des amortisseurs, direction assistée &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; U- &lt;/B&gt; (réseau) : erreurs de communication sur le réseau de données &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Le premier chiffre à gauche indique : si &lt;B&gt; 0 &lt;/B&gt; ou &lt;B&gt; 2 &lt;/B&gt; (codes standard), si &lt;B&gt; 1 &lt;/B&gt; (codes réservés) &lt;BR/&gt; &lt;LI&gt; le deuxième chiffre à gauche identifie le sous-système où la panne s&apos;est produite : &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; 1- &lt;/B&gt; pannes des capteurs du système d&apos;injection &lt;BR/&gt; &lt;B&gt; 2- &lt;/B&gt; pannes des actionneurs du système d&apos;injection &lt;BR/&gt; &lt;B&gt; 3- &lt;/B&gt; pannes du système d&apos;injection ou ratés d&apos;allumage &lt;BR/&gt;  &lt;B&gt; 4- &lt;/B&gt; pannes du système de contrôle des émissions &lt;BR/&gt; &lt;B&gt; 5- &lt;/B&gt; pannes des capteurs de vitesse du véhicule, de la climatisation et de la direction assistée &lt;BR/&gt; &lt;B&gt; 6- &lt;/B&gt; pannes du système de transmission (embrayage et boîte de vitesses) &lt;BR/&gt;  &lt;B&gt; 7- &lt;/B&gt; pannes du système de transmission &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; le troisième et le dernier chiffre indiquent spécifiquement le type de panne, conformément à la description exacte de la réglementation européenne. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; De plus amples informations sont disponibles dans les références en bas de page &lt;/B&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Codes OBDII de P000 à P1000 - Systèmes de contrôle moteur</Capitolo>
+      <Corpo> &lt;B&gt; P00XX &lt;/B&gt; - Système air/carburant et contrôle des émissions auxiliaires &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P01XX &lt;/B&gt; - Système air/carburant (mesures) &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P02XX &lt;/B&gt; - Système air/carburant (mesures) &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P03XX &lt;/B&gt; - Système d&apos;injection et/ou ratés d&apos;allumage &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P04XX &lt;/B&gt;  - Contrôle des émissions auxiliaires &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P05XX &lt;/B&gt; - Vitesse du véhicule, contrôle du ralenti, activité des signaux auxiliaires &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P06XX &lt;/B&gt; - Commandes auxiliaires des unités de contrôle ou des modules &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P07XX &lt;/B&gt; - Transmission et/ou systèmes de transmission &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P08XX &lt;/B&gt; - Transmission et/ou systèmes de transmission &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P09XX &lt;/B&gt; - Transmission et/ou systèmes de transmission</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Codes OBDII de P0A00 à P0F00 - Systèmes de traction hybrides</Capitolo>
+      <Corpo> &lt;B&gt; P0AXX &lt;/B&gt; - Alimentation / Traction hybride &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P0BXX &lt;/B&gt; - réservé - &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P0CXX &lt;/B&gt; - réservé - &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P0DXX &lt;/B&gt; - réservé - &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P0EXX &lt;/B&gt; - réservé - &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P0FXX &lt;/B&gt; - réservé -</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Codes OBDII de P1000 à P2000 - Systèmes de contrôle moteur</Capitolo>
+      <Corpo> &lt;B&gt; P10XX &lt;/B&gt; - réservé - Système air/carburant et contrôle des émissions auxiliaires &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P11XX &lt;/B&gt; - réservé - Système air/carburant (mesures) &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P12XX &lt;/B&gt; - réservé - Système air/carburant (mesures) &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P13XX &lt;/B&gt; - réservé - Système d&apos;injection et/ou ratés d&apos;allumage &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P14XX &lt;/B&gt; - réservé - Contrôle des émissions auxiliaires &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P15XX &lt;/B&gt; - réservé - Vitesse du véhicule, contrôle du ralenti, activité des signaux auxiliaires &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P16XX &lt;/B&gt; - réservé - Commandes auxiliaires des unités de commande ou des modules &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P17XX &lt;/B&gt; - réservé - Transmission et/ou systèmes de transmission &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P18XX &lt;/B&gt; - réservé - Transmission et/ou systèmes de transmission &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P19XX &lt;/B&gt; - réservé - Transmission et/ou systèmes de transmission</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Codes OBDII de P2000 à P3000 - Systèmes de contrôle moteur</Capitolo>
+      <Corpo> &lt;B&gt; P20XX &lt;/B&gt; - Système air/carburant et contrôle des émissions auxiliaires &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P23XX &lt;/B&gt; - Système d&apos;injection et/ou ratés d&apos;allumage &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P24XX &lt;/B&gt; - Contrôle des émissions auxiliaires &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P25XX &lt;/B&gt; - Activité des signaux auxiliaires (en entrée) &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P26XX &lt;/B&gt; - Commandes auxiliaires des unités de commande ou des modules (en sortie) &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P27XX &lt;/B&gt; - Transmission et/ou systèmes de transmission &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P28XX &lt;/B&gt; - réservé ISO/SAE &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P29XX &lt;/B&gt; - Système air/carburant et contrôle des émissions auxiliaires</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Codes OBDII de P3000 à P4000 - Systèmes de contrôle moteur</Capitolo>
+      <Corpo> &lt;B&gt; P30XX &lt;/B&gt; - Système air/carburant et contrôle des émissions auxiliaires &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P31XX &lt;/B&gt; - Système air/carburant et contrôle des émissions auxiliaires &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P32XX &lt;/B&gt;  - Système air/carburant et contrôle des émissions auxiliaires &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P33XX &lt;/B&gt; - Système d&apos;injection et/ou ratés d&apos;allumage &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P34XX &lt;/B&gt; - Désactivation des cylindres (réduction de la consommation) &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P35XX &lt;/B&gt; - réservé ISO/SAE &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P36XX &lt;/B&gt; - réservé ISO/SAE &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P37XX &lt;/B&gt; - réservé ISO/SAE &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P38XX &lt;/B&gt; - réservé ISO/SAE &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P39XX &lt;/B&gt; - réservé ISO/SAE</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>Codes OBDII de U0000 à U0400 - Groupe de communication réseau</Capitolo>
+      <Corpo> &lt;B&gt; U00XX &lt;/B&gt; - Activités du réseau électrique &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; U01XX &lt;/B&gt; - Communication du réseau électrique &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; U02XX &lt;/B&gt; - Communication du réseau électrique &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; U03XX &lt;/B&gt; - Activité du logiciel &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; U04XX &lt;/B&gt; - Activité des données</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

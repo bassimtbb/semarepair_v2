@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2025-03-25T05:30:52">
+<XDOCUMENTO>
+<ID>199282054</ID>
+<DOCNumber>TGE88980</DOCNumber>
+<RifIDTipoRis>16</RifIDTipoRis>
+<Titolo>Fino a Novembre 2014 - Manutenzione Standard</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>234</RifIDFileICO>
+<XFILE>
+<ID>234</ID>
+<Type>IMG</Type>
+<URL>GETFILE:234</URL>
+</XFILE>
+<XTIPORIS>
+<ID>16</ID>
+<TipoRis>TGE</TipoRis>
+<DscRis>Controlli Supplementari e Cinghie</DscRis>
+<RifIDFileCSS>3</RifIDFileCSS>
+<RifIDTemplate>7</RifIDTemplate>
+<XFILE>
+<ID>3</ID>
+<Type>CSS</Type>
+<URL>GETFILE:3</URL>
+</XFILE>
+<XRISORSE>
+<RifIDTemplate>7</RifIDTemplate>
+<IDLabel>TITOLETTO</IDLabel>
+<Stringa>Lista Dati</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>7</RifIDTemplate>
+<IDLabel>SINO</IDLabel>
+<Stringa>Si-No</Stringa>
+</XRISORSE>
+</XTIPORIS>
+<XPROGTAGL_COMPLETO>
+<RifIDDoc>199282054</RifIDDoc>
+<Tagliando>Ogni 30.000 Km o una volta l&apos;anno</Tagliando>
+<TipoCtrl>FILTRI AUSILIARI</TipoCtrl>
+<Controllo>Filtro abitacolo / antipolline (se previsto)</Controllo>
+<Verifica>Sostituzione</Verifica>
+</XPROGTAGL_COMPLETO>
+<XPROGTAGL_COMPLETO>
+<RifIDDoc>199282054</RifIDDoc>
+<Tagliando>Ogni 30.000 Km o una volta l&apos;anno</Tagliando>
+<TipoCtrl>ELEMENTI ESTERNI / CARROZZERIA</TipoCtrl>
+<Controllo>Condizioni / Funzionamento Capote</Controllo>
+<Verifica>Verifica / Controllo</Verifica>
+</XPROGTAGL_COMPLETO>
+<XPROGTAGL_COMPLETO>
+<RifIDDoc>199282054</RifIDDoc>
+<Tagliando>Ogni 60.000 Km o 2 anni</Tagliando>
+<TipoCtrl>FLUIDI PER SISTEMI AUSILIARI</TipoCtrl>
+<Controllo>Liquido Freni</Controllo>
+<Verifica>Sostituzione</Verifica>
+</XPROGTAGL_COMPLETO>
+<XPROGTAGL_COMPLETO>
+<RifIDDoc>199282054</RifIDDoc>
+<Tagliando>Ogni 120.000 Km o 4 anni (Impieghi gravosi)</Tagliando>
+<TipoCtrl>COMANDO DISTRIBUZIONE</TipoCtrl>
+<Controllo>Cinghia Distribuzione</Controllo>
+<Verifica>Sostituzione</Verifica>
+</XPROGTAGL_COMPLETO>
+<XPROGTAGL_COMPLETO>
+<RifIDDoc>199282054</RifIDDoc>
+<Tagliando>Ogni 120.000 Km o 4 anni (Impieghi gravosi)</Tagliando>
+<TipoCtrl>CINGHIE E AGGREGATI</TipoCtrl>
+<Controllo>Cinghia Ausiliaria / Servizi</Controllo>
+<Verifica>Sostituzione</Verifica>
+</XPROGTAGL_COMPLETO>
+<XPROGTAGL_COMPLETO>
+<RifIDDoc>199282054</RifIDDoc>
+<Tagliando>Ogni 120.000 Km o 5 anni</Tagliando>
+<TipoCtrl>COMANDO DISTRIBUZIONE</TipoCtrl>
+<Controllo>Cinghia Distribuzione</Controllo>
+<Verifica>Sostituzione</Verifica>
+</XPROGTAGL_COMPLETO>
+<XPROGTAGL_COMPLETO>
+<RifIDDoc>199282054</RifIDDoc>
+<Tagliando>Ogni 120.000 Km o 5 anni</Tagliando>
+<TipoCtrl>CINGHIE E AGGREGATI</TipoCtrl>
+<Controllo>Cinghia Ausiliaria / Servizi</Controllo>
+<Verifica>Sostituzione</Verifica>
+</XPROGTAGL_COMPLETO>
+<XPROGTAGL_COMPLETO>
+<RifIDDoc>199282054</RifIDDoc>
+<Tagliando>A 60.000 Km o 4 anni, di seguito ogni 120.000 Km o 5 anni</Tagliando>
+<TipoCtrl>COMANDO DISTRIBUZIONE</TipoCtrl>
+<Controllo>Cinghia Distribuzione</Controllo>
+<Verifica>Verifica / Controllo</Verifica>
+</XPROGTAGL_COMPLETO>
+</XDOCUMENTO>
+</dataroot>

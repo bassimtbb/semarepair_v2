@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:13:36">
+  <XDOCUMENTO>
+    <ID>62507592</ID>
+    <DOCNumber>GUR62681</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Start-Stopp-System – Version mit Farbdisplay</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Einstellungsanleitung</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Informationen zum System</Capitolo>
+      <Corpo> &lt;BR/&gt; Das Start-Stopp-System ist eine Vorrichtung, die den Motor automatisch abschaltet, sobald das Fahrzeug zum Stillstand kommt, und ihn automatisch wieder startet, sobald der Fahrer die Fahrt fortsetzen möchte. Auf diese Weise werden der Kraftstoffverbrauch und die Schadstoffemissionen reduziert. &lt;BR/&gt; &lt;BR/&gt; Dieses System erfordert &lt;B&gt; Batterien mit einer speziellen Technologie und bestimmten technischen Eigenschaften &lt;/B&gt; , weshalb beim Austausch und bei der Wartung der Batterie besondere Sorgfalt geboten ist. Die Batterie muss nämlich dieselben Eigenschaften aufweisen wie die zu ersetzende Batterie. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Symbole</Capitolo>
+      <Corpo> &lt;BR/&gt; Anzeigen des Start-Stopp-Systems: &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; A &lt;/B&gt; – Start-Stopp-System &lt;B&gt; Aktiv &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; B &lt;/B&gt; – Start-Stopp-System &lt;B&gt; Aktiv &lt;/B&gt; &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; C &lt;/B&gt; – Start-Stopp-System &lt;B&gt; Deaktiviert &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; D &lt;/B&gt; – Anzeige &lt;B&gt; Allgemeine Störung &lt;/B&gt; (Motoröldrucksensor, Trägheitsschalter, Außenbeleuchtung, Parksensoren, Start-Stopp-System) &lt;BR/&gt; &lt;BR/&gt; Es ist außerdem möglich, &lt;B&gt; das System manuell zu deaktivieren &lt;/B&gt;, indem Sie die entsprechende Taste &lt;B&gt; (E) &lt;/B&gt; im Kombiinstrument drücken. Die Bestätigung der erfolgreichen Deaktivierung erfolgt durch das Aufleuchten der Kontrollleuchte oder des Symbols &lt;B&gt; (C) &lt;/B&gt; im Multifunktionsdisplay &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504340</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504340</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504340</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>21</Ordine>
+      <Capitolo>Aktivierung der Start-Stopp-Funktion – Motorabschaltung</Capitolo>
+      <Corpo> &lt;BR/&gt; Die Aktivierung des Start-Stopp-Systems &lt;B&gt; erfolgt erst, nachdem eine Geschwindigkeit von 10 km/h überschritten wurde &lt;/B&gt; und wenn die folgenden Bedingungen erfüllt sind: &lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; Schaltgetriebe &lt;/B&gt; &lt;BR/&gt; - Fahrzeug steht &lt;BR/&gt; - Schalthebel in Neutralstellung &lt;BR/&gt; - Kupplungspedal losgelassen &lt;BR/&gt; - Motor hat Betriebstemperatur erreicht &lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; Automatikgetriebe &lt;/B&gt; &lt;BR/&gt; - Fahrzeug steht &lt;BR/&gt; - Bremspedal betätigt / Schalthebel in Position N &lt;BR/&gt; &lt;BR/&gt; Die Bestätigung der Aktivierung des Start-Stopp-Systems wird durch das Aufleuchten der Kontrollleuchte &lt;B&gt; (A) &lt;/B&gt; oder &lt;B&gt; (B) &lt;/B&gt; im Kombiinstrument angezeigt &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>22</Ordine>
+      <Capitolo>Motor-Neustart</Capitolo>
+      <Corpo> &lt;BR/&gt; Nach dem Eingriff des Start-Stopp-Systems zum Neustart des Motors ist Folgendes erforderlich: &lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; Schaltgetriebe &lt;/B&gt; &lt;BR/&gt;&lt;BR/&gt; - Das Kupplungspedal betätigen &lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; Automatikgetriebe &lt;/B&gt; &lt;BR/&gt; - Das Bremspedal loslassen / Den Schalthebel aus der Position N in eine beliebige Fahrposition bewegen &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Funktionsstörung des Start-Stopp-Systems</Capitolo>
+      <Corpo> &lt;BR/&gt; Die Fehlfunktion des Start-Stopp-Systems ist auf eine der folgenden Ursachen zurückzuführen: &lt;BR/&gt;&lt;BR/&gt; - Motor noch nicht auf Betriebstemperatur &lt;BR/&gt; - Batterie nicht ausreichend geladen &lt;BR/&gt; - Heckscheibenheizung eingeschaltet &lt;BR/&gt; - Scheibenwischer auf höchster Stufe eingeschaltet &lt;BR/&gt; - Regeneration des Partikelfilters im Gange &lt;BR/&gt; - Fahrertür offen &lt;BR/&gt; - Sicherheitsgurt des Fahrers nicht angelegt &lt;BR/&gt; - Rückwärtsgang eingelegt &lt;BR/&gt; - Falls die automatische Klimaanlage die gewünschte Temperatur im Innenraum noch nicht erreicht hat &lt;BR/&gt; - Steigung &lt;BR/&gt; - Sehr niedrige oder sehr hohe Außentemperatur &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Automatischer Motor-Neustart</Capitolo>
+      <Corpo> &lt;BR/&gt; Das System sieht vor, den Motor unabhängig von der Entscheidung des Fahrers automatisch wieder zu starten, sobald eine der folgenden Bedingungen eintritt: &lt;BR/&gt;&lt;BR/&gt; - Aktivierung der Scheibenwischer bei maximaler Geschwindigkeit &lt;BR/&gt; - Entladene Batterie &lt;BR/&gt; - Fahrzeug in Bewegung (Steigungen) &lt;BR/&gt; - Motor seit mehr als 3 Minuten ausgeschaltet &lt;BR/&gt; - Niedriger Druck im Bremssystem &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Abklemmen der Batterie – Ausführungen mit falschem Minuspol</Capitolo>
+      <Corpo> &lt;BR/&gt; Falls die Batterie abgeklemmt werden muss, klemmen Sie das Gerät &lt;B&gt; (1) &lt;/B&gt; ab. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Klemmen Sie den Batterieüberwachungssensor (2) nicht ab. Der Sensor darf nur beim Austausch der Batterie abgeklemmt werden. &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Wenn die Batterie wieder angeschlossen wird, drehen Sie den Zündschlüssel bei geschlossener Fahrertür in die Position „STOP“ und &lt;B&gt; warten Sie mindestens 1 Minute, bis das System die Initialisierung abgeschlossen hat &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504342</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504342</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504342</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>55</Ordine>
+      <Capitolo>Abklemmen der Batterie – Ausführungen ohne falschen Minuspol</Capitolo>
+      <Corpo> &lt;BR/&gt; Falls die Batterie abgeklemmt werden muss, drücken Sie den Knopf am Stecker &lt;B&gt; (B) &lt;/B&gt; , um den Stecker zu lösen &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Klemmen Sie den Batterieüberwachungssensor (A) nicht ab. Das Abklemmen des Sensors darf nur beim Austausch der Batterie erfolgen. &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Wenn die Batterie wieder angeschlossen wird, den Zündschlüssel bei geschlossener Fahrertür in die Position „STOP“ drehen und &lt;B&gt; mindestens 1 Minute warten, bis das System die Initialisierung abgeschlossen hat &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504345</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504345</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504345</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>80</Ordine>
+      <Capitolo>Notstart</Capitolo>
+      <Corpo> &lt;BR/&gt; Sollte es erforderlich sein, eine Batterie parallel zu schalten, um eine Notstartvorgang durchzuführen, verbinden Sie &lt;B&gt; den Pluspol der Hilfsbatterie mit dem Pluspol der Fahrzeugbatterie &lt;/B&gt; und den &lt;B&gt; Minuspol mit einer beliebigen Masseverbindung am Motor &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Schließen Sie das Minuskabel der Hilfsbatterie niemals an den Minuspol der Fahrzeugbatterie an. &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>90</Ordine>
+      <Capitolo>Batterieladung – Ausführungen mit falschem Minuspol</Capitolo>
+      <Corpo> &lt;BR/&gt; Gehen Sie zum Aufladen der Batterie wie folgt vor: &lt;BR/&gt;&lt;BR/&gt; - Trennen Sie die Minusklemme mithilfe der Schnellkupplung &lt;BR/&gt; - Schließen Sie das Pluskabel des Ladegeräts an den Pluspol der Fahrzeugbatterie an &lt;BR/&gt; - Schließen Sie das Minuskabel des Ladegeräts an den Scheininuspol der Batterie an &lt;BR/&gt; - Schalten Sie das Ladegerät ein &lt;BR/&gt; - Entfernen Sie das Ladegerät nach Abschluss des Vorgangs &lt;BR/&gt; - Schließen Sie die Minusklemme wieder an &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>95</Ordine>
+      <Capitolo>Batterieladung – Ausführungen ohne falschen Minuspol</Capitolo>
+      <Corpo> &lt;BR/&gt; Gehen Sie zum Aufladen der Batterie wie folgt vor: &lt;BR/&gt;&lt;BR/&gt; - Trennen Sie den Stecker vom Batterieüberwachungssensor &lt;BR/&gt; - Schließen Sie das Pluskabel des Ladegeräts an den Pluspol der Fahrzeugbatterie an &lt;BR/&gt; - Schließen Sie das Minuskabel des Ladegeräts an den Minuspol der Fahrzeugbatterie an &lt;BR/&gt; - Schalten Sie das Ladegerät ein &lt;BR/&gt; - Entfernen Sie das Ladegerät nach Abschluss des Vorgangs &lt;BR/&gt; - Schließen Sie den Stecker wieder an &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

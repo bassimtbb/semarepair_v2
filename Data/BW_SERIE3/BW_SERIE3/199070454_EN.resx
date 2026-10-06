@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-19T22:37:18">
+  <XDOCUMENTO>
+    <ID>199070454</ID>
+    <DOCNumber>AZZ76146</DOCNumber>
+    <RifIDTipoRis>7</RifIDTipoRis>
+    <Titolo>Service Indicator Reset</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>217</RifIDFileICO>
+    <XFILE>
+      <ID>217</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:217</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>7</ID>
+      <TipoRis>AZZ</TipoRis>
+      <DscRis>Service Reset</DscRis>
+      <RifIDFileCSS>1</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>1</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:1</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199070454</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>System Information</Capitolo>
+      <Corpo> &lt;BR/&gt; The car&apos;s equipment includes a service indicator, located at the bottom of the instrument panel. &lt;BR/&gt; The indicator shows the driver icons relating to the various service items provided by the on-board computer, based on the maintenance required by the condition of the vehicle and the way it has been used. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199070454</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Adjustment - Reset</Capitolo>
+      <Corpo> &lt;BR/&gt; Once the actions indicated by the indicator have been carried out, reset the indicator by following the procedure below: &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; It is not necessary to press any pedals during the procedure. &lt;BR/&gt; &lt;LI&gt; Close the vehicle and wait for approximately 10 minutes. &lt;BR/&gt; &lt;LI&gt;  Unlock the vehicle using the remote control. &lt;BR/&gt; &lt;LI&gt; Press the engine start button 3 times in quick succession. &lt;BR/&gt; &lt;LI&gt; Press button &lt;B&gt; (1) &lt;/B&gt; (and hold it down for at least 10 seconds) to display the icon for the first service item. &lt;BR/&gt;  &lt;LI&gt; Press the &lt;B&gt; button (1) &lt;/B&gt; in short bursts to scroll through the icons for the other service items &lt;BR/&gt;  &lt;LI&gt; The display will show the item &quot;Reset executable?&quot; &lt;BR/&gt; &lt;LI&gt; Press and hold the &lt;B&gt; button (1) &lt;/B&gt; for at least 3 seconds &lt;BR/&gt;  &lt;LI&gt; The display will show the message &quot;Perform reset?&quot; &lt;BR/&gt; &lt;LI&gt; Press and hold the &lt;B&gt; button (1) &lt;/B&gt; for at least 3 seconds to reset the displayed item, repeating the operation for each of the service items concerned. &lt;BR/&gt; &lt;LI&gt; Switch off the ignition</Corpo>
+      <RifIDFileIMGANI>299003974</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299003974</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299003974</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199070454</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Warnings</Capitolo>
+      <Corpo> &lt;BR/&gt; The texts shown on the display may differ depending on the vehicle version. &lt;BR/&gt;&lt;BR/&gt; Each service item can only be reset if a condition equal to 90 per cent of the expected service life for the part concerned is detected. &lt;BR/&gt; &lt;BR/&gt; The &quot;brake service&quot; item can only be reset if the relevant wear sensor is functioning correctly. &lt;BR/&gt; &lt;BR/&gt; Before proceeding with the reset, check that the on-board clock is set to the correct time. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

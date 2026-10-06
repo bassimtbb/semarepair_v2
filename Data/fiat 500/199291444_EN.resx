@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:48:05">
+  <XDOCUMENTO>
+    <ID>199291444</ID>
+    <DOCNumber>GUP93585</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Bluetooth not working, flat battery and flashing mileage</Titolo>
+    <InfoDoc>ELECTRONICS | FLASHES | ODO METER | KM | KILOMETRES | BLUETOOTH | BLUE | ME | BATTERY | DISCHARGE | DISCHARGING | U1773 | U1733 |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199291444</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degree of reliability (*)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legend of the degree of reliability&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* low level&lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** medium level&lt;/B&gt; : Extensive fault history, found by service technicians and repairers.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** high level&lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199291444</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Infotainment &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Blue&amp;Me control unit &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt;  No Bluetooth connection, abnormal battery drain and continuous flashing of the odometer reading on the instrument panel. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errors detected by the self-diagnostic system: &lt;/B&gt; &lt;UL&gt; &lt;LI&gt; U1773 (No communication with the Convergence module) &lt;BR/&gt;  &lt;LI&gt; U1733 (Telematics module – proxy configuration) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Internal fault in the Blue&amp;Me control unit, often caused by water ingress or defects in the electronic components. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199291444</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check and, if necessary, replace the Blue&amp;Me control unit &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; We recommend carrying out the following checks: &lt;OL&gt; &lt;LI&gt; If the system is communicating correctly but the Bluetooth connection is not working: &lt;UL&gt; &lt;LI&gt; Disconnect the negative terminal of the battery for at least 10 minutes. &lt;/UL&gt; &lt;BR/&gt; &lt;LI&gt; If there is no communication with the Blue&amp;Me system and Bluetooth is not working: &lt;OL&gt; &lt;LI&gt; Carefully check the wiring and connectors of the control unit &lt;BR/&gt; &lt;LI&gt;  Check the status of fuses F36 and F51 in the fuse box located beneath the steering wheel, on the left-hand side &lt;BR/&gt; &lt;LI&gt; Check that the Blue&amp;Me control unit is receiving the correct power supply and earth connection &lt;/UL&gt; &lt;/OL&gt; &lt;BR/&gt; If none of these checks resolve the fault, proceed to replace the Blue&amp;Me control unit &lt;/OL&gt;  &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; The control unit is located behind the rear passenger side panel, on the driver’s side (near the speaker). If traces of rust are found on the control unit, it is advisable to investigate and rectify the cause of moisture ingress into the passenger compartment. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299022166</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299022166</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299022166</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

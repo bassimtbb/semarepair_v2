@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T23:40:03">
+  <XDOCUMENTO>
+    <ID>199287948</ID>
+    <DOCNumber>GUP92645</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Ausfall der Hupe und der Lenkradbedienelemente, wobei die Airbag-Warnleuchte aufleuchtet</Titolo>
+    <InfoDoc>STERZO | VOLANTE | SPIRALE | CONTATTO | ROTANTE | SPIRALATO | B1000 | U0212 | B1162 | TASTI | PULSANTI | VOLANTE | AVVISATORE | ACUSTICO | FUNZIONA | ACCESA | ACCENDE | GIALLO | GIALLA | AVARIA | CENTRO | PULSANTI | AIRBAG |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199287948</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199287948</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Lenkung &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorrichtung: &lt;/B&gt; Drehkontakt &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Störung: &lt;/B&gt; Die Hupe und alle Bedienelemente am Lenkrad funktionieren nicht, und die Airbag-Kontrollleuchte auf dem Armaturenbrett leuchtet plötzlich auf &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt; Einer oder mehrere der folgenden: &lt;UL&gt;   &lt;LI&gt; B1000 (Airbag-Aktuator – zu hoher Widerstand) &lt;BR/&gt; &lt;LI&gt; B1162 (Schalter für Schalthebelverriegelung – unplausibles Signal) &lt;BR/&gt;  &lt;LI&gt; U0212 (CAN-Datenbus, Lenksäulensteuergerät – Kommunikationsausfall) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Defekter Drehkontakt &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199287948</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Den Zustand und die ordnungsgemäße Funktion des Drehschalters überprüfen und gegebenenfalls austauschen &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt;&lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Im vorliegenden Fall erschien nach dem Austausch des Drehkontakts beim Starten des Motors auf dem Display des Kombiinstruments die Meldung „Taste des Fahrerassistenzsystems defekt“; daher wurde eine Neuprogrammierung mittels Diagnosegerät durchgeführt, um den Fehler endgültig zu beheben. &lt;BR/&gt; Das defekte Bauteil wies keine sichtbaren Mängel auf und ist vom Fahrgastraum aus unter dem Lenkrad zugänglich, nachdem das Airbag-Modul entfernt wurde. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

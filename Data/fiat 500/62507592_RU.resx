@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:13:36">
+  <XDOCUMENTO>
+    <ID>62507592</ID>
+    <DOCNumber>GUR62681</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>System Start&amp;Stop – wersja z kolorowym wyświetlaczem</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Instrukcja regulacji</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Informacje o systemie</Capitolo>
+      <Corpo> &lt;BR/&gt; System Start&amp;Stop to urządzenie, które automatycznie wyłącza silnik za każdym razem, gdy pojazd się zatrzymuje, i automatycznie go ponownie uruchamia, gdy tylko kierowca zamierza wznowić jazdę. W ten sposób następuje zmniejszenie zużycia paliwa i emisji zanieczyszczeń. &lt;BR/&gt;  &lt;BR/&gt; System ten wymaga  &lt;B&gt; akumulatorów o specjalnej technologii i określonych parametrach technicznych &lt;/B&gt; , dlatego podczas wymiany i konserwacji akumulatora należy zachować odpowiednią ostrożność. Akumulator musi bowiem posiadać takie same parametry jak ten, który jest wymieniany. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Symbolika</Capitolo>
+      <Corpo> &lt;BR/&gt; Wskaźniki systemu Start&amp;Stop: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; A &lt;/B&gt;  – System Start&amp;Stop  &lt;B&gt; Aktywny &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; B &lt;/B&gt;  – System Start&amp;Stop  &lt;B&gt; Aktywny &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; C &lt;/B&gt;  – System Start&amp;Stop  &lt;B&gt; Wyłączony &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; D &lt;/B&gt;  – Sygnalizacja  &lt;B&gt; Ogólna awaria &lt;/B&gt;   (czujnik ciśnienia oleju silnikowego, przełącznik bezwładnościowy, światła zewnętrzne, czujniki parkowania, system Start&amp;Stop) &lt;BR/&gt;  &lt;BR/&gt; Możliwe jest również  &lt;B&gt; ręczne wyłączenie systemu &lt;/B&gt;  poprzez naciśnięcie odpowiedniego przycisku  &lt;B&gt; (E) &lt;/B&gt;  znajdującego się na desce rozdzielczej. Potwierdzeniem wyłączenia jest zapalenie się kontrolki lub symbolu  &lt;B&gt; (C) &lt;/B&gt;  na wyświetlaczu wielofunkcyjnym &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504340</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504340</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504340</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>21</Ordine>
+      <Capitolo>Aktywacja systemu Start&amp;Stop – wyłączenie silnika</Capitolo>
+      <Corpo> &lt;BR/&gt; Uruchomienie systemu Start&amp;Stop  &lt;B&gt; następuje dopiero po przekroczeniu prędkości 10 km/h &lt;/B&gt;  i gdy spełnione są następujące warunki: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Manualna skrzynia biegów &lt;/B&gt;  &lt;BR/&gt; - Pojazd stoi &lt;BR/&gt; - Skrzynia biegów w pozycji neutralnej &lt;BR/&gt; - Pedał sprzęgła zwolniony &lt;BR/&gt; - Silnik osiągnął temperaturę roboczą &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Skrzynia biegów automatyczna &lt;/B&gt;  &lt;BR/&gt; - Pojazd stoi &lt;BR/&gt; - Pedał hamulca wciśnięty / Dźwignia zmiany biegów w pozycji N &lt;BR/&gt;  &lt;BR/&gt; Potwierdzeniem włączenia systemu Start&amp;Stop jest zapalenie się kontrolki  &lt;B&gt; (A) &lt;/B&gt;  lub  &lt;B&gt; (B) &lt;/B&gt;  na desce rozdzielczej &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>22</Ordine>
+      <Capitolo>Ponowne uruchomienie silnika</Capitolo>
+      <Corpo> &lt;BR/&gt; Po uruchomieniu systemu Start&amp;Stop w celu ponownego uruchomienia silnika należy: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Skrzynia biegów manualna &lt;/B&gt;  &lt;BR/&gt; - Nacisnąć pedał sprzęgła &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Skrzynia biegów automatyczna &lt;/B&gt;  &lt;BR/&gt; - Zwolnić pedał hamulca / Przesunąć dźwignię zmiany biegów z pozycji N do dowolnej pozycji jazdy &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Nieprawidłowe działanie Start&amp;Stop</Capitolo>
+      <Corpo> &lt;BR/&gt; Awaria systemu Start&amp;Stop wynika z jednej z poniższych przyczyn: &lt;BR/&gt;  &lt;BR/&gt; - Silnik nie osiągnął jeszcze odpowiedniej temperatury &lt;BR/&gt; - Akumulator nie jest wystarczająco naładowany &lt;BR/&gt; - Włączone ogrzewanie szyby tylnej &lt;BR/&gt; - Wycieraczki włączone na maksymalną prędkość &lt;BR/&gt; - Trwa regeneracja filtra cząstek stałych &lt;BR/&gt; - Otwarte drzwi kierowcy &lt;BR/&gt; - Nie zapięty pas bezpieczeństwa kierowcy &lt;BR/&gt; - Włączony bieg wsteczny &lt;BR/&gt; - Jeśli automatyczna klimatyzacja nie osiągnęła jeszcze żądanej temperatury we wnętrzu pojazdu &lt;BR/&gt; - Droga na wzniesieniu &lt;BR/&gt; - Bardzo niska lub bardzo wysoka temperatura zewnętrzna &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Automatyczny ponowny rozruch silnika</Capitolo>
+      <Corpo> &lt;BR/&gt; System przewiduje automatyczne ponowne uruchomienie silnika, niezależnie od decyzji kierowcy, w przypadku wystąpienia jednej z poniższych sytuacji: &lt;BR/&gt;  &lt;BR/&gt; - Włączenie wycieraczek na maksymalną prędkość &lt;BR/&gt; - Rozładowany akumulator &lt;BR/&gt; - Pojazd w ruchu (drogi pochyłe) &lt;BR/&gt; - Silnik wyłączony od ponad 3 minut &lt;BR/&gt; - Niskie ciśnienie w układzie hamulcowym &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Odłączenie akumulatora – wersje z fałszywym biegunem ujemnym</Capitolo>
+      <Corpo> &lt;BR/&gt; Jeśli konieczne jest odłączenie akumulatora, należy odłączyć urządzenie  &lt;B&gt; (1) &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Nie należy odłączać czujnika monitorującego akumulator (2). Odłączenie czujnika należy wykonać wyłącznie w przypadku wymiany akumulatora. &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; Po ponownym podłączeniu akumulatora należy obrócić kluczyk zapłonu do pozycji „STOP” przy zamkniętych drzwiach kierowcy i  &lt;B&gt; odczekać co najmniej 1 minutę, aż system zakończy inicjalizację &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504342</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504342</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504342</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>55</Ordine>
+      <Capitolo>Odłączenie akumulatora – wersje bez fałszywego bieguna ujemnego</Capitolo>
+      <Corpo> &lt;BR/&gt; Jeśli konieczne jest odłączenie akumulatora, należy nacisnąć przycisk znajdujący się na złączu  &lt;B&gt; (B) &lt;/B&gt;, co spowoduje odłączenie złącza &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Nie należy odłączać czujnika monitorującego akumulator (A). Odłączenie czujnika należy wykonać wyłącznie w przypadku wymiany akumulatora. &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; Po ponownym podłączeniu akumulatora należy obrócić kluczyk zapłonowy do pozycji „STOP” przy zamkniętych drzwiach kierowcy i  &lt;B&gt; odczekać co najmniej 1 minutę, aż system zakończy inicjalizację &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504345</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504345</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504345</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>80</Ordine>
+      <Capitolo>Rozruch awaryjny</Capitolo>
+      <Corpo> &lt;BR/&gt; Jeśli konieczne będzie podłączenie akumulatora równolegle w celu przeprowadzenia rozruchu awaryjnego, należy podłączyć  &lt;B&gt; dodatni zacisk akumulatora pomocniczego do dodatniego zacisku akumulatora pojazdu  &lt;/B&gt;, a  &lt;B&gt; ujemny zacisk do dowolnego punktu masy w silniku &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Nigdy nie podłączaj przewodu ujemnego akumulatora pomocniczego do bieguna ujemnego akumulatora pojazdu. &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>90</Ordine>
+      <Capitolo>Ładowanie akumulatora - Wersje z fałszywym biegunem ujemnym</Capitolo>
+      <Corpo> &lt;BR/&gt; Aby naładować akumulator, należy postępować w następujący sposób: &lt;BR/&gt;  &lt;BR/&gt; - Odłączyć zacisk ujemny za pomocą szybkozłącza &lt;BR/&gt; - Podłączyć przewód dodatni ładowarki do dodatniego bieguna akumulatora pojazdu &lt;BR/&gt; - Podłączyć przewód ujemny ładowarki do fałszywego bieguna ujemnego akumulatora &lt;BR/&gt; - Włączyć ładowarkę &lt;BR/&gt; - Po zakończeniu procedury odłączyć ładowarkę &lt;BR/&gt; - Ponownie podłączyć zacisk ujemny &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507592</RifIDDoc>
+      <Ordine>95</Ordine>
+      <Capitolo>Ładowanie akumulatora  - Wersje bez fałszywego bieguna ujemnego</Capitolo>
+      <Corpo> &lt;BR/&gt; Aby naładować akumulator, należy postępować w następujący sposób: &lt;BR/&gt;  &lt;BR/&gt; - Odłączyć złącze od czujnika monitorującego stan akumulatora &lt;BR/&gt; - Podłączyć przewód dodatni ładowarki do dodatniego bieguna akumulatora pojazdu &lt;BR/&gt; - Podłączyć przewód ujemny ładowarki do ujemnego bieguna akumulatora pojazdu &lt;BR/&gt; - Włączyć ładowarkę &lt;BR/&gt; - Po zakończeniu procedury odłączyć ładowarkę &lt;BR/&gt; - Podłączyć ponownie złącze &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

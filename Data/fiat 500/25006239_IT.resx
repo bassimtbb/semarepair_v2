@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2025-09-10T10:21:05">
+<XDOCUMENTO>
+<ID>25006239</ID>
+<DOCNumber>COP25120</DOCNumber>
+<RifIDTipoRis>24</RifIDTipoRis>
+<Titolo>Lista per Motori 169 A 4000</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>226</RifIDFileICO>
+<XFILE>
+<ID>226</ID>
+<Type>IMG</Type>
+<URL>GETFILE:226</URL>
+</XFILE>
+<XTIPORIS>
+<ID>24</ID>
+<TipoRis>COP</TipoRis>
+<DscRis>Coppie di Serraggio</DscRis>
+<RifIDFileCSS>3</RifIDFileCSS>
+<RifIDTemplate>10</RifIDTemplate>
+<XFILE>
+<ID>3</ID>
+<Type>CSS</Type>
+<URL>GETFILE:3</URL>
+</XFILE>
+<XRISORSE>
+<RifIDTemplate>10</RifIDTemplate>
+<IDLabel>COLDATO</IDLabel>
+<Stringa>Descrizione</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>10</RifIDTemplate>
+<IDLabel>TITOLETTO</IDLabel>
+<Stringa>Lista Dati</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>10</RifIDTemplate>
+<IDLabel>COLUM</IDLabel>
+<Stringa>Unità di misura</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>10</RifIDTemplate>
+<IDLabel>COLVALORE</IDLabel>
+<Stringa>Dati</Stringa>
+</XRISORSE>
+</XTIPORIS>
+<XCOPSERR>
+<RifIDDoc>25006239</RifIDDoc>
+<Gruppo>COPPIE DI SERRAGGIO</Gruppo>
+<Dato>Sequenza serraggio testata</Dato>
+<Valore>Consultare immagine</Valore>
+<UnitaMis>-</UnitaMis>
+<RifIDDocLIS>25038698</RifIDDocLIS>
+<XLINKDOCLIS>
+<ID>25038698</ID>
+<DOCNumber>LIS25523</DOCNumber>
+<URL>LINKDOC:25038698</URL>
+</XLINKDOCLIS>
+</XCOPSERR>
+<XCOPSERR>
+<RifIDDoc>25006239</RifIDDoc>
+<Gruppo>COPPIE DI SERRAGGIO</Gruppo>
+<Dato>Testata 1° fase - Serraggio</Dato>
+<Valore>30</Valore>
+<UnitaMis>Nm</UnitaMis>
+<RifIDDocLIS>0</RifIDDocLIS>
+<XLINKDOCLIS>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<URL>LINKDOC:0</URL>
+</XLINKDOCLIS>
+</XCOPSERR>
+<XCOPSERR>
+<RifIDDoc>25006239</RifIDDoc>
+<Gruppo>COPPIE DI SERRAGGIO</Gruppo>
+<Dato> Testata 2° fase - Serraggio</Dato>
+<Valore>90°</Valore>
+<UnitaMis>Gradi</UnitaMis>
+<RifIDDocLIS>0</RifIDDocLIS>
+<XLINKDOCLIS>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<URL>LINKDOC:0</URL>
+</XLINKDOCLIS>
+</XCOPSERR>
+<XCOPSERR>
+<RifIDDoc>25006239</RifIDDoc>
+<Gruppo>COPPIE DI SERRAGGIO</Gruppo>
+<Dato> Testata 3° fase - Serraggio</Dato>
+<Valore>90°</Valore>
+<UnitaMis>Gradi</UnitaMis>
+<RifIDDocLIS>0</RifIDDocLIS>
+<XLINKDOCLIS>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<URL>LINKDOC:0</URL>
+</XLINKDOCLIS>
+</XCOPSERR>
+<XCOPSERR>
+<RifIDDoc>25006239</RifIDDoc>
+<Gruppo>COPPIE DI SERRAGGIO</Gruppo>
+<Dato>Sostituzione bulloni testata</Dato>
+<Valore>No</Valore>
+<UnitaMis>-</UnitaMis>
+<RifIDDocLIS>0</RifIDDocLIS>
+<XLINKDOCLIS>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<URL>LINKDOC:0</URL>
+</XLINKDOCLIS>
+</XCOPSERR>
+<XCOPSERR>
+<RifIDDoc>25006239</RifIDDoc>
+<Gruppo>COPPIE DI SERRAGGIO</Gruppo>
+<Dato>Cuscinetti banco 1° fase - Serraggio</Dato>
+<Valore>20</Valore>
+<UnitaMis>Nm</UnitaMis>
+<RifIDDocLIS>0</RifIDDocLIS>
+<XLINKDOCLIS>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<URL>LINKDOC:0</URL>
+</XLINKDOCLIS>
+</XCOPSERR>
+<XCOPSERR>
+<RifIDDoc>25006239</RifIDDoc>
+<Gruppo>COPPIE DI SERRAGGIO</Gruppo>
+<Dato> Cuscinetti banco 2° fase - Serraggio</Dato>
+<Valore>90°</Valore>
+<UnitaMis>Gradi</UnitaMis>
+<RifIDDocLIS>0</RifIDDocLIS>
+<XLINKDOCLIS>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<URL>LINKDOC:0</URL>
+</XLINKDOCLIS>
+</XCOPSERR>
+<XCOPSERR>
+<RifIDDoc>25006239</RifIDDoc>
+<Gruppo>COPPIE DI SERRAGGIO</Gruppo>
+<Dato>Sostituzione bulloni cuscinetti banco</Dato>
+<Valore>No</Valore>
+<UnitaMis>-</UnitaMis>
+<RifIDDocLIS>0</RifIDDocLIS>
+<XLINKDOCLIS>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<URL>LINKDOC:0</URL>
+</XLINKDOCLIS>
+</XCOPSERR>
+<XCOPSERR>
+<RifIDDoc>25006239</RifIDDoc>
+<Gruppo>COPPIE DI SERRAGGIO</Gruppo>
+<Dato>Cappelli cuscinetti biella 1° fase - Serraggio</Dato>
+<Valore>20</Valore>
+<UnitaMis>Nm</UnitaMis>
+<RifIDDocLIS>0</RifIDDocLIS>
+<XLINKDOCLIS>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<URL>LINKDOC:0</URL>
+</XLINKDOCLIS>
+</XCOPSERR>
+<XCOPSERR>
+<RifIDDoc>25006239</RifIDDoc>
+<Gruppo>COPPIE DI SERRAGGIO</Gruppo>
+<Dato> Cappelli cuscinetti biella 2° fase - Serraggio</Dato>
+<Valore>40°</Valore>
+<UnitaMis>Gradi</UnitaMis>
+<RifIDDocLIS>0</RifIDDocLIS>
+<XLINKDOCLIS>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<URL>LINKDOC:0</URL>
+</XLINKDOCLIS>
+</XCOPSERR>
+<XCOPSERR>
+<RifIDDoc>25006239</RifIDDoc>
+<Gruppo>COPPIE DI SERRAGGIO</Gruppo>
+<Dato>Sostituzione bulloni cappelli cuscinetti biella</Dato>
+<Valore>No</Valore>
+<UnitaMis>-</UnitaMis>
+<RifIDDocLIS>0</RifIDDocLIS>
+<XLINKDOCLIS>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<URL>LINKDOC:0</URL>
+</XLINKDOCLIS>
+</XCOPSERR>
+<XCOPSERR>
+<RifIDDoc>25006239</RifIDDoc>
+<Gruppo>COPPIE DI SERRAGGIO</Gruppo>
+<Dato>Bullone puleggia albero motore (centrale)</Dato>
+<Valore>19-21 Nm e di 90°</Valore>
+<UnitaMis>Nm</UnitaMis>
+<RifIDDocLIS>0</RifIDDocLIS>
+<XLINKDOCLIS>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<URL>LINKDOC:0</URL>
+</XLINKDOCLIS>
+</XCOPSERR>
+<XCOPSERR>
+<RifIDDoc>25006239</RifIDDoc>
+<Gruppo>COPPIE DI SERRAGGIO</Gruppo>
+<Dato>Bulloni volano</Dato>
+<Valore>15 Nm e di 40°</Valore>
+<UnitaMis>Nm</UnitaMis>
+<RifIDDocLIS>0</RifIDDocLIS>
+<XLINKDOCLIS>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<URL>LINKDOC:0</URL>
+</XLINKDOCLIS>
+</XCOPSERR>
+<XCOPSERR>
+<RifIDDoc>25006239</RifIDDoc>
+<Gruppo>COPPIE DI SERRAGGIO</Gruppo>
+<Dato>Sostituzione bulloni volano</Dato>
+<Valore>Consigliata - (SOSTITUZIONE DADI)</Valore>
+<UnitaMis>-</UnitaMis>
+<RifIDDocLIS>0</RifIDDocLIS>
+<XLINKDOCLIS>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<URL>LINKDOC:0</URL>
+</XLINKDOCLIS>
+</XCOPSERR>
+<XCOPSERR>
+<RifIDDoc>25006239</RifIDDoc>
+<Gruppo>COPPIE DI SERRAGGIO</Gruppo>
+<Dato>Bulloni spingidisco frizione</Dato>
+<Valore>14</Valore>
+<UnitaMis>Nm</UnitaMis>
+<RifIDDocLIS>0</RifIDDocLIS>
+<XLINKDOCLIS>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<URL>LINKDOC:0</URL>
+</XLINKDOCLIS>
+</XCOPSERR>
+<XCOPSERR>
+<RifIDDoc>25006239</RifIDDoc>
+<Gruppo>COPPIE DI SERRAGGIO</Gruppo>
+<Dato>Cappellotti albero a camme</Dato>
+<Valore>20 - (M6 a 9 Nm)</Valore>
+<UnitaMis>Nm</UnitaMis>
+<RifIDDocLIS>0</RifIDDocLIS>
+<XLINKDOCLIS>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<URL>LINKDOC:0</URL>
+</XLINKDOCLIS>
+</XCOPSERR>
+<XCOPSERR>
+<RifIDDoc>25006239</RifIDDoc>
+<Gruppo>COPPIE DI SERRAGGIO</Gruppo>
+<Dato>Collettore aspirazione verso testata</Dato>
+<Valore>24-28</Valore>
+<UnitaMis>Nm</UnitaMis>
+<RifIDDocLIS>0</RifIDDocLIS>
+<XLINKDOCLIS>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<URL>LINKDOC:0</URL>
+</XLINKDOCLIS>
+</XCOPSERR>
+<XCOPSERR>
+<RifIDDoc>25006239</RifIDDoc>
+<Gruppo>COPPIE DI SERRAGGIO</Gruppo>
+<Dato>Collettore di scarico verso testata</Dato>
+<Valore>9-11 Nm e di 58°-62°</Valore>
+<UnitaMis>Nm</UnitaMis>
+<RifIDDocLIS>0</RifIDDocLIS>
+<XLINKDOCLIS>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<URL>LINKDOC:0</URL>
+</XLINKDOCLIS>
+</XCOPSERR>
+</XDOCUMENTO>
+</dataroot>

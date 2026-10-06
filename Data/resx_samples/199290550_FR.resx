@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:47:48">
+  <XDOCUMENTO>
+    <ID>199290550</ID>
+    <DOCNumber>GUP93450</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Avertissement « La pression d'huile moteur est insuffisante »</Titolo>
+    <InfoDoc>INJECTION | 2B7800 | 2B7C00 | 2BE800 | MESSAGE | INDICATION | AVERTISSEMENT | VÉHICULES | NEUFS | PÉRIODES | IMMOBILISATION | PROLONGÉE | COUPELLE | TUYAU | ASPIRATION | TEMPÉRATURE | CÁRBONATATION | CÁRBONATATIONS | FILTRE | FILET | OBTURÉ | OBSTRUÉ | EN</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199290550</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199290550</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / du défaut</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Validité : &lt;/B&gt; &lt;BR/&gt; &lt;UL&gt; &lt;LI&gt; Véhicules équipés d&apos;un groupe motopropulseur XD5141O0 &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Véhicules neufs, ayant subi des périodes d’immobilisation supérieures à 120 jours et dans lesquels la température de l’huile moteur n’a jamais dépassé 85 °C &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Pompe à huile moteur &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Avertissement « La pression d&apos;huile moteur est insuffisante » &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; &lt;BR/&gt; &lt;UL&gt; &lt;LI&gt; 2B7800 (Soupape de régulation de la pression d&apos;huile, plausibilité : défaillance mécanique (pression d&apos;huile trop faible)) &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; 2B7C00 (Régulation de la pression d&apos;huile : pression insuffisante) &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; 2BE800 (Système de pression d&apos;huile : réduction du couple due à un refroidissement insuffisant des pistons (pression d&apos;huile trop faible) &lt;/UL&gt;  &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; La formation de boues dans le carter ou dans le tuyau d&apos;aspiration peut obstruer le filtre à mailles, réduisant ainsi l&apos;aspiration de la pompe et entraînant une baisse de la pression d&apos;huile &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199290550</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Accéder à la fonction d’assistance « Traitement de l’huile moteur » à l’aide de l’outil de diagnostic : &lt;BR/&gt; &lt;OL&gt;   &lt;LI&gt; En l’absence de boue, la fonction s’exécute automatiquement : à l’arrêt du véhicule, la température de l’huile moteur est augmentée pour prévenir la formation de boue, tandis que la pression d’huile est surveillée. Si la température de l’huile dépasse 85 °C et que la pression est normale, le problème est résolu. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; En présence de boues, la fonction s&apos;interrompt automatiquement et le remplacement de la pompe à huile moteur est nécessaire &lt;/OL&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

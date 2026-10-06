@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:26:20">
+  <XDOCUMENTO>
+    <ID>75000520</ID>
+    <DOCNumber>DES75007</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Marelli-Einspritzanlage IAW 5SF8 – Euro 4</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Beschreibung Anlage</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Beschreibung</Capitolo>
+      <Corpo>Das Steuergerät befindet sich im Motorraum. &lt;BR/&gt; &lt;BR/&gt; Die Diagnosesteckdose ist ein einheitlicher 16-poliger Stecker (EOBD) und befindet sich im Fahrgastraum unter dem Armaturenbrett auf der Fahrerseite. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Technische Parameter</Capitolo>
+      <Corpo>Das Steuergerät verwaltet alle charakteristischen Parameter der Benzineinspritzung, darunter die folgenden: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Motordrehzahl &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Motortemperatur &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Batteriespannung &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; …………………  &lt;BR/&gt; &lt;BR/&gt; Insbesondere sind auch die folgenden Parameter hervorzuheben: &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Berechnete Zündvorverstellung &lt;/B&gt; &lt;BR/&gt; Gibt den vom Steuergerät berechneten Wert der Zündvorverstellung an, um die Betriebsbedingungen des Motors zu erfüllen. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Lambda-Integrator &lt;/B&gt; &lt;BR/&gt; Dies ist die vom Steuergerät vorgenommene Korrektur der Kraftstoffmenge, um das richtige Luft-Kraftstoff-Verhältnis zu erreichen. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Sollgeschwindigkeit des Tempomats &lt;/B&gt; &lt;BR/&gt; Zeigt die Geschwindigkeit an, auf die sich der „CRUISE CONTROL“ als Reisegeschwindigkeit des Fahrzeugs bezieht. Der Wert ist nur bei einer Fahrzeuggeschwindigkeit von über 30 km/h zuverlässig. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Fehler</Capitolo>
+      <Corpo>Das Steuergerät verfügt über einen permanenten Fehlerspeicher und speichert die Umgebungsparameter zum Zeitpunkt des Auftretens des Fehlers. &lt;BR/&gt; &lt;BR/&gt; Diese werden zusammen mit einer entsprechenden Statusmeldung angezeigt: &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Aktiver Fehler &lt;/B&gt; &lt;BR/&gt; Der Fehler wird derzeit erkannt &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Gespeicherter Fehler &lt;/B&gt; &lt;BR/&gt; Der Fehler wurde bereits im Speicher erfasst, die Störung liegt derzeit jedoch nicht vor. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Löschen von Fehlern &lt;/B&gt; &lt;BR/&gt; Dies erfolgt nur mit Zustimmung des Bedieners, der den Fehler über die Löschtaste löscht &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Aktive Diagnosen</Capitolo>
+      <Corpo>Im Bereich „Aktive Diagnosen“ werden folgende Geräte angesteuert: &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Klimakompressor &lt;/B&gt; &lt;BR/&gt; Das Relais der Klimaanlage wird für etwa zehn Sekunden aktiviert. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Spule 1-2-3-4 &lt;/B&gt;  &lt;BR/&gt; Die AT-Spulen werden separat angesteuert. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Kraftstoffpumpenrelais &lt;/B&gt; &lt;BR/&gt; Das Kraftstoffpumpenrelais wird aktiviert. &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Einspritzdüse 1-2-3-4 &lt;/B&gt; &lt;BR/&gt; Die Einspritzdüsen werden einzeln betätigt &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Lüfter 1. und 2. Stufe &lt;/B&gt; &lt;BR/&gt; Die Lüfter werden einzeln betätigt &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Heizelement der Lambdasonde 1 (vor der Drosselklappe) und 1 (hinter der Drosselklappe) &lt;/B&gt; &lt;BR/&gt; Das Heizelement im Inneren der Lambdasonde wird angesteuert. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Magnetventil des Aktivkohlebehälters &lt;/B&gt; &lt;BR/&gt; Es wird für etwa zehn Sekunden betätigt. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Steuerung der Fehlerleuchte &lt;/B&gt; &lt;BR/&gt; Sie wird für etwa zehn Sekunden betätigt. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; VVT (Phasenversteller) &lt;/B&gt; &lt;BR/&gt; Bei Aktivierung sollte ein Ticken des Bauteils zu hören sein.</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>6</Ordine>
+      <Capitolo>Einstellungen</Capitolo>
+      <Corpo>Folgende Einstellungen sind möglich: &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Starten mit der Code-Karte &lt;/B&gt; &lt;BR/&gt; Mit Hilfe der Code-Karte des Fahrzeugs kann der Motor gestartet werden, falls der Schlüssel oder die elektronische Schlüsselsteuerung/der Bordcomputer (falls vorhanden) ausgefallen ist. &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Speichern der Drosselklappen-Einlernung &lt;/B&gt; &lt;BR/&gt; Das Einlernen der motorisierten Drosselklappe wird gespeichert. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Zurücksetzen der Einlernung des Drehzahlsensors &lt;/B&gt; &lt;BR/&gt; Dies ist jedes Mal durchzuführen, wenn Eingriffe am Drehzahlsensor vorgenommen werden. &lt;BR/&gt; Hinweis: Führen Sie zuvor das Zurücksetzen der selbstanpassenden Parameter durch. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Zurücksetzen der selbstanpassenden Parameter &lt;/B&gt; &lt;BR/&gt; Die werkseitig eingestellten Werte werden in den Kennfeldern des Steuergeräts wiederhergestellt &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Löschen der Fahrzeugkonfiguration &lt;/B&gt; &lt;BR/&gt; Löscht die Konfiguration: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Getriebetyp &lt;BR/&gt; &lt;LI&gt; Klimaanlagentyp &lt;BR/&gt; &lt;LI&gt; Tempomat &lt;BR/&gt; &lt;LI&gt; ABS &lt;BR/&gt;  &lt;LI&gt; Elektrische Lenkung &lt;BR/&gt; &lt;BR/&gt;, damit das Steuergerät die neue Konfiguration neu erlernt. &lt;BR/&gt; Hinweis: Nur bei Fehlern in der Konfiguration oder beim Einbau von nicht werkseitig eingestellten Steuergeräten durchführen. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Zurücksetzen der Nockenflanken (VVT) &lt;/B&gt;  &lt;BR/&gt; Die Daten im Steuergerät, die sich auf die Nockenflanken des Phasenverstellers beziehen, werden zurückgesetzt. &lt;BR/&gt; Beim ersten Motorstart nach diesem Zurücksetzen werden die neuen Werte automatisch eingelesen. &lt;BR/&gt; &lt;BR/&gt; Hinweis: Nur durchführen, wenn Eingriffe an der Komponente vorgenommen werden oder das Steuergerät ausgetauscht wird. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

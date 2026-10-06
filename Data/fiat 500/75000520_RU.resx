@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:26:20">
+  <XDOCUMENTO>
+    <ID>75000520</ID>
+    <DOCNumber>DES75007</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Układ wtryskowy Marelli IAW 5SF8 – Euro 4</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Opis układu</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Opis</Capitolo>
+      <Corpo>Moduł sterujący znajduje się w komorze silnika.  &lt;BR/&gt;  &lt;BR/&gt; Gniazdo diagnostyczne jest typu ujednoliconego, 16-pinowego (EOBD) i znajduje się we wnętrzu pojazdu pod deską rozdzielczą po stronie kierowcy. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Parametry techniczne</Capitolo>
+      <Corpo>Moduł sterujący zarządza wszystkimi parametrami charakterystycznymi dla wtrysku benzyny, takimi jak: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Obroty silnika &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Temperatura silnika &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Napięcie akumulatora &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; …………………  &lt;BR/&gt;  &lt;BR/&gt; W szczególności należy zwrócić uwagę na następujące parametry: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Obliczony wyprzedzenie zapłonu &lt;/B&gt;  &lt;BR/&gt; Wskazuje wartość wyprzedzenia zapłonu obliczoną przez sterownik w celu spełnienia warunków pracy silnika. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Integrator lambda &lt;/B&gt;  &lt;BR/&gt; Jest to korekta ilości paliwa wprowadzana przez moduł sterujący w celu uzyskania prawidłowego stosunku powietrza do paliwa. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Prędkość docelowa tempomatu &lt;/B&gt;  &lt;BR/&gt; Wskazuje prędkość, którą „CRUISE CONTROL” traktuje jako prędkość przelotową pojazdu. Wartość ta jest wiarygodna tylko przy prędkości pojazdu powyżej 30 km/h. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Błędy</Capitolo>
+      <Corpo>Moduł sterujący jest wyposażony w stałą pamięć błędów i zapisuje parametry środowiskowe w momencie wystąpienia błędu. &lt;BR/&gt;  &lt;BR/&gt; Są one sygnalizowane wraz z informacją o ich stanie: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Błąd aktywny &lt;/B&gt;  &lt;BR/&gt; Błąd jest obecnie wykryty &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Błąd zapisany &lt;/B&gt;  &lt;BR/&gt; Błąd, który został już zapisany w pamięci, a usterka nie występuje obecnie. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Kasowanie błędu/błędów &lt;/B&gt;  &lt;BR/&gt; Odbywa się wyłącznie za zgodą operatora, który kasuje błąd za pomocą przycisku kasowania &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Diagnozy aktywne</Capitolo>
+      <Corpo>W środowisku „Diagnosi Attive” sterowane są następujące urządzenia: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Sprężarka klimatyzacji &lt;/B&gt;  &lt;BR/&gt; Przekaźnik klimatyzacji jest aktywowany na około dziesięć sekund. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Cewki 1-2-3-4 &lt;/B&gt;  &lt;BR/&gt; Cewki AT są sterowane oddzielnie. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Przekaźnik pompy paliwa &lt;/B&gt;  &lt;BR/&gt; Przekaźnik pompy paliwa zostaje aktywowany. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Wtryskiwacze 1-2-3-4 &lt;/B&gt;   &lt;BR/&gt; Wtryskiwacze są uruchamiane pojedynczo &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Wentylator 1. i 2. prędkość &lt;/B&gt;  &lt;BR/&gt; Wentylatory są uruchamiane pojedynczo  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Rezystor grzewczy sondy lambda 1 przed katalizatorem i 1 za katalizatorem &lt;/B&gt;  &lt;BR/&gt; Sterowany jest element grzewczy wewnątrz sondy lambda. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Elektrozawór kanistra &lt;/B&gt;  &lt;BR/&gt; Jest uruchamiany na około dziesięć sekund. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Sterowanie lampką awarii &lt;/B&gt;  &lt;BR/&gt; Jest uruchamiane na około dziesięć sekund. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; VVT (regulator fazy rozrządu) &lt;/B&gt;  &lt;BR/&gt; Po uruchomieniu powinno być słychać, jak element ten wydaje charakterystyczne stukanie.</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000520</RifIDDoc>
+      <Ordine>6</Ordine>
+      <Capitolo>Regulacje</Capitolo>
+      <Corpo>Możliwe są następujące regulacje: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Uruchamianie za pomocą karty kodowej &lt;/B&gt;  &lt;BR/&gt; Korzystając z karty kodowej samochodu, można uruchomić silnik w przypadku awarii kluczyka lub elektronicznego modułu sterującego kluczyka/komputera pokładowego (jeśli jest obecny). &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Zapisanie kalibracji przepustnicy &lt;/B&gt;  &lt;BR/&gt; Przeprowadzane jest zapisanie kalibracji przepustnicy z serwomotorem. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Resetowanie kalibracji koła czujnikowego &lt;/B&gt;  &lt;BR/&gt; Należy wykonać za każdym razem, gdy przeprowadzana jest ingerencja w koło czujnikowe lub czujnik obrotów  &lt;BR/&gt; Uwaga: Najpierw należy zresetować parametry samodopasowujące. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Resetowanie parametrów samodopasowujących &lt;/B&gt;  &lt;BR/&gt; W mapach sterownika przywracane są wartości fabryczne &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Kasowanie konfiguracji pojazdu &lt;/B&gt;  &lt;BR/&gt; Kasuje konfigurację: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Rodzaj skrzyni biegów &lt;BR/&gt;  &lt;LI&gt; Rodzaj klimatyzacji &lt;BR/&gt;  &lt;LI&gt; Tempomat &lt;BR/&gt;  &lt;LI&gt; ABS &lt;BR/&gt;  &lt;LI&gt; Elektryczny układ kierowniczy &lt;BR/&gt;  &lt;BR/&gt; w celu ponownego zaprogramowania sterownika z nową konfiguracją.  &lt;BR/&gt; Uwaga: Należy wykonać tylko w przypadku błędów w konfiguracji lub w przypadku montażu sterowników, które nie są fabrycznie nowe. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Resetowanie frontów krzywek (VVT) &lt;/B&gt;  &lt;BR/&gt; Dane dotyczące frontów krzywek regulatora fazy w sterowniku są zerowane.  &lt;BR/&gt; Podczas pierwszego uruchomienia silnika po tym zerowaniu nowe wartości są automatycznie zapamiętywane. &lt;BR/&gt;  &lt;BR/&gt; Uwaga: Czynność tę należy wykonać w przypadku ingerencji w ten element lub wymiany sterownika. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

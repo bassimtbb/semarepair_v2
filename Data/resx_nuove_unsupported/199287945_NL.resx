@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T12:02:00">
+  <XDOCUMENTO>
+    <ID>199287945</ID>
+    <DOCNumber>GUP92642</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Af en toe kunnen oneven versnellingen niet worden ingeschakeld, waarbij het motorstoringslampje gaat</Titolo>
+    <InfoDoc>CAMBIO | ELETTRONICA | CENTRALINA | MECCATRONICA | CAMBIO | AUTOMATICO | P1735 | P0562 | INSERISCONO | INSERISCE | PRIMA | TERZA | QUINTA | SETTIMA | ACCENDE | ACCESA | MIL | GIALLO | GIALLA | PARTE | MARCIA | PASSA | DSG7 | S-TRONIC | 0GC |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparatiehandleiding</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199287945</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Betrouwbaarheidsgraad   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda van de betrouwbaarheidsgraad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * laag niveau &lt;/B&gt; : Vastgesteld door de autoreparateur, storingsgeval niet bevestigd door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** gemiddeld niveau &lt;/B&gt; : Veelvoorkomende storingsgevallen, vastgesteld door servicetechnici en reparateurs. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** hoog niveau &lt;/B&gt; : Bevestigde storing, hoge mate van &quot;herhaalbaarheid&quot; gemeld door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199287945</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificatie van het systeem/de storing</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Geldigheid: &lt;/B&gt;  Voertuigen uitgerust met een DSG7 S-Tronic-versnellingsbak met 7 versnellingen (Volkswagen 0GC-versnellingsbak met dubbele koppeling) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Systeem: &lt;/B&gt;  Versnellingsbak &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Onderdeel: &lt;/B&gt;  Meccatronische regeleenheid van de automatische versnellingsbak &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Storing: &lt;/B&gt;  De motor heeft moeite met het inschakelen van oneven versnellingen, waarbij het motorstoringslampje gaat branden; bij het wegrijden vanuit de tweede versnelling schakelt de versnellingsbak direct naar de vierde. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Door de zelfdiagnose gedetecteerde fouten: &lt;/B&gt;  &lt;UL&gt;   &lt;LI&gt;  P1735 (Koppelingspositiesensor A – Fout) &lt;BR/&gt;  &lt;LI&gt;  P0562 (Brandstofsysteem/accu – Te lage spanning) &lt;/UL&gt;  &lt;LI&gt;  &lt;B&gt; Oorzaak: &lt;/B&gt;  De mechatronische regeleenheid van de automatische versnellingsbak is defect &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199287945</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparatieprocedure</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Ingreep: &lt;/B&gt;  Controleer de werking van de mechatronische regeleenheid van de automatische versnellingsbak en voer indien nodig een reparatie uit &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedure: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Opmerking: &lt;/B&gt;  De mechatronische regeleenheid van de versnellingsbak vertoonde geen zichtbare afwijkingen en is toegankelijk vanaf de onderkant van de motorruimte, aan de bestuurderszijde tussen de motor en de radiator, binnenin de versnellingsbak zelf. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

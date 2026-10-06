@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-10T23:52:57">
+  <XDOCUMENTO>
+    <ID>199315613</ID>
+    <DOCNumber>GUP99288</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Rear window and heated mirrors not working; S&amp;S not available</Titolo>
+    <InfoDoc>ELETTRONICA | RAFFREDDAMENTO | TUBO REFRIGERANTE | PERDITA REFRIGERANTE | PERDE | LIQUIDO REFRIGERANTE | INVERTER | SURRISCALDA | DANNI MOTORE | DANNI CAMBIO | ACQUA | PERDITA | GOCCE | GOCCIA | TRACCIA | TERRA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199315613</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Reliability rating (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legend of the degree of reliability &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * low level &lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Extensive fault history, found by service technicians and repairers. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** high level &lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199315613</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System / fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Applicability: &lt;/B&gt; All vehicles fitted with an Intelligent Battery Sensor (IBS) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Electrical system / battery management &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Intelligent Battery Sensor (IBS) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt;  The vehicle may display low or incorrect battery State of Charge (SOC) and State of Health (SOH) values, as detected by the IBS sensor, resulting in the rear window and heated mirrors failing to operate and the Start&amp;Stop function being deactivated. This condition occurs in particular following the disconnection of the IBS sensor from the negative terminal of the battery or the signal connector, which causes it to reset. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Errors detected by the self-diagnostic system: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Resetting the IBS component, caused by disconnecting it from the negative terminal of the battery or from the signal connector, results in the loss of calibration parameters. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199315613</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Recalibrate the IBS sensor. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt;  &lt;LI&gt; Reconnect the IBS sensor correctly (battery negative terminal and signal connector). &lt;BR/&gt; &lt;LI&gt; Carry out 3 complete ignition cycles in the following sequence: ignition OFF – ignition ON – engine start – ignition OFF. &lt;BR/&gt;  &lt;LI&gt; Lock the vehicle using the remote control and wait at least 4 hours in deep sleep mode to allow the IBS component to complete recalibration. &lt;BR/&gt;  &lt;LI&gt; Once the waiting period is over, check that the signal connector and the power connector are securely fastened. &lt;BR/&gt; &lt;LI&gt; If, after 4 hours in sleep mode, low SOC or SOH values persist, investigate the battery’s condition further and recharge it using a battery charger. &lt;BR/&gt;  &lt;LI&gt; Whilst charging, connect the positive terminal of the charger to the positive terminal of the battery (or to the CBA) and the negative terminal to the Radsok pin, taking care not to bypass the IBS sensor. &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299025983</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299025983</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299025983</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:47:27">
+  <XDOCUMENTO>
+    <ID>199298127</ID>
+    <DOCNumber>GUP94858</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Prawe przednie i lewe tylne koło pozostają zablokowane</Titolo>
+    <InfoDoc>ABS | GRUPPO | ANTI | LOCK | SISTEM | RIMANE | FRENATA | FRENATO | SINISTRO | SINISTRA | DESTRO | DESTRA | GOMMA | RUOTA | RIMANGONO | FRENATE | FRENATO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199298127</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Stopień wiarygodności   (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Legenda stopnia wiarygodności &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  * niski poziom &lt;/B&gt;  : Informacja od mechanika samochodowego, przypadek usterki nieodnotowany przez producenta. &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  ** poziom średni &lt;/B&gt;  : Szeroko opisany przypadek usterki, odnotowany przez techników serwisowych i mechaników. &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  *** poziom wysoki &lt;/B&gt;  : Pewność wystąpienia usterki, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199298127</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Układ: &lt;/B&gt;  ABS &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Urządzenie: &lt;/B&gt;  Zespół hydrauliczny ABS &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Usterka: &lt;/B&gt;  W pojeździe przednie prawe i tylne lewe koło pozostają stale zablokowane podczas hamowania, co utrudnia ruch pojazdu &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Błędy wykryte przez autodiagnostykę: &lt;/B&gt;  C10A3 &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Przyczyna: &lt;/B&gt;  Nieprawidłowe działanie układu ABS &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199298127</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Czynność: &lt;/B&gt;  Sprawdzić prawidłowe działanie zespołu hydraulicznego ABS i w razie potrzeby przeprowadzić jego naprawę/wymianę &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Procedura: &lt;/B&gt;  - -  &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Uwaga: &lt;/B&gt;  W omawianym przypadku usterka została ostatecznie usunięta po naprawie zespołu hydraulicznego ABS. &lt;BR&gt; Element ten znajduje się w komorze silnika, po stronie pasażera, pomiędzy silnikiem a kabiną pasażerską. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

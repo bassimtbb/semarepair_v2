@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T16:05:23">
+  <XDOCUMENTO>
+    <ID>199309024</ID>
+    <DOCNumber>GUP97233</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>AdBlue system fault indication with engine warning light on and SCR error message</Titolo>
+    <InfoDoc>INIEZIONE | ADBLUE | SCR | SPIA MOTORE | AVARIA | SISTEMA ADDITIVAZIONE | DDE | CENTRALINA MOTORE | AGGIORNAMENTO | SOFTWARE | 8052DF | 8052D2 | 2C3000 | UPDATE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199309024</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Level of reliability (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Reliability level key &lt;BR&gt;&lt;BR&gt; &lt;B&gt; * low level &lt;/B&gt; : Reported by a garage mechanic; fault case not recorded by the manufacturer. &lt;BR&gt;&lt;BR&gt;  &lt;B&gt; ** medium level &lt;/B&gt; : Widespread occurrence of the fault, confirmed by service technicians and independent repairers. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** high level &lt;/B&gt; : Confirmed fault, with a high degree of ‘recurrence’ reported by the manufacturer. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309024</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System / fault identification</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Injection &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; DDE engine control unit &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; An AdBlue system malfunction warning appears, accompanied by the engine warning light coming on and an error message relating to the exhaust after-treatment system. &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Errors detected by the self-diagnostic system: &lt;/B&gt; &lt;UL&gt; &lt;LI&gt; 2C3000 (SCR system, diagnostic feedback: error status transmitted from the SCR control unit to the DDE) &lt;BR&gt;  &lt;LI&gt; 8052D2 (AdBlue tank) &lt;BR&gt; &lt;LI&gt; 8052DF (AdBlue system DC requirement: faulty AdBlue system) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Inadequate control unit software &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309024</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Carry out the software update for the engine control unit. &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Notes: &lt;/B&gt; Using a diagnostic tool, also check that all related systems are functioning correctly. If there are any DTCs or symptomatic conditions other than those listed, resolve them before proceeding with this bulletin. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

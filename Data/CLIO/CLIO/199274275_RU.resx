@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:40:49">
+  <XDOCUMENTO>
+    <ID>199274275</ID>
+    <DOCNumber>GUP89937</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Błąd „niski poziom AdBlue”, którego nie da się usunąć poprzez uzupełnienie zbiornika</Titolo>
+    <InfoDoc>INIEZIONE | P0607-51 | P14A3-96 | ADBLUE | MODULO DOSAGGIO | SENSORE QUALITÀ | ANOMALIA LIVELLO | INIETTORE | SERBATOIO | QUANTITà | FAP | DPF | PARTICOLATO | ANTIPARTICOLATO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199274275</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Stopień wiarygodności   (**)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda stopnia wiarygodności &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niski poziom &lt;/B&gt; : Wykryte przez mechanika samochodowego, przypadek usterki niepotwierdzony przez producenta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** średni poziom &lt;/B&gt; : Częste przypadki usterki, potwierdzone przez techników serwisowych i mechaników. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** wysoki poziom &lt;/B&gt; : Potwierdzona anomalia, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199274275</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Zastosowanie: &lt;/B&gt;  Wszystkie pojazdy  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Układ: &lt;/B&gt;  Ograniczenie emisji zanieczyszczeń &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Urządzenie: &lt;/B&gt;  Układ AdBlue  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Usterka: &lt;/B&gt;  Wyświetlacz sygnalizuje błąd niskiego poziomu AdBlue, który nie ustępuje po napełnieniu zbiornika &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Błędy wykryte przez autodiagnostykę: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Przyczyna: &lt;/B&gt;  Problem wynika z nieprawidłowego działania modułu dozującego AdBlue lub czujnika poziomu. Nawet przy pełnym zbiorniku system nie rozpoznaje prawidłowego poziomu, błędnie wskazując konieczność uzupełnienia AdBlue &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199274275</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Czynność: &lt;/B&gt;  Sprawdzić prawidłowe działanie zbiornika i wtryskiwacza AdBlue oraz, w razie potrzeby,  przeprowadzić wymianę &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedura: &lt;/B&gt;  &lt;UL&gt;   &lt;LI&gt;  Sprawdzić  poziom płynu AdBlue i w razie potrzeby uzupełnić &lt;BR/&gt;  &lt;LI&gt;  Wyczyścić wtryskiwacz AdBlue i sprawdzić jego prawidłowe działanie &lt;BR/&gt;  &lt;LI&gt;  Jeśli wtryskiwacz jest czysty, ale płyn nie dociera pod ciśnieniem, należy wymienić zbiornik AdBlue (wraz z modułem dozującym) &lt;BR/&gt; Po wymianie zbiornika pojawi się kod usterki  &lt;I&gt; „P0607-51 – Brak programowania” &lt;/I&gt; ; oznacza to, że konieczne jest przeprogramowanie modułu sterującego. &lt;/UL&gt;  &lt;LI&gt;  &lt;B&gt; Uwaga: &lt;/B&gt;  Jeśli po zakończeniu regulacji pojawi się błąd  &lt;I&gt; „P14A3-96 Czujnik jakości AdBlue/DEF – usterka wewnętrzna” &lt;/I&gt; , oznacza to, że moduł znajdujący się w zbiorniku nie jest w pełni kompatybilny z poprzednio zainstalowanym. W takim przypadku konieczne jest przeprogramowanie nowego modułu za pomocą sprzętu diagnostycznego &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

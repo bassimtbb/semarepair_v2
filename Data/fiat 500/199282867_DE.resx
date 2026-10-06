@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T00:03:39">
+  <XDOCUMENTO>
+    <ID>199282867</ID>
+    <DOCNumber>GUP91851</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Plötzliches Absterben des Motors und sporadisches Ruckeln, Aufleuchten der Fehleranzeigen</Titolo>
+    <InfoDoc>INIEZIONE | C1221 | CABLAGGIO | CENTRALINA | INIEZIONE | P0300 | P0302 | P0303 | P0641 | ACCENDE | SPEGNE | AVVIO | STRAPPA | STRAPPO | MIL | ABS | MOTORE | FREDDO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199282867</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legende zur Zuverlässigkeitsstufe&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* niedrige Stufe&lt;/B&gt; : Feststellung durch die Kfz-Werkstatt, vom Hersteller nicht dokumentierter Fehlerfall.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** mittlere Stufe&lt;/B&gt; : Häufig auftretender Fehlerfall, der von Servicetechnikern und Kfz-Werkstätten festgestellt wurde.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** hohe Zuverlässigkeit&lt;/B&gt; : Gewissheit hinsichtlich des Fehlers, gute „Wiederholbarkeit“ laut Angaben des Herstellers.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199282867</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Einspritzung &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorrichtung: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Störung: &lt;/B&gt; Gelegentlich geht der Motor plötzlich aus oder läuft unregelmäßig, wobei die Warnleuchten für Motor- und ABS-Fehler aufleuchten &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose erkannte Fehler: &lt;/B&gt; Einer oder mehrere der folgenden: &lt;UL&gt;   &lt;LI&gt; P0641 (Referenzspannung Sensor 1, Unterbrechung) &lt;BR/&gt; &lt;LI&gt; P0300 (Zündaussetzer) &lt;BR/&gt; &lt;LI&gt; P0302 (Zündaussetzer Zylinder 2) &lt;BR/&gt; &lt;LI&gt;  P0303 (Fehlzündungen Zylinder 3) &lt;BR/&gt; &lt;LI&gt; C1221 (Kommunikationsfehler zwischen ABS-Steuergerät und Einspritzsteuergerät) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Defekte Verkabelung des Sicherungskastens im Motorraum &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199282867</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Den Zustand der Verkabelung des Sicherungskastens im Motorraum überprüfen, die Kontakte mit einem Sprühmittel reinigen und die Verbindungen wiederherstellen &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Der Sicherungskasten im Motorraum befindet sich auf der Fahrerseite im Motorraum, in der Nähe der Batterie. Im vorliegenden Fall war deutlich zu erkennen, dass sich Oxid auf den Kontakten des Sicherungskastens befand. Nach der Reinigung der Kontakte des Sicherungskastens mit einem Reinigungsspray und der Wiederherstellung der Verbindungen wurde die Störung behoben. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-03-11T16:51:18">
+  <XDOCUMENTO>
+    <ID>199269074</ID>
+    <DOCNumber>POP84109</DOCNumber>
+    <RifIDTipoRis>46</RifIDTipoRis>
+    <Titolo>INFORMACIÓN IMPORTANTE</Titolo>
+    <InfoDoc>TAG+TGE88342+TGE88343</InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>46</ID>
+      <TipoRis>POP</TipoRis>
+      <DscRis>Aviso</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199269074</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>MANTENIMIENTO: CORREAS Y AGREGADOS Mantenimiento a intervalos fijos</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; Intervenciones de sustitución importantes: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Cada 210 000 km - Correa de distribución - Sustitución &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Cada 210 000 km - Tensor de la correa de distribución - Sustitución &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199269074</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>MANTENIMIENTO: CORREAS Y AGREGADOS Mantenimiento prolongado - Longlife</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; Intervenciones de sustitución importantes: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Cada 210 000 km - Correa de distribución - Sustitución &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Cada 210 000 km - Tensor de la correa de distribución - Sustitución &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199269074</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>REVISIONES DE MANTENIMIENTO DE ACUERDO CON EL REGLAMENTO BER/2010</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt; Utilizar recambios de calidad original o equivalentes a los originales. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Utilizar lubricantes según las especificaciones del fabricante &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Indique en la ficha de conformidad y en la factura el tipo de lubricante utilizado (marca, nombre comercial, viscosidad y especificación). &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Indique en la ficha de conformidad y en la factura el tipo de recambio utilizado (marca, código del recambio). &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

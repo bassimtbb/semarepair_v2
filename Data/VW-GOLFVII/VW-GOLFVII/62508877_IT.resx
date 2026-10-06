@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2017-09-07T13:02:30">
+<XDOCUMENTO>
+<ID>62508877</ID>
+<DOCNumber>GUR63116</DOCNumber>
+<RifIDTipoRis>5</RifIDTipoRis>
+<Titolo>Chiave di avviamento</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>228</RifIDFileICO>
+<XFILE>
+<ID>228</ID>
+<Type>IMG</Type>
+<URL>GETFILE:228</URL>
+</XFILE>
+<XTIPORIS>
+<ID>5</ID>
+<TipoRis>GUR</TipoRis>
+<DscRis>Guida Regolazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>62508877</RifIDDoc>
+<Ordine>10</Ordine>
+<Capitolo>Sincronizzazione chiave</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;Questa operazione si rende necessaria nei seguenti casi:&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Il sistema di chiusura centralizzata/allarme non funziona correttamente&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Procedura:&lt;/B&gt;&lt;BR/&gt;La procedura è da eseguire utilizzando la chiave da sincronizzare&lt;BR/&gt;&lt;LI&gt; Chiudere tutte le porte del veicolo&lt;BR/&gt;&lt;LI&gt; Premere il pulsante &lt;B&gt;(1)&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Sbloccare il veicolo manualmente&lt;BR/&gt;&lt;LI&gt; Sincronizzazione completata&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>62504797</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>62504797</ID>
+<Type>IMG</Type>
+<URL>GETFILE:62504797</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62508877</RifIDDoc>
+<Ordine>20</Ordine>
+<Capitolo>Programmazione chiave</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;Questa operazione si rende necessaria nei seguenti casi:&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; 	Sostituzione/aggiunta di una chiave.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Procedura:&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Le chiavi vengono consegnate già programmate, pertanto non esiste alcuna procedura di programmazione&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

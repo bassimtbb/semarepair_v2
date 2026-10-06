@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-02T20:00:24">
+  <XDOCUMENTO>
+    <ID>199001482</ID>
+    <DOCNumber>FUS55018</DOCNumber>
+    <RifIDTipoRis>20</RifIDTipoRis>
+    <Titolo>Referenties en lokalisatie - Dieselmotoren</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>265</RifIDFileICO>
+    <XFILE>
+      <ID>265</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:265</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>20</ID>
+      <TipoRis>FUS</TipoRis>
+      <DscRis>Zekeringen en relais</DscRis>
+      <RifIDFileCSS>264</RifIDFileCSS>
+      <RifIDTemplate>8</RifIDTemplate>
+      <XFILE>
+        <ID>264</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:264</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLDESCRIZIONE</IDLabel>
+        <Stringa>Beschrijving</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLNUMERO</IDLabel>
+        <Stringa>Nummer</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLRIFERIMENTO</IDLabel>
+        <Stringa>Referentie</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XFUSCONN>
+      <RifIDDoc>199001482</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Titolo>Locatie zekeringkasten</Titolo>
+      <RifIDFileIMGANI>62504838</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>62500371</ID>
+      <XFILE>
+        <ID>62504838</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504838</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>62500371</RifIDImmagine>
+        <Numero>1</Numero>
+        <Descrizione>Zekeringkast in het interieur</Descrizione>
+        <Riferimento>Onder het stuur linksonder</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>62500371</RifIDImmagine>
+        <Numero>2</Numero>
+        <Descrizione>Zekeringkast in de motorruimte</Descrizione>
+        <Riferimento>Motorruimte – zijdelingse positie</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199001482</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Titolo>Zekeringkast - Passagiersruimte</Titolo>
+      <RifIDFileIMGANI>199000307</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>25000595</ID>
+      <XFILE>
+        <ID>199000307</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:199000307</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Alarm / Antidiefstal</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Boordcomputercentrale</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Diagnosecontrole-eenheid</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Diefstalbeveiligingssensor</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Regeleenheid van de airconditioning</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Regeleenheid voor automatische versnellingsbak</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Relais voor de achterruitverwarming</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Extra verwarmingsontvanger</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Zonnestralingssensor</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Handrem-/parkeerschakelaar</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Regensensor</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Dataconnector / Diagnose</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Schakelaar voor koplampen</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Bedieningsmodule en infodisplay aan de voorzijde</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>4WD-regeleenheid</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Multifunctionele informatiecentrale</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Regeleenheid voor actieve ophanging</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F14</Numero>
+        <Descrizione>Elektrische ventilator voor verse lucht / buitenlucht</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F15</Numero>
+        <Descrizione>Stuurslotregeleenheid</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Telematica-regeleenheid / diensten</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Signaalversterkermodule voor antenne</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>USB-oplaadmodule</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F17</Numero>
+        <Descrizione>Instrumentenpaneel</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Schakelaar voor het openen van de achterklep</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Achteruitrijcamera</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F19</Numero>
+        <Descrizione>Keyless-regeleenheid</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F21</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F22</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F23</Numero>
+        <Descrizione>Rechterkoplamp</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F23</Numero>
+        <Descrizione>Boordcomputercentrale</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Schuifdak</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F25</Numero>
+        <Descrizione>Ruitregelaar voorzijde bestuurderszijde</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F25</Numero>
+        <Descrizione>Bestuurdersdeur</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Module voor stoelverwarming voorin</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Boordcomputercentrale</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F27</Numero>
+        <Descrizione>Audiosysteem</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F28</Numero>
+        <Descrizione>Aanhangwagenbesturingsmodule</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F29</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F30</Numero>
+        <Descrizione>Voorspanner linksvoor</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F31</Numero>
+        <Descrizione>Linker koplamp</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F31</Numero>
+        <Descrizione>Boordcomputercentrale</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F32</Numero>
+        <Descrizione>Parkeerhulp</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F32</Numero>
+        <Descrizione>Frontcamera-module</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F32</Numero>
+        <Descrizione>Cruisecontrol-regeleenheid met veiligheidsafstandsregeling</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F33</Numero>
+        <Descrizione>Airbag-regeleenheid</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F33</Numero>
+        <Descrizione>Waarschuwingslampje passagiersairbag</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Schakelaar voor achteruitrijverlichting</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Koelvloeistofdruksensor</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Handrem-/parkeerschakelaar</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Bandenspanningscontroleschakelaar</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Antireflecterende achteruitkijkspiegel</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Schakelaar voor koplampen</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Luchtkwaliteitssensor</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Relais voor hulpstopcontact</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F35</Numero>
+        <Descrizione>Regeleenheid voor koplampafstelling</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F35</Numero>
+        <Descrizione>Dataconnector / Diagnose</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F35</Numero>
+        <Descrizione>Antireflecterende achteruitkijkspiegel</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Standlichten rechts</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Daglichtlamp rechts</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Standlichten links</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Daglichtlinkerzijde</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F38</Numero>
+        <Descrizione>Aanhangwagenbesturingsmodule</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F39</Numero>
+        <Descrizione>Ruitlifter rechts</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F39</Numero>
+        <Descrizione>Passagiersdeur</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F40</Numero>
+        <Descrizione>Sigarettenaansteker</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F40</Numero>
+        <Descrizione>Aansluiting voor hulpapparatuur</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F41</Numero>
+        <Descrizione>Regeleenheid stuurkolom</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F42</Numero>
+        <Descrizione>Centrale vergrendeling</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F42</Numero>
+        <Descrizione>Boordcomputercentrale</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F43</Numero>
+        <Descrizione>Boordcomputercentrale</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F44</Numero>
+        <Descrizione>Aanhangwagenbesturingsmodule</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F45</Numero>
+        <Descrizione>Elektrisch verstelbare passagiersstoel</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F45</Numero>
+        <Descrizione>Elektrisch verstelbare bestuurdersstoel</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F47</Numero>
+        <Descrizione>Ruitenwisser voor scooters</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F48</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>Startrelais</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>Koppelingspedaalpositiesensor</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F50</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F51</Numero>
+        <Descrizione>Voorspanner rechtsvoor</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F52</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>F53</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Ontkoppelingsrelais +15</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>R4</Numero>
+        <Descrizione>Relais van de hoofdontstekingscircuits</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>R5</Numero>
+        <Descrizione>Relais voor de achterruitverwarming</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000595</RifIDImmagine>
+        <Numero>R6</Numero>
+        <Descrizione>12 V-aansluitingsrelais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199001482</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Titolo>Zekeringkast - Motorruimte</Titolo>
+      <RifIDFileIMGANI>199000568</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>25000596</ID>
+      <XFILE>
+        <ID>199000568</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:199000568</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>ABS+ESP-regeleenheid</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>ABS+ESP-regeleenheid</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Elektrische hydraulische pomp voor het ABS-systeem</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Injectiecomputer</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Faseversteller</Descrizione>
+        <Riferimento>5-10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Elektromagnetische klep voor de regeling van de motoroliedruk</Descrizione>
+        <Riferimento>5-10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Druksensor voor gas-/LPG-inlaatspruitstuk</Descrizione>
+        <Riferimento>5-10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Elektromagnetische klep voor regeling van de vuldruk</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Relais voor verwarming met laag vermogen</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Relais voor verwarming met hoge vermogens</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Sensor voor motoroliepeil en -temperatuur</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Elektromagnetische schakelklep voor de radiator</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Elektromagnetische klep voor brandstofdrukregeling</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Elektromagnetische brandstofdoseerklep</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Remlichtschakelaar</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Elektromagnetische klep voor de regeling van de motoroliedruk</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Elektrische waterpomp voor verwarming</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Elektromagnetische klep voor de koelvloeistof van de cilinderkop</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Verwarming van de lambdasonde</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Verwarming van de lambda-sonde aan de uitlaatzijde</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Lambdasonde vóór de katalysator</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Lambdasonde achter de katalysator</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Temperatuur-/inlaatluchtdruksensor</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Regeleenheid voor gloeibougies</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Regeleenheid voor de brandstofpomp</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Extra verwarming</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Extra verwarming</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Bediening van de versnellingsbak met dubbele koppeling</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F14</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F15</Numero>
+        <Descrizione>Akoestisch waarschuwingsrelais</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F17</Numero>
+        <Descrizione>ABS-regeleenheid</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F17</Numero>
+        <Descrizione>Injectiecomputer</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F17</Numero>
+        <Descrizione>Voedingsrelais +30</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Diagnosecontrole-eenheid</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Accucontrolemodule</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F19</Numero>
+        <Descrizione>Ruitensproeier</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>Alarm</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F21</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F22</Numero>
+        <Descrizione>Injectiecomputer</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F23</Numero>
+        <Descrizione>Startmotor</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Extra verwarming</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F31</Numero>
+        <Descrizione>Vacuümpomp / onderdrukpomp</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F32</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F33</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Differentieelblokkeersysteem</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F35</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Module voor extra verwarming</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>F38</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Startmotor-relais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R10</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Startmotor-relais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Akoestisch waarschuwingsrelais</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R4</Numero>
+        <Descrizione>Relais voor verwarming met hoge vermogens</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R5</Numero>
+        <Descrizione>Voedingsrelais +30</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R6</Numero>
+        <Descrizione>Relais voor de voorverwarmingsmodule van de gloeibougies</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R7</Numero>
+        <Descrizione>Relais voor verwarming met laag vermogen</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R8</Numero>
+        <Descrizione>Relais van de injectiecomputer</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>25000596</RifIDImmagine>
+        <Numero>R9</Numero>
+        <Descrizione>Niet gebruikt / Niet aanwezig</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+  </XDOCUMENTO>
+</dataroot>

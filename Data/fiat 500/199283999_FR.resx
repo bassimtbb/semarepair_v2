@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:45:06">
+  <XDOCUMENTO>
+    <ID>199283999</ID>
+    <DOCNumber>GUP92014</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Absorption anormale de la batterie et compteur kilométrique clignotant</Titolo>
+    <InfoDoc>ÉLECTRONIQUE | B1000 | B1009 | B1021 | B1090 | B1091 | B10AA | U0019 | U0426 | U1411 | U1733 | UNITÉ DE CONTRÔLE | BLUETOOTH | BATTERIE | DÉCHARGE | COMPTEUR KILOMÉTRIQUE | KILOMÈTRES | KM | VELOCEMENTE | ALIGNEMENT | RÉSEAU | PROXY | CLIGNOTANT |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199283999</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283999</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / du défaut</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Validité : &lt;/B&gt; Véhicules équipés d&apos;un système Bluetooth &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Électronique &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Unité de commande Bluetooth &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt; Consommation anormale de la batterie et compteur kilométrique clignotant sur le tableau de bord &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; Une ou plusieurs des erreurs suivantes : &lt;UL&gt; &lt;LI&gt; B1000 (Module de commande du tableau de bord, tableau de bord - Anomalie) &lt;BR/&gt; &lt;LI&gt; B1009 (Tension de la batterie - Alternateur / batterie) &lt;BR/&gt;  &lt;LI&gt; B1021 (Feux de position arrière / côté droit - Erreur de câblage) &lt;BR/&gt; &lt;LI&gt; B1090 (Connexion des phares avant - Erreur) &lt;BR/&gt; &lt;LI&gt; B1091 (Éclairage d&apos;ambiance - Erreur) &lt;BR/&gt;  &lt;LI&gt; B10AA (Vérification de l&apos;alignement du proxy) &lt;BR/&gt; &lt;LI&gt; U0019 (Bus de données CAN, basse vitesse - Erreur de communication) &lt;BR/&gt; &lt;LI&gt; U0426 (Module de commande du chauffage auxiliaire - Données reçues - non valides) &lt;BR/&gt;  &lt;LI&gt; U1411 (IBS - Capteur de batterie intelligent) &lt;BR/&gt; &lt;LI&gt; U1733 (Absence de communication avec le calculateur Audio/Bluetooth) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Dysfonctionnement du calculateur Bluetooth &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283999</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier le bon fonctionnement du boîtier électronique Bluetooth et, si nécessaire, procéder à sa réinitialisation et/ou à son remplacement. Effectuer ensuite l&apos;alignement proxy/réseau à l&apos;aide d&apos;un outil de diagnostic. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

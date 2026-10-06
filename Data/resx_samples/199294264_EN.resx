@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:49:17">
+  <XDOCUMENTO>
+    <ID>199294264</ID>
+    <DOCNumber>GUP94211</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>"P-R-N-D-S" warning lights flash, gearbox suddenly shifts into neutral</Titolo>
+    <InfoDoc>GEARBOX | DSG | DQ200 | GEAR | ENGAGEMENT | SYMBOL | FLASHING | | P0716 | P0722 | P0746 | P0751 | P0756 | P0761 | P0766 | P0776 | P1707 |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199294264</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degree of reliability (*)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legend of the degree of reliability&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* low level&lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** medium level&lt;/B&gt; : Extensive fault history, found by service technicians and repairers.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** high level&lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199294264</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Applicability: &lt;/B&gt; Vehicles fitted with a 6-speed DSG automatic gearbox (DQ250) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Gearbox &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Device: &lt;/B&gt; Electronic gearbox control unit &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; Whilst driving, the vehicle suddenly shifts into neutral. The ‘P-R-N-D-S’ indicator lights on the gear lever flash. When the engine is cold, the system temporarily resumes normal operation. The condition tends to worsen until it becomes a permanent fault. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Fault codes detected by the self-diagnostic system: &lt;/B&gt; &lt;UL&gt; &lt;LI&gt; P0716 (17100) – Gearbox input speed sensor (G182) – implausible signal &lt;BR/&gt; &lt;LI&gt; P0722 (17106) – Gearbox output speed sensor (G195) – no signal &lt;BR/&gt; &lt;LI&gt; P0746 (17130) – Pressure control solenoid valve 1 (N215) short-circuited to earth &lt;BR/&gt; &lt;LI&gt; P0751 (17135) – Gearbox solenoid valve 1 (N88) short-circuited to earth &lt;BR/&gt; &lt;LI&gt; P0756 (17140) – Gearbox solenoid valve 2 (N89) short circuit to earth &lt;BR/&gt; &lt;LI&gt; P0761 (17145) – Gearbox solenoid valve 3 (N90) short circuit to earth &lt;BR/&gt; &lt;LI&gt;  	P0766 (17150) – Gearbox solenoid valve 4 (N91) short circuit to earth &lt;BR/&gt; &lt;LI&gt; P0776 (17160) – Pressure control solenoid valve 2 (N216) short circuit to earth &lt;BR/&gt; 	 &lt;LI&gt; P1707 (18115) – Fault in the mechatronic control unit &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Malfunction of the DSG gearbox mechatronic control unit</Corpo>
+      <RifIDFileIMGANI>299022364</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299022364</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299022364</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199294264</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Check and, if necessary, replace the mechatronic control unit of the gearbox &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; Faults in the electronic gearbox control unit are quite common in the DSG DQ250 &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299022365</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299022365</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299022365</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

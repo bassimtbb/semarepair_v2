@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T09:35:08">
+  <XDOCUMENTO>
+    <ID>199257791</ID>
+    <DOCNumber>DRA80138</DOCNumber>
+    <RifIDTipoRis>45</RifIDTipoRis>
+    <Titolo>Volkswagen 0GC-versnellingsbak met dubbele koppeling (7 versnellingen)</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>45</ID>
+      <TipoRis>DRV</TipoRis>
+      <DscRis>Automatische versnellingsbak</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199257791</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Gegevens Technische - Lubrificanti</Capitolo>
+      <Corpo> &lt;B&gt; Fabrikant: &lt;/B&gt;  Volkswagen AG &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Benaming: &lt;/B&gt;  0GC / DQ381-7 &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Handelsnaam: &lt;/B&gt;  DSG7, S-Tronic  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Door de fabrikant van de automatische versnellingsbak aanbevolen olieverversingsinterval: &lt;/B&gt;   &lt;BR/&gt; 60.000 km &lt;BR/&gt;  &lt;BR/&gt;  &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt;  &lt;TH width=60% class=&quot;chiaro&quot;&gt; Beschrijving &lt;/TH&gt;  &lt;TH width=25% class=&quot;chiaro&quot;&gt; Meeteenheid &lt;/TH&gt;  &lt;TH width=15% class=&quot;chiaro&quot;&gt; Gegevens &lt;/TH&gt;  &lt;TR&gt;  &lt;TD&gt; Code automatische versnellingsbak: &lt;/TD&gt;  &lt;TD&gt; Ref.nr. &lt;/TD&gt;  &lt;TD&gt; 0GC &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Aantal versnellingen: &lt;/TD&gt;  &lt;TD&gt; Aantal &lt;/TD&gt;  &lt;TD&gt; 7 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Automatische versnellingsbakolie – Specificatie van de fabrikant: &lt;/TD&gt;  &lt;TD&gt; Ref.nr. &lt;/TD&gt;  &lt;TD&gt; VW G 055 529 A2 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Automatische versnellingsbakolie – Hoeveelheid bij lege versnellingsbak: &lt;/TD&gt;  &lt;TD&gt; Liter &lt;/TD&gt;  &lt;TD&gt; 7,2 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Automatische versnellingsbakolie - Hoeveelheid bij verversing: &lt;/TD&gt;  &lt;TD&gt; Liter &lt;/TD&gt;  &lt;TD&gt; 5,5 ~ 6,0 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Automatische versnellingsbakolie - Hoeveelheid bij spoeling: &lt;/TD&gt;  &lt;TD&gt; Liter &lt;/TD&gt;  &lt;TD&gt; 9,2 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Temperatuur bij het controleren van het peil van de automatische versnellingsbakolie: &lt;/TD&gt;  &lt;TD&gt; °C &lt;/TD&gt;  &lt;TD&gt; 35 ~ 45° &lt;/TD&gt;  &lt;/TR&gt;  &lt;/TABLE&gt;  &lt;BR/&gt; Controleer het peil van de automatische versnellingsbakolie terwijl de motor draait. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007256</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007256</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007256</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199257791</RifIDDoc>
+      <Ordine>15</Ordine>
+      <Capitolo>Identificatie automatische versnellingsbak</Capitolo>
+      <Corpo> &lt;BR/&gt; Het model van de versnellingsbak kan worden geïdentificeerd door het typeplaatje aan de bovenkant te lezen. &lt;BR/&gt;  &lt;BR/&gt; De afkorting  &lt;B&gt; 1 &lt;/B&gt;  geeft de code van de versnellingsbak aan. &lt;BR/&gt;  &lt;BR/&gt; De afkorting  &lt;B&gt; 2 &lt;/B&gt;  geeft de productiedatum aan (dd.mm.jj). &lt;BR/&gt;  &lt;BR/&gt; De afkorting  &lt;B&gt; 3 &lt;/B&gt;  geeft de productiefabriek aan. &lt;BR/&gt;  &lt;BR/&gt; De afkorting  &lt;B&gt; 4 &lt;/B&gt;  geeft het productietijdstip aan. &lt;BR/&gt;  &lt;BR/&gt; De afkorting  &lt;B&gt; 5 &lt;/B&gt;  geeft het serienummer aan. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007250</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007250</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007250</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199257791</RifIDDoc>
+      <Ordine>17</Ordine>
+      <Capitolo>Instrumenten speciale en gereedschap vanaf werkplaats</Capitolo>
+      <Corpo> &lt;LI&gt;  Tankadapter  &lt;B&gt; VAS 6262A &lt;/B&gt;  &lt;B&gt;  &lt;/B&gt;  met adapter  &lt;B&gt; VAS 6262/1 &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Olieafzuiger  &lt;B&gt; VAS 6622A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Adapter  &lt;B&gt; VAS 6262/6 &lt;/B&gt;  of &lt;BR/&gt;  &lt;LI&gt;  Adapter &lt;B&gt;  VAS 6262/7 &lt;/B&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007251</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007251</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007251</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199257791</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procedures uitlaat e vullen olie automatische versnellingsbak</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  De versnellingsbak mag niet in de herstelmodus staan &lt;BR/&gt;  &lt;LI&gt;  Plaats het voertuig op een vlakke ondergrond &lt;BR/&gt;  &lt;LI&gt;  Hef het voertuig op &lt;BR/&gt;  &lt;LI&gt;  Zet de versnellingspook in  &lt;B&gt; P &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Zorg ervoor dat de parkeerrem is aangetrokken &lt;BR/&gt;  &lt;LI&gt;  Schakel de motor uit &lt;BR/&gt;  &lt;LI&gt;  Verwijder de onderste afdekking &lt;BR/&gt;  &lt;LI&gt;  Plaats de opvangbak van de olieafzuiger  &lt;B&gt; VAS 6622A &lt;/B&gt; bij de versnellingsbak  &lt;BR/&gt;  &lt;LI&gt;  Draai de aftapplug los  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Draai de overloopbuis los  &lt;B&gt; B &lt;/B&gt;  en laat de versnellingsbakolie weglopen &lt;BR/&gt;  &lt;LI&gt;  Schroef de aftapplug van de mechatronische module los  &lt;B&gt; C &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Laat de olie volledig weglopen &lt;BR/&gt;  &lt;LI&gt;  Wacht ongeveer  &lt;B&gt; 4 minuten &lt;/B&gt;  totdat alle versnellingsbakolie is weggelopen &lt;BR/&gt;  &lt;LI&gt;  Plaats de aftapplug van de mechatronische module  &lt;B&gt; C &lt;/B&gt;  terug en draai deze vast tot &lt;B&gt;  10 ~ 20 Nm + 45° &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; LET OP: &lt;/B&gt;  Vervang altijd de pakking van de aftapplug van de mechatronische module &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Schroef de overloopplug weer vast   &lt;B&gt; B &lt;/B&gt;  en draai deze vast tot  &lt;B&gt; 3 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  De dop moet soepel vastgeschroefd kunnen worden &lt;BR/&gt;  &lt;LI&gt;  Schud de flessen goed, zodat er geen bezinksel op de bodem achterblijft &lt;BR/&gt;  &lt;LI&gt;  Schroef de versnellingsoliefles op de vuladapter  &lt;B&gt; VAS 6262A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Gebruik indien nodig de adapter  &lt;B&gt; VAS 6262/6 &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Steek de adapter  &lt;B&gt; VAS 6262A &lt;/B&gt;  in de overloopbuis &lt;B&gt;  B &lt;/B&gt;  en draai deze met de hand vast  &lt;BR/&gt;  &lt;LI&gt;  Houd de fles en de adapter  &lt;B&gt; VAS 6262A &lt;/B&gt;  zo hoog mogelijk boven de versnellingsbak en laat  &lt;B&gt; 5,5 ~ 6,0 liter &lt;/B&gt;  automaatbakolie erin stromen &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; LET OP:  &lt;/B&gt; Mocht de temperatuur van de versnellingsbakolie tijdens het vullen hoger worden dan  &lt;B&gt; 45 °C &lt;/B&gt; , stop dan met vullen en laat de versnellingsbakolie afkoelen. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Verwijder de vuladapter  &lt;B&gt; VAS 6262A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Schroef de aftapdop  &lt;B&gt; A &lt;/B&gt;  weer vast en draai deze vast tot  &lt;B&gt; 45 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; LET OP:  &lt;/B&gt; Vervang altijd de pakking van de aftapplug  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Start de motor en laat deze stationair draaien &lt;BR/&gt;  &lt;LI&gt;  Druk het rempedaal in terwijl de motor stationair draait en zet de versnellingspook in elke stand, waarbij u deze minstens  &lt;B&gt; 3 &lt;/B&gt;  seconden in die stand houdt &lt;BR/&gt;  &lt;LI&gt;  Zet de versnellingspook in  &lt;B&gt; P &lt;/B&gt;  zonder de motor uit te schakelen &lt;BR/&gt;  &lt;LI&gt;  Controleer het oliepeil van de automatische versnellingsbak &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007253</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007253</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007253</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199257791</RifIDDoc>
+      <Ordine>25</Ordine>
+      <Capitolo>Procedures vervanging oliefilter automatische versnellingsbak</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;B&gt; LET OP:  &lt;/B&gt;  Bedek het gebied rond het oliefilter van de automatische versnellingsbak met doeken &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Verwijder het deksel van het oliefilter van de automatische versnellingsbak &lt;BR/&gt;  &lt;LI&gt;  Verwijder het oliefilter van de automatische versnellingsbak &lt;LI&gt;  Ga verder met het vervangen van het filter  &lt;BR/&gt;  &lt;LI&gt;  Plaats de afdekking van het filter van de automatische versnellingsbak terug en draai deze vast  tot  &lt;B&gt; 50 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; LET OP: &lt;/B&gt;  Vervang altijd de pakking van het filter van de automatische versnellingsbak</Corpo>
+      <RifIDFileIMGANI>299007254</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007254</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007254</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199257791</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Controle oliepeil automatische versnellingsbak</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  De versnellingsbak mag niet in de herstelmodus staan &lt;BR/&gt;  &lt;LI&gt;  Zorg ervoor dat de temperatuur van de versnellingsbakolie niet hoger is dan  &lt;B&gt; 30 °C &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Mocht de temperatuur hoger zijn, dan wordt aanbevolen de versnellingsbakolie te laten afkoelen &lt;BR/&gt;  &lt;LI&gt;  Plaats het voertuig op een vlakke ondergrond &lt;BR/&gt;  &lt;LI&gt;  Zet de versnellingspook in  &lt;B&gt; P &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Zorg ervoor dat de parkeerrem is ingeschakeld &lt;BR/&gt;  &lt;LI&gt;  Sluit de slangen van het afzuigapparaat  &lt;B&gt; VAS 6622A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Start de motor op stationair toerental &lt;BR/&gt;  &lt;LI&gt;  Zorg ervoor dat de airconditioning en de verwarming zijn uitgeschakeld &lt;BR/&gt;  &lt;LI&gt;  Sluit de diagnosetester aan en wacht tot het voertuig is geïdentificeerd &lt;BR/&gt;  &lt;LI&gt;  Start via de diagnosetester de procedure voor het controleren van het oliepeil van de automatische versnellingsbak &lt;BR/&gt;  &lt;LI&gt;  Verwijder de onderste afdekking &lt;BR/&gt;  &lt;LI&gt;  Plaats de opvangbak van de olieafzuiger  &lt;B&gt; VAS 6622A &lt;/B&gt;  onder de versnellingsbak &lt;BR/&gt;  &lt;LI&gt;  Verwijder de aftapplug  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Laat de opgevangen versnellingsbakolie uit de overloopbuis  &lt;B&gt; B &lt;/B&gt;  stromen &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; LET OP: &lt;/B&gt; Er bestaan verschillende versies van de overloopbuis &lt;BR/&gt;  &lt;B&gt; LET OP: &lt;/B&gt;  Bij te veel of te weinig olie kan schade aan de versnellingsbak ontstaan &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Zorg ervoor dat de overloopbuis correct is gemonteerd &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; VERSNELLINGSBAK MET BEIGE OVERLOOPBUIS: &lt;/B&gt;  &lt;BR/&gt; - Het oliepeil mag de opening van de overloopbuis niet overschrijden  &lt;B&gt; B &lt;/B&gt;  &lt;BR/&gt; - Voor het controleren en nauwkeurig afstellen van het oliepeil moet u de overloopbuis  &lt;B&gt; 2 slagen &lt;/B&gt;  losdraaien &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; VERSNELLINGSBAK MET RODE OVERLOOPBUIS: &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Het is niet nodig om de rode overloopbuis los te draaien om het oliepeil te controleren &lt;B&gt;  &lt;BR/&gt;  &lt;BR/&gt; VERVOLG VOOR ALLE VOERTUIGEN: &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Als de temperatuur van de versnellingsbakolie tussen  &lt;B&gt; 35 ~ 45 °C &lt;/B&gt;  ligt en er een beetje olie uitkomt (als gevolg van de temperatuurstijging), is het oliepeil in orde. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; LET OP:  &lt;/B&gt; Er komt om de 30 seconden een kleine hoeveelheid versnellingsbakolie uit de overloopbuis  &lt;B&gt; B &lt;/B&gt;  als gevolg van de bewegingen van de koelvloeistof. Dit is niet van belang voor het controleren van het oliepeil. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Gebruik de reeds uitgelopen versnellingsbakolie niet meer &lt;BR/&gt;  &lt;LI&gt;  Vul indien nodig de versnellingsbakolie bij met nieuwe olie &lt;BR/&gt;  &lt;LI&gt;  Als het oliepeil in orde is, schroef dan indien nodig de overloopbuis  &lt;B&gt; B &lt;/B&gt;  vast en draai deze vast tot  &lt;B&gt; 3 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Draai de aftapplug  &lt;B&gt; A &lt;/B&gt;  vast tot  &lt;B&gt; 45 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; LET OP:  &lt;/B&gt; Vervang altijd de pakking van de aftapplug  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007252</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007252</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007252</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

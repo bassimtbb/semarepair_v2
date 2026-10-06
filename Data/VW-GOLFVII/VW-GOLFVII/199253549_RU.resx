@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T18:05:44">
+  <XDOCUMENTO>
+    <ID>199253549</ID>
+    <DOCNumber>DTM91772</DOCNumber>
+    <RifIDTipoRis>13</RifIDTipoRis>
+    <Titolo>Lista silników DFGA</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>226</RifIDFileICO>
+    <XFILE>
+      <ID>226</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:226</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>13</ID>
+      <TipoRis>DTM</TipoRis>
+      <DscRis>Dane mechaniczne i smary</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>4</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLDATO</IDLabel>
+        <Stringa>Opis</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLUM</IDLabel>
+        <Stringa>Jednostka miary</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLVALORE</IDLabel>
+        <Stringa>Dane</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>LINK</IDLabel>
+        <Stringa>Link</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Lista danych</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE SILNIKA</Gruppo>
+      <Dato>Pojemność skokowa</Dato>
+      <Valore>1968</Valore>
+      <UnitaMis>cm³</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE SILNIKA</Gruppo>
+      <Dato>Cylindry</Dato>
+      <Valore>4</Valore>
+      <UnitaMis>nr</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE SILNIKA</Gruppo>
+      <Dato>Rozmieszczenie zaworów</Dato>
+      <Valore>DOHC</Valore>
+      <UnitaMis>Typ</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE SILNIKA</Gruppo>
+      <Dato>Zestaw zaworów dolotowych/wydechowych</Dato>
+      <Valore>Hydrauliczne</Valore>
+      <UnitaMis>Typ</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE SILNIKA</Gruppo>
+      <Dato>Kolejność wtrysku</Dato>
+      <Valore>1-3-4-2</Valore>
+      <UnitaMis>Typ</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE SILNIKA</Gruppo>
+      <Dato>Stopień sprężania</Dato>
+      <Valore>16,2</Valore>
+      <UnitaMis>:1</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE SILNIKA</Gruppo>
+      <Dato>Ciśnienie sprężania</Dato>
+      <Valore>19,0-31,0</Valore>
+      <UnitaMis>bar</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE ZAPŁONU</Gruppo>
+      <Dato>Napięcie akumulatora</Dato>
+      <Valore>12</Valore>
+      <UnitaMis>Volt</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE ZAPŁONU</Gruppo>
+      <Dato>Świece żarowe 1</Dato>
+      <Valore>BorgWarner</Valore>
+      <UnitaMis>Marka</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE ZAPŁONU</Gruppo>
+      <Dato> Świece żarowe 1</Dato>
+      <Valore>059 963 319 AB</Valore>
+      <UnitaMis>Typ</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE ZAPŁONU</Gruppo>
+      <Dato>Świece żarowe 2</Dato>
+      <Valore>BorgWarner – (z wbudowanym czujnikiem ciśnienia)</Valore>
+      <UnitaMis>Marka</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE ZAPŁONU</Gruppo>
+      <Dato> Świece żarowe 2</Dato>
+      <Valore>03L 905 061 K - (ze zintegrowanym czujnikiem ciśnienia)</Valore>
+      <UnitaMis>Typ</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE SPALIN</Gruppo>
+      <Dato>Minimalny reżim pracy</Dato>
+      <Valore>730-930</Valore>
+      <UnitaMis>Obroty na minutę</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE SPALIN</Gruppo>
+      <Dato>Regime Minimo – badanie emisji spalin</Dato>
+      <Valore>730-930</Valore>
+      <UnitaMis>Obroty na minutę</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE SPALIN</Gruppo>
+      <Dato>Procedura przyspieszona – badanie emisji spalin</Dato>
+      <Valore>2300-2700</Valore>
+      <UnitaMis>Obroty na minutę</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE SPALIN</Gruppo>
+      <Dato>Maksymalny czas pracy w trybie przyspieszonym</Dato>
+      <Valore>2,0</Valore>
+      <UnitaMis>s</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE SPALIN</Gruppo>
+      <Dato>Metoda badania</Dato>
+      <Valore>B</Valore>
+      <UnitaMis>Typ</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE SPALIN</Gruppo>
+      <Dato>Zaciemnienie spalin</Dato>
+      <Valore>1,5</Valore>
+      <UnitaMis>m-1</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>SMARY SILNIKOWE – SKRZYNIA BIEGÓW</Gruppo>
+      <Dato>Olej silnikowy – lepkość</Dato>
+      <Valore>5W/30</Valore>
+      <UnitaMis>SAE</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>SMARY SILNIKOWE – SKRZYNIA BIEGÓW</Gruppo>
+      <Dato>Olej silnikowy – specyfikacja producenta</Dato>
+      <Valore>VW 507.00</Valore>
+      <UnitaMis>Nr ref.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>SMARY SILNIKOWE – SKRZYNIA BIEGÓW</Gruppo>
+      <Dato>Olej silnikowy i filtr – ilości</Dato>
+      <Valore>4,7</Valore>
+      <UnitaMis>litry</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>SMARY SILNIKOWE – SKRZYNIA BIEGÓW</Gruppo>
+      <Dato>Olej do manualnej skrzyni biegów – specyfikacja producenta</Dato>
+      <Valore>VW G 052 527 A2 - (ze skrzynią 02Q)</Valore>
+      <UnitaMis>Nr ref.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>SMARY SILNIKOWE – SKRZYNIA BIEGÓW</Gruppo>
+      <Dato>Olej do manualnej skrzyni biegów – ilość</Dato>
+      <Valore>2,15 – (z skrzynią biegów 02Q)</Valore>
+      <UnitaMis>litry</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>SMARY SILNIKOWE – SKRZYNIA BIEGÓW</Gruppo>
+      <Dato>Olej do manualnej skrzyni biegów – ilość przy pustym zbiorniku</Dato>
+      <Valore>2,30 – (z przekładnią 02Q)</Valore>
+      <UnitaMis>litry</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>SMARY SILNIKOWE – SKRZYNIA BIEGÓW</Gruppo>
+      <Dato>Olej do półautomatycznej skrzyni biegów – specyfikacja producenta</Dato>
+      <Valore>VW G 055 529 A2 - (ze skrzynią 0GC)</Valore>
+      <UnitaMis>Nr ref.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>SMARY SILNIKOWE – SKRZYNIA BIEGÓW</Gruppo>
+      <Dato>Olej do półautomatycznej skrzyni biegów – ilość</Dato>
+      <Valore>6,0 - (ze skrzynią 0GC)</Valore>
+      <UnitaMis>litry</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>SMARY SILNIKOWE – SKRZYNIA BIEGÓW</Gruppo>
+      <Dato>Olej do półautomatycznej skrzyni biegów – ilość przy pustym zbiorniku</Dato>
+      <Valore>6,7-6,9 - (ze skrzynią 0GC)</Valore>
+      <UnitaMis>litry</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>SMARY SILNIKOWE – SKRZYNIA BIEGÓW</Gruppo>
+      <Dato>Olej w tylnym mechanizmie różnicowym – lepkość</Dato>
+      <Valore>75W/90 – (do marca 2019 r.)</Valore>
+      <UnitaMis>SAE</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>SMARY SILNIKOWE – SKRZYNIA BIEGÓW</Gruppo>
+      <Dato>Olej do tylnego mechanizmu różnicowego – specyfikacja producenta</Dato>
+      <Valore>VW G 052 145 S2  (do marca 2019 r.)</Valore>
+      <UnitaMis>Nr ref.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>SMARY SILNIKOWE – SKRZYNIA BIEGÓW</Gruppo>
+      <Dato>Olej w tylnym mechanizmie różnicowym – ilość</Dato>
+      <Valore>0,95</Valore>
+      <UnitaMis>litry</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>SMARY SILNIKOWE – SKRZYNIA BIEGÓW</Gruppo>
+      <Dato>Olej w skrzyni rozdzielczej – lepkość</Dato>
+      <Valore>75W/90</Valore>
+      <UnitaMis>SAE</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>SMARY SILNIKOWE – SKRZYNIA BIEGÓW</Gruppo>
+      <Dato>Olej w skrzyni rozdzielczej – specyfikacja producenta</Dato>
+      <Valore>VW G 052 145</Valore>
+      <UnitaMis>Nr ref.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>SMARY SILNIKOWE – SKRZYNIA BIEGÓW</Gruppo>
+      <Dato>Olej w skrzyni rozdzielczej – ilość</Dato>
+      <Valore>0,85</Valore>
+      <UnitaMis>litry</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>SMARY SILNIKOWE – SKRZYNIA BIEGÓW</Gruppo>
+      <Dato>Olej do sprzęgła Haldex – specyfikacja producenta</Dato>
+      <Valore>(VW G 060 175 A2 – do marca 2019 r.) – (VW G 065 175 A2 – od kwietnia 2019 r.)</Valore>
+      <UnitaMis>Nr ref.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>SMARY SILNIKOWE – SKRZYNIA BIEGÓW</Gruppo>
+      <Dato>Olej do sprzęgła Haldex – Ilość</Dato>
+      <Valore>0,65 - (0,75 bez obciążenia)</Valore>
+      <UnitaMis>litry</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE PŁYNÓW POMOCNICZYCH</Gruppo>
+      <Dato>Płyn chłodzący</Dato>
+      <Valore>G12 Plus Plus</Valore>
+      <UnitaMis>Typ</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE PŁYNÓW POMOCNICZYCH</Gruppo>
+      <Dato>Płyn chłodzący – specyfikacja producenta</Dato>
+      <Valore>TL-VW 774G</Valore>
+      <UnitaMis>Nr ref.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE PŁYNÓW POMOCNICZYCH</Gruppo>
+      <Dato>Płyn chłodzący – ilość</Dato>
+      <Valore>8,0</Valore>
+      <UnitaMis>litry</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE PŁYNÓW POMOCNICZYCH</Gruppo>
+      <Dato>Płyn hamulcowy</Dato>
+      <Valore>DOT 4</Valore>
+      <UnitaMis>Typ</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE PŁYNÓW POMOCNICZYCH</Gruppo>
+      <Dato>Płyn hamulcowy – specyfikacja producenta</Dato>
+      <Valore>VW 501.14</Valore>
+      <UnitaMis>Nr ref.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE PŁYNÓW POMOCNICZYCH</Gruppo>
+      <Dato>Płyn hamulcowy – ilość</Dato>
+      <Valore>1,15 - (1,00 ze skrzynią automatyczną)</Valore>
+      <UnitaMis>litry</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE PŁYNÓW POMOCNICZYCH</Gruppo>
+      <Dato>Otwarcie termostatu chłodnicy</Dato>
+      <Valore>85-89</Valore>
+      <UnitaMis>°C</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE DOTYCZĄCE PŁYNÓW POMOCNICZYCH</Gruppo>
+      <Dato>Ciśnienie w korku chłodziwa</Dato>
+      <Valore>1,6-1,8</Valore>
+      <UnitaMis>bar</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE TECHNICZNE HAMULCÓW</Gruppo>
+      <Dato>Minimalna grubość przednich tarcz hamulcowych (wentylowanych)</Dato>
+      <Valore>22,0</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE TECHNICZNE HAMULCÓW</Gruppo>
+      <Dato>Minimalna grubość przednich klocków hamulcowych</Dato>
+      <Valore>2,0</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE TECHNICZNE HAMULCÓW</Gruppo>
+      <Dato>Minimalna grubość tylnych tarcz hamulcowych</Dato>
+      <Valore>8,0</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>DANE TECHNICZNE HAMULCÓW</Gruppo>
+      <Dato>Minimalna grubość tylnych klocków hamulcowych</Dato>
+      <Valore>2,0</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>KLIMATYZACJA</Gruppo>
+      <Dato>Czynnik chłodniczy</Dato>
+      <Valore>Zobacz link</Valore>
+      <UnitaMis>Typ</UnitaMis>
+      <RifIDFileIMG>75008087</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>75008087</ID>
+        <DOCNumber>NOT75102</DOCNumber>
+        <Documento>NOT: Czynnik chłodniczy</Documento>
+        <URL>LINKDOC:75008087</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>KLIMATYZACJA</Gruppo>
+      <Dato>Czynnik chłodniczy – ilość</Dato>
+      <Valore>485-515 - (z R134a - sprawdź etykietę)</Valore>
+      <UnitaMis>gramy</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>KLIMATYZACJA</Gruppo>
+      <Dato> Czynnik chłodniczy – Ilość</Dato>
+      <Valore>445-475 - (z R1234yf - sprawdź etykietę)</Valore>
+      <UnitaMis>gramy</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>KLIMATYZACJA</Gruppo>
+      <Dato>Olej do sprężarki</Dato>
+      <Valore>Zobacz link</Valore>
+      <UnitaMis>Typ</UnitaMis>
+      <RifIDFileIMG>199247136</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199247136</ID>
+        <DOCNumber>NOT76564</DOCNumber>
+        <Documento>NOT: Olej do sprężarki</Documento>
+        <URL>LINKDOC:199247136</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199253549</RifIDDoc>
+      <Gruppo>KLIMATYZACJA</Gruppo>
+      <Dato>Olej do sprężarki – ilość</Dato>
+      <Valore>Zobacz link</Valore>
+      <UnitaMis>cm³</UnitaMis>
+      <RifIDFileIMG>199073840</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199073840</ID>
+        <DOCNumber>NOT76106</DOCNumber>
+        <Documento>NOT: Olej do sprężarki – ilość</Documento>
+        <URL>LINKDOC:199073840</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+  </XDOCUMENTO>
+</dataroot>

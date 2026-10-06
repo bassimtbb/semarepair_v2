@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T00:39:00">
+  <XDOCUMENTO>
+    <ID>199274275</ID>
+    <DOCNumber>GUP89937</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Erro «nível baixo de AdBlue» que não se resolve com o enchimento do depósito</Titolo>
+    <InfoDoc>INIEZIONE | P0607-51 | P14A3-96 | ADBLUE | MODULO DOSAGGIO | SENSORE QUALITÀ | ANOMALIA LIVELLO | INIETTORE | SERBATOIO | QUANTITà | FAP | DPF | PARTICOLATO | ANTIPARTICOLATO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199274275</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (**)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda do grau de fiabilidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nível baixo &lt;/B&gt; : Detecção pelo mecânico, caso de avaria não constatado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nível médio &lt;/B&gt; : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nível alto &lt;/B&gt; : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199274275</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Validade: &lt;/B&gt;  Todos os veículos  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sistema: &lt;/B&gt;  Redução de emissões poluentes &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt;  Sistema AdBlue  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Anomalia: &lt;/B&gt;  O visor indica um erro de nível baixo de AdBlue que não se resolve com o enchimento do depósito &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Erros detetados pelo autodiagnóstico: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Causa: &lt;/B&gt;  O problema resulta de um mau funcionamento do módulo de dosagem do AdBlue ou do sensor de nível. Mesmo com o depósito cheio, o sistema não reconhece o nível correto, indicando erroneamente a necessidade de reabastecimento de AdBlue &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199274275</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Intervenção: &lt;/B&gt;  Verificar o funcionamento correto do depósito e do injetor de AdBlue e, se necessário,  proceder à sua substituição &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedimento: &lt;/B&gt;  &lt;UL&gt;   &lt;LI&gt;  Verificar  o nível de AdBlue e proceder ao reabastecimento, se necessário &lt;BR/&gt;  &lt;LI&gt;  Proceder à limpeza do injetor de AdBlue e verificar o seu funcionamento correto &lt;BR/&gt;  &lt;LI&gt;  Se o injetor estiver limpo, mas o líquido não chegar sob pressão, proceder à substituição do depósito de AdBlue (incluindo o módulo de dosagem) &lt;BR/&gt; Após a substituição do depósito, aparecerá o código de avaria  &lt;I&gt; «P0607-51 - Sem programação» &lt;/I&gt; ; isto indica que é necessário efetuar a reprogramação da central de controlo. &lt;/UL&gt;  &lt;LI&gt;  &lt;B&gt; Nota: &lt;/B&gt;  Se, no final do ajuste, for exibido o erro  &lt;I&gt; «P14A3-96 Sensor de qualidade do AdBlue/DEF – Anomalia interna» &lt;/I&gt; , isso significa que o módulo presente no depósito não é totalmente compatível com o que estava instalado anteriormente. Nesse caso, é necessário proceder à reprogramação do novo módulo através de equipamento de diagnóstico &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

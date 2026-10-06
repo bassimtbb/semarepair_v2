@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-16T23:49:43">
+  <XDOCUMENTO>
+    <ID>199283856</ID>
+    <DOCNumber>GUP92011</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Keine Gangwahl bei laufendem Motor, Warnleuchte „Getriebestörung“ leuchtet auf</Titolo>
+    <InfoDoc>PIANTONE | STERZO | SPIA | AVARIA | MOTORE | ROSSO | ROSSA| ACCENSIONE | ACCESA | C0051 |  P0856 | MARCIA | ENTRA | ENTRANO | D | R | N | RETRO | SIMBOLO | LEVA | QUADRO | ACCESO | CAMBIO | ROBOTIZZATO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199283856</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Legende zur Zuverlässigkeitsstufe &lt;BR&gt; &lt;BR&gt; &lt;B&gt; * niedrige Stufe &lt;/B&gt; : Feststellung durch den Kfz-Mechaniker, vom Hersteller nicht dokumentierter Fehlerfall. &lt;BR&gt; &lt;BR&gt;  &lt;B&gt; ** mittleres Niveau &lt;/B&gt; : Umfangreiche Fehlerfälle, die von Servicetechnikern und Kfz-Mechanikern festgestellt wurden. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** hohes Niveau &lt;/B&gt; : Gewissheit über den Fehler, gute „Wiederholungsrate“, vom Hersteller gemeldet. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283856</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Gültigkeit: &lt;/B&gt; Fahrzeuge mit automatisiertem Getriebe &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Lenkung &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Bauteil: &lt;/B&gt; Lenksäule &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Bei laufendem Motor schaltet das Getriebe weder beim Umlegen des Schalthebels in D oder R noch bei Verwendung der Schaltwippen am Lenkrad in den Gang ein.
+Bei ausgeschaltetem Motor, aber eingeschalteter Instrumententafel schaltet das Getriebe hingegen sowohl beim Schalten des Hebels in D oder R als auch bei Verwendung der Schaltwippen am Lenkrad korrekt die Gänge ein. Außerdem leuchtet im Armaturenbrett die Getriebefehleranzeige auf. &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt; Einer oder mehrere der folgenden: &lt;UL&gt; &lt;LI&gt; P0856 (Eingangssignal Traktionskontrolle – Allgemeiner Fehler) &lt;BR&gt;  &lt;LI&gt; C0051 (Lenkstellungssensor – Fehler) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Defekte Lenksäule &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199283856</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Den Zustand und die ordnungsgemäße Funktion der Lenksäule einschließlich Elektromotor und Steuergerät überprüfen und gegebenenfalls austauschen &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Da das vorliegende Fahrzeug mit einem automatisierten Getriebe ausgestattet ist, wird die Gangschaltung auch von der Lenksäule überwacht, an der eine interne Störung vorlag. Der Austausch der Lenksäule einschließlich Elektromotor und Steuergerät führte zur Behebung der Störung. &lt;BR&gt; Das defekte Bauteil wies bei der Sichtprüfung keine Auffälligkeiten auf. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

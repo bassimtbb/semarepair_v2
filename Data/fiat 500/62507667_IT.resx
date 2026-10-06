@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2017-09-18T18:09:19">
+<XDOCUMENTO>
+<ID>62507667</ID>
+<DOCNumber>GUR62741</DOCNumber>
+<RifIDTipoRis>5</RifIDTipoRis>
+<Titolo>Sistema Start&amp;Stop - Ripristino sistema dopo scollegamento batteria</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>228</RifIDFileICO>
+<XFILE>
+<ID>228</ID>
+<Type>IMG</Type>
+<URL>GETFILE:228</URL>
+</XFILE>
+<XTIPORIS>
+<ID>5</ID>
+<TipoRis>GUR</TipoRis>
+<DscRis>Guida Regolazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>62507667</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Localizzazione Batteria</Capitolo>
+<Corpo>&lt;BR/&gt;La batteria si trova nel vano motore, lato conducente, in prossimità del passaruota.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>199000376</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>199000376</ID>
+<Type>IMG</Type>
+<URL>GETFILE:199000376</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62507667</RifIDDoc>
+<Ordine>2</Ordine>
+<Capitolo>Procedura per lo scollegamento della batteria - Versioni con falso polo negativo</Capitolo>
+<Corpo>&lt;BR/&gt;Qual&apos;ora sia necessario disconnettere la batteria procedere disconnettendo il dispositivo &lt;B&gt;(1)&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Non disconnettere il sensore di monitoraggio della batteria (2). La disconnessione del sensore va effettuata solo in caso di sostituzione della batteria.&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;Quando viene riconnessa la batteria, girare la chiave di avviamento sulla posizione &quot;STOP&quot; con la porta conducente chiusa, ed &lt;B&gt;attendere almeno 1 minuto affinché il sistema completi l&apos;inizializzazione&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>62504342</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>62504342</ID>
+<Type>IMG</Type>
+<URL>GETFILE:62504342</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62507667</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Procedura per lo scollegamento della batteria - Versioni senza falso polo negativo</Capitolo>
+<Corpo>&lt;BR/&gt;Qual&apos;ora sia necessario disconnettere la batteria premere il pulsante presente sul connettore &lt;B&gt;(B)&lt;/B&gt; ottenendo così il distacco del connettore&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Non disconnettere il sensore di monitoraggio della batteria (A). La disconnessione del sensore va effettuata solo in caso di sostituzione della batteria.&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;Quando viene riconnessa la batteria, girare la chiave di avviamento sulla posizione &quot;STOP&quot; con la porta conducente chiusa, ed &lt;B&gt;attendere almeno 1 minuto affinché il sistema completi l&apos;inizializzazione&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>62504345</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>62504345</ID>
+<Type>IMG</Type>
+<URL>GETFILE:62504345</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62507667</RifIDDoc>
+<Ordine>20</Ordine>
+<Capitolo>Procedura per il collegamento della batteria</Capitolo>
+<Corpo>&lt;BR/&gt;Per ricollegare la batteria è necessario procedere come segue:&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Collegare prima il polo positivo&lt;/B&gt; e successivamente quello negativo della batteria&lt;BR/&gt;&lt;LI&gt;Ripristinare il codice radio (se necessario)&lt;BR/&gt;&lt;LI&gt;Cancellare eventuali &lt;B&gt;errori presenti in memoria&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt;Portare la chiave in posizione &quot;STOP&quot; ed attendere 1 minuto (mantenere porte e finestrini chiusi)&lt;BR/&gt;&lt;LI&gt;Inserire l&apos;accensione&lt;BR/&gt;&lt;LI&gt;Disinserire l&apos;accensione&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>62503879</RifIDFileIMGANI>
+<Allineamento>L</Allineamento>
+<XFILE>
+<ID>62503879</ID>
+<Type>IMG</Type>
+<URL>GETFILE:62503879</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62507667</RifIDDoc>
+<Ordine>50</Ordine>
+<Capitolo>Ripristino tettuccio elettrico</Capitolo>
+<Corpo>&lt;BR/&gt;Procedura inizializzazione tettuccio elettrico:&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;Inserire l&apos;accensione&lt;BR/&gt;&lt;LI&gt;Premere e mantenere premuto il pulsante di chiusura del tetto&lt;BR/&gt;&lt;LI&gt;Attendere che il tettuccio elettrico si chiuda completamente&lt;BR/&gt;&lt;LI&gt;Dopo la completa chiusura del tettuccio attendere l&apos;arresto del motorino elettrico&lt;BR/&gt;&lt;LI&gt;Rilasciare il pulsante di chiusura del tettuccio elettrico&lt;BR/&gt;&lt;BR/&gt;Ora il sistema è inizializzato.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62507667</RifIDDoc>
+<Ordine>60</Ordine>
+<Capitolo>Ripristino autoradio</Capitolo>
+<Corpo>&lt;BR/&gt;In seguito alla disconnessione della batteria sul monitor dell&apos;autoradio potrebbe apparire &lt;B&gt;&quot;Radio Code&quot;&lt;/B&gt; seguito da &lt;B&gt;&quot; - - - -&quot;&lt;/B&gt;&lt;BR/&gt;E&apos; necessario inserire quindi il codice radio.&lt;BR/&gt;Utilizzare i tasti delle stazioni radio preselezionate (da 1 a 6)&lt;BR/&gt;Se le 4 cifre non vengono inserite entro 20 secondi  nel display apparirà il messaggio &lt;B&gt;&quot;Enter Code - - - -&quot;&lt;/B&gt;&lt;BR/&gt;In seguito all&apos;inserimento delle 4 cifre ci potrebbero volere fino a 20 secondi prima che l&apos;autoradio cominci a funzionare.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

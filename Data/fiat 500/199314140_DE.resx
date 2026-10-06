@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T23:42:50">
+  <XDOCUMENTO>
+    <ID>199314140</ID>
+    <DOCNumber>GUP98961</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Warnleuchte und Meldung „Parksensorsystem nicht verfügbar“ / „Sensorsperre“</Titolo>
+    <InfoDoc>ADAS |  C1001-29 | C1002-29 | C1003-29 | C1004-29 | C1005-29 | C1006-29 | C1007-29 | C1008-29 | C100B-29 | C100C-29 | C100D-29 | C100E-29 | C1013-29 | C1014-29 | C1015-29 | C1016-29 | SENSORI | PARCHEGGIO | PARK | ASSIST |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199314140</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199314140</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Gültigkeit: &lt;/B&gt; Alle Fahrzeuge, die mit 4-, 8- oder 12-Kanal-Ultraschall-Parksensoren ausgestattet sind: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Park Assist. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Gerät: &lt;/B&gt; Ultraschall-Parksensoren &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Aufleuchten der Warnleuchte und entsprechende Meldung im Kombiinstrument: „Park-Sensor-System nicht verfügbar“ oder „Sensorsperre“ bzw. ähnliche Meldungen für das Active ParkAssist-System. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt; Einer oder mehrere der folgenden Fehler:
+&lt;LI&gt; C1001-29 — Vorderer linker Außensensor, ungültiges Signal &lt;BR/&gt;  &lt;LI&gt; C1002-29 — Linker vorderer Innensensor, ungültiges Signal &lt;BR/&gt; &lt;LI&gt; C1003-29 — Rechter vorderer Innensensor, ungültiges Signal &lt;BR/&gt; &lt;LI&gt; C1004-29 — Rechter vorderer Außensensor, ungültiges Signal &lt;BR/&gt;  &lt;LI&gt; C1005-29 — Sensoren vorne links außen, ungültiges Signal &lt;BR/&gt; &lt;LI&gt; C1006-29 — Sensoren hinten links außen, ungültiges Signal &lt;BR/&gt; &lt;LI&gt; C1007-29 — Sensoren hinten rechts außen, ungültiges Signal &lt;BR/&gt;  &lt;LI&gt; C1008-29 — Sensoren vorne seitlich rechts, ungültiges Signal &lt;BR/&gt; &lt;LI&gt; C100B-29 — Sensoren hinten außen links, ungültiges Signal &lt;BR/&gt; &lt;LI&gt; C100C-29 — Sensoren hinten innen links, ungültiges Signal &lt;BR/&gt;  &lt;LI&gt; C100D-29 — Rechter hinterer innerer Sensor (mittig beim Tipo), ungültiges Signal &lt;BR/&gt; &lt;LI&gt; C100E-29 — Rechter hinterer äußerer Sensor, ungültiges Signal &lt;BR/&gt; &lt;LI&gt; C1013-29 — Linker vorderer Parkfit-Sensor, ungültiges Signal &lt;BR/&gt;  &lt;LI&gt; C1014-29 — Parkfit-Sensor vorne rechts, ungültiges Signal &lt;BR/&gt; &lt;LI&gt; C1015-29 — Parkfit-Sensor hinten links, ungültiges Signal &lt;BR/&gt;  &lt;LI&gt; C1016-29 — Parkfit-Sensor hinten rechts, ungültiges Signal &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Das Auslösen des DTC C10xx-29 (ungültiges Signal), wobei „x“ die Position des Sensors an der Stoßstange angibt, kann vier mögliche Ursachen haben:  &lt;LI&gt; Falsche Montage des Sensors &lt;BR/&gt; &lt;LI&gt; Verschmutzung oder Vereisung der Sensoroberfläche &lt;BR/&gt; &lt;LI&gt; Beschädigung des O-Rings oder der Sensoroberfläche &lt;BR/&gt; &lt;LI&gt; Fehlfunktion des Parksensors. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199314140</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Führen Sie eine systematische Überprüfung der möglichen Ursachen durch, bevor Sie den Austausch des Sensors in Betracht ziehen. &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt;  &lt;LI&gt; Mit dem Diagnosegerät prüfen, ob der DTC C10xx-29 aktiv ist, und die Position des betroffenen Sensors ermitteln. &lt;BR/&gt;  &lt;LI&gt; Prüfen Sie, ob sich Schmutz oder Eis auf der Oberfläche des Sensors befindet; ist dies der Fall, reinigen Sie die Oberfläche und wiederholen Sie die Überprüfung. &lt;BR/&gt; &lt;LI&gt; Überprüfen Sie den korrekten Einbau des Sensors, das Vorhandensein und die Unversehrtheit des Dichtungsrings sowie den Sitz an der Stoßstange; korrigieren Sie den Einbau gegebenenfalls. &lt;BR/&gt;  &lt;LI&gt; Die Außenfläche des Sensors und den umgebenden Bereich auf Defekte, Kratzer, Beulen oder Anzeichen eines Zusammenstoßes mit anderen Fahrzeugen oder Gegenständen untersuchen. &lt;BR/&gt; &lt;LI&gt;  Wenn keiner der oben genannten Punkte zutrifft, löschen Sie die Fehler mit dem Diagnosegerät und prüfen Sie, ob der DTC erneut im aktiven Zustand erscheint. Sollte der Fehler erneut aktiv sein, ohne dass äußere Ursachen festgestellt wurden, ersetzen Sie den Sensor. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

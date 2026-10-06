@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-19T16:40:00">
+  <XDOCUMENTO>
+    <ID>199053123</ID>
+    <DOCNumber>DES76007</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Przewodnik po schematach elektrycznych</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Opis układu</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199053123</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>LEGENDA</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;B&gt; (1) &lt;/B&gt;  -  &lt;B&gt; Numer pozycji przekaźnika &lt;/B&gt; : Oznacza położenie przekaźnika na płycie przekaźników. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (2) &lt;/B&gt;  -  &lt;B&gt; Kontynuacja schematu &lt;/B&gt; : Strzałka wskazuje kontynuację elementu na następnej stronie schematu elektrycznego. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (3) &lt;/B&gt;  -  &lt;B&gt; Nazwa połączenia &lt;/B&gt; : Wskazuje pojedynczy styk w złączu wielostykowym. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (4) &lt;/B&gt;  -  &lt;B&gt; Połączenie niestałe &lt;/B&gt; : Przedstawienie kołka gwintowanego znajdującego się w płytce przekaźnika. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (5) &lt;/B&gt;  -  &lt;B&gt; Wskazanie kontynuacji okablowania &lt;/B&gt; : Wskazuje, do której ścieżki prądowej podłącza się przewód. Np. jeśli numer to 23, aby zorientować się, gdzie przebiega dalej przewód, należy znaleźć numer 23 w linii umieszczonej u podstawy schematu. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (6) &lt;/B&gt;  -  &lt;B&gt; Przekrój i kolor przewodu &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (7) &lt;/B&gt;  -  &lt;B&gt; Symbole z otwartą stroną &lt;/B&gt; : Otwarta strona symbolu wskazuje na kontynuację elementu w innym schemacie elektrycznym. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (8) &lt;/B&gt;  -  &lt;B&gt; Połączenie wewnętrzne (cienka kreska) &lt;/B&gt; : To połączenie nie występuje w postaci przewodu. Połączenia wewnętrzne są jednak połączeniami elektrycznymi przewodzącymi prąd. Pozwalają one śledzić przebieg prądu wewnątrz elementów i okablowania. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (9) &lt;/B&gt;  -  &lt;B&gt; Wskazanie kontynuacji przewodu w kierunku elementu &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; (10) &lt;/B&gt;  -  &lt;B&gt; Kontynuacja połączenia &lt;/B&gt; : Litera wskazuje punkt, w którym połączenie jest kontynuowane w kolejnej sekcji schematu elektrycznego.</Corpo>
+      <RifIDFileIMGANI>299002868</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>299002868</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299002868</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199053123</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Kod kolorystyczny wiązek przewodów</Capitolo>
+      <Corpo> &lt;B&gt; Kod kolorystyczny &lt;/B&gt; :  &lt;BR/&gt;  &lt;BR/&gt; SW = Czarny &lt;BR/&gt; BR = Brązowy &lt;BR/&gt; GN = Zielony &lt;BR/&gt; BL = Niebieski &lt;BR/&gt; GR = Szary &lt;BR/&gt; LI = Liliowy &lt;BR/&gt; VI = Liliowy &lt;BR/&gt; GE = Żółty &lt;BR/&gt; OR = Pomarańczowy &lt;BR/&gt; RS = Różowy &lt;BR/&gt; RO = Czerwony &lt;BR/&gt; RT = Czerwony &lt;BR/&gt; WS = Biały &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299002869</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>299002869</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299002869</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

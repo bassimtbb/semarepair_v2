@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T20:24:25">
+  <XDOCUMENTO>
+    <ID>199212796</ID>
+    <DOCNumber>DRA76195</DOCNumber>
+    <RifIDTipoRis>45</RifIDTipoRis>
+    <Titolo>Caixa de velocidades de dupla embraiagem Volkswagen 0D9 (6 velocidades)</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>45</ID>
+      <TipoRis>DRV</TipoRis>
+      <DscRis>Câmbio Automático</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Dados técnicos - Lubrificantes</Capitolo>
+      <Corpo> &lt;B&gt; Fabricante: &lt;/B&gt;  Volkswagen AG &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Designação: &lt;/B&gt;  0D9 / DQ250 &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Designação comercial: &lt;/B&gt;  DSG6, S-Tronic  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Intervalo de substituição do óleo recomendado pelo fabricante da caixa de velocidades automática: &lt;/B&gt;   &lt;BR/&gt; 60 000 km &lt;BR/&gt;  &lt;BR/&gt;  &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt;  &lt;TH width=60% class=&quot;chiaro&quot;&gt; Descrição &lt;/TH&gt;  &lt;TH width=25% class=&quot;chiaro&quot;&gt; Unidade de medida &lt;/TH&gt;  &lt;TH width=15% class=&quot;chiaro&quot;&gt; Dados &lt;/TH&gt;  &lt;TR&gt;  &lt;TD&gt; Código da caixa de velocidades automática: &lt;/TD&gt;  &lt;TD&gt; N.º de referência &lt;/TD&gt;  &lt;TD&gt; 0D9 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Número de relações: &lt;/TD&gt;  &lt;TD&gt; N.º &lt;/TD&gt;  &lt;TD&gt; 6 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Óleo da caixa de velocidades automática - Especificação do fabricante: &lt;/TD&gt;  &lt;TD&gt; N.º de referência &lt;/TD&gt;  &lt;TD&gt; VW G 052 182 A2/A6 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Óleo da caixa de velocidades automática - Quantidade em vazio: &lt;/TD&gt;  &lt;TD&gt; Litros &lt;/TD&gt;  &lt;TD&gt; 6,9~7,2 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Óleo da caixa de velocidades automática - Quantidade para substituição: &lt;/TD&gt;  &lt;TD&gt; Litros &lt;/TD&gt;  &lt;TD&gt; 5,2 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Óleo da caixa de velocidades automática - Quantidade para lavagem da caixa de velocidades: &lt;/TD&gt;  &lt;TD&gt; Litros &lt;/TD&gt;  &lt;TD&gt; 8,9~9,2 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Temperatura de verificação do nível de óleo da caixa de velocidades automática: &lt;/TD&gt;  &lt;TD&gt; °C &lt;/TD&gt;  &lt;TD&gt; 35 ~ 45° &lt;/TD&gt;  &lt;/TR&gt;  &lt;/TABLE&gt;  &lt;BR/&gt; Efetue a verificação do nível de óleo da caixa de velocidades automática com o motor ligado. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503980</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503980</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503980</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>15</Ordine>
+      <Capitolo>Identificação da caixa de velocidades automática</Capitolo>
+      <Corpo> &lt;BR/&gt; É possível identificar o modelo da caixa de velocidades lendo a placa de identificação situada na parte superior. &lt;BR/&gt;  &lt;BR/&gt; A sigla  &lt;B&gt; 1 &lt;/B&gt;  identifica o código da caixa de velocidades. &lt;BR/&gt;  &lt;BR/&gt; A sigla  &lt;B&gt; 2 &lt;/B&gt;  identifica a data de produção (dd.mm.aa). &lt;BR/&gt;  &lt;BR/&gt; A sigla  &lt;B&gt; 3 &lt;/B&gt;  identifica a fábrica de produção. &lt;BR/&gt;  &lt;BR/&gt; A sigla  &lt;B&gt; 4 &lt;/B&gt;  identifica a hora de produção. &lt;BR/&gt;  &lt;BR/&gt; A sigla  &lt;B&gt; 5 &lt;/B&gt;  identifica o número de série. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007243</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007243</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007243</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>16</Ordine>
+      <Capitolo>Montagem da lavagem da caixa de velocidades automática com equipamento</Capitolo>
+      <Corpo> &lt;BR/&gt; Para efetuar a lavagem da caixa de velocidades automática, é aconselhável ligar o equipamento no lugar do filtro da caixa de velocidades automática  &lt;B&gt; fig. 1b &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; 1a &lt;/B&gt;  - Filtro da caixa de velocidades automática &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; 1b &lt;/B&gt;  - Conexão do lavador de caixas de velocidades &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; 2 &lt;/B&gt;  - Tampa de drenagem de óleo da caixa de velocidades automática &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299002408</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299002408</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299002408</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>17</Ordine>
+      <Capitolo>Ferramentas especiais e equipamento de oficina</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Adaptador para enchimento de óleo  &lt;B&gt; VAS 6262A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Adaptador para enchimento de óleo  &lt;B&gt; VAS 6262/6 &lt;/B&gt;  para alguns tipos de garrafas &lt;BR/&gt;  &lt;LI&gt;  Unidade de extração de óleo  &lt;B&gt; VAS &lt;/B&gt;   &lt;B&gt; 6622A &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007238</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007238</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007238</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procedimento de drenagem e enchimento de óleo da transmissão automática</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Verifique, através de instrumentos de diagnóstico, se a temperatura do óleo da caixa de velocidades não é superior a  &lt;B&gt; 45° &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Caso a temperatura seja superior a  &lt;B&gt; 45° &lt;/B&gt; , recomenda-se deixar a caixa de velocidades arrefecer &lt;BR/&gt;  &lt;LI&gt;  Desligue o motor &lt;BR/&gt;  &lt;LI&gt;  Coloque o veículo numa superfície plana &lt;BR/&gt;  &lt;LI&gt;  Retire a tampa inferior &lt;BR/&gt;  &lt;LI&gt;  Coloque a alavanca das mudanças em  &lt;B&gt; P &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Ligue o testador de diagnóstico &lt;BR/&gt;  &lt;LI&gt;  Antes de iniciar o trabalho, certifique-se, através do testador de diagnóstico, de que a temperatura do óleo da caixa de velocidades não exceda os   &lt;B&gt; 45 °C &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Eleve o veículo &lt;BR/&gt;  &lt;LI&gt;  Coloque o recipiente de recolha de óleo usado debaixo do veículo  &lt;BR/&gt;  &lt;LI&gt;  Retire a tampa de verificação do nível  &lt;B&gt;  B &lt;/B&gt;  e a tampa de transbordamento  &lt;B&gt; C &lt;/B&gt;  presentes na base da caixa de velocidades automática &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ATENÇÃO: &lt;/B&gt;  Não ligue o motor se não houver óleo na caixa de velocidades &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Aguardar até que o óleo tenha saído completamente &lt;BR/&gt;  &lt;LI&gt;  Reinstalar a tampa de transbordamento  &lt;B&gt; C &lt;/B&gt; , apertando a  &lt;B&gt; 3 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Encaixe a garrafa de óleo no adaptador para enchimento de óleo  &lt;B&gt; VAS 6262A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  No caso de algumas garrafas de óleo, será necessário utilizar o adaptador específico para garrafas  &lt;B&gt; VAS 6262/6 &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Encaixar a conexão do  &lt;B&gt; VAS 6262A &lt;/B&gt;  no interior da tampa de transbordamento  &lt;B&gt; C &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Durante a substituição da garrafa, fechar a torneira presente no adaptador para enchimento de óleo  &lt;B&gt; VAS 6262A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Encha a caixa de velocidades automática com  &lt;B&gt;  5,5 litros &lt;/B&gt;  de óleo &lt;BR/&gt;  &lt;LI&gt;  Aperte a tampa de verificação do nível  &lt;B&gt; B &lt;/B&gt;  provisoriamente à mão &lt;BR/&gt;  &lt;LI&gt;  Ligue o motor &lt;BR/&gt;  &lt;LI&gt;  Pise no pedal do travão e coloque a alavanca das mudanças em todas as posições durante pelo menos  &lt;B&gt; 3 segundos &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Volte a colocar a alavanca das mudanças em  &lt;B&gt; P &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Não desligue o motor &lt;BR/&gt;  &lt;LI&gt;  Verifique o nível de óleo e, se necessário, complete o nível &lt;BR/&gt;  &lt;LI&gt;  Aperte a tampa de verificação do nível  &lt;B&gt; B &lt;/B&gt;  a  &lt;B&gt; 45 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007272</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007272</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007272</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>25</Ordine>
+      <Capitolo>Procedimento de substituição do filtro de óleo da transmissão automática</Capitolo>
+      <Corpo> &lt;LI&gt; O filtro de óleo da caixa de velocidades deve ser substituído quando: &lt;BR/&gt; &lt;UL&gt;   &lt;LI&gt;  O automóvel atingiu os 60 000 km &lt;BR/&gt;    &lt;LI&gt;  O líquido de arrefecimento contaminou o óleo da caixa de velocidades &lt;BR/&gt;    &lt;LI&gt;  Foram detetadas partículas metálicas no óleo da caixa de velocidades &lt;BR/&gt;    &lt;LI&gt;  A embraiagem está desgastada ou apresenta avarias &lt;BR/&gt; &lt;/UL&gt; &lt;LI&gt;  Coloque a alavanca das mudanças na posição  &lt;B&gt; P &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Retire a tampa do filtro de óleo da caixa de velocidades automática &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ATENÇÃO:  &lt;/B&gt;  Cubra com panos a zona em redor do filtro &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Desaperte o parafuso do filtro de óleo da caixa de velocidades automática em  &lt;B&gt; 7 voltas &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Aguarde 10 segundos, para que o óleo do filtro escorra para a caixa de velocidades &lt;BR/&gt;  &lt;LI&gt;  Retire o filtro da caixa de velocidades automática  &lt;B&gt; (A) &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Proceda à substituição do filtro  &lt;BR/&gt;  &lt;LI&gt;  Volte a montar a tampa do filtro da caixa de velocidades automática  &lt;B&gt; (A) &lt;/B&gt;  e aperte-a  a  &lt;B&gt; 20 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ATENÇÃO: &lt;/B&gt;  Substitua sempre a junta do filtro da caixa de velocidades automática</Corpo>
+      <RifIDFileIMGANI>299007244</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007244</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007244</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199212796</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Verificação do nível de óleo da transmissão automática</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  Coloque o veículo numa superfície plana &lt;BR/&gt;  &lt;LI&gt;  Eleve o veículo &lt;BR/&gt;  &lt;LI&gt;  Retire a cobertura inferior &lt;BR/&gt;  &lt;LI&gt;  Ligue o testador de diagnóstico &lt;BR/&gt;  &lt;LI&gt;  Certifique-se de que a temperatura do óleo da caixa de velocidades se situa entre os   &lt;B&gt; 35~ 45 °C &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Através do testador de diagnóstico, inicie o procedimento de  &lt;B&gt; Verificação do nível de óleo da caixa de velocidades automática &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Ligue o motor em marcha lenta &lt;BR/&gt;  &lt;LI&gt;  Coloque a alavanca das mudanças em  &lt;B&gt; P &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Coloque o recipiente de recolha de óleo usado debaixo do veículo  &lt;BR/&gt;  &lt;LI&gt;  Retire a tampa de verificação do nível  &lt;B&gt; B &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Deixe o óleo em excesso escorrer &lt;BR/&gt;  &lt;LI&gt;  Verifique o nível do óleo da caixa de velocidades automática &lt;BR/&gt;  &lt;LI&gt;  A quantidade correta é confirmada por um ligeiro gotejamento &lt;BR/&gt;  &lt;LI&gt;  Se o óleo não pingar pelo orifício de inspeção, será necessário adicionar mais um litro de óleo utilizando o adaptador  &lt;B&gt; VAS 6262A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Se houver excesso de óleo, será necessário deixá-lo escorrer até obter um ligeiro gotejamento &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ATENÇÃO: &lt;/B&gt;  Caso seja necessário adicionar óleo, agite bem as garrafas antes de as abrir, para que não fiquem sedimentos no fundo &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ATENÇÃO: &lt;/B&gt;  Um nível de óleo demasiado baixo ou demasiado alto compromete o funcionamento da caixa de velocidades &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Volte a colocar a tampa de verificação do nível  &lt;B&gt; B &lt;/B&gt;  e aperte-a a  &lt;B&gt; 45 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ATENÇÃO:  &lt;/B&gt; Substitua sempre a junta da tampa de verificação do nível  &lt;B&gt; B &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Volte a instalar a tampa inferior &lt;BR/&gt;  &lt;LI&gt;  Baixe o veículo &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007271</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007271</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007271</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

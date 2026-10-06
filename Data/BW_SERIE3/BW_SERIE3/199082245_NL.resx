@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T03:13:59">
+  <XDOCUMENTO>
+    <ID>199082245</ID>
+    <DOCNumber>DTM88828</DOCNumber>
+    <RifIDTipoRis>13</RifIDTipoRis>
+    <Titolo>Lijst voor motoren B47 D20B</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>226</RifIDFileICO>
+    <XFILE>
+      <ID>226</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:226</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>13</ID>
+      <TipoRis>DTM</TipoRis>
+      <DscRis>Mechanische gegevens en smeermiddelen</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>4</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLDATO</IDLabel>
+        <Stringa>Beschrijving</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLUM</IDLabel>
+        <Stringa>Meeteenheid</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>COLVALORE</IDLabel>
+        <Stringa>Gegevens</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>LINK</IDLabel>
+        <Stringa>Link</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>4</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Gegevenslijst</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTORGEGEVENS</Gruppo>
+      <Dato>Cilinderinhoud</Dato>
+      <Valore>1995</Valore>
+      <UnitaMis>cm³</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTORGEGEVENS</Gruppo>
+      <Dato>Cilinders</Dato>
+      <Valore>4</Valore>
+      <UnitaMis>nr.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTORGEGEVENS</Gruppo>
+      <Dato>Indeling van kleppen</Dato>
+      <Valore>DOHC</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTORGEGEVENS</Gruppo>
+      <Dato>Speling in inlaat- en uitlaatkleppen</Dato>
+      <Valore>Hydraulisch</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTORGEGEVENS</Gruppo>
+      <Dato>Volgorde van de injectie</Dato>
+      <Valore>1-3-4-2</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTORGEGEVENS</Gruppo>
+      <Dato>Compressieverhouding</Dato>
+      <Valore>16,5</Valore>
+      <UnitaMis>:1</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTORGEGEVENS</Gruppo>
+      <Dato>Compressiedruk</Dato>
+      <Valore>16,0</Valore>
+      <UnitaMis>bar</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>ONTSTEKINGSGEGEVENS</Gruppo>
+      <Dato>Accuspanning</Dato>
+      <Valore>12</Valore>
+      <UnitaMis>Volt</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>GEGEVENS OVER UITLAATGASSEN</Gruppo>
+      <Dato>Minimumregeling</Dato>
+      <Valore>680-900</Valore>
+      <UnitaMis>Toeren per minuut</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>GEGEVENS OVER UITLAATGASSEN</Gruppo>
+      <Dato>Minimumregeling - Uitlaatgastest</Dato>
+      <Valore>680-900</Valore>
+      <UnitaMis>Toeren per minuut</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>GEGEVENS OVER UITLAATGASSEN</Gruppo>
+      <Dato>Versnelde testcyclus – Uitlaatgastest</Dato>
+      <Valore>3700-4100</Valore>
+      <UnitaMis>Toeren per minuut</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>GEGEVENS OVER UITLAATGASSEN</Gruppo>
+      <Dato>Maximale tijd bij versneld toerental</Dato>
+      <Valore>0,5</Valore>
+      <UnitaMis>s</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>GEGEVENS OVER UITLAATGASSEN</Gruppo>
+      <Dato>Testmethode</Dato>
+      <Valore>B</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>GEGEVENS OVER UITLAATGASSEN</Gruppo>
+      <Dato>Rookdichtheid - Europese grenswaarde</Dato>
+      <Valore>1,50</Valore>
+      <UnitaMis>m-1</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>GEGEVENS OVER UITLAATGASSEN</Gruppo>
+      <Dato>Rookopaciteit</Dato>
+      <Valore>0,09</Valore>
+      <UnitaMis>m-1</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTOR- EN TRANSMISSIE-SMERINGSMIDDELEN</Gruppo>
+      <Dato>Motorolie - Viscositeit</Dato>
+      <Valore>0W/30 - 5W/30</Valore>
+      <UnitaMis>SAE</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTOR- EN TRANSMISSIE-SMERINGSMIDDELEN</Gruppo>
+      <Dato>Motorolie - Specificaties van de fabrikant</Dato>
+      <Valore>BMW LL-04</Valore>
+      <UnitaMis>Ref.nr.</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTOR- EN TRANSMISSIE-SMERINGSMIDDELEN</Gruppo>
+      <Dato> Motorolie - Viscositeit</Dato>
+      <Valore>0W/30</Valore>
+      <UnitaMis>SAE</UnitaMis>
+      <RifIDFileIMG>199323858</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199323858</ID>
+        <DOCNumber>NOT77058</DOCNumber>
+        <Documento>NOT: Motorolie</Documento>
+        <URL>LINKDOC:199323858</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTOR- EN TRANSMISSIE-SMERINGSMIDDELEN</Gruppo>
+      <Dato> Motorolie - Specificaties van de fabrikant</Dato>
+      <Valore>BMW LL-19 FE</Valore>
+      <UnitaMis>Ref.nr.</UnitaMis>
+      <RifIDFileIMG>199323858</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199323858</ID>
+        <DOCNumber>NOT77058</DOCNumber>
+        <Documento>NOT: Motorolie</Documento>
+        <URL>LINKDOC:199323858</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTOR- EN TRANSMISSIE-SMERINGSMIDDELEN</Gruppo>
+      <Dato>Motorolie en filter - Hoeveelheden</Dato>
+      <Valore>5,0</Valore>
+      <UnitaMis>liter</UnitaMis>
+      <RifIDFileIMG>199323858</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199323858</ID>
+        <DOCNumber>NOT77058</DOCNumber>
+        <Documento>NOT: Motorolie</Documento>
+        <URL>LINKDOC:199323858</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTOR- EN TRANSMISSIE-SMERINGSMIDDELEN</Gruppo>
+      <Dato>Olie voor handgeschakelde versnellingsbak</Dato>
+      <Valore>BMW MTF-3</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTOR- EN TRANSMISSIE-SMERINGSMIDDELEN</Gruppo>
+      <Dato>Olie voor handgeschakelde versnellingsbakken - Hoeveelheid</Dato>
+      <Valore>1,2</Valore>
+      <UnitaMis>liter</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTOR- EN TRANSMISSIE-SMERINGSMIDDELEN</Gruppo>
+      <Dato>Olie voor automatische versnellingsbakken</Dato>
+      <Valore>ATF-3+</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTOR- EN TRANSMISSIE-SMERINGSMIDDELEN</Gruppo>
+      <Dato>Olie voor automatische versnellingsbakken – Hoeveelheid bij leegstand</Dato>
+      <Valore>9,3</Valore>
+      <UnitaMis>liter</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTOR- EN TRANSMISSIE-SMERINGSMIDDELEN</Gruppo>
+      <Dato>Achterdifferentieelolie - Specificatie van de fabrikant</Dato>
+      <Valore>Zie link</Valore>
+      <UnitaMis>Ref.nr.</UnitaMis>
+      <RifIDFileIMG>199097261</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199097261</ID>
+        <DOCNumber>NOT76165</DOCNumber>
+        <Documento>NOT: Achterdifferentieelolie - Specificatie van de fabrikant</Documento>
+        <URL>LINKDOC:199097261</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTOR- EN TRANSMISSIE-SMERINGSMIDDELEN</Gruppo>
+      <Dato>Achterdifferentieelolie - Hoeveelheid</Dato>
+      <Valore>0,7-1,2</Valore>
+      <UnitaMis>liter</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTOR- EN TRANSMISSIE-SMERINGSMIDDELEN</Gruppo>
+      <Dato>Olie voor de tussenbak - Viscositeit</Dato>
+      <Valore>BMW DTF-1 Synthetisch</Valore>
+      <UnitaMis>SAE</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTOR- EN TRANSMISSIE-SMERINGSMIDDELEN</Gruppo>
+      <Dato>Olie in de tussenbak</Dato>
+      <Valore>GL4</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MOTOR- EN TRANSMISSIE-SMERINGSMIDDELEN</Gruppo>
+      <Dato>Olie in de tussenbak - Hoeveelheid</Dato>
+      <Valore>0,7</Valore>
+      <UnitaMis>liter</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>GEGEVENS OVER HULPSTOFFEN</Gruppo>
+      <Dato>Koelvloeistof</Dato>
+      <Valore>Zie link</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>199097766</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199097766</ID>
+        <DOCNumber>NOT76168</DOCNumber>
+        <Documento>NOT: Koelvloeistof</Documento>
+        <URL>LINKDOC:199097766</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>GEGEVENS OVER HULPSTOFFEN</Gruppo>
+      <Dato>Koelvloeistof - Hoeveelheid</Dato>
+      <Valore>7,0</Valore>
+      <UnitaMis>liter</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>GEGEVENS OVER HULPSTOFFEN</Gruppo>
+      <Dato>Remvloeistof</Dato>
+      <Valore>DOT 4 LV</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>GEGEVENS OVER HULPSTOFFEN</Gruppo>
+      <Dato>Druk van de radiateurvuldop</Dato>
+      <Valore>1,40</Valore>
+      <UnitaMis>bar</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MECHANISCHE GEGEVENS REMMEN</Gruppo>
+      <Dato>Minimale dikte van de voorste remschijven (geventileerd)</Dato>
+      <Valore>Zie link</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>199070397</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199070397</ID>
+        <DOCNumber>NOT76088</DOCNumber>
+        <Documento>NOT: Minimale dikte van de voorste remschijven (geventileerd)</Documento>
+        <URL>LINKDOC:199070397</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MECHANISCHE GEGEVENS REMMEN</Gruppo>
+      <Dato>Minimale dikte van de voorremblokken</Dato>
+      <Valore>3,7</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MECHANISCHE GEGEVENS REMMEN</Gruppo>
+      <Dato>Minimale dikte van de achterremschijven (geventileerd)</Dato>
+      <Valore>Zie link</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>199070398</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>199070398</ID>
+        <DOCNumber>NOT76089</DOCNumber>
+        <Documento>NOT: Minimale dikte achterremschijven (geventileerd)</Documento>
+        <URL>LINKDOC:199070398</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>MECHANISCHE GEGEVENS REMMEN</Gruppo>
+      <Dato>Minimale dikte van de achterste remblokken</Dato>
+      <Valore>3,7</Valore>
+      <UnitaMis>mm</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>AIRCONDITIONING</Gruppo>
+      <Dato>Koelgas</Dato>
+      <Valore>Zie link</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>75008087</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>75008087</ID>
+        <DOCNumber>NOT75102</DOCNumber>
+        <Documento>NOT: Koelgas</Documento>
+        <URL>LINKDOC:75008087</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>AIRCONDITIONING</Gruppo>
+      <Dato>Koelgas - Hoeveelheid</Dato>
+      <Valore>535-565 - (zie etiket)</Valore>
+      <UnitaMis>gram</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>AIRCONDITIONING</Gruppo>
+      <Dato>Compressorolie</Dato>
+      <Valore>SP-A2 - (Zie label op compressor)</Valore>
+      <UnitaMis>Type</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+    <XDATIMECH>
+      <RifIDDoc>199082245</RifIDDoc>
+      <Gruppo>AIRCONDITIONING</Gruppo>
+      <Dato> Compressorolie - Hoeveelheid</Dato>
+      <Valore>Controleer het label van de compressor.</Valore>
+      <UnitaMis>cm³</UnitaMis>
+      <RifIDFileIMG>0</RifIDFileIMG>
+      <XLINKDOC>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <Documento>- -: </Documento>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOC>
+    </XDATIMECH>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T15:37:09">
+  <XDOCUMENTO>
+    <ID>199204795</ID>
+    <DOCNumber>PTG83266</DOCNumber>
+    <RifIDTipoRis>32</RifIDTipoRis>
+    <Titolo>Manutenção programada</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>32</ID>
+      <TipoRis>PTG</TipoRis>
+      <DscRis>Revisões Oficiais</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XLINKUTILI>
+      <RifIDDoc>199204795</RifIDDoc>
+      <Ordine>10</Ordine>
+      <RifIDDocLink>199204796</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199204796</ID>
+        <DOCNumber>TGG151573</DOCNumber>
+        <Documento>Revisão: Manutenção A - Indicador de manutenção aceso ou a cada 30 000 km ou 1 ano, ou seja, a cada 2 anos</Documento>
+        <URL>LINKDOC:199204796</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199204795</RifIDDoc>
+      <Ordine>20</Ordine>
+      <RifIDDocLink>199204797</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199204797</ID>
+        <DOCNumber>TGG151574</DOCNumber>
+        <Documento>Revisão: Manutenção B - Indicador de troca de óleo do motor aceso ou a cada 30 000 km ou 2 anos</Documento>
+        <URL>LINKDOC:199204797</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199204795</RifIDDoc>
+      <Ordine>30</Ordine>
+      <RifIDDocLink>199204798</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199204798</ID>
+        <DOCNumber>TGG151575</DOCNumber>
+        <Documento>Revisão: Manutenção A + B</Documento>
+        <URL>LINKDOC:199204798</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

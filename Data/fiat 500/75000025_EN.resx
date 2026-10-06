@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-06T18:27:44">
+  <XDOCUMENTO>
+    <ID>75000025</ID>
+    <DOCNumber>GUP75023</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Irregular flashing of the engine fault warning light</Titolo>
+    <InfoDoc>engine management | injection | U1703 | U001 | fault indicator light | malfunction indicator light | flashes | flashing | injection indicator light</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>75000025</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degree of reliability (***)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legend of the degree of reliability&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* low level&lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** medium level&lt;/B&gt; : Extensive fault history, found by service technicians and repairers.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** high level&lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000025</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Vehicle identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Make: &lt;/B&gt; Fiat &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Model: &lt;/B&gt; New 500 &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Engine: &lt;/B&gt; 1.2i 8V &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Period: &lt;/B&gt; 2007 &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Engine code / VIN: &lt;/B&gt; - - &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Line: &lt;/B&gt; - - &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Other references &lt;/B&gt; - -</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000025</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Instrument panel &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Fault indicator light &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt;  Fault indicator light flashes irregularly. Errors detected by self-diagnosis: U1703, U001 &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Wear due to rubbing of CAN network wiring located under the instrument panel near the support bracket</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000025</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Intervention</Capitolo>
+      <Corpo> &lt;BR/&gt; - Restore the insulation of the CAN network wiring from the diagnostic socket to the body computer &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

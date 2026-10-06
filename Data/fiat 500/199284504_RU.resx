@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:43:47">
+  <XDOCUMENTO>
+    <ID>199284504</ID>
+    <DOCNumber>GUP92237</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Przy wysokiej prędkości spadek osiągów, brak reakcji na pedał gazu i zapalona kontrolka awarii silni</Titolo>
+    <InfoDoc>INIEZIONE | ELETTROVALVOLA | VALVOLA | CANISTER | GAS | SCARICO | VAPORI | POTENZA | P0101 | C1221 | ACCENDE | ACCESA | ACCESO | GIALLA | GIALLO | RENDE | PIANO | MIL | RISPONDE | SALE | GIRI | REGIME | MINIMO | ACCELERANDO | RIMANE | MANCA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199284504</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Stopień wiarygodności   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda stopnia wiarygodności &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niski poziom &lt;/B&gt; : Wykryte przez mechanika samochodowego, przypadek usterki niepotwierdzony przez producenta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** średni poziom &lt;/B&gt; : Częste przypadki usterki, potwierdzone przez techników serwisowych i mechaników. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** wysoki poziom &lt;/B&gt; : Potwierdzona anomalia, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284504</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Układ: &lt;/B&gt;  Wtrysk &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Urządzenie: &lt;/B&gt;  Elektrozawór kanistra &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Usterka: &lt;/B&gt;  Podczas jazdy z dużą prędkością pojazd wykazuje znaczny spadek osiągów, po którym następuje utrata reakcji pedału gazu. Jednocześnie zapala się kontrolka awarii silnika, a silnik pracuje na minimalnych obrotach. Problem można chwilowo rozwiązać poprzez ponowne uruchomienie pojazdu. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Błędy wykryte przez system autodiagnostyki: &lt;/B&gt;  &lt;UL&gt;   &lt;LI&gt;  P0101 (Czujnik masy powietrza – nieprawidłowa wartość znamionowa) &lt;BR/&gt;  &lt;LI&gt;  C1221 (Czujnik pedału przyspieszenia, kontrola NCM – nieprawidłowy sygnał) &lt;/UL&gt;  &lt;LI&gt;  &lt;B&gt; Przyczyna: &lt;/B&gt;  Uszkodzony elektrozawór kanistra &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284504</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Czynność: &lt;/B&gt;  Sprawdzić prawidłowe działanie elektrozaworu kanistra, w razie potrzeby wymienić go &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedura: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Uwaga: &lt;/B&gt;  Elektrozawór jest podłączony do kolektora dolotowego, po stronie kierowcy, pomiędzy silnikiem a kabiną. W omawianym przypadku początkowo wymieniono czujnik ciśnienia w kolektorze dolotowym, co jednak nie rozwiązało usterki. Ostateczne rozwiązanie polegało wyłącznie na wymianie elektrozaworu kanistra. Uszkodzony element nie wykazywał żadnych widocznych usterek, a po jego wymianie nie było konieczne dokonywanie żadnych regulacji za pomocą sprzętu diagnostycznego. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

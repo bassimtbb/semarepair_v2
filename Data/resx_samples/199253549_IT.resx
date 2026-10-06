@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-06-11T01:33:10">
+<XDOCUMENTO>
+<ID>199253549</ID>
+<DOCNumber>DTM91772</DOCNumber>
+<RifIDTipoRis>13</RifIDTipoRis>
+<Titolo>Lista per Motori DFGA</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>226</RifIDFileICO>
+<XFILE>
+<ID>226</ID>
+<Type>IMG</Type>
+<URL>GETFILE:226</URL>
+</XFILE>
+<XTIPORIS>
+<ID>13</ID>
+<TipoRis>DTM</TipoRis>
+<DscRis>Dati Meccanici e Lubrificanti</DscRis>
+<RifIDFileCSS>3</RifIDFileCSS>
+<RifIDTemplate>4</RifIDTemplate>
+<XFILE>
+<ID>3</ID>
+<Type>CSS</Type>
+<URL>GETFILE:3</URL>
+</XFILE>
+<XRISORSE>
+<RifIDTemplate>4</RifIDTemplate>
+<IDLabel>COLDATO</IDLabel>
+<Stringa>Descrizione</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>4</RifIDTemplate>
+<IDLabel>LINK</IDLabel>
+<Stringa>Link</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>4</RifIDTemplate>
+<IDLabel>TITOLETTO</IDLabel>
+<Stringa>Lista Dati</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>4</RifIDTemplate>
+<IDLabel>COLUM</IDLabel>
+<Stringa>Unità di misura</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>4</RifIDTemplate>
+<IDLabel>COLVALORE</IDLabel>
+<Stringa>Dati</Stringa>
+</XRISORSE>
+</XTIPORIS>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI MOTORE</Gruppo>
+<Dato>Cilindrata</Dato>
+<Valore>1968</Valore>
+<UnitaMis>cm³</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI MOTORE</Gruppo>
+<Dato>Cilindri</Dato>
+<Valore>4</Valore>
+<UnitaMis>n°</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI MOTORE</Gruppo>
+<Dato>Disposizione Valvole</Dato>
+<Valore>DOHC</Valore>
+<UnitaMis>Tipo</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI MOTORE</Gruppo>
+<Dato>Gioco Valvole aspirazione/scarico</Dato>
+<Valore>Idrauliche</Valore>
+<UnitaMis>Tipo</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI MOTORE</Gruppo>
+<Dato>Ordine Iniezione</Dato>
+<Valore>1-3-4-2</Valore>
+<UnitaMis>Tipo</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI MOTORE</Gruppo>
+<Dato>Rapporto Compressione</Dato>
+<Valore>16,2</Valore>
+<UnitaMis>:1</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI MOTORE</Gruppo>
+<Dato>Pressione di Compressione</Dato>
+<Valore>19,0-31,0</Valore>
+<UnitaMis>bar</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI ACCENSIONE</Gruppo>
+<Dato>Tensione Batteria</Dato>
+<Valore>12</Valore>
+<UnitaMis>Volt</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI ACCENSIONE</Gruppo>
+<Dato>Candelette 1</Dato>
+<Valore>BorgWarner</Valore>
+<UnitaMis>Marca</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI ACCENSIONE</Gruppo>
+<Dato> Candelette 1</Dato>
+<Valore>059 963 319 AB</Valore>
+<UnitaMis>Tipo</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI ACCENSIONE</Gruppo>
+<Dato>Candelette 2</Dato>
+<Valore>BorgWarner - (con sensore pressione integrato)</Valore>
+<UnitaMis>Marca</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI ACCENSIONE</Gruppo>
+<Dato> Candelette 2</Dato>
+<Valore>03L 905 061 K - (con sensore pressione integrato)</Valore>
+<UnitaMis>Tipo</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI GAS DI SCARICO</Gruppo>
+<Dato>Regime Minimo</Dato>
+<Valore>730-930</Valore>
+<UnitaMis>Giri/min</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI GAS DI SCARICO</Gruppo>
+<Dato>Regime Minimo - Prova Fumi</Dato>
+<Valore>730-930</Valore>
+<UnitaMis>Giri/min</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI GAS DI SCARICO</Gruppo>
+<Dato>Regime Accelerato - Prova Fumi</Dato>
+<Valore>2300-2700</Valore>
+<UnitaMis>Giri/min</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI GAS DI SCARICO</Gruppo>
+<Dato>Tempo Massimo Regime Accelerato</Dato>
+<Valore>2,0</Valore>
+<UnitaMis>s</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI GAS DI SCARICO</Gruppo>
+<Dato>Metodo di Prova</Dato>
+<Valore>B</Valore>
+<UnitaMis>Tipo</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI GAS DI SCARICO</Gruppo>
+<Dato>Opacità Fumi</Dato>
+<Valore>1,5</Valore>
+<UnitaMis>m-1</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>LUBRIFICANTI MOTORE - CAMBIO</Gruppo>
+<Dato>Olio Motore - Viscosità</Dato>
+<Valore>5W/30</Valore>
+<UnitaMis>SAE</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>LUBRIFICANTI MOTORE - CAMBIO</Gruppo>
+<Dato>Olio Motore - Specifica Costruttore</Dato>
+<Valore>VW 507.00</Valore>
+<UnitaMis>N. Ref.</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>LUBRIFICANTI MOTORE - CAMBIO</Gruppo>
+<Dato>Olio Motore e Filtro - Quantità</Dato>
+<Valore>4,7</Valore>
+<UnitaMis>litri</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>LUBRIFICANTI MOTORE - CAMBIO</Gruppo>
+<Dato>Olio Cambio Manuale - Specifica Costruttore</Dato>
+<Valore>VW G 052 527 A2 - (con cambio 02Q)</Valore>
+<UnitaMis>N. Ref.</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>LUBRIFICANTI MOTORE - CAMBIO</Gruppo>
+<Dato>Olio Cambio Manuale - Quantità</Dato>
+<Valore>2,15 - (con cambio 02Q)</Valore>
+<UnitaMis>litri</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>LUBRIFICANTI MOTORE - CAMBIO</Gruppo>
+<Dato>Olio Cambio Manuale - Quantità a vuoto</Dato>
+<Valore>2,30 - (con cambio 02Q)</Valore>
+<UnitaMis>litri</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>LUBRIFICANTI MOTORE - CAMBIO</Gruppo>
+<Dato>Olio Cambio Semiautomatico - Specifica Costruttore</Dato>
+<Valore>VW G 055 529 A2 - (con cambio 0GC)</Valore>
+<UnitaMis>N. Ref.</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>LUBRIFICANTI MOTORE - CAMBIO</Gruppo>
+<Dato>Olio Cambio Semiautomatico - Quantità</Dato>
+<Valore>6,0 - (con cambio 0GC)</Valore>
+<UnitaMis>litri</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>LUBRIFICANTI MOTORE - CAMBIO</Gruppo>
+<Dato>Olio Cambio Semiautomatico - Quantità a vuoto</Dato>
+<Valore>6,7-6,9 - (con cambio 0GC)</Valore>
+<UnitaMis>litri</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>LUBRIFICANTI MOTORE - CAMBIO</Gruppo>
+<Dato>Olio Differenziale Posteriore - Viscosità</Dato>
+<Valore>75W/90 - (fino a Marzo 2019)</Valore>
+<UnitaMis>SAE</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>LUBRIFICANTI MOTORE - CAMBIO</Gruppo>
+<Dato>Olio Differenziale Posteriore - Specifica Costruttore</Dato>
+<Valore>VW G 052 580 A2 - (da Aprile 2019)</Valore>
+<UnitaMis>N. Ref.</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>LUBRIFICANTI MOTORE - CAMBIO</Gruppo>
+<Dato>Olio Differenziale Posteriore - Specifica Costruttore</Dato>
+<Valore>VW G 052 145 S2  (fino a Marzo 2019)</Valore>
+<UnitaMis>N. Ref.</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>LUBRIFICANTI MOTORE - CAMBIO</Gruppo>
+<Dato>Olio Differenziale Posteriore - Quantità</Dato>
+<Valore>0,95</Valore>
+<UnitaMis>litri</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>LUBRIFICANTI MOTORE - CAMBIO</Gruppo>
+<Dato>Olio Scatola di Trasferimento - Viscosità</Dato>
+<Valore>75W/90</Valore>
+<UnitaMis>SAE</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>LUBRIFICANTI MOTORE - CAMBIO</Gruppo>
+<Dato>Olio Scatola di Trasferimento - Specifica Costruttore</Dato>
+<Valore>VW G 052 145</Valore>
+<UnitaMis>N. Ref.</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>LUBRIFICANTI MOTORE - CAMBIO</Gruppo>
+<Dato>Olio Scatola di Trasferimento - Quantità</Dato>
+<Valore>0,85</Valore>
+<UnitaMis>litri</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>LUBRIFICANTI MOTORE - CAMBIO</Gruppo>
+<Dato>Olio giunto Haldex - Specifica costruttore</Dato>
+<Valore>(VW G 060 175 A2 - fino a Marzo 2019) - (VW G 065 175 A2 - da Aprile 2019)</Valore>
+<UnitaMis>N. Ref.</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>LUBRIFICANTI MOTORE - CAMBIO</Gruppo>
+<Dato>Olio giunto Haldex - Quantità</Dato>
+<Valore>0,65 - (0,75 a vuoto)</Valore>
+<UnitaMis>litri</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI FLUIDI AUSILIARI</Gruppo>
+<Dato>Liquido Radiatore</Dato>
+<Valore>G12 Plus Plus</Valore>
+<UnitaMis>Tipo</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI FLUIDI AUSILIARI</Gruppo>
+<Dato>Liquido Radiatore - Specifica Costruttore</Dato>
+<Valore>TL-VW 774G</Valore>
+<UnitaMis>N. Ref.</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI FLUIDI AUSILIARI</Gruppo>
+<Dato>Liquido Radiatore - Quantità</Dato>
+<Valore>8,0</Valore>
+<UnitaMis>litri</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI FLUIDI AUSILIARI</Gruppo>
+<Dato>Fluido Freni</Dato>
+<Valore>DOT 4</Valore>
+<UnitaMis>Tipo</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI FLUIDI AUSILIARI</Gruppo>
+<Dato>Fluido Freni - Specifica Costruttore</Dato>
+<Valore>VW 501.14</Valore>
+<UnitaMis>N. Ref.</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI FLUIDI AUSILIARI</Gruppo>
+<Dato>Fluido Freni - Quantità</Dato>
+<Valore>1,15 - (1,00 con cambio automatico)</Valore>
+<UnitaMis>litri</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI FLUIDI AUSILIARI</Gruppo>
+<Dato>Apertura Termostato Radiatore</Dato>
+<Valore>85-89</Valore>
+<UnitaMis>°C</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI FLUIDI AUSILIARI</Gruppo>
+<Dato>Pressione Tappo Liquido Radiatore</Dato>
+<Valore>1,6-1,8</Valore>
+<UnitaMis>bar</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI MECCANICI FRENI</Gruppo>
+<Dato>Spessore Minimo Dischi Anteriori (ventilati)</Dato>
+<Valore>22,0</Valore>
+<UnitaMis>mm</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI MECCANICI FRENI</Gruppo>
+<Dato>Spessore Minimo Pastiglie Anteriori</Dato>
+<Valore>2,0</Valore>
+<UnitaMis>mm</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI MECCANICI FRENI</Gruppo>
+<Dato>Spessore Minimo Dischi Posteriori</Dato>
+<Valore>8,0</Valore>
+<UnitaMis>mm</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>DATI MECCANICI FRENI</Gruppo>
+<Dato>Spessore Minimo Pastiglie Posteriori</Dato>
+<Valore>2,0</Valore>
+<UnitaMis>mm</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>CLIMATIZZAZIONE</Gruppo>
+<Dato>Gas Refrigerante</Dato>
+<Valore>Consulta link</Valore>
+<UnitaMis>Tipo</UnitaMis>
+<RifIDFileIMG>75008087</RifIDFileIMG>
+<XLINKDOC>
+<ID>75008087</ID>
+<DOCNumber>NOT75102</DOCNumber>
+<Documento>Nota Tecnica: Gas Refrigerante</Documento>
+<URL>LINKDOC:75008087</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>CLIMATIZZAZIONE</Gruppo>
+<Dato>Gas Refrigerante - Quantità</Dato>
+<Valore>485-515 - (con R134a - controlla etichetta)</Valore>
+<UnitaMis>grammi</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>CLIMATIZZAZIONE</Gruppo>
+<Dato> Gas Refrigerante - Quantità</Dato>
+<Valore>445-475 - (con R1234yf - controlla etichetta)</Valore>
+<UnitaMis>grammi</UnitaMis>
+<RifIDFileIMG>0</RifIDFileIMG>
+<XLINKDOC>
+<ID>0</ID>
+<DOCNumber>- -</DOCNumber>
+<Documento>- -: </Documento>
+<URL>LINKDOC:0</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>CLIMATIZZAZIONE</Gruppo>
+<Dato>Olio Compressore</Dato>
+<Valore>Consulta link</Valore>
+<UnitaMis>Tipo</UnitaMis>
+<RifIDFileIMG>199247136</RifIDFileIMG>
+<XLINKDOC>
+<ID>199247136</ID>
+<DOCNumber>NOT76564</DOCNumber>
+<Documento>Nota Tecnica: Olio Compressore</Documento>
+<URL>LINKDOC:199247136</URL>
+</XLINKDOC>
+</XDATIMECH>
+<XDATIMECH>
+<RifIDDoc>199253549</RifIDDoc>
+<Gruppo>CLIMATIZZAZIONE</Gruppo>
+<Dato>Olio Compressore - Quantità</Dato>
+<Valore>Consulta link</Valore>
+<UnitaMis>cm³</UnitaMis>
+<RifIDFileIMG>199073840</RifIDFileIMG>
+<XLINKDOC>
+<ID>199073840</ID>
+<DOCNumber>NOT76106</DOCNumber>
+<Documento>Nota Tecnica: Olio Compressore - Quantità</Documento>
+<URL>LINKDOC:199073840</URL>
+</XLINKDOC>
+</XDATIMECH>
+</XDOCUMENTO>
+</dataroot>

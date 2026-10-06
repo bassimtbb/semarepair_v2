@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-22T05:46:49">
+  <XDOCUMENTO>
+    <ID>199283103</ID>
+    <DOCNumber>COP90847</DOCNumber>
+    <RifIDTipoRis>24</RifIDTipoRis>
+    <Titolo>Liste für DFGA-Motoren</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>226</RifIDFileICO>
+    <XFILE>
+      <ID>226</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:226</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>24</ID>
+      <TipoRis>COP</TipoRis>
+      <DscRis>Anzugsmomente</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>10</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLDATO</IDLabel>
+        <Stringa>Beschreibung</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLUM</IDLabel>
+        <Stringa>Maßeinheiten</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLVALORE</IDLabel>
+        <Stringa>Daten</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Datenliste</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Ventilstößelabdeckung</Dato>
+      <Valore>9</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato> Ventilstößelabdeckung</Dato>
+      <Valore>Anmerkung</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199246858</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199246858</ID>
+        <DOCNumber>LIS78125</DOCNumber>
+        <URL>LINKDOC:199246858</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Anzugsreihenfolge für den Zylinderkopf</Dato>
+      <Valore>Siehe Bild</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>75004362</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>75004362</ID>
+        <DOCNumber>LIS75196</DOCNumber>
+        <URL>LINKDOC:75004362</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Cylinder head 1. Phase – Anziehen</Dato>
+      <Valore>30</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Zweite Phase – Anziehen</Dato>
+      <Valore>70</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato> Cylinder head 3. Phase – Anziehen</Dato>
+      <Valore>90°</Valore>
+      <UnitaMis>Grade</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato> Cylinder head 4. Phase – Festziehen</Dato>
+      <Valore>90°</Valore>
+      <UnitaMis>Grade</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato> Cylinder head 5. Phase – Festziehen</Dato>
+      <Valore>90°</Valore>
+      <UnitaMis>Grade</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Austausch der Zylinderkopfschrauben</Dato>
+      <Valore>Empfohlen</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Lager der ersten Stufe – Befestigung</Dato>
+      <Valore>65</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato> Lager der 2. Stufe – Befestigung</Dato>
+      <Valore>90°</Valore>
+      <UnitaMis>Grade</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Austausch der Lagerbolzen am Motorblock</Dato>
+      <Valore>Empfohlen</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Pleuellagerkappen 1. Stufe – Anziehen</Dato>
+      <Valore>30</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato> Pleuellagerkappen 2. Stufe – Anziehen</Dato>
+      <Valore>90°</Valore>
+      <UnitaMis>Grade</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Schmierung von Pleuelbolzen und Pleuellagern</Dato>
+      <Valore>Empfohlen</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Austausch der Schrauben an den Pleuellagerkappen</Dato>
+      <Valore>Empfohlen</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato> Schraube der Riemenscheibe an der Kurbelwelle (mittig)</Dato>
+      <Valore>Anmerkung</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>75005708</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>75005708</ID>
+        <DOCNumber>LIS75366</DOCNumber>
+        <URL>LINKDOC:75005708</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato> Schrauben für die Riemenscheibe der Kurbelwelle</Dato>
+      <Valore>Anmerkung</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199270275</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199270275</ID>
+        <DOCNumber>LIS78709</DOCNumber>
+        <URL>LINKDOC:199270275</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Schwungradschrauben 1. Stufe – Anziehen</Dato>
+      <Valore>60</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato> Schwungradschrauben 2. Phase – Anziehen</Dato>
+      <Valore>90°</Valore>
+      <UnitaMis>Grade</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Austausch der Schwungradschrauben</Dato>
+      <Valore>Empfohlen</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato> Kupplungsdrucklager-Schrauben</Dato>
+      <Valore>Anmerkung</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199283106</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199283106</ID>
+        <DOCNumber>LIS78903</DOCNumber>
+        <URL>LINKDOC:199283106</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Steuergetriebe</Dato>
+      <Valore>100</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato> Nockenwellenkappen</Dato>
+      <Valore>Anmerkung</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199283104</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199283104</ID>
+        <DOCNumber>LIS78902</DOCNumber>
+        <URL>LINKDOC:199283104</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato> Ansaugkrümmer zum Zylinderkopf</Dato>
+      <Valore>Anmerkung</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199246897</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199246897</ID>
+        <DOCNumber>LIS78138</DOCNumber>
+        <URL>LINKDOC:199246897</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato> Auspuffkrümmer zum Zylinderkopf</Dato>
+      <Valore>Anmerkung</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199246887</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199246887</ID>
+        <DOCNumber>LIS78133</DOCNumber>
+        <URL>LINKDOC:199246887</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Befestigung von Einspritzdüsen</Dato>
+      <Valore>8 Nm und 270°</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Austausch der Einspritzdüsen-Befestigungsschrauben</Dato>
+      <Valore>Empfohlen – (Unterlegscheibe und Dichtung austauschen)</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Kühlmittelpumpe</Dato>
+      <Valore>20 Nm und 45° – (Schrauben austauschen)</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Motorölfilter</Dato>
+      <Valore>25</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Motorölablassschraube</Dato>
+      <Valore>30</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199283103</RifIDDoc>
+      <Gruppo>ANZIEHMOMENTE</Gruppo>
+      <Dato>Lambdasonde</Dato>
+      <Valore>52</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+  </XDOCUMENTO>
+</dataroot>

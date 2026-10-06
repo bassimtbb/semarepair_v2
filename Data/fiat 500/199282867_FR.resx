@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:44:47">
+  <XDOCUMENTO>
+    <ID>199282867</ID>
+    <DOCNumber>GUP91851</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Arrêt soudain du moteur et fonctionnement sporadique par à-coups, allumage des voyants de panne.</Titolo>
+    <InfoDoc>INJECTION | C1221 | CÂBLAGE | UNITÉ DE COMMANDE | INJECTION | P0300 | P0302 | P0303 | P0641 | ALLUMAGE | EXTINCTION | DÉMARRAGE | ARRÊT BRUSQUE | ARRÊT BRUSQUE | MIL | ABS | MOTEUR | FROID |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199282867</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199282867</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / du défaut</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt;  &lt;B&gt; Anomalie : &lt;/B&gt; De manière sporadique, le véhicule cale soudainement ou présente un fonctionnement saccadé, accompagné de l&apos;allumage des témoins de panne moteur et de panne ABS &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l&apos;autodiagnostic : &lt;/B&gt; Une ou plusieurs des erreurs suivantes : &lt;UL&gt;   &lt;LI&gt; P0641 (Tension de référence du capteur 1, circuit ouvert) &lt;BR/&gt; &lt;LI&gt; P0300 (Manquements d&apos;allumage) &lt;BR/&gt; &lt;LI&gt; P0302 (Manquements d&apos;allumage cylindre 2) &lt;BR/&gt; &lt;LI&gt;  P0303 (Manquements d&apos;allumage cylindre 3) &lt;BR/&gt; &lt;LI&gt; C1221 (Erreur de communication entre le calculateur ABS et le calculateur d&apos;injection) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Câblage de la boîte à fusibles du compartiment moteur défectueux &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199282867</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier l&apos;état du câblage du boîtier à fusibles du compartiment moteur, nettoyer les contacts à l&apos;aide d&apos;un spray et rétablir les connexions &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; La boîte à fusibles du compartiment moteur se trouve dans le compartiment moteur côté conducteur, près de la batterie. Dans le cas présent, la présence d&apos;oxyde sur les contacts de la boîte à fusibles était évidente. Après avoir nettoyé les contacts de la boîte à fusibles à l&apos;aide d&apos;un spray et rétabli les connexions, le problème a été résolu. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

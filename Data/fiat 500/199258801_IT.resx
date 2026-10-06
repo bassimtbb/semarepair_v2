@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2024-01-26T05:30:36">
+<XDOCUMENTO>
+<ID>199258801</ID>
+<DOCNumber>GUP86673</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Problemi di portata del liquido lavacristalli e umidità lungo le tubazioni</Titolo>
+<InfoDoc>CARROZZERIA | 50.001.19 | TERGICRISTALLO | SPAZZOLE | ESCE | ACQUA | POCA | CONDENSA | PARABREZZA | VETRO | DAVANTI | DIETRO | ANTERIORE | POSTERIORE |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199258801</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (***)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199258801</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Carrozzeria&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Tergicristallo&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Bassa o assente quantità di liquido lavacristalli in uscita e possibile presenza di umidità nelle vicinanze delle relative tubazioni&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Perdita di liquido dalla conduttura che alimenta il lavacristalli anteriore e/o posteriore&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199258801</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Riparazione tubazione danneggiata&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; Per poter procedere con la riparazione della tubazione danneggiata è, innanzitutto, necessario identificare la tipologia che è presente all&apos;interno della vettura in questione:&lt;BR/&gt;&lt;OL&gt; &lt;LI&gt; Tubazione tipo &lt;B&gt;AEC&lt;/B&gt;: Eseguire la riparazione utilizzando il Kit n. 51922436, composto da tubazioni corrugate, collari di giunzione e raccordi.&lt;BR/&gt;&lt;BR/&gt;&lt;UL&gt; &lt;LI&gt; Se la perdita è nell&apos;innesto della tubazione di mandata, sostituire il tratto danneggiato come segue: tagliare la tubazione danneggiata, unire con il nuovo tratto del kit, utilizzando il raccordo e il collare di giunzione, assicurandosi di posizionare correttamente le guarnizioni in gomma.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Se la perdita è lungo la tubazione di mandata: tagliare e unire i tratti con entrambi i raccordi inclusi nel kit, ripristinare eventualmente la nastratura sul cablaggio e rimontare i componenti. &lt;/UL&gt;&lt;BR/&gt;&lt;LI&gt; Tubazione tipo &lt;B&gt;FRANKISCHE&lt;/B&gt;: Eseguire la riparazione utilizzando il Kit n. 50527045. Se la perdita è nell&apos;innesto della tubazione di mandata, sostituire il tratto danneggiato come segue: tagliare la tubazione danneggiata e unire con il nuovo tratto del kit, applicando le guarnizioni O-Ring e il silicone forniti. Inserire le estremità delle tubazioni nel raccordo e applicare le clip di tenuta. Serrare le clip fino al corretto aggancio delle mollette di ancoraggio. Verificare l&apos;assenza di perdite e procedere al rimontaggio dei componenti.&lt;/OL&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; Attenzione! I Kit sono applicabili esclusivamente sulle tubazioni di tipo corrugato.&lt;BR/&gt;&lt;BR/&gt;Codice KIT riparazione tubazione tipo AEC n. 51922436.&lt;BR/&gt;&lt;BR/&gt;Codice KIT riparazione tubazione tipo FRANKISCHE n. 50527045.&lt;BR/&gt;&lt;BR/&gt;Tempo previsto di esecuzione dell&apos;operazione: 6 minuti.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

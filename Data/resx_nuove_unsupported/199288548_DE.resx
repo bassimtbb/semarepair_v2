@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T23:40:09">
+  <XDOCUMENTO>
+    <ID>199288548</ID>
+    <DOCNumber>GUP92964</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Recovery-Modus aktiviert, Motorüberhitzung festgestellt</Titolo>
+    <InfoDoc>INIEZIONE | P17D8 | PROTEZIONE | LENTA | PERFORMANCE | EMERGENZA | TEMPERATURA | BLOCCO | TERMOSTATO | VENTOLA RAFFREDDAMENTO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199288548</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199288548</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Motorkühlkreislauf &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Bauteil: &lt;/B&gt; Wasserpumpe des Motorkühlsystems &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Das Fahrzeug weist einen erheblichen Leistungsverlust auf, begleitet von einer Überhitzung des Motors, was dazu führt, dass das Steuergerät das System in den Limp-Home-Modus versetzt. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt; P17D8 (Motor-Drehmomentüberwachung, Kontrollgrenze überschritten) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Blockierung der Wasserpumpe &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199288548</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Die Wasserpumpe prüfen und gegebenenfalls austauschen &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; &lt;OL&gt; 1. &lt;B&gt; Erstprüfung: &lt;/B&gt; &lt;UL&gt;   &lt;LI&gt; Die Parameter des Kühlmitteltemperatursensors mittels Diagnose überprüfen. &lt;BR/&gt; &lt;LI&gt; Eine Probefahrt durchführen, um das Verhalten des Sensors zu beurteilen. &lt;/UL&gt; 2. &lt;B&gt; Wenn der gemessene Wert zu hoch ist: &lt;/B&gt; &lt;UL&gt; &lt;LI&gt; Den Motorölstand prüfen und gegebenenfalls nachfüllen. &lt;BR/&gt; &lt;LI&gt; Mit dem Diagnosegerät den Kühlventilator aktivieren. &lt;/UL&gt; 3. &lt;B&gt; Wenn der Ventilator ordnungsgemäß anspringt: &lt;/B&gt;  &lt;UL&gt; &lt;LI&gt; Die Temperatur der Flüssigkeit im Auslassrohr des Thermostatkörpers prüfen. &lt;/UL&gt; 4. &lt;B&gt; Wenn die Temperatur zu niedrig ist: &lt;/B&gt; &lt;UL&gt; &lt;LI&gt; Die Wasserpumpe ausbauen. &lt;BR/&gt; &lt;LI&gt; Hinweis: Die elektrische Verkabelung nicht trennen. &lt;BR/&gt; &lt;LI&gt; Mit dem Diagnosegerät das Steuerventil der Wasserpumpe aktivieren. &lt;/UL&gt; 5. &lt;B&gt; Ergebnis des Tests am Steuerventil: &lt;/B&gt; &lt;UL&gt;  	 &lt;LI&gt; Wenn das Ventil blockiert ist, die Wasserpumpe austauschen. &lt;BR/&gt; &lt;LI&gt; Wenn die Pumpe funktionsfähig ist, prüfen Sie, ob Probleme im Kühlsystem oder am Motor vorliegen. &lt;/UL&gt; &lt;/OL&gt; &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299021988</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299021988</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299021988</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

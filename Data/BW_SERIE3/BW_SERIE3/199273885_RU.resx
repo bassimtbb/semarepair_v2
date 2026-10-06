@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:40:33">
+  <XDOCUMENTO>
+    <ID>199273885</ID>
+    <DOCNumber>GUP89647</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Komunikat o nieprawidłowym poziomie AdBlue</Titolo>
+    <InfoDoc>INIEZIONE | SEL-SEL-P-16-20000813322787-02 | CD9612 | CD9613 | CD9611 | 29FB00 | 29FC00 | MESSAGGIO | INDICAZIONE | AVVERTIMENTO | DISPLAY | ERRORE | SISTEMA | DISTANZA | RESIDUA | RIMANENTE | AGGIORNAMENTO | SOFTWARE | CENTRALINA | CONNETTORE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199273885</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Poziom wiarygodności   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda stopnia wiarygodności &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niski poziom &lt;/B&gt; : Wykryte przez mechanika samochodowego, przypadek usterki niepotwierdzony przez producenta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** średni poziom &lt;/B&gt; : Częste przypadki usterki, potwierdzone przez techników serwisowych i mechaników. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** wysoki poziom &lt;/B&gt; : Potwierdzona anomalia, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273885</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Obowiązywanie: &lt;/B&gt;  Pojazdy wyprodukowane do 1 listopada 2019 r. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Układ: &lt;/B&gt;  Wtrysk &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Urządzenie: &lt;/B&gt;  Moduł sterujący AdBlue &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Usterka: &lt;/B&gt;  Komunikat o nieprawidłowym poziomie AdBlue &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Błędy wykryte przez autodiagnostykę: &lt;/B&gt;  Jeden lub więcej z poniższych błędów: &lt;BR/&gt;  &lt;UL&gt;   &lt;LI&gt;  CD9612 (Problemy z komunikacją między układem SCR a modułem sterującym wtrysku) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  CD9613 (Problemy z komunikacją między układem SCR a modułem sterującym wtrysku dotyczące monitorowania stanu dodatku SCR) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  CD9611 (Problemy z komunikacją między układem SCR a sterownikiem wtrysku dotyczące aktualizacji układu SCR) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  29FB00 (Wyłączenie układu SCR: alarm poziomu 1) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  29FC00 (Wyłączenie układu SCR: alarm poziomu 2) &lt;/UL&gt;   &lt;LI&gt;  &lt;B&gt; Przyczyna: &lt;/B&gt;  Niewłaściwe oprogramowanie modułu sterującego AdBlue lub uszkodzone złącze modułu sterującego AdBlue &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199273885</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Czynność: &lt;/B&gt;  Sprawdzić stan złącza modułu sterującego AdBlue. Jeśli nie stwierdzono żadnych nieprawidłowości, należy przystąpić do aktualizacji oprogramowania modułu sterującego AdBlue &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedura: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Uwaga: &lt;/B&gt;   &lt;I&gt; UWAGA &lt;/I&gt; : &lt;BR/&gt;  &lt;UL&gt;   &lt;LI&gt;  Jeśli występują kody usterek (DTC) lub objawy inne niż wymienione, należy je usunąć przed kontynuowaniem działań opisanych w niniejszym biuletynie. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Aby przeprowadzić aktualizację, akumulator pojazdu musi być w optymalnym stanie naładowania lub wspomagany przez ładowarkę / dodatkowy akumulator, tak aby zapewnić napięcie znamionowe 12 V. Wyłączyć wszystkie światła i urządzenia dodatkowe, aby uniknąć rozładowania  &lt;/UL&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

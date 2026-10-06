@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T02:32:30">
+  <XDOCUMENTO>
+    <ID>199073831</ID>
+    <DOCNumber>FLT76055</DOCNumber>
+    <RifIDTipoRis>37</RifIDTipoRis>
+    <Titolo>Lokalisatie en vervanging</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>37</ID>
+      <TipoRis>FLT</TipoRis>
+      <DscRis>Interieurfilter</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199073831</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procedures</Capitolo>
+      <Corpo> &lt;B&gt; Afmetingen filter: &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; H = 212 mm. &lt;BR/&gt;  &lt;LI&gt; L = 300 mm. &lt;BR/&gt;  &lt;LI&gt; S = 30 mm. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Geschatte tijd voor vervanging: &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; 20 minuten &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Locatie: &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; In het interieur &lt;BR/&gt;  &lt;LI&gt; Passagierszijde &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Vervanging: &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Verwijder het kunststof schot onder het opbergvak &lt;BR/&gt;  &lt;LI&gt; Maak de kabelboom van de voetverlichting los die zich in het kunststof schot bevindt &lt;BR/&gt;  &lt;LI&gt; Schuif de ventilatieopeningen iets opzij om gemakkelijk bij het interieurluchtfilter te komen &lt;BR/&gt;  &lt;LI&gt; Verwijder de afdekkap van het interieurluchtfilter &lt;BR/&gt;  &lt;LI&gt; Trek het filter langs de geleiders van de houder naar buiten (van boven naar beneden) &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Terugplaatsen: &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Volg de stappen in omgekeerde volgorde</Corpo>
+      <RifIDFileIMGANI>62503509</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503509</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503509</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

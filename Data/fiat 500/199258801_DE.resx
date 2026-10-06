@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T00:00:46">
+  <XDOCUMENTO>
+    <ID>199258801</ID>
+    <DOCNumber>GUP86673</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Probleme mit der Durchflussmenge der Scheibenwaschflüssigkeit und Feuchtigkeit entlang der Leitungen</Titolo>
+    <InfoDoc>CARROZZERIA | 50.001.19 | TERGICRISTALLO | SPAZZOLE | ESCE | ACQUA | POCA | CONDENSA | PARABREZZA | VETRO | DAVANTI | DIETRO | ANTERIORE | POSTERIORE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199258801</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (***)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legende zur Zuverlässigkeitsstufe&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* niedrige Stufe&lt;/B&gt; : Feststellung durch die Kfz-Werkstatt, vom Hersteller nicht dokumentierter Fehlerfall.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** mittlere Stufe&lt;/B&gt; : Häufig auftretender Fehlerfall, der von Servicetechnikern und Kfz-Werkstätten festgestellt wurde.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** hohe Zuverlässigkeit&lt;/B&gt; : Gewissheit hinsichtlich des Fehlers, gute „Wiederholbarkeit“ laut Angaben des Herstellers.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199258801</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Karosserie &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorrichtung: &lt;/B&gt; Scheibenwischer &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Geringe oder fehlende Scheibenwaschflüssigkeitsmenge am Auslass und mögliche Feuchtigkeit in der Nähe der entsprechenden Leitungen &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose festgestellte Fehler: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Flüssigkeitsaustritt aus der Leitung, die die vordere und/oder hintere Scheibenwaschanlage versorgt &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199258801</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Reparatur einer beschädigten Leitung &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; Um mit der Reparatur der beschädigten Leitung fortfahren zu können, muss zunächst der im betreffenden Fahrzeug vorhandene Leitungstyp ermittelt werden: &lt;BR/&gt;  &lt;OL&gt; &lt;LI&gt; Leitungstyp &lt;B&gt; AEC &lt;/B&gt; : Führen Sie die Reparatur mit dem Kit Nr. 51922436 durch, das aus Wellschläuchen, Verbindungsschellen und Anschlüssen besteht. &lt;BR/&gt; &lt;BR/&gt; &lt;UL&gt;    &lt;LI&gt; Befindet sich das Leck an der Verbindungsstelle der Druckleitung, den beschädigten Abschnitt wie folgt austauschen: Die beschädigte Leitung abschneiden, mit dem neuen Abschnitt aus dem Kit unter Verwendung des Verbindungsstücks und der Verbindungsschelle verbinden und dabei darauf achten, dass die Gummidichtungen korrekt positioniert sind. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Befindet sich das Leck entlang der Druckleitung: Schneiden Sie die Leitungsabschnitte ab und verbinden Sie sie mit den beiden im Bausatz enthaltenen Fittings, bringen Sie gegebenenfalls die Isolierbandage an der Verkabelung wieder an und montieren Sie die Komponenten wieder ein. &lt;/UL&gt; &lt;BR/&gt; &lt;LI&gt; Leitungstyp &lt;B&gt; FRANKISCHE &lt;/B&gt; : Führen Sie die Reparatur mit dem Satz Nr. 50527045 durch. Befindet sich das Leck an der Verbindungsstelle der Druckleitung, ersetzen Sie den beschädigten Abschnitt wie folgt: Schneiden Sie die beschädigte Leitung ab und verbinden Sie sie mit dem neuen Abschnitt aus dem Satz, wobei Sie die mitgelieferten O-Ringe und das Silikon verwenden. Führen Sie die Enden der Leitungen in die Verschraubung ein und bringen Sie die Dichtungsclips an. Die Klammern festziehen, bis die Verankerungsklammern richtig einrasten. Auf Dichtheit prüfen und mit dem Wiedereinbau der Komponenten fortfahren. &lt;/OL&gt; &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; Achtung! Die Reparatursätze sind ausschließlich für Wellschläuche geeignet. &lt;BR/&gt; &lt;BR/&gt; Artikelnummer des Reparatur-Kits für Schläuche vom Typ AEC: 51922436. &lt;BR/&gt; &lt;BR/&gt; Artikelnummer des Reparatur-Kits für Schläuche vom Typ FRANKISCHE: 50527045. &lt;BR/&gt; &lt;BR/&gt; Voraussichtliche Dauer des Vorgangs: 6 Minuten. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

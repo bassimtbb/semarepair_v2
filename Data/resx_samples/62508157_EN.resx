@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:18:54">
+  <XDOCUMENTO>
+    <ID>62508157</ID>
+    <DOCNumber>GUR62846</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Manual release of electronic parking brake not available</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Adjustment Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62508157</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>System information</Capitolo>
+      <Corpo> &lt;BR/&gt; The electronic parking brake, which can be activated by pressing a button, has the ability to keep the car stationary and safe even when the engine is off or there is no power supply. &lt;BR/&gt; It is activated automatically when the engine is switched off and deactivated when the vehicle starts to move. &lt;BR/&gt; In the event of a flat battery or mechanical failure, the &lt;B&gt; parking brake may not disengage &lt;/B&gt; &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62508157</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Electronic parking brake emergency release</Capitolo>
+      <Corpo> &lt;BR/&gt; There is no procedure for emergency release of the electronic parking brake. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

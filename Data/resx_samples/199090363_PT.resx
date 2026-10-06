@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T08:31:24">
+  <XDOCUMENTO>
+    <ID>199090363</ID>
+    <DOCNumber>COP88134</DOCNumber>
+    <RifIDTipoRis>24</RifIDTipoRis>
+    <Titolo>Lista para Motores K9K-872</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>226</RifIDFileICO>
+    <XFILE>
+      <ID>226</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:226</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>24</ID>
+      <TipoRis>COP</TipoRis>
+      <DscRis>Torques de Aperto</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>10</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLDATO</IDLabel>
+        <Stringa>Descrição</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLUM</IDLabel>
+        <Stringa>Unidades de medida</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLVALORE</IDLabel>
+        <Stringa>Dados</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Lista de dados</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato>Sequência de aperto da cabeça do motor</Dato>
+      <Valore>Consulte a imagem</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>75010599</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>75010599</ID>
+        <DOCNumber>LIS75871</DOCNumber>
+        <URL>LINKDOC:75010599</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato>Teste da 1.ª fase - Aperto</Dato>
+      <Valore>20</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato>Teste da 2.ª fase - Aperto</Dato>
+      <Valore>25</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato> Teste da 3.ª fase - Aperto</Dato>
+      <Valore>260°-280°</Valore>
+      <UnitaMis>Graus</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato>Substituição de parafusos da cabeça do cilindro</Dato>
+      <Valore>Recomendada</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato>Lubrificação dos parafusos da cabeça do cilindro</Dato>
+      <Valore>Não</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato>Rolamentos de bancada</Dato>
+      <Valore>Nota</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199070695</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199070695</ID>
+        <DOCNumber>LIS77384</DOCNumber>
+        <URL>LINKDOC:199070695</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato>Rolamentos do banco - 1.ª fase - Aperto</Dato>
+      <Valore>25</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato> Rolamentos do banco, 2.ª fase - Aperto</Dato>
+      <Valore>41°-53°</Valore>
+      <UnitaMis>Graus</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato>Substituição de parafusos dos rolamentos da bancada</Dato>
+      <Valore>Recomendada</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato>Tampas de rolamentos da biela - 1.ª fase - Aperto</Dato>
+      <Valore>25</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato> Tampas de rolamentos da biela - 2.ª fase - Aperto</Dato>
+      <Valore>104°-116°</Valore>
+      <UnitaMis>Graus</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato>Substituição de parafusos de fixação dos rolamentos da biela</Dato>
+      <Valore>Recomendada</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato> Parafuso da polia do eixo do motor (central)</Dato>
+      <Valore>Nota</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199090364</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199090364</ID>
+        <DOCNumber>LIS77609</DOCNumber>
+        <URL>LINKDOC:199090364</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato>Parafusos do volante</Dato>
+      <Valore>25 Nm e de 44°-56°</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato>Substituição dos parafusos do volante</Dato>
+      <Valore>Recomendada</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato>Parafusos de pressão da embreagem</Dato>
+      <Valore>23</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato>Engrenagem de distribuição</Dato>
+      <Valore>25 Nm e de 54°-66°</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato>Substituição de parafusos da engrenagem de distribuição</Dato>
+      <Valore>Recomendada</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato> Coroas do eixo de comando</Dato>
+      <Valore>Nota</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199079429</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199079429</ID>
+        <DOCNumber>LIS77471</DOCNumber>
+        <URL>LINKDOC:199079429</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato>Coletor de escape para a cabeça do motor</Dato>
+      <Valore>25</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>TORÇÕES DE APERTO</Gruppo>
+      <Dato>Fixação de injetores</Dato>
+      <Valore>27</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+  </XDOCUMENTO>
+</dataroot>

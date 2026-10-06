@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-23T03:45:20">
+  <XDOCUMENTO>
+    <ID>1440</ID>
+    <DOCNumber>NOT00006</DOCNumber>
+    <RifIDTipoRis>27</RifIDTipoRis>
+    <Titolo>Przewodnik po odczytywaniu kodów usterek EOBD</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>27</ID>
+      <TipoRis>NOT</TipoRis>
+      <DscRis>Uwaga techniczna</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Interpretacja kodów</Capitolo>
+      <Corpo>Kody usterek  &lt;B&gt; (DTC) EOBD / OBDII &lt;/B&gt;  mogą być odczytane przez mechanika samochodowego za pomocą standardowego urządzenia diagnostycznego ( &lt;B&gt; Scantool &lt;/B&gt; ). Składają się one z litery, po której następują cztery cyfry.  &lt;B&gt; Pierwsza litera kodu &lt;/B&gt; oznacza układ pojazdu, w którym wystąpiła usterka: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P- &lt;/B&gt; (układ napędowy): silnik (standardowe kody EOBD: P0000 – P1000) &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; B- &lt;/B&gt; (karoseria): klimatyzacja, oświetlenie, spryskiwacze szyb, fotele, zamykanie drzwi, zamykanie szyb, lusterka, czujniki poduszek powietrznych, GPS, radio samochodowe... &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; C- &lt;/B&gt; (podwozie): ABS, systemy kontroli trakcji i stabilności, aktywna regulacja amortyzatorów, wspomaganie kierownicy &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; U- &lt;/B&gt; (sieć): błędy komunikacji w sieci danych &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Pierwsza cyfra po lewej stronie wskazuje: czy  &lt;B&gt; 0 &lt;/B&gt;  lub  &lt;B&gt; 2 &lt;/B&gt;  (kody standardowe), czy  &lt;B&gt; 1 &lt;/B&gt;  (kody zarezerwowane) &lt;BR/&gt;  &lt;LI&gt; druga cyfra po lewej stronie identyfikuje podsystem, w którym wystąpiła usterka: &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; 1- &lt;/B&gt;  awarie czujników układu wtryskowego &lt;BR/&gt;  &lt;B&gt; 2- &lt;/B&gt;  awarie elementów wykonawczych układu wtryskowego &lt;BR/&gt;  &lt;B&gt; 3- &lt;/B&gt;  awarie układu wtryskowego lub przerwy w zapłonie &lt;BR/&gt;  &lt;B&gt; 4- &lt;/B&gt;  awarie układu kontroli emisji spalin &lt;BR/&gt;  &lt;B&gt; 5- &lt;/B&gt;  awarie czujników prędkości pojazdu, klimatyzacji i wspomagania kierownicy &lt;BR/&gt;  &lt;B&gt; 6- &lt;/B&gt;  awarie układu napędowego (sprzęgło i skrzynia biegów) &lt;BR/&gt;  &lt;B&gt; 7- &lt;/B&gt;  uszkodzenia układu napędowego &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; trzecia i ostatnia cyfra wskazują konkretny rodzaj usterki, zgodnie z dokładnym opisem zawartym w przepisach europejskich. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Dodatkowe informacje znajdują się w odnośnikach na dole strony &lt;/B&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Kody OBDII od P000 do P1000 – układy sterowania silnikiem</Capitolo>
+      <Corpo> &lt;B&gt; P00XX &lt;/B&gt;  – Układ powietrza/paliwa i pomocnicze układy kontroli emisji &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P01XX &lt;/B&gt;  – Układ powietrza/paliwa (pomiar) &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P02XX &lt;/B&gt;  – Układ powietrze/paliwo (pomiar) &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P03XX &lt;/B&gt;  – Układ wtrysku i/lub przerwy w zapłonie &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P04XX &lt;/B&gt;  - Kontrola emisji pomocniczych &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P05XX &lt;/B&gt;  - Prędkość pojazdu, kontrola biegu jałowego, działanie sygnałów pomocniczych &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P06XX &lt;/B&gt;  - Pomocnicze sterowanie modułów lub jednostek sterujących &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P07XX &lt;/B&gt;  - Skrzynia biegów i/lub układy związane ze skrzynią biegów &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P08XX &lt;/B&gt;  - Skrzynia biegów i/lub układy związane ze skrzynią biegów &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P09XX &lt;/B&gt;  - Skrzynia biegów i/lub układy związane ze skrzynią biegów</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Kody OBDII od P0A00 do P0F00 – układy napędowe typu hybrydowego</Capitolo>
+      <Corpo> &lt;B&gt; P0AXX &lt;/B&gt;  – Układ zasilania / napęd hybrydowy &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P0BXX &lt;/B&gt;  – zastrzeżone – &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P0CXX &lt;/B&gt;  – zastrzeżone – &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P0DXX &lt;/B&gt;  – zarezerwowane – &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P0EXX &lt;/B&gt;  – zarezerwowane – &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P0FXX &lt;/B&gt;  – zarezerwowane –</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Kody OBDII od P1000 do P2000 – Układy sterowania silnikiem</Capitolo>
+      <Corpo> &lt;B&gt; P10XX &lt;/B&gt;  – poufne – Układ powietrza/paliwa i pomocnicze układy kontroli emisji &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P11XX &lt;/B&gt;  – poufne – Układ powietrza/paliwa (pomiar) &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P12XX &lt;/B&gt;  – zastrzeżone – Układ powietrza/paliwa (pomiar) &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P13XX &lt;/B&gt;  – zastrzeżone – Układ wtrysku i/lub przerwy w zapłonie &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P14XX &lt;/B&gt;  – zastrzeżone – Kontrola emisji pomocniczych &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P15XX &lt;/B&gt;  – zastrzeżone – Prędkość pojazdu, kontrola biegu jałowego, działanie sygnałów pomocniczych &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P16XX &lt;/B&gt;  – zarezerwowane – sterowanie pomocnicze modułów lub sterowników &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P17XX &lt;/B&gt;  – zarezerwowane – skrzynia biegów i/lub układy skrzyni biegów &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P18XX &lt;/B&gt;  – zarezerwowane – Przekładnia i/lub układy przekładniowe &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P19XX &lt;/B&gt;  – zarezerwowane – Przekładnia i/lub układy przekładniowe</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Kody OBDII od P2000 do P3000 – układy sterowania silnikiem</Capitolo>
+      <Corpo> &lt;B&gt; P20XX &lt;/B&gt;  – Układ powietrza/paliwa i pomocnicze układy kontroli emisji &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P23XX &lt;/B&gt;  – Układ wtrysku i/lub przerwy w zapłonie &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P24XX &lt;/B&gt;  – Pomocnicze układy kontroli emisji spalin &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P25XX &lt;/B&gt;  – Działanie sygnałów pomocniczych (wejściowych) &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P26XX &lt;/B&gt;  - Sygnały wyjściowe modułów sterujących lub modułów pomocniczych &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P27XX &lt;/B&gt;  - Skrzynia biegów i/lub układy związane ze skrzynią biegów &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P28XX &lt;/B&gt;  - zarezerwowane dla ISO/SAE &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P29XX &lt;/B&gt;  - Układ powietrza / paliwa i pomocnicze układy kontroli emisji</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Kody OBDII od P3000 do P4000 – układy sterowania silnikiem</Capitolo>
+      <Corpo> &lt;B&gt; P30XX &lt;/B&gt;  – Układ powietrza/paliwa i pomocnicze systemy kontroli emisji &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P31XX &lt;/B&gt;  – Układ powietrza/paliwa i pomocnicze systemy kontroli emisji &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P32XX &lt;/B&gt;  - Układ mieszanki powietrzno-paliwowej i pomocnicze układy kontroli emisji &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P33XX &lt;/B&gt;  - Układ wtrysku i/lub przerwy w zapłonie &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P34XX &lt;/B&gt;  - Wyłączanie cylindrów (redukcja zużycia paliwa) &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P35XX &lt;/B&gt;  - zarezerwowane dla ISO/SAE &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P36XX &lt;/B&gt;  - zarezerwowane dla ISO/SAE &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P37XX &lt;/B&gt;  - zarezerwowane dla ISO/SAE &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P38XX &lt;/B&gt;  - zarezerwowane dla ISO/SAE &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; P39XX &lt;/B&gt;  - zarezerwowane dla ISO/SAE</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>Kody OBDII od U0000 do U0400 – Grupa komunikacji sieciowej</Capitolo>
+      <Corpo> &lt;B&gt; U00XX &lt;/B&gt;  – Działanie sieci elektrycznej &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; U01XX &lt;/B&gt;  – Komunikacja w sieci elektrycznej &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; U02XX &lt;/B&gt;  – Komunikacja w sieci elektrycznej &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; U03XX &lt;/B&gt;  – Działanie oprogramowania &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; U04XX &lt;/B&gt;  – Działanie danych</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

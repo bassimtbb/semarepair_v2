@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T10:26:46">
+  <XDOCUMENTO>
+    <ID>199094642</ID>
+    <DOCNumber>AZZ76263</DOCNumber>
+    <RifIDTipoRis>7</RifIDTipoRis>
+    <Titolo>Restauração do indicador de assistência</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>217</RifIDFileICO>
+    <XFILE>
+      <ID>217</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:217</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>7</ID>
+      <TipoRis>AZZ</TipoRis>
+      <DscRis>Reset de Serviço</DscRis>
+      <RifIDFileCSS>1</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>1</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:1</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Informações sobre o sistema</Capitolo>
+      <Corpo> &lt;BR/&gt; O equipamento do veículo inclui o indicador de intervalos de manutenção, integrado no ecrã do painel de instrumentos. &lt;BR/&gt; O indicador apresenta ao condutor uma série de avisos relativos às intervenções de manutenção programada a que o veículo deve ser submetido periodicamente. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Regulação - Reinicialização do indicador de substituição do óleo do motor</Capitolo>
+      <Corpo>Após a substituição do óleo do motor, a reinicialização manual do indicador é efetuada da seguinte forma: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; desligar a ignição &lt;BR/&gt;  &lt;LI&gt; premir e manter premido o botão ( &lt;B&gt; 1 &lt;/B&gt; ) &lt;BR/&gt;  &lt;LI&gt; ligar a ignição &lt;BR/&gt;  &lt;LI&gt; no ecrã aparecerá a mensagem relativa à reinicialização do indicador de substituição do óleo do motor &lt;BR/&gt;  &lt;LI&gt; soltar o botão ( &lt;B&gt; 1 &lt;/B&gt; ) &lt;BR/&gt;  &lt;LI&gt; premir o botão ( &lt;B&gt; 1 &lt;/B&gt; ) para confirmar &lt;BR/&gt;  &lt;BR/&gt; Neste momento, o indicador de intervalos de manutenção está zerado. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299006187</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299006187</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299006187</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>25</Ordine>
+      <Capitolo>Regulação - Reinicialização do indicador de intervalo de manutenção</Capitolo>
+      <Corpo>Após a realização dos trabalhos de manutenção, a reinicialização manual do indicador é efetuada da seguinte forma: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; desligar a ignição &lt;BR/&gt;  &lt;LI&gt; premir e manter premido o botão ( &lt;B&gt; 1 &lt;/B&gt; ) &lt;BR/&gt;  &lt;LI&gt; ligar a ignição &lt;BR/&gt;  &lt;LI&gt; no visor aparecerá a mensagem relativa à reinicialização do indicador de intervalos de manutenção &lt;BR/&gt;  &lt;LI&gt; soltar o botão ( &lt;B&gt; 1 &lt;/B&gt; ) &lt;BR/&gt;  &lt;LI&gt; prima o botão ( &lt;B&gt; 1 &lt;/B&gt; ) para confirmar &lt;BR/&gt;  &lt;BR/&gt; Neste momento, o indicador de intervalos de manutenção está zerado. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299006187</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>299006187</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299006187</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199094642</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>AVISO</Capitolo>
+      <Corpo> &lt;BR/&gt; A reinicialização dos  &lt;B&gt; intervalos de manutenção prolongados &lt;/B&gt;  só é possível  &lt;B&gt; através do equipamento de diagnóstico específico &lt;/B&gt;  previsto pelo fabricante.  &lt;BR/&gt;  &lt;BR/&gt; No entanto, é possível restabelecer os intervalos de manutenção prolongados seguindo este procedimento; ao fazê-lo, porém, o intervalo passará de manutenção prolongada para manutenção fixa. &lt;BR/&gt;  &lt;BR/&gt; Antes de efetuar a reinicialização, verifique se não existem códigos de avaria na memória  e se todas as portas estão fechadas. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

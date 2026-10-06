@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:14:57">
+  <XDOCUMENTO>
+    <ID>62507691</ID>
+    <DOCNumber>GUR62765</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Système Start&amp;Stop</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Guide Réglage</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Informations sur le système</Capitolo>
+      <Corpo> &lt;BR/&gt; Le Start&amp;Stop est un dispositif qui arrête automatiquement le moteur chaque fois que le véhicule s&apos;arrête et le redémarre automatiquement dès que le conducteur souhaite repartir. Cela permet de réduire la consommation et les émissions polluantes. &lt;BR/&gt; &lt;BR/&gt; Ce système nécessite des &lt;B&gt; batteries dotées d&apos;une technologie et de caractéristiques techniques particulières &lt;/B&gt; , il est donc nécessaire de prêter une attention particulière lors des opérations de remplacement et d&apos;entretien de la batterie. En effet, la batterie doit avoir les mêmes caractéristiques que celle qu&apos;elle remplace. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Symboles</Capitolo>
+      <Corpo> &lt;BR/&gt; Indicateurs du système Start&amp;Stop : &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; A &lt;/B&gt; - Système Start&amp;Stop &lt;B&gt; Actif &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; B &lt;/B&gt; - &lt;B&gt; Panne &lt;/B&gt; du système Start&amp;Stop &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; C &lt;/B&gt; - Système Start&amp;Stop &lt;B&gt; Désactivé &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; D &lt;/B&gt; - Signalisation &lt;B&gt; Panne générique &lt;/B&gt; (capteur de pression d&apos;huile moteur, interrupteur inertiel, feux extérieurs, capteurs de stationnement, système Start&amp;Stop) &lt;BR/&gt; &lt;BR/&gt; Il est également possible &lt;B&gt; de désactiver manuellement le système &lt;/B&gt; en appuyant sur le bouton &lt;B&gt; (E) &lt;/B&gt; prévu à cet effet sur le tableau de bord. La confirmation de la désactivation est donnée par l&apos;allumage du voyant ou du symbole &lt;B&gt; (C) &lt;/B&gt; présent sur l&apos;écran multifonction &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504340</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504340</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504340</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>21</Ordine>
+      <Capitolo>Activation Start&amp;Stop - Arrêt du moteur</Capitolo>
+      <Corpo> &lt;BR/&gt; Le système Start&amp;Stop &lt;B&gt; ne s&apos;active qu&apos;après avoir dépassé la vitesse de 10 km/h &lt;/B&gt; et lorsque les conditions suivantes sont réunies : &lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; Boîte de vitesses manuelle &lt;/B&gt; &lt;BR/&gt; - Véhicule à l&apos;arrêt &lt;BR/&gt; - Boîte de vitesses au point mort &lt;BR/&gt; - Pédale d&apos;embrayage relâchée &lt;BR/&gt; - Moteur à température de fonctionnement &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Boîte de vitesses automatique &lt;/B&gt; &lt;BR/&gt; - Véhicule à l&apos;arrêt &lt;BR/&gt; - Pédale de frein enfoncée / Levier de vitesses en position N &lt;BR/&gt; &lt;BR/&gt; La confirmation de l&apos;activation du système Start&amp;Stop est signalée par l&apos;allumage du témoin &lt;B&gt; (A) &lt;/B&gt; ou &lt;B&gt; (B) &lt;/B&gt; sur le tableau de bord &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>22</Ordine>
+      <Capitolo>Redémarrage du moteur</Capitolo>
+      <Corpo> &lt;BR/&gt; Après l&apos;intervention du système Start&amp;Stop pour redémarrer le moteur, il est nécessaire de : &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Boîte de vitesses manuelle &lt;/B&gt; &lt;BR/&gt; - Appuyer sur la pédale d&apos;embrayage &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Boîte de vitesses automatique &lt;/B&gt; &lt;BR/&gt; - Relâcher la pédale de frein / Déplacer le levier de vitesses de la position N à n&apos;importe quelle position de marche &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Dysfonctionnement du système Start&amp;Stop</Capitolo>
+      <Corpo> &lt;BR/&gt; Le dysfonctionnement du système Start&amp;Stop est dû à l&apos;une des causes suivantes : &lt;BR/&gt;&lt;BR/&gt; - Moteur pas encore à température &lt;BR/&gt; - Batterie insuffisamment chargée &lt;BR/&gt; - Lunette arrière chauffante activée &lt;BR/&gt; - Essuie-glace activé à vitesse maximale &lt;BR/&gt; - Régénération du filtre à particules en cours &lt;BR/&gt; - Porte conducteur ouverte &lt;BR/&gt; - Ceinture de sécurité du conducteur non bouclée &lt;BR/&gt; - Marche arrière enclenchée &lt;BR/&gt; - Si la climatisation automatique n&apos;a pas encore atteint la température souhaitée dans l&apos;habitacle &lt;BR/&gt; - Route en pente &lt;BR/&gt; - Température extérieure très basse ou très élevée &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Redémarrage automatique du moteur</Capitolo>
+      <Corpo> &lt;BR/&gt; Le système prévoit de réactiver automatiquement le moteur, indépendamment du choix du conducteur, si l&apos;une des conditions suivantes se produit : &lt;BR/&gt;&lt;BR/&gt; - Activation des essuie-glaces à vitesse maximale &lt;BR/&gt; - Batterie déchargée &lt;BR/&gt; - Véhicule en mouvement (routes en pente) &lt;BR/&gt; - Moteur arrêté depuis plus de 3 minutes &lt;BR/&gt; - Basse pression du système de freinage &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Débranchement de la batterie - Versions avec faux pôle négatif</Capitolo>
+      <Corpo> &lt;BR/&gt; S&apos;il est nécessaire de déconnecter la batterie, procédez en déconnectant le dispositif &lt;B&gt; (1) &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Ne déconnectez pas le capteur de surveillance de la batterie (2). La déconnexion du capteur ne doit être effectuée qu&apos;en cas de remplacement de la batterie. &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Lorsque la batterie est reconnectée, tournez la clé de contact en position « STOP » avec la porte conducteur fermée, et &lt;B&gt; attendez au moins 1 minute pour que le système termine son initialisation &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504342</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504342</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504342</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>55</Ordine>
+      <Capitolo>Débranchement de la batterie - Versions sans faux pôle négatif</Capitolo>
+      <Corpo> &lt;BR/&gt; S&apos;il est nécessaire de déconnecter la batterie, appuyez sur le bouton situé sur le connecteur &lt;B&gt; (B) &lt;/B&gt; pour détacher le connecteur &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Ne déconnectez pas le capteur de surveillance de la batterie (A). La déconnexion du capteur ne doit être effectuée qu&apos;en cas de remplacement de la batterie. &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Lorsque la batterie est reconnectée, tournez la clé de contact en position « STOP » avec la porte conducteur fermée, et &lt;B&gt; attendez au moins 1 minute pour que le système termine l&apos;initialisation &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504345</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504345</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504345</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>80</Ordine>
+      <Capitolo>Démarrage d&apos;urgence</Capitolo>
+      <Corpo> &lt;BR/&gt; S&apos;il est nécessaire de connecter une batterie en parallèle pour effectuer un démarrage d&apos;urgence, connectez &lt;B&gt; la borne positive de la batterie auxiliaire à la borne positive de la batterie du véhicule &lt;/B&gt; et la &lt;B&gt; borne négative à n&apos;importe quel point de masse présent dans le moteur &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;B&gt; Ne jamais connecter le câble négatif de la batterie auxiliaire à la borne négative de la batterie du véhicule. &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>90</Ordine>
+      <Capitolo>Recharge de batterie - Versions avec faux pôle négatif</Capitolo>
+      <Corpo> &lt;BR/&gt; Pour recharger la batterie, procédez comme suit : &lt;BR/&gt;&lt;BR/&gt; - Débranchez la borne négative à l&apos;aide du dispositif de déconnexion rapide &lt;BR/&gt; - Connectez le câble positif du chargeur de batterie à la borne positive de la batterie du véhicule &lt;BR/&gt; - Connectez le câble négatif du chargeur de batterie à la fausse borne négative de la batterie &lt;BR/&gt; - Allumez le chargeur de batterie &lt;BR/&gt; - Une fois la procédure terminée, retirez le chargeur de batterie &lt;BR/&gt; - Rebranchez la borne négative &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507691</RifIDDoc>
+      <Ordine>95</Ordine>
+      <Capitolo>Recharge de batterie - Versions sans faux pôle négatif</Capitolo>
+      <Corpo> &lt;BR/&gt; Pour recharger la batterie, procédez comme suit : &lt;BR/&gt;&lt;BR/&gt; - Débranchez le connecteur du capteur de surveillance de la batterie &lt;BR/&gt; - Connectez le câble positif du chargeur de batterie à la borne positive de la batterie du véhicule &lt;BR/&gt; - Connectez le câble négatif du chargeur de batterie à la borne négative de la batterie du véhicule &lt;BR/&gt; - Allumez le chargeur de batterie &lt;BR/&gt; - Une fois la procédure terminée, retirez le chargeur de batterie &lt;BR/&gt; - Rebranchez le connecteur &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

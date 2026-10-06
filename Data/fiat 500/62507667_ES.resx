@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:14:41">
+  <XDOCUMENTO>
+    <ID>62507667</ID>
+    <DOCNumber>GUR62741</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Sistema Start&amp;Stop: restablecimiento del sistema tras desconectar la batería.</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Guía de ajuste</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62507667</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Localización Batería</Capitolo>
+      <Corpo> &lt;BR/&gt; La batería se encuentra en el compartimento del motor, en el lado del conductor, cerca del paso de rueda. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>199000376</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>199000376</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:199000376</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507667</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Procedimiento para desconectar la batería - Versiones con polo negativo falso</Capitolo>
+      <Corpo> &lt;BR/&gt; Si es necesario desconectar la batería, proceda a desconectar el dispositivo &lt;B&gt; (1) &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; No desconecte el sensor de control de la batería (2). La desconexión del sensor solo debe realizarse en caso de sustitución de la batería. &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Cuando se vuelva a conectar la batería, gire la llave de contacto a la posición «STOP» con la puerta del conductor cerrada y &lt;B&gt; espere al menos 1 minuto para que el sistema complete la inicialización &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504342</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504342</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504342</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507667</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Procedimiento para desconectar la batería: versiones sin polo negativo falso.</Capitolo>
+      <Corpo> &lt;BR/&gt; Si es necesario desconectar la batería, pulse el botón situado en el conector &lt;B&gt; (B) &lt;/B&gt; para desconectar el conector &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; No desconecte el sensor de control de la batería (A). La desconexión del sensor solo debe realizarse en caso de sustitución de la batería. &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Cuando se vuelva a conectar la batería, gire la llave de contacto a la posición «STOP» con la puerta del conductor cerrada y &lt;B&gt; espere al menos 1 minuto para que el sistema complete la inicialización &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504345</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504345</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504345</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507667</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procedimiento para conectar la batería</Capitolo>
+      <Corpo> &lt;BR/&gt; Para volver a conectar la batería, proceda de la siguiente manera: &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Conecte primero el polo positivo &lt;/B&gt; y luego el negativo de la batería &lt;BR/&gt;  &lt;LI&gt; Restablecer el código de la radio (si es necesario) &lt;BR/&gt; &lt;LI&gt; Borrar cualquier &lt;B&gt; error presente en la memoria &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Colocar la llave en la posición «STOP» y esperar 1 minuto (mantener las puertas y las ventanillas cerradas) &lt;BR/&gt;  &lt;LI&gt; Encienda el motor &lt;BR/&gt; &lt;LI&gt; Apague el motor &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503879</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>62503879</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503879</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507667</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Reparación del techo eléctrico</Capitolo>
+      <Corpo> &lt;BR/&gt; Procedimiento de inicialización del techo eléctrico: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Encender el motor &lt;BR/&gt; &lt;LI&gt; Mantener pulsado el botón de cierre del techo &lt;BR/&gt; &lt;LI&gt; Esperar a que el techo eléctrico se cierre completamente &lt;BR/&gt;  &lt;LI&gt; Una vez cerrado completamente el techo, espere a que se detenga el motor eléctrico &lt;BR/&gt; &lt;LI&gt; Suelte el botón de cierre del techo eléctrico &lt;BR/&gt; &lt;BR/&gt; Ahora el sistema está inicializado. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507667</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>Restauración de autorradios</Capitolo>
+      <Corpo> &lt;BR/&gt; Tras desconectar la batería, en la pantalla de la radio del coche podría aparecer &lt;B&gt; «Radio Code» &lt;/B&gt; seguido de &lt;B&gt; « - - - -» &lt;/B&gt; &lt;BR/&gt; Es necesario introducir el código de la radio. &lt;BR/&gt; Utilice las teclas de las emisoras de radio preseleccionadas (de 1 a 6). &lt;BR/&gt; Si no se introducen los 4 dígitos en 20 segundos, aparecerá el mensaje &lt;B&gt; «Enter Code - - - -» &lt;/B&gt; &lt;BR/&gt; Tras introducir los 4 dígitos, pueden pasar hasta 20 segundos antes de que la radio comience a funcionar. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

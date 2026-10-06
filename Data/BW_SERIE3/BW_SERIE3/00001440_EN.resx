@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-23T03:45:20">
+  <XDOCUMENTO>
+    <ID>1440</ID>
+    <DOCNumber>NOT00006</DOCNumber>
+    <RifIDTipoRis>27</RifIDTipoRis>
+    <Titolo>Guide to reading EOBD fault codes</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>27</ID>
+      <TipoRis>NOT</TipoRis>
+      <DscRis>Technical note</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Interpretation of Codes</Capitolo>
+      <Corpo>Fault codes &lt;B&gt; (DTC) EOBD / OBDII &lt;/B&gt; can be read by the car mechanic using a standardised diagnostic tester ( &lt;B&gt; Scantool &lt;/B&gt; ). They consist of a letter followed by four digits.  &lt;B&gt; The first letter of the code &lt;/B&gt; represents the vehicle system where the fault occurred: &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P- &lt;/B&gt; (powertrain): engine (standard EOBD codes: P0000 - P1000) &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; B- &lt;/B&gt; (body): climate control, lights, windscreen washers, seats, door locks, window locks, mirrors, airbag sensors, GPS, car radio... &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; C- &lt;/B&gt; (chassis): ABS, traction and stability control, active shock absorber control, power steering &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; U- &lt;/B&gt; (network): communication errors on the data network &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; The first number on the left indicates: if &lt;B&gt; 0 &lt;/B&gt; or &lt;B&gt; 2 &lt;/B&gt; (standard codes), if &lt;B&gt; 1 &lt;/B&gt; (reserved codes) &lt;BR/&gt; &lt;LI&gt; the second number on the left identifies the subsystem where the fault occurred: &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; 1- &lt;/B&gt; faults in the injection system sensors &lt;BR/&gt; &lt;B&gt; 2- &lt;/B&gt; faults in the injection system actuators &lt;BR/&gt; &lt;B&gt; 3- &lt;/B&gt; faults in the injection system or misfires &lt;BR/&gt;  &lt;B&gt; 4- &lt;/B&gt; faults in the emission control system &lt;BR/&gt; &lt;B&gt; 5- &lt;/B&gt; faults in the vehicle speed, A/C and power steering sensors &lt;BR/&gt; &lt;B&gt; 6- &lt;/B&gt; faults in the transmission system (clutch and gearbox) &lt;BR/&gt;  &lt;B&gt; 7- &lt;/B&gt; transmission system faults &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; the third and last digits specifically indicate the type of fault, based on the exact European regulatory description. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Further information is provided in the references at the bottom of the page &lt;/B&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>OBDII codes from P000 to P1000 - Engine control systems</Capitolo>
+      <Corpo> &lt;B&gt; P00XX &lt;/B&gt; - Air/fuel system and auxiliary emission control &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P01XX &lt;/B&gt; - Air/fuel system (measurements) &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P02XX &lt;/B&gt; - Air/fuel system (measurements) &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P03XX &lt;/B&gt; - Injection system and/or misfires &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P04XX &lt;/B&gt;  - Auxiliary emission control &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P05XX &lt;/B&gt; - Vehicle speed, idle control, auxiliary signal activity &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P06XX &lt;/B&gt; - Auxiliary control units or modules &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P07XX &lt;/B&gt; - Transmission and/or transmission systems &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P08XX &lt;/B&gt; - Transmission and/or transmission systems &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P09XX &lt;/B&gt; - Transmission and/or transmission systems</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>OBDII codes from P0A00 to P0F00 - Hybrid drive systems</Capitolo>
+      <Corpo> &lt;B&gt; P0AXX &lt;/B&gt; - Hybrid power supply/traction &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P0BXX &lt;/B&gt; - reserved - &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P0CXX &lt;/B&gt; - reserved - &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P0DXX &lt;/B&gt; - Reserved - &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P0EXX &lt;/B&gt; - Reserved - &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P0FXX &lt;/B&gt; - Reserved -</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>OBDII codes from P1000 to P2000 - Engine control systems</Capitolo>
+      <Corpo> &lt;B&gt; P10XX &lt;/B&gt; - reserved - Air/fuel system and auxiliary emission control &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P11XX &lt;/B&gt; - reserved - Air/fuel system (measurements) &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P12XX &lt;/B&gt; - reserved - Air/fuel system (measurements) &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P13XX &lt;/B&gt; - reserved - Injection system and/or misfires &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P14XX &lt;/B&gt; - reserved - Auxiliary emission control &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P15XX &lt;/B&gt; - reserved - Vehicle speed, idle control, auxiliary signal activity &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P16XX &lt;/B&gt; - reserved - Auxiliary control units or modules &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P17XX &lt;/B&gt; - reserved - Transmission and/or transmission systems &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P18XX &lt;/B&gt; - reserved - Transmission and/or transmission systems &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P19XX &lt;/B&gt; - reserved - Transmission and/or transmission systems</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>OBDII codes from P2000 to P3000 - Engine control systems</Capitolo>
+      <Corpo> &lt;B&gt; P20XX &lt;/B&gt; - Air/fuel system and auxiliary emission control &lt;BR/&gt;&lt;BR/&gt; &lt;B&gt; P23XX &lt;/B&gt; - Injection system and/or misfires &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P24XX &lt;/B&gt; - Auxiliary emissions control &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P25XX &lt;/B&gt; - Auxiliary signal activity (input) &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P26XX &lt;/B&gt; - Auxiliary control units or modules (output) &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P27XX &lt;/B&gt; - Transmission and/or transmission systems &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P28XX &lt;/B&gt; - Reserved ISO/SAE &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P29XX &lt;/B&gt; - Air/fuel system and auxiliary emission control</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>OBDII codes from P3000 to P4000 - Engine control systems</Capitolo>
+      <Corpo> &lt;B&gt; P30XX &lt;/B&gt; - Air/fuel system and auxiliary emission control &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P31XX &lt;/B&gt; - Air/fuel system and auxiliary emission control &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P32XX &lt;/B&gt;  - Air/fuel system and auxiliary emission control &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P33XX &lt;/B&gt; - Injection and/or misfire system &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P34XX &lt;/B&gt; - Cylinder deactivation (fuel economy) &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P35XX &lt;/B&gt; - reserved ISO/SAE &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P36XX &lt;/B&gt; - reserved ISO/SAE &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P37XX &lt;/B&gt; - reserved ISO/SAE &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; P38XX &lt;/B&gt; - reserved ISO/SAE &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; P39XX &lt;/B&gt; - reserved ISO/SAE</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>1440</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>OBDII codes from U0000 to U0400 - Network communication group</Capitolo>
+      <Corpo> &lt;B&gt; U00XX &lt;/B&gt; - Electrical network activity &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; U01XX &lt;/B&gt; - Electrical network communication &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; U02XX &lt;/B&gt; - Electrical network communication &lt;BR/&gt;  &lt;BR/&gt; &lt;B&gt; U03XX &lt;/B&gt; - Software activity &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; U04XX &lt;/B&gt; - Data activity</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

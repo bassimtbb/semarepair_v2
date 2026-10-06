@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T00:26:18">
+  <XDOCUMENTO>
+    <ID>199258801</ID>
+    <DOCNumber>GUP86673</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Problemas de caudal del líquido limpiaparabrisas y humedad a lo largo de las tuberías.</Titolo>
+    <InfoDoc>CARROCERÍA | 50.001.19 | LIMPIAPARABRISAS | ESCOBILLAS | SALE | AGUA | POCO | CONDENSACIÓN | PARABRISAS | CRISTAL | DELANTERO | TRASERO | ANTERIOR | POSTERIOR |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guía de reparación</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199258801</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grado de fiabilidad (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Leyenda del grado de fiabilidad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nivel bajo &lt;/B&gt; : Detección del mecánico, caso de avería no detectado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nivel medio &lt;/B&gt;  : Casos frecuentes de avería, detectados por los técnicos de asistencia y los mecánicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nivel alto &lt;/B&gt; : Anomalía confirmada, buen grado de «repetitividad» señalado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199258801</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificación del sistema/avería</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Sistema: &lt;/B&gt; Carrocería &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositivo: &lt;/B&gt; Limpiaparabrisas &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalía: &lt;/B&gt; Cantidad baja o ausente de líquido limpiaparabrisas en la salida y posible presencia de humedad en las proximidades de las tuberías correspondientes &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Errores detectados por el autodiagnóstico: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Causa: &lt;/B&gt; Pérdida de líquido de la tubería que alimenta el lavaparabrisas delantero y/o trasero &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199258801</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimiento de reparación</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervención: &lt;/B&gt; Reparación de una tubería dañada &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedimiento: &lt;/B&gt; Para poder proceder a la reparación de la tubería dañada, es necesario, en primer lugar, identificar el tipo de tubería presente en el vehículo en cuestión: &lt;BR/&gt;  &lt;OL&gt; &lt;LI&gt; Tubo tipo &lt;B&gt; AEC &lt;/B&gt; : Realizar la reparación utilizando el kit n.º 51922436, compuesto por tubos corrugados, abrazaderas de unión y racores. &lt;BR/&gt; &lt;BR/&gt; &lt;UL&gt;    &lt;LI&gt; Si la fuga se encuentra en la unión de la tubería de impulsión, sustituya el tramo dañado de la siguiente manera: corte la tubería dañada, únala con el nuevo tramo del kit utilizando el racor y la abrazadera de unión, asegurándose de colocar correctamente las juntas de goma. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Si la fuga se encuentra a lo largo de la tubería de impulsión: cortar y unir los tramos con los dos racores incluidos en el kit, volver a colocar la cinta aislante en el cableado si es necesario y volver a montar los componentes. &lt;/UL&gt; &lt;BR/&gt; &lt;LI&gt; Tubería tipo &lt;B&gt; FRANKISCHE &lt;/B&gt; : Realice la reparación utilizando el kit n.º 50527045. Si la fuga se encuentra en el empalme de la tubería de impulsión, sustituya el tramo dañado de la siguiente manera: corte la tubería dañada y únala con el nuevo tramo del kit, aplicando las juntas tóricas y la silicona suministradas. Inserte los extremos de las tuberías en el racor y coloque las abrazaderas de sujeción. Apriete las abrazaderas hasta que las pinzas de anclaje queden correctamente enganchadas. Compruebe que no haya fugas y proceda al montaje de los componentes. &lt;/OL&gt; &lt;LI&gt; &lt;B&gt; Nota: &lt;/B&gt; ¡Atención! Los kits solo se pueden utilizar en tuberías corrugadas. &lt;BR/&gt;&lt;BR/&gt; Código del kit de reparación de tuberías tipo AEC n.º 51922436. &lt;BR/&gt; &lt;BR/&gt; Código del kit de reparación de tuberías tipo FRANKISCHE n.º 50527045. &lt;BR/&gt; &lt;BR/&gt; Tiempo estimado de realización de la operación: 6 minutos. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

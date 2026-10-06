@@ -154,6 +154,20 @@
   margin: 6px 0 0;
 }
 
+/* The loaded vehicles, one per line. A comma-separated run would wrap in
+   the middle of "Golf VII 2017-2020 Diesel" and read as one long vehicle. */
+.help-vehicles {
+  list-style: none;
+  margin: 2px 0 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.help-vehicles li::before {
+  content: '· ';
+}
+
 .help-steps {
   font-size: 13px;
   line-height: 1.6;

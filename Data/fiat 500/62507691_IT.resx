@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2015-04-22T17:06:39">
+<XDOCUMENTO>
+<ID>62507691</ID>
+<DOCNumber>GUR62765</DOCNumber>
+<RifIDTipoRis>5</RifIDTipoRis>
+<Titolo>Sistema Start&amp;Stop</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>228</RifIDFileICO>
+<XFILE>
+<ID>228</ID>
+<Type>IMG</Type>
+<URL>GETFILE:228</URL>
+</XFILE>
+<XTIPORIS>
+<ID>5</ID>
+<TipoRis>GUR</TipoRis>
+<DscRis>Guida Regolazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>62507691</RifIDDoc>
+<Ordine>10</Ordine>
+<Capitolo>Informazioni sul sistema</Capitolo>
+<Corpo>&lt;BR/&gt;Lo Start&amp;Stop è un dispositivo che arresta automaticamente il motore ogni qualvolta il veicolo si ferma, e lo riaccende automaticamente non appena il conducente intende riprendere la marcia. In questo modo si ha una dimunzione dei consumi e delle emissioni inquinanti.&lt;BR/&gt;&lt;BR/&gt;Questo sistema necessita di &lt;B&gt;batterie con una tecnologia e caratteristiche tecniche particolari&lt;/B&gt;, pertanto è necessario prestare opportune attenzioni durante le operazioni di sostituzione e manutenzione della batteria. La batteria infatti deve avere le medesime caratteristiche della batteria che viene sostituita.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62507691</RifIDDoc>
+<Ordine>20</Ordine>
+<Capitolo>Simbologia</Capitolo>
+<Corpo>&lt;BR/&gt;Indicatori sistema Start&amp;Stop:&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;A&lt;/B&gt; - Sistema Start&amp;Stop &lt;B&gt;Attivo&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;B&lt;/B&gt; - &lt;B&gt;Avaria&lt;/B&gt; sistema Start&amp;Stop&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;C&lt;/B&gt; - Sistema Start&amp;Stop &lt;B&gt;Disattivato&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;D&lt;/B&gt; - Segnalazione &lt;B&gt;Avaria Generica&lt;/B&gt;  (sensore pressione olio motore, interruttore inerziale, luci esterne, sensori di parcheggio, sistema Start&amp;Stop)&lt;BR/&gt;&lt;BR/&gt;E&apos; possibile inoltre &lt;B&gt;disattivare manualmente il sistema&lt;/B&gt; premendo l&apos;apposito pulsante &lt;B&gt;(E)&lt;/B&gt; presente nella strumentazione. La conferma di avvenuta disattivazione è data dall&apos;accensione della spia o dal simbolo &lt;B&gt;(C)&lt;/B&gt; presente nel display multifunzione&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>62504340</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>62504340</ID>
+<Type>IMG</Type>
+<URL>GETFILE:62504340</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62507691</RifIDDoc>
+<Ordine>21</Ordine>
+<Capitolo>Attivazione Start&amp;Stop - Spegnimento motore</Capitolo>
+<Corpo>&lt;BR/&gt;L&apos;attivazione del sistema Start&amp;Stop &lt;B&gt;avviene solo dopo aver superato la velocità di 10Km/h&lt;/B&gt; e quando si verificano le seguenti condizioni:&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Cambio Manuale&lt;/B&gt;&lt;BR/&gt;- Veicolo Fermo&lt;BR/&gt;- Cambio in Folle&lt;BR/&gt;- Pedale della frizione rilasciato&lt;BR/&gt;- Motore in temperatura di esercizio&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Cambio Automatico&lt;/B&gt;&lt;BR/&gt;- Veicolo fermo&lt;BR/&gt;- Pedale del freno premuto / Leva del cambio in posizione N&lt;BR/&gt;&lt;BR/&gt;La conferma dell&apos;attivazione del sistema Start&amp;Stop è segnalata dall&apos;accensione della spia &lt;B&gt;(A)&lt;/B&gt; o &lt;B&gt;(B)&lt;/B&gt; nel quadro strumenti&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62507691</RifIDDoc>
+<Ordine>22</Ordine>
+<Capitolo>Riavviamento motore</Capitolo>
+<Corpo>&lt;BR/&gt;In seguito all&apos;intervento dello Start&amp;Stop per riavviare il motore è necessario:&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Cambio Manuale&lt;/B&gt;&lt;BR/&gt;- Premere il pedale della frizione&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Cambio Automatico&lt;/B&gt;&lt;BR/&gt;- Rilasciare il pedale del freno / Spostare la leva del cambio dalla posizione N ad una qualsiasi posizione di marcia&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62507691</RifIDDoc>
+<Ordine>30</Ordine>
+<Capitolo>Mancato funzionamento Start&amp;Stop</Capitolo>
+<Corpo>&lt;BR/&gt;Il mancato funzionamento del sistema Start&amp;Stop è dato da una di queste cause:&lt;BR/&gt;&lt;BR/&gt;- Motore non ancora in temperatura&lt;BR/&gt;- Batteria non sufficientemente carica&lt;BR/&gt;- Lunotto termico attivato&lt;BR/&gt;- Tergicristallo attivato alla massima velocità&lt;BR/&gt;- Rigenerazione filtro antiparticolato in corso&lt;BR/&gt;- Porta conducente aperta&lt;BR/&gt;- Cintura conducente non allacciata&lt;BR/&gt;- Retromarcia inserita&lt;BR/&gt;- Qual&apos;ora il climatizzatore automatico non abbia ancora raggiunto la temperatura desiderata all&apos;interno dell&apos;abitacolo&lt;BR/&gt;- Strada in pendenza&lt;BR/&gt;- Temperatura esterna molto bassa o molto alta&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62507691</RifIDDoc>
+<Ordine>40</Ordine>
+<Capitolo>Riavvio automatico del motore</Capitolo>
+<Corpo>&lt;BR/&gt;Il sistema prevede di riattivare automaticamente il motore, al di la della scelta del conducente, qual&apos;ora si verifichi una delle seguenti condizioni:&lt;BR/&gt;&lt;BR/&gt;- Attivazione tergicristallo alla massima velocità&lt;BR/&gt;- Batteria scarica&lt;BR/&gt;- Vettura in movimento (strade in pendenza)&lt;BR/&gt;- Motore spento da più di 3 minuti&lt;BR/&gt;- Bassa pressione impianto frenante&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62507691</RifIDDoc>
+<Ordine>50</Ordine>
+<Capitolo>Distacco della batteria - Versioni con falso polo negativo</Capitolo>
+<Corpo>&lt;BR/&gt;Qual&apos;ora sia necessario disconnettere la batteria procedere disconnettendo il dispositivo &lt;B&gt;(1)&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Non disconnettere il sensore di monitoraggio della batteria (2). La disconnessione del sensore va effettuata solo in caso di sostituzione della batteria.&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;Quando viene riconnessa la batteria, girare la chiave di avviamento sulla posizione &quot;STOP&quot; con la porta conducente chiusa, ed &lt;B&gt;attendere almeno 1 minuto affinchè il sistema completi l&apos;inizializzazione&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>62504342</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>62504342</ID>
+<Type>IMG</Type>
+<URL>GETFILE:62504342</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62507691</RifIDDoc>
+<Ordine>55</Ordine>
+<Capitolo>Distacco della batteria - Versioni senza falso polo negativo</Capitolo>
+<Corpo>&lt;BR/&gt;Qual&apos;ora sia necessario disconnettere la batteria premere il pulsante presente sul connettore &lt;B&gt;(B)&lt;/B&gt; ottenendo così il distacco del connettore&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Non disconnettere il sensore di monitoraggio della batteria (A). La disconnessione del sensore va effettuata solo in caso di sostituzione della batteria.&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;Quando viene riconnessa la batteria, girare la chiave di avviamento sulla posizione &quot;STOP&quot; con la porta conducente chiusa, ed &lt;B&gt;attendere almeno 1 minuto affinchè il sistema completi l&apos;inizializzazione&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>62504345</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>62504345</ID>
+<Type>IMG</Type>
+<URL>GETFILE:62504345</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62507691</RifIDDoc>
+<Ordine>80</Ordine>
+<Capitolo>Avviamento di emergenza</Capitolo>
+<Corpo>&lt;BR/&gt;Qual&apos;ora si renda necessario collegare in parallelo una batteria per effettuare un avviamento di emergenza collegare &lt;B&gt;il morsetto positivo della batteria ausiliaria con il morsetto positivo della batteria del veicolo &lt;/B&gt;e il &lt;B&gt;morsetto negativo ad un qualsiasi punto di massa presente nel motore&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Non collegare mai il cavo negativo della batteria ausiliaria al polo negativo della batteria del veicolo.&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62507691</RifIDDoc>
+<Ordine>90</Ordine>
+<Capitolo>Ricarica batteria - Versioni con falso polo negativo</Capitolo>
+<Corpo>&lt;BR/&gt;Per effettuare la ricarica della batteria procedere come segue:&lt;BR/&gt;&lt;BR/&gt;- Disconnettere il morsetto negativo tramite lo sgancio rapido&lt;BR/&gt;- Collegare il cavo positivo del caribatteria al polo positivo della batteria del veicolo&lt;BR/&gt;- Collegare il cavo negativo del caricabatteria al falso polo negativo della batteria&lt;BR/&gt;- Accendere il caricabatteria&lt;BR/&gt;- A procedura ultimata rimuovere il caricabatteria&lt;BR/&gt;- Ricollegare il morsetto negativo&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62507691</RifIDDoc>
+<Ordine>95</Ordine>
+<Capitolo>Ricarica batteria  - Versioni senza falso polo negativo</Capitolo>
+<Corpo>&lt;BR/&gt;Per effettuare la ricarica della batteria procedere come segue:&lt;BR/&gt;&lt;BR/&gt;- Disconnettere il connettore dal sensore monitoraggio batteria&lt;BR/&gt;- Collegare il cavo positivo del caribatteria al polo positivo della batteria del veicolo&lt;BR/&gt;- Collegare il cavo negativo del caricabatteria polo negativo della batteria del veicolo&lt;BR/&gt;- Accendere il caricabatteria&lt;BR/&gt;- A procedura ultimata rimuovere il caricabatteria&lt;BR/&gt;- Ricollegare il connettore&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

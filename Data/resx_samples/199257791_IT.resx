@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2025-09-08T08:59:34">
+<XDOCUMENTO>
+<ID>199257791</ID>
+<DOCNumber>DRA80138</DOCNumber>
+<RifIDTipoRis>45</RifIDTipoRis>
+<Titolo>Cambio doppia frizione Volkswagen 0GC (7 Marce)</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>0</RifIDFileICO>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+<XTIPORIS>
+<ID>45</ID>
+<TipoRis>DRV</TipoRis>
+<DscRis>Cambio Automatico</DscRis>
+<RifIDFileCSS>0</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199257791</RifIDDoc>
+<Ordine>10</Ordine>
+<Capitolo>Dati Tecnici - Lubrificanti</Capitolo>
+<Corpo>&lt;B&gt;Produttore:&lt;/B&gt; Volkswagen AG&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Denominazione:&lt;/B&gt; 0GC / DQ381-7&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Denominazione Commerciale:&lt;/B&gt; DSG7, S-Tronic &lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;Intervallo sostituzione olio consigliato dal costruttore del cambio automatico:&lt;/B&gt; &lt;BR/&gt;60.000 km&lt;BR/&gt;&lt;BR/&gt;&lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt;&lt;TH width=60% class=&quot;chiaro&quot;&gt;Descrizione&lt;/TH&gt;&lt;TH width=25% class=&quot;chiaro&quot;&gt;Unità di misura&lt;/TH&gt;&lt;TH width=15% class=&quot;chiaro&quot;&gt;Dati&lt;/TH&gt;&lt;TR&gt;&lt;TD&gt;Codice cambio automatico:&lt;/TD&gt;&lt;TD&gt;N.Ref&lt;/TD&gt;&lt;TD&gt;0GC&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Numero Rapporti:&lt;/TD&gt;&lt;TD&gt;N°&lt;/TD&gt;&lt;TD&gt;7&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Olio cambio automatico - Specifica costruttore:&lt;/TD&gt;&lt;TD&gt;N.Ref&lt;/TD&gt;&lt;TD&gt;VW G 055 529 A2&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Olio cambio automatico - Quantità a vuoto:&lt;/TD&gt;&lt;TD&gt;Litri&lt;/TD&gt;&lt;TD&gt;7,2&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Olio cambio automatico - Quantità per sostituzione:&lt;/TD&gt;&lt;TD&gt;Litri&lt;/TD&gt;&lt;TD&gt;5,5 ~ 6,0&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Olio cambio automatico - Quantità lavacambi:&lt;/TD&gt;&lt;TD&gt;Litri&lt;/TD&gt;&lt;TD&gt;9,2&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Temperatura controllo livello olio cambio automatico:&lt;/TD&gt;&lt;TD&gt;C°&lt;/TD&gt;&lt;TD&gt;35 ~ 45°&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&lt;BR/&gt;Eseguire il controllo livello olio cambio automatico con il motore acceso.&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299007256</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299007256</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299007256</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199257791</RifIDDoc>
+<Ordine>15</Ordine>
+<Capitolo>Identificazione cambio automatico</Capitolo>
+<Corpo>&lt;BR/&gt;E&apos; possibile identificare il modello del cambio leggendo la targhetta posta nella parte superiore.&lt;BR/&gt;&lt;BR/&gt;La sigla &lt;B&gt;1&lt;/B&gt; identifica il codice del cambio.&lt;BR/&gt;&lt;BR/&gt;La sigla &lt;B&gt;2&lt;/B&gt; identifica la data di produzione (gg.mm.aa).&lt;BR/&gt;&lt;BR/&gt;La sigla &lt;B&gt;3&lt;/B&gt; identifica lo stabilimento di produzione.&lt;BR/&gt;&lt;BR/&gt;La sigla &lt;B&gt;4&lt;/B&gt; identifica l&apos;ora di produzione.&lt;BR/&gt;&lt;BR/&gt;La sigla &lt;B&gt;5&lt;/B&gt; identifica il numero seriale.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299007250</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299007250</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299007250</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199257791</RifIDDoc>
+<Ordine>17</Ordine>
+<Capitolo>Strumenti speciali ed attrezzature da officina</Capitolo>
+<Corpo>&lt;LI&gt; Adattatore per il rifornimento &lt;B&gt;VAS 6262A&lt;/B&gt;&lt;B&gt;&lt;/B&gt; con adattatore &lt;B&gt;VAS 6262/1&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Estrattore olio &lt;B&gt;VAS 6622A&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Adattatore &lt;B&gt;VAS 6262/6&lt;/B&gt; oppure&lt;BR/&gt;&lt;LI&gt; Adattatore&lt;B&gt; VAS 6262/7&lt;/B&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299007251</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299007251</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299007251</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199257791</RifIDDoc>
+<Ordine>20</Ordine>
+<Capitolo>Procedura scarico e riempimento olio cambio automatico</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Il cambio non deve essere in modalità recovery&lt;BR/&gt;&lt;LI&gt; Posizionare il veicolo su un piano&lt;BR/&gt;&lt;LI&gt; Sollevare il veicolo&lt;BR/&gt;&lt;LI&gt; Porre la leva del cambio in &lt;B&gt;P&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Assicurarsi che il freno di stazionamento sia inserito&lt;BR/&gt;&lt;LI&gt; Spegnere il motore&lt;BR/&gt;&lt;LI&gt; Rimuovere la copertura inferiore&lt;BR/&gt;&lt;LI&gt; Posizionare in corrispondenza della scatola del cambio, la vaschetta dell&apos;estrattore dell&apos;olio &lt;B&gt;VAS 6622A&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Svitare il tappo di scarico &lt;B&gt;A&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Svitare il tubo di troppopieno &lt;B&gt;B&lt;/B&gt; e far defluire l&apos;olio del cambio&lt;BR/&gt;&lt;LI&gt; Svitare il tappo di scarico del modulo meccatronico &lt;B&gt;C&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Lasciare defluire l&apos;olio completamente&lt;BR/&gt;&lt;LI&gt; Attendere &lt;B&gt;4 minuti&lt;/B&gt; circa affinché defluisca tutto l&apos;olio del cambio&lt;BR/&gt;&lt;LI&gt; Reinstallare il tappo di scarico del modulo meccatronico &lt;B&gt;C&lt;/B&gt; e serrarlo a&lt;B&gt; 10 ~ 20 Nm + 45°&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE:&lt;/B&gt; Sostituire sempre la guarnizione del tappo di scarico del modulo meccatronico&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Riavvitare il tappo di troppopieno  &lt;B&gt;B&lt;/B&gt; e serrarlo a &lt;B&gt;3 Nm&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Il tappo deve essere avvitato con facilità&lt;BR/&gt;&lt;LI&gt; Agitare bene le bottiglie affinché non rimangano sedimenti sul fondo&lt;BR/&gt;&lt;LI&gt; Avvitare il flacone dell&apos;olio del cambio all&apos;adattatore per il rifornimento &lt;B&gt;VAS 6262A&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Se necessario utilizzare l&apos;adattatore &lt;B&gt;VAS 6262/6&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Inserire l&apos;adattatore &lt;B&gt;VAS 6262A&lt;/B&gt; dentro il tubo di troppopieno&lt;B&gt; B&lt;/B&gt; stringendolo a mano &lt;BR/&gt;&lt;LI&gt; Tenere il flacone e l&apos;adattatore &lt;B&gt;VAS 6262A&lt;/B&gt; il più in alto possibile sopra il cambio e lasciare fluire &lt;B&gt;5,5 ~ 6,0 litri&lt;/B&gt; d&apos;olio del cambio automatico&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE: &lt;/B&gt;Se la temperatura dell&apos;olio del cambio dovesse superare i &lt;B&gt;45 °C&lt;/B&gt; durante il riempimento, interrompere l&apos;operazione e lasciare raffreddare l&apos;olio del cambio.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Rimuovere l&apos;adattatore per il rifornimento &lt;B&gt;VAS 6262A&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Riavvitare il tappo di scarico &lt;B&gt;A&lt;/B&gt; e serrarlo a &lt;B&gt;45 Nm&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE: &lt;/B&gt;Sostituire sempre la guarnizione del tappo di scarico &lt;B&gt;A&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Accendere il motore e lasciarlo acceso al minimo&lt;BR/&gt;&lt;LI&gt; Premere il pedale del freno con il motore al minimo e mettere la leva in ciascuna posizione soffermandosi per almeno &lt;B&gt;3&lt;/B&gt; secondi&lt;BR/&gt;&lt;LI&gt; Porre la leva del cambio in &lt;B&gt;P&lt;/B&gt; senza spegnere il motore&lt;BR/&gt;&lt;LI&gt; Provvedere al controllo del livello dell&apos;olio del cambio automatico&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299007253</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299007253</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299007253</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199257791</RifIDDoc>
+<Ordine>25</Ordine>
+<Capitolo>Procedura sostituzione filtro olio cambio automatico</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;B&gt;ATTENZIONE: &lt;/B&gt; Coprire con dei panni la zona attorno il filtro dell&apos;olio cambio automatico&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Rimuovere la copertura del filtro dell&apos;olio del cambio automatico&lt;BR/&gt;&lt;LI&gt; Rimuovere il filtro del cambio automatico&lt;LI&gt; Procedere con la sostituzione del filtro &lt;BR/&gt;&lt;LI&gt; Rimontare la copertura del filtro del cambio automatico e serrarlo  a &lt;B&gt;50 Nm&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE:&lt;/B&gt; Sostituire sempre la guarnizione del filtro del cambio automatico</Corpo>
+<RifIDFileIMGANI>299007254</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299007254</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299007254</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199257791</RifIDDoc>
+<Ordine>30</Ordine>
+<Capitolo>Controllo livello olio cambio automatico</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Il cambio non deve essere in modalità recovery&lt;BR/&gt;&lt;LI&gt; Assicurarsi che la temperatura dell&apos;olio del cambio non sia superiore a &lt;B&gt;30 °C&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Qualora la temperatura fosse superiore si consiglia di lasciar raffreddare l&apos;olio del cambio&lt;BR/&gt;&lt;LI&gt; Posizionare il veicolo su un piano&lt;BR/&gt;&lt;LI&gt; Porre la leva del cambio in &lt;B&gt;P&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Assicurarsi che il freno di stazionamento sia inserito&lt;BR/&gt;&lt;LI&gt; Collegare i tubi dello strumento di aspirazione &lt;B&gt;VAS 6622A&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Accendere il motore al minimo&lt;BR/&gt;&lt;LI&gt; Assicurarsi che l&apos;impianto di climatizzazione ed il riscaldamento siano spenti&lt;BR/&gt;&lt;LI&gt; Collegare il tester diagnostico ed attendere l&apos;identificazione del veicolo&lt;BR/&gt;&lt;LI&gt; Tramite tester diagnostico avviare la procedura di controllo livello olio cambio automatico&lt;BR/&gt;&lt;LI&gt; Rimuovere la copertura inferiore&lt;BR/&gt;&lt;LI&gt; Collocare la vaschetta dell&apos;estrattore dell&apos;olio &lt;B&gt;VAS 6622A&lt;/B&gt; sotto la scatola del cambio&lt;BR/&gt;&lt;LI&gt; Rimuovere il tappo di scarico &lt;B&gt;A&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Lasciare che l&apos;olio del cambio accumulato fuoriesca dal tubo di troppopieno &lt;B&gt;B&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE:&lt;/B&gt;Del tubo di troppopieno esistono differenti versioni&lt;BR/&gt;&lt;B&gt;ATTENZIONE:&lt;/B&gt; Possono verificarsi danni al cambio in caso di riempimento eccessivo o insufficiente&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Assicurarsi che il tubo di troppopieno sia montato correttamente&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;CAMBIO CON TUBO DI TROPPOPIENO BEIGE:&lt;/B&gt;&lt;BR/&gt;- Il livello d&apos;olio non deve superare la bocca del tubo di troppopieno &lt;B&gt;B&lt;/B&gt;&lt;BR/&gt;- Per il controllo e l&apos;esatta regolazione del livello dell&apos;olio, è necessario dare &lt;B&gt;2 giri&lt;/B&gt; a svitare al tubo di troppopieno&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;CAMBIO CON TUBO DI TROPPOPIENO ROSSO:&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Non è necessario svitare il tubo di troppopieno rosso per controllare il livello dell&apos;olio&lt;B&gt;&lt;BR/&gt;&lt;BR/&gt;CONTINUAZIONE PER TUTTI I VEICOLI:&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Se la temperatura dell&apos;olio del cambio è compresa tra i &lt;B&gt;35 ~ 45 °C&lt;/B&gt; ed esce un po&apos; di olio (a causa dell&apos;aumento della temperatura), il livello dell&apos;olio è regolare.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE: &lt;/B&gt;Una piccola quantità di olio del cambio esce dal tubo di troppopieno &lt;B&gt;B&lt;/B&gt; ogni 30 secondi a causa degli impulsi del liquido refrigerante. Questa fuoriuscita è irrilevante per il controllo del livello dell&apos;olio.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Non riutilizzare più l&apos;olio del cambio già fuoriuscito&lt;BR/&gt;&lt;LI&gt; Se necessario rabboccare l&apos;olio del cambio con olio nuovo&lt;BR/&gt;&lt;LI&gt; Se il livello dell&apos;olio è regolare avvitare se necessario il tubo di troppopieno &lt;B&gt;B&lt;/B&gt; e serrarlo a &lt;B&gt;3 Nm&lt;/B&gt;&lt;BR/&gt;&lt;LI&gt; Serrare il tappo di scarico &lt;B&gt;A&lt;/B&gt; a &lt;B&gt;45 Nm&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;ATTENZIONE: &lt;/B&gt;Sostituire sempre la guarnizione del tappo di scarico &lt;B&gt;A&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>299007252</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>299007252</ID>
+<Type>IMG</Type>
+<URL>GETFILE:299007252</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

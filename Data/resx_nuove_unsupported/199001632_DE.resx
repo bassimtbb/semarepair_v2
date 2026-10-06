@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T13:09:25">
+  <XDOCUMENTO>
+    <ID>199001632</ID>
+    <DOCNumber>GUR59015</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Wiederherstellung des Systems nach dem Abklemmen der Batterie</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Einstellungsanleitung</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Lokalisierung „Batterie“</Capitolo>
+      <Corpo> &lt;BR/&gt; Die Batterie befindet sich im Motorraum auf der Fahrerseite in der Nähe der Spritzwand. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>199000661</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>199000661</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:199000661</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Vorgehensweise zum Abklemmen der Batterie</Capitolo>
+      <Corpo> &lt;BR/&gt; Wenn die Batterie abgeklemmt werden muss, ist Folgendes erforderlich: &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; Vergewissern Sie sich, dass alle &lt;B&gt; elektrischen Geräte &lt;/B&gt; des Fahrzeugs, wie z. B. Autoradio, Navigationsgerät usw., &lt;B&gt; ausgeschaltet sind &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; sicherstellen, dass die &lt;B&gt; Zündung ausgeschaltet ist &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; Den &lt;B&gt; Code des Radios &lt;/B&gt; bereit halten &lt;BR/&gt; &lt;BR/&gt; Anschließend kann die Batterie abgeklemmt werden, &lt;B&gt; wobei zuerst der Minuspol und danach der Pluspol abgeklemmt werden &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Nach dem Abklemmen der Batterie einige Minuten warten, bevor Arbeiten an der Airbag-Anlage durchgeführt werden</Corpo>
+      <RifIDFileIMGANI>62503878</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503878</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503878</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Vorgehensweise zum Anschließen der Batterie</Capitolo>
+      <Corpo> &lt;BR/&gt; Um die Batterie wieder anzuschließen, gehen Sie wie folgt vor: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Schließen Sie zuerst den Pluspol &lt;/B&gt; und anschließend den Minuspol der Batterie an &lt;BR/&gt;  &lt;LI&gt; Den Radiocode zurücksetzen (falls erforderlich) &lt;BR/&gt; &lt;LI&gt; Eventuelle &lt;B&gt; im Speicher vorhandene Fehler löschen &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Die Zündung einschalten und 40 Sekunden warten &lt;BR/&gt; &lt;LI&gt; Die Zündung ausschalten &lt;BR/&gt;  &lt;LI&gt; Möglicherweise leuchten die &lt;B&gt; Kontrollleuchten des Stabilitätskontrollsystems auf &lt;/B&gt; . Fahren Sie daher einige Kilometer mit konstanter Geschwindigkeit, damit diese wieder erlöschen. &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503879</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503879</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503879</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199001632</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Reparatur von elektrischen Fensterhebern</Capitolo>
+      <Corpo> &lt;BR/&gt; Initialisierungsvorgang für elektrische Fensterheber: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Überprüfen Sie, ob &lt;B&gt; die Türen und Fenster geschlossen sind &lt;/B&gt; . &lt;BR/&gt;  &lt;LI&gt; Die Zündung einschalten &lt;BR/&gt; &lt;LI&gt; Die &lt;B&gt; Taste zum Öffnen/Schließen des elektrischen Fensters &lt;/B&gt; drücken und gedrückt halten, bis sich dieses &lt;B&gt; vollständig geöffnet &lt;/B&gt; hat &lt;BR/&gt;  &lt;LI&gt; Heben Sie den &lt;B&gt; Schalter zum Öffnen/Schließen des elektrischen Fensters &lt;/B&gt; an und halten Sie ihn mehr als 3 Sekunden lang angehoben, nachdem sich das Fenster &lt;B&gt; vollständig geschlossen &lt;/B&gt; hat &lt;BR/&gt;  &lt;LI&gt; Ein akustisches Signal bestätigt den erfolgreichen Vorgang &lt;BR/&gt; &lt;BR/&gt; Das System ist nun initialisiert. &lt;BR/&gt; Wiederholen Sie den Vorgang für die übrigen Fenster. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

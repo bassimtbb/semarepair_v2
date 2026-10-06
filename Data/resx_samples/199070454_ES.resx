@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-19T22:37:18">
+  <XDOCUMENTO>
+    <ID>199070454</ID>
+    <DOCNumber>AZZ76146</DOCNumber>
+    <RifIDTipoRis>7</RifIDTipoRis>
+    <Titolo>Restablecimiento del indicador de asistencia</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>217</RifIDFileICO>
+    <XFILE>
+      <ID>217</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:217</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>7</ID>
+      <TipoRis>AZZ</TipoRis>
+      <DscRis>Servicio de puesta a cero</DscRis>
+      <RifIDFileCSS>1</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>1</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:1</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199070454</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Información sobre el sistema</Capitolo>
+      <Corpo> &lt;BR/&gt; El equipamiento del vehículo incluye el indicador de intervenciones de asistencia, situado en la parte inferior del cuadro de instrumentos. &lt;BR/&gt; El indicador muestra al conductor los iconos correspondientes a las diferentes entradas de servicio previstas por el ordenador de a bordo, en función de las intervenciones de mantenimiento necesarias según el estado del vehículo y las condiciones de uso. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199070454</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Ajuste - Reinicio</Capitolo>
+      <Corpo> &lt;BR/&gt; Una vez realizadas las intervenciones indicadas por el indicador, se realiza el reinicio siguiendo el siguiente procedimiento: &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; Durante el procedimiento no es necesario pisar ningún pedal &lt;BR/&gt; &lt;LI&gt; Cerrar el vehículo y esperar unos 10 minutos &lt;BR/&gt; &lt;LI&gt;  Desbloquee el vehículo con el mando a distancia &lt;BR/&gt; &lt;LI&gt; Pulse el botón de arranque del motor 3 veces seguidas rápidamente &lt;BR/&gt; &lt;LI&gt; Pulse el botón &lt;B&gt; (1) &lt;/B&gt; (y manténgalo pulsado durante al menos 10 segundos) para visualizar el icono de la primera opción de servicio &lt;BR/&gt;  &lt;LI&gt; Pulse el botón &lt;B&gt; (1) &lt;/B&gt; con pequeños impulsos para desplazarse por los iconos correspondientes a las demás entradas de servicio &lt;BR/&gt;  &lt;LI&gt; En la pantalla aparecerá la entrada «¿Se puede realizar el reinicio?» &lt;BR/&gt; &lt;LI&gt; Mantenga pulsado el botón &lt;B&gt; (1) &lt;/B&gt; durante al menos 3 segundos &lt;BR/&gt;  &lt;LI&gt; En la pantalla aparecerá la pregunta «¿Ejecutar reinicio?» &lt;BR/&gt; &lt;LI&gt; Mantenga pulsado el botón &lt;B&gt; (1) &lt;/B&gt; durante al menos 3 segundos para restablecer la opción mostrada, repitiendo la operación para cada una de las opciones de servicio afectadas. &lt;BR/&gt; &lt;LI&gt; Apague el encendido.</Corpo>
+      <RifIDFileIMGANI>299003974</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299003974</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299003974</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199070454</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Advertencias</Capitolo>
+      <Corpo> &lt;BR/&gt; Los textos que aparecen en la pantalla pueden variar en función de la versión del vehículo. &lt;BR/&gt;&lt;BR/&gt; El reinicio de cada elemento de servicio solo es posible si se detecta una condición equivalente al 90 % de la vida útil prevista para la pieza en cuestión. &lt;BR/&gt; &lt;BR/&gt; La entrada «servicio de frenos» solo se puede restablecer si el sensor de desgaste correspondiente funciona correctamente. &lt;BR/&gt; &lt;BR/&gt; Antes de proceder al restablecimiento, compruebe que el reloj de a bordo marque la hora correcta. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

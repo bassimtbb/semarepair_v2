@@ -1,0 +1,1514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T13:36:21">
+  <XDOCUMENTO>
+    <ID>199242242</ID>
+    <DOCNumber>FUS88927</DOCNumber>
+    <RifIDTipoRis>20</RifIDTipoRis>
+    <Titolo>References and Localisation - Up to September 2019 - Diesel Engines</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>265</RifIDFileICO>
+    <XFILE>
+      <ID>265</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:265</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>20</ID>
+      <TipoRis>FUS</TipoRis>
+      <DscRis>Fuses and Relays</DscRis>
+      <RifIDFileCSS>264</RifIDFileCSS>
+      <RifIDTemplate>8</RifIDTemplate>
+      <XFILE>
+        <ID>264</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:264</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLDESCRIZIONE</IDLabel>
+        <Stringa>Description</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLNUMERO</IDLabel>
+        <Stringa>Number</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLRIFERIMENTO</IDLabel>
+        <Stringa>Reference</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XFUSCONN>
+      <RifIDDoc>199242242</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Titolo>Localisation of fuse boxes</Titolo>
+      <RifIDFileIMGANI>299009382</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005446</ID>
+      <XFILE>
+        <ID>299009382</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009382</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005446</RifIDImmagine>
+        <Numero>1</Numero>
+        <Descrizione>Fuse box / Engine compartment relay (A)</Descrizione>
+        <Riferimento>Engine compartment - next to the battery</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005446</RifIDImmagine>
+        <Numero>2</Numero>
+        <Descrizione>Fuse box / Engine compartment relay (B)</Descrizione>
+        <Riferimento>Engine compartment - next to the battery</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005446</RifIDImmagine>
+        <Numero>3</Numero>
+        <Descrizione>Fuse box / Engine compartment relay (C)</Descrizione>
+        <Riferimento>Engine compartment - next to the battery</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005446</RifIDImmagine>
+        <Numero>4</Numero>
+        <Descrizione>Fuse box / Engine compartment relay (D)</Descrizione>
+        <Riferimento>Engine compartment - next to the battery</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005446</RifIDImmagine>
+        <Numero>5</Numero>
+        <Descrizione>Fuse box / Cabin relay (A)</Descrizione>
+        <Riferimento>Under the dashboard - left side</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005446</RifIDImmagine>
+        <Numero>6</Numero>
+        <Descrizione>Fuse box / Cabin relay (B)</Descrizione>
+        <Riferimento>Integrated into the fuse box</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242242</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Titolo>Fuse Box - Engine Compartment (A)</Titolo>
+      <RifIDFileIMGANI>299009366</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005449</ID>
+      <XFILE>
+        <ID>299009366</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009366</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Engine starter motor</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>ABS+ESP control unit</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Fuel temperature sensor</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Electric fuel pump with level sensor</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Vacuum/depression pump relay</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Electric motor cooling fan</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Turbocharger coolant electric pump</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Selection solenoid valve</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Fuel additive relay</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Injection components</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Injection control unit</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Camshaft timing adjustment</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Injection control unit</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Engine heating part-time system</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Windscreen wiper motor</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Automatic Transmission Control Unit</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>APC relay</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Automatic gearbox control</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuel filter heating relay</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Reversing light relay</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse box / Engine compartment relay (A)</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Trailer control module</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Boot light</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Variable cylinder actuator</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F14</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005449</RifIDImmagine>
+        <Numero>F15</Numero>
+        <Descrizione>Injection control unit</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242242</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Titolo>Fuse Box - Engine Compartment (B)</Titolo>
+      <RifIDFileIMGANI>299009367</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005450</ID>
+      <XFILE>
+        <ID>299009367</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009367</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005450</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005450</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005450</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Network stabiliser</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005450</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005450</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005450</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005450</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Fuse 07 - Cabin fuse box (B)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005450</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Audible warning relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242242</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Titolo>Fuse Box - Engine Compartment (C)</Titolo>
+      <RifIDFileIMGANI>299009368</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005451</ID>
+      <XFILE>
+        <ID>299009368</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009368</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005451</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Fuel additive heater</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005451</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Additive injector</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005451</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>NOx sensor</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005451</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Particulate filter sensor</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005451</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005451</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Automatic Transmission Control Unit</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005451</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Automatic transmission speed sensor</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005451</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Automatic Transmission Control Unit</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005451</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Gearbox oil pump</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005451</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Gearbox oil pump relay</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005451</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005451</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Fuel additive electric pump relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005451</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Gearbox oil pump relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005451</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>APC relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242242</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Titolo>Fuse Box - Engine Compartment (D)</Titolo>
+      <RifIDFileIMGANI>299009369</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005452</ID>
+      <XFILE>
+        <ID>299009369</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009369</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Automatic Transmission Control Unit</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Fuel filter heater</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Water presence sensor</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Fuse box / Engine compartment relay (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Electric motor cooling fan</Descrizione>
+        <Riferimento>60 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Preheating control unit</Descrizione>
+        <Riferimento>70 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Fuse box / Engine compartment relay (A)</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Starter motor relay</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Automatic Transmission Control Unit</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Vacuum pump</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Fuse 01 - Fuse box Engine compartment (C)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Fuse 02 - Fuse box Engine compartment (C)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Fuse 03 - Fuse box Engine compartment (C)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Glow plugs</Descrizione>
+        <Riferimento>70 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Glow plugs</Descrizione>
+        <Riferimento>70 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Starter motor relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Vacuum/depression pump relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>R4</Numero>
+        <Descrizione>Reversing light relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>R5</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005452</RifIDImmagine>
+        <Numero>R6</Numero>
+        <Descrizione>Fuel filter heating relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242242</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Titolo>Fuse Box - Passenger Compartment (A)</Titolo>
+      <RifIDFileIMGANI>299009370</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005447</ID>
+      <XFILE>
+        <ID>299009370</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009370</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Fuel door closure</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Central locking</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Driver's door lock</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Passenger door lock</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Central locking</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Boot lock</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Door closure</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Steering lock control unit</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Keyless control unit</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Interior lights / boot lights / puddle lights</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Interior light relay</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Courtesy lights</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Third brake light</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Rear-view mirrors</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Rear lights</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Trailer control module</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Rear lights</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Rear windscreen wiper motor</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Trailer control module</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Handbrake/parking brake motor</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Timed battery power relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 11 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 39 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 07 - Cabin fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 10 - Cabin fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 45 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 42 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 40 - Cabin fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 08 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 47 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 09 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 54 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 52 - Cabin fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 50 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 48 - Cabin fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 46 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 43 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 41 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 51 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 53 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 55 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 49 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Fuse 12 - Cabin fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F14</Numero>
+        <Descrizione>Interior lights / boot lights / puddle lights</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F15</Numero>
+        <Descrizione>Instrument panel</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Alarm / Anti-theft device</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Volumetric anti-theft sensors</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>APC relay</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F17</Numero>
+        <Descrizione>Car radio amplifier</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Car radio</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F19</Numero>
+        <Descrizione>Multi-info display</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F19</Numero>
+        <Descrizione>12 V socket</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>Diagnostic socket</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>CAN network control unit</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F21</Numero>
+        <Descrizione>Telematics control unit / services</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F22</Numero>
+        <Descrizione>Handbrake/parking brake control module</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F23</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Handbrake/parking brake motor</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F25</Numero>
+        <Descrizione>Brake pedal switch</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F25</Numero>
+        <Descrizione>Rear lights</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F25</Numero>
+        <Descrizione>Trailer control module</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Timed battery power relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fuse 23 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fuse 24 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fuse 25 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fuse 30 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fuse 31 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fuse 32 - Cabin fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fuse 34 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fuse 20 - Cabin fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fuse 22 - Cabin fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F26</Numero>
+        <Descrizione>Fuse 21 - Cab fuse box (A)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F27</Numero>
+        <Descrizione>Rear-view mirrors</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F28</Numero>
+        <Descrizione>Trailer control module</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F28</Numero>
+        <Descrizione>Tow bar control unit</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F29</Numero>
+        <Descrizione>Acoustic warning device</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F29</Numero>
+        <Descrizione>Audible warning relay</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F30</Numero>
+        <Descrizione>Cigarette lighter</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F30</Numero>
+        <Descrizione>12 V socket</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F31</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F32</Numero>
+        <Descrizione>Front/rear windscreen washer pump</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F33</Numero>
+        <Descrizione>Fuse 01 - Cab fuse box (B)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F34</Numero>
+        <Descrizione>Cabin air fan</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F35</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Heated rear window</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Fuse 27 - Cabin fuse box (A)</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F38</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F39</Numero>
+        <Descrizione>Front right window regulator</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F40</Numero>
+        <Descrizione>Rear left window regulator</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F41</Numero>
+        <Descrizione>Rear right window regulator</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F42</Numero>
+        <Descrizione>Front left window regulator</Descrizione>
+        <Riferimento>25 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F43</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F44</Numero>
+        <Descrizione>Steering angle sensor</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F45</Numero>
+        <Descrizione>Cabin air temperature sensor</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F45</Numero>
+        <Descrizione>Rain/light sensor</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F45</Numero>
+        <Descrizione>Air conditioning controls</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Ignition key transponder module</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Clutch pedal position sensor</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F46</Numero>
+        <Descrizione>Cruise control unit with safety distance control</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F47</Numero>
+        <Descrizione>Anti-theft device</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F48</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>ABS+ESP control unit</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>Brake pedal switch</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F50</Numero>
+        <Descrizione>Rear-view mirrors</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F51</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F52</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F53</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F54</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F55</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F56</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F57</Numero>
+        <Descrizione>Airbag control unit</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F58</Numero>
+        <Descrizione>Instrument panel</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F59</Numero>
+        <Descrizione>Power steering control unit</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Car radio</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Auxiliary heater relay</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Parking assistance control unit</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Anti-glare rear-view mirror</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Rear window heating relay</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Special equipment</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Handbrake/parking brake control module</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Seat belt reporting form</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Headlight adjustment motor - left</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Headlight adjustment motor - right</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Camera module</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>CAN network control unit</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Telephone module</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Blind spot sensor</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>F60</Numero>
+        <Descrizione>Impact warning sensor</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>R1</Numero>
+        <Descrizione>Timed battery power relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>R2</Numero>
+        <Descrizione>Timed battery power relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>R3</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>R4</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>R5</Numero>
+        <Descrizione>Rear window heating relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>R6</Numero>
+        <Descrizione>Interior light relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005447</RifIDImmagine>
+        <Numero>R7</Numero>
+        <Descrizione>APC relay</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>199242242</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Titolo>Fuse Box - Passenger Compartment (B)</Titolo>
+      <RifIDFileIMGANI>299009371</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87005448</ID>
+      <XFILE>
+        <ID>299009371</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299009371</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87005448</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Heated steering wheel</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005448</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Flywheel heater relay</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005448</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Headlight levelling switch</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005448</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005448</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005448</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005448</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005448</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005448</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Heated seats</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87005448</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Not used / Not present</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+  </XDOCUMENTO>
+</dataroot>

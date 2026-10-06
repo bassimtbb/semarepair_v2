@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-06T18:06:35">
+  <XDOCUMENTO>
+    <ID>62508248</ID>
+    <DOCNumber>GUP63796</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Engine failure to start, message relating to fuel blockage (FPS) on the display</Titolo>
+    <InfoDoc>INJECTION | engine management | U0427 | FPS |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Repair Guide</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62508248</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degree of reliability (**)</Capitolo>
+      <Corpo>&lt;BR/&gt;Legend of the degree of reliability&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* low level&lt;/B&gt; : Detection of the car repairer, case study of the fault not found by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** medium level&lt;/B&gt; : Extensive fault history, found by service technicians and repairers.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** high level&lt;/B&gt; : Certainty of the fault, good degree of &quot;repetition&quot; reported by the manufacturer.&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62508248</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System/fault identification</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Validity: &lt;/B&gt; All vehicles &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Injection &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Device: &lt;/B&gt; Inertia switch &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Fault: &lt;/B&gt; Engine failure to start, message relating to fuel blockage (FPS) in the multifunction display &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Errors detected by self-diagnosis: &lt;/B&gt; U0427 &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Cause: &lt;/B&gt; Activation of the inertia switch &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62508248</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Repair procedure</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Action: &lt;/B&gt; Proceed with deactivating the inertia switch &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; 1- Turn on the ignition &lt;BR/&gt; 2- Move the turn signal lever &lt;B&gt; to turn on &lt;/B&gt; the right turn signal &lt;B&gt; &lt;/B&gt; &lt;BR/&gt; 3- Move the turn signal lever &lt;B&gt; to turn off &lt;/B&gt; the right turn signal &lt;B&gt; &lt;/B&gt;  &lt;BR/&gt; 4- Move the stalk switch &lt;B&gt; to turn on &lt;/B&gt; the left turn signal &lt;B&gt; &lt;/B&gt; &lt;BR/&gt; 5- Move the stalk switch &lt;B&gt; to turn off &lt;/B&gt; the left turn signal &lt;B&gt; &lt;/B&gt;  &lt;BR/&gt; 6- Move the stalk &lt;B&gt; to turn on &lt;/B&gt; the right turn signal &lt;B&gt; &lt;/B&gt; &lt;BR/&gt; 7- Move the stalk &lt;B&gt; to turn off &lt;/B&gt; the right turn signal &lt;B&gt; &lt;/B&gt;  &lt;BR/&gt; 8- Move the stalk &lt;B&gt; to turn on &lt;/B&gt; the left turn signal &lt;B&gt; &lt;/B&gt; &lt;BR/&gt; 9- Move the stalk &lt;B&gt; to turn off &lt;/B&gt; the left turn signal &lt;B&gt; &lt;/B&gt;  &lt;BR/&gt; 10- Turn off the ignition &lt;BR/&gt; &lt;BR/&gt; The FPS system is now deactivated, and you can start the engine &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Note: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

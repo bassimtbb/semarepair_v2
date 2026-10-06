@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-19T16:40:00">
+  <XDOCUMENTO>
+    <ID>199053123</ID>
+    <DOCNumber>DES76007</DOCNumber>
+    <RifIDTipoRis>2</RifIDTipoRis>
+    <Titolo>Leitfaden zum Lesen von Schaltplänen</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>224</RifIDFileICO>
+    <XFILE>
+      <ID>224</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:224</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>2</ID>
+      <TipoRis>DES</TipoRis>
+      <DscRis>Beschreibung Anlage</DscRis>
+      <RifIDFileCSS>7</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>7</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:7</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199053123</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Legende</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; (1) &lt;/B&gt; - &lt;B&gt; Relais-Positionsnummer &lt;/B&gt; : Kennzeichnet die Position des Relais auf der Relaisplatte. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (2) &lt;/B&gt; - &lt;B&gt; Fortsetzung des Schaltplans &lt;/B&gt; : Der Pfeil weist auf die Fortsetzung des Bauteils auf der nächsten Seite des Schaltplans hin. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (3) &lt;/B&gt; - &lt;B&gt; Anschlussbezeichnung &lt;/B&gt; : Bezeichnet den einzelnen Kontakt in einem Mehrfachstecker. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (4) &lt;/B&gt; - &lt;B&gt; Nicht fester Anschluss &lt;/B&gt; : Darstellung einer Gewindestiftverbindung, die sich in der Relaisplatte befindet. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (5) &lt;/B&gt; - &lt;B&gt; Angabe zur Weiterführung der Verkabelung &lt;/B&gt;: Gibt an, in welchen Strompfad das Kabel mündet. Wenn die Nummer beispielsweise 23 lautet, muss man in der Zeile am unteren Rand des Schaltplans die Nummer 23 suchen, um zu erkennen, wohin das Kabel weiterführt. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (6) &lt;/B&gt;  - &lt;B&gt; Kabelquerschnitt und -farbe &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (7) &lt;/B&gt; - &lt;B&gt; Symbole mit offener Seite &lt;/B&gt; : Die offene Seite des Symbols zeigt die Fortsetzung des Bauteils in einem anderen Schaltplan an. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (8) &lt;/B&gt; - &lt;B&gt; Interne Verbindung (dünner Strich) &lt;/B&gt; : Diese Verbindung ist nicht als Leitung dargestellt. Interne Verbindungen sind jedoch elektrisch leitende Verbindungen. Sie ermöglichen es, den Stromfluss innerhalb von Bauteilen und Verdrahtungen zu verfolgen. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (9) &lt;/B&gt; - &lt;B&gt; Hinweis auf die Fortsetzung des Kabels zu einem Bauteil &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; (10) &lt;/B&gt; - &lt;B&gt; Fortsetzung der Verbindung &lt;/B&gt; : Der Buchstabe kennzeichnet die Stelle, an der die Verbindung im nächsten Abschnitt des Schaltplans fortgesetzt wird.</Corpo>
+      <RifIDFileIMGANI>299002868</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>299002868</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299002868</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199053123</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Farbcodierung von Kabelbäumen</Capitolo>
+      <Corpo> &lt;B&gt; Farbcodes &lt;/B&gt; : &lt;BR/&gt;  &lt;BR/&gt; SW = Schwarz &lt;BR/&gt; BR = Braun &lt;BR/&gt; GN = Grün &lt;BR/&gt; BL = Blau &lt;BR/&gt; GR = Grau &lt;BR/&gt; LI = Lila &lt;BR/&gt; VI = Lila &lt;BR/&gt; GE = Gelb &lt;BR/&gt; OR = Orange &lt;BR/&gt; RS = Rosa &lt;BR/&gt; RO = Rot &lt;BR/&gt; RT = Rot &lt;BR/&gt; WS = Weiß &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299002869</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>299002869</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299002869</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

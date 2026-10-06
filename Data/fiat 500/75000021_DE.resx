@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-19T01:25:14">
+  <XDOCUMENTO>
+    <ID>75000021</ID>
+    <DOCNumber>GUP75019</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Rechtes Rücklicht funktioniert nicht</Titolo>
+    <InfoDoc>fari | fanali | B1021 | faro | posteriore | destro | luce</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>75000021</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (***)</Capitolo>
+      <Corpo>(*) - &lt;BR/&gt; Legende zur Zuverlässigkeitsstufe &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; * niedrige Stufe &lt;/B&gt; : Feststellung durch den Kfz-Mechaniker, vom Hersteller nicht dokumentierter Fehlerfall. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; ** mittlere Stufe &lt;/B&gt;  : Umfangreiche Fehlerfälle, die von Kundendiensttechnikern und Kfz-Mechanikern festgestellt wurden. &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; *** hohes Niveau &lt;/B&gt; : Gewissheit hinsichtlich des Fehlers, gute „Wiederholbarkeit“, vom Hersteller gemeldet. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000021</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Fahrzeugidentifikation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Marke: &lt;/B&gt; Fiat &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Modell: &lt;/B&gt; Nuova 500 Sport &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Motorisierung: &lt;/B&gt; 1.2 8V &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Baujahr: &lt;/B&gt; 2008 &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Motorcode / Fahrgestellnummer: &lt;/B&gt; - - &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Baureihe: &lt;/B&gt; - - &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Weitere Angaben &lt;/B&gt; - -</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000021</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; System: &lt;/B&gt; Außenbeleuchtung &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Baugruppe: &lt;/B&gt; Rechte hintere Positionsleuchte &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Rechte Rückleuchte funktioniert nicht. Bei der Selbstdiagnose erfasster Fehlercode: B1021 Rechte Rückleuchte &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Unstabiler Kontakt am Body-Computer</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>75000021</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Maßnahme</Capitolo>
+      <Corpo> &lt;BR/&gt; – Kontakt am Stecker des Armaturenbrett-Kabelbaums wiederherstellen und Fehler löschen &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

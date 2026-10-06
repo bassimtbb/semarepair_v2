@@ -62,10 +62,13 @@ import type { HelpLanguage } from '../../services/help-strings';
             <svg lucideStar [size]="15"></svg>
             <span>{{ t().demo_title }}</span>
           </div>
-          <p class="help-text text-foreground">{{ t().demo_body }}</p>
+          <p class="help-text text-foreground">{{ t().demo_body(vehicles().length) }}</p>
 
-          @if (vehicleLabel(); as v) {
-            <p class="help-counts text-muted">{{ t().demo_vehicle(v) }}</p>
+          @if (vehicles().length) {
+            <p class="help-counts text-muted">{{ t().demo_vehicles_label }}</p>
+            <ul class="help-vehicles text-muted">
+              @for (v of vehicles(); track v) { <li>{{ v }}</li> }
+            </ul>
           }
           @if (countsLine(); as counts) {
             <p class="help-counts text-muted">{{ counts }}</p>
@@ -224,10 +227,12 @@ export class HelpDrawerComponent implements OnInit {
     if (this.help.isOpen()) this.help.close();
   }
 
-  readonly vehicleLabel = computed(() => {
-    const first = this.coverage.coverage()?.vehicles[0];
-    return first ? this.coverage.vehicleLabel(first) : null;
-  });
+  // All of them, not just the first. The archive held one car for weeks and
+  // the panel was written for that; naming only vehicles[0] now would hide
+  // three of the four from the person being asked to test them.
+  readonly vehicles = computed(() =>
+    (this.coverage.coverage()?.vehicles ?? []).map(v => this.coverage.vehicleLabel(v)),
+  );
 
   readonly countsLine = computed(() => {
     const c = this.coverage.forLanguage(this.ui.lang());
@@ -256,8 +261,9 @@ export class HelpDrawerComponent implements OnInit {
     const s = this.t();
 
     if (!this.chat.confirmedCar()) {
-      const first = this.coverage.coverage()?.vehicles[0];
-      return first ? [this.coverage.vehicleQuery(first)] : [];
+      // One chip per vehicle: with four cars loaded, the first question is
+      // no longer "say this sentence" but "which of these is yours".
+      return (this.coverage.coverage()?.vehicles ?? []).map(v => this.coverage.vehicleQuery(v));
     }
 
     const out = [s.q_fuse, s.q_fusebox];

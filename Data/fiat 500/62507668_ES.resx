@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:14:42">
+  <XDOCUMENTO>
+    <ID>62507668</ID>
+    <DOCNumber>GUR62742</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Restablecimiento del sistema tras desconectar la batería.</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Guía de ajuste</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>5</Ordine>
+      <Capitolo>Localización Batería</Capitolo>
+      <Corpo> &lt;BR/&gt; La batería se encuentra en el compartimento del motor, en el lado del conductor, cerca del paso de rueda. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>199000376</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>199000376</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:199000376</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Procedimiento para desconectar la batería</Capitolo>
+      <Corpo> &lt;BR/&gt; Si es necesario desconectar la batería, es necesario: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Comprobar que todos los &lt;B&gt; dispositivos eléctricos &lt;/B&gt; del coche, como la radio, el navegador, etc., &lt;B&gt; estén apagados &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; Comprobar que el &lt;B&gt; encendido esté desconectado &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Tener a mano el &lt;B&gt; código de la radio &lt;/B&gt; &lt;BR/&gt;  &lt;LI&gt; Apagar el contacto y esperar 5 minutos &lt;BR/&gt; &lt;BR/&gt; A continuación, se puede proceder a desconectar la batería, &lt;B&gt; retirando primero el polo negativo y después el positivo &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; Después de desconectar la batería, esperar unos minutos antes de realizar cualquier intervención en el sistema de airbags.</Corpo>
+      <RifIDFileIMGANI>62503878</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503878</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503878</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procedimiento para conectar la batería</Capitolo>
+      <Corpo> &lt;BR/&gt; Para volver a conectar la batería, proceda de la siguiente manera: &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Conecte primero el polo positivo &lt;/B&gt; y luego el negativo de la batería &lt;BR/&gt;  &lt;LI&gt; Restablecer el código de la radio (si es necesario) &lt;BR/&gt; &lt;LI&gt; Borrar cualquier &lt;B&gt; error presente en la memoria &lt;/B&gt; &lt;BR/&gt; &lt;LI&gt; Encender el contacto y esperar 40 segundos &lt;BR/&gt; &lt;LI&gt; Apagar el contacto &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503879</RifIDFileIMGANI>
+      <Allineamento>L</Allineamento>
+      <XFILE>
+        <ID>62503879</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503879</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Reparación del techo eléctrico</Capitolo>
+      <Corpo> &lt;BR/&gt; Procedimiento de inicialización del techo eléctrico: &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Encender el motor &lt;BR/&gt; &lt;LI&gt; Mantener pulsado el botón de cierre del techo &lt;BR/&gt; &lt;LI&gt; Esperar a que el techo eléctrico se cierre completamente &lt;BR/&gt;  &lt;LI&gt; Una vez cerrado completamente el techo, espere a que se detenga el motor eléctrico &lt;BR/&gt; &lt;LI&gt; Suelte el botón de cierre del techo eléctrico &lt;BR/&gt; &lt;BR/&gt; Ahora el sistema está inicializado. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62507668</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>Restauración de autorradios</Capitolo>
+      <Corpo> &lt;BR/&gt; Tras desconectar la batería, en la pantalla de la radio del coche podría aparecer &lt;B&gt; «Radio Code» &lt;/B&gt; seguido de &lt;B&gt; « - - - -» &lt;/B&gt; &lt;BR/&gt; Es necesario introducir el código de la radio. &lt;BR/&gt; Utilice las teclas de las emisoras de radio preseleccionadas (de 1 a 6). &lt;BR/&gt; Si no se introducen los 4 dígitos en 20 segundos, aparecerá el mensaje &lt;B&gt; «Enter Code - - - -» &lt;/B&gt; &lt;BR/&gt; Tras introducir los 4 dígitos, pueden pasar hasta 20 segundos antes de que la radio comience a funcionar. &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T23:40:13">
+  <XDOCUMENTO>
+    <ID>199290569</ID>
+    <DOCNumber>GUP93469</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Die unteren Kühlluftklappen (AKKS) schließen sich beim Parken nicht.</Titolo>
+    <InfoDoc>INIEZIONE | 138223 | 138224 | 138225 | 21B042 | 138206 | 138204 | 13822A | COMANDO | ATTIVO | ALETTE | BASSO | APERTE | APERTI | CHIUSI | CHIUSE | MIL | MOBILI | FRONTALE | REGOLARE | FLUSSO | ARIA | MOTORE | CENTRALINA | DME | AGGIORNAMENTO | SOFTWARE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199290569</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199290569</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Gültigkeit: &lt;/B&gt; Fahrzeuge, die ab dem 1. Juli 2018 hergestellt wurden &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Einspritzanlage &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Baugruppe: &lt;/B&gt; Einspritzsteuergerät &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Die unteren Kühlluftklappen (AKKS) schließen beim Parken nicht &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose erkannte Fehler: &lt;/B&gt; Einer oder mehrere der folgenden: &lt;BR/&gt; &lt;UL&gt; &lt;LI&gt; 138223 (Aktiver Befehl für Kühlluftklappen (AKKS), unten: vereist) &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; 138224 (Aktiver Befehl für die Kühlklappe (AKKS), unten: unterer Anschlag nicht erkannt) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; 138225 (Aktiver Befehl für die Kühlklappe (AKKS), unten: oberer Anschlag nicht erkannt) &lt;BR/&gt;  &lt;BR/&gt; &lt;LI&gt; 21B042 (Befehl für Kühlklappen (AKKS) aktiv, unten: Sperre bei allen Umgebungstemperaturen) &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; 138206 (Aktive Steuerung der Kühlluftklappen (AKKS), unten: Sperre bei warmer Umgebungstemperatur) &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; 138204 (Aktive Steuerung der Kühlluftklappen (AKKS), unten: geregelte Abweichung bei allen Umgebungstemperaturen) &lt;BR/&gt;  &lt;BR/&gt; &lt;LI&gt; 13822A (Aktive Steuerung der Kühlluftklappe (AKKS), unten: Abweichung bei hoher Umgebungstemperatur geregelt) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Softwarefehler des Einspritzsteuergeräts &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199290569</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Das Steuergerät der Einspritzanlage neu programmieren &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; &lt;I&gt; ACHTUNG &lt;/I&gt; : Wenn DTCs oder andere als die aufgeführten Symptome vorliegen, beheben Sie diese zunächst, bevor Sie mit diesem Bericht fortfahren &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

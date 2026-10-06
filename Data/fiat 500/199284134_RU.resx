@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:43:34">
+  <XDOCUMENTO>
+    <ID>199284134</ID>
+    <DOCNumber>GUP92061</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Zapaliły się kontrolki awarii systemu Start&amp;Stop, awarii silnika oraz awarii ogólnej. Komunikat „Sys</Titolo>
+    <InfoDoc>INIEZIONE | P0300 | P0301 | P0304 | RUOTA | FONICA | CAMME | CAMMA | ACCESA | ACCENSIONE | ACCENDE | GIALLA | GIALLE | LAMPEGGIANO | LAMPEGGIANTI | DISPONIBILE | INDICAZIONE | DISPLAY | QUADRO | STRUMENTI | MIL | TRIANGOLO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199284134</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Stopień wiarygodności   (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda stopnia wiarygodności &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niski poziom &lt;/B&gt; : Wykryte przez mechanika samochodowego, przypadek usterki niepotwierdzony przez producenta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** średni poziom &lt;/B&gt; : Częste przypadki usterki, potwierdzone przez techników serwisowych i mechaników. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** wysoki poziom &lt;/B&gt; : Potwierdzona anomalia, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284134</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Układ: &lt;/B&gt;  Wtrysk &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Urządzenie: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Usterka: &lt;/B&gt;  Sporadycznie zapalają się na przemian kontrolki awarii silnika, Start&amp;Stop oraz ogólnej awarii. Na wyświetlaczu deski rozdzielczej pojawia się komunikat „Start&amp;Stop niedostępny”, podczas gdy samochód nadal działa prawidłowo. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Błędy wykryte przez autodiagnostykę: &lt;/B&gt;  Jeden lub więcej z poniższych: &lt;UL&gt;   &lt;LI&gt;  P0300 (Brak zapłonu w nieokreślonych cylindrach – błąd) &lt;BR/&gt;  &lt;LI&gt;  P0301 (Brak zapłonu w cylindrze 1 – błąd) &lt;BR/&gt;  &lt;LI&gt;  P0304 (Brak zapłonu w cylindrze 4 – błąd) &lt;/UL&gt;  &lt;LI&gt;  &lt;B&gt; Przyczyna: &lt;/B&gt;  Nieprawidłowa konfiguracja parametrów wtrysku – koło foniczne &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199284134</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Czynność: &lt;/B&gt;  Za pomocą sprzętu diagnostycznego należy wykonać następujące procedury: „zerowanie frontów krzywek”, „resetowanie parametrów samodostosowujących się” oraz „resetowanie koła fonicznego”, a następnie przeprowadzić odpowiednią kalibrację. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedura: &lt;/B&gt;  Kalibrację koła fonicznego przeprowadza się w następujący sposób:  &lt;UL&gt;   &lt;LI&gt;  Rozgrzać silnik do temperatury roboczej. &lt;BR/&gt;  &lt;LI&gt;  Należy przyspieszyć do 5000 obr./min i utrzymać tę prędkość przez około 2 sekundy &lt;BR/&gt;  &lt;LI&gt;  Pozostawić silnik na biegu jałowym przez kolejne 2 sekundy &lt;BR/&gt;  &lt;LI&gt;  Powtórzyć sekwencję przyspieszania, aż zgaśnie lampka kontrolna usterki silnika &lt;BR/&gt;  &lt;LI&gt;  Zazwyczaj kontrolka gaśnie po trzecim powtórzeniu  &lt;/UL&gt;  &lt;LI&gt;  &lt;B&gt; Uwaga: &lt;/B&gt;  Podczas pierwszej interwencji wymieniono świece zapłonowe, cewkę (pojazd jest wyposażony w jedną cewkę) oraz zestaw rozrządu, jednak nie rozwiązało to usterki. Dopiero po wykonaniu „zerowania frontów krzywkowych”, „resetowania parametrów samodopasowujących”, „resetowania koła akustycznego” oraz kolejnego etapu kalibracji udało się całkowicie rozwiązać problem, &lt;BR/&gt; W omawianym przypadku po zresetowaniu koła akustycznego zapaliła się kontrolka silnika. Następnie przeprowadzono procedurę kalibracji w celu ostatecznego usunięcia usterki, co spowodowało zgaszenie kontrolki. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

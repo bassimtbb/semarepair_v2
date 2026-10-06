@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T23:42:50">
+  <XDOCUMENTO>
+    <ID>199314140</ID>
+    <DOCNumber>GUP98961</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Luz de aviso e mensagem «Sistema Park Sensor indisponível» / «Bloqueio dos sensores»</Titolo>
+    <InfoDoc>ADAS |  C1001-29 | C1002-29 | C1003-29 | C1004-29 | C1005-29 | C1006-29 | C1007-29 | C1008-29 | C100B-29 | C100C-29 | C100D-29 | C100E-29 | C1013-29 | C1014-29 | C1015-29 | C1016-29 | SENSORI | PARCHEGGIO | PARK | ASSIST |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guia de Reparação</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199314140</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grau de fiabilidade   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda do grau de fiabilidade &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nível baixo &lt;/B&gt; : Detecção pelo mecânico, caso de avaria não constatado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nível médio &lt;/B&gt; : Casos frequentes da avaria, constatados pelos técnicos de assistência e pelos mecânicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nível alto &lt;/B&gt; : Certeza da anomalia, bom grau de «repetitividade» assinalado pelo fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199314140</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificação do sistema / avaria</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Validade: &lt;/B&gt;  Todos os veículos equipados com sensores de estacionamento por ultrassons de 4, 8 ou 12 canais: &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Sistema: &lt;/B&gt;  Park Assist. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Dispositivo: &lt;/B&gt;  Sensores de estacionamento por ultrassons  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Anomalia: &lt;/B&gt;  Acendimento da luz de aviso e mensagem correspondente no ecrã do painel de instrumentos: «Sistema Park Sensor indisponível» ou «Bloqueio dos sensores», ou mensagens semelhantes para o sistema Active ParkAssist. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Erros detetados pelo autodiagnóstico: &lt;/B&gt; Um ou mais dos seguintes erros:&lt;UL&gt; &lt;LI&gt;  C1001-29 — Sensor dianteiro externo esquerdo, sinal inválido &lt;BR/&gt;  &lt;LI&gt;  C1002-29 — Sensor dianteiro interno esquerdo, sinal inválido &lt;BR/&gt;  &lt;LI&gt;  C1003-29 — Sensor dianteiro interno direito, sinal inválido &lt;BR/&gt;  &lt;LI&gt;  C1004-29 — Sensor dianteiro externo direito, sinal inválido &lt;BR/&gt;  &lt;LI&gt;  C1005-29 — Sensor lateral dianteiro esquerdo, sinal inválido &lt;BR/&gt;  &lt;LI&gt;  C1006-29 — Sensor lateral traseiro esquerdo, sinal inválido &lt;BR/&gt;  &lt;LI&gt;  C1007-29 — Sensor lateral traseiro direito, sinal inválido &lt;BR/&gt;  &lt;LI&gt;  C1008-29 — Sensor lateral dianteiro direito, sinal inválido &lt;BR/&gt;  &lt;LI&gt;  C100B-29 — Sensor traseiro externo esquerdo, sinal inválido &lt;BR/&gt;  &lt;LI&gt;  C100C-29 — Sensor traseiro interno esquerdo, sinal inválido &lt;BR/&gt;  &lt;LI&gt;  C100D-29 — Sensor traseiro interno direito (central no Tipo), sinal inválido &lt;BR/&gt;  &lt;LI&gt;  C100E-29 — Sensor traseiro externo direito, sinal inválido &lt;BR/&gt;  &lt;LI&gt;  C1013-29 — Sensor Parkfit dianteiro esquerdo, sinal inválido &lt;BR/&gt;  &lt;LI&gt;  C1014-29 — Sensor Parkfit dianteiro direito, sinal inválido &lt;BR/&gt;  &lt;LI&gt;  C1015-29 — Sensor Parkfit traseiro esquerdo, sinal inválido &lt;BR/&gt;  &lt;LI&gt;  C1016-29 — Sensor Parkfit traseiro direito, sinal inválido&lt;/UL&gt; &lt;LI&gt;  &lt;B&gt; Causa: &lt;/B&gt;  A ativação do DTC C10xx-29 (sinal inválido), em que «x» identifica a posição do sensor no pára-choques, pode depender de quatro possíveis causas: &lt;UL&gt;  &lt;LI&gt;  Montagem incorreta do sensor &lt;BR/&gt;  &lt;LI&gt;  Presença de sujidade ou gelo na superfície do sensor &lt;BR/&gt;  &lt;LI&gt;  Danos no anel O-ring ou na superfície do próprio sensor &lt;BR/&gt;  &lt;LI&gt;  Funcionamento incorreto do sensor de estacionamento. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199314140</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimento de reparação</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Intervenção: &lt;/B&gt;  Proceder à verificação sistemática das possíveis causas antes de considerar a substituição do sensor.  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedimento: &lt;/B&gt; &lt;OL&gt;  &lt;LI&gt;  Verifique com o instrumento de diagnóstico se o código de avaria (DTC) C10xx-29 está ativo, identificando a localização do sensor em causa. &lt;BR/&gt;  &lt;LI&gt;  Verifique se existe sujidade ou gelo na superfície do sensor; nesse caso, limpe a superfície e repita a verificação. &lt;BR/&gt;  &lt;LI&gt; Verifique se o sensor está corretamente montado, se o anel de vedação está presente e em bom estado e se o encaixe com o pára-choques está correto; corrija a montagem, se necessário. &lt;BR/&gt;  &lt;LI&gt;  Inspecione a superfície externa do sensor e a zona circundante para detetar defeitos, riscos, amolgadelas ou sinais de colisão com outros veículos ou objetos. &lt;BR/&gt;  &lt;LI&gt;  Se nenhuma das condições anteriores se verificar, apagar os erros com o instrumento de diagnóstico e verificar se o DTC reaparece no estado ativo. &lt;/OL&gt;Caso o erro volte a ficar ativo sem que se tenham detetado causas externas, substituir o sensor. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Nota: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

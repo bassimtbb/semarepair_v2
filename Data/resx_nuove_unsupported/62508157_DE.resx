@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T01:18:54">
+  <XDOCUMENTO>
+    <ID>62508157</ID>
+    <DOCNumber>GUR62846</DOCNumber>
+    <RifIDTipoRis>5</RifIDTipoRis>
+    <Titolo>Manuelle Entriegelung der elektronischen Feststellbremse nicht verfügbar</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>228</RifIDFileICO>
+    <XFILE>
+      <ID>228</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:228</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>5</ID>
+      <TipoRis>GUR</TipoRis>
+      <DscRis>Einstellungsanleitung</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>62508157</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Systeminformationen</Capitolo>
+      <Corpo> &lt;BR/&gt; Die elektronische Parkbremse, die per Knopfdruck aktiviert werden kann, sorgt dafür, dass das Fahrzeug auch bei ausgeschaltetem Motor oder bei fehlender Stromversorgung sicher und bewegungslos steht. &lt;BR/&gt; Sie wird beim Abstellen des Motors automatisch aktiviert und deaktiviert sich, sobald sich das Fahrzeug in Bewegung setzt. &lt;BR/&gt; Bei einer leeren Batterie oder einem mechanischen Defekt kann es vorkommen, dass sich die &lt;B&gt; Feststellbremse nicht löst &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>62508157</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Notentriegelung der elektronischen Feststellbremse</Capitolo>
+      <Corpo> &lt;BR/&gt; Es ist kein Verfahren zur Notentriegelung der elektronischen Parkbremse vorgesehen. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

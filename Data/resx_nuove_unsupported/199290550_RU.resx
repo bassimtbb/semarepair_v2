@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:45:26">
+  <XDOCUMENTO>
+    <ID>199290550</ID>
+    <DOCNumber>GUP93450</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Komunikat „Niewystarczające ciśnienie oleju silnikowego”</Titolo>
+    <InfoDoc>INIEZIONE | 2B7800 | 2B7C00 | 2BE800 | MESSAGGIO | INDICAZIONE | AVVERTIMENTO | VEICOLI | NUOVI | PERIODI | FERMO | PROLUNGATO | COPPA | TUBO | ASPIRAZIONE | TEMPERATURA | MORCHIA | MORCHIE | FILTRO | RETE | OTTURATO | OSTRUITO | INTASATO | POMPA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199290550</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Poziom wiarygodności   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda stopnia wiarygodności &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niski poziom &lt;/B&gt; : Wykryte przez mechanika samochodowego, przypadek usterki niepotwierdzony przez producenta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** średni poziom &lt;/B&gt; : Częste przypadki usterki, potwierdzone przez techników serwisowych i mechaników. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** wysoki poziom &lt;/B&gt; : Potwierdzona anomalia, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199290550</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Obowiązywanie: &lt;/B&gt;  &lt;BR/&gt;  &lt;UL&gt;   &lt;LI&gt;  Pojazdy z jednostką napędową XD5141O0 &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Nowe pojazdy, które pozostawały w stanie spoczynku przez ponad 120 dni i w których temperatura oleju silnikowego nigdy nie przekroczyła 85°C &lt;/UL&gt;  &lt;LI&gt;  &lt;B&gt; Układ: &lt;/B&gt;  Wtrysk &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Element: &lt;/B&gt;  Pompa oleju silnikowego &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Usterka: &lt;/B&gt;  Komunikat „Niewystarczające ciśnienie oleju silnikowego” &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Błędy wykryte przez autodiagnostykę: &lt;/B&gt;  &lt;BR/&gt;  &lt;UL&gt;   &lt;LI&gt;  2B7800 (Zawór regulacji ciśnienia oleju, prawdopodobieństwo: usterka mechaniczna (zbyt niskie ciśnienie oleju)) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  2B7C00 (Regulacja ciśnienia oleju: zbyt niskie ciśnienie) &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  2BE800 (Układ ciśnienia oleju: obniżenie momentu obrotowego z powodu niewystarczającego chłodzenia tłoków (zbyt niskie ciśnienie oleju) &lt;/UL&gt;  &lt;LI&gt;  &lt;B&gt; Przyczyna: &lt;/B&gt;  Gromadzenie się osadu w misce olejowej lub przewodzie ssącym może zatykać filtr siatkowy, ograniczając wydajność ssania pompy i powodując spadek ciśnienia oleju &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199290550</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Czynność: &lt;/B&gt;  Za pomocą narzędzia diagnostycznego należy uzyskać dostęp do funkcji serwisowej „Kondycjonowanie oleju silnikowego”: &lt;BR/&gt;  &lt;OL&gt;   &lt;LI&gt;  Jeśli nie ma osadu, funkcja jest wykonywana automatycznie: przy wyłączonym silniku temperatura oleju silnikowego jest podwyższana w celu zapobieżenia tworzeniu się osadu, a ciśnienie oleju jest monitorowane. Jeśli temperatura oleju przekroczy 85°C, a ciśnienie jest prawidłowe, usterka zostaje usunięta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Jeśli występują osady, funkcja zostaje automatycznie przerwana i konieczna jest wymiana pompy oleju silnikowego &lt;/OL&gt;  &lt;LI&gt;  &lt;B&gt; Procedura: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Uwaga: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

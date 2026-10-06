@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T16:01:00">
+  <XDOCUMENTO>
+    <ID>199306455</ID>
+    <DOCNumber>GUP96523</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Se enciende el indicador de avería del motor, aunque el vehículo funciona correctamente</Titolo>
+    <InfoDoc>INYECCIÓN | P064C | UNIDAD DE CONTROL | BÚFITAS | ENCENDIDO | ENCENDIDA | MIL | AMARILLO | AMARILLA | INCANDESCENCIA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guía de reparación</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199306455</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grado de fiabilidad (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Leyenda del grado de fiabilidad &lt;BR&gt; &lt;BR&gt; &lt;B&gt; * nivel bajo &lt;/B&gt; : Observación del mecánico, caso de avería no constatado por el fabricante. &lt;BR&gt; &lt;BR&gt;  &lt;B&gt; ** nivel medio &lt;/B&gt; : Amplia incidencia de la avería, constatada por los técnicos de servicio y los talleres de reparación. &lt;BR&gt; &lt;BR&gt; &lt;B&gt; *** nivel alto &lt;/B&gt; : Certeza de la anomalía, buen grado de «repetitividad» señalado por el fabricante. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199306455</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificación del sistema / avería</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Sistema: &lt;/B&gt; Inyección &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Dispositivo: &lt;/B&gt; Módulo de control de las bujías de precalentamiento &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Anomalía: &lt;/B&gt; Se enciende el testigo de avería del motor aunque el vehículo funciona correctamente &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Errores detectados por el autodiagnóstico: &lt;/B&gt; P064C (Módulo de control de las bujías de precalentamiento - Anomalía) &lt;BR&gt;  &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Causa: &lt;/B&gt; Módulo de control de las bujías de precalentamiento defectuoso &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199306455</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimiento de reparación</Capitolo>
+      <Corpo> &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Intervención: &lt;/B&gt; Comprobar el correcto funcionamiento y, si es necesario, proceder a la sustitución de la unidad de control de las bujías de precalentamiento &lt;BR&gt; &lt;BR&gt; &lt;LI&gt; &lt;B&gt; Procedimiento: &lt;/B&gt; - - &lt;BR&gt; &lt;BR&gt;  &lt;LI&gt; &lt;B&gt; Nota: &lt;/B&gt; El componente en cuestión no presentaba anomalías visuales y, tras su sustitución, no fue necesario realizar ningún ajuste mediante equipos de diagnóstico, con lo que se resolvió definitivamente la avería. &lt;BR&gt; El componente se encuentra en el compartimento del motor, en el lado del conductor, en la parte superior, dentro de la caja de fusibles. &lt;BR&gt; &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>299024087</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299024087</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299024087</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

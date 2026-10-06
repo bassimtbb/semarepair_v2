@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T10:57:26">
+  <XDOCUMENTO>
+    <ID>199274291</ID>
+    <DOCNumber>GUP89953</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Waarschuwingslampje motorstoring gaat branden</Titolo>
+    <InfoDoc>INIEZIONE | P1007-94 | P229E-94 | NOx | SENSORE | EGR | RICIRCOLO GAS | ALTA PRESSIONE | CATALIZZATORE SCR | AVARIA MOTORE | SCAMBIATORE DI CALORE | EURO 6 | GUASTI | MIL | RECARSI | OFFICINA |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparatiehandleiding</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199274291</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Betrouwbaarheidsgraad   (**)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda van de betrouwbaarheidsgraad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * laag niveau &lt;/B&gt; : Vastgesteld door de autoreparateur, storingsgeval niet bevestigd door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** gemiddeld niveau &lt;/B&gt; : Veelvoorkomende storingsgevallen, vastgesteld door servicetechnici en reparateurs. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** hoog niveau &lt;/B&gt; : Bevestigde storing, hoge mate van &quot;herhaalbaarheid&quot; gemeld door de fabrikant. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199274291</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificatie van het systeem/de storing</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Geldigheid: &lt;/B&gt;  Alle voertuigen die zijn uitgerust met een AdBlue-systeem &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Systeem: &lt;/B&gt;  Emissiereductie &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Systeem: &lt;/B&gt;  EGR-warmtewisselaar &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Storing: &lt;/B&gt;  Activering van het motorstoringslampje en waarschuwingsmelding om naar de garage te gaan &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Door de zelfdiagnose gedetecteerde fouten: &lt;/B&gt;   &lt;UL&gt;    &lt;LI&gt; P1007 - 94: NOx-sensor stroomopwaarts werkt niet zoals verwacht &lt;BR/&gt;  &lt;LI&gt; P229E - 94: NOx-sensor stroomafwaarts werkt niet zoals verwacht &lt;/UL&gt;  &lt;LI&gt;  &lt;B&gt; Oorzaak: &lt;/B&gt;  Storing in de EGR-warmtewisselaar &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199274291</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparatieprocedure</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Maatregel: &lt;/B&gt;  Het systeem detecteert afwijkende NOx-waarden vóór en achter de SCR-katalysator, wat wijst op een hoge NOx-productie die niet correct wordt beheerd.  &lt;BR/&gt;  &lt;BR/&gt; Het wordt aanbevolen om de door de sensor stroomopwaarts van de katalysator gemeten NOx-waarde te controleren bij een warme motor en na een testrit van ten minste 20 minuten. Als de waarden hoger zijn dan 250 ppm, duidt dit op een overproductie van NOx en moet het probleem dus worden gezocht in het EGR-systeem (uitlaatgasrecirculatie). In het onderhavige geval had de storing namelijk te maken met een defect aan de warmtewisselaar van het hogedruk-EGR-systeem &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedure: &lt;/B&gt; - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Opmerking: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

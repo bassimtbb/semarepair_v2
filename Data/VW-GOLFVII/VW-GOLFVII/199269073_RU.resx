@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-22T00:50:05">
+  <XDOCUMENTO>
+    <ID>199269073</ID>
+    <DOCNumber>TGE88343</DOCNumber>
+    <RifIDTipoRis>16</RifIDTipoRis>
+    <Titolo>Konserwacja długotrwała – Longlife</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>234</RifIDFileICO>
+    <XFILE>
+      <ID>234</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:234</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>16</ID>
+      <TipoRis>TGE</TipoRis>
+      <DscRis>Dodatkowe kontrole i paski</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>7</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>SINO</IDLabel>
+        <Stringa>Tak-Nie</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Lista danych</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 3 lata, a następnie co 2 lata (niezależnie od przebiegu)</Tagliando>
+      <TipoCtrl>PŁYNY DO UKŁADÓW POMOCNICZYCH</TipoCtrl>
+      <Controllo>Płyn hamulcowy</Controllo>
+      <Verifica>Wymiana</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 3 lata, a następnie co 2 lata (niezależnie od przebiegu)</Tagliando>
+      <TipoCtrl>PŁYNY DO UKŁADÓW POMOCNICZYCH</TipoCtrl>
+      <Controllo>Olej / Płyn sprzęgłowy</Controllo>
+      <Verifica>Wymiana</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 60 000 km lub co 2 lata</Tagliando>
+      <TipoCtrl>FILTRY POMOCNICZE</TipoCtrl>
+      <Controllo>Filtr kabinowy / przeciwpyłkowy (jeśli występuje)</Controllo>
+      <Verifica>Wymiana</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 90 000 km </Tagliando>
+      <TipoCtrl>FILTRY POMOCNICZE</TipoCtrl>
+      <Controllo>Filtr paliwa</Controllo>
+      <Verifica>Wymiana</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 90 000 km lub co 6 lat</Tagliando>
+      <TipoCtrl>FILTRY POMOCNICZE</TipoCtrl>
+      <Controllo>Filtr powietrza</Controllo>
+      <Verifica>Wymiana</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 90 000 km lub co 6 lat</Tagliando>
+      <TipoCtrl>FILTRY POMOCNICZE</TipoCtrl>
+      <Controllo>Stan filtra powietrza</Controllo>
+      <Verifica>Czyszczenie / Kontrola</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 120 000 km </Tagliando>
+      <TipoCtrl>PŁYNY DO UKŁADÓW POMOCNICZYCH</TipoCtrl>
+      <Controllo>Olej do automatycznej skrzyni biegów (z podwójnym sprzęgłem)</Controllo>
+      <Verifica>Opróżnianie / Napełnianie</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Po przejechaniu 210 000 km, a następnie co 30 000 km</Tagliando>
+      <TipoCtrl>ELEMENTY ZEWNĘTRZNE / KAROSERIA</TipoCtrl>
+      <Controllo>Stan / Kondycja katalizatora i filtra cząstek stałych / FAP</Controllo>
+      <Verifica>Sprawdzić: w razie potrzeby wymienić</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 210 000 km</Tagliando>
+      <TipoCtrl>UKŁAD ROZRZĄDU</TipoCtrl>
+      <Controllo>Pasek rozrządu</Controllo>
+      <Verifica>Wymiana</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 210 000 km</Tagliando>
+      <TipoCtrl>UKŁAD ROZRZĄDU</TipoCtrl>
+      <Controllo>Napinacz paska rozrządu</Controllo>
+      <Verifica>Wymiana</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 60 000 km lub co 3 lata, a następnie co 2 lata</Tagliando>
+      <TipoCtrl>CZĘŚCI ELEKTRYCZNE / ELEKTRONICZNE</TipoCtrl>
+      <Controllo>Oprzyrządowanie: Lampki ostrzegawcze i oświetlenie</Controllo>
+      <Verifica>Weryfikacja / Kontrola</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 60 000 km lub co 3 lata, a następnie co 2 lata</Tagliando>
+      <TipoCtrl>ELEMENTY ZEWNĘTRZNE / KAROSERIA</TipoCtrl>
+      <Controllo>Karoseria / lakier</Controllo>
+      <Verifica>Weryfikacja / Kontrola</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 60 000 km lub co 3 lata, a następnie co 2 lata</Tagliando>
+      <TipoCtrl>ELEMENTY ZEWNĘTRZNE / KAROSERIA</TipoCtrl>
+      <Controllo>Stan przedniej i tylnej szyby</Controllo>
+      <Verifica>Weryfikacja / Kontrola</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 60 000 km lub co 3 lata, a następnie co 2 lata</Tagliando>
+      <TipoCtrl>ELEMENTY ZEWNĘTRZNE / KAROSERIA</TipoCtrl>
+      <Controllo>Działanie szyberdachu</Controllo>
+      <Verifica>Weryfikacja / Kontrola</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 60 000 km lub co 3 lata, a następnie co 2 lata</Tagliando>
+      <TipoCtrl>ELEMENTY ZEWNĘTRZNE / KAROSERIA</TipoCtrl>
+      <Controllo>Warunki działania mechanizmów podnoszących i prowadnic przesuwnych dachu</Controllo>
+      <Verifica>Kontrola / Czyszczenie / Smarowanie</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 60 000 km lub co 3 lata, a następnie co 2 lata</Tagliando>
+      <TipoCtrl>CZĘŚCI MECHANICZNE</TipoCtrl>
+      <Controllo>Przeguby kuliste układu kierowniczego</Controllo>
+      <Verifica>Weryfikacja / Kontrola</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 60 000 km lub co 3 lata, a następnie co 2 lata</Tagliando>
+      <TipoCtrl>CZĘŚCI MECHANICZNE</TipoCtrl>
+      <Controllo>Stan obudowy układu kierowniczego</Controllo>
+      <Verifica>Weryfikacja / Kontrola</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 60 000 km lub co 3 lata, a następnie co 2 lata</Tagliando>
+      <TipoCtrl>CZĘŚCI MECHANICZNE</TipoCtrl>
+      <Controllo>Warunki / Połączenie elementów mechanicznych kolumny kierownicy</Controllo>
+      <Verifica>Weryfikacja / Kontrola</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 60 000 km lub co 3 lata, a następnie co 2 lata</Tagliando>
+      <TipoCtrl>CZĘŚCI MECHANICZNE</TipoCtrl>
+      <Controllo>Zawieszenie i elementy powiązane</Controllo>
+      <Verifica>Weryfikacja / Kontrola</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 60 000 km lub co 3 lata, a następnie co 2 lata</Tagliando>
+      <TipoCtrl>CZĘŚCI MECHANICZNE</TipoCtrl>
+      <Controllo>Warunki / działanie sprężyn zawieszenia</Controllo>
+      <Verifica>Weryfikacja / Kontrola</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 60 000 km lub co 3 lata, a następnie co 2 lata</Tagliando>
+      <TipoCtrl>ELEMENTY ZEWNĘTRZNE / KAROSERIA</TipoCtrl>
+      <Controllo>Warunki / Korozja rur wydechowych i elementów mocujących</Controllo>
+      <Verifica>Weryfikacja / Kontrola</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 60 000 km lub co 3 lata, a następnie co 2 lata</Tagliando>
+      <TipoCtrl>ELEMENTY ZEWNĘTRZNE / KAROSERIA</TipoCtrl>
+      <Controllo>Warunki / uszczelnienie podwozia</Controllo>
+      <Verifica>Weryfikacja / Kontrola</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 60 000 km lub co 3 lata, a następnie co 2 lata</Tagliando>
+      <TipoCtrl>ELEMENTY ZEWNĘTRZNE / KAROSERIA</TipoCtrl>
+      <Controllo>Koła / Łożyska przednie</Controllo>
+      <Verifica>Weryfikacja / Kontrola</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 60 000 km lub co 3 lata, a następnie co 2 lata</Tagliando>
+      <TipoCtrl>ELEMENTY ZEWNĘTRZNE / KAROSERIA</TipoCtrl>
+      <Controllo>Koła / Łożyska tylne</Controllo>
+      <Verifica>Weryfikacja / Kontrola</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 60 000 km lub co 3 lata, a następnie co 2 lata</Tagliando>
+      <TipoCtrl>PASEK I AGREGATY</TipoCtrl>
+      <Controllo>Pasek pomocniczy / Usługi</Controllo>
+      <Verifica>Kontrola / Regulacja</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Co 3 lata (niezależnie od przebiegu)</Tagliando>
+      <TipoCtrl>PŁYNY DO UKŁADÓW POMOCNICZYCH</TipoCtrl>
+      <Controllo>Olej do sprzęgła Haldex</Controllo>
+      <Verifica>Opróżnianie / Napełnianie</Verifica>
+    </XPROGTAGL_COMPLETO>
+  </XDOCUMENTO>
+</dataroot>

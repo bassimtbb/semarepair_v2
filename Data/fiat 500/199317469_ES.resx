@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-31T23:40:10">
+  <XDOCUMENTO>
+    <ID>199317469</ID>
+    <DOCNumber>GUP99778</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Paradas del motor tras el arranque, funcionamiento irregular y encendido de los indicadores de averí</Titolo>
+    <InfoDoc>INIEZIONE | ELETTRONICA | C1221 | P0300 | P0302 | P0303 | P0641 | FUSIBILIERA | VANO | MOTORE | CONTATTI | SPEGNE | ARRESTA | BLOCCA | AVVIA | ACCENDE | STRAPPA | COLPI | ACCENDE | ACCESA | MIL | GIALLO | GIALLA | ABS | ANTI | LOCK | SYSTEM |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guía de reparación</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199317469</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Grado de fiabilidad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Leyenda del grado de fiabilidad &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * nivel bajo &lt;/B&gt; : Detección del mecánico, caso de avería no detectado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** nivel medio &lt;/B&gt;  : Casos frecuentes de avería, detectados por los técnicos de asistencia y los mecánicos. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** nivel alto &lt;/B&gt; : Anomalía confirmada, buen grado de «repetitividad» señalado por el fabricante. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199317469</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identificación del sistema / avería</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Sistema: &lt;/B&gt; Electrónica &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositivo: &lt;/B&gt; Caja de fusibles del compartimento del motor &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Anomalía: &lt;/B&gt; De forma esporádica, con el motor frío, el motor arranca con normalidad pero se apaga inmediatamente; al mismo tiempo, y también de forma esporádica, se encienden el testigo de avería del motor y el testigo del ABS, y el vehículo presenta un funcionamiento entrecortado. &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Errores detectados por el autodiagnóstico: &lt;/B&gt;
+&lt;LI&gt; C1221 (Control del motor NCM) &lt;BR/&gt; &lt;LI&gt; P0300 (Falta de encendido en cilindros no definidos - Error genérico) &lt;BR/&gt;  &lt;LI&gt; P0302 (Falta de encendido en el cilindro 2 - Error genérico) &lt;BR/&gt; &lt;LI&gt; P0303 (Falta de encendido en el cilindro 3 - Error genérico) &lt;BR/&gt;  &lt;LI&gt; P0641 (Sensor de tensión de referencia 1: funcionamiento incorrecto/circuito abierto) &lt;LI&gt; &lt;B&gt; Causa: &lt;/B&gt; Contactos de la caja de fusibles del compartimento del motor dañados &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199317469</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedimiento de reparación</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervención: &lt;/B&gt; Comprobar el estado de los contactos de la caja de fusibles del compartimento del motor y, si es necesario, proceder a su sustitución &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procedimiento: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Nota: &lt;/B&gt; El componente se encuentra en el compartimento del motor, en el lado del conductor, cerca de la batería. &lt;BR/&gt; &lt;BR/&gt; La duración prevista de la intervención es de aproximadamente 2,3 h. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

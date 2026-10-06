@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T14:58:06">
+  <XDOCUMENTO>
+    <ID>199203407</ID>
+    <DOCNumber>INT76499</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>BMW Série 3</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Recalls Oficiais</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199203407</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Fonte dos dados - Ministério dos Transportes</Capitolo>
+      <Corpo> &lt;B&gt; Fabricante: &lt;/B&gt;  BMW  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Marca: &lt;/B&gt;  BMW &lt;BR/&gt;  &lt;BR/&gt; Anomalias reconhecidas pelos fabricantes de acordo com o Decreto 78/2000</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199203407</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>BMW Série 3</Capitolo>
+      <Corpo> &lt;BR/&gt; Número de veículos: 42059 &lt;BR/&gt; Período de produção: NÃO INDICADO &lt;BR/&gt; Descrição da avaria: POSSÍVEL PERDA DE LÍQUIDO DO RADIADOR AGR E CONSEQUENTE SOBREAQUECIMENTO DO MOTOR &lt;BR/&gt; Medidas corretivas: VERIFICAÇÃO DO MÓDULO AGR E EVENTUAL SUBSTITUIÇÃO DE COMPONENTES &lt;BR/&gt; Referência CONCESSIONÁRIOS &lt;BR/&gt; Notas COD 0011970400 CHASSIS CONSULTAR CONCESSIONÁRIOS &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Número de veículos: 484 &lt;BR/&gt; Período de produção: 03/2020 - 08/2020 &lt;BR/&gt; Descrição da avaria: Verificou-se que as células que compõem a bateria de alta tensão podem apresentar a inclusão de eventuais corpos estranhos (poeira). Em alguns casos, especialmente durante uma operação de carregamento da bateria de alta tensão, pode ocorrer um curto-circuito no interior da própria bateria. Nesta condição, não se pode excluir a possibilidade de ocorrer um evento térmico &lt;BR/&gt; Ações corretivas: Em fase de estudo pela matriz &lt;BR/&gt; Referência: consultar concessionários &lt;BR/&gt; Notas: Código - 0061670500; para chassis, consultar concessionários &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>199203407</RifIDDoc>
+      <LinkUtili>Link Ministério das Infraestruturas e dos Transportes</LinkUtili>
+      <Ordine>1</Ordine>
+      <RifIDDocLink>15000122</RifIDDocLink>
+      <XLINKDOC>
+        <ID>15000122</ID>
+        <DOCNumber>LNK00008</DOCNumber>
+        <Documento>Ir para: Recalls - Ministério dos Transportes</Documento>
+        <URL>LINKDOC:15000122</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

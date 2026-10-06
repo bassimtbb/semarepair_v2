@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T16:36:36">
+  <XDOCUMENTO>
+    <ID>199007077</ID>
+    <DOCNumber>INT76338</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>Volkswagen Golf VII</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Offizielle Rückrufe</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Datenquelle – Verkehrsministerium</Capitolo>
+      <Corpo> &lt;B&gt; Hersteller: &lt;/B&gt; Volkswagen-Konzern &lt;BR/&gt; &lt;BR/&gt; &lt;B&gt; Marke: &lt;/B&gt; Volkswagen &lt;BR/&gt; &lt;BR/&gt; Von den Herstellern gemäß dem Dekret 78/2000 anerkannte Mängel</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>Volkswagen Golf VII</Capitolo>
+      <Corpo> &lt;BR/&gt; Anzahl der Fahrzeuge: 462 &lt;BR/&gt; Produktionszeitraum: nicht angegeben &lt;BR/&gt; Fehlerbeschreibung: mögliche Fehlfunktion der Einspritzdüsen im Abgasbereich &lt;BR/&gt; Abhilfemaßnahmen: Austausch &lt;BR/&gt; Hinweis: Wenden Sie sich an Ihren Vertragshändler &lt;BR/&gt; Anmerkungen: Cod. 24FO Fahrgestellnummern – wenden Sie sich an Ihren Vertragshändler &lt;BR/&gt;&lt;BR/&gt;  &lt;BR/&gt; Anzahl der Fahrzeuge: 716 &lt;BR/&gt; Produktionszeitraum: NICHT ANGEGEBEN &lt;BR/&gt; Fehlerbeschreibung: MÖGLICHE FUNKTIONSSTÖRUNG DER VERRIEGELUNG DER VORDEREN KOPFSTÜTZEN &lt;BR/&gt; Abhilfemaßnahmen: AUSTAUSCH DER KOPFSTÜTZENFÜHRUNGEN &lt;BR/&gt; Händler-Referenz &lt;BR/&gt; Anmerkungen COD 72H5 FAHRZEUGRAHMEN – WENDEN SIE SICH AN IHREN HÄNDLER &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Anzahl der Fahrzeuge: 11206 &lt;BR/&gt; Produktionszeitraum: NICHT ANGEGEBEN &lt;BR/&gt; Fehlerbeschreibung: MÖGLICHER BRUCH DES HEBELS DER MANUELLEN KINDERSICHERUNG UND SEINE PLÖTZLICHE LÖSUNG AUFGRUND STARKER VIBRATIONEN &lt;BR/&gt; Abhilfemaßnahmen: FUNKTIONSPRÜFUNG DER SICHERHEITSVERRIEGELUNG &lt;BR/&gt; Referenz 800865579 &lt;BR/&gt; Hinweise COD 58C9 KAROSSERIEN HÄNDLER &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Anzahl der Fahrzeuge: 54 &lt;BR/&gt; Produktionszeitraum: NICHT ANGEGEBEN &lt;BR/&gt; Fehlerbeschreibung: MÖGLICHE FUNKTIONSSTÖRUNG DES LAGERS DER VORDERRÄDER &lt;BR/&gt; Abhilfemaßnahmen: AUSTAUSCH &lt;BR/&gt; Referenz für HÄNDLER &lt;BR/&gt; Anmerkungen COD 40L2 FAHRGESTELLE – HÄNDLER KONSULTIEREN &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Anzahl der Fahrzeuge: 286 &lt;BR/&gt; Produktionszeitraum: NICHT ANGEGEBEN &lt;BR/&gt; Fehlerbeschreibung: LAGERHALTERUNG DER HINTERRÄDER NICHT VORSCHRIFTSMÄSSIG &lt;BR/&gt; Abhilfemaßnahmen: AUSTAUSCH DER LAGERHALTERUNG &lt;BR/&gt; Hinweis für HÄNDLER &lt;BR/&gt; Anmerkungen COD 42I2 FAHRGESTELLE: BITTE HÄNDLER KONSULTIEREN &lt;BR/&gt;&lt;BR/&gt;  &lt;BR/&gt; Anzahl der Fahrzeuge: 3802 &lt;BR/&gt; Produktionszeitraum: nicht angegeben &lt;BR/&gt; Fehlerbeschreibung: Bei Fahrzeugen mit direktem Sechsgang-Sequentialgetriebe ist eine Fehlfunktion der Kupplung möglich &lt;BR/&gt; Abhilfemaßnahmen: Software-Anpassung des Getriebesteuergeräts &lt;BR/&gt; Händlerreferenz &lt;BR/&gt; Anmerkungen Code 37E8 Fahrgestellnummernbereich: Bitte wenden Sie sich an den Händler &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Anzahl der Fahrzeuge: 5759 &lt;BR/&gt; Produktionszeitraum: Mai 2018 – August 2018 &lt;BR/&gt; Fehlerbeschreibung: MÖGLICHER UNVOLLSTÄNDIGER SCHWEISSVORGANG AN DEN FÜHRUNGEN DER HINTEREN KOPFSTÜTZEN &lt;BR/&gt; Abhilfemaßnahmen: GEGEBENENFALLS AUSTAUSCH DES RÜCKENLEHNENRAHMENS &lt;BR/&gt; Hinweis für Vertragshändler &lt;BR/&gt; Anmerkungen Code 72H8 Fahrgestelle: Bitte wenden Sie sich an die Vertragshändler &lt;BR/&gt;&lt;BR/&gt;  &lt;BR/&gt; Anzahl der Fahrzeuge: 339 &lt;BR/&gt; Produktionszeitraum: JAHRE 2016/2017 &lt;BR/&gt; Fehlerbeschreibung: MÖGLICHE NICHT-AKTIVIERUNG DES AIRBAGS UND/ODER DER GURTSTRAFFER FÜR FAHRER UND BEIFAHRER &lt;BR/&gt; Abhilfemaßnahmen: AUSTAUSCH DER DEFEKTEN BAUTEILE &lt;BR/&gt; Referenz für HÄNDLER &lt;BR/&gt; Anmerkungen COD 69P4 FAHRZEUG-ID-NUMMERN – BITTE HÄNDLER KONSULTIEREN &lt;BR/&gt;&lt;BR/&gt;  &lt;BR/&gt; Anzahl der Fahrzeuge: 10989 &lt;BR/&gt; Produktionszeitraum: JAHRE 2016/2017 &lt;BR/&gt; Fehlerbeschreibung: MÖGLICHE FEHLFUNKTION DER MANUELLEN KINDERSICHERUNG &lt;BR/&gt; Abhilfemaßnahmen: ÜBERPRÜFUNG DER HECK-TÜRVERRIEGELUNGEN &lt;BR/&gt; Händler-Referenz &lt;BR/&gt; Anmerkungen: COD 58C9 Fahrgestelle – bitte wenden Sie sich an Ihren Händler &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Volkswagen Golf VII Variant</Capitolo>
+      <Corpo> &lt;BR/&gt; Fahrzeuganzahl: 10989 &lt;BR/&gt; Produktionszeitraum: JAHRE 2016/2017 &lt;BR/&gt; Fehlerbeschreibung: MÖGLICHE FUNKTIONSSTÖRUNG DER SICHERHEITSANLEGE FÜR KINDER &lt;BR/&gt; Abhilfemaßnahmen: ÜBERPRÜFUNG DER HECK-TÜRVERRIEGELUNGEN &lt;BR/&gt; Händler-Referenz &lt;BR/&gt; Anmerkungen COD 58C9 Fahrgestelle – bitte wenden Sie sich an den Händler &lt;BR/&gt; &lt;BR/&gt; &lt;BR/&gt; Anzahl der Fahrzeuge: 11206 &lt;BR/&gt; Produktionszeitraum: NICHT ANGEGEBEN &lt;BR/&gt; Fehlerbeschreibung: MÖGLICHER BRUCH DES HEBELS DER MANUELLEN KINDERSICHERUNG UND SEINE UNERWARTETE DEAKTIVIERUNG AUFGRUND STARKER VIBRATIONEN &lt;BR/&gt; Abhilfemaßnahmen: FUNKTIONSPRÜFUNG DER SICHERHEITSVERRIEGELUNG &lt;BR/&gt; Referenz 800865579 &lt;BR/&gt; Anmerkungen COD 58C9 FAHRZEUGE VON VERTRÄGLICHEN HÄNDLERN &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Volkswagen Golf/Golf Variant VII mit ABS/ESP-Steuergerät (MK60)</Capitolo>
+      <Corpo> &lt;BR/&gt; Fahrzeugnummer: 51621 &lt;BR/&gt; Produktionszeitraum: JAHRE 2002/2013 &lt;BR/&gt; Fehlerbeschreibung: MÖGLICHE UNTERBRECHUNG DER MASSEVERBINDUNG DES STEUERGERÄTS AUFGRUND EINER THERMOMECHANISCHEN ÜBERLASTUNG &lt;BR/&gt; Abhilfemaßnahmen: INSTALLATION EINER NEUEN SOFTWARE &lt;BR/&gt; Hinweis für HÄNDLER &lt;BR/&gt; Anmerkungen zu den Fahrgestellnummern 45F2: BITTE HÄNDLER KONSULTIEREN &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Volkswagen Golf VII Performance</Capitolo>
+      <Corpo> &lt;BR/&gt; Anzahl der Fahrzeuge: 37 &lt;BR/&gt; Produktionszeitraum: MODELLJAHR 2017 &lt;BR/&gt; Fehlerbeschreibung: FALSCHE REIFENDRUCK-TYPENSCHILDER UND MÖGLICHE REIFENPLATZER &lt;BR/&gt; Abhilfemaßnahmen: ANBRINGUNG EINES SCHILDES MIT KORREKTEN ANGABEN &lt;BR/&gt; Hinweis für Vertragshändler &lt;BR/&gt; Anmerkungen COD 09A5 FAHRGESTELLE: BITTE VERTRAGSHÄNDLER KONSULTIEREN &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>60</Ordine>
+      <Capitolo>Volkswagen Golf VII mit Start-Stopp-Dieselmotor</Capitolo>
+      <Corpo> &lt;BR/&gt; Fahrzeuganzahl: 4976 &lt;BR/&gt; Produktionszeitraum: NICHT ANGEGEBEN &lt;BR/&gt; Fehlerbeschreibung: MÖGLICHE FUNKTIONSSTÖRUNG DES ANLASSERS UND BRANDGEFAHR &lt;BR/&gt; Abhilfemaßnahmen: AUSTAUSCH DER ELEKTROMAGNETISCHEN SCHALTER &lt;BR/&gt; Händler-Referenz &lt;BR/&gt; Anmerkungen COD 27F9 Fahrgestelle: WENDEN SIE SICH AN IHREN HÄNDLER &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199007077</RifIDDoc>
+      <Ordine>70</Ordine>
+      <Capitolo>Volkswagen Golf VII mit 1,2-l-/1,6-l-Motor</Capitolo>
+      <Corpo> &lt;BR/&gt; Anzahl der Fahrzeuge: 271 &lt;BR/&gt; Produktionszeitraum: NICHT ANGEGEBEN &lt;BR/&gt; Fehlerbeschreibung: MÖGLICHE LÖSUNG DER SCHRAUBEN AM GEHÄUSE DES PHASENVERSTELLERS UND AUSLAUFEN VON MOTORÖL &lt;BR/&gt; Abhilfemaßnahmen: AUSTAUSCH DES PHASENVERSTELLERS &lt;BR/&gt; Händler-Referenz &lt;BR/&gt; Hinweise zu Fahrgestell-Codes 15H2: WENDEN SIE SICH AN IHREN HÄNDLER &lt;BR/&gt;&lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>199007077</RifIDDoc>
+      <LinkUtili>Link zum Ministerium für Infrastruktur und Verkehr</LinkUtili>
+      <Ordine>1</Ordine>
+      <RifIDDocLink>15000122</RifIDDocLink>
+      <XLINKDOC>
+        <ID>15000122</ID>
+        <DOCNumber>LNK00008</DOCNumber>
+        <Documento>Weiter zu: Rückrufe – Verkehrsministerium</Documento>
+        <URL>LINKDOC:15000122</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

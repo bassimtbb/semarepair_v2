@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-22T00:50:04">
+  <XDOCUMENTO>
+    <ID>199269073</ID>
+    <DOCNumber>TGE88343</DOCNumber>
+    <RifIDTipoRis>16</RifIDTipoRis>
+    <Titolo>Entretien prolongé - Longue durée de vie</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>234</RifIDFileICO>
+    <XFILE>
+      <ID>234</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:234</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>16</ID>
+      <TipoRis>TGE</TipoRis>
+      <DscRis>Contrôles supplémentaires et courroies</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>7</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>SINO</IDLabel>
+        <Stringa>Oui-Non</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>7</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Liste des données</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 3 ans, puis tous les 2 ans (indépendamment du kilométrage)</Tagliando>
+      <TipoCtrl>FLUIDES POUR SYSTÈMES AUXILIAIRES</TipoCtrl>
+      <Controllo>Liquide de frein</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 3 ans, puis tous les 2 ans (indépendamment du kilométrage)</Tagliando>
+      <TipoCtrl>FLUIDES POUR SYSTÈMES AUXILIAIRES</TipoCtrl>
+      <Controllo>Huile / Liquide d'embrayage</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 60 000 km ou tous les 2 ans</Tagliando>
+      <TipoCtrl>FILTRES AUXILIAIRES</TipoCtrl>
+      <Controllo>Filtre d'habitacle / anti-pollen (si prévu)</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 90 000 km </Tagliando>
+      <TipoCtrl>FILTRES AUXILIAIRES</TipoCtrl>
+      <Controllo>Filtre à carburant</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 90 000 km ou tous les 6 ans</Tagliando>
+      <TipoCtrl>FILTRES AUXILIAIRES</TipoCtrl>
+      <Controllo>Filtre à air</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 90 000 km ou tous les 6 ans</Tagliando>
+      <TipoCtrl>FILTRES AUXILIAIRES</TipoCtrl>
+      <Controllo>État du filtre à air</Controllo>
+      <Verifica>Nettoyage / Contrôle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 120 000 km </Tagliando>
+      <TipoCtrl>FLUIDES POUR SYSTÈMES AUXILIAIRES</TipoCtrl>
+      <Controllo>Huile pour boîte de vitesses automatique (double embrayage)</Controllo>
+      <Verifica>Vidange / Remplissage</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>À 210 000 km, puis tous les 30 000 km</Tagliando>
+      <TipoCtrl>ÉLÉMENTS EXTÉRIEURS / CARROSSERIE</TipoCtrl>
+      <Controllo>État / Conditions du catalyseur et du filtre à particules / FAP</Controllo>
+      <Verifica>Vérifier : remplacer si nécessaire.</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 210 000 km</Tagliando>
+      <TipoCtrl>COMMANDE DE DISTRIBUTION</TipoCtrl>
+      <Controllo>Courroie de distribution</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 210 000 km</Tagliando>
+      <TipoCtrl>COMMANDE DE DISTRIBUTION</TipoCtrl>
+      <Controllo>Tendeur de courroie de distribution</Controllo>
+      <Verifica>Remplacement</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 60 000 km ou tous les 3 ans, puis tous les 2 ans</Tagliando>
+      <TipoCtrl>PIÈCES ÉLECTRIQUES / ÉLECTRONIQUES</TipoCtrl>
+      <Controllo>Instrumentation : voyants d'avertissement et éclairage</Controllo>
+      <Verifica>Vérification / Contrôle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 60 000 km ou tous les 3 ans, puis tous les 2 ans</Tagliando>
+      <TipoCtrl>ÉLÉMENTS EXTÉRIEURS / CARROSSERIE</TipoCtrl>
+      <Controllo>Carrosserie / peinture</Controllo>
+      <Verifica>Vérification / Contrôle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 60 000 km ou tous les 3 ans, puis tous les 2 ans</Tagliando>
+      <TipoCtrl>ÉLÉMENTS EXTÉRIEURS / CARROSSERIE</TipoCtrl>
+      <Controllo>État du pare-brise et de la lunette arrière</Controllo>
+      <Verifica>Vérification / Contrôle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 60 000 km ou tous les 3 ans, puis tous les 2 ans</Tagliando>
+      <TipoCtrl>ÉLÉMENTS EXTÉRIEURS / CARROSSERIE</TipoCtrl>
+      <Controllo>Fonctionnement du toit ouvrant</Controllo>
+      <Verifica>Vérification / Contrôle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 60 000 km ou tous les 3 ans, puis tous les 2 ans</Tagliando>
+      <TipoCtrl>ÉLÉMENTS EXTÉRIEURS / CARROSSERIE</TipoCtrl>
+      <Controllo>Conditions des leviers et guides de coulissement du toit ouvrant</Controllo>
+      <Verifica>Contrôle / Nettoyage / Lubrification</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 60 000 km ou tous les 3 ans, puis tous les 2 ans</Tagliando>
+      <TipoCtrl>PIÈCES MÉCANIQUES</TipoCtrl>
+      <Controllo>Joints à rotule de direction</Controllo>
+      <Verifica>Vérification / Contrôle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 60 000 km ou tous les 3 ans, puis tous les 2 ans</Tagliando>
+      <TipoCtrl>PIÈCES MÉCANIQUES</TipoCtrl>
+      <Controllo>État du boîtier de direction</Controllo>
+      <Verifica>Vérification / Contrôle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 60 000 km ou tous les 3 ans, puis tous les 2 ans</Tagliando>
+      <TipoCtrl>PIÈCES MÉCANIQUES</TipoCtrl>
+      <Controllo>Conditions / Couplage d'éléments mécaniques de la colonne de direction</Controllo>
+      <Verifica>Vérification / Contrôle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 60 000 km ou tous les 3 ans, puis tous les 2 ans</Tagliando>
+      <TipoCtrl>PIÈCES MÉCANIQUES</TipoCtrl>
+      <Controllo>Suspensions et éléments connexes</Controllo>
+      <Verifica>Vérification / Contrôle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 60 000 km ou tous les 3 ans, puis tous les 2 ans</Tagliando>
+      <TipoCtrl>PIÈCES MÉCANIQUES</TipoCtrl>
+      <Controllo>Conditions / fonctionnement des ressorts de suspension</Controllo>
+      <Verifica>Vérification / Contrôle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 60 000 km ou tous les 3 ans, puis tous les 2 ans</Tagliando>
+      <TipoCtrl>ÉLÉMENTS EXTÉRIEURS / CARROSSERIE</TipoCtrl>
+      <Controllo>Conditions / Corrosion des tuyaux d'échappement et des éléments de support</Controllo>
+      <Verifica>Vérification / Contrôle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 60 000 km ou tous les 3 ans, puis tous les 2 ans</Tagliando>
+      <TipoCtrl>ÉLÉMENTS EXTÉRIEURS / CARROSSERIE</TipoCtrl>
+      <Controllo>Conditions / étanchéité du soubassement</Controllo>
+      <Verifica>Vérification / Contrôle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 60 000 km ou tous les 3 ans, puis tous les 2 ans</Tagliando>
+      <TipoCtrl>ÉLÉMENTS EXTÉRIEURS / CARROSSERIE</TipoCtrl>
+      <Controllo>Roues / Roulements avant</Controllo>
+      <Verifica>Vérification / Contrôle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 60 000 km ou tous les 3 ans, puis tous les 2 ans</Tagliando>
+      <TipoCtrl>ÉLÉMENTS EXTÉRIEURS / CARROSSERIE</TipoCtrl>
+      <Controllo>Roues / Roulements arrière</Controllo>
+      <Verifica>Vérification / Contrôle</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 60 000 km ou tous les 3 ans, puis tous les 2 ans</Tagliando>
+      <TipoCtrl>COURROIES ET AGRÉGATS</TipoCtrl>
+      <Controllo>Courroie auxiliaire / Services</Controllo>
+      <Verifica>Vérification / Réglage</Verifica>
+    </XPROGTAGL_COMPLETO>
+    <XPROGTAGL_COMPLETO>
+      <RifIDDoc>199269073</RifIDDoc>
+      <Tagliando>Tous les 3 ans (indépendamment du kilométrage)</Tagliando>
+      <TipoCtrl>FLUIDES POUR SYSTÈMES AUXILIAIRES</TipoCtrl>
+      <Controllo>Huile Haldex</Controllo>
+      <Verifica>Vidange / Remplissage</Verifica>
+    </XPROGTAGL_COMPLETO>
+  </XDOCUMENTO>
+</dataroot>

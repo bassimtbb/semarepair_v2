@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-19T06:06:45">
+  <XDOCUMENTO>
+    <ID>199309506</ID>
+    <DOCNumber>GUP97352</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Aufleuchten der Motorfehler-Kontrollleuchte beim Beschleunigen oder bei hohen Geschwindigkeiten</Titolo>
+    <InfoDoc>INIEZIONE | P16C0 | TEMPERATURA ASPIRAZIONE | INTERCOOLER ARIA/ACQUA | TERMOSTATO | CIRCUITO BASSA TEMPERATURA | RAFFREDDAMENTO | LIQUIDO ANTIGELO | RIEMPIMENTO SOTTOVUOTO | ACCELERAZIONE | GUASTI | MIL | VELOCITà |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Reparaturhandbuch</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199309506</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Zuverlässigkeitsgrad (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legende zum Grad der Zuverlässigkeit &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niedrig &lt;/B&gt; : Feststellung des Kfz-Mechanikers, vom Hersteller nicht bestätigte Fehlerfälle. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** mittel &lt;/B&gt;  : Häufige Fehlerfälle, die von Servicetechnikern und Kfz-Werkstätten festgestellt wurden. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** Hohe Zuverlässigkeit &lt;/B&gt; : Gewissheit der Anomalie, gute „Wiederholbarkeit”, vom Hersteller gemeldet. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309506</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>System-/Fehleridentifizierung</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anlage: &lt;/B&gt; Einspritzung &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorrichtung: &lt;/B&gt; Trennthermostat zwischen dem Hoch- und Niedertemperaturkreislauf. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Störung: &lt;/B&gt; Die Motorfehlerleuchte des Fahrzeugs leuchtet zeitweise auf und es wird eine Fehlermeldung des Einspritzsystems angezeigt. Dieses Symptom tritt ausschließlich bei längerer starker Beschleunigung oder bei hohen Geschwindigkeiten auf und verschwindet, sobald das Gaspedal losgelassen wird. Bei der Überprüfung der Parameter ist ein drastischer Anstieg der Lufttemperatur im Ladeluftkühler festzustellen, die 100 °C erreicht und überschreitet, anstatt sich auf den korrekten Wert von 40–45 °C einzupendeln. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Von der Selbstdiagnose erkannte Fehler: &lt;/B&gt; P16C0 &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; &lt;B&gt; Ursache: &lt;/B&gt; Das Problem resultiert aus dem mechanischen Festklemmen des Thermostats in der „offenen“ (oder Zwischen-)Position, der den Kühlmittelfluss zwischen dem Hochtemperaturkreislauf (Motorkühlung) und dem Niedertemperaturkreislauf (Luft/Wasser-Ladeluftkühler, AGR) regelt. Da das System von einem einzigen Ausgleichsbehälter gespeist wird, führt der Defekt dieses Ventils dazu, dass die heiße Flüssigkeit aus dem Motorblock unkontrolliert in den Kaltkreislauf strömt. Infolgedessen fließt hoch temperierte Flüssigkeit durch den Ladeluftkühler, wodurch die in den Ansaugkrümmer eintretende Luft erwärmt statt gekühlt wird. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199309506</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Reparaturverfahren</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Maßnahme: &lt;/B&gt; Austausch des Thermostats im Kühlkreislauf und Einfüllen von neuem Frostschutzmittel. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Vorgehensweise: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Hinweis: &lt;/B&gt; - - &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

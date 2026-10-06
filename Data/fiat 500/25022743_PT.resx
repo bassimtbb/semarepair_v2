@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-15T23:59:47">
+  <XDOCUMENTO>
+    <ID>25022743</ID>
+    <DOCNumber>CIA25321</DOCNumber>
+    <RifIDTipoRis>22</RifIDTipoRis>
+    <Titolo>Disposição - Referências</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>301</RifIDFileICO>
+    <XFILE>
+      <ID>301</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:301</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>22</ID>
+      <TipoRis>CIA</TipoRis>
+      <DscRis>Correias Auxiliares</DscRis>
+      <RifIDFileCSS>300</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>300</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:300</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>25022743</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>LEGENDA</Capitolo>
+      <Corpo> &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt;  &lt;TH width=15% class=&quot;chiaro&quot;&gt; Tipo &lt;/TH&gt;  &lt;TH width=34% class=&quot;chiaro&quot;&gt; descrição &lt;/TH&gt;  &lt;TR&gt;  &lt;TD&gt; Mot &lt;/TD&gt;  &lt;TD&gt; Eixo do motor &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Tns &lt;/TD&gt;  &lt;TD&gt; Tensor &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Tnd &lt;/TD&gt;  &lt;TD&gt; Tensor da correia / Tensor &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Tsc &lt;/TD&gt;  &lt;TD&gt; Compressor volumétrico &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Gen &lt;/TD&gt;  &lt;TD&gt; Alternador &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; A/C &lt;/TD&gt;  &lt;TD&gt; Compressor de A/C &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Ssv &lt;/TD&gt;  &lt;TD&gt; Direção Assistida Hidráulica &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Cool &lt;/TD&gt;  &lt;TD&gt; Ventilador de Arrefecimento &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; P-w &lt;/TD&gt;  &lt;TD&gt; Bomba de Água &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; P-ws &lt;/TD&gt;  &lt;TD&gt; Bomba de água suplementar &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; P-oil &lt;/TD&gt;  &lt;TD&gt; Bomba de óleo &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; P-air &lt;/TD&gt;  &lt;TD&gt; Bomba de ar &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; P-inz &lt;/TD&gt;  &lt;TD&gt; Bomba de injeção &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; P-aux &lt;/TD&gt;  &lt;TD&gt; Bomba hidráulica / auxiliar &lt;/TD&gt;  &lt;/TR&gt;  &lt;/TABLE&gt; </Corpo>
+      <RifIDFileIMGANI>25006849</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>25006849</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:25006849</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>25022743</RifIDDoc>
+      <LinkUtili>LEGENDA - detalhe</LinkUtili>
+      <Ordine>10</Ordine>
+      <RifIDDocLink>1583</RifIDDocLink>
+      <XLINKDOC>
+        <ID>1583</ID>
+        <DOCNumber>LNK00006</DOCNumber>
+        <Documento>Ir para: Legenda Correias - Detalhe</Documento>
+        <URL>LINKDOC:1583</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>25022743</RifIDDoc>
+      <LinkUtili>LEGENDA - detalhe</LinkUtili>
+      <Ordine>20</Ordine>
+      <RifIDDocLink>1582</RifIDDocLink>
+      <XLINKDOC>
+        <ID>1582</ID>
+        <DOCNumber>LNK00005</DOCNumber>
+        <Documento>Ir para: Correias auxiliares - Diagnóstico</Documento>
+        <URL>LINKDOC:1582</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-01T15:48:05">
+  <XDOCUMENTO>
+    <ID>199291444</ID>
+    <DOCNumber>GUP93585</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Bluetooth ne fonctionne pas, batterie déchargée et kilométrage clignotant</Titolo>
+    <InfoDoc>ÉLECTRONIQUE | CLIGNOTANT | COMPTEUR KILOMÉTRIQUE | KM | KILOMÈTRES | BLUETOOTH | BLEU | MOI | BATTERIE | DÉCHARGÉE | DÉCHARGE | U1773 | U1733 |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Guide de réparation</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199291444</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Degré de fiabilité (*)</Capitolo>
+      <Corpo> &lt;BR/&gt; Légende du degré de fiabilité &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niveau faible &lt;/B&gt; : constatation du réparateur automobile, cas de panne non constaté par le constructeur. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** niveau moyen &lt;/B&gt;  : nombreux cas de panne constatés par les techniciens d&apos;assistance et les réparateurs automobiles. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** niveau élevé &lt;/B&gt; : certitude de l&apos;anomalie, bon degré de « répétitivité » signalé par le constructeur. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199291444</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identification du système / du défaut</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Système : &lt;/B&gt; Infodivertissement &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Dispositif : &lt;/B&gt; Unité de commande Blue&amp;Me &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Anomalie : &lt;/B&gt;  Absence de connexion Bluetooth, décharge anormale de la batterie et clignotement continu du kilométrage sur le tableau de bord. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Erreurs détectées par l’autodiagnostic : &lt;/B&gt; &lt;UL&gt; &lt;LI&gt; U1773 (Absence de communication avec le module Convergence) &lt;BR/&gt;  &lt;LI&gt; U1733 (Module télématique - configuration du proxy) &lt;/UL&gt; &lt;LI&gt; &lt;B&gt; Cause : &lt;/B&gt; Panne interne du calculateur Blue&amp;Me souvent causée par des infiltrations d&apos;eau ou des défauts des composants électroniques. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199291444</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procédure de réparation</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Intervention : &lt;/B&gt; Vérifier et, si nécessaire, procéder au remplacement du boîtier électronique Blue&amp;Me &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; &lt;B&gt; Procédure : &lt;/B&gt; Il est recommandé d&apos;effectuer les contrôles suivants : &lt;OL&gt; &lt;LI&gt; Si le système communique correctement mais que la connexion Bluetooth ne fonctionne pas : &lt;UL&gt; &lt;LI&gt; Débrancher la borne négative de la batterie pendant au moins 10 minutes. &lt;/UL&gt; &lt;BR/&gt; &lt;LI&gt; S’il n’y a aucune communication avec le système Blue&amp;Me et que le Bluetooth ne fonctionne pas : &lt;OL&gt; &lt;LI&gt; Vérifier soigneusement le câblage et les connecteurs du boîtier électronique &lt;BR/&gt; &lt;LI&gt;  Vérifier l&apos;état des fusibles F36 et F51 situés dans la boîte à fusibles située sous le volant, côté gauche &lt;BR/&gt; &lt;LI&gt; Vérifier que le boîtier électronique Blue&amp;Me reçoit une alimentation et une masse correctes &lt;/UL&gt; &lt;/OL&gt; &lt;BR/&gt; Si toutes ces vérifications ne permettent pas de résoudre le problème, procéder au remplacement du boîtier électronique Blue&amp;Me &lt;/OL&gt;  &lt;LI&gt; &lt;B&gt; Remarque : &lt;/B&gt; Le boîtier électronique est situé derrière le panneau latéral arrière côté passager, du côté conducteur (près du haut-parleur). Si vous constatez des traces d&apos;oxyde sur le boîtier électronique, il est recommandé d&apos;analyser et de résoudre la cause des infiltrations dans l&apos;habitacle. &lt;BR/&gt; &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299022166</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299022166</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299022166</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

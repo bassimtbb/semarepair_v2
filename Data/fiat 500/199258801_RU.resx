@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:37:57">
+  <XDOCUMENTO>
+    <ID>199258801</ID>
+    <DOCNumber>GUP86673</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Problemy z przepływem płynu do spryskiwaczy szyb oraz wilgocią w przewodach</Titolo>
+    <InfoDoc>CARROZZERIA | 50.001.19 | TERGICRISTALLO | SPAZZOLE | ESCE | ACQUA | POCA | CONDENSA | PARABREZZA | VETRO | DAVANTI | DIETRO | ANTERIORE | POSTERIORE |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199258801</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Poziom wiarygodności   (***)</Capitolo>
+      <Corpo> &lt;BR/&gt; Legenda stopnia wiarygodności &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; * niski poziom &lt;/B&gt; : Wykryte przez mechanika samochodowego, przypadek usterki niepotwierdzony przez producenta. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; ** średni poziom &lt;/B&gt; : Częste przypadki usterki, potwierdzone przez techników serwisowych i mechaników. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; *** wysoki poziom &lt;/B&gt; : Potwierdzona anomalia, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199258801</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Układ: &lt;/B&gt;  Karoseria &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Urządzenie: &lt;/B&gt;  Wycieraczka &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Usterka: &lt;/B&gt;  Niski lub zerowy poziom płynu do spryskiwaczy na wylocie oraz możliwa obecność wilgoci w pobliżu odpowiednich przewodów &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Błędy wykryte przez autodiagnostykę: &lt;/B&gt;  - - &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Przyczyna: &lt;/B&gt;  Wyciek płynu z przewodu zasilającego przednią i/lub tylną spryskiwaczkę &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199258801</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Czynność: &lt;/B&gt;  Naprawa uszkodzonego przewodu &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  &lt;B&gt; Procedura: &lt;/B&gt;  Aby przystąpić do naprawy uszkodzonego przewodu, należy przede wszystkim zidentyfikować typ przewodu występujący w danym pojeździe: &lt;BR/&gt;  &lt;OL&gt;    &lt;LI&gt;  Przewód typu  &lt;B&gt; AEC &lt;/B&gt; : Naprawę należy wykonać przy użyciu zestawu nr 51922436, składającego się z przewodów falistych, opasek łączących i złączek. &lt;BR/&gt;  &lt;BR/&gt;  &lt;UL&gt;    &lt;LI&gt;  Jeśli wyciek występuje w miejscu połączenia przewodu tłocznego, należy wymienić uszkodzony odcinek w następujący sposób: odciąć uszkodzony przewód, połączyć go z nowym odcinkiem z zestawu, używając złącza i opaski łączącej, upewniając się, że gumowe uszczelki są prawidłowo ułożone. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Jeśli wyciek występuje wzdłuż rurociągu tłocznego: należy odciąć i połączyć odcinki za pomocą obu złączek zawartych w zestawie, w razie potrzeby przywrócić izolację taśmową na okablowaniu i ponownie zamontować elementy.  &lt;/UL&gt;  &lt;BR/&gt;  &lt;LI&gt;  Rurociąg typu  &lt;B&gt; FRANKISCHE &lt;/B&gt; : Naprawę należy przeprowadzić przy użyciu zestawu nr 50527045. Jeśli wyciek występuje w miejscu połączenia rurociągu tłocznego, należy wymienić uszkodzony odcinek w następujący sposób: odciąć uszkodzoną rurę i połączyć ją z nowym odcinkiem z zestawu, stosując dostarczone uszczelki typu O-ring i silikon. Wsunąć końce rur do złączki i założyć zaciski uszczelniające. Dokręcić zaciski, aż zatrzaski mocujące prawidłowo się zablokują. Sprawdzić, czy nie ma wycieków, a następnie przystąpić do ponownego montażu elementów. &lt;/OL&gt;  &lt;LI&gt;  &lt;B&gt; Uwaga: &lt;/B&gt;  Uwaga! Zestawy te można stosować wyłącznie w przypadku rur falistych. &lt;BR/&gt;  &lt;BR/&gt; Numer katalogowy zestawu naprawczego do rur typu AEC: 51922436. &lt;BR/&gt;  &lt;BR/&gt; Numer katalogowy zestawu naprawczego do rur typu FRANKISCHE: 50527045. &lt;BR/&gt;  &lt;BR/&gt; Przewidywany czas wykonania czynności: 6 minut. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

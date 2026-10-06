@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-22T05:22:46">
+  <XDOCUMENTO>
+    <ID>199282071</ID>
+    <DOCNumber>PTG88802</DOCNumber>
+    <RifIDTipoRis>32</RifIDTipoRis>
+    <Titolo>Desde dezembro de 2014 - Com horário normal</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>32</ID>
+      <TipoRis>PTG</TipoRis>
+      <DscRis>Revisões Oficiais</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XLINKUTILI>
+      <RifIDDoc>199282071</RifIDDoc>
+      <Ordine>10</Ordine>
+      <RifIDDocLink>199282072</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282072</ID>
+        <DOCNumber>TGG197176</DOCNumber>
+        <Documento>Revisão: 15 000 km ou 1 ano</Documento>
+        <URL>LINKDOC:199282072</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282071</RifIDDoc>
+      <Ordine>20</Ordine>
+      <RifIDDocLink>199282073</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282073</ID>
+        <DOCNumber>TGG197177</DOCNumber>
+        <Documento>Revisão: 30 000 km ou 2 anos</Documento>
+        <URL>LINKDOC:199282073</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282071</RifIDDoc>
+      <Ordine>30</Ordine>
+      <RifIDDocLink>199282075</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282075</ID>
+        <DOCNumber>TGG197178</DOCNumber>
+        <Documento>Revisão: 45 000 km ou 3 anos</Documento>
+        <URL>LINKDOC:199282075</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282071</RifIDDoc>
+      <Ordine>40</Ordine>
+      <RifIDDocLink>199282076</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282076</ID>
+        <DOCNumber>TGG197179</DOCNumber>
+        <Documento>Revisão: 60 000 km ou 4 anos</Documento>
+        <URL>LINKDOC:199282076</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282071</RifIDDoc>
+      <Ordine>50</Ordine>
+      <RifIDDocLink>199282077</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282077</ID>
+        <DOCNumber>TGG197180</DOCNumber>
+        <Documento>Revisão: 75 000 km ou 5 anos</Documento>
+        <URL>LINKDOC:199282077</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282071</RifIDDoc>
+      <Ordine>60</Ordine>
+      <RifIDDocLink>199282078</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282078</ID>
+        <DOCNumber>TGG197181</DOCNumber>
+        <Documento>Revisão: 90 000 km ou 6 anos</Documento>
+        <URL>LINKDOC:199282078</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282071</RifIDDoc>
+      <Ordine>70</Ordine>
+      <RifIDDocLink>199282079</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282079</ID>
+        <DOCNumber>TGG197182</DOCNumber>
+        <Documento>Revisão: 105 000 km ou 7 anos</Documento>
+        <URL>LINKDOC:199282079</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282071</RifIDDoc>
+      <Ordine>80</Ordine>
+      <RifIDDocLink>199282080</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282080</ID>
+        <DOCNumber>TGG197183</DOCNumber>
+        <Documento>Revisão: 120 000 km ou 8 anos</Documento>
+        <URL>LINKDOC:199282080</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282071</RifIDDoc>
+      <Ordine>90</Ordine>
+      <RifIDDocLink>199282082</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282082</ID>
+        <DOCNumber>TGG197184</DOCNumber>
+        <Documento>Revisão: 135 000 km ou 9 anos</Documento>
+        <URL>LINKDOC:199282082</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282071</RifIDDoc>
+      <Ordine>100</Ordine>
+      <RifIDDocLink>199282083</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282083</ID>
+        <DOCNumber>TGG197185</DOCNumber>
+        <Documento>Revisão: 150 000 km ou 10 anos</Documento>
+        <URL>LINKDOC:199282083</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282071</RifIDDoc>
+      <Ordine>110</Ordine>
+      <RifIDDocLink>199282084</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282084</ID>
+        <DOCNumber>TGG197186</DOCNumber>
+        <Documento>Revisão: 165 000 km ou 11 anos</Documento>
+        <URL>LINKDOC:199282084</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282071</RifIDDoc>
+      <Ordine>120</Ordine>
+      <RifIDDocLink>199282085</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282085</ID>
+        <DOCNumber>TGG197187</DOCNumber>
+        <Documento>Revisão: 180 000 km ou 12 anos</Documento>
+        <URL>LINKDOC:199282085</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282071</RifIDDoc>
+      <Ordine>130</Ordine>
+      <RifIDDocLink>199282086</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282086</ID>
+        <DOCNumber>TGG197188</DOCNumber>
+        <Documento>Revisão: 195 000 km ou 13 anos</Documento>
+        <URL>LINKDOC:199282086</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282071</RifIDDoc>
+      <Ordine>140</Ordine>
+      <RifIDDocLink>199282087</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282087</ID>
+        <DOCNumber>TGG197189</DOCNumber>
+        <Documento>Revisão: 210 000 km ou 14 anos</Documento>
+        <URL>LINKDOC:199282087</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282071</RifIDDoc>
+      <Ordine>150</Ordine>
+      <RifIDDocLink>199282088</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282088</ID>
+        <DOCNumber>TGG197190</DOCNumber>
+        <Documento>Revisão: 225 000 km ou 15 anos</Documento>
+        <URL>LINKDOC:199282088</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+    <XLINKUTILI>
+      <RifIDDoc>199282071</RifIDDoc>
+      <Ordine>160</Ordine>
+      <RifIDDocLink>199282089</RifIDDocLink>
+      <XLINKDOC>
+        <ID>199282089</ID>
+        <DOCNumber>TGG197191</DOCNumber>
+        <Documento>Revisão: 240 000 km ou 16 anos</Documento>
+        <URL>LINKDOC:199282089</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>

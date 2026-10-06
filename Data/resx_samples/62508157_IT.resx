@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2015-10-21T14:25:58">
+<XDOCUMENTO>
+<ID>62508157</ID>
+<DOCNumber>GUR62846</DOCNumber>
+<RifIDTipoRis>5</RifIDTipoRis>
+<Titolo>Sblocco manuale freno di stazionamento elettronico non disponibile</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>228</RifIDFileICO>
+<XFILE>
+<ID>228</ID>
+<Type>IMG</Type>
+<URL>GETFILE:228</URL>
+</XFILE>
+<XTIPORIS>
+<ID>5</ID>
+<TipoRis>GUR</TipoRis>
+<DscRis>Guida Regolazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>62508157</RifIDDoc>
+<Ordine>10</Ordine>
+<Capitolo>Informazioni di sistema</Capitolo>
+<Corpo>&lt;BR/&gt;Il freno di stazionamento elettronico, attivabile tramite pulsante, ha la capacità di mantenere immobile e in sicurezza la vettura anche con motore spento o in assenza di alimentazione elettrica.&lt;BR/&gt;Si attiva automaticamente allo spegnimento del motore, per poi disattivarsi quando il veicolo comincia a muoversi. &lt;BR/&gt;Nel caso di batteria scarica o guasto meccanico, può accadere che il &lt;B&gt;freno di stazionamento non si disinserisca&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62508157</RifIDDoc>
+<Ordine>20</Ordine>
+<Capitolo>Sblocco d&apos;emergenza freno di stazionamento elettronico</Capitolo>
+<Corpo>&lt;BR/&gt;Non è prevista una procedura per lo sblocco d&apos;emergenza del freno di stazionamento elettronico.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

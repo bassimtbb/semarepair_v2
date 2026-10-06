@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T06:22:53">
+  <XDOCUMENTO>
+    <ID>199217638</ID>
+    <DOCNumber>DRA76286</DOCNumber>
+    <RifIDTipoRis>45</RifIDTipoRis>
+    <Titolo>ZF GA8HP51 automatische versnellingsbak (8 versnellingen)</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>45</ID>
+      <TipoRis>DRV</TipoRis>
+      <DscRis>Automatische versnellingsbak</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Gegevens Technische - Lubrificanti</Capitolo>
+      <Corpo> &lt;B&gt; Fabrikant: &lt;/B&gt;  ZF &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Benaming: &lt;/B&gt;  8HP51 / 1111 024 xxx / 1111 014 xxx &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Handelsnaam: &lt;/B&gt;  Steptronic &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Door de fabrikant van de automatische versnellingsbak aanbevolen olieverversingsinterval: &lt;/B&gt;   &lt;BR/&gt; 80.000 km &lt;BR/&gt;  &lt;BR/&gt;  &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt;  &lt;TH width=60% class=&quot;chiaro&quot;&gt; Beschrijving &lt;/TH&gt;  &lt;TH width=25% class=&quot;chiaro&quot;&gt; Meeteenheid &lt;/TH&gt;  &lt;TH width=15% class=&quot;chiaro&quot;&gt; Gegevens &lt;/TH&gt;  &lt;TR&gt;  &lt;TD&gt; Code automatische versnellingsbak: &lt;/TD&gt;  &lt;TD&gt; Ref.-nr. &lt;/TD&gt;  &lt;TD&gt; 8HP51 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Aantal versnellingen: &lt;/TD&gt;  &lt;TD&gt; Aantal &lt;/TD&gt;  &lt;TD&gt; 8 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Olie voor automatische versnellingsbak – Specificatie van de fabrikant: &lt;/TD&gt;  &lt;TD&gt; Ref.nr. &lt;/TD&gt;  &lt;TD&gt;  ATF 3+ &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Automatische versnellingsbakolie – Producentcode: &lt;/TD&gt;  &lt;TD&gt; Ref.nr. &lt;/TD&gt;  &lt;TD&gt; BMW 83222289720 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Automatische versnellingsbakolie - Hoeveelheid: &lt;/TD&gt;  &lt;TD&gt; Liter &lt;/TD&gt;  &lt;TD&gt; 9,28 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Automatische versnellingsbakolie - Hoeveelheid voor het spoelen van de versnellingsbak: &lt;/TD&gt;  &lt;TD&gt; Liter &lt;/TD&gt;  &lt;TD&gt; 9,0-10,0 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Temperatuur voor het controleren van het peil van de automatische versnellingsbakolie: &lt;/TD&gt;  &lt;TD&gt; °C &lt;/TD&gt;  &lt;TD&gt; 30°~50° &lt;/TD&gt;  &lt;/TR&gt;  &lt;/TABLE&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62503978</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62503978</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62503978</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>12</Ordine>
+      <Capitolo>Identificatie automatische versnellingsbak</Capitolo>
+      <Corpo> &lt;BR/&gt; Het model van de versnellingsbak kan worden geïdentificeerd aan de hand van het typeplaatje aan de zijkant. &lt;BR/&gt;  &lt;BR/&gt; De afkorting  &lt;B&gt; 1 &lt;/B&gt;  geeft het serienummer aan. &lt;BR/&gt;  &lt;BR/&gt; De afkorting  &lt;B&gt; 2 &lt;/B&gt;  geeft de benaming van de versnellingsbak aan. &lt;BR/&gt;  &lt;BR/&gt; De afkorting  &lt;B&gt; 3 &lt;/B&gt;  geeft het model van de versnellingsbak aan. &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007669</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007669</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007669</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>13</Ordine>
+      <Capitolo>Aansluiting spoelen automatische versnellingsbak met gereedschap</Capitolo>
+      <Corpo> &lt;BR/&gt; Om de automatische versnellingsbak te spoelen, is het raadzaam de apparatuur aan te sluiten op de aansluitingen die zijn aangegeven in  &lt;B&gt; afb. 1 &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; 1 &lt;/B&gt;  - Aansluiting voor versnellingsbakreinigingsapparatuur &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; 2 &lt;/B&gt;  - Opening voor het controleren van het oliepeil van de automatische versnellingsbak &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; 3 &lt;/B&gt;  - Opening voor het aftappen van de olie uit de automatische versnellingsbak &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504747</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504747</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504747</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>15</Ordine>
+      <Capitolo>Procedures uitlaat olie automatische versnellingsbak</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  Plaats het voertuig op een vlakke ondergrond &lt;BR/&gt;  &lt;LI&gt;  Zet de motor uit &lt;BR/&gt;  &lt;LI&gt;  Verwijder de onderste geluiddempende bekleding &lt;BR/&gt;  &lt;LI&gt;  Verwijder indien nodig de hittebeschermingsplaat &lt;BR/&gt;  &lt;LI&gt;  Verwijder de aftapplug  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Wacht tot alle versnellingsbakolie is weggelopen &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; LET OP:  &lt;/B&gt; Start de motor niet zonder olie in de versnellingsbak &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Plaats de aftapplug  &lt;B&gt; A &lt;/B&gt; weer terug en draai deze vast met een koppel van  &lt;B&gt; 8 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007666</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007666</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007666</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>16</Ordine>
+      <Capitolo>Vervanging oliefilter automatische versnellingsbak</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  Het oliefilter van de automatische versnellingsbak bevindt zich in de oliecarter &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; LET OP:  &lt;/B&gt; Bij dit type versnellingsbak is het oliefilter geïntegreerd in de oliecarter. Om het filter te vervangen, moet de oliecarter worden vervangen. &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; LET OP:  &lt;/B&gt; Vervang altijd de oliecarter en de bijbehorende schroeven wanneer de oliecarter wordt gedemonteerd &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007668</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007668</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007668</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Procedures vullen olie automatische versnellingsbak</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  Zet het voertuig op een vlakke ondergrond en zet de wielen vast &lt;BR/&gt;  &lt;LI&gt;  Schakel de verlichting en de klimaatregeling uit &lt;BR/&gt;  &lt;LI&gt;  Zet de versnellingspook in  &lt;B&gt; P &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Trek de parkeerrem aan &lt;BR/&gt;  &lt;LI&gt;  Sluit de diagnosetester aan &lt;BR/&gt;  &lt;LI&gt;  Verwijder de vuldop  &lt;B&gt; B &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; LET OP:  &lt;/B&gt; Vervang altijd de vuldop  &lt;B&gt; B &lt;/B&gt;  en de bijbehorende pakking &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Voer met behulp van de diagnosetester de procedure  &lt;B&gt; „Versnellingsbakregelsysteem: oliecompensatie“ &lt;/B&gt;  uit &lt;BR/&gt;  &lt;LI&gt;  Vul versnellingsbakolie bij via de vulopening  &lt;B&gt; B &lt;/B&gt;  volgens de aanwijzingen van de diagnosetester &lt;BR/&gt;  &lt;LI&gt;  Plaats een nieuwe vuldop  &lt;B&gt; B &lt;/B&gt;  met de bijbehorende pakking en draai deze vast met een koppel van  &lt;B&gt; 35 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Ga verder met de procedure voor het controleren van het automatische versnellingsbakoliepeil &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007667</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007667</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007667</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199217638</RifIDDoc>
+      <Ordine>21</Ordine>
+      <Capitolo>Procedures controle oliepeil automatische versnellingsbak</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  Breng de temperatuur van de versnellingsbakolie op  &lt;B&gt; 30° - 40° C &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Zet het voertuig op een vlakke ondergrond en blokkeer de wielen &lt;BR/&gt;  &lt;LI&gt;  Schakel de verlichting en de airconditioning uit &lt;BR/&gt;  &lt;LI&gt;  Zet de versnellingspook in  &lt;B&gt; P &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Trek de parkeerrem aan &lt;BR/&gt;  &lt;LI&gt;  Sluit de diagnosetester aan &lt;BR/&gt;  &lt;LI&gt;  Verwijder de vuldop  &lt;B&gt; B &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; LET OP:  &lt;/B&gt; Vervang altijd de vuldop  &lt;B&gt; B &lt;/B&gt;  en de bijbehorende pakking &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Voer met behulp van de diagnosetester de procedure  &lt;B&gt; „Versnellingsbakbesturing: oliecompensatie“ &lt;/B&gt; uit  &lt;BR/&gt;  &lt;LI&gt;  Breng de versnellingsbakolie op een temperatuur van  &lt;B&gt; 40° - 50°C &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Volg de aanwijzingen op de diagnosetester om de procedure voor het controleren van het oliepeil van de automatische versnellingsbak uit te voeren &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; LET OP:  &lt;/B&gt; Een te hoog of te laag oliepeil kan de werking van de versnellingsbak beïnvloeden &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Plaats een nieuwe vuldop  &lt;B&gt; B &lt;/B&gt;  met de bijbehorende pakking en draai deze vast tot  &lt;B&gt; 35 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299023076</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299023076</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299023076</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

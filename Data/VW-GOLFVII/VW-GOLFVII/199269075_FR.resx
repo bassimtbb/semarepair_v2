@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-24T17:48:38">
+  <XDOCUMENTO>
+    <ID>199269075</ID>
+    <DOCNumber>POP84110</DOCNumber>
+    <RifIDTipoRis>46</RifIDTipoRis>
+    <Titolo>INFORMATION IMPORTANTE</Titolo>
+    <InfoDoc>ZZZ+TGE88342+TGE88343</InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>46</ID>
+      <TipoRis>POP</TipoRis>
+      <DscRis>Avertissement</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199269075</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>ENTRETIEN : COURROIES ET AGRÉGATS Entretien à intervalles fixes</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; Interventions de remplacement importantes : &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Tous les 210 000 km - Courroie de distribution - Remplacement &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Tous les 210 000 km - Tendeur de courroie de distribution - Remplacement &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199269075</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>ENTRETIEN : COURROIES ET AGRÉGATS Entretien prolongé - Longue durée de vie</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; Interventions de remplacement importantes : &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Tous les 210 000 km - Courroie de distribution - Remplacement &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Tous les 210 000 km - Tendeur de courroie de distribution - Remplacement &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

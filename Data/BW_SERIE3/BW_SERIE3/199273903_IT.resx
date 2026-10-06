@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2024-11-08T05:30:39">
+<XDOCUMENTO>
+<ID>199273903</ID>
+<DOCNumber>GUP89665</DOCNumber>
+<RifIDTipoRis>4</RifIDTipoRis>
+<Titolo>Avviso &quot;LIVELLO DELL&apos;OLIO TROPPO ALTO&quot;</Titolo>
+<InfoDoc>INIEZIONE | SEL-SEL-P-0-20000789766373 | 2C6C00 | 35BD00 | INDICAZIONE | MESSAGGIO | DISPLAY | OIL | LEVEL | TOO | HIGH | MOTORE | CONTAMINATO | CARBURANTE | AGGIORNARE | AGGIORNAMENTO | SOFTWARE | CENTRALINA |</InfoDoc>
+<RifIDFileICO>227</RifIDFileICO>
+<XFILE>
+<ID>227</ID>
+<Type>IMG</Type>
+<URL>GETFILE:227</URL>
+</XFILE>
+<XTIPORIS>
+<ID>4</ID>
+<TipoRis>GUP</TipoRis>
+<DscRis>Guida Riparazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>199273903</RifIDDoc>
+<Ordine>1</Ordine>
+<Capitolo>Grado di attendibilità   (***)</Capitolo>
+<Corpo>&lt;BR/&gt;Legenda del grado di attendibilità&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;* livello basso&lt;/B&gt; : Rilevazione dell&apos;autoriparatore, casistica del guasto non riscontrata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;** livello medio&lt;/B&gt; : Casistica ampia del guasto, riscontrata dai tecnici di assistenza e dagli autoriparatori.&lt;BR/&gt;&lt;BR/&gt;&lt;B&gt;*** livello alto&lt;/B&gt; : Certezza dell&apos;anomalia, buon grado di &quot;ripetitività&quot; segnalata dalla Casa Costruttrice.&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199273903</RifIDDoc>
+<Ordine>3</Ordine>
+<Capitolo>Identificazione del sistema / guasto</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Impianto:&lt;/B&gt; Iniezione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Dispositivo:&lt;/B&gt; Centralina iniezione&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Anomalia:&lt;/B&gt; Avviso &quot;LIVELLO DELL&apos;OLIO TROPPO ALTO&quot;&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Errori rilevati dall&apos;autodiagnosi:&lt;/B&gt; Uno o più dei seguenti errori:&lt;BR/&gt;&lt;UL&gt;&lt;LI&gt; 2C6C00 (Livello olio motore troppo alto)&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; 35BD00 (Ridotto intervallo sostituzione olio motore)&lt;/UL&gt; &lt;LI&gt;&lt;B&gt;Causa:&lt;/B&gt; Software della centralina iniezione inadeguato&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>199273903</RifIDDoc>
+<Ordine>4</Ordine>
+<Capitolo>Procedura di riparazione</Capitolo>
+<Corpo>&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Intervento:&lt;/B&gt; Controllare il livello dell&apos;olio motore:&lt;BR/&gt;&lt;OL&gt;&lt;LI&gt; Se è troppo alto, eseguire la procedura di ripristino del livello dell&apos;olio&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Se è corretto, questo indica che c&apos;è un problema di software della centralina iniezione risolvibile solo eseguendo il relativo aggiornamento&lt;/OL&gt;  &lt;LI&gt;&lt;B&gt;Procedura:&lt;/B&gt; - -&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt;&lt;B&gt;Nota:&lt;/B&gt; &lt;I&gt;ATTENZIONE&lt;/I&gt;:&lt;BR/&gt;&lt;UL&gt;&lt;LI&gt; Se sono presenti DTC o condizioni sintomatiche diverse da quelle elencate, procedere alla loro risoluzione prima di proseguire con questo bollettino.&lt;BR/&gt;&lt;BR/&gt;&lt;LI&gt; Per eseguire l&apos;aggiornamento la batteria della vettura deve essere in condizioni di carica ottimale o supportata da carica batteria / batteria aggiuntiva in modo da garantire la tensione nominale di 12V. Spegnere tutte le luci e gli accessori per evitare scariche. &lt;/UL&gt;Tempo previsto per il ripristino del livello dell&apos;olio motore: 40 minuti.&lt;BR/&gt;&lt;BR/&gt;Tempo previsto per il ripristino del livello dell&apos;olio motore e per l&apos;esecuzione dell&apos;aggiornamento software della centralina iniezione: 1 ora e 25 minuti&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

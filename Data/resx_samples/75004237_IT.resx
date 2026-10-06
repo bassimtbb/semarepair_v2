@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2021-07-27T05:30:41">
+<XDOCUMENTO>
+<ID>75004237</ID>
+<DOCNumber>CIA75270</DOCNumber>
+<RifIDTipoRis>22</RifIDTipoRis>
+<Titolo>Disposizione - Riferimenti</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>301</RifIDFileICO>
+<XFILE>
+<ID>301</ID>
+<Type>IMG</Type>
+<URL>GETFILE:301</URL>
+</XFILE>
+<XTIPORIS>
+<ID>22</ID>
+<TipoRis>CIA</TipoRis>
+<DscRis>Cinghie Ausiliarie</DscRis>
+<RifIDFileCSS>300</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>300</ID>
+<Type>CSS</Type>
+<URL>GETFILE:300</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>75004237</RifIDDoc>
+<Ordine>2</Ordine>
+<Capitolo>LEGENDA</Capitolo>
+<Corpo>&lt;table class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt;
+&lt;th width=15% class=&quot;chiaro&quot;&gt;Tipo&lt;/th&gt;
+&lt;th width=34% class=&quot;chiaro&quot;&gt;descrizione&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;Mot&lt;/td&gt;&lt;td&gt;Albero Motore&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Tns&lt;/td&gt;&lt;td&gt;Tensionatore&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Tnd&lt;/td&gt;&lt;td&gt;Tendicinghia / Galoppino&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Tsc&lt;/td&gt;&lt;td&gt;Compressore Volumetrico&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Gen&lt;/td&gt;&lt;td&gt;Alternatore&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;A/C&lt;/td&gt;&lt;td&gt;Compressore A/C&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Ssv&lt;/td&gt;&lt;td&gt;Servosterzo Idraulico&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Cool&lt;/td&gt;&lt;td&gt;Ventola di Raffreddamento&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;P-w&lt;/td&gt;&lt;td&gt;Pompa acqua&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;P-ws&lt;/td&gt;&lt;td&gt;Pompa acqua supplementare&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;P-oil&lt;/td&gt;&lt;td&gt;Pompa olio&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;P-air&lt;/td&gt;&lt;td&gt;Pompa aria&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;P-inz&lt;/td&gt;&lt;td&gt;Pompa iniezione&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;P-aux&lt;/td&gt;&lt;td&gt;Pompa idraulica / ausiliaria&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Corpo>
+<RifIDFileIMGANI>25004013</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>25004013</ID>
+<Type>IMG</Type>
+<URL>GETFILE:25004013</URL>
+</XFILE>
+</XCAPITOLO>
+<XLINKUTILI>
+<RifIDDoc>75004237</RifIDDoc>
+<LinkUtili>LEGENDA - dettaglio</LinkUtili>
+<Ordine>10</Ordine>
+<RifIDDocLink>1582</RifIDDocLink>
+<XLINKDOC>
+<ID>1582</ID>
+<DOCNumber>LNK00005</DOCNumber>
+<Documento>Vai a: Cinghie Ausiliarie - Diagnosi</Documento>
+<URL>LINKDOC:1582</URL>
+</XLINKDOC>
+</XLINKUTILI>
+<XLINKUTILI>
+<RifIDDoc>75004237</RifIDDoc>
+<LinkUtili>LEGENDA - dettaglio</LinkUtili>
+<Ordine>20</Ordine>
+<RifIDDocLink>1583</RifIDDocLink>
+<XLINKDOC>
+<ID>1583</ID>
+<DOCNumber>LNK00006</DOCNumber>
+<Documento>Vai a: Legenda Cinghie - Dettaglio</Documento>
+<URL>LINKDOC:1583</URL>
+</XLINKDOC>
+</XLINKUTILI>
+</XDOCUMENTO>
+</dataroot>

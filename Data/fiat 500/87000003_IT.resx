@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2018-12-11T08:45:06">
+<XDOCUMENTO>
+<ID>87000003</ID>
+<DOCNumber>FUS87003</DOCNumber>
+<RifIDTipoRis>20</RifIDTipoRis>
+<Titolo>Riferimenti e Localizzazione</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>265</RifIDFileICO>
+<XFILE>
+<ID>265</ID>
+<Type>IMG</Type>
+<URL>GETFILE:265</URL>
+</XFILE>
+<XTIPORIS>
+<ID>20</ID>
+<TipoRis>FUS</TipoRis>
+<DscRis>Fusibili e Relè</DscRis>
+<RifIDFileCSS>264</RifIDFileCSS>
+<RifIDTemplate>8</RifIDTemplate>
+<XFILE>
+<ID>264</ID>
+<Type>CSS</Type>
+<URL>GETFILE:264</URL>
+</XFILE>
+<XRISORSE>
+<RifIDTemplate>8</RifIDTemplate>
+<IDLabel>COLDESCRIZIONE</IDLabel>
+<Stringa>Descrizione</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>8</RifIDTemplate>
+<IDLabel>COLNUMERO</IDLabel>
+<Stringa>Numero</Stringa>
+</XRISORSE>
+<XRISORSE>
+<RifIDTemplate>8</RifIDTemplate>
+<IDLabel>COLRIFERIMENTO</IDLabel>
+<Stringa>Riferimento</Stringa>
+</XRISORSE>
+</XTIPORIS>
+<XFUSCONN>
+<RifIDDoc>87000003</RifIDDoc>
+<Ordine>1</Ordine>
+<Titolo>Localizzazione Scatole Fusibili</Titolo>
+<RifIDFileIMGANI>62504825</RifIDFileIMGANI>
+<Posizione>L</Posizione>
+<ID>62500349</ID>
+<XFILE>
+<ID>62504825</ID>
+<Type>IMG</Type>
+<URL>GETFILE:62504825</URL>
+</XFILE>
+<XTABVAL>
+<RifIDImmagine>62500349</RifIDImmagine>
+<Numero>1</Numero>
+<Descrizione>Scatola Fusibili Abitacolo</Descrizione>
+<Riferimento>Sotto il volante in basso a sinistra</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>62500349</RifIDImmagine>
+<Numero>2</Numero>
+<Descrizione>Scatola Fusibili Vano Motore</Descrizione>
+<Riferimento>Vano motore - posizione laterale</Riferimento>
+</XTABVAL>
+</XFUSCONN>
+<XFUSCONN>
+<RifIDDoc>87000003</RifIDDoc>
+<Ordine>2</Ordine>
+<Titolo>Scatola Fusibili Abitacolo</Titolo>
+<RifIDFileIMGANI>609</RifIDFileIMGANI>
+<Posizione>L</Posizione>
+<ID>87000003</ID>
+<XFILE>
+<ID>609</ID>
+<Type>IMG</Type>
+<URL>GETFILE:609</URL>
+</XFILE>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F12</Numero>
+<Descrizione>Faro anabbagliante destro</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F13</Numero>
+<Descrizione>Modulo regolazione fari</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F13</Numero>
+<Descrizione>Faro anabbagliante sinistro</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F31</Numero>
+<Descrizione>Alimentazione contatto INT/A (commutatore di accensione)</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F32</Numero>
+<Descrizione>Luci abitacolo / baule / pozzanghera</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F36</Numero>
+<Descrizione>Presa diagnosi</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F36</Numero>
+<Descrizione>Centralina climatizzatore / ricevitore radio</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F37</Numero>
+<Descrizione>Interruttore luci freni</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F37</Numero>
+<Descrizione>Quadro Strumenti</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F38</Numero>
+<Descrizione>Centralina Chiusura Porte</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F43</Numero>
+<Descrizione>Pompa lavavetro anteriore / posteriore</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F47</Numero>
+<Descrizione>Alzacristallo anteriore sinistro</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F48</Numero>
+<Descrizione>Alzacristallo anteriore destro</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F49</Numero>
+<Descrizione>Specchietti retrovisori / retroilluminazione strumentazione</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F49</Numero>
+<Descrizione>Centralina sensori di parcheggio</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F50</Numero>
+<Descrizione>Centralina Airbag</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F51</Numero>
+<Descrizione>Impianto audio / Climatizzatore</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F51</Numero>
+<Descrizione>Interruttore luci freni / pedale frizione</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000003</RifIDImmagine>
+<Numero>F53</Numero>
+<Descrizione>Quadro Strumenti</Descrizione>
+<Riferimento>5 (A)</Riferimento>
+</XTABVAL>
+</XFUSCONN>
+<XFUSCONN>
+<RifIDDoc>87000003</RifIDDoc>
+<Ordine>3</Ordine>
+<Titolo>Scatola Fusibili Vano Motore</Titolo>
+<RifIDFileIMGANI>62502660</RifIDFileIMGANI>
+<Posizione>L</Posizione>
+<ID>87000004</ID>
+<XFILE>
+<ID>62502660</ID>
+<Type>IMG</Type>
+<URL>GETFILE:62502660</URL>
+</XFILE>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F01</Numero>
+<Descrizione>Body Computer</Descrizione>
+<Riferimento>60 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F02</Numero>
+<Descrizione>Amplificatore autoradio</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F03</Numero>
+<Descrizione>Commutatore Accensione</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F04</Numero>
+<Descrizione>Centralina ABS</Descrizione>
+<Riferimento>40 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F05</Numero>
+<Descrizione>Servosterzo Elettrico</Descrizione>
+<Riferimento>70 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F06</Numero>
+<Descrizione>Elettroventola 1ª velocità</Descrizione>
+<Riferimento>20-30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F07</Numero>
+<Descrizione>Elettroventola 2ª velocità</Descrizione>
+<Riferimento>30-40 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F08</Numero>
+<Descrizione>Elettroventola radiatore climatizzatore</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F09</Numero>
+<Descrizione>Presa elettrica del rimorchio (se presente)</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F10</Numero>
+<Descrizione>Avvisatore Acustico</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F11</Numero>
+<Descrizione>Alimentazione componenti iniezione (secondari)</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F14</Numero>
+<Descrizione>Fari abbaglianti</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F15</Numero>
+<Descrizione>Tettuccio apribile (se presente)</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F16</Numero>
+<Descrizione>Centralina Iniezione / Centralina cambio robotizzato</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F16</Numero>
+<Descrizione>Alimentazione relè T20</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F17</Numero>
+<Descrizione>Centralina Iniezione</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F18</Numero>
+<Descrizione>Alimentazione relè T09</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F18</Numero>
+<Descrizione>Centralina Iniezione</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F19</Numero>
+<Descrizione>Compressore climatizzatore</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F20</Numero>
+<Descrizione>Lunotto termico</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F20</Numero>
+<Descrizione>Sbrinatore specchietti retrovisori</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F21</Numero>
+<Descrizione>Elettropompa carburante</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F22</Numero>
+<Descrizione>Elettroiniettori</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F22</Numero>
+<Descrizione>Bobina di accensione</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F23</Numero>
+<Descrizione>Gruppo valvole idrauliche ABS</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F24</Numero>
+<Descrizione>Centralina ABS / Sensore imbardata</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F24</Numero>
+<Descrizione>Servosterzo Elettrico</Descrizione>
+<Riferimento>7,5 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F30</Numero>
+<Descrizione>Fari fendinebbia</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F81</Numero>
+<Descrizione>Centralina preriscaldamento candelette (se presente)</Descrizione>
+<Riferimento>50 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F82</Numero>
+<Descrizione>Predisposizione fusibile / ausiliario</Descrizione>
+<Riferimento>- -</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F83</Numero>
+<Descrizione>Pompa cambio Dualogic (se presente)</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F84</Numero>
+<Descrizione>Elettrovalvole cambio robotizzato</Descrizione>
+<Riferimento>10 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F85</Numero>
+<Descrizione>Presa 12 V</Descrizione>
+<Riferimento>15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F87</Numero>
+<Descrizione>Relè lunotto termico</Descrizione>
+<Riferimento>5-7,5-15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F87</Numero>
+<Descrizione>Relè compressore climatizzatore</Descrizione>
+<Riferimento>5-7,5-15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F87</Numero>
+<Descrizione>Centralina Iniezione</Descrizione>
+<Riferimento>5-7,5-15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F87</Numero>
+<Descrizione>Relè fari fendinebbia</Descrizione>
+<Riferimento>5-7,5-15 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000004</RifIDImmagine>
+<Numero>F87</Numero>
+<Descrizione>Relè fari abbaglianti</Descrizione>
+<Riferimento>5-7,5-15 (A)</Riferimento>
+</XTABVAL>
+</XFUSCONN>
+<XFUSCONN>
+<RifIDDoc>87000003</RifIDDoc>
+<Ordine>4</Ordine>
+<Titolo>Scatola Fusibili Vano Motore (relè)</Titolo>
+<RifIDFileIMGANI>62502661</RifIDFileIMGANI>
+<Posizione>L</Posizione>
+<ID>87000006</ID>
+<XFILE>
+<ID>62502661</ID>
+<Type>IMG</Type>
+<URL>GETFILE:62502661</URL>
+</XFILE>
+<XTABVAL>
+<RifIDImmagine>87000006</RifIDImmagine>
+<Numero>T02</Numero>
+<Descrizione>Relè fari abbaglianti</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000006</RifIDImmagine>
+<Numero>T03</Numero>
+<Descrizione>Relè avvisatore acustico / clacson</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000006</RifIDImmagine>
+<Numero>T05</Numero>
+<Descrizione>Relè compressore climatizzatore</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000006</RifIDImmagine>
+<Numero>T06</Numero>
+<Descrizione>Relè elettroventole raffreddamento motore 1ª e 2ª velocità</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000006</RifIDImmagine>
+<Numero>T07</Numero>
+<Descrizione>Relè elettroventola raffreddamento motore 1ª velocità</Descrizione>
+<Riferimento>50 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000006</RifIDImmagine>
+<Numero>T08</Numero>
+<Descrizione>Relè elettroventola climatizzatore</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000006</RifIDImmagine>
+<Numero>T09</Numero>
+<Descrizione>Relè principale</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000006</RifIDImmagine>
+<Numero>T10</Numero>
+<Descrizione>Predisposizione relè / ausiliario</Descrizione>
+<Riferimento>50 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000006</RifIDImmagine>
+<Numero>T14</Numero>
+<Descrizione>Relè fari fendinebbia</Descrizione>
+<Riferimento>20 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000006</RifIDImmagine>
+<Numero>T17</Numero>
+<Descrizione>Relè elettropompa carburante</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000006</RifIDImmagine>
+<Numero>T19</Numero>
+<Descrizione>Relè lunotto termico</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000006</RifIDImmagine>
+<Numero>T20</Numero>
+<Descrizione>Relè centralina immobilizer</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000006</RifIDImmagine>
+<Numero>T30</Numero>
+<Descrizione>Relè pompa cambio Dualogic (se presente)</Descrizione>
+<Riferimento>50 (A)</Riferimento>
+</XTABVAL>
+<XTABVAL>
+<RifIDImmagine>87000006</RifIDImmagine>
+<Numero>T31</Numero>
+<Descrizione>Presa 12 V anteriore</Descrizione>
+<Riferimento>30 (A)</Riferimento>
+</XTABVAL>
+</XFUSCONN>
+</XDOCUMENTO>
+</dataroot>

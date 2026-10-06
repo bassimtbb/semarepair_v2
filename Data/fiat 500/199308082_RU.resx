@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:49:29">
+  <XDOCUMENTO>
+    <ID>199308082</ID>
+    <DOCNumber>GUP96908</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Zapalenie się lampki kontrolnej poduszki powietrznej (żółtej, a następnie czerwonej) oraz ogólnej la</Titolo>
+    <InfoDoc>AIRBAG | U1726 | B1053 | CENTRALINA | ACCENDE | ACCESA | GIALLO | GIALLA | ROSSO | ROSSA | TRIANGOLO | PERICOLO | PUNTO | ESCLAMATIVO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199308082</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Stopień wiarygodności   (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Legenda stopni wiarygodności &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  * niski poziom &lt;/B&gt;  : Informacja od mechanika samochodowego, przypadek usterki nie odnotowany przez producenta. &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  ** poziom średni &lt;/B&gt;  : Szeroki zakres przypadków usterki, odnotowany przez techników serwisowych i mechaników. &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  *** poziom wysoki &lt;/B&gt;  : Pewność wystąpienia usterki, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199308082</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Układ: &lt;/B&gt;  Poduszka powietrzna &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Urządzenie: &lt;/B&gt;  Moduł sterujący poduszki powietrznej &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Usterka: &lt;/B&gt;  Zapalenie się lampek kontrolnych poduszki powietrznej (żółta, a następnie czerwona) oraz ogólny kod usterki &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Błędy wykryte przez autodiagnostykę: &lt;/B&gt;  &lt;UL&gt;   &lt;LI&gt;   U1726 (Brak komunikacji z modułem sterującym poduszką powietrzną) &lt;BR&gt;  &lt;LI&gt;   B1053 (Moduł sterujący układem wtrysku; sygnał sterujący z przełącznika bezwładnościowego bezpieczeństwa – przeprowadzić autodiagnostykę) &lt;/UL&gt;  &lt;LI&gt;   &lt;B&gt;  Przyczyna: &lt;/B&gt;  Uszkodzony moduł sterujący poduszką powietrzną &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199308082</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Czynność: &lt;/B&gt;  Sprawdzić stan i prawidłowe działanie modułu sterującego poduszką powietrzną, w razie potrzeby przeprowadzić jego naprawę lub wymianę &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Procedura: &lt;/B&gt;  - - &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Uwaga: &lt;/B&gt;  Uszkodzona jednostka sterująca nie wykazywała żadnych widocznych usterek, a po jej wymianie problem został ostatecznie rozwiązany. &lt;BR&gt; Element ten znajduje się w dolnej części deski rozdzielczej, w kabinie pasażerskiej, na tunelu środkowym pod kanałem wentylacyjnym. Dostęp do niego można uzyskać od spodu schowka po stronie pasażera po zdjęciu plastikowej osłony. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

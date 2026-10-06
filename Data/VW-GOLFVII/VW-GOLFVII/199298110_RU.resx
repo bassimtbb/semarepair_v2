@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-08-24T11:47:27">
+  <XDOCUMENTO>
+    <ID>199298110</ID>
+    <DOCNumber>GUP94856</DOCNumber>
+    <RifIDTipoRis>4</RifIDTipoRis>
+    <Titolo>Brak rozruchu silnika, zapalające się kontrolki awarii silnika i świec rozgrzewających, zablokowana </Titolo>
+    <InfoDoc>CAMBIO | ELETTRONICA | CENTRALINA | MECCATRONICA | CAMBIO | AUTOMATICO | P0850 | P0607 | ACCENDONO | ACCESE | ACCESA | MIL | GIALLO | GIALLA | BLOCCA | SECONDA | RAPPORTO | MARCE | LAMPEGGIA | INTERMITTENTE | LAMPEGGIO |</InfoDoc>
+    <RifIDFileICO>227</RifIDFileICO>
+    <XFILE>
+      <ID>227</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:227</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>4</ID>
+      <TipoRis>GUP</TipoRis>
+      <DscRis>Poradnik naprawczy</DscRis>
+      <RifIDFileCSS>10</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>10</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:10</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199298110</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Stopień wiarygodności   (*)</Capitolo>
+      <Corpo> &lt;BR&gt; Legenda stopnia wiarygodności &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  * niski poziom &lt;/B&gt;  : Obserwacja mechanika samochodowego, przypadek usterki nie odnotowany przez producenta. &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  ** poziom średni &lt;/B&gt;  : Szeroki zakres przypadków usterki, potwierdzony przez techników serwisowych i mechaników. &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  *** poziom wysoki &lt;/B&gt;  : Pewność występowania usterki, wysoki stopień „powtarzalności” zgłoszony przez producenta. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199298110</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>Identyfikacja systemu / usterki</Capitolo>
+      <Corpo> &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Zastosowanie: &lt;/B&gt;  Pojazdy wyposażone w 7-biegową skrzynię biegów DSG7 (dwusprzęgłowa skrzynia biegów Volkswagen 0CW) &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Układ: &lt;/B&gt;  Skrzynia biegów &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Urządzenie: &lt;/B&gt;  Mekatroniczny moduł sterujący automatycznej skrzyni biegów &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Usterka: &lt;/B&gt;  Pojazd nie uruchamia się, a rozrusznik nie obraca się; jednocześnie skrzynia biegów pozostaje trwale zablokowana na jednym biegu (drugim), przy czym zapala się kontrolka awarii silnika i miga kontrolka awarii świec żarowych. &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Błędy wykryte przez autodiagnostykę: &lt;/B&gt;  &lt;UL&gt;   &lt;LI&gt;   P0850 (Obwód wejściowy przełącznika skrzyni biegów, pozycja P-N – błąd ogólny) &lt;BR&gt;  &lt;LI&gt;   P0607 (Moduł sterujący wtryskiem paliwa silnika, moduł wydajności – błąd wewnętrzny) &lt;/UL&gt;  &lt;LI&gt;   &lt;B&gt;  Przyczyna: &lt;/B&gt;  Uszkodzony mechatroniczny moduł sterujący automatyczną skrzynią biegów &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199298110</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Capitolo>Procedura naprawy</Capitolo>
+      <Corpo> &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Czynność: &lt;/B&gt;  Sprawdzić działanie mechatronicznego modułu sterującego automatycznej skrzyni biegów i, w razie potrzeby, przystąpić do jego naprawy &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Procedura: &lt;/B&gt;  - - &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   &lt;B&gt;  Uwaga: &lt;/B&gt;  W omawianym przypadku na sterowniku mechatronicznym automatycznej skrzyni biegów zauważono wyciek oleju; po jego wymianie usterka została trwale usunięta. &lt;BR&gt; Dostęp do tego elementu uzyskuje się od spodu silnika; znajduje się on w komorze silnikowej pomiędzy silnikiem a chłodnicą, po stronie kierowcy, i jest połączony ze skrzynią biegów od strony zewnętrznej, przy chłodnicy; dostęp do modułu sterującego uzyskuje się po zdjęciu węża płynu chłodzącego z chłodnicy. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

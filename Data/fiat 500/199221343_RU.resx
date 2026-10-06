@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-21T01:07:00">
+  <XDOCUMENTO>
+    <ID>199221343</ID>
+    <DOCNumber>DRA76373</DOCNumber>
+    <RifIDTipoRis>45</RifIDTipoRis>
+    <Titolo>Zautomatyzowana skrzynia biegów Fiat-GM C514-5 (5 biegów)</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>45</ID>
+      <TipoRis>DRV</TipoRis>
+      <DscRis>Automatyczna skrzynia biegów</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Dane techniczne – smary</Capitolo>
+      <Corpo> &lt;B&gt; Producent: &lt;/B&gt;  Fiat-GM Powertrain &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Oznaczenie: &lt;/B&gt;  C514-5 &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Nazwa handlowa: &lt;/B&gt;  Dualogic / Selespeed &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Wymiana oleju w zautomatyzowanej skrzyni biegów: &lt;/B&gt;   &lt;BR/&gt; Zgodnie z harmonogramem konserwacji lub po zapaleniu się kontrolki &lt;BR/&gt;  &lt;BR/&gt;  &lt;TABLE class=&quot;contenuto&quot; width=99% border=1 cellpadding=1 cellspacing=0&gt;  &lt;TH width=60% class=&quot;chiaro&quot;&gt; Opis &lt;/TH&gt;  &lt;TH width=25% class=&quot;chiaro&quot;&gt; Jednostka miary &lt;/TH&gt;  &lt;TH width=15% class=&quot;chiaro&quot;&gt; Dane &lt;/TH&gt;  &lt;TR&gt;  &lt;TD&gt; Liczba biegów: &lt;/TD&gt;  &lt;TD&gt; Nr &lt;/TD&gt;  &lt;TD&gt; 5 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Olej do automatycznej skrzyni biegów – specyfikacja producenta: &lt;/TD&gt;  &lt;TD&gt; Nr kat. &lt;/TD&gt;  &lt;TD&gt; FIAT 9.55550-MZ6 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Olej do automatycznej skrzyni biegów – gęstość: &lt;/TD&gt;  &lt;TD&gt; Nr kat. &lt;/TD&gt;  &lt;TD&gt; SAE 75W API GL 4 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Olej do automatycznej skrzyni biegów – Ilość: &lt;/TD&gt;  &lt;TD&gt; Litry &lt;/TD&gt;  &lt;TD&gt; 1,65 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Olej do siłownika automatycznej skrzyni biegów – specyfikacja producenta: &lt;/TD&gt;  &lt;TD&gt; Nr katalogowy &lt;/TD&gt;  &lt;TD&gt; FIAT 9.55550-SAI &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Olej do siłownika automatycznej skrzyni biegów – ilość: &lt;/TD&gt;  &lt;TD&gt; Litrów &lt;/TD&gt;  &lt;TD&gt; 0,7 &lt;/TD&gt;  &lt;/TR&gt;  &lt;TR&gt;  &lt;TD&gt; Temperatura sprawdzania poziomu oleju w automatycznej skrzyni biegów: &lt;/TD&gt;  &lt;TD&gt; °C &lt;/TD&gt;  &lt;TD&gt; - - &lt;/TD&gt;  &lt;/TR&gt;  &lt;/TABLE&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504107</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504107</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504107</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>11</Ordine>
+      <Capitolo>Lokalizacja sterownika automatycznej skrzyni biegów</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  Moduł sterujący automatycznej skrzyni biegów znajduje się pod deską rozdzielczą, po stronie pasażera, za osłoną &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>62504109</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>62504109</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504109</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>12</Ordine>
+      <Capitolo>Procedura spuszczania i uzupełniania oleju w zautomatyzowanej skrzyni biegów</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  Ustawić pojazd na równym podłożu &lt;BR/&gt;  &lt;LI&gt;  Wyłączyć silnik &lt;BR/&gt;  &lt;LI&gt;  Zdjąć dolną osłonę wygłuszającą &lt;BR/&gt;  &lt;LI&gt;  Umieścić pod pojazdem miskę do zbierania zużytego oleju &lt;BR/&gt;  &lt;LI&gt;  Odkręcić korek wlewu oleju w zautomatyzowanej skrzyni biegów  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Odkręcić korek spustowy  &lt;B&gt; B &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Poczekać, aż olej ze skrzyni biegów całkowicie wypłynie &lt;BR/&gt;  &lt;LI&gt;  Założyć korek spustowy  &lt;B&gt; B &lt;/B&gt; , dokręcając momentem  &lt;B&gt; 16–20 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; UWAGA:  &lt;/B&gt; Nie uruchamiać silnika bez oleju w skrzyni biegów &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt;  Należy uzupełnić  &lt;B&gt; 1,65 litra &lt;/B&gt;  oleju przekładniowego przez otwór wlewowy  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Przejść do procedury sprawdzania poziomu oleju w zautomatyzowanej skrzyni biegów &lt;BR/&gt;  &lt;LI&gt;  Założyć korek wlewu  &lt;B&gt; A &lt;/B&gt; , dokręcając go momentem  &lt;B&gt; 23–28 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007896</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007896</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007896</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>13</Ordine>
+      <Capitolo>Procedura sprawdzania poziomu oleju w zautomatyzowanej skrzyni biegów</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  Ustawić pojazd na równym podłożu &lt;BR/&gt;  &lt;LI&gt;  Zdjąć dolną osłonę wygłuszającą &lt;BR/&gt;  &lt;LI&gt;  Umieścić pod pojazdem miskę do zbierania zużytego oleju &lt;BR/&gt;  &lt;LI&gt;  Odkręcić korek wlewu  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Upewnić się, że poziom oleju w skrzyni biegów sięga dolnej krawędzi otworu wlewu  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  W razie potrzeby uzupełnić olej przekładniowy przez otwór wlewowy  &lt;B&gt; A &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Włożyć korek wlewu  &lt;B&gt; A &lt;/B&gt; , dokręcając momentem  &lt;B&gt; 23–28 Nm &lt;/B&gt;  &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007897</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007897</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007897</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199221343</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Kontrola poziomu oleju w siłowniku automatycznej skrzyni biegów</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt;  Kontrola poziomu oleju w automatycznej skrzyni biegów powinna być przeprowadzana przy oleju o temperaturze otoczenia i zimnym silniku &lt;BR/&gt;  &lt;LI&gt;  Ustawić dźwignię automatycznej skrzyni biegów w pozycji  &lt;B&gt; (N) &lt;/B&gt;  &lt;BR/&gt;  &lt;LI&gt;  Za pomocą sprzętu diagnostycznego rozhermetyzować hydrauliczny obwód siłownika &lt;BR/&gt;  &lt;LI&gt;  Wyjąć bezpiecznik  &lt;B&gt; F83 &lt;/B&gt;  (30 A) na cały czas trwania operacji &lt;BR/&gt;  &lt;LI&gt;  Sprawdzić, czy poziom oleju w zbiorniku siłownika odpowiada oznaczeniu MAX na zbiorniku &lt;BR/&gt;  &lt;LI&gt;  W razie potrzeby uzupełnić olej &lt;BR/&gt;  &lt;LI&gt;  Zużycie oleju w zautomatyzowanej skrzyni biegów jest bardzo niewielkie. Jeśli poziom oleju jest niższy od poziomu minimalnego, należy sprawdzić, czy nie ma wycieków &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>299007898</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299007898</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299007898</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

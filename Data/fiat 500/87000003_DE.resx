@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-18T12:12:41">
+  <XDOCUMENTO>
+    <ID>87000003</ID>
+    <DOCNumber>FUS87003</DOCNumber>
+    <RifIDTipoRis>20</RifIDTipoRis>
+    <Titolo>Referenzen und Lokalisierung</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>265</RifIDFileICO>
+    <XFILE>
+      <ID>265</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:265</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>20</ID>
+      <TipoRis>FUS</TipoRis>
+      <DscRis>Sicherungen und Relais</DscRis>
+      <RifIDFileCSS>264</RifIDFileCSS>
+      <RifIDTemplate>8</RifIDTemplate>
+      <XFILE>
+        <ID>264</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:264</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLDESCRIZIONE</IDLabel>
+        <Stringa>Beschreibung</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLNUMERO</IDLabel>
+        <Stringa>Anzahl</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>8</RifIDTemplate>
+        <IDLabel>COLRIFERIMENTO</IDLabel>
+        <Stringa>Referenz</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XFUSCONN>
+      <RifIDDoc>87000003</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Titolo>Lokalisierung von Sicherungskästen</Titolo>
+      <RifIDFileIMGANI>62504825</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>62500349</ID>
+      <XFILE>
+        <ID>62504825</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62504825</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>62500349</RifIDImmagine>
+        <Numero>1</Numero>
+        <Descrizione>Sicherungskasten im Fahrgastraum</Descrizione>
+        <Riferimento>Unter dem Lenkrad unten links</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>62500349</RifIDImmagine>
+        <Numero>2</Numero>
+        <Descrizione>Sicherungskasten im Motorraum</Descrizione>
+        <Riferimento>Motorraum – seitliche Lage</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>87000003</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Titolo>Sicherungskasten im Fahrgastraum</Titolo>
+      <RifIDFileIMGANI>609</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87000003</ID>
+      <XFILE>
+        <ID>609</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:609</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F12</Numero>
+        <Descrizione>Rechtes Abblendlicht</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Linkes Abblendlicht</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F13</Numero>
+        <Descrizione>Scheinwerfer-Einstellmodul</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F31</Numero>
+        <Descrizione>Stromversorgung des Kontakts INT/A (Zündschalter)</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F32</Numero>
+        <Descrizione>Innenraum-/Kofferraum-/Pfützenbeleuchtung</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Diagnosestecker</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F36</Numero>
+        <Descrizione>Steuergerät für die Klimaanlage / Radioempfänger</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Bremslichtschalter</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F37</Numero>
+        <Descrizione>Armaturenbrett</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F38</Numero>
+        <Descrizione>Steuergerät für die Türverriegelung</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F43</Numero>
+        <Descrizione>Scheibenwaschpumpe vorne / hinten</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F47</Numero>
+        <Descrizione>Fensterheber vorne links</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F48</Numero>
+        <Descrizione>Fensterheber vorne rechts</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>Rückspiegel / Hintergrundbeleuchtung der Instrumententafel</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F49</Numero>
+        <Descrizione>Steuergerät für Parksensoren</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F50</Numero>
+        <Descrizione>Airbag-Steuergerät</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F51</Numero>
+        <Descrizione>Audioanlage / Klimaanlage</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F51</Numero>
+        <Descrizione>Bremslichtschalter / Kupplungspedal</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000003</RifIDImmagine>
+        <Numero>F53</Numero>
+        <Descrizione>Armaturenbrett</Descrizione>
+        <Riferimento>5 (A)</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>87000003</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Titolo>Sicherungskasten im Motorraum</Titolo>
+      <RifIDFileIMGANI>62502660</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87000004</ID>
+      <XFILE>
+        <ID>62502660</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62502660</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F01</Numero>
+        <Descrizione>Fahrzeugcomputer</Descrizione>
+        <Riferimento>60 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F02</Numero>
+        <Descrizione>Autoradio-Verstärker</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F03</Numero>
+        <Descrizione>Zündschalter</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F04</Numero>
+        <Descrizione>ABS-Steuergerät</Descrizione>
+        <Riferimento>40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F05</Numero>
+        <Descrizione>Elektrische Servolenkung</Descrizione>
+        <Riferimento>70 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F06</Numero>
+        <Descrizione>Elektrolüfter, 1. Stufe</Descrizione>
+        <Riferimento>20–30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F07</Numero>
+        <Descrizione>Elektrolüfter, 2. Stufe</Descrizione>
+        <Riferimento>30–40 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F08</Numero>
+        <Descrizione>Elektrischer Kühlerlüfter der Klimaanlage</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F09</Numero>
+        <Descrizione>Steckdose am Anhänger (falls vorhanden)</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F10</Numero>
+        <Descrizione>Akustischer Signalgeber</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F11</Numero>
+        <Descrizione>Versorgung der Einspritzkomponenten (Sekundärkomponenten)</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F14</Numero>
+        <Descrizione>Fernlicht</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F15</Numero>
+        <Descrizione>Schiebedach (falls vorhanden)</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Einspritzsteuergerät / Steuergerät für automatisiertes Getriebe</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F16</Numero>
+        <Descrizione>Stromversorgung des Relais T20</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F17</Numero>
+        <Descrizione>Einspritzsteuergerät</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Einspritzsteuergerät</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F18</Numero>
+        <Descrizione>Stromversorgung des Relais T09</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F19</Numero>
+        <Descrizione>Klimaanlagenkompressor</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>Beheizbare Heckscheibe</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F20</Numero>
+        <Descrizione>Rückspiegel-Enteisungsvorrichtung</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F21</Numero>
+        <Descrizione>Elektrische Kraftstoffpumpe</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F22</Numero>
+        <Descrizione>Zündspule</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F22</Numero>
+        <Descrizione>Elektroinjektoren</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F23</Numero>
+        <Descrizione>ABS-Hydraulikventilgruppe</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>Elektrische Servolenkung</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F24</Numero>
+        <Descrizione>ABS-Steuergerät / Gierratensensor</Descrizione>
+        <Riferimento>7,5 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F30</Numero>
+        <Descrizione>Nebelscheinwerfer</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F81</Numero>
+        <Descrizione>Steuergerät für die Glühkerzenvorwärmung (falls vorhanden)</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F82</Numero>
+        <Descrizione>Sicherungs-/Hilfsschalter</Descrizione>
+        <Riferimento>- -</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F83</Numero>
+        <Descrizione>Dualogic-Getriebepumpe (falls vorhanden)</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F84</Numero>
+        <Descrizione>Magnetventile für automatisierte Getriebe</Descrizione>
+        <Riferimento>10 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F85</Numero>
+        <Descrizione>12-V-Steckdose</Descrizione>
+        <Riferimento>15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F87</Numero>
+        <Descrizione>Einspritzsteuergerät</Descrizione>
+        <Riferimento>5–7,5–15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F87</Numero>
+        <Descrizione>Klimaanlagen-Kompressorrelais</Descrizione>
+        <Riferimento>5–7,5–15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F87</Numero>
+        <Descrizione>Nebelscheinwerfer-Relais</Descrizione>
+        <Riferimento>5–7,5–15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F87</Numero>
+        <Descrizione>Relais für die Heckscheibenheizung</Descrizione>
+        <Riferimento>5–7,5–15 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000004</RifIDImmagine>
+        <Numero>F87</Numero>
+        <Descrizione>Fernlichtrelais</Descrizione>
+        <Riferimento>5–7,5–15 (A)</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+    <XFUSCONN>
+      <RifIDDoc>87000003</RifIDDoc>
+      <Ordine>4</Ordine>
+      <Titolo>Sicherungskasten im Motorraum (Relais)</Titolo>
+      <RifIDFileIMGANI>62502661</RifIDFileIMGANI>
+      <Posizione>L</Posizione>
+      <ID>87000006</ID>
+      <XFILE>
+        <ID>62502661</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:62502661</URL>
+      </XFILE>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T02</Numero>
+        <Descrizione>Fernlichtrelais</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T03</Numero>
+        <Descrizione>Akustisches Warnrelais / Hupe</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T05</Numero>
+        <Descrizione>Klimaanlagen-Kompressorrelais</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T06</Numero>
+        <Descrizione>Relais für elektrische Motorkühlgebläse, 1. und 2. Stufe</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T07</Numero>
+        <Descrizione>Relais für den elektrischen Motorkühlventilator, 1. Stufe</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T08</Numero>
+        <Descrizione>Relais für den elektrischen Lüfter der Klimaanlage</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T09</Numero>
+        <Descrizione>Hauptrelais</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T10</Numero>
+        <Descrizione>Anordnung von Relais / Hilfsrelais</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T14</Numero>
+        <Descrizione>Nebelscheinwerfer-Relais</Descrizione>
+        <Riferimento>20 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T17</Numero>
+        <Descrizione>Relais für die Kraftstoffpumpe</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T19</Numero>
+        <Descrizione>Relais für die Heckscheibenheizung</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T20</Numero>
+        <Descrizione>Relais der Wegfahrsperren-Steuereinheit</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T30</Numero>
+        <Descrizione>Relais der Dualogic-Getriebepumpe (falls vorhanden)</Descrizione>
+        <Riferimento>50 (A)</Riferimento>
+      </XTABVAL>
+      <XTABVAL>
+        <RifIDImmagine>87000006</RifIDImmagine>
+        <Numero>T31</Numero>
+        <Descrizione>12-V-Steckdose vorne</Descrizione>
+        <Riferimento>30 (A)</Riferimento>
+      </XTABVAL>
+    </XFUSCONN>
+  </XDOCUMENTO>
+</dataroot>

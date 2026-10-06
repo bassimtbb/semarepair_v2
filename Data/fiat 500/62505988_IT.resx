@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2013-12-04T17:02:42">
+<XDOCUMENTO>
+<ID>62505988</ID>
+<DOCNumber>GUR62509</DOCNumber>
+<RifIDTipoRis>5</RifIDTipoRis>
+<Titolo>Ripristino avviamento motore in seguito ad un urto</Titolo>
+<InfoDoc></InfoDoc>
+<RifIDFileICO>228</RifIDFileICO>
+<XFILE>
+<ID>228</ID>
+<Type>IMG</Type>
+<URL>GETFILE:228</URL>
+</XFILE>
+<XTIPORIS>
+<ID>5</ID>
+<TipoRis>GUR</TipoRis>
+<DscRis>Guida Regolazione</DscRis>
+<RifIDFileCSS>10</RifIDFileCSS>
+<RifIDTemplate>1</RifIDTemplate>
+<XFILE>
+<ID>10</ID>
+<Type>CSS</Type>
+<URL>GETFILE:10</URL>
+</XFILE>
+</XTIPORIS>
+<XCAPITOLO>
+<RifIDDoc>62505988</RifIDDoc>
+<Ordine>10</Ordine>
+<Capitolo>Informazioni sul sistema</Capitolo>
+<Corpo>&lt;BR/&gt;La vettura è dotata di un sistema di prevenzione degli incendi denomintato &lt;B&gt;FPS (Fire Prevention System)&lt;/B&gt;. &lt;BR/&gt;&lt;BR/&gt;In seguito ad un urto di modesta entità il sistema FPS interviene in questo modo:&lt;BR/&gt;&lt;BR/&gt;- Interruzione alimentazione carburante da centralina iniezione&lt;BR/&gt;- Sblocco chiusura porte&lt;BR/&gt;- Accensione luce plafoniera&lt;BR/&gt;- Accensione luci di emergenza&lt;BR/&gt;- Nel quadro strumenti appare il messaggio &lt;B&gt;&quot;FPS ON&quot;&lt;/B&gt; oppure &lt;B&gt;&quot;Blocco carburante intervenuto&quot;&lt;/B&gt;&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>62503867</RifIDFileIMGANI>
+<Allineamento>R</Allineamento>
+<XFILE>
+<ID>62503867</ID>
+<Type>IMG</Type>
+<URL>GETFILE:62503867</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62505988</RifIDDoc>
+<Ordine>20</Ordine>
+<Capitolo>Ripristino avviamento motore</Capitolo>
+<Corpo>&lt;BR/&gt;Procedura ripristino avviamento motore:&lt;BR/&gt;&lt;BR/&gt;1- Inserire l&apos;accensione&lt;BR/&gt;2- Tramite lo spostamento della devioguida &lt;B&gt;accendere&lt;/B&gt; l&apos;indicatore di direzione &lt;B&gt;destro&lt;/B&gt;&lt;BR/&gt;3- Tramite lo spostamento della devioguida &lt;B&gt;spegnere&lt;/B&gt; l&apos;indicatore di direzione &lt;B&gt;destro&lt;/B&gt;&lt;BR/&gt;4- Tramite lo spostamento della devioguida &lt;B&gt;accendere&lt;/B&gt; l&apos;indicatore di direzione &lt;B&gt;sinistro&lt;/B&gt;&lt;BR/&gt;5- Tramite lo spostamento della devioguida &lt;B&gt;spegnere&lt;/B&gt; l&apos;indicatore di direzione &lt;B&gt;sinistro&lt;/B&gt;&lt;BR/&gt;6- Tramite lo spostamento della devioguida &lt;B&gt;accendere&lt;/B&gt; l&apos;indicatore di direzione &lt;B&gt;destro&lt;/B&gt;&lt;BR/&gt;7- Tramite lo spostamento della devioguida &lt;B&gt;spegnere&lt;/B&gt; l&apos;indicatore di direzione &lt;B&gt;destro&lt;/B&gt;&lt;BR/&gt;8- Tramite lo spostamento della devioguida &lt;B&gt;accendere&lt;/B&gt; l&apos;indicatore di direzione &lt;B&gt;sinistro&lt;/B&gt;&lt;BR/&gt;9- Tramite lo spostamento della devioguida &lt;B&gt;spegnere&lt;/B&gt; l&apos;indicatore di direzione &lt;B&gt;sinistro&lt;/B&gt;&lt;BR/&gt;10- Disinserire l&apos;accensione&lt;BR/&gt;&lt;BR/&gt;Ora il sistema FPS risulta disattivato, e sarà possibile avviare il motore&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+<XCAPITOLO>
+<RifIDDoc>62505988</RifIDDoc>
+<Ordine>40</Ordine>
+<Capitolo>Avvertenze</Capitolo>
+<Corpo>&lt;BR/&gt;Su alcune vetture la procedura manuale potrebbe non essere possibile. In tal caso procedere con l&apos;attrezzatura diagnostica&lt;BR/&gt;&lt;BR/&gt;</Corpo>
+<RifIDFileIMGANI>0</RifIDFileIMGANI>
+<Allineamento>B</Allineamento>
+<XFILE>
+<ID>0</ID>
+<Type>- -</Type>
+<URL>GETFILE:0</URL>
+</XFILE>
+</XCAPITOLO>
+</XDOCUMENTO>
+</dataroot>

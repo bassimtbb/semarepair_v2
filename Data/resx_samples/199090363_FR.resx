@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-20T08:31:24">
+  <XDOCUMENTO>
+    <ID>199090363</ID>
+    <DOCNumber>COP88134</DOCNumber>
+    <RifIDTipoRis>24</RifIDTipoRis>
+    <Titolo>Liste pour moteurs K9K-872</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>226</RifIDFileICO>
+    <XFILE>
+      <ID>226</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:226</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>24</ID>
+      <TipoRis>COP</TipoRis>
+      <DscRis>Couples de serrage</DscRis>
+      <RifIDFileCSS>3</RifIDFileCSS>
+      <RifIDTemplate>10</RifIDTemplate>
+      <XFILE>
+        <ID>3</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:3</URL>
+      </XFILE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLDATO</IDLabel>
+        <Stringa>Description</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLUM</IDLabel>
+        <Stringa>Unités de mesure</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>COLVALORE</IDLabel>
+        <Stringa>Données</Stringa>
+      </XRISORSE>
+      <XRISORSE>
+        <RifIDTemplate>10</RifIDTemplate>
+        <IDLabel>TITOLETTO</IDLabel>
+        <Stringa>Liste des données</Stringa>
+      </XRISORSE>
+    </XTIPORIS>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato>Séquence de serrage de la Cylinder head</Dato>
+      <Valore>Consulter l'image</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>75010599</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>75010599</ID>
+        <DOCNumber>LIS75871</DOCNumber>
+        <URL>LINKDOC:75010599</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato>Cylinder head 1ère phase - Serrage</Dato>
+      <Valore>20</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato>Cylinder head 2e phase - Serrage</Dato>
+      <Valore>25</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato> Cylinder head 3e phase - Serrage</Dato>
+      <Valore>260°-280°</Valore>
+      <UnitaMis>Degrés</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato>Remplacement des boulons de Cylinder head</Dato>
+      <Valore>Recommandée</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato>Lubrification des boulons de Cylinder head</Dato>
+      <Valore>Non</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato>Paliers de vilebrequin</Dato>
+      <Valore>Remarque</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199070695</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199070695</ID>
+        <DOCNumber>LIS77384</DOCNumber>
+        <URL>LINKDOC:199070695</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato>Paliers de vilebrequin 1ère phase - Serrage</Dato>
+      <Valore>25</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato> Roulements de vilebrequin 2e phase - Serrage</Dato>
+      <Valore>41°-53°</Valore>
+      <UnitaMis>Degrés</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato>Remplacement des boulons des roulements de banc</Dato>
+      <Valore>Recommandée</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato>Chapeaux de coussinets de bielle 1ère phase - Serrage</Dato>
+      <Valore>25</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato> Chapeaux de coussinets de bielle 2e phase - Serrage</Dato>
+      <Valore>104°-116°</Valore>
+      <UnitaMis>Degrés</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato>Remplacement des boulons des chapeaux de roulements de bielle</Dato>
+      <Valore>Recommandée</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato> Boulon de poulie d'arbre moteur (central)</Dato>
+      <Valore>Remarque</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199090364</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199090364</ID>
+        <DOCNumber>LIS77609</DOCNumber>
+        <URL>LINKDOC:199090364</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato>Boulons de volant</Dato>
+      <Valore>25 Nm et de 44° à 56°</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato>Remplacement des boulons du volant moteur</Dato>
+      <Valore>Recommandée</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato>Boulons de disque d'embrayage</Dato>
+      <Valore>23</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato>Engrenage de distribution</Dato>
+      <Valore>25 Nm et de 54° à 66°</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato>Remplacement des boulons de distribution</Dato>
+      <Valore>Recommandée</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato> Chapeaux d'arbre à cames</Dato>
+      <Valore>Remarque</Valore>
+      <UnitaMis>-</UnitaMis>
+      <RifIDDocLIS>199079429</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>199079429</ID>
+        <DOCNumber>LIS77471</DOCNumber>
+        <URL>LINKDOC:199079429</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato>Collecteur d'échappement vers la Cylinder head</Dato>
+      <Valore>25</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+    <XCOPSERR>
+      <RifIDDoc>199090363</RifIDDoc>
+      <Gruppo>COUPLES DE SERRAGE</Gruppo>
+      <Dato>Fixation des injecteurs</Dato>
+      <Valore>27</Valore>
+      <UnitaMis>Nm</UnitaMis>
+      <RifIDDocLIS>0</RifIDDocLIS>
+      <XLINKDOCLIS>
+        <ID>0</ID>
+        <DOCNumber>- -</DOCNumber>
+        <URL>LINKDOC:0</URL>
+      </XLINKDOCLIS>
+    </XCOPSERR>
+  </XDOCUMENTO>
+</dataroot>

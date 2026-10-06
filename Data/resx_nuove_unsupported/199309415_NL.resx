@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-10-03T13:44:09">
+  <XDOCUMENTO>
+    <ID>199309415</ID>
+    <DOCNumber>FLT76248</DOCNumber>
+    <RifIDTipoRis>37</RifIDTipoRis>
+    <Titolo>Lokalisatie en vervanging</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>37</ID>
+      <TipoRis>FLT</TipoRis>
+      <DscRis>Interieurfilter</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199309415</RifIDDoc>
+      <Ordine>10</Ordine>
+      <Capitolo>Procedures</Capitolo>
+      <Corpo> &lt;B&gt;  Afmetingen filter: &lt;/B&gt;  &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;  L = 254 mm. &lt;BR&gt;  &lt;LI&gt;  H = 235 mm. &lt;BR&gt;  &lt;LI&gt;  S = 32 mm. &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  Geschatte tijd voor vervanging: &lt;/B&gt;  &lt;BR&gt;  &lt;BR&gt; 5 minuten &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  Locatie: &lt;/B&gt;  &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;  In het interieur &lt;BR&gt;  &lt;LI&gt;  Achter het opbergvak &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  Vervanging: &lt;/B&gt;  &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;   Open het opbergvak. &lt;BR&gt;  &lt;LI&gt;   In het opbergvak bevinden zich rechtsboven en linksboven twee plastic knoppen. Druk hierop om het opbergvak te ontgrendelen, zodat u het volledig kunt openen. &lt;BR&gt;  &lt;LI&gt;   Verwijder het deksel van het interieurfilter. &lt;BR&gt;  &lt;LI&gt;   Trek het filter eruit. &lt;BR&gt;  &lt;BR&gt;  &lt;BR&gt;  &lt;B&gt;  Terugplaatsen: &lt;/B&gt;  &lt;BR&gt;  &lt;BR&gt;  &lt;LI&gt;  Volg de stappen in omgekeerde volgorde. &lt;BR&gt;  &lt;BR&gt; </Corpo>
+      <RifIDFileIMGANI>299024934</RifIDFileIMGANI>
+      <Allineamento>R</Allineamento>
+      <XFILE>
+        <ID>299024934</ID>
+        <Type>IMG</Type>
+        <URL>GETFILE:299024934</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

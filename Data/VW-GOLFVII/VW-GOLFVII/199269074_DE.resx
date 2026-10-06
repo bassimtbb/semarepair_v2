@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-07-18T04:48:16">
+  <XDOCUMENTO>
+    <ID>199269074</ID>
+    <DOCNumber>POP84109</DOCNumber>
+    <RifIDTipoRis>46</RifIDTipoRis>
+    <Titolo>WICHTIGE INFORMATION</Titolo>
+    <InfoDoc>TAG+TGE88342+TGE88343</InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>46</ID>
+      <TipoRis>POP</TipoRis>
+      <DscRis>Hinweis</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199269074</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>WARTUNG: RIEMEN UND BAUGRUPPEN Wartung in festgelegten Intervallen</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; Wichtige Austauschmaßnahmen: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Alle 210.000 km – Zahnriemen – Austausch &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Alle 210.000 km – Zahnriemenspanner – Austausch &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199269074</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>WARTUNG: RIEMEN UND BAUGRUPPEN Langzeitwartung – Longlife</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; Wichtige Austauschmaßnahmen: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Alle 210.000 km – Zahnriemen – Austausch &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Alle 210.000 km – Zahnriemenspanner – Austausch &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199269074</RifIDDoc>
+      <Ordine>3</Ordine>
+      <Capitolo>DURCHFÜHRUNG VON WARTUNGEN GEMÄSS DER VERORDNUNG BER/2010</Capitolo>
+      <Corpo> &lt;BR/&gt;  &lt;LI&gt; Verwenden Sie Ersatzteile in Originalqualität oder solche, die dem Original entsprechen. &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Verwenden Sie Schmierstoffe gemäß den Vorschriften des Herstellers. &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Geben Sie auf dem Konformitätsnachweis und auf der Rechnung die Art des verwendeten Schmiermittels an (Marke, Handelsname, Viskosität und Spezifikation). &lt;BR/&gt;  &lt;BR/&gt;  &lt;LI&gt; Geben Sie auf dem Konformitätsnachweis und auf der Rechnung die Art des verwendeten Ersatzteils an (Marke, Ersatzteilnummer). &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

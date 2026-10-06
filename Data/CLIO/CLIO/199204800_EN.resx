@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-02-06T18:35:47">
+  <XDOCUMENTO>
+    <ID>199204800</ID>
+    <DOCNumber>POP79023</DOCNumber>
+    <RifIDTipoRis>46</RifIDTipoRis>
+    <Titolo>IMPORTANT INFORMATION</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>0</RifIDFileICO>
+    <XFILE>
+      <ID>0</ID>
+      <Type>- -</Type>
+      <URL>GETFILE:0</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>46</ID>
+      <TipoRis>POP</TipoRis>
+      <DscRis>Notice</DscRis>
+      <RifIDFileCSS>0</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>199204800</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>MAINTENANCE: BELTS AND AGGREGATES </Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;B&gt; Important Replacement Interventions: &lt;/B&gt; &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Every 150,000 km or 6 years - Timing Belt - Replacement &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Every 150,000 km or 6 years - Timing Belt Tensioner - Replacement &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Every 150,000 km or 6 years - Timing Belt Guide Pulley - Replacement &lt;BR/&gt; &lt;BR/&gt;  &lt;LI&gt; Every 150,000 km or 6 years - Auxiliary/service belt - Replacement &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Every 150,000 km or 6 years - Auxiliary/service belt tensioner - Replacement &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>199204800</RifIDDoc>
+      <Ordine>2</Ordine>
+      <Capitolo>SERVICING IN ACCORDANCE WITH BER/2010 REGULATIONS</Capitolo>
+      <Corpo> &lt;BR/&gt; &lt;LI&gt; Use original quality spare parts or parts that correspond to the original. &lt;BR/&gt; &lt;BR/&gt; &lt;LI&gt; Use lubricants in accordance with the manufacturer&apos;s specifications. &lt;BR/&gt; &lt;BR/&gt;  &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; Indicate the type of lubricant used (brand, trade name, viscosity and specification) on the compliance sheet and invoice. &lt;BR/&gt;&lt;BR/&gt; &lt;LI&gt; Indicate the type of spare part used (brand, spare part code) on the compliance sheet and invoice. &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+  </XDOCUMENTO>
+</dataroot>

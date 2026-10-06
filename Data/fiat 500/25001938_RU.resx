@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2026-09-23T04:33:08">
+  <XDOCUMENTO>
+    <ID>25001938</ID>
+    <DOCNumber>INT25057</DOCNumber>
+    <RifIDTipoRis>21</RifIDTipoRis>
+    <Titolo>Fiat 500</Titolo>
+    <InfoDoc></InfoDoc>
+    <RifIDFileICO>294</RifIDFileICO>
+    <XFILE>
+      <ID>294</ID>
+      <Type>IMG</Type>
+      <URL>GETFILE:294</URL>
+    </XFILE>
+    <XTIPORIS>
+      <ID>21</ID>
+      <TipoRis>INT</TipoRis>
+      <DscRis>Oficjalne komunikaty serwisowe</DscRis>
+      <RifIDFileCSS>293</RifIDFileCSS>
+      <RifIDTemplate>1</RifIDTemplate>
+      <XFILE>
+        <ID>293</ID>
+        <Type>CSS</Type>
+        <URL>GETFILE:293</URL>
+      </XFILE>
+    </XTIPORIS>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>1</Ordine>
+      <Capitolo>Źródło danych – Ministerstwo Transportu</Capitolo>
+      <Corpo> &lt;B&gt; Producent: &lt;/B&gt;  Fiat Auto S.p.a.  &lt;BR/&gt;  &lt;BR/&gt;  &lt;B&gt; Marka: &lt;/B&gt;  Fiat  &lt;BR/&gt;  &lt;BR/&gt; Usterki uznane przez producentów zgodnie z dekretem 78/2000</Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>20</Ordine>
+      <Capitolo>Fiat 500</Capitolo>
+      <Corpo> &lt;BR/&gt; Liczba pojazdów: 108 &lt;BR/&gt; Okres produkcji: CZERWIEC 2020 &lt;BR/&gt; Opis usterki: MOŻLIWA NIEPRAWIDŁOWA PRACA SYSTEMU START-STOP &lt;BR/&gt; Działania naprawcze: AKTUALIZACJA PROXI &lt;BR/&gt; Odniesienie dla DEALERÓW &lt;BR/&gt; Uwagi – &lt;BR/&gt; Zakres numerów podwozi od: ZFA3120000JD77396  &lt;BR/&gt; Zakres numerów podwozi do: ZFA3120000JD80992 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 298 &lt;BR/&gt; Okres produkcji: listopad 2018 – grudzień 2018 &lt;BR/&gt; Opis usterki: MOŻLIWE PĘKNIĘCIE PRAWEGO PRZEDNIEGO PÓŁWAŁU &lt;BR/&gt; Działania naprawcze: WYMIANA &lt;BR/&gt; Informacje dla DEALERÓW &lt;BR/&gt; Uwagi – &lt;BR/&gt; Zakres numerów ram od: ZFA3120000JB11886  &lt;BR/&gt; Zakres numerów ram do: ...25994 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 22356 &lt;BR/&gt; Okres produkcji: PAŹDZIEŃ 2017 – KWIECIEŃ 2019 &lt;BR/&gt; Opis usterki: MOŻLIWA NIEPRAWIDŁOWA PRACA PODUSZKI POWIETRZNEJ &lt;BR/&gt; Działania naprawcze: AKTUALIZACJA OPROGRAMOWANIA MODUŁU STERUJĄCEGO &lt;BR/&gt; Numer referencyjny u dealerów &lt;BR/&gt; Uwagi – &lt;BR/&gt; Zakres numerów podwozia od: ZFA3340000P622051  &lt;BR/&gt; Zakres numerów podwozia do: ...787333 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 11543 &lt;BR/&gt; Okres produkcji: LIP 2017 SIE 2017 &lt;BR/&gt; Opis usterki: MOŻLIWE ZABLOKOWANIE WSKAŹNIKA PRĘDKOŚCI &lt;BR/&gt; Działania naprawcze: WYMIANA DESKI ROZDZIELCZEJ &lt;BR/&gt; Numer referencyjny DEALERÓW &lt;BR/&gt; Uwagi – &lt;BR/&gt; Zakres numerów podwozia od: ZFA3120000J843082  &lt;BR/&gt; Zakres numerów podwozia do: ZFA3100000J858977 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 26 &lt;BR/&gt; Okres produkcji: marzec 2017 r. &lt;BR/&gt; Opis usterki: NIEZGODNOŚĆ PRZEKŁADNI KIEROWNICZEJ &lt;BR/&gt; Działania naprawcze: EWENTUALNA WYMIANA &lt;BR/&gt; Informacje dla dealerów &lt;BR/&gt; Uwagi – &lt;BR/&gt; Zakres numerów podwozi od: ZFA3120000J762210  &lt;BR/&gt; Zakres numerów podwozi do: ZFA3120000J7653319 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 321 &lt;BR/&gt; Okres produkcji: WRZ 2016 &lt;BR/&gt; Opis usterki: NIEZGODNE Z NORMĄ KLOCKI HAMULCOWE TYLNE &lt;BR/&gt; Działania naprawcze: EWENTUALNA WYMIANA &lt;BR/&gt; Informacje dla DEALERÓW &lt;BR/&gt; Uwagi – &lt;BR/&gt; Zakres numerów podwozi od: ZFA3120000J658682  &lt;BR/&gt; Zakres numerów podwozi do: ….664976 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 2176 &lt;BR/&gt; Okres produkcji: GRUD 2015 – STYC 2016 &lt;BR/&gt; Opis usterki: NIEZGODNA PROWADNICA PRAWEGO PRZEDNIEGO SIEDZENIA &lt;BR/&gt; Działania naprawcze: EWENTUALNA WYMIANA KONSTRUKCJI &lt;BR/&gt; Numer referencyjny 80034280000 &lt;BR/&gt; Uwagi – &lt;BR/&gt; Zakres numerów podwozia od: ZFA3120000J516840  &lt;BR/&gt; Zakres numerów podwozia do: ZFA3120000J527059 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 20 &lt;BR/&gt; Okres produkcji: WRZ 2014 – PAŹ 2014 &lt;BR/&gt; Opis usterki: NIEZGODNE Z NORMĄ DRĄŻKI MOCUJĄCE PRZEDNIE PASY BEZPIECZEŃSTWA &lt;BR/&gt; Działania naprawcze: WYMIANA &lt;BR/&gt; Numer referencyjny DEALERÓW &lt;BR/&gt; Uwagi - &lt;BR/&gt; Zakres numerów podwozia od: ZFA3120000J281982  &lt;BR/&gt; Zakres numerów podwozia do: ZFA3120000J286237 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 198 &lt;BR/&gt; Okres produkcji: od czerwca 2012 r. do września 2012 r. &lt;BR/&gt; Opis usterki: Niezgodność przewodu podciśnieniowego servohamulca &lt;BR/&gt; Działania naprawcze: Sprawdzenie i ewentualna wymiana &lt;BR/&gt; Informacje kontaktowe: Dealerzy &lt;BR/&gt; Zakres numerów podwozia od: ZFA31200000878086  &lt;BR/&gt; Zakres numerów podwozia do: ZFA31200000890578 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 319 &lt;BR/&gt; Okres produkcji: czerwiec 2010 r. &lt;BR/&gt; Opis usterki: Niezgodna śruba mocująca wał napędowy układu kierowniczego &lt;BR/&gt; Działania naprawcze: Ewentualna wymiana &lt;BR/&gt; Informacje: Salony dealerskie &lt;BR/&gt; Zakres numerów podwozia od: ZFA31200000549070  &lt;BR/&gt; Zakres numerów podwozi do: ZFA31200000550399 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 910  &lt;BR/&gt; Okres produkcji: od września 2009 r. do grudnia 2009 r. &lt;BR/&gt; Opis usterki: Niezgodność wału pośredniego układu kierowniczego  &lt;BR/&gt; Działania naprawcze: Kontrola i ewentualna wymiana &lt;BR/&gt; Kontakt: Salony dealerskie  &lt;BR/&gt; Zakres numerów podwozi od: ZFA31200000396248  &lt;BR/&gt; Zakres numerów podwozi do: ZFA31200000438371 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 24579  &lt;BR/&gt; Okres produkcji: od września 2008 r. do lutego 2009 r. &lt;BR/&gt; Opis usterki: Możliwe poluzowanie śrub mocujących płytę zacisków hamulców tylnych  &lt;BR/&gt; Działania naprawcze: Kontrola i ewentualne dokręcenie &lt;BR/&gt; Odniesienie: Salon dealerski &lt;BR/&gt; Zakres numerów podwozia od: ZFA31200000206893  &lt;BR/&gt; Zakres numerów podwozia do: ZFA31200000279954 &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 20799  &lt;BR/&gt; Okres produkcji: od października 2007 r. do listopada 2007 r.  &lt;BR/&gt; Opis usterki: Możliwa nieprawidłowość w procesie wulkanizacji przewodu gumowego układu hamulcowego  &lt;BR/&gt; Działania naprawcze: Sprawdzenie i ewentualna wymiana  &lt;BR/&gt; Odniesienie: Salon dealerski &lt;BR/&gt; Uwagi: w przypadku niekolejnych numerów podwozia należy skontaktować się z salonem dealerskim  &lt;BR/&gt; Zakres numerów podwozia od: 500: zfa31200000032289  &lt;BR/&gt; Zakres numerów podwozia do: zfa31200000039463 &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>30</Ordine>
+      <Capitolo>Fiat 500 1.3 Multijet</Capitolo>
+      <Corpo> &lt;BR/&gt; Liczba pojazdów: 899  &lt;BR/&gt; Okres produkcji: od lutego 2010 r. do kwietnia 2010 r. &lt;BR/&gt; Opis usterki: Możliwa niezgodność śrub mocujących pompę hydrauliczną sterowania sprzęgłem i wynikająca z tego niemożność włączania biegów  &lt;BR/&gt; Działania naprawcze: Wymiana śrub mocujących &lt;BR/&gt; Zakres numerów podwozia od: ZFA31200000454835  &lt;BR/&gt; Zakres numerów podwozia do: ZFA31200000508162 &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>40</Ordine>
+      <Capitolo>Fiat 500 1.2 i 1.4 8v</Capitolo>
+      <Corpo> &lt;BR/&gt; Liczba pojazdów: 2547  &lt;BR/&gt; Okres produkcji: od lipca 2008 r. do października 2008 r. &lt;BR/&gt; Opis usterki: Możliwa niezgodność kolektora paliwa silnika &lt;BR/&gt; Działania naprawcze: Sprawdzenie i ewentualna wymiana &lt;BR/&gt; Odniesienie: Salon dealerski  &lt;BR/&gt; Zakres numerów podwozia od: ZFA31200000202179  &lt;BR/&gt; Zakres numerów podwozia do: ZFA31200000223226 &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XCAPITOLO>
+      <RifIDDoc>25001938</RifIDDoc>
+      <Ordine>50</Ordine>
+      <Capitolo>Fiat 500 Elettrica</Capitolo>
+      <Corpo> &lt;BR/&gt; Liczba pojazdów: 9 &lt;BR/&gt; Okres produkcji: PAŹDZIEŃ 2012 – KWIECIEŃ 2014 &lt;BR/&gt; Opis usterki: MODUŁ INWERTERA ZASILANIA NIEZGODNY Z NORMĄ &lt;BR/&gt; Działania naprawcze: WYMIANA &lt;BR/&gt; Odniesienie do DEALERÓW &lt;BR/&gt; Uwagi: NUMER PODWOZIA NIE PODANY &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 14 &lt;BR/&gt; Okres produkcji: PAŹDZIEŃ 2012 – LISTOPAD 2014 &lt;BR/&gt; Opis usterki: UTRATA MOCY SILNIKA SPOWODOWANA NIEPRAWIDŁOWYM DZIAŁANIEM UKŁADU ELEKTRYCZNEGO WYSOKIEGO NAPIĘCIA &lt;BR/&gt; Działania naprawcze: AKTUALIZACJA OPROGRAMOWANIA &lt;BR/&gt; Numer referencyjny 80034280000 &lt;BR/&gt; Uwagi: W PRZYPADKU NIEOKREŚLONYCH NUMERÓW PODWOZI SKONTAKTOWAĆ SIĘ Z DEALERAMI &lt;BR/&gt;  &lt;BR/&gt;  &lt;BR/&gt; Liczba pojazdów: 19 &lt;BR/&gt; Okres produkcji: PAŹ 2012 – STYCZ 2016 &lt;BR/&gt; Opis usterki: MODUŁ ZASILANIA FALOWNIKA (PIM) NIE ZAPROGRAMOWANY ZGODNIE Z NORMĄ, CO POWODUJE UTRATĘ MOCY NAPĘDOWEJ &lt;BR/&gt; Działania naprawcze: PRZEPROGRAMOWANIE &lt;BR/&gt; Odniesienie dla DEALERÓW &lt;BR/&gt; Uwagi – &lt;BR/&gt; Zakres numerów podwozi od: 3C3CFFGE0DT500186  &lt;BR/&gt; Zakres numerów podwozi do: 3C3CFFGEXGT205326 &lt;BR/&gt;  &lt;BR/&gt; </Corpo>
+      <RifIDFileIMGANI>0</RifIDFileIMGANI>
+      <Allineamento>B</Allineamento>
+      <XFILE>
+        <ID>0</ID>
+        <Type>- -</Type>
+        <URL>GETFILE:0</URL>
+      </XFILE>
+    </XCAPITOLO>
+    <XLINKUTILI>
+      <RifIDDoc>25001938</RifIDDoc>
+      <LinkUtili>Link do Ministerstwa Infrastruktury i Transportu</LinkUtili>
+      <Ordine>1</Ordine>
+      <RifIDDocLink>15000122</RifIDDocLink>
+      <XLINKDOC>
+        <ID>15000122</ID>
+        <DOCNumber>LNK00008</DOCNumber>
+        <Documento>Przejdź do: Komunikaty – Ministerstwo Transportu</Documento>
+        <URL>LINKDOC:15000122</URL>
+      </XLINKDOC>
+    </XLINKUTILI>
+  </XDOCUMENTO>
+</dataroot>
