@@ -2,36 +2,20 @@ namespace SearchService.Models;
 
 // What the loaded archive actually contains - GET /api/search/coverage.
 //
-// Every number here is a SQL aggregate over the real tables, never a
-// constant. The help drawer that displays them tells the client this is a
-// demo carrying one vehicle, and states its size; a size written into the
-// frontend goes stale the first time the archive grows. Five wiring
-// diagrams are currently missing their drawing and have been asked for,
-// so the day they arrive an ingestion run has to be enough to correct what
-// the interface claims. Nobody should have to remember to edit a number in
-// a TypeScript file.
+// Every number and every suggested question here is read from the real
+// tables, never written by hand. The help drawer that displays them is a
+// promise to the mechanic, and a promise compiled into the frontend goes
+// stale the first time a car arrives: the archive went from one vehicle to
+// four in an afternoon, and nothing in this response had to be edited.
 public class CoverageResponse
 {
     public List<CoverageVehicle> Vehicles { get; set; } = [];
-
-    // Repair sheets (anomalia/causa/intervento), across all languages -
-    // the other half of the archive, beside the technical chunks counted
-    // per language below.
-    public long RepairDocuments { get; set; }
-
     public List<CoverageLanguage> Languages { get; set; } = [];
-
-    // Every DTC the archive can answer, sorted. Listed rather than
-    // summarised because the failure it prevents is specific: a tester who
-    // types a code at random gets a correct "not found" and concludes the
-    // product is broken. The first client to try it did exactly that, with
-    // P1200 - a code this archive does not carry - and reported back that
-    // it was not working well.
-    public List<string> FaultCodes { get; set; } = [];
 }
 
 public class CoverageVehicle
 {
+    public string IdMacchina { get; set; } = "";
     public string? Marca { get; set; }
     public string? Modello { get; set; }
     public string? Motorizzazione { get; set; }
@@ -41,26 +25,65 @@ public class CoverageVehicle
     public int? Kw { get; set; }
     public int? Cavalli { get; set; }
     public string? CodiceMotore { get; set; }
+
+    // What the mechanic types to select this car - brand, model and trim,
+    // no years or fuel. Measured: it returns exactly one match per vehicle,
+    // so the suggestion leads straight to a single card rather than a list.
+    public string Query { get; set; } = "";
+
+    public CoverageSections Sections { get; set; } = new();
+}
+
+// One block per kind of answer the product can give. A block the vehicle
+// cannot fill comes back EMPTY, and the drawer then shows no section at all
+// - the BMW carries no fault code, and saying nothing about codes is more
+// honest than an empty list under a heading that promises some.
+//
+// The questions are the archive's own words - anomalia texts, chunk
+// headings, the codes themselves. Nothing is phrased here: it is Italian
+// workshop language, which is what the mechanic will type anyway, and the
+// fifth vehicle will bring its own without a line being written.
+public class CoverageSections
+{
+    // The product's core: a symptom in, a repair sheet out.
+    public CoverageSection Cases { get; set; } = new();
+
+    // Questions whose answer carries a picture that was REALLY delivered -
+    // not merely referenced. See SEMAREPAIR_ASSETS_PATH.
+    public CoverageSection Photos { get; set; } = new();
+
+    // This vehicle's own DTCs, not the archive's.
+    public CoverageSection FaultCodes { get; set; } = new();
+
+    public CoverageSection Diagrams { get; set; } = new();
+    public CoverageSection Manual { get; set; } = new();
+
+    // Values with no picture attached - torques, pressures, thicknesses.
+    public CoverageSection Technical { get; set; } = new();
+}
+
+public class CoverageSection
+{
+    // Everything the vehicle holds of this kind, which is what the counts
+    // line states. Examples is a sample of it, not the whole.
+    public long Total { get; set; }
+    public List<string> Examples { get; set; } = [];
 }
 
 // One row per language present in knowledge_chunks. The counts differ
-// sharply between them in the current archive - Italian carries the manual
-// and the diagrams, French, Spanish and Portuguese carry neither - and the
-// language menu shows that difference rather than hiding it. Offering a
-// language whose archive is empty is a promise the data cannot keep.
+// sharply between them - Italian carries the manual and the diagrams,
+// French, Spanish and Portuguese carry neither - and the language menu
+// shows that difference rather than hiding it. Offering a language whose
+// archive is empty is a promise the data cannot keep.
 public class CoverageLanguage
 {
     public string Code { get; set; } = "";
-
     public long Facts { get; set; }
     public long Procedures { get; set; }
     public long ManualPages { get; set; }
 
-    // Distinct drawings that can actually be DISPLAYED, not legend rows: a
-    // legend whose asset_id is null is a diagram whose component list was
-    // delivered without the drawing itself, and counting it would promise
-    // a picture that does not exist. Counted per asset because one diagram
-    // contributes one legend row per component - 43 rows for the injection
-    // schematic alone.
+    // Distinct drawings that can be DISPLAYED: a legend whose asset is
+    // missing is a diagram whose component list arrived without the
+    // drawing, and counting it would promise a picture that does not exist.
     public long Diagrams { get; set; }
 }

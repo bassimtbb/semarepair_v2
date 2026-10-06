@@ -1,32 +1,38 @@
-import { Component, EventEmitter, HostListener, OnInit, Output, computed } from '@angular/core';
+import { Component, EventEmitter, HostListener, OnInit, Output, computed, effect } from '@angular/core';
 import {
-  LucideX, LucideStar, LucideMessageCircle, LucideChevronRight,
-  LucideSparkles, LucideAudioLines, LucideMaximize, LucideShieldCheck,
-  LucideLanguages, LucideListTree,
+  LucideX, LucideStar, LucideMessageCircle, LucideCar, LucideWrench, LucideImage,
+  LucideHash, LucideZap, LucideBookOpen, LucideGauge, LucideSparkles,
+  LucideAudioLines, LucideMaximize, LucideShieldCheck, LucideLanguages,
 } from '@lucide/angular';
 import { HelpPanelService } from '../../services/help-panel.service';
 import { UiLanguageService } from '../../services/ui-language.service';
 import { CoverageService } from '../../services/coverage.service';
+import type { CoverageSection, CoverageVehicle } from '../../services/coverage.service';
 import { ChatStore } from '../../services/chat-store.service';
 import { h, LANGUAGE_NAMES } from '../../services/help-strings';
 import type { HelpLanguage } from '../../services/help-strings';
 
-// The help drawer: that this is a demo carrying one vehicle, how to drive
-// it, and four questions known to return something.
+// The help drawer: what this demo holds, vehicle by vehicle, and questions
+// that are known to return something.
 //
-// It slides in over the chat with NO backdrop, and a click outside does
-// not close it. Both are deliberate, and both were wrong in the first
-// version: it had a full-screen backdrop bound to close(), so reaching for
-// the input bar to try what you had just read dismissed the panel. The
-// point of a drawer rather than a dialog is that the reader can test while
-// he reads. Escape and the close button are the ways out.
+// It slides in over the chat with NO backdrop and a click outside does not
+// close it - .app-shell pads itself by the drawer's width instead, so the
+// chat narrows rather than being covered. Both were wrong in the first
+// version: it was a dialog sitting on the input bar the reader was invited
+// to type into. Escape and the close button are the ways out.
+//
+// Everything below the headings is read from /api/search/coverage. The
+// archive went from one vehicle to four in an afternoon and not a line here
+// changed - which is the whole point, because a panel that states counts
+// and sample questions is making promises, and a promise compiled into the
+// frontend goes stale on the next delivery.
 @Component({
   selector: 'app-help-drawer',
   standalone: true,
   imports: [
-    LucideX, LucideStar, LucideMessageCircle, LucideChevronRight,
-    LucideSparkles, LucideAudioLines, LucideMaximize, LucideShieldCheck,
-    LucideLanguages, LucideListTree,
+    LucideX, LucideStar, LucideMessageCircle, LucideCar, LucideWrench, LucideImage,
+    LucideHash, LucideZap, LucideBookOpen, LucideGauge, LucideSparkles,
+    LucideAudioLines, LucideMaximize, LucideShieldCheck, LucideLanguages,
   ],
   template: `
     <aside
@@ -52,31 +58,99 @@ import type { HelpLanguage } from '../../services/help-strings';
 
       <div class="help-body">
 
-        <!-- La mention demo, en premier. Un client a qui on envoie un lien
-             doit savoir que l'archive ne porte qu'un seul vehicule AVANT
-             de tester : annonce, c'est un perimetre assume ; passee sous
-             silence, sa premiere question sur une autre voiture se lit
-             comme un produit en panne. -->
+        <!-- La mention demo, en premier et encadree. Un client a qui on
+             envoie un lien doit savoir AVANT de tester que l'archive est
+             volontairement reduite - et, depuis qu'il y a quatre voitures,
+             qu'elles ne portent pas toutes la meme chose. -->
         <section class="help-section help-section--demo bg-surface border-border">
           <div class="help-section-head text-accent">
             <svg lucideStar [size]="15"></svg>
             <span>{{ t().demo_title }}</span>
           </div>
-          <p class="help-text text-foreground">{{ t().demo_body(vehicles().length) }}</p>
-
-          @if (vehicles().length) {
-            <p class="help-counts text-muted">{{ t().demo_vehicles_label }}</p>
-            <ul class="help-vehicles text-muted">
-              @for (v of vehicles(); track v) { <li>{{ v }}</li> }
-            </ul>
-          }
-          @if (countsLine(); as counts) {
-            <p class="help-counts text-muted">{{ counts }}</p>
-          }
-          @if (repairLine(); as repairs) {
-            <p class="help-counts text-muted">{{ repairs }}</p>
-          }
+          <p class="help-text text-foreground">{{ t().demo_body(coverage.vehicles().length) }}</p>
         </section>
+
+        @if (selected(); as car) {
+          <!-- Un vehicule est confirme : on ne montre plus que le sien. -->
+          <section class="help-section">
+            <div class="help-section-head text-accent">
+              <svg lucideCar [size]="15"></svg>
+              <span>{{ car.marca }} {{ car.modello }}</span>
+            </div>
+            <p class="help-counts text-muted">{{ coverage.label(car) }}</p>
+          </section>
+
+          <!-- Les sections, dans l'ordre de ce que le produit SERT a faire :
+               trouver la panne d'abord, illustrer ensuite. Une section que
+               ce vehicule ne peut pas remplir n'est pas rendue du tout -
+               la BMW n'a aucun code guasto, et ne rien dire le dit mieux
+               qu'une liste vide sous un titre qui en promet. -->
+          @for (s of sections(car); track s.key) {
+            @if (s.section.total > 0 && s.section.examples.length) {
+              <section class="help-section">
+                <div class="help-section-head text-accent">
+                  @switch (s.key) {
+                    @case ('cases')     { <svg lucideWrench [size]="15"></svg> }
+                    @case ('photos')    { <svg lucideImage [size]="15"></svg> }
+                    @case ('codes')     { <svg lucideHash [size]="15"></svg> }
+                    @case ('diagrams')  { <svg lucideZap [size]="15"></svg> }
+                    @case ('manual')    { <svg lucideBookOpen [size]="15"></svg> }
+                    @case ('technical') { <svg lucideGauge [size]="15"></svg> }
+                  }
+                  <span>{{ s.title }}</span>
+                  <span class="help-codes-count text-muted">{{ s.section.total }} {{ s.unit }}</span>
+                </div>
+
+                @if (s.key === 'codes') {
+                  @for (group of coverage.groupFaultCodes(s.section.examples); track group.prefix) {
+                    <div class="help-codes-group">
+                      <div class="help-codes-label text-muted">{{ groupLabel(group.prefix) }}</div>
+                      <div class="help-codes-grid">
+                        @for (code of group.codes; track code) {
+                          <button type="button"
+                                  class="help-code bg-surface border-border text-foreground hover:bg-foreground/8"
+                                  (click)="suggest.emit(code)">{{ code }}</button>
+                        }
+                      </div>
+                    </div>
+                  }
+                  <p class="help-hint text-muted">{{ t().codes_hint }}</p>
+                } @else {
+                  <div class="help-chips">
+                    @for (q of s.section.examples; track q) {
+                      <button type="button"
+                              class="help-chip bg-surface border-border text-foreground hover:bg-foreground/8"
+                              (click)="suggest.emit(q)">{{ q }}</button>
+                    }
+                  </div>
+                  <p class="help-hint text-muted">{{ t().try_hint }}</p>
+                }
+              </section>
+            }
+          }
+        } @else if (coverage.vehicles().length) {
+          <!-- Aucun vehicule confirme : le choix du vehicule EST la premiere
+               question. Poser une question technique avant lui ne peut que
+               retourner une demande de clarification. -->
+          <section class="help-section">
+            <div class="help-section-head text-accent">
+              <svg lucideCar [size]="15"></svg>
+              <span>{{ t().choose_vehicle }}</span>
+            </div>
+            <div class="help-chips">
+              @for (v of coverage.vehicles(); track v.idMacchina) {
+                <button type="button"
+                        class="help-vehicle bg-surface border-border text-foreground hover:bg-foreground/8"
+                        (click)="suggest.emit(v.query)">
+                  <span class="help-vehicle-name">{{ v.marca }} {{ v.modello }}</span>
+                  <span class="help-vehicle-spec text-muted">{{ coverage.label(v) }}</span>
+                  <span class="help-vehicle-holds text-muted">{{ holdings(v) }}</span>
+                </button>
+              }
+            </div>
+            <p class="help-hint text-muted">{{ t().choose_vehicle_hint }}</p>
+          </section>
+        }
 
         <section class="help-section">
           <div class="help-section-head text-accent">
@@ -89,61 +163,6 @@ import type { HelpLanguage } from '../../services/help-strings';
             <li>{{ t().howto_3 }}</li>
           </ol>
         </section>
-
-        <!-- Un clic ecrit la phrase dans le champ SANS l'envoyer, et le
-             tiroir reste ouvert : le lecteur voit le texte arriver la ou
-             il devra taper le sien, et peut le modifier avant de valider. -->
-        <section class="help-section">
-          <div class="help-section-head text-accent">
-            <svg lucideChevronRight [size]="15"></svg>
-            <span>{{ t().try_title }}</span>
-          </div>
-          <div class="help-chips">
-            @for (q of suggestions(); track q) {
-              <button
-                type="button"
-                class="help-chip bg-surface border-border text-foreground hover:bg-foreground/8"
-                (click)="suggest.emit(q)"
-              >{{ q }}</button>
-            }
-          </div>
-          <p class="help-hint text-muted">{{ t().try_hint }}</p>
-        </section>
-
-        <!-- Replie par defaut : 139 codes deplies pousseraient tout le reste
-             du tiroir hors de l'ecran. <details> plutot qu'un signal, parce
-             que le navigateur sait deja le faire, au clavier comme au
-             lecteur d'ecran. -->
-        @if (coverage.faultCodeGroups(); as groups) {
-          @if (groups.length) {
-            <section class="help-section">
-              <details class="help-codes">
-                <summary class="help-section-head text-accent">
-                  <svg lucideListTree [size]="15"></svg>
-                  <span>{{ t().codes_title }}</span>
-                  <span class="help-codes-count text-muted">{{ t().codes_count(totalCodes()) }}</span>
-                </summary>
-
-                @for (group of groups; track group.prefix) {
-                  <div class="help-codes-group">
-                    <div class="help-codes-label text-muted">{{ groupLabel(group.prefix) }}</div>
-                    <div class="help-codes-grid">
-                      @for (code of group.codes; track code) {
-                        <button
-                          type="button"
-                          class="help-code bg-surface border-border text-foreground hover:bg-foreground/8"
-                          (click)="suggest.emit(code)"
-                        >{{ code }}</button>
-                      }
-                    </div>
-                  </div>
-                }
-
-                <p class="help-hint text-muted">{{ t().codes_hint }}</p>
-              </details>
-            </section>
-          }
-        }
 
         <section class="help-section">
           <div class="help-section-head text-accent">
@@ -165,9 +184,8 @@ import type { HelpLanguage } from '../../services/help-strings';
           <p class="help-text text-foreground">{{ t().zoom_body }}</p>
         </section>
 
-        <!-- Ce n'est pas une excuse : pour un atelier, un systeme qui
-             invente une procedure de freinage est un danger, et un systeme
-             qui dit "je n'ai pas" est un outil. -->
+        <!-- Pour un atelier, un systeme qui invente une procedure de freinage
+             est un danger ; un systeme qui dit "je n'ai pas" est un outil. -->
         <section class="help-section">
           <div class="help-section-head text-accent">
             <svg lucideShieldCheck [size]="15"></svg>
@@ -177,7 +195,7 @@ import type { HelpLanguage } from '../../services/help-strings';
         </section>
 
         <!-- Chaque option porte ce que l'archive couvre reellement dans
-             cette langue. Proposer une langue vide serait une promesse que
+             cette langue : proposer une langue vide serait une promesse que
              les donnees ne peuvent pas tenir. -->
         <section class="help-section">
           <div class="help-section-head text-accent">
@@ -203,12 +221,11 @@ import type { HelpLanguage } from '../../services/help-strings';
 })
 export class HelpDrawerComponent implements OnInit {
   // The chosen question, for the page to write into the input bar. The
-  // drawer does not reach into the composer itself - it says what was
-  // picked and lets the page place it.
+  // drawer does not reach into the composer - it says what was picked and
+  // lets the page place it.
   @Output() readonly suggest = new EventEmitter<string>();
 
   readonly languages = Object.keys(LANGUAGE_NAMES) as HelpLanguage[];
-
   readonly t = computed(() => h(this.ui.lang()));
 
   constructor(
@@ -216,10 +233,15 @@ export class HelpDrawerComponent implements OnInit {
     readonly ui: UiLanguageService,
     readonly coverage: CoverageService,
     private readonly chat: ChatStore,
-  ) {}
+  ) {
+    // The suggestions are the archive's own words, so they are in the
+    // archive's language - switching the menu has to refetch them, not just
+    // relabel the headings around them.
+    effect(() => this.coverage.load(this.ui.lang()));
+  }
 
   ngOnInit(): void {
-    this.coverage.load();
+    this.coverage.load(this.ui.lang());
   }
 
   @HostListener('document:keydown.escape')
@@ -227,55 +249,45 @@ export class HelpDrawerComponent implements OnInit {
     if (this.help.isOpen()) this.help.close();
   }
 
-  // All of them, not just the first. The archive held one car for weeks and
-  // the panel was written for that; naming only vehicles[0] now would hide
-  // three of the four from the person being asked to test them.
-  readonly vehicles = computed(() =>
-    (this.coverage.coverage()?.vehicles ?? []).map(v => this.coverage.vehicleLabel(v)),
-  );
+  // The confirmed car, matched to its coverage row by idMacchina - the only
+  // unambiguous identity, since one engine code can span several trims.
+  readonly selected = computed<CoverageVehicle | null>(() => {
+    const confirmed = this.chat.confirmedCar();
+    if (!confirmed) return null;
+    return this.coverage.vehicles().find(v => v.idMacchina === confirmed.idMacchina) ?? null;
+  });
 
-  readonly countsLine = computed(() => {
-    const c = this.coverage.forLanguage(this.ui.lang());
-    if (!c) return null;
-
+  // Fault cases first, pictures second. The client is evaluating a
+  // diagnostic tool, not a gallery: the first thing it should show is what
+  // it is FOR. A photo impresses, but it illustrates - it does not prove.
+  sections(car: CoverageVehicle): { key: string; title: string; unit: string; section: CoverageSection }[] {
     const s = this.t();
-    if (c.manualPages > 0 && c.diagrams > 0) return s.demo_counts(c.facts, c.diagrams, c.manualPages);
-    if (c.diagrams > 0) return s.demo_counts_no_manual(c.facts, c.diagrams);
-    return s.demo_counts_data_only(c.facts);
-  });
+    const c = car.sections;
+    return [
+      { key: 'cases',     title: s.sec_cases,     unit: s.unit_cases,     section: c.cases },
+      { key: 'photos',    title: s.sec_photos,    unit: s.unit_photos,    section: c.photos },
+      { key: 'codes',     title: s.sec_codes,     unit: s.unit_codes,     section: c.faultCodes },
+      { key: 'diagrams',  title: s.sec_diagrams,  unit: s.unit_diagrams,  section: c.diagrams },
+      { key: 'manual',    title: s.sec_manual,    unit: s.unit_manual,    section: c.manual },
+      { key: 'technical', title: s.sec_technical, unit: s.unit_technical, section: c.technical },
+    ];
+  }
 
-  readonly repairLine = computed(() => {
-    const n = this.coverage.coverage()?.repairDocuments;
-    return n ? this.t().demo_repairs(n) : null;
-  });
-
-  // Contextual, and filtered by what the selected language actually holds.
-  //
-  // Before a vehicle is confirmed the only offer is the vehicle itself:
-  // asking about a fuse first earns a clarifying question, and a first
-  // impression of not having been understood. After confirmation, the two
-  // diagram questions appear only where diagrams exist - in French,
-  // Spanish and Portuguese the archive has none, and offering them there
-  // would be the drawer breaking the one rule the product keeps.
-  readonly suggestions = computed<string[]>(() => {
+  // One line per vehicle card saying what it actually carries, so the reader
+  // picks knowing the four are not equivalent - the Fiat alone has the
+  // scanned manual, the BMW has no fault code at all.
+  holdings(v: CoverageVehicle): string {
     const s = this.t();
+    const c = v.sections;
+    return [
+      c.cases.total      ? `${c.cases.total} ${s.unit_cases}`           : null,
+      c.faultCodes.total ? `${c.faultCodes.total} ${s.unit_codes}`      : null,
+      c.photos.total     ? `${c.photos.total} ${s.unit_photos}`         : null,
+      c.diagrams.total   ? `${c.diagrams.total} ${s.unit_diagrams}`     : null,
+      c.manual.total     ? `${c.manual.total} ${s.unit_manual}`         : null,
+    ].filter(Boolean).join(' · ');
+  }
 
-    if (!this.chat.confirmedCar()) {
-      // One chip per vehicle: with four cars loaded, the first question is
-      // no longer "say this sentence" but "which of these is yours".
-      return (this.coverage.coverage()?.vehicles ?? []).map(v => this.coverage.vehicleQuery(v));
-    }
-
-    const out = [s.q_fuse, s.q_fusebox];
-    const c = this.coverage.forLanguage(this.ui.lang());
-    if (c && c.diagrams > 0) out.push(s.q_diagram, s.q_airbag);
-    return out;
-  });
-
-  readonly totalCodes = computed(() => this.coverage.coverage()?.faultCodes.length ?? 0);
-
-  // The prefix is the only part of a DTC that means something without a
-  // lookup table, so it is what the groups are labelled with.
   groupLabel(prefix: string): string {
     const s = this.t();
     switch (prefix) {

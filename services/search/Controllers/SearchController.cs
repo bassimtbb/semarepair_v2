@@ -150,7 +150,7 @@ public class SearchController : ControllerBase
     // vehicle - and, on this deployment, the first thing the client will
     // want to know.
     [HttpGet("coverage")]
-    public Task<CoverageResponse> Coverage() => _coverage.GetAsync();
+    public Task<CoverageResponse> Coverage([FromQuery] string lang = "it") => _coverage.GetAsync(lang);
 
     // GET /api/search/fault-code?code=P2279&codiceMotore=XUJN&marca=FORD&lang=it
     // Italian query params (codiceMotore/marca) - a deliberate deviation

@@ -5,6 +5,13 @@
 // and is safe to read aloud. This text describes the interface instead - it
 // is written by us, about us - so it lives beside it rather than inside it.
 //
+// Note what is NOT here any more: the suggested questions. They used to be
+// four hardcoded Italian sentences, which only ever fitted one vehicle. They
+// now come from /api/search/coverage - real anomalia texts, real chunk
+// headings, the car's own fault codes - so a fifth vehicle brings its own
+// without a line being written here. What remains is the labelling: section
+// names, units, and the prose that frames them.
+//
 // The Record<HelpLanguage, HelpCopy> below is what forces all five
 // translations to exist: adding a key and forgetting Portuguese does not
 // ship a half-translated panel, it fails the build.
@@ -19,37 +26,41 @@ export interface HelpCopy {
   // continuously, so the one that makes the language menu feel real.
   placeholder: string;
 
-  // The demo notice. First thing in the drawer and first thing the client
-  // reads: the archive holds one vehicle, on purpose. Said plainly, it
-  // reads as a scope; left unsaid, the first question about another car
-  // reads as the product being broken.
   demo_badge: string;
   demo_title: string;
-  // Takes the vehicle count, because the archive stopped being one car the
-  // day three more arrived. A sentence that says "a single vehicle" while
-  // four are loaded is the exact staleness the coverage endpoint exists to
-  // prevent - so the wording follows the data like the figures do.
   demo_body: (vehicles: number) => string;
-  demo_vehicles_label: string;
-  demo_counts: (facts: number, diagrams: number, pages: number) => string;
-  demo_counts_no_manual: (facts: number, diagrams: number) => string;
-  demo_counts_data_only: (facts: number) => string;
-  demo_repairs: (n: number) => string;
+
+  choose_vehicle: string;
+  choose_vehicle_hint: string;
 
   howto_title: string;
   howto_1: string;
   howto_2: string;
   howto_3: string;
 
-  try_title: string;
-  try_hint: string;
+  // One heading per kind of answer the product can give. A section whose
+  // vehicle has nothing of that kind is not rendered at all - the BMW
+  // carries no fault code, and showing no heading says so better than an
+  // empty list under one that promises some.
+  sec_cases: string;
+  sec_photos: string;
+  sec_codes: string;
+  sec_diagrams: string;
+  sec_manual: string;
+  sec_technical: string;
 
-  // The fault codes the archive can answer. A tester who types a code at
-  // random gets a correct "not found" and concludes the product is broken -
-  // which is exactly what happened the first time a client tried it.
-  codes_title: string;
-  codes_count: (n: number) => string;
+  // Units for the count badge beside each heading. Short on purpose: the
+  // number carries the meaning, the word only says what is being counted.
+  unit_cases: string;
+  unit_photos: string;
+  unit_codes: string;
+  unit_diagrams: string;
+  unit_manual: string;
+  unit_technical: string;
+
+  try_hint: string;
   codes_hint: string;
+
   codes_group_p: string;
   codes_group_b: string;
   codes_group_c: string;
@@ -71,14 +82,6 @@ export interface HelpCopy {
   coverage_full: string;
   coverage_no_manual: string;
   coverage_data_only: string;
-
-  // Typed INTO the chat, so these are questions in the reader's language,
-  // not labels describing questions. All four were measured against the
-  // live archive and return something to look at.
-  q_fuse: string;
-  q_fusebox: string;
-  q_diagram: string;
-  q_airbag: string;
 }
 
 const COPY: Record<HelpLanguage, HelpCopy> = {
@@ -90,25 +93,34 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     demo_badge: 'DEMO',
     demo_title: 'Questa è una dimostrazione',
     demo_body: n => n === 1
-      ? 'L’archivio caricato è volutamente limitato: contiene un solo veicolo. Per quel veicolo però la documentazione è completa, ed è quella reale dell’officina.'
-      : `L’archivio caricato è volutamente limitato: contiene ${n} veicoli. Per ognuno di essi la documentazione è completa, ed è quella reale dell’officina.`,
-    demo_vehicles_label: 'Veicoli disponibili',
-    demo_counts: (f, d, p) => `${f} dati tecnici · ${d} schemi elettrici · ${p} pagine di manuale d’officina`,
-    demo_counts_no_manual: (f, d) => `${f} dati tecnici · ${d} schemi elettrici`,
-    demo_counts_data_only: f => `${f} dati tecnici`,
-    demo_repairs: n => `${n} schede di riparazione`,
+      ? 'L’archivio caricato è volutamente limitato: contiene un solo veicolo, con la documentazione reale dell’officina.'
+      : `L’archivio caricato è volutamente limitato: contiene ${n} veicoli. Per ognuno la documentazione è quella reale dell’officina, e non è la stessa per tutti.`,
+
+    choose_vehicle: 'Scegli il veicolo',
+    choose_vehicle_hint: 'Tocca un veicolo per cercarlo.',
 
     howto_title: 'Come si usa',
-    howto_1: 'Indica il veicolo, per esempio «Fiat 500 1.2 benzina»',
-    howto_2: 'Scegli la scheda del veicolo che compare',
+    howto_1: 'Scegli il veicolo qui sopra, o scrivilo nel campo',
+    howto_2: 'Conferma la scheda che compare',
     howto_3: 'Fai la tua domanda tecnica',
 
-    try_title: 'Prova queste domande',
-    try_hint: 'Tocca una domanda per scriverla nel campo, senza inviarla.',
+    sec_cases: 'Casi di guasto',
+    sec_photos: 'Con foto',
+    sec_codes: 'Codici guasto',
+    sec_diagrams: 'Schemi elettrici',
+    sec_manual: 'Manuale d’officina',
+    sec_technical: 'Dati tecnici',
 
-    codes_title: 'Codici guasto disponibili',
-    codes_count: n => `${n} codici nell’archivio`,
+    unit_cases: 'casi',
+    unit_photos: 'foto',
+    unit_codes: 'codici',
+    unit_diagrams: 'schemi',
+    unit_manual: 'pagine',
+    unit_technical: 'dati',
+
+    try_hint: 'Tocca una domanda per scriverla nel campo, senza inviarla.',
     codes_hint: 'Tocca un codice per scriverlo nel campo.',
+
     codes_group_p: 'Motore e cambio',
     codes_group_b: 'Carrozzeria',
     codes_group_c: 'Telaio, ABS e ESP',
@@ -130,11 +142,6 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     coverage_full: 'completo',
     coverage_no_manual: 'schemi sì, manuale no',
     coverage_data_only: 'solo dati tecnici',
-
-    q_fuse: 'Quale fusibile protegge la centralina ABS',
-    q_fusebox: 'Dove si trova la scatola dei fusibili',
-    q_diagram: 'Mostrami lo schema elettrico dell’iniezione',
-    q_airbag: 'Schema elettrico airbag',
   },
 
   en: {
@@ -145,25 +152,34 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     demo_badge: 'DEMO',
     demo_title: 'This is a demonstration',
     demo_body: n => n === 1
-      ? 'The loaded archive is deliberately limited: it holds a single vehicle. For that vehicle the documentation is complete, and it is the workshop’s real documentation.'
-      : `The loaded archive is deliberately limited: it holds ${n} vehicles. For each of them the documentation is complete, and it is the workshop’s real documentation.`,
-    demo_vehicles_label: 'Vehicles available',
-    demo_counts: (f, d, p) => `${f} technical figures · ${d} wiring diagrams · ${p} workshop manual pages`,
-    demo_counts_no_manual: (f, d) => `${f} technical figures · ${d} wiring diagrams`,
-    demo_counts_data_only: f => `${f} technical figures`,
-    demo_repairs: n => `${n} repair sheets`,
+      ? 'The loaded archive is deliberately limited: it holds a single vehicle, with the workshop’s real documentation.'
+      : `The loaded archive is deliberately limited: it holds ${n} vehicles. For each one the documentation is the workshop’s own, and it is not the same for all of them.`,
+
+    choose_vehicle: 'Choose the vehicle',
+    choose_vehicle_hint: 'Tap a vehicle to look it up.',
 
     howto_title: 'How to use it',
-    howto_1: 'Name the vehicle, for example "Fiat 500 1.2 petrol"',
-    howto_2: 'Pick the vehicle card that appears',
+    howto_1: 'Pick the vehicle above, or type it in the box',
+    howto_2: 'Confirm the card that appears',
     howto_3: 'Ask your technical question',
 
-    try_title: 'Try these questions',
-    try_hint: 'Tap a question to put it in the box, without sending it.',
+    sec_cases: 'Fault cases',
+    sec_photos: 'With a photo',
+    sec_codes: 'Fault codes',
+    sec_diagrams: 'Wiring diagrams',
+    sec_manual: 'Workshop manual',
+    sec_technical: 'Technical data',
 
-    codes_title: 'Fault codes available',
-    codes_count: n => `${n} codes in the archive`,
+    unit_cases: 'cases',
+    unit_photos: 'photos',
+    unit_codes: 'codes',
+    unit_diagrams: 'diagrams',
+    unit_manual: 'pages',
+    unit_technical: 'figures',
+
+    try_hint: 'Tap a question to put it in the box, without sending it.',
     codes_hint: 'Tap a code to put it in the box.',
+
     codes_group_p: 'Powertrain',
     codes_group_b: 'Body',
     codes_group_c: 'Chassis, ABS and ESP',
@@ -185,11 +201,6 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     coverage_full: 'complete',
     coverage_no_manual: 'diagrams yes, manual no',
     coverage_data_only: 'technical figures only',
-
-    q_fuse: 'Which fuse protects the ABS control unit',
-    q_fusebox: 'Where is the fuse box located',
-    q_diagram: 'Show me the injection wiring diagram',
-    q_airbag: 'Airbag wiring diagram',
   },
 
   fr: {
@@ -200,25 +211,34 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     demo_badge: 'DÉMO',
     demo_title: 'Ceci est une démonstration',
     demo_body: n => n === 1
-      ? 'L’archive chargée est volontairement limitée : elle ne contient qu’un seul véhicule. Pour ce véhicule, en revanche, la documentation est complète — c’est la vraie documentation d’atelier.'
-      : `L’archive chargée est volontairement limitée : elle contient ${n} véhicules. Pour chacun d’eux, la documentation est complète — c’est la vraie documentation d’atelier.`,
-    demo_vehicles_label: 'Véhicules disponibles',
-    demo_counts: (f, d, p) => `${f} données techniques · ${d} schémas électriques · ${p} pages de manuel d’atelier`,
-    demo_counts_no_manual: (f, d) => `${f} données techniques · ${d} schémas électriques`,
-    demo_counts_data_only: f => `${f} données techniques`,
-    demo_repairs: n => `${n} fiches de réparation`,
+      ? 'L’archive chargée est volontairement limitée : elle ne contient qu’un véhicule, avec la vraie documentation d’atelier.'
+      : `L’archive chargée est volontairement limitée : elle contient ${n} véhicules. Pour chacun, c’est la vraie documentation d’atelier — et elle n’est pas la même pour tous.`,
+
+    choose_vehicle: 'Choisissez le véhicule',
+    choose_vehicle_hint: 'Touchez un véhicule pour le rechercher.',
 
     howto_title: 'Comment l’utiliser',
-    howto_1: 'Indiquez le véhicule, par exemple « Fiat 500 1.2 essence »',
-    howto_2: 'Choisissez la fiche véhicule qui apparaît',
+    howto_1: 'Choisissez le véhicule ci-dessus, ou écrivez-le dans le champ',
+    howto_2: 'Confirmez la fiche qui apparaît',
     howto_3: 'Posez votre question technique',
 
-    try_title: 'Essayez ces questions',
-    try_hint: 'Touchez une question pour l’écrire dans le champ, sans l’envoyer.',
+    sec_cases: 'Cas de panne',
+    sec_photos: 'Avec photo',
+    sec_codes: 'Codes défaut',
+    sec_diagrams: 'Schémas électriques',
+    sec_manual: 'Manuel d’atelier',
+    sec_technical: 'Données techniques',
 
-    codes_title: 'Codes défaut disponibles',
-    codes_count: n => `${n} codes dans l’archive`,
+    unit_cases: 'cas',
+    unit_photos: 'photos',
+    unit_codes: 'codes',
+    unit_diagrams: 'schémas',
+    unit_manual: 'pages',
+    unit_technical: 'données',
+
+    try_hint: 'Touchez une question pour l’écrire dans le champ, sans l’envoyer.',
     codes_hint: 'Touchez un code pour l’écrire dans le champ.',
+
     codes_group_p: 'Moteur et boîte',
     codes_group_b: 'Carrosserie',
     codes_group_c: 'Châssis, ABS et ESP',
@@ -240,11 +260,6 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     coverage_full: 'complet',
     coverage_no_manual: 'schémas oui, manuel non',
     coverage_data_only: 'données techniques seulement',
-
-    q_fuse: 'Quel fusible protège le calculateur ABS',
-    q_fusebox: 'Où se trouve la boîte à fusibles',
-    q_diagram: 'Montre-moi le schéma électrique de l’injection',
-    q_airbag: 'Schéma électrique airbag',
   },
 
   es: {
@@ -255,25 +270,34 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     demo_badge: 'DEMO',
     demo_title: 'Esto es una demostración',
     demo_body: n => n === 1
-      ? 'El archivo cargado está deliberadamente limitado: contiene un solo vehículo. Para ese vehículo, en cambio, la documentación está completa, y es la documentación real del taller.'
-      : `El archivo cargado está deliberadamente limitado: contiene ${n} vehículos. Para cada uno de ellos la documentación está completa, y es la documentación real del taller.`,
-    demo_vehicles_label: 'Vehículos disponibles',
-    demo_counts: (f, d, p) => `${f} datos técnicos · ${d} esquemas eléctricos · ${p} páginas de manual de taller`,
-    demo_counts_no_manual: (f, d) => `${f} datos técnicos · ${d} esquemas eléctricos`,
-    demo_counts_data_only: f => `${f} datos técnicos`,
-    demo_repairs: n => `${n} fichas de reparación`,
+      ? 'El archivo cargado está deliberadamente limitado: contiene un solo vehículo, con la documentación real del taller.'
+      : `El archivo cargado está deliberadamente limitado: contiene ${n} vehículos. Para cada uno es la documentación real del taller, y no es la misma para todos.`,
+
+    choose_vehicle: 'Elige el vehículo',
+    choose_vehicle_hint: 'Toca un vehículo para buscarlo.',
 
     howto_title: 'Cómo se usa',
-    howto_1: 'Indica el vehículo, por ejemplo «Fiat 500 1.2 gasolina»',
-    howto_2: 'Elige la ficha del vehículo que aparece',
+    howto_1: 'Elige el vehículo arriba, o escríbelo en el campo',
+    howto_2: 'Confirma la ficha que aparece',
     howto_3: 'Haz tu pregunta técnica',
 
-    try_title: 'Prueba estas preguntas',
-    try_hint: 'Toca una pregunta para escribirla en el campo, sin enviarla.',
+    sec_cases: 'Casos de avería',
+    sec_photos: 'Con foto',
+    sec_codes: 'Códigos de avería',
+    sec_diagrams: 'Esquemas eléctricos',
+    sec_manual: 'Manual de taller',
+    sec_technical: 'Datos técnicos',
 
-    codes_title: 'Códigos de avería disponibles',
-    codes_count: n => `${n} códigos en el archivo`,
+    unit_cases: 'casos',
+    unit_photos: 'fotos',
+    unit_codes: 'códigos',
+    unit_diagrams: 'esquemas',
+    unit_manual: 'páginas',
+    unit_technical: 'datos',
+
+    try_hint: 'Toca una pregunta para escribirla en el campo, sin enviarla.',
     codes_hint: 'Toca un código para escribirlo en el campo.',
+
     codes_group_p: 'Motor y cambio',
     codes_group_b: 'Carrocería',
     codes_group_c: 'Chasis, ABS y ESP',
@@ -295,11 +319,6 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     coverage_full: 'completo',
     coverage_no_manual: 'esquemas sí, manual no',
     coverage_data_only: 'solo datos técnicos',
-
-    q_fuse: 'Qué fusible protege la centralita ABS',
-    q_fusebox: 'Dónde está la caja de fusibles',
-    q_diagram: 'Muéstrame el esquema eléctrico de la inyección',
-    q_airbag: 'Esquema eléctrico airbag',
   },
 
   pt: {
@@ -310,25 +329,34 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     demo_badge: 'DEMO',
     demo_title: 'Isto é uma demonstração',
     demo_body: n => n === 1
-      ? 'O arquivo carregado é deliberadamente limitado: contém um único veículo. Para esse veículo, porém, a documentação está completa, e é a documentação real da oficina.'
-      : `O arquivo carregado é deliberadamente limitado: contém ${n} veículos. Para cada um deles a documentação está completa, e é a documentação real da oficina.`,
-    demo_vehicles_label: 'Veículos disponíveis',
-    demo_counts: (f, d, p) => `${f} dados técnicos · ${d} esquemas elétricos · ${p} páginas de manual de oficina`,
-    demo_counts_no_manual: (f, d) => `${f} dados técnicos · ${d} esquemas elétricos`,
-    demo_counts_data_only: f => `${f} dados técnicos`,
-    demo_repairs: n => `${n} fichas de reparação`,
+      ? 'O arquivo carregado é deliberadamente limitado: contém um único veículo, com a documentação real da oficina.'
+      : `O arquivo carregado é deliberadamente limitado: contém ${n} veículos. Para cada um é a documentação real da oficina, e não é a mesma para todos.`,
+
+    choose_vehicle: 'Escolha o veículo',
+    choose_vehicle_hint: 'Toque num veículo para o procurar.',
 
     howto_title: 'Como se usa',
-    howto_1: 'Indique o veículo, por exemplo «Fiat 500 1.2 gasolina»',
-    howto_2: 'Escolha a ficha do veículo que aparece',
+    howto_1: 'Escolha o veículo acima, ou escreva-o no campo',
+    howto_2: 'Confirme a ficha que aparece',
     howto_3: 'Faça a sua pergunta técnica',
 
-    try_title: 'Experimente estas perguntas',
-    try_hint: 'Toque numa pergunta para a escrever no campo, sem a enviar.',
+    sec_cases: 'Casos de avaria',
+    sec_photos: 'Com foto',
+    sec_codes: 'Códigos de avaria',
+    sec_diagrams: 'Esquemas elétricos',
+    sec_manual: 'Manual de oficina',
+    sec_technical: 'Dados técnicos',
 
-    codes_title: 'Códigos de avaria disponíveis',
-    codes_count: n => `${n} códigos no arquivo`,
+    unit_cases: 'casos',
+    unit_photos: 'fotos',
+    unit_codes: 'códigos',
+    unit_diagrams: 'esquemas',
+    unit_manual: 'páginas',
+    unit_technical: 'dados',
+
+    try_hint: 'Toque numa pergunta para a escrever no campo, sem a enviar.',
     codes_hint: 'Toque num código para o escrever no campo.',
+
     codes_group_p: 'Motor e caixa',
     codes_group_b: 'Carroçaria',
     codes_group_c: 'Chassis, ABS e ESP',
@@ -350,11 +378,6 @@ const COPY: Record<HelpLanguage, HelpCopy> = {
     coverage_full: 'completo',
     coverage_no_manual: 'esquemas sim, manual não',
     coverage_data_only: 'apenas dados técnicos',
-
-    q_fuse: 'Que fusível protege a centralina ABS',
-    q_fusebox: 'Onde fica a caixa de fusíveis',
-    q_diagram: 'Mostra-me o esquema elétrico da injeção',
-    q_airbag: 'Esquema elétrico airbag',
   },
 };
 

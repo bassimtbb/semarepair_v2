@@ -77,8 +77,18 @@ services:
       OUR_DB: Host=our-postgres;Port=5432;Database=${POSTGRES_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}
       GEMINI_API_KEY: ${GEMINI_API_KEY}
       GEMINI_PRICING_PATH: /app/Config/gemini-pricing.json
+      SEMAREPAIR_ASSETS_PATH: /app/Assets
     volumes:
       - ./config:/app/Config:ro
+      # Read-only, and read for ONE purpose: the coverage endpoint suggests
+      # questions whose answer carries a picture, and it can only honestly do
+      # that if it knows which pictures were actually delivered. 212 assets
+      # are referenced by the documents and were never sent, so "has an
+      # asset_id" is not the same question as "has an image to show".
+      #
+      # nginx serves these same directories; this service only lists them.
+      - ./Data/photos:/app/Assets/photos:ro
+      - ./Data/PDF:/app/Assets/pdf:ro
     depends_on:
       our-postgres:
         condition: service_healthy
