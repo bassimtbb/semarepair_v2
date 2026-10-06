@@ -103,12 +103,24 @@ public static class TestEnv
         return stdout.Trim();
     }
 
-    public static bool DocumentsExist(params string[] ids)
+    public static bool DocumentsExist(params string[] ids) => ExistIn("documents", ids);
+
+    // The scanned manual is NOT in documents. manual_seeder.py writes
+    // knowledge_chunks and nothing else, so DocumentsExist("122") could
+    // never be true and every manual test skipped from the day the manual
+    // was added - green, and guarding nothing, which is the failure this
+    // file's own comment above warns about.
+    //
+    // Technical chunks live in the same table, so this is the right guard
+    // for anything the resx technical path loads too.
+    public static bool ChunksExist(params string[] ids) => ExistIn("knowledge_chunks", ids);
+
+    private static bool ExistIn(string table, string[] ids)
     {
         // Ordinary SQL quoting, now that Scalar no longer routes the statement
         // through a shell. These ids are test constants, never user input.
         var literals = string.Join(",", ids.Select(i => $"'{i}'"));
-        var sql = $"SELECT count(DISTINCT id_documento) FROM documents WHERE id_documento IN ({literals})";
+        var sql = $"SELECT count(DISTINCT id_documento) FROM {table} WHERE id_documento IN ({literals})";
         return int.TryParse(Scalar(sql), out var n) && n == ids.Length;
     }
 }

@@ -26,7 +26,7 @@ public class ManualSearchTests
     private const string Brand = "FIAT";
 
     // The manual is document 122, written by manual_seeder.py.
-    private static bool ManualLoaded => TestEnv.DocumentsExist("122");
+    private static bool ManualLoaded => TestEnv.ChunksExist("122");
 
     // --- it must not answer questions about other machines ---
 
