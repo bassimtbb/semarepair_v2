@@ -180,6 +180,41 @@ import type { HelpLanguage } from '../../services/help-strings';
               </section>
             }
           }
+
+          <!-- Et la liste complete, repliee. Un testeur qui tape un code au
+               hasard recoit un "non trouve" parfaitement correct et en conclut
+               que le produit ne marche pas - c'est arrive au premier client,
+               avec P1030. La voiture est nommee au-dessus de ses codes parce
+               que les trois n'ont pas les memes : 139, 34 et 3. -->
+          @if (codeTotal() > 0) {
+            <section class="help-section">
+              <details class="help-codes">
+                <summary class="help-section-head text-accent">
+                  <svg lucideHash [size]="15"></svg>
+                  <span>{{ t().codes_all_title }}</span>
+                  <span class="help-codes-count text-muted">{{ t().codes_all_count(codeTotal(), carsWithCodes().length) }}</span>
+                </summary>
+
+                @for (v of carsWithCodes(); track v.idMacchina) {
+                  <div class="help-codes-group">
+                    <div class="help-codes-label text-foreground">{{ v.marca }} {{ v.modello }} — {{ v.sections.faultCodes.total }}</div>
+                    @for (group of coverage.groupFaultCodes(v.sections.faultCodes.examples); track group.prefix) {
+                      <div class="help-codes-label text-muted">{{ groupLabel(group.prefix) }}</div>
+                      <div class="help-codes-grid">
+                        @for (code of group.codes; track code) {
+                          <button type="button"
+                                  class="help-code bg-surface border-border text-foreground hover:bg-foreground/8"
+                                  (click)="suggest.emit(code)">{{ code }}</button>
+                        }
+                      </div>
+                    }
+                  </div>
+                }
+
+                <p class="help-hint text-muted">{{ t().codes_hint }}</p>
+              </details>
+            </section>
+          }
         }
 
         <section class="help-section">
@@ -343,6 +378,16 @@ export class HelpDrawerComponent implements OnInit {
   // They appear in full once a car is chosen, which is the flow the whole
   // interface is built on: say the symptom, read which cars carry it, pick
   // the one in the workshop.
+  // Only the vehicles that carry any. The BMW has none, and leaving it out
+  // says so better than a heading over an empty grid.
+  readonly carsWithCodes = computed(() =>
+    this.coverage.vehicles().filter(v => v.sections.faultCodes.total > 0),
+  );
+
+  readonly codeTotal = computed(() =>
+    this.carsWithCodes().reduce((n, v) => n + v.sections.faultCodes.total, 0),
+  );
+
   readonly pooled = computed(() => {
     const s = this.t();
     const cov = this.coverage.coverage();
