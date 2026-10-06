@@ -1,5 +1,6 @@
 import { Injectable, computed, signal } from '@angular/core';
 import type { HelpLanguage } from './help-strings';
+import type { CarOption } from '../models/chat.models';
 
 // Same relative-path convention as ChatApiService: nginx proxies
 // /api/search/* to search-service in prod, proxy.conf.json forwards it
@@ -98,6 +99,24 @@ export class CoverageService {
     if (v.codiceMotore) parts.push(v.codiceMotore);
 
     return parts.length ? `${head} · ${parts.join(' · ')}` : head;
+  }
+
+  // The coverage row as the chat understands a vehicle. Every field
+  // CarOption needs is already here, so a suggestion picked before any car
+  // is confirmed can confirm one and ask in the same turn.
+  asCarOption(v: CoverageVehicle): CarOption {
+    return {
+      idMacchina: v.idMacchina,
+      marca: v.marca ?? '',
+      modello: v.modello ?? '',
+      motorizzazione: v.motorizzazione,
+      codiceMotore: v.codiceMotore ?? '',
+      alimentazione: v.alimentazione,
+      annoInizio: v.annoInizio,
+      annoFine: v.annoFine,
+      kw: v.kw,
+      cavalli: v.cavalli,
+    };
   }
 
   // Grouped by first letter, families in SAE order, anything unexpected kept

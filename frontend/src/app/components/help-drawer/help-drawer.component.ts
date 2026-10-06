@@ -12,6 +12,14 @@ import { ChatStore } from '../../services/chat-store.service';
 import { h, LANGUAGE_NAMES } from '../../services/help-strings';
 import type { HelpLanguage } from '../../services/help-strings';
 
+// A question, and the vehicle it belongs to when it came from a specific
+// car's section. car is null once a vehicle is already confirmed - the
+// question then applies to that one and needs no carrier.
+export interface Suggestion {
+  text: string;
+  car: CoverageVehicle | null;
+}
+
 // The help drawer: what this demo holds, vehicle by vehicle, and questions
 // that are known to return something.
 //
@@ -109,7 +117,7 @@ import type { HelpLanguage } from '../../services/help-strings';
                         @for (code of group.codes; track code) {
                           <button type="button"
                                   class="help-code bg-surface border-border text-foreground hover:bg-foreground/8"
-                                  (click)="suggest.emit(code)">{{ code }}</button>
+                                  (click)="suggest.emit({ text: code, car: null })">{{ code }}</button>
                         }
                       </div>
                     </div>
@@ -120,7 +128,7 @@ import type { HelpLanguage } from '../../services/help-strings';
                     @for (q of s.section.examples; track q) {
                       <button type="button"
                               class="help-chip bg-surface border-border text-foreground hover:bg-foreground/8"
-                              (click)="suggest.emit(s.phrase(q))">{{ s.phrase(q) }}</button>
+                              (click)="suggest.emit({ text: s.phrase(q), car: null })">{{ s.phrase(q) }}</button>
                     }
                   </div>
                   <p class="help-hint text-muted">{{ t().try_hint }}</p>
@@ -141,7 +149,7 @@ import type { HelpLanguage } from '../../services/help-strings';
               @for (v of coverage.vehicles(); track v.idMacchina) {
                 <button type="button"
                         class="help-vehicle bg-surface border-border text-foreground hover:bg-foreground/8"
-                        (click)="suggest.emit(v.query)">
+                        (click)="suggest.emit({ text: v.query, car: null })">
                   <span class="help-vehicle-name">{{ v.marca }} {{ v.modello }}</span>
                   <span class="help-vehicle-spec text-muted">{{ coverage.label(v) }}</span>
                   <span class="help-vehicle-holds text-muted">{{ holdings(v) }}</span>
@@ -150,6 +158,37 @@ import type { HelpLanguage } from '../../services/help-strings';
             </div>
             <p class="help-hint text-muted">{{ t().choose_vehicle_hint }}</p>
           </section>
+
+          <!-- ...ou commencer par une question. Chaque puce porte sa voiture,
+               donc un clic confirme le vehicule ET pose la question dans le
+               meme tour. Sans ce porteur, une question technique ne pourrait
+               que repondre "quel vehicule ?" - la regle 1 exige un code
+               moteur - et on proposerait une suggestion qui ne marche pas. -->
+          @for (p of pooled(); track p.key) {
+            @if (p.items.length) {
+              <section class="help-section">
+                <div class="help-section-head text-accent">
+                  @switch (p.key) {
+                    @case ('cases')     { <svg lucideWrench [size]="15"></svg> }
+                    @case ('photos')    { <svg lucideImage [size]="15"></svg> }
+                    @case ('codes')     { <svg lucideHash [size]="15"></svg> }
+                    @case ('technical') { <svg lucideGauge [size]="15"></svg> }
+                  }
+                  <span>{{ p.title }}</span>
+                </div>
+                <div class="help-chips">
+                  @for (it of p.items; track it.text) {
+                    <button type="button"
+                            class="help-vehicle bg-surface border-border text-foreground hover:bg-foreground/8"
+                            (click)="suggest.emit({ text: it.text, car: it.car })">
+                      <span class="help-vehicle-spec text-accent">{{ it.car.marca }} {{ it.car.modello }}</span>
+                      <span class="help-chip-question">{{ it.text }}</span>
+                    </button>
+                  }
+                </div>
+              </section>
+            }
+          }
         }
 
         <section class="help-section">
@@ -223,7 +262,7 @@ export class HelpDrawerComponent implements OnInit {
   // The chosen question, for the page to write into the input bar. The
   // drawer does not reach into the composer - it says what was picked and
   // lets the page place it.
-  @Output() readonly suggest = new EventEmitter<string>();
+  @Output() readonly suggest = new EventEmitter<Suggestion>();
 
   readonly languages = Object.keys(LANGUAGE_NAMES) as HelpLanguage[];
   readonly t = computed(() => h(this.ui.lang()));
@@ -292,6 +331,40 @@ export class HelpDrawerComponent implements OnInit {
       { key: 'technical', title: s.sec_technical, unit: s.unit_technical, section: c.technical,  phrase: data },
     ];
   }
+
+  // The same four kinds of question, before any vehicle is confirmed, drawn
+  // across the whole archive - one per car so the four stay visible rather
+  // than the richest one filling the list.
+  //
+  // Diagrams and manual are left out here on purpose: only two cars have
+  // diagrams and one has the manual, so pooling them would read as a
+  // property of the archive rather than of a particular vehicle. They
+  // appear once a car is chosen, where they belong.
+  readonly pooled = computed(() => {
+    const s = this.t();
+    const asIs = (x: string) => x;
+    const data = (x: string) => s.ask_data(x.toLocaleLowerCase());
+
+    const defs: { key: string; title: string;
+                  pick: (v: CoverageVehicle) => CoverageSection;
+                  phrase: (x: string) => string }[] = [
+      { key: 'cases',     title: s.sec_cases,     pick: v => v.sections.cases,      phrase: asIs },
+      { key: 'photos',    title: s.sec_photos,    pick: v => v.sections.photos,     phrase: data },
+      { key: 'codes',     title: s.sec_codes,     pick: v => v.sections.faultCodes, phrase: asIs },
+      { key: 'technical', title: s.sec_technical, pick: v => v.sections.technical,  phrase: data },
+    ];
+
+    return defs.map(d => ({
+      key: d.key,
+      title: d.title,
+      items: this.coverage.vehicles()
+        .map(v => {
+          const first = d.pick(v).examples[0];
+          return first ? { car: v, text: d.phrase(first) } : null;
+        })
+        .filter((x): x is { car: CoverageVehicle; text: string } => x !== null),
+    }));
+  });
 
   // One line per vehicle card saying what it actually carries, so the reader
   // picks knowing the four are not equivalent - the Fiat alone has the

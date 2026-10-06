@@ -246,6 +246,22 @@ export class ChatStore {
     await this.send(`Confermo il veicolo: ${label}`, car, { showUserMessage: false });
   }
 
+  // A question picked from a specific vehicle's section in the help drawer,
+  // before any vehicle has been confirmed.
+  //
+  // It confirms the car and asks in the same turn, because the alternative
+  // is a dead end: SearchTechnicalInfo requires an engine code, so a
+  // technical question with no car confirmed can only ever come back as
+  // "which vehicle?" (Rule 1). Sending the question on its own would offer
+  // the mechanic a suggestion that cannot work.
+  //
+  // Unlike confirmCar, the question IS shown as a user bubble - it is what
+  // he asked, not a synthetic confirmation on his behalf.
+  async askFor(car: CarOption, text: string): Promise<void> {
+    if (!text.trim() || this.isStreaming()) return;
+    await this.send(text, car);
+  }
+
   reset(): void {
     this.messages.set([]);
     this.confirmedCar.set(null);

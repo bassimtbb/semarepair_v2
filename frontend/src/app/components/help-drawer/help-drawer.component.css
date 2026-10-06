@@ -293,3 +293,12 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+/* The question on a pooled chip, under the vehicle it belongs to. The car
+   name has to come first: the same question reads differently depending on
+   which of the four it is asked about, and a list that hid it would look
+   like one archive rather than four. */
+.help-chip-question {
+  font-size: 12.5px;
+  line-height: 1.35;
+}
