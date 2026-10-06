@@ -3,16 +3,22 @@ using System.Diagnostics;
 namespace SemaRepair.IntegrationTests;
 
 // Shared configuration + helpers for the integration harness. These tests hit
-// the REAL running Docker stack over HTTP (through nginx on :80, exactly as the
-// manual verification did) against the real seeded Postgres and real Gemini -
-// the whole point is catching regressions in real behaviour, not in mocks.
+// the REAL running Docker stack over HTTP (through nginx, exactly as the manual
+// verification does) against the real seeded Postgres and real Gemini - the
+// whole point is catching regressions in real behaviour, not in mocks.
 //
 // Precondition: the stack must be up (`docker compose up -d`) and reachable at
 // BaseUrl. Overridable via env for a differently-hosted stack.
 public static class TestEnv
 {
+    // 9080, not 80. The host port moved when the stack went onto a shared
+    // server where port 80 was not ours to take (docker-compose.yml says why),
+    // and the whole suite then failed to CONNECT - eleven tests red, zero
+    // green, which reads like eleven regressions until you open one and find a
+    // socket error. The default follows the compose file so that never costs
+    // anyone that detour again.
     public static string BaseUrl =>
-        Environment.GetEnvironmentVariable("SEMAREPAIR_BASE_URL") ?? "http://localhost";
+        Environment.GetEnvironmentVariable("SEMAREPAIR_BASE_URL") ?? "http://localhost:9080";
 
     // Container whose logs carry the search-service diagnostics (the boundary-tie
     // re-query line). Overridable if the compose project name differs.

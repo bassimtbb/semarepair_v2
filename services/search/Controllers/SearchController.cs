@@ -87,6 +87,19 @@ public class SearchController : ControllerBase
     // leaves no question unanswered. Wider windows let the neighbours back in.
     private const double TechnicalRelativeWindow = 0.03;
 
+    // How much worse the graph-narrowed ranking may be before it is thrown
+    // away (SymptomWithoutCarAsync). Deliberately small: narrowing is meant
+    // to disambiguate within a system, so it should land on the same answer
+    // or a closer one. The measured failure it exists to stop was not
+    // marginal - the narrowed best sat far behind two documents at 0.0000 -
+    // so anything beyond rounding noise is enough to reject it.
+    //
+    // Same magnitude as TieThreshold, and for the same reason: below this,
+    // two distances are not meaningfully different. Kept as its own constant
+    // because it answers a different question, and the day one of the two
+    // needs recalibrating it must not drag the other with it.
+    private const double NarrowingTolerance = 0.02;
+
     // A fuse question has one right answer; a "show me the diagram" question
     // legitimately returns a whole legend. The default is small enough to
     // stay readable and the caller may raise it.
@@ -106,6 +119,7 @@ public class SearchController : ControllerBase
     private readonly TechnicalSearchService _technicalSearch;
     private readonly UncoveredSystemService _uncoveredSystems;
     private readonly CoverageService _coverage;
+    private readonly ILogger<SearchController> _logger;
 
     public SearchController(
         GraphSearchService graphSearch,
@@ -115,7 +129,8 @@ public class SearchController : ControllerBase
         DocumentContentService documentContent,
         TechnicalSearchService technicalSearch,
         UncoveredSystemService uncoveredSystems,
-        CoverageService coverage)
+        CoverageService coverage,
+        ILogger<SearchController> logger)
     {
         _graphSearch = graphSearch;
         _vectorSearch = vectorSearch;
@@ -125,6 +140,7 @@ public class SearchController : ControllerBase
         _technicalSearch = technicalSearch;
         _uncoveredSystems = uncoveredSystems;
         _coverage = coverage;
+        _logger = logger;
     }
 
     // GET /api/search/coverage
@@ -497,18 +513,55 @@ public class SearchController : ControllerBase
     // --- Search Type 4: symptom, no car confirmed ---
     private async Task<SearchResponse> SymptomWithoutCarAsync(string symptom, string lang)
     {
-        var matchedSystem = await _graphSearch.MatchSystemOrDeviceAsync(symptom, lang);
+        // One embedding, two rankings. The graph narrowing is an optimisation,
+        // so it is now checked against the search it is supposed to improve
+        // rather than trusted blindly.
+        //
+        // Real failure, found the day the archive stopped being one brand:
+        // "accensione spia avaria motore, attivazione modalita recovery" is
+        // the verbatim anomalia of two BMW sheets, which sit at distance
+        // 0.0000. But "Spia avaria" is also a DEVICE name in the graph -
+        // carried by exactly one document in the whole archive, a FIAT one -
+        // and the text contains those words, so narrowing cut the candidate
+        // set down to that single FIAT sheet. The BMW documents were never
+        // ranked, and the mechanic was offered the wrong car.
+        //
+        // The flaw is that "spia avaria" (warning light on) is a symptom, not
+        // a device: it describes every fault there is, so as a filter it
+        // discards the archive on a phrase nearly every question contains.
+        // Rather than curate device names - which would need redoing with
+        // every delivery - the narrowing now has to earn its place.
+        var vector = await _symptomSearch.EmbedQueryAsync(symptom);
+        var ranked = await _symptomSearch.FindBestMatchesAsync(vector, lang);
 
-        List<(string IdDocumento, double Distance)> ranked;
+        var matchedSystem = await _graphSearch.MatchSystemOrDeviceAsync(symptom, lang);
         if (matchedSystem is not null)
         {
             var narrowedDocs = await _graphSearch.GetDocumentsForKeywordAsync(matchedSystem, lang);
-            ranked = await _symptomSearch.FindBestMatchesAsync(
-                symptom, lang, narrowedDocs.Count > 0 ? narrowedDocs : null);
-        }
-        else
-        {
-            ranked = await _symptomSearch.FindBestMatchesAsync(symptom, lang);
+            if (narrowedDocs.Count > 0)
+            {
+                var narrowed = await _symptomSearch.FindBestMatchesAsync(vector, lang, narrowedDocs);
+
+                // Kept only when it is not materially worse. Narrowing is
+                // meant to disambiguate WITHIN a system, so a narrowed best
+                // that is further away than the unnarrowed one means the
+                // filter excluded the real answer, not that it sharpened it.
+                if (narrowed.Count > 0 &&
+                    (ranked.Count == 0 || narrowed[0].Distance <= ranked[0].Distance + NarrowingTolerance))
+                {
+                    ranked = narrowed;
+                }
+                else
+                {
+                    _logger.LogInformation(
+                        "Discarded graph narrowing to '{System}': best narrowed distance {Narrowed} is worse "
+                        + "than the unnarrowed {Unnarrowed} (query: '{Query}')",
+                        matchedSystem,
+                        narrowed.Count > 0 ? narrowed[0].Distance : double.NaN,
+                        ranked.Count > 0 ? ranked[0].Distance : double.NaN,
+                        symptom);
+                }
+            }
         }
 
         // No car confirmed yet, so this path can only ever surface a car

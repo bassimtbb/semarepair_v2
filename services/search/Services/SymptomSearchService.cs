@@ -43,8 +43,22 @@ public class SymptomSearchService
         string text, string language, IReadOnlyCollection<string>? candidateIds = null, int limit = 5)
     {
         if (candidateIds is { Count: 0 }) return [];
+        return await FindBestMatchesAsync(await EmbedQueryAsync(text), language, candidateIds, limit);
+    }
 
-        var vector = await _embedder.EmbedAsync(text);
+    // The query vector on its own, for a caller that needs to rank the same
+    // question against two different candidate sets. Exposed so the graph
+    // narrowing in SearchController can be compared against an unnarrowed
+    // ranking without paying for a second embedding - the SQL runs twice,
+    // the Gemini call does not.
+    public Task<float[]> EmbedQueryAsync(string text) => _embedder.EmbedAsync(text);
+
+    // Same ranking, from a vector the caller already has.
+    public async Task<List<(string IdDocumento, double Distance)>> FindBestMatchesAsync(
+        float[] vector, string language, IReadOnlyCollection<string>? candidateIds = null, int limit = 5)
+    {
+        if (candidateIds is { Count: 0 }) return [];
+
         var vectorLiteral = ToVectorLiteral(vector);
 
         await using var conn = new NpgsqlConnection(_connectionString);
