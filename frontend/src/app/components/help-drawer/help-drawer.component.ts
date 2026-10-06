@@ -12,13 +12,6 @@ import { ChatStore } from '../../services/chat-store.service';
 import { h, LANGUAGE_NAMES } from '../../services/help-strings';
 import type { HelpLanguage } from '../../services/help-strings';
 
-// A question, and the vehicle it belongs to when it came from a specific
-// car's section. car is null once a vehicle is already confirmed - the
-// question then applies to that one and needs no carrier.
-export interface Suggestion {
-  text: string;
-  car: CoverageVehicle | null;
-}
 
 // The help drawer: what this demo holds, vehicle by vehicle, and questions
 // that are known to return something.
@@ -117,7 +110,7 @@ export interface Suggestion {
                         @for (code of group.codes; track code) {
                           <button type="button"
                                   class="help-code bg-surface border-border text-foreground hover:bg-foreground/8"
-                                  (click)="suggest.emit({ text: code, car: null })">{{ code }}</button>
+                                  (click)="suggest.emit(code)">{{ code }}</button>
                         }
                       </div>
                     </div>
@@ -128,7 +121,7 @@ export interface Suggestion {
                     @for (q of s.section.examples; track q) {
                       <button type="button"
                               class="help-chip bg-surface border-border text-foreground hover:bg-foreground/8"
-                              (click)="suggest.emit({ text: s.phrase(q), car: null })">{{ s.phrase(q) }}</button>
+                              (click)="suggest.emit(s.phrase(q))">{{ s.phrase(q) }}</button>
                     }
                   </div>
                   <p class="help-hint text-muted">{{ t().try_hint }}</p>
@@ -149,7 +142,7 @@ export interface Suggestion {
               @for (v of coverage.vehicles(); track v.idMacchina) {
                 <button type="button"
                         class="help-vehicle bg-surface border-border text-foreground hover:bg-foreground/8"
-                        (click)="suggest.emit({ text: v.query, car: null })">
+                        (click)="suggest.emit(v.query)">
                   <span class="help-vehicle-name">{{ v.marca }} {{ v.modello }}</span>
                   <span class="help-vehicle-spec text-muted">{{ coverage.label(v) }}</span>
                   <span class="help-vehicle-holds text-muted">{{ holdings(v) }}</span>
@@ -177,15 +170,13 @@ export interface Suggestion {
                   <span>{{ p.title }}</span>
                 </div>
                 <div class="help-chips">
-                  @for (it of p.items; track it.text) {
+                  @for (q of p.items; track q) {
                     <button type="button"
-                            class="help-vehicle bg-surface border-border text-foreground hover:bg-foreground/8"
-                            (click)="suggest.emit({ text: it.text, car: it.car })">
-                      <span class="help-vehicle-spec text-accent">{{ it.car.marca }} {{ it.car.modello }}</span>
-                      <span class="help-chip-question">{{ it.text }}</span>
-                    </button>
+                            class="help-chip bg-surface border-border text-foreground hover:bg-foreground/8"
+                            (click)="suggest.emit(q)">{{ q }}</button>
                   }
                 </div>
+                <p class="help-hint text-muted">{{ t().try_hint }}</p>
               </section>
             }
           }
@@ -262,7 +253,7 @@ export class HelpDrawerComponent implements OnInit {
   // The chosen question, for the page to write into the input bar. The
   // drawer does not reach into the composer - it says what was picked and
   // lets the page place it.
-  @Output() readonly suggest = new EventEmitter<Suggestion>();
+  @Output() readonly suggest = new EventEmitter<string>();
 
   readonly languages = Object.keys(LANGUAGE_NAMES) as HelpLanguage[];
   readonly t = computed(() => h(this.ui.lang()));
@@ -340,30 +331,29 @@ export class HelpDrawerComponent implements OnInit {
   // diagrams and one has the manual, so pooling them would read as a
   // property of the archive rather than of a particular vehicle. They
   // appear once a car is chosen, where they belong.
+  // What can be asked BEFORE a vehicle is chosen - and only that.
+  //
+  // Measured, with no car confirmed: a symptom comes back with the vehicles
+  // whose documentation covers it, and so does a fault code. A technical
+  // question comes back "which vehicle?", because SearchTechnicalInfo needs
+  // an engine code and Rule 1 will not answer without one. So technical
+  // data and photos are not offered here - a suggestion that can only earn
+  // a clarifying question is worse than no suggestion.
+  //
+  // They appear in full once a car is chosen, which is the flow the whole
+  // interface is built on: say the symptom, read which cars carry it, pick
+  // the one in the workshop.
   readonly pooled = computed(() => {
     const s = this.t();
-    const asIs = (x: string) => x;
-    const data = (x: string) => s.ask_data(x.toLocaleLowerCase());
+    const vehicles = this.coverage.vehicles();
 
-    const defs: { key: string; title: string;
-                  pick: (v: CoverageVehicle) => CoverageSection;
-                  phrase: (x: string) => string }[] = [
-      { key: 'cases',     title: s.sec_cases,     pick: v => v.sections.cases,      phrase: asIs },
-      { key: 'photos',    title: s.sec_photos,    pick: v => v.sections.photos,     phrase: data },
-      { key: 'codes',     title: s.sec_codes,     pick: v => v.sections.faultCodes, phrase: asIs },
-      { key: 'technical', title: s.sec_technical, pick: v => v.sections.technical,  phrase: data },
+    const pick = (get: (v: CoverageVehicle) => CoverageSection) =>
+      [...new Set(vehicles.flatMap(v => get(v).examples.slice(0, 1)))].slice(0, 4);
+
+    return [
+      { key: 'cases', title: s.sec_cases, items: pick(v => v.sections.cases) },
+      { key: 'codes', title: s.sec_codes, items: pick(v => v.sections.faultCodes) },
     ];
-
-    return defs.map(d => ({
-      key: d.key,
-      title: d.title,
-      items: this.coverage.vehicles()
-        .map(v => {
-          const first = d.pick(v).examples[0];
-          return first ? { car: v, text: d.phrase(first) } : null;
-        })
-        .filter((x): x is { car: CoverageVehicle; text: string } => x !== null),
-    }));
   });
 
   // One line per vehicle card saying what it actually carries, so the reader

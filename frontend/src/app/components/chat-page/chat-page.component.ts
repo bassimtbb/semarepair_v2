@@ -2,8 +2,6 @@ import { Component, ViewChild } from '@angular/core';
 import { MessageListComponent } from '../chat/message-list/message-list.component';
 import { ChatInputComponent } from '../chat/chat-input/chat-input.component';
 import { HelpDrawerComponent } from '../help-drawer/help-drawer.component';
-import type { Suggestion } from '../help-drawer/help-drawer.component';
-import { CoverageService } from '../../services/coverage.service';
 import { ChatStore } from '../../services/chat-store.service';
 
 // Extracted out of AppComponent when routing was introduced (the usage
@@ -36,18 +34,17 @@ import { ChatStore } from '../../services/chat-store.service';
 export class ChatPageComponent {
   @ViewChild('composer') composer?: ChatInputComponent;
 
-  constructor(readonly chat: ChatStore, private readonly coverage: CoverageService) {}
+  constructor(readonly chat: ChatStore) {}
 
-  // A suggestion with no vehicle goes into the box unsent: the reader sees
-  // the sentence appear where his own will go, and can edit it first.
-  //
-  // One that carries a vehicle is SENT, because it cannot work otherwise -
-  // it confirms that car and asks in the same turn. A technical question
-  // with no car confirmed can only come back as "which vehicle?" (Rule 1),
-  // so placing it in the box would hand the mechanic a dead end.
-  handleSuggestion(s: Suggestion): void {
-    if (s.car) void this.chat.askFor(this.coverage.asCarOption(s.car), s.text);
-    else this.composer?.setText(s.text);
+  // Every suggestion lands in the box UNSENT, and none of them picks a
+  // vehicle. That is the product's flow and it is not an implementation
+  // detail: the mechanic says the symptom or the code, the system answers
+  // with the vehicles that documentation covers, and HE chooses which one
+  // he is working on. A chip that confirmed a car on his behalf skipped the
+  // step the whole interface is built around - it was briefly tried here,
+  // and it was wrong.
+  handleSuggestion(text: string): void {
+    this.composer?.setText(text);
   }
 
   handleSelectDoc(e: { messageId: string; index: number }): void {
