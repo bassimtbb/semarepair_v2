@@ -71,6 +71,26 @@ import type { HelpLanguage } from '../../services/help-strings';
           <p class="help-text text-foreground">{{ t().demo_body(coverage.vehicles().length) }}</p>
         </section>
 
+        <!-- Comment la recherche travaille. Dit parce que le comportement
+             n'est pas celui d'une recherche par mots-cles, et qu'un
+             mecanicien qui croit taper des mots-cles tape autrement - et
+             prend un "non trouve" parfaitement correct pour une panne. -->
+        <section class="help-section">
+          <div class="help-section-head text-accent">
+            <svg lucideSearch [size]="15"></svg>
+            <span>{{ t().how_title }}</span>
+          </div>
+          <ul class="help-how text-foreground">
+            <li>{{ t().how_meaning }}</li>
+            @if (sharedCodeCount() > 0) {
+              <li>{{ t().how_shared(sharedCodeCount(), coverage.vehicles().length) }}</li>
+            }
+            <li>{{ t().how_verbatim }}</li>
+            <li>{{ t().how_refuses }}</li>
+          </ul>
+        </section>
+
+
         @if (selected(); as car) {
           <!-- Un vehicule est confirme : on ne montre plus que le sien. -->
           <section class="help-section">
@@ -216,25 +236,6 @@ import type { HelpLanguage } from '../../services/help-strings';
             </section>
           }
         }
-
-        <!-- Comment la recherche travaille. Dit parce que le comportement
-             n'est pas celui d'une recherche par mots-cles, et qu'un
-             mecanicien qui croit taper des mots-cles tape autrement - et
-             prend un "non trouve" parfaitement correct pour une panne. -->
-        <section class="help-section">
-          <div class="help-section-head text-accent">
-            <svg lucideSearch [size]="15"></svg>
-            <span>{{ t().how_title }}</span>
-          </div>
-          <ul class="help-how text-foreground">
-            <li>{{ t().how_meaning }}</li>
-            @if (sharedCodeCount() > 0) {
-              <li>{{ t().how_shared(sharedCodeCount(), coverage.vehicles().length) }}</li>
-            }
-            <li>{{ t().how_verbatim }}</li>
-            <li>{{ t().how_refuses }}</li>
-          </ul>
-        </section>
 
         <section class="help-section">
           <div class="help-section-head text-accent">
