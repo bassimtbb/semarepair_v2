@@ -11,6 +11,18 @@ public class CoverageResponse
 {
     public List<CoverageVehicle> Vehicles { get; set; } = [];
     public List<CoverageLanguage> Languages { get; set; } = [];
+
+    // Questions more than one vehicle can answer.
+    //
+    // These are what the opening view should lead with, because they are the
+    // only ones that demonstrate the flow the product is built on: say the
+    // symptom, read back WHICH cars carry it, pick the one in the workshop.
+    // A question only one vehicle answers jumps straight to that vehicle and
+    // the step never shows.
+    //
+    // There are few - measured on this archive, one symptom and three codes -
+    // which is itself worth knowing rather than guessing at.
+    public CoverageSections Shared { get; set; } = new();
 }
 
 public class CoverageVehicle

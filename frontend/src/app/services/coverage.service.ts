@@ -47,6 +47,11 @@ export interface CoverageLanguage {
 export interface Coverage {
   vehicles: CoverageVehicle[];
   languages: CoverageLanguage[];
+
+  // Questions several vehicles answer - the only ones that show the flow
+  // the product is built on, since a question one car answers jumps
+  // straight to that car.
+  shared: CoverageSections;
 }
 
 // The four DTC families, in the order SAE J2012 defines them. The prefix is

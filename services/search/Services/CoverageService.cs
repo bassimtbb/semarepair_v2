@@ -75,6 +75,7 @@ public class CoverageService
         await FillFaultCodesAsync(conn, byId, language);
         await FillChunkSectionAsync(conn, byId, language, photoIds, diagramIds);
 
+        await FillSharedAsync(conn, response, language);
         await ReadLanguagesAsync(conn, response);
         return response;
     }
@@ -224,6 +225,57 @@ public class CoverageService
             var byAsset = reader.GetString(1) is "photo" or "diagram";
             section.Total = byAsset ? reader.GetInt64(3) : reader.GetInt64(2);
             section.Examples = reader.IsDBNull(4) ? [] : MostSpecific(reader.GetFieldValue<string?[]>(4));
+        }
+    }
+
+    // The questions several vehicles answer.
+    //
+    // Ordered by how many vehicles, then by word count: "Batteria" is shared
+    // but makes a poor question, for the same reason a one-word heading does
+    // - too little text to retrieve anything, and it reads as a component
+    // name rather than a symptom.
+    private static async Task FillSharedAsync(
+        NpgsqlConnection conn, CoverageResponse response, string language)
+    {
+        await using (var cmd = new NpgsqlCommand($"""
+            SELECT d.anomalia, count(DISTINCT g.id_macchina) AS vehicles
+            FROM documents d
+            JOIN gup_rows g ON g.id_documento = d.id_documento
+            WHERE d.language = @lang AND d.anomalia IS NOT NULL AND length(trim(d.anomalia)) > 0
+            GROUP BY d.anomalia
+            HAVING count(DISTINCT g.id_macchina) > 1
+            ORDER BY vehicles DESC,
+                     array_length(regexp_split_to_array(trim(d.anomalia), '\s+'), 1) DESC
+            LIMIT {ExamplesPerSection}
+            """, conn))
+        {
+            cmd.Parameters.AddWithValue("lang", language);
+            await using var reader = await cmd.ExecuteReaderAsync();
+            while (await reader.ReadAsync())
+            {
+                response.Shared.Cases.Examples.Add(reader.GetString(0).Trim());
+                response.Shared.Cases.Total++;
+            }
+        }
+
+        await using (var cmd = new NpgsqlCommand($"""
+            SELECT e.to_id, count(DISTINCT g.id_macchina) AS vehicles
+            FROM graph_edges e
+            JOIN gup_rows g ON g.id_documento = e.from_id
+            WHERE e.relation = 'CONTAINS_FAULT' AND e.from_type = 'document' AND e.language = @lang
+            GROUP BY e.to_id
+            HAVING count(DISTINCT g.id_macchina) > 1
+            ORDER BY vehicles DESC, e.to_id
+            LIMIT {ExamplesPerSection}
+            """, conn))
+        {
+            cmd.Parameters.AddWithValue("lang", language);
+            await using var reader = await cmd.ExecuteReaderAsync();
+            while (await reader.ReadAsync())
+            {
+                response.Shared.FaultCodes.Examples.Add(reader.GetString(0));
+                response.Shared.FaultCodes.Total++;
+            }
         }
     }
 

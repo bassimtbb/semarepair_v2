@@ -345,14 +345,23 @@ export class HelpDrawerComponent implements OnInit {
   // the one in the workshop.
   readonly pooled = computed(() => {
     const s = this.t();
+    const cov = this.coverage.coverage();
     const vehicles = this.coverage.vehicles();
 
-    const pick = (get: (v: CoverageVehicle) => CoverageSection) =>
-      [...new Set(vehicles.flatMap(v => get(v).examples.slice(0, 1)))].slice(0, 4);
+    // Shared questions first - they are the ones that answer with SEVERAL
+    // vehicles, which is the step the whole interface exists for. The rest
+    // fills up to four, one per car, so every vehicle stays visible.
+    const build = (
+      shared: string[] | undefined,
+      get: (v: CoverageVehicle) => CoverageSection,
+    ) => [...new Set([...(shared ?? []), ...vehicles.flatMap(v => get(v).examples.slice(0, 1))])]
+          .slice(0, 4);
 
     return [
-      { key: 'cases', title: s.sec_cases, items: pick(v => v.sections.cases) },
-      { key: 'codes', title: s.sec_codes, items: pick(v => v.sections.faultCodes) },
+      { key: 'cases', title: s.sec_cases,
+        items: build(cov?.shared?.cases?.examples, v => v.sections.cases) },
+      { key: 'codes', title: s.sec_codes,
+        items: build(cov?.shared?.faultCodes?.examples, v => v.sections.faultCodes) },
     ];
   });
 
