@@ -206,6 +206,14 @@ retour au §6.2. Le **8** échoue si `Data/PDF/` n'a pas été transféré.
 
 **Ne démonte pas la stack de ton poste** tant que les neuf tests ne sont pas verts.
 
-Deux dumps sont versionnés : `Data/demo_fi2524.sql.gz` (Fiat 500) est le jeu courant,
-celui qui est déployé et vérifié ; `Data/demo_fi0396.sql.gz` (Ducato) est le jeu
-précédent, gardé parce qu'il fonctionne toujours.
+Trois dumps sont versionnés :
+
+| Fichier | Contenu |
+| --- | --- |
+| `Data/demo_4veicoli.sql.gz` | **le jeu courant** — Fiat 500, BMW Serie 3, Renault Clio V, VW Golf VII |
+| `Data/demo_fi2524.sql.gz` | la Fiat 500 seule, état précédent |
+| `Data/demo_fi0396.sql.gz` | le Ducato, état initial |
+
+**Restaure toujours un dump plutôt que de réingérer.** La réingestion des quatre
+véhicules demande une trentaine de minutes et repaie 11 000 appels d'embedding pour
+un résultat identique — le dump en contient déjà les 9 174 vecteurs.
